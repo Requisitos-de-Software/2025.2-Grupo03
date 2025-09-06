@@ -1,4 +1,4 @@
-# Agromart
+# SAE
 
 <h1 align="center">
     <img src="./assets/icon-agromart.png" height="250"alt="Docusaurus">
@@ -8,13 +8,9 @@
 
 ------------------------
 
-## Sobre a disciplina
+## Sobre o SAE 
 
-A disciplina Qualidade de Software tem como objetivo apresentar aos estudantes conceitos, modelos, normas e métricas que possibilitam avaliar, controlar e melhorar a qualidade de produtos e processos de software.
 
-Ao longo do curso, são abordadas práticas essenciais como garantia da qualidade, testes, revisões, métricas e avaliações de processos, com foco na aplicação prática desses conhecimentos em projetos reais.
-
-Neste contexto, o projeto Agromart será analisado como estudo de caso, utilizando as ferramentas e técnicas aprendidas para medir e refletir sobre a qualidade do software.
 
 ## O que é o Agromart?
 
@@ -40,16 +36,61 @@ O nosso grupo é nomeado em homenagem a Marlyn Wescoff Meltzer. Marlyn foi uma d
 
 ## Contribuidores
 
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/joaolobo10"><img style="border-radius: 60%;" src="https://github.com/joaolobo10.png" width="200px;" alt=""/><br /><sub><b>João Carlos Lobo</b></sub></a><br />
-    <td align="center"><a href="https://github.com/Brenno-Silva01"><img style="border-radius: 60%;" src="https://github.com/Brenno-Silva01.png" width="200px;" alt=""/><br /><sub><b>Brenno da Silva Oliveira</b></sub></a><br />
-    <td align="center"><a href="https://github.com/caiomsabino"><img style="border-radius: 60%;" src="https://github.com/caiomsabino.png" width="200px;" alt=""/><br /><sub><b>Caio Sabino</b></sub></a><br /><a href="Link git" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://github.com/Igor-Thiago"><img style="border-radius: 60%;" src="https://github.com/Igor-Thiago.png" width="200px;" alt=""/><br /><sub><b>Igor Tiago</b></sub></a><br />
-    <td align="center"><a href="https://github.com/JoaoSapiencia"><img style="border-radius: 60%;" src="https://github.com/JoaoSapiencia.png" width="200px;" alt=""/><br /><sub><b>João Victor Sapiência</b></sub></a><br /><a href="Link git" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://github.com/rodrigogontijoo"><img style="border-radius: 60%;" src="https://github.com/rodrigogontijoo.png" width="200px;" alt=""/><br /><sub><b>Rodrigo Gontijo</b></sub></a><br />
-  </tr>
+<center>
+<table style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/ArthurGuilher62">
+                <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/ArthurGuilher62.png" />
+                <h5 class="text-center">Arthur Guilherme</h5>
+                <h5 class="text-center">231037656</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/arthurhvieira1">
+                <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/arthurhvieira1.png" />
+                <h5 class="text-center">Arthur Henrique</h5>
+                <h5 class="text-center">231034064</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/felipegf1">
+                <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/felipegf1.png" />
+                <h5 class="text-center">Felipe Guimarães</h5>
+                <h5 class="text-center">211041132</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/MrBolt2005">
+                <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/MrBolt2005.png" />
+                <h5 class="text-center">João Felipe</h5>
+                <h5 class="text-center">231011927</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/JoaoSapiencia">
+                <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/JoaoSapiencia.png" />
+                <h5 class="text-center">João Sapiencia</h5>
+                <h5 class="text-center">231026400</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/TiagoTeixeira-2005">
+                <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/TiagoTeixeira-2005.png" />
+                <h5 class="text-center">Tiago Lemes</h5>
+                <h5 class="text-center">231026581</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/VilmarFagundes">
+                <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/VilmarFagundes.png" />
+                <h5 class="text-center">Vilmar José</h5>
+                <h5 class="text-center">231026590</h5>
+            </a>
+        </td>
+    </tr>
 </table>
+</center>
 
 ## Histórico de versão
 
