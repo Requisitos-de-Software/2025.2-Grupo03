@@ -1,7 +1,7 @@
 # SAE
 
 <h1 align="center">
-    <img src="./imagens/logoSAE.png" height="250"alt="Docusaurus">
+    <img src="./imagens/logoSAE.jpg" height="250"alt="Docusaurus">
 </h1>
 
 <font size="2"><p style="text-align: center"> **Imagem 1** : Logo do SAE</p></font>
