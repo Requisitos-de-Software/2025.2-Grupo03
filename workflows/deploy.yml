@@ -15,7 +15,6 @@ jobs:
     steps:
       # 1️⃣ Pega o código do repositório
       - uses: actions/checkout@v3
-
       # 2️⃣ Configura Python
       - uses: actions/setup-python@v4
         with:
