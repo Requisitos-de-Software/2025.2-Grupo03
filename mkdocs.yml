@@ -42,36 +42,17 @@ markdown_extensions:
   - tables
 
 nav:
-  - 'Início': index.md
-  - 'Fase 1:': fase1.md
-  - 'Fase 2:': 
-      - 'GQM': fase2/fase2.md
-      - Objetivo 1: fase2/objetivo1.md
-      - Objetivo 2: fase2/objetivo2.md 
-      - 'Abstraction Sheets': fase2/abstraction.md
+  - 'Home': index.md
+  - 'Atas:': Atas/ata.md
+  - 'Videos:': videos/videos.md
+  - 'Apresentação:': 
+      - 'Apresentação 1:': Apresentação/apresentacao1.md
 
-  - 'Fase 3:': fase3.md
-  - 'Fase 4:':
-    - 'Usabilidade':
-        - M1: fase4/Usabilidade/m1usa.md
-        - M2 : fase4/Usabilidade/m2usa.md
-        - M3: fase4/Usabilidade/m3usa.md
-        - M4: fase4/Usabilidade/m4usa.md
-        - M5: fase4/Usabilidade/m5usa.md
-        - M6: fase4/Usabilidade/m6usa.md
-        - M7: fase4/Usabilidade/m7usa.md
-    - 'Portabilidade':
-        - M1: fase4/Portabilidade/m1port.md
-        - M2: fase4/Portabilidade/m2port.md
-        - M3: fase4/Portabilidade/m3port.md
-        - M4: fase4/Portabilidade/m4port.md
-  - 'Proposta de melhoria': 
-      - Introdução: proposta/introducao.md
-      - Usabilidade: proposta/usabilidade.md
-      - Portabilidade: proposta/portabilidade.md
-  - Gerenciamento do Projeto: 
-     - Metodologia: psm/metodologia.md
-     - Desempenho e Processo: psm/desempenho.md
-     - Calendário e Progresso: psm/calendario.md
-     - Recursos e Custos: psm/recursos.md
-     - Tabela de Contribuição: psm/tabela-contribuicao.md
+  - 'Planejamento:': 
+      - 'HeatMap:': Planejamento/heatmap.md
+      - 'Ferramentas:': Planejamento/ferramentas.md
+      - 'Cronograma planejado:': Planejamento/cronograma_planejado.md
+      - 'Aplicativo:': Planejamento/aplicativo.md
+
+  - 'Rich Picture:': Rich-picture/richpicture.md
+  - 'Verificação': Verificação/verificacao.md
