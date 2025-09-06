@@ -1,11 +1,10 @@
 repo_url: https://github.com/Requisitos-de-Software/2025.2-Grupo03
 repo_name: 2025.2-Grupo03
 site_name: Grupo 03 - Requisitos de Software (2025.2)
-site_url: 
+site_url: https://requisitos-de-software.github.io/2025.2-Grupo03/
 
 theme:
   name: material
-  logo: assets/MarlynMeltzer.jpg
   font:
     text: Roboto
   features:
@@ -44,7 +43,7 @@ markdown_extensions:
 nav:
   - 'Home': index.md
   - 'Atas:': Atas/ata.md
-  - 'Videos:': videos/videos.md
+  - 'Videos:': Videos/videos.md
   - 'Apresentação:': 
       - 'Apresentação 1:': Apresentação/apresentacao1.md
 
