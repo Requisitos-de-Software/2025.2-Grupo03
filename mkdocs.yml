@@ -43,11 +43,16 @@ markdown_extensions:
 
 nav:
   - 'Home': index.md
-  - 'Atas:': ata.md
-  - 'Videos:': videos.md
+  - 'Atas:': Atas/ata.md
+  - 'Videos:': videos/videos.md
   - 'Apresentação:': 
-      - 'Apresentação 1:': apresentacao.md
+      - 'Apresentação 1:': Apresentação/apresentacao1.md
 
-  - 'Planejamento:': planejamento.md
-  - 'Rich Picture:': richpicture.md
-  - 'Verificação': verificacao.md
+  - 'Planejamento:': 
+      - 'HeatMap:': Planejamento/heatmap.md
+      - 'Ferramentas:': Planejamento/ferramentas.md
+      - 'Cronograma planejado:': Planejamento/cronograma_planejado.md
+      - 'Aplicativo:': Planejamento/aplicativo.md
+
+  - 'Rich Picture:': Rich-picture/richpicture.md
+  - 'Verificação': Verificação/verificacao.md

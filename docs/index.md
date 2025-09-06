@@ -55,5 +55,4 @@ O nosso grupo é nomeado em homenagem a Marlyn Wescoff Meltzer. Marlyn foi uma d
 
 | Versão | Data | Descrição | Autor | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 21/05/2025 | Início da documentação | [João Lobo](https://github.com/joaolobo10) |  |
-| 1.1 | 03/06/2025 | Adição do texto sobre Marlyn Wescoff | [Rodrigo Gontijo](https://github.com/rodrigogontijoo) |  |
+| 1.0 | 06/09/2025 | Início da documentação | [Felipe Guimaraes](https://github.com/felipegf1) |  |
