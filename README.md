@@ -74,14 +74,6 @@ aqui documentação do SAE
 
 <hr/>
 
-## :bookmark_tabs: Documentação 
-
-- [Documentação 1](linkDocumentacao1)
-- [Documentação 2](linkDocumentacao2)
-- [Documentação 3](linkDocumentacao3)
-- [Documentação 4](linkDocumentacao4)
-- [Documentação 5](linkDocumentacao5)
-
 ## :octocat: Histórico de versão 
 
 | Versão | Data | Descrição | Autor(a) |
