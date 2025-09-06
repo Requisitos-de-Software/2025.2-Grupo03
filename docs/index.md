@@ -33,11 +33,6 @@ e análises estratégicas em tempo real.
 - **Cooperação (Integra) e Conteúdo (SRC)**: integração com outros sistemas e
 direcionamento de materiais de acordo com o perfil do aluno.
 
-
-## Referências
-
-SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html. Acesso em: 6 set. 2025.
-
 ## Contribuidores
 
 <center>
@@ -95,6 +90,11 @@ SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/c
     </tr>
 </table>
 </center>
+
+## Referências
+
+SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html. Acesso em: 6 set. 2025.
+
 
 ## Histórico de versão
 
