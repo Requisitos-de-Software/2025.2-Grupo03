@@ -4,20 +4,24 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # permite rodar manualmente
 
 permissions:
-  contents: write
+  contents: write  # necessário para criar/atualizar a branch gh-pages
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Pega o código do repositório
       - uses: actions/checkout@v3
 
+      # 2️⃣ Configura Python
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
+      # 3️⃣ Cache do pip para acelerar builds
       - uses: actions/cache@v3
         with:
           path: ~/.cache/pip
@@ -25,8 +29,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
+      # 4️⃣ Instala MkDocs e tema Material
       - run: pip install mkdocs-material
 
-      - run: mkdocs gh-deploy --force --remote-name origin
+      # 5️⃣ Build do site (gera a pasta site/)
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      # 6️⃣ Debug: lista arquivos gerados (opcional)
+      - name: List generated site files
+        run: ls -R site
+
+      # 7️⃣ Deploy para GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force --remote-name origin --branch gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
