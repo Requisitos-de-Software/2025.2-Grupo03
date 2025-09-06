@@ -1,38 +1,42 @@
 # SAE
 
 <h1 align="center">
-    <img src="./assets/icon-agromart.png" height="250"alt="Docusaurus">
+    <img src="./imagens/logoSAE.png" height="250"alt="Docusaurus">
 </h1>
 
-<font size="2"><p style="text-align: center"> **Imagem 1** : Ícone do aplicativo Agromamart</p></font>
+<font size="2"><p style="text-align: center"> **Imagem 1** : Logo do SAE</p></font>
 
-------------------------
+Fonte: [Sobre o SAE](https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html)
 
 ## Sobre o SAE 
 
+O SAE (Sistema de Apoio Educacional) é uma plataforma que usa tecnologia e métodos de
+ensino para oferecer uma aprendizagem personalizada, baseada na Teoria da
+Aprendizagem Significativa (TAS) de Ausubel. Com a ajuda de um assistente virtual
+inteligente (ITA), o sistema entende o nível de conhecimento de cada aluno e oferece
+orientação adaptada às suas necessidades.
 
+O SAE combina a atuação de professores e monitores com recursos artificiais, permitindo
+interação via chat, monitoria assistida e acompanhamento em tempo real, avaliando o
+desempenho e o empenho dos alunos. Com base nesses dados, o sistema recomenda
+materiais e atividades específicas para aprimorar o aprendizado de cada aluno, seja em
+aulas presenciais, a distância ou híbridas.
 
-## O que é o Agromart?
+A plataforma funciona em módulos que ajudam em diferentes partes do aprendizado:
+- **Banco de Questões (BDQ)**: atividades interativas alinhadas ao conteúdo.
+- **Projeto de Monitoria (PMon)**: suporte direto de monitores e professores, presencial
+ou online.
+- **Sistema Tutor Inteligente (STI) e Módulo de Interface Animado (MInA)**:
+orientação pedagógica personalizada e interação significativa.
+- **Acompanhamento Real (Real) e Apoio à Decisão (MAD)**: monitoramento contínuo
+e análises estratégicas em tempo real.
+- **Cooperação (Integra) e Conteúdo (SRC)**: integração com outros sistemas e
+direcionamento de materiais de acordo com o perfil do aluno.
 
-O Agromart é um projeto desenvolvido inicialmente durante um Hackathon na UnB-FGA, em 2020, com o tema “Cultivando Conexões”. Seu objetivo é conectar agricultores familiares a consumidores, especialmente em contextos de isolamento social, como o vivido durante a pandemia de COVID-19.
-
-A plataforma permite que agricultores divulguem suas lojas, produtos, preços e localização, enquanto consumidores podem encontrar produtores próximos, entrar em contato e obter informações sobre produtos e pagamentos.
-
-Desde sua concepção, o Agromart evoluiu para uma solução open source, com integração de meios de pagamento digitais, coordenada por professores e estudantes da UnB-FGA.
-
-## Marlyn Wescoff
-
-O nosso grupo é nomeado em homenagem a Marlyn Wescoff Meltzer. Marlyn foi uma das seis programadoras originais do ENIAC (Electronic Numerical Integrator and Computer), o primeiro computador digital eletrônico de uso geral. Durante a Segunda Guerra Mundial, trabalhou no projeto do ENIAC, desenvolvendo programas para calcular trajetórias balísticas, uma tarefa crucial para o esforço de guerra. Naquela época, a programação era feita manualmente, conectando fios e ajustando interruptores, exigindo grande precisão e conhecimento matemático. Marlyn e suas colegas pioneiras desempenharam um papel fundamental na história da computação, embora seu trabalho tenha sido por muito tempo negligenciado. 
-
-<p align="center">
-  <img src="./assets/Reprogramming_ENIAC.png" alt="Programadoras do ENIAC" width="600">
-</p>
-
-<font size="2"><p style="text-align: center">**Imagem 2:** As programadoras Ruth Lichterman (agachada) e <strong>Marlyn Wescoff (em pé)</strong> reconfigurando o ENIAC, o primeiro computador digital eletrônico de uso geral. Fonte: Wikimedia Commons (<a href="https://en.wikipedia.org/wiki/Marlyn_Meltzer#/media/File:Reprogramming_ENIAC.png">link</a>). Domínio público.</p></font>
 
 ## Referências
 
-> Marlyn Meltzer. Engineering and Technology History Wiki, 2015. Disponível em: https://ethw.org/Marlyn_Meltzer. Acesso em: 3 jun. 2025.
+SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html. Acesso em: 6 set. 2025.
 
 ## Contribuidores
 
@@ -96,4 +100,4 @@ O nosso grupo é nomeado em homenagem a Marlyn Wescoff Meltzer. Marlyn foi uma d
 
 | Versão | Data | Descrição | Autor | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 06/09/2025 | Início da documentação | [Felipe Guimaraes](https://github.com/felipegf1) |  |
+| 1.0 | 06/09/2025 | Início da documentação | [Felipe Guimaraes](https://github.com/felipegf1) e [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
