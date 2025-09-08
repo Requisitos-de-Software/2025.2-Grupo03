@@ -27,14 +27,18 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Dark mode
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: light blue
+      background: "#f5f7fa"
+      text: "#22272e"
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
         name: Light mode
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: cyan
+      background: "#22272e"
+      text: "#f5f7fa"
 
 markdown_extensions:
   - attr_list
