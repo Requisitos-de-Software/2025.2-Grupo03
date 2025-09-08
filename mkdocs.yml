@@ -45,11 +45,11 @@ nav:
   - Atas: Atas/ata.md
   - Videos: Videos/videos.md
   - Apresentação: 
-      - Apresentação 1: Apresentação/apresentacao1.md
+    - Apresentação 1: Apresentação/apresentacao1.md
   - Planejamento: 
-      - HeatMap: Planejamento/heatmap.md
-      - Ferramentas: Planejamento/ferramentas.md
-      - Cronograma planejado: Planejamento/cronograma_planejado.md
-      - Aplicativo: Planejamento/aplicativo.md
+    - HeatMap: Planejamento/heatmap.md
+    - Ferramentas: Planejamento/ferramentas.md
+    - Cronograma planejado: Planejamento/cronograma_planejado.md
+    - Aplicativo: Planejamento/aplicativo.md
   - Rich Picture: Rich-picture/richpicture.md
   - Verificação: Verificação/verificacao.md
