@@ -1,15 +1,25 @@
-# Introdução
+# Heat Map
 
-O heatmap de disponibilidade tem como objetivo apresentar, de forma visual e organizada, os horários em que cada integrante do grupo está disponível para reuniões e atividades do projeto. Essa ferramenta facilita o planejamento das tarefas, a marcação de encontros e a distribuição de responsabilidades, garantindo que todos possam participar ativamente das decisões e do desenvolvimento do projeto.
+## Introdução
+Um heat map (ou mapa de calor) é uma forma de visualização de dados em que os valores são representados por cores, facilitando identificar padrões, tendências ou concentrações em um conjunto de informações. Nesse projeto utilizamos o Heat Map para identificar a disponibilidade da equipe para reuniões ou atividades coletivas.
 
-## Aplicação
+Os numeros do Heat Map vao de 0 a 7 (7 membros da equipe) onde 
+0: Nenhum membro disponível 
+1-2: Poucos membros disponíveis 
+3-4: Disponibilidade média 
+5-6: Boa disponibilidade 
+7: Disponibilidade máxima 
 
-O heatmap foi elaborado considerando os horários de disponibilidade dos sete integrantes do grupo. Cada célula do heatmap representa um determinado horário, e o valor apresentado varia de 0 a 7, indicando a quantidade de membros disponíveis naquele momento. Quanto maior o valor, maior o número de integrantes que podem participar de reuniões ou atividades no respectivo horário. Dessa forma, o heatmap auxilia na identificação dos períodos mais adequados para o agendamento de encontros e na otimização
+## Heat Map da equipe
+**Figura 1: Heat Map da equipe**
+![Figura 1: Heat Map](../imagens/HeatMap-grupo.PNG)
 
----
+Analisando o Heat Map podemos ver que:
+- Durante a semana temos segunda e quarta a noite (19h-21h) como um bom horario
+- Durante o fim de semana temos o sabado a tarde (13h-17h) como um otimo horario
 
-## Histórico de versões
+## Histórico de versão
 
-| Data       | Versão | Autor                                | Descrição                |
-|------------|--------|--------------------------------------|--------------------------|
-| 08/09/2025 | 1.0    | João Victor Pires Sapiência Santos   | Criação da ferramenta    |
+| Versão | Data | Descrição | Autor | Revisor |
+| ---- | ----- | ----- | ---- | ----- | 
+| 1.0 | 07/09/2025 | Criação da página de documentação | [Felipe Guimaraes](https://github.com/felipegf1) |  |
