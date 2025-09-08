@@ -1,70 +1,106 @@
-## Introdução
+# Cronograma planejado 
 
-O cronograma planejado tem como objetivo organizar e distribuir as atividades do projeto ao longo do semestre, estabelecendo prazos e responsáveis para cada tarefa. Com essa ferramenta, o grupo pode acompanhar o progresso das entregas, garantir o cumprimento dos objetivos e facilitar o gerenciamento do tempo. O cronograma contribui para uma melhor coordenação entre os integrantes, promovendo o alinhamento das ações e a colaboração efetiva entre todos os membros. Além disso, possibilita a identificação de eventuais atrasos ou dificuldades, permitindo a adoção de medidas corretivas em tempo hábil. Dessa forma, o cronograma é essencial para o sucesso do projeto, pois assegura que todos estejam cientes de suas responsabilidades e dos prazos a serem cumpridos. Todas as datas foram baseadas nas datas oficiais do plano de ensino (linkar depois).
+## Introdução 
+O cronograma é uma ferramenta fundamental na gestão de projetos, pois permite a organização lógica e temporal das atividades, a definição de prazos realistas, o monitoramento do progresso e o controle das entregas. Sua elaboração contribui diretamente para o uso eficiente dos recursos, a melhoria da comunicação entre os membros da equipe e a identificação antecipada de riscos e desvios, possibilitando ações corretivas e preventivas durante a execução do projeto 
+>(KERZNER, 2017).
 
-## Entregas 
+## Metodologia 
+O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf) (Link disponível) disponibilizado pelo professor. Destaca-se:
 
-| Entrega   | Descrição | Data limite |
-|-----------|-----------|-------------|
-| Entrega 1 | Equipe, Definição do APP e Planejamento do Projeto, RichPicture | 09/09  |
-| Entrega 2 | Elicitação – Técnicas e Priorização | 30/09 |
-| Entrega 3 | Modelagem de Requisitos: Cenários , Léxico, Use Case, Especificação Suplementar | 12/10 |
-| Entrega 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
-| Entrega 5 | Análise de Requisitos: Verificação e Validação | 12/11 |
-| Entrega 6 | Pós-Rastreabilidade - Gerência II | 28/11 |
+- A entrega da etapa 6 (Pós-Rastreabilidade - Gerência II) vem antes da entrega da etapa 5 (Análise de Requisitos: Verificação e Validação)
+- A apresentação da etapa 6 vem antes da apresentação da etapa 5 
 
-## Cronograma da Entrega 1 - Equipe, Definição do APP e Planejamento do Projeto, RichPicture
+## Entregas do projeto 
 
-| Titulo | Responsáveis | Início | Entrega | Período de revisão |
-|--------|--------------|--------|---------|--------------------|
-| Heatmap de disponibilidade dos integrantes        |              |        |         |                    |
-| Ferramentas do projeto | | | | |
-| Cronograma detalhado das atividades do projeto | | | | |
-|  Rich Picture | | | | |
-| lista de App avaliados | | | | |
+<div align="center"><strong>Tabela 1: Entrega da apresentação do projeto
+
+| **Entrega** | **Descrição** | **Data limite** |
+|---------|-----------|-------------|
+| Etapa 1 | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
+| Etapa 2 | Elicitação – Técnicas e Priorização | 30/09 |
+| Etapa 3 | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
+| Etapa 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
+| Etapa 6 | Pós-Rastreabilidade - Gerência II | 28/10 |
+| Etapa 5 | Análise de Requisitos: Verificação e Validação | 12/11 |
+| Projeto Final | | 24/11 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+<div align="center"><strong>Tabela 2: Entrega das inspeções do Grupo +1
+
+| **Etapa** | **Data** |
+|---------|--------|
+| Etapa 1 | 10/09 |
+| Etapa 2 | 01/10 |
+| Etapa 3 | 13/10 |
+| Etapa 4 | 22/10 |
+| Etapa 6 | 29/10 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+<div align="center"><strong>Tabela 3: Data das apresentações
+
+| **Etapa** | **Data** |
+|---------|--------|
+| Etapa 1 | 11/09 |
+| Etapa 2 | 02/10 |
+| Etapa 3 | 14/10 |
+| Etapa 4 | 23/10 |
+| Etapa 6 | 30/10 |
+| Etapa 5 | 13/11 |
+| Apresentação final | 25/11 - 09/12 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma da Entrega 1 – Planejamento
+
+<div align="center"><strong>Tabela 4: Entrega 1 
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
+|----------|-------------|-----------|----------|---------|----------------------|
+| Definição de equipe e responsabilidades | Vilmar José | | 08/09 | 09/09 | 08/09 - 09/09 | 
+| Definição das ferramentas do projeto | | | | | |
+| Estruturação do repositório e documentação inicial | Felipe Guimarães, João Sapiencia | | | | | 
+| Definição de escopo e objetivos | | | | | | 
+| Elaboração do cronograma planejado detalhado | Vilmar José | | 08/09 | 09/09 | 08/09 - 09/09 |
+| Elaboração do cronograma executado detalhado | Vilmar José | | 08/09 | 09/09 | 08/09 - 09/09 |
+| Criação da Lista de Verificação | Tiago Lemes, Vilmar José | Arthur Henrique | 08/08 | 09/09 | 08/09 - 09/09 |
+| Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | | | | |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
+| Gravação da inspeção do grupo +1 | | | | | | 
+| Envio da entrega | | | | | | 
+| Check List de entrega | | | | | |
+
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
 ## Cronograma da Entrega 2 - Elicitação – Técnicas e Priorização
+<div align="center"><strong>Tabela 5: Entrega 2
 
-| Titulo | Responsáveis | Início | Entrega | Período de revisão |
-|--------|--------------|--------|---------|--------------------|
-| Perfil dos usuários        |              |        |         |                    |
-|  Técnicas de elecitação | | | | |
-| Técnicas priorização | | | | |
+| **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
+|----------|-------------|-----------|----------|---------|----------------------|
 
-## Cronograma da Entrega 3 - Modelagem de Requisitos: Cenários, Léxico, Use Case, Especificação Suplementar
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
+| Gravação da inspeção do grupo +1 | | | | | | 
+| Envio da entrega | | | | | | 
+| Check List de entrega | | | | | |
 
-| Titulo | Responsáveis | Início | Entrega | Período de revisão |
-|--------|--------------|--------|---------|--------------------|
-|Cenários       |              |        |         |                    |
-| Use Case | | | | |
-| Especificação Suplementar | | | | |
-| Léxico | | | | |
 
-## Cronograma da Entrega 4 - Modelagem de Requisitos
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
-| Titulo | Responsáveis | Início | Entrega | Período de revisão |
-|--------|--------------|--------|---------|--------------------|
-|Histórias de Usuário       |              |        |         |                    |
-| Backlogs | | | | |
-| NFR Framework | | | | |
+## Histórico de versões 
+| **Versão** | **Data** | **Descrição** | **Autor(es)** | **Revisor(es)** |
+|------------|----------|---------------|---------------|-----------------|
+| 1.0 | 08/09 | Criação do cronograma planejado | [Vilmar José](https://github.com/VilmarFagundes) | [Joao Sapiencia](https://github.com/JoaoSapiencia) |
 
-## Cronograma da Entrega 5 - Análise de Requisitos: Verificação e Validação
+## Referências bibliográficas 
 
-| Titulo | Responsáveis | Início | Entrega | Período de revisão |
-|--------|--------------|--------|---------|--------------------|
-|        |              |        |         |                    |
+SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software – 2025/2. Universidade de Brasília – FGA, 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf. Acesso em 08 set. 2025 
 
-## Cronograma da Entrega 6 - Pós-Rastreabilidade - Gerência II
+KERZNER, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. 12. ed. Hoboken: John Wiley & Sons, 2017. Acesso em 08 set. 2025 
 
-| Titulo | Responsáveis | Início | Entrega | Período de revisão |
-|--------|--------------|--------|---------|--------------------|
-|        |              |        |         |                    |
+Cronograma - Bilheteria Digital. Disponível em: https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final. Acesso em: 08 set. 2025. 
 
---- 
+Cronograma - Tik Tok. Disponível em: https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/. Acesso em: 08 set. 2025. 
 
-## Histórico de versões
-
-| Data       | Versão | Autor                                | Descrição                |
-|------------|--------|--------------------------------------|--------------------------|
-| 08/09/2025 | 1.0    | João Victor Pires Sapiência Santos   | Criação das tabelas      |
-
+Cronograma Realizado - Lichess. Disponível em: https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7. Acesso em: 08 set. 2025. 
