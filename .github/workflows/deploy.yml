@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main   # ou "master", se for sua branch principal
   workflow_dispatch:  # permite rodar manualmente
 
 permissions:
@@ -15,10 +15,12 @@ jobs:
     steps:
       # 1️⃣ Pega o código do repositório
       - uses: actions/checkout@v3
+
       # 2️⃣ Configura Python
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
+
       # 3️⃣ Cache do pip para acelerar builds
       - uses: actions/cache@v3
         with:
@@ -40,6 +42,6 @@ jobs:
 
       # 7️⃣ Deploy para GitHub Pages
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force --remote-name origin --branch gh-pages
+        run: mkdocs gh-deploy --force --remote-name origin
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
