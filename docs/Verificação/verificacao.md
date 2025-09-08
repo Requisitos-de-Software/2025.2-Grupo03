@@ -1,6 +1,6 @@
-# Lista de verificação da entrega 1
-Essa etapa apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 1, tanto para o nosso grupo quanto ao grupo +1 
+# Lista de Verificação da Entrega 1
 
+Essa etapa apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 1, tanto para o nosso grupo quanto ao grupo +1 
 
 | ID | Item de Verificação | Autor | 
 | ---- | ----- | ----- |  
@@ -27,10 +27,11 @@ Essa etapa apresenta uma lista de verificação para avaliar os artefatos produz
 | 21 | **O rich picture conta uma história clara do funcionamento do sistema?** | [Vilmar José](https://github.com/VilmarFagundes) |
 | 22 | **Os rótulos descritivos das setas indicam a natureza dos dados ou o fluxo das informações?** | [Vilmar José](https://github.com/VilmarFagundes) |
 
-**## Componentes do Rich Picture**
+## Componentes do Rich Picture
 
 ![Figura 1: Componentes do Rich Picture](../imagens/ReferenciaRichPicture.png)
-Figura 1: Componentes do Rich Picture
+
+**Figura 1: Componentes do Rich Picture**
 ## Referências
 
 Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em: https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf. Acessado em: 05 de setembro de 2025
