@@ -22,7 +22,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Etapa 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
 | Etapa 6 | Pós-Rastreabilidade - Gerência II | 28/10 |
 | Etapa 5 | Análise de Requisitos: Verificação e Validação | 12/11 |
-| Projeto Final | | 24/11 |
+| Projeto Final | Desenvolvimento e Finalização do Projeto | 24/11 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -74,18 +74,124 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
-## Cronograma da Entrega 2 - Elicitação – Técnicas e Priorização
+## Cronograma da Entrega 2 - Elicitação: Técnicas e Priorização
 
 <div align="center"><strong>Tabela 5: Entrega 2</strong></div>
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | |
+| Criação de Perfis dos usuários | | | | | | 
+| Criação de Personas | | | | | |
+| Elicitação de requisitos: Questionário | | | | | |
+| Elicitação de requisitos: Introspecção | | | | | |
+| Elicitação de requisitos: Grupo Focal | | | | | |
+| Elicitação de requisitos: Entrevista | | | | | |
+| Elicitação de requisitos: Glossário | | | | | |
+| Priorização de requisitos: "First Thing First" e "Three level scale" | | | | | |
+| Priorização de requisitos: "MoSCoW" e "100 Dólares" | | | | | |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
 | Gravação da inspeção do grupo +1 | | | | | | 
 | Envio da entrega | | | | | | 
 | Check List de entrega | | | | | |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma da Entrega 3 - Modelagem de Requisitos
+
+<div align="center"><strong>Tabela 6: Entrega 3</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
+|----------|-------------|-----------|----------|---------|----------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | |
+| Modelagem de requisitos: Cenário | | | | | |
+| Modelagem de requisitos: Légico | | | | | | 
+| Modelagem de requisitos: Use Case | | | | | |
+| Modelagem de requisitos: Especificação suplementar | | | | | |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
+| Gravação da inspeção do grupo +1 | | | | | | 
+| Envio da entrega | | | | | | 
+| Check List de entrega | | | | | |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma da Entrega 4 - Modelagem de Requisitos: Ágil
+
+<div align="center"><strong>Tabela 7: Entrega 4</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
+|----------|-------------|-----------|----------|---------|----------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | |
+| Modelagem de requisitos - Ágil: Histórias do usuário | | | | | |
+| Modelagem de requisitos - Ágil: Backlog | | | | | |
+| Modelagem de requisitos - Ágil: NFR Framework | | | | | |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
+| Gravação da inspeção do grupo +1 | | | | | | 
+| Envio da entrega | | | | | | 
+| Check List de entrega | | | | | |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma da Entrega 5 - Verificação e Validação
+
+<div align="center"><strong>Tabela 8: Entrega 5</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
+|----------|-------------|-----------|----------|---------|----------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | |
+| Verificação do Rich Picture | | | | | | 
+| Verificação do NFR Framework | | | | | | 
+| Verificação dos casos de uso | | | | | |
+| Verificação do Grupo Focal | | | | | |
+| Verificação do Backlog | | | | | | 
+| Verificação do léxico | | | | | |
+| Verificação das Histórias de usuários | | | | | |
+| Verificação das Técnicas de elicitação | | | | | |
+| Verificação da Priorização | | | | | |
+| Verificação da Especialização Suplementar | | | | | |
+| Verificação dos Cenários | | | | | | 
+| Verificação da Entrevista | | | | | |
+| Verificação do Perfil de usuário | | | | | |
+| Verificação das Personas | | | | | |
+| Verificação da Introspecção | | | | | |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
+| Gravação da inspeção do grupo +1 | | | | | | 
+| Envio da entrega | | | | | | 
+| Check List de entrega | | | | | |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+
+## Cronograma da Entrega 6 - Pós-Rastreabilidade: Gerência II
+
+<div align="center"><strong>Tabela 9: Entrega 6</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
+|----------|-------------|-----------|----------|---------|----------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | |
+| Pós-rastreabilidade: Backward-form | | | | | |
+| Pós-rastreabilidade: Forward-form | | | | | |
+| Matriz de Rastreabilidade | | | | | |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
+| Gravação da inspeção do grupo +1 | | | | | | 
+| Envio da entrega | | | | | | 
+| Check List de entrega | | | | | |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma da Entrega Final - Desenvolvimento e Finalização do Projeto 
+
+<div align="center"><strong>Tabela 10: Entrega Final</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
+|----------|-------------|-----------|----------|---------|----------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | |
+| Desenvolvimento do projeto final (correção e complemento) | | | | | |
+| Criação da lista de verificação | | | | | |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | | | | 
+| Gravação da inspeção do grupo +1 | | | | | | 
+| Envio da entrega | | | | | | 
+| Check List de entrega | | | | | |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
