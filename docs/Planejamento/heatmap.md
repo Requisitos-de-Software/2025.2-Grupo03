@@ -1,0 +1,3 @@
+# Introdução
+
+O heatmap de disponibilidade tem como objetivo apresentar, de forma visual e organizada, os horários em que cada integrante do grupo está disponível para reuniões e atividades do projeto. Essa ferramenta facilita o planejamento das tarefas, a marcação de encontros e a distribuição de responsabilidades, garantindo que todos possam participar ativamente das decisões e do desenvolvimento do projeto.

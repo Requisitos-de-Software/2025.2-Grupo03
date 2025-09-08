@@ -7,10 +7,10 @@ Nesse projeto, o Rich Picture foi desenvolvido com base no sistema SAE, escolhid
 
 A elaboração do nosso Rich Picture foi feita atráves da ferramenta Canva. Logo abaixo temos o Rich Picture do SAE (figura 1) e sua legenda (figura 2)
 
-![Figura 1: Rich Picture do SAE](imagens/RichPicture-SAE.jpg)
+![Figura 1: Rich Picture do SAE](../imagens/RichPicture-SAE.jpg)
 Autores: [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Arthur Guilherme](https://github.com/ArthurGuilher62)
 
-![Figura 2: Legenda do Rich Picture do SAE](imagens/LegendaRichPicture-SAE.jpg)
+![Figura 2: Legenda do Rich Picture do SAE](../imagens/LegendaRichPicture-SAE.jpg)
 Autores: [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Arthur Guilherme](https://github.com/ArthurGuilher62)
 
 ## Referências
