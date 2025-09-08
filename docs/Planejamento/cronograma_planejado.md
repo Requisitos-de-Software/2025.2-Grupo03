@@ -12,7 +12,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 ## Entregas do projeto 
 
-<div align="center"><strong>Tabela 1: Entrega da apresentação do projeto
+<div align="center"><strong>Tabela 1: Entrega da apresentação do projeto</strong></div>
 
 | **Entrega** | **Descrição** | **Data limite** |
 |---------|-----------|-------------|
@@ -26,7 +26,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
-<div align="center"><strong>Tabela 2: Entrega das inspeções do Grupo +1
+<div align="center"><strong>Tabela 2: Entrega das inspeções do Grupo +1</strong></div>
 
 | **Etapa** | **Data** |
 |---------|--------|
@@ -38,7 +38,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
-<div align="center"><strong>Tabela 3: Data das apresentações
+<div align="center"><strong>Tabela 3: Data das apresentações</strong></div>
 
 | **Etapa** | **Data** |
 |---------|--------|
@@ -54,7 +54,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 ## Cronograma da Entrega 1 – Planejamento
 
-<div align="center"><strong>Tabela 4: Entrega 1 
+<div align="center"><strong>Tabela 4: Entrega 1</strong></div>
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
@@ -75,7 +75,8 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
 ## Cronograma da Entrega 2 - Elicitação – Técnicas e Priorização
-<div align="center"><strong>Tabela 5: Entrega 2
+
+<div align="center"><strong>Tabela 5: Entrega 2</strong></div>
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
