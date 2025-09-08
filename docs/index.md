@@ -1,7 +1,7 @@
 # SAE
 
 <h1 align="center">
-    <img src="./imagens/logoSAE.png" height="250"alt="Docusaurus">
+    <img src="./imagens/logoSAE.jpg" height="250"alt="Docusaurus">
 </h1>
 
 <font size="2"><p style="text-align: center"> **Imagem 1** : Logo do SAE</p></font>
@@ -32,11 +32,6 @@ orientação pedagógica personalizada e interação significativa.
 e análises estratégicas em tempo real.
 - **Cooperação (Integra) e Conteúdo (SRC)**: integração com outros sistemas e
 direcionamento de materiais de acordo com o perfil do aluno.
-
-
-## Referências
-
-SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html. Acesso em: 6 set. 2025.
 
 ## Contribuidores
 
@@ -95,6 +90,11 @@ SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/c
     </tr>
 </table>
 </center>
+
+## Referências
+
+SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html. Acesso em: 6 set. 2025.
+
 
 ## Histórico de versão
 
