@@ -27,31 +27,33 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Dark mode
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: light blue
+      background: "#f5f7fa"
+      text: "#22272e"
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
         name: Light mode
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: cyan
+      background: "#22272e"
+      text: "#f5f7fa"
 
 markdown_extensions:
   - attr_list
   - tables
 
 nav:
-  - 'Home': index.md
-  - 'Atas:': Atas/ata.md
-  - 'Videos:': Videos/videos.md
-  - 'Apresentação:': 
-      - 'Apresentação 1:': Apresentação/apresentacao1.md
-
-  - 'Planejamento:': 
-      - 'HeatMap:': Planejamento/heatmap.md
-      - 'Ferramentas:': Planejamento/ferramentas.md
-      - 'Cronograma planejado:': Planejamento/cronograma_planejado.md
-      - 'Aplicativo:': Planejamento/aplicativo.md
-
-  - 'Rich Picture:': Rich-picture/richpicture.md
-  - 'Verificação': Verificação/verificacao.md
+  - Home: index.md
+  - Atas: Atas/ata.md
+  - Videos: Videos/videos.md
+  - Apresentação: 
+    - Apresentação 1: Apresentação/apresentacao1.md
+  - Planejamento: 
+    - HeatMap: Planejamento/heatmap.md
+    - Ferramentas: Planejamento/ferramentas.md
+    - Cronograma planejado: Planejamento/cronograma_planejado.md
+    - Aplicativo: Planejamento/aplicativo.md
+  - Rich Picture: Rich-picture/richpicture.md
+  - Verificação: Verificação/verificacao.md
