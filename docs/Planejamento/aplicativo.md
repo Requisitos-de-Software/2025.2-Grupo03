@@ -1,8 +1,9 @@
 ## Introdução
 
-No início do projeto, foram avaliados alguns aplicativos existentes no mercado com o objetivo de identificar funcionalidades, pontos fortes e limitações. Essa análise inicial permitiu compreender melhor as necessidades dos usuários e definir critérios para o desenvolvimento de uma solução mais adequada ao contexto do projeto.
+No início do projeto, foram avaliados alguns aplicativos com o objetivo de identificar funcionalidades, limitações, como poderíamos aplicar os conteúdos aprendidos em sala e se impactam de alguma forma nossa vida cotidiana. Escrever mais depois da parte de apps avaliados.
 
 ## Critérios de escolha
+A escolha do SAE (Sistema de Apoio Educacional) foi baseada em alguns critérios principais: buscamos um aplicativo que fosse relevante para serviços públicos de educação, apresentasse complexidade média em relação aos requisitos e que nunca tivesse sido avaliado anteriormente na matéria. Esses fatores permitiram selecionar uma solução que proporcionasse desafios adequados ao desenvolvimento, além de garantir originalidade na análise. Com isso, apesar de ser um site, a escolha do SAE foi aprovada pelo professor da matéria de requisitos,
 
 ## Termos de uso 
 
