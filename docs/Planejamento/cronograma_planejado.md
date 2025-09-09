@@ -22,7 +22,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Etapa 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
 | Etapa 6 | Pós-Rastreabilidade - Gerência II | 28/10 |
 | Etapa 5 | Análise de Requisitos: Verificação e Validação | 12/11 |
-| Projeto Final | | 24/11 |
+| Projeto Final | Desenvolvimento e Finalização do Projeto | 24/11 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
