@@ -24,7 +24,7 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 <div align="center"><strong>Tabela 4: Entrega 1</strong></div>
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
-|----------|-------------|-----------|----------|---------|----------------------|
+|------------|---------------|-----------------|-------------------------------|-------------------------------|
 | Definição de equipe e responsabilidades | Vilmar José | | 04/09 - 09/09 | 04/09 | 
 | Definição das ferramentas do projeto | | | 04/09 - 08/09 | 09/09 |
 | Estruturação do repositório e documentação inicial | Felipe Guimarães, João Sapiencia | Tiago Lemes | 04/08 - 08/09 | 08/09 | 
