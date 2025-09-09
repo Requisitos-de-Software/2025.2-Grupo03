@@ -192,11 +192,6 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
-## Histórico de versões 
-| **Versão** | **Data** | **Descrição** | **Autor(es)** | **Revisor(es)** |
-|------------|----------|---------------|---------------|-----------------|
-| 1.0 | 08/09 | Criação do cronograma planejado | [Vilmar José](https://github.com/VilmarFagundes) | [Joao Sapiencia](https://github.com/JoaoSapiencia) |
-
 ## Referências bibliográficas 
 
 SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software – 2025/2. Universidade de Brasília – FGA, 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf. Acesso em 08 set. 2025 
@@ -207,4 +202,9 @@ Cronograma - Bilheteria Digital. Disponível em: https://requisitos-de-software.
 
 Cronograma - Tik Tok. Disponível em: https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/. Acesso em: 08 set. 2025. 
 
-Cronograma Realizado - Lichess. Disponível em: https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7. Acesso em: 08 set. 2025. 
+Cronograma Realizado - Lichess. Disponível em: https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7. Acesso em: 08 set. 2025.
+
+## Histórico de versões 
+| **Versão** | **Data** | **Descrição** | **Autor(es)** | **Revisor(es)** |
+|------------|----------|---------------|---------------|-----------------|
+| 1.0 | 08/09 | Criação do cronograma planejado | [Vilmar José](https://github.com/VilmarFagundes) | [Joao Sapiencia](https://github.com/JoaoSapiencia) |
