@@ -34,9 +34,9 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 | Criação da Lista de Verificação | Tiago Lemes, Vilmar José | Arthur Henrique | 04/08 - 08/09 | 04/09 |
 | Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | | 04/09 - 08/09 | 06/09 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 04/09 - 08/09 | 09/09 | 
-| Gravação da inspeção do grupo +1 | | | 10/09 | 10/09 | 10/09 |
+| Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia | | 10/09 | 10/09 | 10/09 |
 | Envio da entrega | Vilmar José | | 09/09 | 09/09 | 09/09 |
-| Check List de entrega | | | 04/09 | 08/09 | 08/09 - 09/09 |
+| Check List de entrega | João Sapiencia | | 04/09 | 08/09 | 08/09 - 09/09 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
