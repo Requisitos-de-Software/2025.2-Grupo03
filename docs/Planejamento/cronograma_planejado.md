@@ -81,7 +81,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 |----------|-------------|-----------|----------|---------|----------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/09 | 15/09 | 15/09 - 16/09 |
 | Criação de Perfis dos usuários | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 | 
-| Criação de Personas |  | | 16/09 | 28/09 | 28/09 - 29/09 |
+| Criação de Personas |  | Arthur Henrique | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Questionário | Arthur Henrique | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Introspecção | Arthur Guilherme | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Glossário | Tiago Lemes | Vilmar José | 16/09 | 28/09 | 28/09 - 29/09 |
@@ -106,7 +106,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Modelagem de requisitos: Cenário | Vilmar José | Tiago Lemes | 08/10 | 11/10 | 11/10 - 12/10 |
 | Modelagem de requisitos: Léxico | Arthur Guilherme | | 08/10 | 11/10 | 11/10 - 12/10 |
 | Modelagem de requisitos: Use Case | Tiago Lemes | Vilmar José | 08/10 | 11/10 | 11/10 - 12/10 |
-| Modelagem de requisitos: Especificação suplementar | | | 08/10 | 11/10 | 11/10 - 12/10 |
+| Modelagem de requisitos: Especificação suplementar | Arthur Henrique | | 08/10 | 11/10 | 11/10 - 12/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/10 | 12/10 | 12/10 | 
 | Gravação da inspeção do grupo +1 | | | 13/10 | 13/10 | 13/10 | 
 | Envio da entrega | Vilmar José | | 12/10 | 12/10 | 12/10 | 
@@ -147,11 +147,11 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Verificação das Histórias de usuários | Vilmar José | Tiago Lemes | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação das Técnicas de elicitação | | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação da Priorização | | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação da Especialização Suplementar | | | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação da Especialização Suplementar | | Arthur Henrique | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação dos Cenários | Arthur Guilherme | | 02/11 | 11/11 | 11/11 - 12/11 | 
 | Verificação da Entrevista | | Vilmar José | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação do Perfil de usuário | Tiago Lemes | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação das Personas | | | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação das Personas | Arthur Henrique | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação da Introspecção | | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/11 | 12/11 | 12/11 |  
 | Envio da entrega | Vilmar José | | 12/11 | 12/11 | 12/11 | 
