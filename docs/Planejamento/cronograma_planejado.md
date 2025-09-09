@@ -81,7 +81,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 |----------|-------------|-----------|----------|---------|----------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/09 | 15/09 | 15/09 - 16/09 |
 | Criação de Perfis dos usuários | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 | 
-| Criação de Personas | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 |
+| Criação de Personas |  | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Questionário | Arthur Henrique | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Introspecção | Arthur Guilherme | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Glossário | Tiago Lemes | Vilmar José | 16/09 | 28/09 | 28/09 - 29/09 |
