@@ -82,11 +82,11 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/09 | 15/09 | 15/09 - 16/09 |
 | Criação de Perfis dos usuários | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 | 
 | Criação de Personas | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Questionário | | | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Questionário | Arthur Henrique | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Introspecção | | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Glossário | Vilmar José | Tiago Lemes | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Entrevista | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Glossário | | | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Glossário | Tiago Lemes | Vilmar José | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Entrevista | Felipe Guimarães | | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Brainstorming | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Priorização de requisitos: "MoSCoW" e "100 Dólares" | | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | |  16/09 | 28/09 | 28/09 - 29/09 |
