@@ -83,7 +83,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Criação de Perfis dos usuários | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 | 
 | Criação de Personas | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Questionário | Arthur Henrique | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Introspecção | | | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Introspecção | Arthur Guilherme | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Glossário | Tiago Lemes | Vilmar José | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Entrevista | Felipe Guimarães | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Elicitação de requisitos: Brainstorming | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
@@ -104,7 +104,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 |----------|-------------|-----------|----------|---------|----------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 03/10 | 06/10 | 06/10 - 07/10 |
 | Modelagem de requisitos: Cenário | Vilmar José | Tiago Lemes | 08/10 | 11/10 | 11/10 - 12/10 |
-| Modelagem de requisitos: Léxico | | | 08/10 | 11/10 | 11/10 - 12/10 |
+| Modelagem de requisitos: Léxico | Arthur Guilherme | | 08/10 | 11/10 | 11/10 - 12/10 |
 | Modelagem de requisitos: Use Case | Tiago Lemes | Vilmar José | 08/10 | 11/10 | 11/10 - 12/10 |
 | Modelagem de requisitos: Especificação suplementar | | | 08/10 | 11/10 | 11/10 - 12/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/10 | 12/10 | 12/10 | 
@@ -121,7 +121,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 15/10 | 16/10 | 16/10 - 17/10 |
-| Modelagem de requisitos - Ágil: Histórias do usuário | Tiago Lemes | | 18/10 | 20/10 | 20/10 - 21/10 |
+| Modelagem de requisitos - Ágil: Histórias do usuário | Tiago Lemes, Arthur Guilherme | | 18/10 | 20/10 | 20/10 - 21/10 |
 | Modelagem de requisitos - Ágil: Backlog | Vilmar José | Tiago Lemes | 18/10 | 20/10 | 20/10 - 21/10 |
 | Modelagem de requisitos - Ágil: NFR Framework | | | 18/10 | 20/10 | 20/10 - 21/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 21/10 | 21/10 | 21/10 | 
@@ -142,13 +142,13 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Verificação do NFR Framework | | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação dos casos de uso | | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação do Brainstorming | Vilmar José | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação do Backlog | | | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação do Backlog | Arthur Guilherme | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação do léxico | | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação das Histórias de usuários | Vilmar José | Tiago Lemes | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação das Técnicas de elicitação | | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação da Priorização | | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação da Especialização Suplementar | | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação dos Cenários | | | 02/11 | 11/11 | 11/11 - 12/11 | 
+| Verificação dos Cenários | Arthur Guilherme | | 02/11 | 11/11 | 11/11 - 12/11 | 
 | Verificação da Entrevista | | Vilmar José | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação do Perfil de usuário | Tiago Lemes | | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação das Personas | | | 02/11 | 11/11 | 11/11 - 12/11 |
@@ -168,7 +168,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 |----------|-------------|-----------|----------|---------|----------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 23/10 | 24/10 | 24/20 |
 | Pós-rastreabilidade: Backward-form | Vilmar José, Tiago Lemes | | 26/10 | 27/10 | 27/10 - 28/10 |
-| Pós-rastreabilidade: Forward-form | | | 26/10 | 27/10 | 27/10 - 28/10 |
+| Pós-rastreabilidade: Forward-form | Arthur Guilherme | | 26/10 | 27/10 | 27/10 - 28/10 |
 | Matriz de Rastreabilidade | | | 26/10 | 27/10 | 27/10 - 28/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 28/10 | 28/10 | 28/10 | 
 | Gravação da inspeção do grupo +1 | | | 29/10 | 29/10 | 29/10 | 
@@ -184,7 +184,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 14/11 | 15/11 | 15/11 |
-| Desenvolvimento do projeto final (correção e complemento) | Vilmar José | | 16/11 | 22/11 | 22/11 - 23/11 |
+| Desenvolvimento do projeto final (correção e complemento) | Vilmar José, Arthur Guilherme | | 16/11 | 22/11 | 22/11 - 23/11 |
 | Criação da lista de verificação | Tiago Lemes | | 16/11 | 22/11 | 22/11 - 23/11 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 24/11 | 24/11 | 24/11 | 
 | Envio da entrega | Vilmar José | | 24/11 | 24/11 | 24/11 |
