@@ -34,7 +34,7 @@ Essa etapa apresenta uma lista de verificação para avaliar os artefatos produz
 **Figura 1: Componentes do Rich Picture**
 ## Referências
 
-Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em: https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf. Acessado em: 05 de setembro de 2025
+Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em: https://aprender3.unb.br/pluginfile.php/3210571/mod_resource/content/2/1_5145791542719414573.pdf. Acessado em: 05 de setembro de 2025
 
 ## Histórico de versão
 
