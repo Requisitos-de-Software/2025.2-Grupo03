@@ -12,3 +12,8 @@ A escolha do SAE (Sistema de Apoio Educacional) foi baseada em alguns critérios
 --- 
 
 ## Histórico de versões
+
+| Data       | Versão | Descrição                                                        | Autor(es)                       |
+|------------|--------|------------------------------------------------------------------|---------------------------------|
+| 09/09/2025 | 1.0    | Criação do documento inicial                                     | João Sapiência, Tiago Lemes     |
+| 09/09/2025 | 1.1    | Adição dos critérios de escolha do SAE e inclusão do histórico   | João Sapiência, Tiago Lemes     |
