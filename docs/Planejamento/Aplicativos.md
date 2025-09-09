@@ -15,7 +15,8 @@ A **Tabela 1** específica o integrante e o respectivo aplicativo avaliado:
 | Vilmar José | Caixa Lotérica |
 
 ## Jornada do Estudante
-O integrante Arthur Guilherme optou pelo aplicativo Jornada do Estudante, com foco na análise das funcionalidades voltadas ao acompanhamento da vida acadêmica do usuário. O Rich Picture destaca as operações principais, como **cadastros, acompanhamento de atividades, envio de tarefas, consultas de notas e comunicados**. O resultado do Rich Picture pode ser visualizado na Figura 1 e sua legenda na Figura 2.
+O integrante Arthur Guilherme optou pelo aplicativo Jornada do Estudante, com foco na análise das funcionalidades voltadas ao acompanhamento da vida acadêmica do usuário. O Rich Picture destaca as operações principais, como **cadastros, acompanhamento de atividades, envio de tarefas, consultas de notas e comunicados**. 
+O resultado do Rich Picture pode ser visualizado na Figura 1 e sua legenda na Figura 2.
 
 **Figura 1 – Rich Picture Caixa Lotérica**
 ![Jornada do Estudante](../imagens/aplicativosAvaliados/richPictureArthurG.png)
@@ -30,12 +31,20 @@ O integrante Arthur Guilherme optou pelo aplicativo Jornada do Estudante, com fo
 ## Mercado Livre
 
 ## SAE
+O integrante Tiago Lemes analisou o aplicativo SAE (Sistema de Apoio Educacional), usado na UnB para **oferecer aprendizagem personalizada e acompanhamento acadêmico**. O Rich Picture destaca a relação entre alunos, professores, monitores e os principais módulos do sistema. A representação mostra como o SAE **organiza o aprendizado, fornece orientações personalizadas e recomenda materiais e atividades de acordo com o desempenho dos alunos**. 
+O resultado pode ser visualizado na Figura 9 e sua legenda na Figura 10.
 
+**Figura 9 – Rich Picture SAE**
+![Caixa Lotérica](../imagens/aplicativosAvaliados/richPictureTiago.jpeg)
+
+**Figura 10 – Legenda do Rich Picture Caixa Lotérica**
+![Jornada do Estudante](../imagens/aplicativosAvaliados/legendaTiago.jpeg)
 
 ## Caixa Lotérica
-O integrante Vilmar José fez o Rich Picture com o objetivo de representar os aspectos gerais do aplicativo da Caixa Lotérica de forma simplificada. Embora o sistema ofereça uma ampla variedade de funcionalidades, não foi possível retratar todas as operações disponíveis. Por isso, o foco foi direcionado às principais ações realizadas pelos usuários, como **cadastros, pagamentos, apostas e recebimento de prêmios**. O resultado pode ser observado na Figura 6.
+O integrante Vilmar José fez o Rich Picture com o objetivo de representar os aspectos gerais do aplicativo da Caixa Lotérica de forma simplificada. Embora o sistema ofereça uma ampla variedade de funcionalidades, não foi possível retratar todas as operações disponíveis. Por isso, o foco foi direcionado às principais ações realizadas pelos usuários, como **cadastros, pagamentos, apostas e recebimento de prêmios**. 
+O resultado pode ser observado na Figura 11.
 
-**Figura 6 – Rich Picture Caixa Lotérica**
+**Figura 11 – Rich Picture Caixa Lotérica**
 ![Caixa Lotérica](../imagens/aplicativosAvaliados/richPictureVilmar.png)
 
 ## Histórico de versões
