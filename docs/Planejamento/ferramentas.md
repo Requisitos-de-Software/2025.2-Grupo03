@@ -8,15 +8,14 @@ Tabela 1: ferramentas utilizadas
 
 |  | Ferramenta | Finalidade |
 |--|------------|------------|
-| ![Canva](../imagens/ferramentas/logoCanva.png) | Canva | Criação da Rich Picture |
-| ![Github](../imagens/ferramentas/logoGithub.png) | Github | Controle de versão e colaboração no código |
-| ![Google Docs](../imagens/ferramentas/logoDocs.png) | Google Docs | Produção e edição colaborativa de textos |
-| ![Google Planilhas](../imagens/ferramentas/logoPlanilhas.png) | Google Planilhas | Organização de planilhas e cronogramas |
-| ![Microsoft Teams](../imagens/ferramentas/logoTeams.png) | Microsoft Teams | Comunicação e reuniões online |
-| ![MkDocs](../imagens/ferramentas/logoMkDocs.png) | MkDocs | Criação e organização da documentação do projeto |
-| ![Visual Studio Code](../imagens/ferramentas/logoVScode.png) | Visual Studio Code | Edição da documentação |
-| ![WhatsApp](../imagens/ferramentas/logoWhatsapp.png) | WhatsApp | Canal de comunicação geral da equipe |
-
+| <img src="../imagens/ferramentas/logoCanva.png" width="100"> | Canva | Criação da Rich Picture |
+| <img src="../imagens/ferramentas/logoGithub.png" width="100"> | Github | Controle de versão e colaboração no código |
+| <img src="../imagens/ferramentas/logoDocs.png" width="100"> | Google Docs | Produção e edição colaborativa de textos |
+| <img src="../imagens/ferramentas/logoPlanilhas.png" width="100"> | Google Planilhas | Organização de planilhas e cronogramas |
+| <img src="../imagens/ferramentas/logoTeams.png" width="100"> | Microsoft Teams | Comunicação e reuniões online |
+| <img src="../imagens/ferramentas/logoMkDocs.png" width="100"> | MkDocs | Criação e organização da documentação do projeto |
+| <img src="../imagens/ferramentas/logoVScode.png" width="100"> | Visual Studio Code | Edição da documentação |
+| <img src="../imagens/ferramentas/logoWhatsapp.png" width="100"> | WhatsApp | Canal de comunicação geral da equipe |
 
 ## Referências
 
