@@ -67,6 +67,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Criação da Lista de Verificação | Tiago Lemes, Vilmar José | Arthur Henrique | 04/08 | 08/09 | 08/09 - 09/09 |
 | Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | | 04/09 | 08/09 | 08/09 - 09/09 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 |
 | Gravação da inspeção do grupo +1 | Arthur Henrique | | 10/09 | 10/09 | 10/09 |
 | Envio da entrega | Vilmar José | | 09/09 | 09/09 | 09/09 |
 | Check List de entrega | João Sapiencia | | 04/09 | 08/09 | 08/09 - 09/09 |
@@ -89,7 +90,8 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Elicitação de requisitos: Brainstorming | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Priorização de requisitos: "MoSCoW" e "100 Dólares" | | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | |  16/09 | 28/09 | 28/09 - 29/09 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
 | Gravação da inspeção do grupo +1 | | | 01/10 | 01/10 | 01/10 | 
 | Envio da entrega | Vilmar José | | 30/09 | 30/09 | 30/09 | 
 | Check List de entrega | | | 30/09 | 30/09 | 30/09 |
@@ -108,6 +110,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Modelagem de requisitos: Use Case | Tiago Lemes | Vilmar José | 08/10 | 11/10 | 11/10 - 12/10 |
 | Modelagem de requisitos: Especificação suplementar | Arthur Henrique | | 08/10 | 11/10 | 11/10 - 12/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/10 | 12/10 | 12/10 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/10 | 12/10 | 12/10 |
 | Gravação da inspeção do grupo +1 | | | 13/10 | 13/10 | 13/10 | 
 | Envio da entrega | Vilmar José | | 12/10 | 12/10 | 12/10 | 
 | Check List de entrega | | | 12/10 | 12/10 | 12/10 |
@@ -125,6 +128,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Modelagem de requisitos - Ágil: Backlog | Vilmar José | Tiago Lemes | 18/10 | 20/10 | 20/10 - 21/10 |
 | Modelagem de requisitos - Ágil: NFR Framework | | | 18/10 | 20/10 | 20/10 - 21/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 21/10 | 21/10 | 21/10 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 21/10 | 21/10 | 21/10 | 
 | Gravação da inspeção do grupo +1 | | | 22/10 | 22/10 | 22/10 | 
 | Envio da entrega | Vilmar José | | 21/10 | 21/10 | 21/10 | 
 | Check List de entrega | | | 21/10 | 21/10 | 21/10 |
@@ -171,6 +175,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Pós-rastreabilidade: Forward-form | Arthur Guilherme | | 26/10 | 27/10 | 27/10 - 28/10 |
 | Matriz de Rastreabilidade | | | 26/10 | 27/10 | 27/10 - 28/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 28/10 | 28/10 | 28/10 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 28/10 | 28/10 | 28/10 | 
 | Gravação da inspeção do grupo +1 | | | 29/10 | 29/10 | 29/10 | 
 | Envio da entrega | Vilmar José | | 28/10 | 28/10 | 28/10 | 
 | Check List de entrega | | | 28/10 | 28/10 | 28/10 |
@@ -187,6 +192,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Desenvolvimento do projeto final (correção e complemento) | Vilmar José, Arthur Guilherme | | 16/11 | 22/11 | 22/11 - 23/11 |
 | Criação da lista de verificação | Tiago Lemes | | 16/11 | 22/11 | 22/11 - 23/11 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 24/11 | 24/11 | 24/11 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 24/11 | 24/11 | 24/11 | 
 | Envio da entrega | Vilmar José | | 24/11 | 24/11 | 24/11 |
 | Check List de entrega | | | 24/11 | 24/11 | 24/11 |
 
