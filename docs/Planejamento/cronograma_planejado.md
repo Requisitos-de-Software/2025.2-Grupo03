@@ -59,17 +59,17 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
 | Definição de equipe e responsabilidades | Vilmar José | | 04/09 | 09/09 | 08/09 - 09/09 | 
-| Definição das ferramentas do projeto | | | 04/09 | 08/09 | 08/09 - 09/09 |
+| Definição das ferramentas do projeto | Tiago Lemes | Vilmar José | 04/09 | 08/09 | 08/09 - 09/09 |
 | Estruturação do repositório e documentação inicial | Felipe Guimarães, João Sapiencia | Tiago Lemes | 04/08 | 08/09 | 08/09 - 09/09 | 
-| Definição de escopo e objetivos | | | 04/09 | 08/09 | 08/09 - 09/09 | 
-| Elaboração do cronograma planejado detalhado | Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 |
+| Definição de escopo e objetivos | Vilmar José| João Sapiencia | 04/09 | 08/09 | 08/09 - 09/09 | 
+| Elaboração do cronograma planejado detalhado | Vilmar José | João Sapiencia | 04/09 | 08/09 | 08/09 - 09/09 |
 | Elaboração do cronograma executado detalhado | Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 |
 | Criação da Lista de Verificação | Tiago Lemes, Vilmar José | Arthur Henrique | 04/08 | 08/09 | 08/09 - 09/09 |
 | Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | | 04/09 | 08/09 | 08/09 - 09/09 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 | 
-| Gravação da inspeção do grupo +1 | | | 10/09 | 10/09 | 10/09 |
+| Gravação da inspeção do grupo +1 | Arthur Henrique | | 10/09 | 10/09 | 10/09 |
 | Envio da entrega | Vilmar José | | 09/09 | 09/09 | 09/09 |
-| Check List de entrega | | | 04/09 | 08/09 | 08/09 - 09/09 |
+| Check List de entrega | João Sapiencia | | 04/09 | 08/09 | 08/09 - 09/09 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
