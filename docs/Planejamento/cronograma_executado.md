@@ -54,6 +54,6 @@ Cronograma - Tik Tok. Disponível em: https://requisitos-de-software.github.io/2
 Cronograma Realizado - Lichess. Disponível em: https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7. Acesso em: 08 set. 2025.
  
 ## Histórico de versões 
-| **Versão** | **Data** | **Descrição** | **Autor** | **Revisor** |
+| Versão | Data | Descrição | Autor | Revisor |
 |------------|----------|---------------|---------------|-----------------|
 | 1.0 | 08/09 | Criação do cronograma executado | [Vilmar José](https://github.com/VilmarFagundes) | [Joao Sapiencia](https://github.com/JoaoSapiencia) |
