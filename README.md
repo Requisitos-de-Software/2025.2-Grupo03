@@ -23,49 +23,42 @@ aqui documentação do SAE
             <a href="https://github.com/ArthurGuilher62">
                 <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/ArthurGuilher62.png" />
                 <h5 class="text-center">Arthur Guilherme</h5>
-                <h5 class="text-center">231037656</h5>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/arthurhvieira1">
                 <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/arthurhvieira1.png" />
                 <h5 class="text-center">Arthur Henrique</h5>
-                <h5 class="text-center">231034064</h5>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/felipegf1">
                 <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/felipegf1.png" />
                 <h5 class="text-center">Felipe Guimarães</h5>
-                <h5 class="text-center">211041132</h5>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/MrBolt2005">
                 <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/MrBolt2005.png" />
                 <h5 class="text-center">João Felipe</h5>
-                <h5 class="text-center">231011927</h5>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/JoaoSapiencia">
                 <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/JoaoSapiencia.png" />
                 <h5 class="text-center">João Sapiencia</h5>
-                <h5 class="text-center">231026400</h5>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/TiagoTeixeira-2005">
                 <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/TiagoTeixeira-2005.png" />
                 <h5 class="text-center">Tiago Lemes</h5>
-                <h5 class="text-center">231026581</h5>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/VilmarFagundes">
                 <img style="border-radius: 50%; width: 100px; height: 100px" src="https://github.com/VilmarFagundes.png" />
                 <h5 class="text-center">Vilmar José</h5>
-                <h5 class="text-center">231026590</h5>
             </a>
         </td>
     </tr>
