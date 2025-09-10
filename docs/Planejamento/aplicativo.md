@@ -23,7 +23,7 @@ O Rich Picture é uma técnica visual usada para entender e comunicar sistemas d
 
 No nosso projeto, o grupo escolheu o SAE por ser um presente na vida acadêmica de muitos estudantes da FCTE. O Rich Picture foi elaborado no Canva, representando os atores, funcionalidades, principais ações e limites do sistema.
 
-Veja o Rich Picture na página [Aplicativo Escolhido](../Rich-picture/richpicture.md). 
+Veja o Rich Picture do nosso projeto na página [Rich Picture](../Rich-picture/richpicture.md). 
 
 ## Histórico de versões
 
