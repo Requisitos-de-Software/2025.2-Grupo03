@@ -46,7 +46,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Atas: Atas/ata.md
+  - Atas: 
+    - Ata 09/09/2025: Atas/ata09-09-2025_1.md
+    - Modelo ata: Atas/ata09-09-2025_2.md
   - Videos: Videos/videos.md
   - Apresentação: 
       - Introdução: Apresentação/apresentacao.md
