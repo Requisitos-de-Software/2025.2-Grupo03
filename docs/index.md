@@ -95,7 +95,6 @@ direcionamento de materiais de acordo com o perfil do aluno.
 
 SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html. Acesso em: 6 set. 2025.
 
-
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor | Revisor |
