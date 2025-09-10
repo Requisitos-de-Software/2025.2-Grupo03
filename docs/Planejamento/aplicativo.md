@@ -19,8 +19,11 @@ Durante a pesquisa, também foi encontrada a Portaria nº 46, de 28 de setembro 
 **Fonte: PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016**
 
 ## Rich Picture
+O Rich Picture é uma técnica visual usada para entender e comunicar sistemas de forma simples. Ele ajuda a mostrar usuários, processos, informações, limites e possíveis problemas. Por ser informal, facilita a troca de ideias entre os participantes e contribui para identificar requisitos e pontos críticos.
 
---- 
+No nosso projeto, o grupo escolheu o SAE por ser um presente na vida acadêmica de muitos estudantes da FCTE. O Rich Picture foi elaborado no Canva, representando os atores, funcionalidades, principais ações e limites do sistema.
+
+Veja o Rich Picture na página [Aplicativo Escolhido](../Rich-picture/richpicture.md). 
 
 ## Histórico de versões
 
