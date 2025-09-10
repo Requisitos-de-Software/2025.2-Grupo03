@@ -68,7 +68,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | Felipe Guimarães | 04/09 | 08/09 | 08/09 - 09/09 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 04/09 | 08/09 | 08/09 - 09/09 | 
 | Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 04/09 | 08/09 | 08/09 - 09/09 |
-| Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia, Felipe Guimarâes | Felipe Guimarâes | 10/09 | 10/09 | 10/09 |
+| Gravação da inspeção do grupo +1 | Arthur Henrique, João Felipe, João Sapiencia, Felipe Guimarâes | Felipe Guimarâes | 10/09 | 10/09 | 10/09 |
 | Envio da entrega | Vilmar José | João Felipe | 09/09 | 09/09 | 09/09 |
 | Check List de entrega | João Sapiencia | Arthur Henrique | 04/09 | 08/09 | 08/09 - 09/09 |
 
