@@ -58,19 +58,19 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-| Definição de equipe e responsabilidades | Vilmar José | | 04/09 | 09/09 | 08/09 - 09/09 | 
+| Definição de equipe e responsabilidades | Vilmar José | Arthur Henrique | 04/09 | 09/09 | 08/09 - 09/09 | 
 | Definição das ferramentas do projeto | Tiago Lemes | Vilmar José | 04/09 | 08/09 | 08/09 - 09/09 |
 | Estruturação do repositório e documentação inicial | Felipe Guimarães, João Sapiencia | Tiago Lemes | 04/08 | 08/09 | 08/09 - 09/09 | 
 | Definição de escopo e objetivos | Vilmar José| João Sapiencia | 04/09 | 08/09 | 08/09 - 09/09 | 
 | Elaboração do cronograma planejado detalhado | Vilmar José | João Sapiencia | 04/09 | 08/09 | 08/09 - 09/09 |
-| Elaboração do cronograma executado detalhado | Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 |
+| Elaboração do cronograma executado detalhado | Vilmar José | João Felipe | 04/09 | 08/09 | 08/09 - 09/09 |
 | Criação da Lista de Verificação | Tiago Lemes, Vilmar José | Arthur Henrique | 04/08 | 08/09 | 08/09 - 09/09 |
-| Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | | 04/09 | 08/09 | 08/09 - 09/09 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 | 
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 04/09 | 08/09 | 08/09 - 09/09 |
-| Gravação da inspeção do grupo +1 | Arthur Henrique | | 10/09 | 10/09 | 10/09 |
-| Envio da entrega | Vilmar José | | 09/09 | 09/09 | 09/09 |
-| Check List de entrega | João Sapiencia | | 04/09 | 08/09 | 08/09 - 09/09 |
+| Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | Felipe Guimarães | 04/09 | 08/09 | 08/09 - 09/09 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 04/09 | 08/09 | 08/09 - 09/09 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 04/09 | 08/09 | 08/09 - 09/09 |
+| Gravação da inspeção do grupo +1 | Arthur Henrique, João Felipe, João Sapiencia, Felipe Guimarâes | Felipe Guimarâes | 10/09 | 10/09 | 10/09 |
+| Envio da entrega | Vilmar José | João Felipe | 09/09 | 09/09 | 09/09 |
+| Check List de entrega | João Sapiencia | Arthur Henrique | 04/09 | 08/09 | 08/09 - 09/09 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -80,21 +80,21 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/09 | 15/09 | 15/09 - 16/09 |
-| Criação de Perfis dos usuários | Tiago Lemes | | 16/09 | 28/09 | 28/09 - 29/09 | 
-| Criação de Personas |  | Arthur Henrique | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Questionário | Arthur Henrique | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Introspecção | Arthur Guilherme | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Glossário | Tiago Lemes | Vilmar José | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Entrevista | Felipe Guimarães | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Elicitação de requisitos: Brainstorming | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Priorização de requisitos: "MoSCoW" e "100 Dólares" | | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 16/09 | 28/09 | 28/09 - 29/09 |
-| Gravação da inspeção do grupo +1 | | | 01/10 | 01/10 | 01/10 | 
-| Envio da entrega | Vilmar José | | 30/09 | 30/09 | 30/09 | 
-| Check List de entrega | | | 30/09 | 30/09 | 30/09 |
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | 12/09 | 15/09 | 15/09 - 16/09 |
+| Criação de Perfis dos usuários | Tiago Lemes | João Sapiencia | 16/09 | 28/09 | 28/09 - 29/09 | 
+| Criação de Personas | Arthur Henrique | Felipe Guimarães | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Questionário | João Sapiencia | Tiago Lemes | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Introspecção | Arthur Guilherme | João Felipe | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Glossário | João Felipe | Vilmar José | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Entrevista | Felipe Guimarães | Arthur Guilherme | 16/09 | 28/09 | 28/09 - 29/09 |
+| Elicitação de requisitos: Brainstorming | Vilmar José | Arthur Henrique | 16/09 | 28/09 | 28/09 - 29/09 |
+| Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José, Felipe Guimarães, Tiago Lemes, João Felipe | Arthur Guilherme | 16/09 | 28/09 | 28/09 - 29/09 |
+| Priorização de requisitos: "MoSCoW" e "100 Dólares" | João Sapiencia, Arthur Henrique, Arthur Guilherme | Tiago Lemes | 16/09 | 28/09 | 28/09 - 29/09 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 16/09 | 28/09 | 28/09 - 29/09 |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 16/09 | 28/09 | 28/09 - 29/09 |
+| Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia, Felipe Guimarâes | Vilmar José | 01/10 | 01/10 | 01/10 | 
+| Envio da entrega | Vilmar José | João Sapiencia | 30/09 | 30/09 | 30/09 | 
+| Check List de entrega | João Sapiencia | Tiago Lemes | 30/09 | 30/09 | 30/09 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -104,16 +104,16 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 03/10 | 06/10 | 06/10 - 07/10 |
-| Modelagem de requisitos: Cenário | Vilmar José | Tiago Lemes | 08/10 | 11/10 | 11/10 - 12/10 |
-| Modelagem de requisitos: Léxico | Arthur Guilherme | | 08/10 | 11/10 | 11/10 - 12/10 |
-| Modelagem de requisitos: Use Case | Tiago Lemes | Vilmar José | 08/10 | 11/10 | 11/10 - 12/10 |
-| Modelagem de requisitos: Especificação suplementar | Arthur Henrique | | 08/10 | 11/10 | 11/10 - 12/10 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/10 | 12/10 | 12/10 | 
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/10 | 12/10 | 12/10 |
-| Gravação da inspeção do grupo +1 | | | 13/10 | 13/10 | 13/10 | 
-| Envio da entrega | Vilmar José | | 12/10 | 12/10 | 12/10 | 
-| Check List de entrega | | | 12/10 | 12/10 | 12/10 |
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 03/10 | 06/10 | 06/10 - 07/10 |
+| Modelagem de requisitos: Cenário | Vilmar José, João Sapiencia | Tiago Lemes | 08/10 | 11/10 | 11/10 - 12/10 |
+| Modelagem de requisitos: Léxico | Arthur Guilherme, Arthur Henrique | João Felipe | 08/10 | 11/10 | 11/10 - 12/10 |
+| Modelagem de requisitos: Use Case | Tiago Lemes, Felipe Guimarães | Vilmar José | 08/10 | 11/10 | 11/10 - 12/10 |
+| Modelagem de requisitos: Especificação suplementar | Arthur Henrique, João Felipe, Vilmar José | Felipe Guimarães | 08/10 | 11/10 | 11/10 - 12/10 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 12/10 | 12/10 | 12/10 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 12/10 | 12/10 | 12/10 |
+| Gravação da inspeção do grupo +1 | Tiago Lemes, Arthur Guilherme, Felipe Guimarães | João Sapiencia | 13/10 | 13/10 | 13/10 | 
+| Envio da entrega | Vilmar José | Arthur Henrique | 12/10 | 12/10 | 12/10 | 
+| Check List de entrega | João Sapiencia | João Felipe | 12/10 | 12/10 | 12/10 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -123,15 +123,15 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 15/10 | 16/10 | 16/10 - 17/10 |
-| Modelagem de requisitos - Ágil: Histórias do usuário | Tiago Lemes, Arthur Guilherme | | 18/10 | 20/10 | 20/10 - 21/10 |
-| Modelagem de requisitos - Ágil: Backlog | Vilmar José | Tiago Lemes | 18/10 | 20/10 | 20/10 - 21/10 |
-| Modelagem de requisitos - Ágil: NFR Framework | | | 18/10 | 20/10 | 20/10 - 21/10 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 21/10 | 21/10 | 21/10 | 
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 21/10 | 21/10 | 21/10 | 
-| Gravação da inspeção do grupo +1 | | | 22/10 | 22/10 | 22/10 | 
-| Envio da entrega | Vilmar José | | 21/10 | 21/10 | 21/10 | 
-| Check List de entrega | | | 21/10 | 21/10 | 21/10 |
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 15/10 | 16/10 | 16/10 - 17/10 |
+| Modelagem de requisitos - Ágil: Histórias do usuário | Tiago Lemes, Arthur Guilherme | João Felipe | 18/10 | 20/10 | 20/10 - 21/10 |
+| Modelagem de requisitos - Ágil: Backlog | Vilmar José, Felipe Guimarães | Tiago Lemes | 18/10 | 20/10 | 20/10 - 21/10 |
+| Modelagem de requisitos - Ágil: NFR Framework | Arthur Henrique, João Felipe, João Sapiencia | Felipe Guimarães | 18/10 | 20/10 | 20/10 - 21/10 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 21/10 | 21/10 | 21/10 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Guilherme | 21/10 | 21/10 | 21/10 | 
+| Gravação da inspeção do grupo +1 | João Felipe, João Sapiencia, Vilmar | | 22/10 | 22/10 | 22/10 | 
+| Envio da entrega | Vilmar José | João Sapiencia | 21/10 | 21/10 | 21/10 | 
+| Check List de entrega | João Sapiencia | Vilmar José | 21/10 | 21/10 | 21/10 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -141,25 +141,25 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 31/10 | 01/11 | 01/11 |
-| Verificação do Rich Picture | Tiago Lemes | | 02/11 | 11/11 | 11/11 - 12/11 | 
-| Verificação do NFR Framework | | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação dos casos de uso | | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação do Brainstorming | Vilmar José | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação do Backlog | Arthur Guilherme | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação do léxico | | | 02/11 | 11/11 | 11/11 - 12/11 |
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 31/10 | 01/11 | 01/11 |
+| Verificação do Rich Picture | Tiago Lemes | Arthur Henrique | 02/11 | 11/11 | 11/11 - 12/11 | 
+| Verificação do NFR Framework | Felipe Guimarães | João Sapiencia | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação dos casos de uso | Arthur Henrique | João Felipe | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação do Brainstorming | Vilmar José | Tiago Lemes | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação do Backlog | Arthur Guilherme | Vilmar José | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação do léxico | João Sapiencia | Felipe Guimarães | 02/11 | 11/11 | 11/11 - 12/11 |
 | Verificação das Histórias de usuários | Vilmar José | Tiago Lemes | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação das Técnicas de elicitação | | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação da Priorização | | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação da Especialização Suplementar | | Arthur Henrique | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação dos Cenários | Arthur Guilherme | | 02/11 | 11/11 | 11/11 - 12/11 | 
-| Verificação da Entrevista | | Vilmar José | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação do Perfil de usuário | Tiago Lemes | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação das Personas | Arthur Henrique | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Verificação da Introspecção | | | 02/11 | 11/11 | 11/11 - 12/11 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 12/11 | 12/11 | 12/11 |  
-| Envio da entrega | Vilmar José | | 12/11 | 12/11 | 12/11 | 
-| Check List de entrega | | | 12/11 | 12/11 | 12/11 |
+| Verificação das Técnicas de elicitação | João Felipe | Felipe Guimarães | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação da Priorização | Felipe Guimarães | João Sapiencia | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação da Especialização Suplementar | João Felipe | Arthur Henrique | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação dos Cenários | Arthur Guilherme | Arthur Henrique | 02/11 | 11/11 | 11/11 - 12/11 | 
+| Verificação da Entrevista | João Sapiencia | Vilmar José | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação do Perfil de usuário | Tiago Lemes | Arthur Guilherme | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação das Personas | Arthur Henrique | Arthur Guilherme | 02/11 | 11/11 | 11/11 - 12/11 |
+| Verificação da Introspecção | Vilmar José | João Felipe | 02/11 | 11/11 | 11/11 - 12/11 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 12/11 | 12/11 | 12/11 | 
+| Envio da entrega | Vilmar José | João Sapiencia | 12/11 | 12/11 | 12/11 | 
+| Check List de entrega | João Sapiencia | Vilmar José | 12/11 | 12/11 | 12/11 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -170,15 +170,15 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 23/10 | 24/10 | 24/20 |
-| Pós-rastreabilidade: Backward-form | Vilmar José, Tiago Lemes | | 26/10 | 27/10 | 27/10 - 28/10 |
-| Pós-rastreabilidade: Forward-form | Arthur Guilherme | | 26/10 | 27/10 | 27/10 - 28/10 |
-| Matriz de Rastreabilidade | | | 26/10 | 27/10 | 27/10 - 28/10 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 28/10 | 28/10 | 28/10 | 
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 28/10 | 28/10 | 28/10 | 
-| Gravação da inspeção do grupo +1 | | | 29/10 | 29/10 | 29/10 | 
-| Envio da entrega | Vilmar José | | 28/10 | 28/10 | 28/10 | 
-| Check List de entrega | | | 28/10 | 28/10 | 28/10 |
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 23/10 | 24/10 | 24/20 |
+| Pós-rastreabilidade: Backward-form | Vilmar José, Tiago Lemes, João Felipe | Arthur Guilherme | 26/10 | 27/10 | 27/10 - 28/10 |
+| Pós-rastreabilidade: Forward-form | Arthur Guilherme, João Sapiencia | João Felipe | 26/10 | 27/10 | 27/10 - 28/10 |
+| Matriz de Rastreabilidade | Arthur Henrique, Felipe Guimarães | Tiago Lemes | 26/10 | 27/10 | 27/10 - 28/10 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 28/10 | 28/10 | 28/10 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | 28/10 | 28/10 | 28/10 | 
+| Gravação da inspeção do grupo +1 | Vilmar José, João Sapiencia, Arthur Henrique | Tiago Lemes | 29/10 | 29/10 | 29/10 | 
+| Envio da entrega | Vilmar José | João Sapiencia | 28/10 | 28/10 | 28/10 | 
+| Check List de entrega | João Sapiencia | Vilmar José | 28/10 | 28/10 | 28/10 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -189,12 +189,12 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 14/11 | 15/11 | 15/11 |
-| Desenvolvimento do projeto final (correção e complemento) | Vilmar José, Arthur Guilherme | | 16/11 | 22/11 | 22/11 - 23/11 |
-| Criação da lista de verificação | Tiago Lemes | | 16/11 | 22/11 | 22/11 - 23/11 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 24/11 | 24/11 | 24/11 | 
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 24/11 | 24/11 | 24/11 | 
-| Envio da entrega | Vilmar José | | 24/11 | 24/11 | 24/11 |
-| Check List de entrega | | | 24/11 | 24/11 | 24/11 |
+| Desenvolvimento do projeto final (correção e complemento) | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 16/11 | 22/11 | 22/11 - 23/11 |
+| Criação da lista de verificação | Tiago Lemes | Arthur Guilherme | 16/11 | 22/11 | 22/11 - 23/11 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 24/11 | 24/11 | 24/11 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 24/11 | 24/11 | 24/11 | 
+| Envio da entrega | Vilmar José | João Sapiencia | 24/11 | 24/11 | 24/11 |
+| Check List de entrega | João Sapiencia | Vilmar José | 24/11 | 24/11 | 24/11 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 

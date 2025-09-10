@@ -25,19 +25,19 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
 |------------|---------------|-----------------|-------------------------------|-------------------------------|
-| Definição de equipe e responsabilidades | Vilmar José | | 04/09 - 09/09 | 04/09 | 
+| Definição de equipe e responsabilidades | Vilmar José | Arthur Henrique | 04/09 - 09/09 | 04/09 | 
 | Definição das ferramentas do projeto | Tiago Lemes | Vilmar José | 04/09 - 08/09 | 09/09 |
 | Estruturação do repositório e documentação inicial | Felipe Guimarães, João Sapiencia | Tiago Lemes | 04/08 - 08/09 | 08/09 | 
 | Definição de escopo e objetivos | Vilmar José | João Sapiência | 04/09 | 04/09 | 
 | Elaboração do cronograma planejado detalhado | Vilmar José | João Sapiência | 04/09 - 08/09 | 09/09 |
-| Elaboração do cronograma executado detalhado | Vilmar José | | 04/09 - 08/09 | 09/09 |
+| Elaboração do cronograma executado detalhado | Vilmar José | João Felipe | 04/09 - 08/09 | 09/09 |
 | Criação da Lista de Verificação | Tiago Lemes, Vilmar José | Arthur Henrique | 04/08 - 08/09 | 04/09 |
-| Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | | 04/09 - 08/09 | 06/09 |
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 04/09 - 08/09 | 09/09 | 
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 08/09 | 09/09 |
-| Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia | | 10/09 | 10/09 | 10/09 |
-| Envio da entrega | Vilmar José | | 09/09 | 09/09 | 09/09 |
-| Check List de entrega | João Sapiencia | | 04/09 | 08/09 | 08/09 - 09/09 |
+| Rich Picture do projeto | Arthur Guilherme, Tiago Lemes | Felipe Guimarães | 04/09 - 08/09 | 06/09 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 04/09 - 08/09 | 09/09 | 
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 08/09 | 09/09 |
+| Gravação da inspeção do grupo +1 | Arthur Henrique, João Felipe, João Sapiencia, Felipe Guimarães | Felipe Guimarães | 10/09 | 10/09 | 10/09 |
+| Envio da entrega | Vilmar José | João Felipe | 09/09 | 09/09 | 09/09 |
+| Check List de entrega | João Sapiencia | Arthur Henrique | 04/09 | 08/09 | 08/09 - 09/09 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
