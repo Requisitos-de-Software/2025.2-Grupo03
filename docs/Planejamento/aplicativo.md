@@ -1,9 +1,22 @@
 ## Introdução
 
-No início do projeto, foram avaliados alguns aplicativos com o objetivo de identificar funcionalidades, limitações, como poderíamos aplicar os conteúdos aprendidos em sala e se impactam de alguma forma nossa vida cotidiana. Escrever mais depois da parte de apps avaliados.
+No início do projeto, foram avaliados diversos aplicativos com o objetivo de identificar suas funcionalidades, limitações, formas de aplicação dos conteúdos aprendidos em sala de aula e possíveis impactos em nossa vida cotidiana. Entre os sistemas analisados pelos integrantes do grupo estavam: *Jornada do Estudante*, *Uber*, *Guardiões da Saúde*, *Mercado Livre*, *SAE (Sistema de Apoio Educacional)* e *Caixa Lotérica*.
 
-## Critérios de escolha
-A escolha do SAE (Sistema de Apoio Educacional) foi baseada em alguns critérios principais: buscamos um aplicativo que fosse relevante para serviços públicos de educação, apresentasse complexidade média em relação aos requisitos e que nunca tivesse sido avaliado anteriormente na matéria. Esses fatores permitiram selecionar uma solução que proporcionasse desafios adequados ao desenvolvimento, além de garantir originalidade na análise. Com isso, apesar de ser um site, a escolha do SAE foi aprovada pelo professor da matéria de requisitos, André Barros, e pelo professor que utiliza a plataforma para realização da disciplina de Sistemas de Banco de Dados 2, Vandor Rissoli.
+Após essa avaliação preliminar, o **SAE (Sistema de Apoio Educacional)** foi selecionado como foco do projeto, por apresentar relevância no contexto da educação pública, complexidade adequada para análise, originalidade em relação a trabalhos anteriores e a possibilidade de acesso a usuários para entrevistas.  
+
+Os critérios que fundamentaram a escolha do SAE serão detalhados no próximo tópico.
+
+
+## Critério de Escolha
+
+A escolha do **SAE (Sistema de Apoio Educacional)** foi guiada por quatro critérios principais:
+
+- **Relevância**: trata-se de uma plataforma aplicada diretamente ao contexto de serviços públicos de educação, alinhando-se ao objetivo da disciplina.  
+- **Complexidade adequada**: o SAE apresenta um nível intermediário de requisitos, garantindo desafios suficientes para análise sem comprometer a viabilidade do trabalho.  
+- **Originalidade**: até então, o sistema não havia sido avaliado em trabalhos anteriores da matéria, assegurando ineditismo na proposta.  
+- **Acesso a usuários**: já existem usuários do SAE disponíveis para entrevistas e coletas de informações, o que facilita a pesquisa e o levantamento de requisitos reais
+
+Além desses pontos, o SAE foi aprovado tanto pelo professor da disciplina de Requisitos, **André Barros**, quanto pelo professor de **Sistemas de Banco de Dados 2**, **Vandor Rissoli**, que utiliza a plataforma em sua prática pedagógica. Dessa forma, a escolha do sistema se mostrou pertinente e estratégica, permitindo explorar sua integração de tecnologias educacionais com métodos de ensino inovadores.
 
 ## Termos de uso 
 Para garantir que a análise fosse feita de maneira adequada, o grupo consultou a documentação oficial do SAE (Sistema de Apoio Educacional). O SAE é creditado como software público (Figura 1), o que significa que sua documentação segue diretrizes específicas que priorizam a transparência e o acesso aberto. Isso possibilita que qualquer pessoa consulte as informações e até colabore no desenvolvimento.
