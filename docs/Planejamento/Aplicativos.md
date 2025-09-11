@@ -13,6 +13,7 @@ A **Tabela 1** específica o integrante e o respectivo aplicativo avaliado:
 | João Sapiência |  |
 | Tiago Lemes | SAE |
 | Vilmar José | Caixa Lotérica |
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Jornada do Estudante
 O integrante Arthur Guilherme optou pelo aplicativo Jornada do Estudante, com foco na análise das funcionalidades voltadas ao acompanhamento da vida acadêmica do usuário. O Rich Picture destaca as operações principais, como **cadastros, acompanhamento de atividades, envio de tarefas, consultas de notas e comunicados**. 

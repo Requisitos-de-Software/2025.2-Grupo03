@@ -14,6 +14,7 @@ Os números do Heat Map vão de 0 a 7 (7 membros da equipe), onde:
 ## Heat Map da equipe
 **Figura 1: Heat Map da equipe**
 ![Figura 1: Heat Map](../imagens/HeatMap-grupo.PNG)
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 Analisando o Heat Map, podemos ver que:
 
