@@ -35,8 +35,8 @@ SAE, Sistema de Apoio Educacional. Disponível em: [https://sae.unb.br/ajudasae/
 
 ## Histórico de versão
 
-| Versão | Data | Descrição | Autor | Revisor |
+| Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
 | 1.0 | 05/09/2025 | Elaboração do Rich Picture | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Felipe Guimaraes](https://github.com/felipegf1) |
-| 1.0 | 06/09/2025 | Criação da página de documentação | [Felipe Guimaraes](https://github.com/felipegf1) |  |
-| 1.1 | 12/09/2025 | Correção da legenda da Rich Picture e dos principais tópicos do SAE | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
+| 1.0 | 06/09/2025 | Criação da página de documentação | [Felipe Guimaraes](https://github.com/felipegf1) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1 | 12/09/2025 | Correção da legenda da Rich Picture e dos principais tópicos do SAE | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |

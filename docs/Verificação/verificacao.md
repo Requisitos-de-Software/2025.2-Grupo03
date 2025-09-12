@@ -38,7 +38,7 @@ Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em
 
 ## Histórico de versão
 
-| Versão | Data | Descrição | Autor | Revisor |
+| Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
 | 1.0 | 05/09/2025 | Elaboração da Lista de Verificação | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Vieira](https://github.com/arthurhvieira1) |
-| 1.0 | 08/09/2025 | Criação da página de documentação | [Felipe Guimaraes](https://github.com/felipegf1) |  |
+| 1.0 | 08/09/2025 | Criação da página de documentação | [Felipe Guimaraes](https://github.com/felipegf1) | [Vilmar José](https://github.com/VilmarFagundes) |

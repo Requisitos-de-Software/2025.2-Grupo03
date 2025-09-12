@@ -41,19 +41,17 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
-## Referências bibliográficas 
+## Bibliografias 
 
-SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software – 2025/2. Universidade de Brasília – FGA, 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf. Acesso em 08 set. 2025 
+SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software – 2025/2. Universidade de Brasília – FGA, 2025. Disponível em: [https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf](https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf). Acesso em 08 set. 2025 
 
-KERZNER, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. 12. ed. Hoboken: John Wiley & Sons, 2017. Acesso em 08 set. 2025 
+Cronograma - Bilheteria Digital. Disponível em: [https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final). Acesso em: 08 set. 2025. 
 
-Cronograma - Bilheteria Digital. Disponível em: https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final. Acesso em: 08 set. 2025. 
+Cronograma - Tik Tok. Disponível em: [https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/](https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/). Acesso em: 08 set. 2025. 
 
-Cronograma - Tik Tok. Disponível em: https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/. Acesso em: 08 set. 2025. 
-
-Cronograma Realizado - Lichess. Disponível em: https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7. Acesso em: 08 set. 2025.
+Cronograma Realizado - Lichess. Disponível em: [https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7](https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7). Acesso em: 08 set. 2025.
  
 ## Histórico de versões 
-| Versão | Data | Descrição | Autor | Revisor |
+| Versão | Data | Descrição | Autor(es) | Revisor |
 |------------|----------|---------------|---------------|-----------------|
 | 1.0 | 08/09 | Criação do cronograma executado | [Vilmar José](https://github.com/VilmarFagundes) | [Joao Sapiencia](https://github.com/JoaoSapiencia) |

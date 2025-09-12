@@ -67,8 +67,8 @@ Tabela 1: ferramentas utilizadas
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição | Autor | Revisor |
+| Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 09/09/2025 | Criação da página de ferramentas | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 1.0.1 | 10/09/2025 | Correção dos links de referência e das imagens | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 1.1 | 11/09/2025 | Adição de outros aplicativos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
+| 1.0 | 09/09/2025 | Criação da página de ferramentas | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.0.1 | 10/09/2025 | Correção dos links de referência e das imagens | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1 | 11/09/2025 | Adição de outros aplicativos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |

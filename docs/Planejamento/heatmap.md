@@ -23,6 +23,6 @@ Analisando o Heat Map, podemos ver que:
 
 ## Histórico de versão
 
-| Versão | Data | Descrição | Autor | Revisor |
+| Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
 | 1.0 | 07/09/2025 | Criação da página de documentação | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |

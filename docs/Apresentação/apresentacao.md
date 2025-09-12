@@ -7,3 +7,9 @@ As apresentações de cada entrega têm como objetivo principal demonstrar o des
 Além das apresentações realizadas em sala de aula, o grupo irá produzir pré-apresentações em vídeo, disponibilizadas via YouTube. Essas pré-apresentações têm como objetivo proporcionar um espaço para treinamento, aprimoramento da comunicação e revisão dos conteúdos antes das apresentações oficiais. Os vídeos serão compartilhados por meio de links, permitindo que todos os integrantes possam assistir, avaliar e sugerir melhorias, contribuindo para o desempenho.
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Victor Pires</a></strong></div>
+
+# Histórico de versões 
+
+| Data       | Versão | Autor(es)                            | Descrição                | Revisor |
+|------------|--------|--------------------------------------|--------------------------|---------|
+| 08/09/2025 | 1.0    | [João Victor Pires Sapiência Santos](https://github.com/JoaoSapiencia)   | Criação da página, inclusão dos tópicos tratados e espaço para vídeo | [Vilmar José](https://github.com/VilmarFagundes)

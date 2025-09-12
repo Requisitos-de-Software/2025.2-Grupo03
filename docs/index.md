@@ -90,6 +90,6 @@ SAE, Sistema de Apoio Educacional. Disponível em: https://sae.unb.br/ajudasae/c
 
 ## Histórico de versão
 
-| Versão | Data | Descrição | Autor | Revisor |
+| Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 06/09/2025 | Início da documentação | [Felipe Guimaraes](https://github.com/felipegf1) e [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
+| 1.0 | 06/09/2025 | Início da documentação | [Felipe Guimaraes](https://github.com/felipegf1) e [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |

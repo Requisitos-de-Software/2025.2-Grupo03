@@ -76,6 +76,6 @@ O resultado pode ser observado na Figura 8.
 
 ## Histórico de versões
 
-| Versão | Data | Descrição | Autor | Revisor |
+| Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 10/09/2025 | Criação da página de Aplicativos Avaliados | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [João Sapiência](https://github.com/JoaoSapiencia) |  |
+| 1.0 | 10/09/2025 | Criação da página de Aplicativos Avaliados | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [João Sapiência](https://github.com/JoaoSapiencia) | [Vilmar José](https://github.com/VilmarFagundes) |
