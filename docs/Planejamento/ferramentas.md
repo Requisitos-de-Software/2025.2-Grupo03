@@ -29,8 +29,6 @@ Tabela 1: ferramentas utilizadas
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-## Referências
-
 ## Referências  
 
 [1] CANVA. Disponível em: [https://www.canva.com/](https://www.canva.com/). Acesso em: 09 de abril de 2025.  
