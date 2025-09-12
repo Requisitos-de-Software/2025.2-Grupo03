@@ -9,8 +9,8 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 | **Entrega** | **Descrição** | **Data limite** |
 |---------|-----------|-------------|
-| Etapa 1 | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
-| Etapa 2 | Elicitação – Técnicas e Priorização | 30/09 |
+| [Etapa 1](#cronograma-de-entrega-1---planejamento) | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
+| [Etapa 2](#cronograma-de-entrega-2---elicitação-técnicas-e-priorização) | Elicitação – Técnicas e Priorização | 30/09 |
 | Etapa 3 | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
 | Etapa 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
 | Etapa 6 | Pós-Rastreabilidade - Gerência II | 28/10 |
@@ -38,6 +38,28 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 | Gravação da inspeção do grupo +1 | Arthur Henrique, João Felipe, Felipe Guimarães | Arthur Henrique | 10/09 | 10/09 | 10/09 |
 | Envio da entrega | Vilmar José | João Felipe | 09/09 | 09/09 | 09/09 |
 | Check List de entrega | João Sapiencia | Arthur Henrique | 04/09 | 08/09 | 08/09 - 09/09 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma de entrega 2 - Elicitação: técnicas e priorização
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
+|------------|---------------|-----------------|-------------------------------|-------------------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | | |
+| Criação de Perfis dos usuários | Tiago Lemes | João Sapiencia | | |
+| Criação de Personas | Arthur Henrique | Felipe Guimarães | | |
+| Elicitação de requisitos: Questionário | João Sapiencia | Tiago Lemes | | |
+| Elicitação de requisitos: Introspecção | Arthur Guilherme | João Felipe | | |
+| Elicitação de requisitos: Glossário | João Felipe | Vilmar José | | |
+| Elicitação de requisitos: Entrevista | Felipe Guimarães | Arthur Guilherme | | | 
+| Elicitação de requisitos: Brainstorming | Vilmar José | Arthur Henrique | | |
+| Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José, Felipe Guimarães, Tiago Lemes, João Felipe | Arthur Guilherme | | |
+| Priorização de requisitos: "MoSCoW" e "100 Dólares" | João Sapiencia, Arthur Henrique, Arthur Guilherme | Tiago Lemes | | | 
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | | |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | | |
+| Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia, Felipe Guimarâes | Vilmar José | | |
+| Envio da entrega | Vilmar José | João Sapiencia | | |
+| Check List de entrega | João Sapiencia | Tiago Lemes | | |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
