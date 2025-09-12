@@ -9,8 +9,8 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 | **Entrega** | **Descrição** | **Data limite** |
 |---------|-----------|-------------|
-| [Etapa 1](#cronograma-da-entrega-1-planejamento) | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
-| [Etapa 2](#cronograma-da-entrega-2-elicitação-técnicas-e-priorização) | Elicitação – Técnicas e Priorização | 30/09 |
+| [Etapa 1](#cronograma-de-entrega-1-planejamento) | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
+| [Etapa 2](#cronograma-de-entrega-2-elicitacao-tecnicas-e-priorizacao) | Elicitação – Técnicas e Priorização | 30/09 |
 | Etapa 3 | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
 | Etapa 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
 | Etapa 6 | Pós-Rastreabilidade - Gerência II | 28/10 |
