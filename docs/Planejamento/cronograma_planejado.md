@@ -16,13 +16,13 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Entrega** | **Descrição** | **Data limite** |
 |---------|-----------|-------------|
-| [Etapa 1](#cronograma-da-entrega-1--planejamento) | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
-| [Etapa 2](#cronograma-da-entrega-2---elicitação-técnicas-e-priorização) | Elicitação – Técnicas e Priorização | 30/09 |
-| [Etapa 3](#cronograma-da-entrega-3---modelagem-de-requisitos) | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
-| [Etapa 4](#cronograma-da-entrega-4---modelagem-de-requisitos-ágil) | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
-| [Etapa 6](#cronograma-da-entrega-6---pós-rastreabilidade-gerência-ii) | Pós-Rastreabilidade - Gerência II | 28/10 |
-| [Etapa 5](#cronograma-da-entrega-5---verificação-e-validação) | Análise de Requisitos: Verificação e Validação | 12/11 |
-| [Projeto Final](#cronograma-da-entrega-final---desenvolvimento-e-finalização-do-projeto) | Desenvolvimento e Finalização do Projeto | 24/11 |
+| [Etapa 1](#cronograma-da-entrega-1-planejamento) | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
+| [Etapa 2](#cronograma-da-entrega-2-elicitação-técnicas-e-priorização) | Elicitação – Técnicas e Priorização | 30/09 |
+| [Etapa 3](#cronograma-da-entrega-3-modelagem-de-requisitos) | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
+| [Etapa 4](#cronograma-da-entrega-4-modelagem-de-requisitos-ágil) | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
+| [Etapa 6](#cronograma-da-entrega-6-pós-rastreabilidade-gerência-ii) | Pós-Rastreabilidade - Gerência II | 28/10 |
+| [Etapa 5](#cronograma-da-entrega-5-verificação-e-validação) | Análise de Requisitos: Verificação e Validação | 12/11 |
+| [Projeto Final](#cronograma-da-entrega-final-desenvolvimento-e-finalização-do-projeto) | Desenvolvimento e Finalização do Projeto | 24/11 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 

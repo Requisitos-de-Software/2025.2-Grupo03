@@ -8,11 +8,11 @@ A **Tabela 1** específica o integrante e o respectivo aplicativo avaliado:
 | ---- | ----- | 
 | Arthur Guilherme | [Jornada do Estudante](#jornada-do-estudante) |
 | Arthur Henrique | [Uber](#uber) |
-| Felipe Guimarães | [Guardiões da Saúde](#guardiões-da-saúde) |
+| Felipe Guimarães | [Guardiões da Saúde](#guardioes-da-saude) |
 | João Felipe| [Mercado Livre](#mercado-livre) |
 | João Sapiência |  |
 | Tiago Lemes | [SAE](#sae) |
-| Vilmar José | [Caixa Lotérica](#caixa-lotérica) |
+| Vilmar José | [Caixa Lotérica](#caixa-loterica) |
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Jornada do Estudante
