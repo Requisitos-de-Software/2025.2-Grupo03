@@ -18,5 +18,5 @@ Esta apresentação é referente à entrega 1 do projeto. Com base no plano de e
 
 | Data       | Versão | Autor(es)                            | Descrição                | Revisor |
 |------------|--------|--------------------------------------|--------------------------|---------|
-| 08/09/2025 | 1.0    | [João Victor Pires Sapiência Santos](https://github.com/JoaoSapiencia)   | Criação da página, inclusão dos tópicos tratados e espaço para vídeo | [Vilmar José](https://github.com/VilmarFagundes)
+| 08/09/2025 | 1.0    | [João Victor Pires Sapiência Santos](https://github.com/JoaoSapiencia)   | Criação da página | [Vilmar José](https://github.com/VilmarFagundes)
 
