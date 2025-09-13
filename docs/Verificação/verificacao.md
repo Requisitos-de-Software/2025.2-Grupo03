@@ -27,14 +27,19 @@ Essa etapa apresenta uma lista de verificação para avaliar os artefatos produz
 | 21 | **O rich picture conta uma história clara do funcionamento do sistema?** | [Vilmar José](https://github.com/VilmarFagundes) |
 | 22 | **Os rótulos descritivos das setas indicam a natureza dos dados ou o fluxo das informações?** | [Vilmar José](https://github.com/VilmarFagundes) |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
 ## Componentes do Rich Picture
+Esse tópico apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificaçãoRPReferencias.pdf).
+
+Além disso, a Figura 1 apresenta os principais componentes que fundamentam a construção de uma rich picture. Esses elementos são de extrema importância para a compreensão do diagrama, pois ajudam a identificar atores, operações, fluxos de informação, data stores e limites do sistema.
 
 ![Figura 1: Componentes do Rich Picture](../imagens/ReferenciaRichPicture.png)
 
 **Figura 1: Componentes do Rich Picture**
-## Referências
 
-Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em: https://aprender3.unb.br/pluginfile.php/3210571/mod_resource/content/2/1_5145791542719414573.pdf. Acessado em: 05 de setembro de 2025
+## Referências
+[Introducing Rich Pictures - Rich Picture Drawing Guidelines](../arquivos/IntroducingRichPictures.pdf). Acessado em: 13 de setembro de 2025
 
 ## Histórico de versão
 

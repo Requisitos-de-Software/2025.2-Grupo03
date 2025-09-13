@@ -25,11 +25,11 @@ Para garantir que a análise fosse feita de maneira adequada, o grupo consultou 
 ![SAE](../imagens/termoUso/SAEsoftwarePublico.png)  
 **Fonte: Aplicativo SAE**
 
-Durante a pesquisa, também foi encontrada a [PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016](../imagens/PORTARIA_N__46__DE_28_DE_SETEMBRO_DE_2016-1.pdf), que trata sobre software público (Figura 2). Essa referência reforçou a segurança e a conformidade da análise realizada.
+Durante a pesquisa, também foi encontrada a [PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016](../arquivos/PORTARIA_N__46__DE_28_DE_SETEMBRO_DE_2016-1.pdf), que trata sobre software público (Figura 2). Essa referência reforçou a segurança e a conformidade da análise realizada.
 
 **Figura 2 – Portaria sobre Software Público**
 ![Portaria Software Público](../imagens/termoUso/portariaSoftwarePublico.png)  
-**Fonte: [PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016](../imagens/PORTARIA_N__46__DE_28_DE_SETEMBRO_DE_2016-1.pdf)**
+**Fonte: [PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016](../arquivos/PORTARIA_N__46__DE_28_DE_SETEMBRO_DE_2016-1.pdf)**
 
 ## Rich Picture
 O Rich Picture é uma técnica visual usada para entender e comunicar sistemas de forma simples. Ele ajuda a mostrar usuários, processos, informações, limites e possíveis problemas. Por ser informal, facilita a troca de ideias entre os participantes e contribui para identificar requisitos e pontos críticos.
