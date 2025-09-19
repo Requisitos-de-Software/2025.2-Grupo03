@@ -43,18 +43,20 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 ## Cronograma de entrega 2 - Elicitação: técnicas e priorização
 
+- Retirada do item criação de personas
+- Alteração da elicitação introspecção para Análise de Documentos
+
 | **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
 |------------|---------------|-----------------|-------------------------------|-------------------------------|
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | | |
 | Criação de Perfis dos usuários | Tiago Lemes | João Sapiencia | | |
-| Criação de Personas | Arthur Henrique | Felipe Guimarães | | |
-| Elicitação de requisitos: Questionário | João Sapiencia | Tiago Lemes | | |
-| Elicitação de requisitos: Introspecção | Arthur Guilherme | João Felipe | | |
-| Elicitação de requisitos: Glossário | João Felipe | Vilmar José | | |
-| Elicitação de requisitos: Entrevista | Felipe Guimarães | Arthur Guilherme | | | 
-| Elicitação de requisitos: Brainstorming | Vilmar José | Arthur Henrique | | |
-| Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José, Felipe Guimarães, Tiago Lemes, João Felipe | Arthur Guilherme | | |
-| Priorização de requisitos: "MoSCoW" e "100 Dólares" | João Sapiencia, Arthur Henrique, Arthur Guilherme | Tiago Lemes | | | 
+| Elicitação de requisitos: Questionário | João Sapiencia, Arthur Henrique | Tiago Lemes | | |
+| Elicitação de requisitos: Análise de Documentos | Arthur Guilherme, Tiago Lemes | João Felipe | | |
+| Elicitação de requisitos: Glossário | João Felipe, João Sapiencia | Vilmar José | | |
+| Elicitação de requisitos: Entrevista | Arthur Henrique, Tiago Lemes, Vilmar José | Arthur Guilherme | | | 
+| Elicitação de requisitos: Brainstorming | Vilmar José, Felipe Guimarães, Tiago Lemes | Arthur Henrique | | |
+| Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José, Felipe Guimarães, Tiago Lemes | Arthur Guilherme | | |
+| Priorização de requisitos: "MoSCoW" e "100 Dólares" | João Sapiencia, Arthur Henrique, Arthur Guilherme, João Felipe | Tiago Lemes | | | 
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | | |
 | Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | | |
 | Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia, Felipe Guimarâes | Vilmar José | | |
