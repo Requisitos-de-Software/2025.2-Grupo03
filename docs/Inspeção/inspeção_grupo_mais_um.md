@@ -51,5 +51,9 @@ Planejamento do Projeto, equipe, App selecionado para o projeto da disciplina, F
 | :--- | :--- | :--- | :--- |
 **Avaliar: o próprio Grupo e o Grupo +1**  | Todos os integrantes da equipe devem elaborar itens de conteúdo da disciplina com referência bibliográfica da fonte e foto do texto da referência e o nome do autor do item. Cada item deve ter o(s) autor(es) do item. Quantos mais item melhor. Conforme  | 1.0- 10/09- 21:00 |
 
----
-*Campus UnB Gama*
+
+# Histórico de versões 
+
+| Versão       | Data | Autor(es)                            | Descrição                | Revisor |
+|------------|--------|--------------------------------------|--------------------------|---------|
+| 1.0 | 19/09/2025    | [Arthur Henrique Vieira](https://github.com/arthurhvieira1)   | Criação da página | [Vilmar José](https://github.com/VilmarFagundes)
