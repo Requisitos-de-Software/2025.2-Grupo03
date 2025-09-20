@@ -64,6 +64,8 @@ nav:
     - Aplicativo escolhido: Planejamento/aplicativo.md
   - Rich Picture: Rich-picture/richpicture.md
   - Verificação: Verificação/verificacao.md
+  - Elicitação:
+    - Análise de Documentos: Elicitacao/analise_de_documentos.md
   - Inspeção:
     - Grupo: Inspeção/Inspeção_grupo.md
     - Grupo +1: Inspeção/inspeção_grupo_mais_um.md
