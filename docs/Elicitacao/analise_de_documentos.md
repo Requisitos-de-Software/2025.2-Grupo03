@@ -42,7 +42,7 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 |-----------|-----------|
 | **Usabilidade** | - A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). |
 | **Acessibilidade** | - O sistema deve ser acessível pela internet, presencial ou a distância. |
-| **Interação** | - O ambiente deve ser ágil para todos os perfis de usuários. |
+| **Interação** | - O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários. |
 | **Arquitetura** | - Deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
 | **Metodologia** | - Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). |
 | **Manutenção** | - Projeto multidisciplinar envolvendo Educação, Psicologia e Informática. |
