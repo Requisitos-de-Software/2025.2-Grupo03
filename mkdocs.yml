@@ -63,7 +63,9 @@ nav:
     - Aplicativos avaliados: Planejamento/Aplicativos.md
     - Aplicativo escolhido: Planejamento/aplicativo.md
   - Rich Picture: Rich-picture/richpicture.md
-  - Verificação: Verificação/verificacao.md
+  - Verificação: 
+    - Verificação 1: Verificacao/verificacao.md
+    - Verificação 2: Verificacao/verificacao2.md
   - Elicitação:
     - Análise de Documentos: Elicitacao/analise_de_documentos.md
   - Inspeção:
