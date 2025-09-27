@@ -71,7 +71,7 @@ nav:
     - Requisitos Elicitados: Elicitacao/requisitos_elicitados.md
     - Tecnicas de Elicitação: 
       - Análise de Documentos: Elicitacao/analise_de_documentos.md
-      - Entrevista: 
+      - Entrevista: Elicitacao/entrevista.md
       - Brainstorming: Elicitacao/brainstorming.md
   - Inspeção:
     - Grupo: Inspeção/Inspeção_grupo.md
