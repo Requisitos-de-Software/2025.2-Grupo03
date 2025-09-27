@@ -67,7 +67,12 @@ nav:
     - Verificação 1: Verificacao/verificacao.md
     - Verificação 2: Verificacao/verificacao2.md
   - Elicitação:
-    - Análise de Documentos: Elicitacao/analise_de_documentos.md
+    - Perfil de Usuário: Elicitacao/perfil_usuario.md
+    - Requisitos Elicitados: Elicitacao/requisitos_elicitados.md
+    - Tecnicas de Elicitação: 
+      - Análise de Documentos: Elicitacao/analise_de_documentos.md
+      - Entrevista: 
+      - Brainstorming: Elicitacao/brainstorming.md
   - Inspeção:
     - Grupo: Inspeção/Inspeção_grupo.md
     - Grupo +1: Inspeção/inspeção_grupo_mais_um.md
