@@ -1,4 +1,5 @@
 # Perfil de Usuário
+## Introdução
 O perfil de usuário é uma descrição das principais características das pessoas que vão usar um sistema, como idade, gẽnero e nível de escolaridade. Ele serve para ajudar a entender quem vai utilizar o produto e orientar as decisões de design e avaliação. Durante o desenvolvimento, esse perfil pode mudar conforme se aprende mais sobre os usuários.
 
 ## Metodologia
