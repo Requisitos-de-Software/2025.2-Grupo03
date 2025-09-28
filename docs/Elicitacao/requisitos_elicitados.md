@@ -15,6 +15,8 @@ Legenda das Tabelas:
 
 ### Funcionais
 
+Tabela 1: Requisitos Funcionais
+
 | ID   | Descrição | Técnicas | Implementado |
 |------|-----------|----------|--------------|
 | RF01 | O sistema deve permitir a criação e organização de questões interativas para apoiar o ensino-aprendizagem.                  | [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais) | Sim          |
@@ -47,6 +49,8 @@ Legenda das Tabelas:
 </div>
 
 ### Tabela 2: Requisitos Não Funcionais 
+
+Tabela 2: Requisitos Não Funcionais
 
 | ID    | Descrição | Técnicas | Implementado |
 |-------|-----------|----------|--------------|
