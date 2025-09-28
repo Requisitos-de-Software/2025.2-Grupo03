@@ -14,6 +14,7 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 
 
 ---
+## Requisitos Funcionais
 
 | ID   | Módulo | Descrição |
 |------|--------|-----------|
