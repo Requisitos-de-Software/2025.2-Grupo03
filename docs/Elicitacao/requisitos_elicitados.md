@@ -69,7 +69,7 @@ Tabela 1: Requisitos Funcionais
   <strong>Fonte: <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> , <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a> e <a href="https://github.com/felipegf1">Felipe Guimaraes</a> </strong>
 </div>
 
-### Tabela 2: Requisitos Não Funcionais 
+### Requisitos Não Funcionais 
 
 Tabela 2: Requisitos Não Funcionais
 
