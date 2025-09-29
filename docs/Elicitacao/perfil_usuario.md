@@ -72,7 +72,7 @@ A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada
 </div>
 
 ### Brainstorming
-O [Brainstorming](../Elicitacao/brainstorming.md) foi realizado com sete estudantes da FCTE, todos usuários de plataformas e sistemas de apoio educacional, como SAE, Aprender, SIGAA, entre outros. A atividade teve como objetivo levantar informações sobre o perfil dos usuários e identificar requisitos importantes para o projeto.
+O [Brainstorming](../Elicitacao/brainstorming_perfil.md) foi realizado com sete estudantes da FCTE, todos usuários de plataformas e sistemas de apoio educacional, como SAE, Aprender, SIGAA, entre outros. A atividade teve como objetivo levantar informações sobre o perfil dos usuários e identificar requisitos importantes para o projeto.
 
 ## Perfil de Usuário
 | Critério                 | Especificação |

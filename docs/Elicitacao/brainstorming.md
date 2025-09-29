@@ -1,10 +1,10 @@
 # Brainstorming 
 
 ## Introdução 
-É uma discussão informal onde cada participante pode expressar suas ideias livremente para que um novo sistema seja desenvolvido. Os participantes devem ser de diferentes áreas e cada um possui um tempo para compartilhar suas ideias. Esta técnica tem foco na resolução de um problema particular. É comumente utilizada para definir o principal valor a ser entregue. Permite que os stakeholders pensem “fora da caixa” acerca do problema a ser resolvido, aumentando o potencial criativo das ideias. As ideias geradas são gravadas, as inapropriadas são descartadas e as apropriadas são priorizadas.
+O brainstorming uma discussão informal onde cada participante pode expressar suas ideias livremente para que um novo sistema seja desenvolvido. Os participantes devem ser de diferentes áreas e cada um possui um tempo para compartilhar suas ideias. Esta técnica tem foco na resolução de um problema particular. É comumente utilizada para definir o principal valor a ser entregue. Permite que os stakeholders pensem “fora da caixa” acerca do problema a ser resolvido, aumentando o potencial criativo das ideias. As ideias geradas são gravadas, as inapropriadas são descartadas e as apropriadas são priorizadas.
 
 ## Metodologia
-O Brainstorming foi conduzido pelos alunos [Felipe Guimaraes](https://github.com/felipegf1) (apresentador), [Vilmar José](https://github.com/VilmarFagundes) (segundo apresentador/suporte) e [João Felipe](https://github.com/MrBolt2005.png) (redator). Para essa técnica tivemos a participação de 8 convidados que se enquadram no perfil de usuário do sistema. Durante o processo foi contextualizado do que se trata o nosso sistema para os usuários e nós do grupo levantamos questões para que os convidados pudessem expor suas ideias e propor suas sugestões 
+O Brainstorming foi conduzido pelos alunos [Felipe Guimaraes](https://github.com/felipegf1) (apresentador), [Vilmar José](https://github.com/VilmarFagundes) (segundo apresentador/suporte) e [João Felipe](https://github.com/MrBolt2005.png) (redator). Para essa técnica tivemos a participação de 7 convidados que se enquadram no perfil de usuário do sistema. Durante o processo foi contextualizado do que se trata o nosso sistema para os usuários e nós do grupo levantamos questões para que os convidados pudessem expor suas ideias e propor suas sugestões 
 
 ## Requisitos elicitados
 
