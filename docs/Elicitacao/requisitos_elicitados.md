@@ -43,9 +43,30 @@ Tabela 1: Requisitos Funcionais
 | RF22 | Deve mostrar como o desempenho está sendo calculado.                                                                        | [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais) | Sim          |
 | RF23 | O sistema deve direcionar cada aluno a materiais adequados à sua situação cognitiva e preferências.                         | [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais) | Sim          |
 | RF24 | Deve manter coerência com o estado cognitivo e permitir que professores adicionem/mudem conteúdos.                          | [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais) | Sim          |
+| RF25 | O sistema deve conter um banco de questões geradas pelo professor         | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF26 | O banco de questões do sistema deve conter questões de outras origens     | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF27 | Os materiais devem estar postados em tópicos de conteúdos separados na disciplina | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF28 | O banco de questões deve estar separado por conteúdo                      | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF29 | A interface deve conter o progresso do aluno na disciplina toda           | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF30 | A interface deve exibir um progresso em porcentagem do andamento da disciplina | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF31 | A interface deve exibir como está a porcentagem de acertos e erros das atividades de cada conteúdo | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF32 | A interface deve exibir a média geral da turma em cada atividade          | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF33 | A interface deve exibir a média do usuário após a atividade               | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF34 | O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF35 | O usuário deve marcar os tópicos da disciplina no qual ele sente mais facilidade | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF36 | O sistema deve enviar por email avisos para o usuário revisar conteúdos passados | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF37 | O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF38 | O sistema deve ter um índice de conteúdos ordenado pela porcentagem de erros em cada conteúdo | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF39 | O sistema deve enviar lembretes para o usuário sobre datas de entregas de atividades | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF40 | O sistema deve possuir vídeo aula                                         | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF41 | O assistente virtual deve ser visível na interface                        | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF42 | O assistente virtual deve ser customizável pelo usuário                   | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF43 | O assistente virtual deve sugerir questões com o conteúdo da vídeo aula   | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF44 | O assistente virtual deve notificar qual conteúdo o aluno está tendo mais dificuldade | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
+| RF45 | O assistente virtual deve notificar o professor da disciplina com que parte do conteúdo os alunos estão tendo mais dificuldade | [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados) |              |
 
 <div align="center">
-  <strong>Fonte: <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong>
+  <strong>Fonte: <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> , <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a> e <a href="https://github.com/felipegf1">Felipe Guimaraes</a> </strong>
 </div>
 
 ### Tabela 2: Requisitos Não Funcionais 
