@@ -1,8 +1,8 @@
 # Lista de Verificação da Entrega 2
 Essa etapa apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 2, tanto para o nosso grupo quanto ao grupo +1.  
 
-## First Thing First 
-Esse tópico apresenta a lista de verificação da técnica de elicitação First Thing First 
+## Priorização - First Thing First 
+Esse tópico apresenta a lista de verificação da técnica de priorização **First Thing First** 
 
 | ID | Item de Verificação | Autor |  
 |----|---------------------|-------|  
@@ -29,13 +29,32 @@ Esse tópico apresenta a lista de verificação da técnica de elicitação Firs
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificacaoFTF.pdf).
 
+## Priorização - Three Level Scale 
+Esse tópico apresenta a lista de verificação da técnica de priorização **Three Level Scale**  
+
+| ID | Item de Verificação | Autor |  
+|----|---------------------|-------|  
+| 1 | **Todos os requisitos foram listados em três categorias (Alta, Média, Baixa)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+| 2 | **A prioridade foi estabelecida com base em uma tabela de importância × urgência?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+| 3 | **Existe uma priorização definida para cada requisito?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+| 4 | **As partes interessadas concordaram com a priorização estabelecida?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+| 5 | **As prioridades altas correspondem a requisitos importantes e urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+| 6 | **As prioridades médias correspondem a requisitos importantes, mas não urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+| 7 | **As prioridades baixas correspondem a requisitos não importantes e não urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+| 8 | **Requisitos classificados como urgentes, mas que não são importantes para os objetivos do negócio, foram identificados e tratados adequadamente (definidos como baixa prioridade ou eliminados)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>  
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificacaoTLS.pdf).
+
 
 ## Referências
-SERRANO, Milene; SERRANO, Maurício - Aula 07.
-Acessado em: 21 de setembro de 2025.
+SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 21 de setembro de 2025.
+WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. Disponível em: [Software Requirements](../arquivos/PriorizacaoRequisitos.pdf).
 
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
 | 1.0 | 26/09/2025 | Elaboração da Lista de Verificação de First Thing First | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | |
+| 1.1 | 28/09/2025 | Elaboração da Lista de Verificação de Three Level Scale | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | |
