@@ -1,4 +1,7 @@
 # Lista de Verificação da Entrega 2
+
+Introdução
+
 Essa etapa apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 2, tanto para o nosso grupo quanto ao grupo +1.  
 
 ## Priorização - First Thing First 
@@ -59,8 +62,25 @@ Esse tópico apresenta a lista de verificação da técnica de priorização **1
 | 5 | **A soma de todos os dólares alocados não ultrapassa 100 dólares?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
 | 6 | **Os integrantes do grupo de priorização foram instruidos a evitar manipulações de valores?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
 | 7 | **Os dólares foram alocados de acordo com os interesses dos membros?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
-| 8 | **Cada requisito teve suas média dos valores recebidas?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
+| 8 | **Cada requisito teve suas média dos valores recebidas?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
 
+## Elicitação - Entrevista
+Esse tópico apresenta a lista de verificação da técnica de elicitação **entrevista** 
+
+| ID | Item de Verificação | Autor |
+|----|---------------------|-------|
+| 1 | **Foi elaborado um roteiro para a entrevista ?** | [Felipe Guimaraes](https://github.com/felipegf1) |  
+| 2 | **O roteiro descreve os assuntos a serem abordados em termos gerais?** | [Felipe Guimaraes](https://github.com/felipegf1) |  
+| 3 | **No roteiro foi identificado a estrutura da entrevista ?** | [Felipe Guimaraes](https://github.com/felipegf1) |  
+| 4 | **Durante a entrevista o entrevistador evitou influenciar as respostas do entrevistado?** | [Felipe Guimaraes](https://github.com/felipegf1) |  
+| 5 | **Durante a entrevista o entrevistador evitou fazer perguntas muito longas ?** | [Felipe Guimaraes](https://github.com/felipegf1) |  
+| 6 | **Durante a entrevista, o entrevistador evitou utilizar termos técnicos desconhecidos pelo entrevistado?** | [Felipe Guimaraes](https://github.com/felipegf1) |  
+| 7 | **Durante a entrevista , foram feitas anotações por parte do entrevistador ?** | [Felipe Guimaraes](https://github.com/felipegf1) |  
+| 8 | **Após a entrevista , foi gerado um relatório ou ata ?** | [Felipe Guimaraes](https://github.com/felipegf1) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>  
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/FelipeVerificaçãoListaEntrevista.pdf).
 
 ## Referências
 SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 21 de setembro de 2025.
@@ -73,3 +93,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | 1.0 | 26/09/2025 | Elaboração da Lista de Verificação de First Thing First | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | |
 | 1.1 | 28/09/2025 | Elaboração da Lista de Verificação de Three Level Scale | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | |
 | 1.2 | 26/09/2025 | Elaboração da Lista de Verificação de 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | |
+| 1.3 | 30/09/2025 | Elaboração da Lista de Verificação da entrevista | [Felipe Guimaraes](https://github.com/felipegf1) | |
