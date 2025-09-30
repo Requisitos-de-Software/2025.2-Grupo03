@@ -64,21 +64,45 @@ A gravação da entrevista está contida no link a seguir: https://youtu.be/eK-q
 
 ### Requisitos Elicitados
 
-A tabela 3 apresenta os requistos funcionais extraidos e a tabela 4 apresenta os requisitos não funcionais extraidos, com indentificador, módulo e descrição.
+A tabela 3 apresenta os requistos funcionais extraidos e a tabela 4 apresenta os requisitos não funcionais extraidos, com indentificador descrição.
 
 <div align="center"><strong>Tabela 3: Requisitos funcionais extraídos</strong></div>
 
-| **ID** | **Módulo** | **Descrição** |
-|--------|------------|---------------|
+| ID   | Descrição                                                                                                     | Técnicas | Implementado |
+|------|---------------------------------------------------------------------------------------------------------------|----------|--------------|
+| RF01 | O sistema deve identificar e registrar o comportamento do estudante.                                          | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RF02 | O sistema deve destacar padrões inadequados de comportamento dos estudantes.                                  | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RF03 | O sistema deve permitir a criação e visualização de dashboards com dados de desempenho dos alunos.            | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF04 | O sistema deve permitir a criação e visualização de gráficos com dados de desempenho dos alunos.              | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF05 | O sistema deve enviar notificações automáticas para acompanhamento acadêmico.                                 | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RF06 | O sistema deve enviar relatórios automáticos para acompanhamento acadêmico.                                   | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RF07 | O sistema deve permitir que o usuário escolha o canal de notificação desejado.                                | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RF08 | O sistema deve integrar módulos com outros AVAs.                                                              | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RF09 | O sistema deve oferecer relatórios sobre as aptidões dos estudantes.                                          | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF10 | O sistema deve oferecer relatórios sobre as habilidades dos estudantes.                                       | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF11 | O sistema deve oferecer relatórios sobre as competências dos estudantes.                                      | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF12 | O sistema deve integrar chatbots para suporte imediato a dúvidas dos estudantes.                              | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF13 | O sistema deve permitir a análise detalhada dos tipos de questões utilizadas para avaliação de perfil.         | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF14 | O sistema deve fornecer relatórios específicos de progresso dos estudantes.                                   | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RF15 | O sistema deve comparar ensino e aprendizagem ao longo do curso.                                              | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RF16 | O sistema deve analisar a origem das dificuldades do aluno (ex.: matérias anteriores, defasagem nos estudos). | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
 
-<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 <div align="center"><strong>Tabela 4: Requisitos não funcionais extraídos</strong></div>
 
-| **ID** | **Módulo** | **Descrição** |
-|--------|------------|---------------|
+| ID    | Descrição                                                                                       | Técnicas | Implementado |
+|-------|-------------------------------------------------------------------------------------------------|----------|--------------|
+| RNF01 | O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RNF02 | O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RNF03 | O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos.   | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RNF04 | O sistema deve ser compatível com dispositivos móveis (responsividade).                          | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RNF05 | O sistema deve seguir padrões de acessibilidade para garantir usabilidade a todos os usuários. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RNF06 | O sistema deve possibilitar integração com outros AVAs e sistemas educacionais externos. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não |
+| RNF07 | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim |
+| RNF08 | O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD.       | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim|
 
-<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Histórico de versões 
 | Versão | Data | Descrição | Autor(es) | Revisor |
