@@ -77,14 +77,14 @@ Esse tópico apresenta a lista de verificação da técnica de priorização **M
 | 4 | **Os requisitos Must são realmente essenciais/críticos para o sucesso do projeto?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 5 | **Caso os requisitos Must não sejam implementados, o projeto não será considerado concluído com sucesso?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 6 | **Os requisitos Should são importantes, mas não impedem o sucesso do projeto caso não sejam incluídos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 7 | **Os requisitos Could foram identificados como desejáveis e viáveis apenas se houver tempo e recursos disponíveis?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 8 | **Os itens classificados como Could foram avaliados quanto à sua relação com a satisfação do cliente?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 9 | **Os requisitos Won’t foram conscientemente excluídos por não serem prioritários neste momento?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 10 | **As decisões sobre o que será Won’t foram baseadas em retorno sobre investimento ou impacto estratégico?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 11 | **Os requisitos Won’t correspondem a funcionalidades que não serão implementadas na release atual?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 12 | **A exclusão dos requisitos Won’t não compromete a entrega ou o uso do produto?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 13 | **Todos os stakeholders podem participar da classificação dos requisitos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 14 | **A classificação foi feita com base no conhecimento real do negócio pelos interessados?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 7 | **Os requisitos Could foram identificados como desejáveis e viáveis apenas se houver tempo e recursos disponíveis?** | [João Felipe](https://github.com/MrBolt2005) |
+| 8 | **Os itens classificados como Could foram avaliados quanto à sua relação com a satisfação do cliente?** | [João Felipe](https://github.com/MrBolt2005) |
+| 9 | **Os requisitos Won’t foram conscientemente excluídos por não serem prioritários neste momento?** | [João Felipe](https://github.com/MrBolt2005) |
+| 10 | **As decisões sobre o que será Won’t foram baseadas em retorno sobre investimento ou impacto estratégico?** | [João Felipe](https://github.com/MrBolt2005) |
+| 11 | **Os requisitos Won’t correspondem a funcionalidades que não serão implementadas na release atual?** | [Felipe Guimaraes](https://github.com/felipegf1) |
+| 12 | **A exclusão dos requisitos Won’t não compromete a entrega ou o uso do produto?** | [Felipe Guimaraes](https://github.com/felipegf1) |
+| 13 | **Todos os stakeholders podem participar da classificação dos requisitos?** | [Felipe Guimaraes](https://github.com/felipegf1) |
+| 14 | **A classificação foi feita com base no conhecimento real do negócio pelos interessados?** | [Felipe Guimaraes](https://github.com/felipegf1) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>  
 
