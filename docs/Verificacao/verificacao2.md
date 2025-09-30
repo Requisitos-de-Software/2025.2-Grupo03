@@ -66,6 +66,30 @@ Esse tópico apresenta a lista de verificação da técnica de priorização **1
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificação100Dolares.pdf).
 
+# Priorização - MoSCoW
+Esse tópico apresenta a lista de verificação da técnica de priorização **MoSCoW** 
+
+| ID | Item de Verificação | Autor |
+|----|---------------------|-------|
+| 1 | **A priorização possui quatro classificações de prioridade (Must, Should, Could, Won’t)?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 2 | **As classes de priorização foram definidas de maneira clara e compreensível para todos os stakeholders?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 3 | **A técnica foi usada com linguagem simples e acessível a todos os envolvidos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 4 | **Os requisitos Must são realmente essenciais/críticos para o sucesso do projeto?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 5 | **Caso os requisitos Must não sejam implementados, o projeto não será considerado concluído com sucesso?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 6 | **Os requisitos Should são importantes, mas não impedem o sucesso do projeto caso não sejam incluídos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 7 | **Os requisitos Could foram identificados como desejáveis e viáveis apenas se houver tempo e recursos disponíveis?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 8 | **Os itens classificados como Could foram avaliados quanto à sua relação com a satisfação do cliente?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 9 | **Os requisitos Won’t foram conscientemente excluídos por não serem prioritários neste momento?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 10 | **As decisões sobre o que será Won’t foram baseadas em retorno sobre investimento ou impacto estratégico?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 11 | **Os requisitos Won’t correspondem a funcionalidades que não serão implementadas na release atual?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 12 | **A exclusão dos requisitos Won’t não compromete a entrega ou o uso do produto?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 13 | **Todos os stakeholders podem participar da classificação dos requisitos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 14 | **A classificação foi feita com base no conhecimento real do negócio pelos interessados?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
+
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. 
+Para acessar esse PDF [clique aqui](../arquivos/LVMoscowGrupo3.pdf)
+
 ## Elicitação - Entrevista
 Esse tópico apresenta a lista de verificação da técnica de elicitação **entrevista** 
 
