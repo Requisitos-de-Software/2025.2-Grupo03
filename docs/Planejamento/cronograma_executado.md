@@ -48,20 +48,19 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
 |------------|---------------|-----------------|-------------------------------|-------------------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | | |
-| Criação de Perfis dos usuários | Tiago Lemes | João Sapiencia | | |
-| Elicitação de requisitos: Questionário | João Sapiencia, Arthur Henrique | Tiago Lemes | | |
-| Elicitação de requisitos: Análise de Documentos | Arthur Guilherme, Tiago Lemes | João Felipe | | |
-| Elicitação de requisitos: Glossário | João Felipe, João Sapiencia | Vilmar José | | |
-| Elicitação de requisitos: Entrevista | Arthur Henrique, Tiago Lemes, Vilmar José | Arthur Guilherme | | | 
-| Elicitação de requisitos: Brainstorming | Vilmar José, Felipe Guimarães, Tiago Lemes | Arthur Henrique | | |
-| Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José, Felipe Guimarães, Tiago Lemes | Arthur Guilherme | | |
-| Priorização de requisitos: "MoSCoW" e "100 Dólares" | João Sapiencia, Arthur Henrique, Arthur Guilherme, João Felipe | Tiago Lemes | | | 
-| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | | |
-| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | | |
-| Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia, Felipe Guimarâes | Vilmar José | | |
-| Envio da entrega | Vilmar José | João Sapiencia | | |
-| Check List de entrega | João Sapiencia | Tiago Lemes | | |
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | 10/09 | 11/09 |
+| Criação de Perfis dos usuários | Tiago Lemes | João Sapiencia | 30/09 | 27/09 |
+| Elicitação de requisitos: Análise de Documentos | Arthur Guilherme, Tiago Lemes | João Felipe | 29/09 | 20/09 |
+| Elicitação de requisitos: Glossário | João Felipe, João Sapiencia | Vilmar José | 29/09 |  |
+| Elicitação de requisitos: Entrevista | Arthur Henrique, Tiago Lemes, Vilmar José | Arthur Guilherme | 29/09 | 25/09 | 
+| Elicitação de requisitos: Brainstorming | Vilmar José, Felipe Guimarães, João Felipe | Arthur Henrique | 29/09 | 26/09 |
+| Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José, Felipe Guimarães, Tiago Lemes | Arthur Guilherme | 30/09 | 29/09 |
+| Priorização de requisitos: "MoSCoW" e "100 Dólares" | João Sapiencia, Arthur Guilherme, João Felipe | Tiago Lemes | 30/09 | 30/09 | 
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 30/09 | 30/09 |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 30/09 | 30/09 |
+| Gravação da inspeção do grupo +1 | Arthur Henrique, João Sapiencia, Felipe Guimarâes | Vilmar José | 01/10 | 01/10 |
+| Envio da entrega | Vilmar José | João Sapiencia | 30/09 | 30/09 |
+| Check List de entrega | João Sapiencia | Tiago Lemes | 30/09 | 30/09 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
