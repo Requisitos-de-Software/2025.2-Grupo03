@@ -86,5 +86,5 @@ Visual Paradigm. *Prioritizing Requirements with MoSCoW Method: A Guide for Agil
 
 | Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
 |--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
-| 1.0    | 30/09/2025 | Realização da priorização MoSCoW por meio de entrevista com usuário | [João Sapiência](https://github.com/JoaoSapiencia), [João Felipe](https://github.com/JoaoFelipe) | -             |
+| 1.0    | 30/09/2025 | Realização da priorização MoSCoW por meio de entrevista com usuário | [João Sapiência](https://github.com/JoaoSapiencia), [João Felipe](https://github.com/JoaoFelipe) | [Arthur Henrique](https://github.com/arthurhvieira1)             |
 
