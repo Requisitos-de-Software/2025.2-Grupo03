@@ -86,6 +86,7 @@ Esse tópico apresenta a lista de verificação da técnica de priorização **M
 | 13 | **Todos os stakeholders podem participar da classificação dos requisitos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 14 | **A classificação foi feita com base no conhecimento real do negócio pelos interessados?** | [Arthur Henrique](https://github.com/arthurhvieira1) |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>  
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. 
 Para acessar esse PDF [clique aqui](../arquivos/LVMoscowGrupo3.pdf)
