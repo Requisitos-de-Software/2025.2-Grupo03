@@ -117,7 +117,7 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 26/09/2025 | Elaboração da Lista de Verificação de First Thing First | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Henrique](https://github.com/arthurhvieira1 |
+| 1.0 | 26/09/2025 | Elaboração da Lista de Verificação de First Thing First | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.1 | 28/09/2025 | Elaboração da Lista de Verificação de Three Level Scale | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.2 | 26/09/2025 | Elaboração da Lista de Verificação de 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Joao Sapiencia](https://github.com/JoaoSapiencia) |
 | 1.3 | 30/09/2025 | Elaboração da Lista de Verificação da entrevista | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Henrique](https://github.com/arthurhvieira1) |
