@@ -100,6 +100,7 @@ A Tabela 3 apresenta as informações do usuário que participou da etapa de pri
 Além disso, a gravação da elicitação conferida em: [https://youtu.be/8Hh06DF-9sE?si=NwLLUl49qYllB9-e](https://youtu.be/8Hh06DF-9sE?si=NwLLUl49qYllB9-e).
 
 ## Referências
+SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 30 de setembro de 2025.
 
 ## Histórico de versão
 
