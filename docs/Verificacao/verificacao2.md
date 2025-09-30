@@ -64,6 +64,8 @@ Esse tópico apresenta a lista de verificação da técnica de priorização **1
 | 7 | **Os dólares foram alocados de acordo com os interesses dos membros?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
 | 8 | **Cada requisito teve suas média dos valores recebidas?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
 
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificação100Dolares.pdf).
+
 ## Elicitação - Entrevista
 Esse tópico apresenta a lista de verificação da técnica de elicitação **entrevista** 
 
