@@ -2,6 +2,8 @@
 
 Documento baseado na lista de verificação feita para a entrega 2 do Grupo +1. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 2 do Grupo +1. 
 
+Tabela 1: Lista de verificação da entrega 2 
+
 | ID  | Item                                                                                                                                               | Autor                                                                                                                                      | Revisor | Status |
 |-----|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|
 | 1   | O perfil do usuário é definido por mais de uma forma (técnica de elicitação e/ou ferramenta)?                                                       | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342)                                                |         |        |
