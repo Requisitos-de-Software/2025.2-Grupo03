@@ -1,7 +1,7 @@
 # Análise de Documentos 
 
 Os requisitos a seguir foram **elicitados por meio da técnica de Análise de Documentos**.  
-O vídeo no qual foi realizada a análise de documentos pode ser conferido em: [clique aqui para assistir](https://www.youtube.com/watch?v=ks_NzAzg-g4).  
+O vídeo no qual foi realizada a análise de documentos pode ser conferido em: [https://www.youtube.com/watch?v=ks_NzAzg-g4](https://www.youtube.com/watch?v=ks_NzAzg-g4).  
 
 A elicitação utilizou como base as seguintes páginas do SAE:  
 - [Conheça o SAE](https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html), para os **requisitos funcionais e não-funcionais**;  

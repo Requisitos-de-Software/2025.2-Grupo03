@@ -71,10 +71,13 @@ nav:
     - Perfil de Usuário: Elicitacao/perfil_usuario.md
     - Brainstorming - Perfil de Usuário: Elicitacao/brainstorming_perfil.md
     - Requisitos Elicitados: Elicitacao/requisitos_elicitados.md
-    - Tecnicas de Elicitação: 
+    - Técnicas de Elicitação: 
       - Análise de Documentos: Elicitacao/analise_de_documentos.md
       - Entrevista: Elicitacao/entrevista.md
       - Brainstorming - Elicitação: Elicitacao/brainstorming.md
+    - Técnicas de Priorização: 
+      - First Thing First: Elicitacao/first_thing_first.md
+      - Three Level Scale: Elicitacao/three_level_scale.md
   - Inspeção:
     - Grupo: 
       - Entrega 1: Inspeção/inspeção_grupo_1.md
