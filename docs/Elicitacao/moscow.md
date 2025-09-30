@@ -81,3 +81,10 @@ A priorização MoSCoW foi essencial para alinhar as expectativas do cliente com
 Serrano, Milene; Serrano, Maurício. *Requisitos (Aula 07): Elicitação, Modelagem e Análise*. UnB Gama, Brasília, 2023. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>. Acesso em: 2 de maio de 2025.  
 Agile Business Consortium. *MoSCoW Prioritisation*. Disponível em: <https://www.agilebusiness.org/dsdm-project-framework/moscow-prioririsation.html>. Acesso em: 2 de maio de 2025.  
 Visual Paradigm. *Prioritizing Requirements with MoSCoW Method: A Guide for Agile Projects*. Disponível em: <https://guides.visual-paradigm.com/prioritizing-requirements-with-moscow-method-a-guide-for-agile-projects/>. Acesso em: 2 de maio de 2025.
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
+|--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
+| 1.0    | 30/09/2025 | Realização da priorização MoSCoW por meio de entrevista com usuário | [João Sapiência](https://github.com/JoaoSapiencia), [João Felipe](https://github.com/JoaoFelipe) | -             |
+
