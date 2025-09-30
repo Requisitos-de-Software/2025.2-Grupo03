@@ -6,6 +6,10 @@ O brainstorming uma discussão informal onde cada participante pode expressar su
 ## Metodologia
 O Brainstorming foi conduzido pelos alunos [Felipe Guimaraes](https://github.com/felipegf1) (apresentador), [Vilmar José](https://github.com/VilmarFagundes) (segundo apresentador/suporte) e [João Felipe](https://github.com/MrBolt2005.png) (redator). Para essa técnica tivemos a participação de 7 convidados, Durante a sessão buscamos identificar os diferentes tipos de usuários do sistema, suas características, necessidades, objetivos e possíveis limitações. As informações geradas nesta sessão serviram como base para definir o perfil de usuário.
 
+| Data | Hora | Local |
+|--------|------|------|
+| 26/09/2025 | 13:10 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
 ## Tópicos discutidos
 
 Tabela 1: Tópicos discutidos

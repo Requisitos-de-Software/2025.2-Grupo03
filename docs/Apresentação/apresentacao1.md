@@ -12,7 +12,7 @@ Esta apresentação é referente à entrega 1 do projeto. Com base no plano de e
 
 ## Vídeo da apresentação
 
----
+- [Link do video no youtube](https://www.youtube.com/watch?v=Quyhjf1USRs)
 
 ## Histórico de versões
 

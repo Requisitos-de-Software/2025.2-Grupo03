@@ -55,6 +55,7 @@ nav:
   - Apresentação: 
       - Introdução: Apresentação/apresentacao.md
       - Apresentação 1: Apresentação/apresentacao1.md
+      - Apresentação 2: Apresentação/apresentacao2.md
   - Planejamento: 
     - HeatMap: Planejamento/heatmap.md
     - Ferramentas: Planejamento/ferramentas.md
@@ -64,8 +65,8 @@ nav:
     - Aplicativo escolhido: Planejamento/aplicativo.md
   - Rich Picture: Rich-picture/richpicture.md
   - Verificação: 
-    - Verificação 1: Verificacao/verificacao.md
-    - Verificação 2: Verificacao/verificacao2.md
+    - Entrega 1: Verificacao/verificacao.md
+    - Entrega 2: Verificacao/verificacao2.md
   - Elicitação:
     - Perfil de Usuário: Elicitacao/perfil_usuario.md
     - Brainstorming - Perfil de Usuário: Elicitacao/brainstorming_perfil.md
@@ -75,5 +76,9 @@ nav:
       - Entrevista: Elicitacao/entrevista.md
       - Brainstorming - Elicitação: Elicitacao/brainstorming.md
   - Inspeção:
-    - Grupo: Inspeção/Inspeção_grupo.md
-    - Grupo +1: Inspeção/inspeção_grupo_mais_um.md
+    - Grupo: 
+      - Entrega 1: Inspeção/Inspeção_grupo_1.md
+      - Entrega 2: Inspeção/Inspeção_grupo_2.md
+    - Grupo +1: 
+      - Entrega 1: Inspeção/inspeção_grupo_+1_1.md
+      - Entrega 2: Inspeção/inspeção_grupo_+1_2.md
