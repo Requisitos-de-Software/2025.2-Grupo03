@@ -66,7 +66,7 @@ Esse tópico apresenta a lista de verificação da técnica de priorização **1
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificação100Dolares.pdf).
 
-# Priorização - MoSCoW
+## Priorização - MoSCoW
 Esse tópico apresenta a lista de verificação da técnica de priorização **MoSCoW** 
 
 | ID | Item de Verificação | Autor |
@@ -121,3 +121,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | 1.1 | 28/09/2025 | Elaboração da Lista de Verificação de Three Level Scale | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | |
 | 1.2 | 26/09/2025 | Elaboração da Lista de Verificação de 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | |
 | 1.3 | 30/09/2025 | Elaboração da Lista de Verificação da entrevista | [Felipe Guimaraes](https://github.com/felipegf1) | |
+| 1.4 | 30/09/2025 | Elaboração da Lista de Verificação do MoScoW | [Arthur Henrique Vieira](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1) e [João Felipe](https://github.com/MrBolt2005) | |
