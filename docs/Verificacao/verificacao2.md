@@ -109,6 +109,24 @@ Esse tópico apresenta a lista de verificação da técnica de elicitação **en
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/FelipeVerificaçãoListaEntrevista.pdf).
 
+## Elicitação - Brainstorming 
+Esse tópico apresenta a lista de verificação da técnica de elicitação **brainstorming**
+
+| ID | Item de Verificação | Autor |
+|----|---------------------|-------|
+| 1  | Foi feita uma reunião com especialistas de diversos setores?  |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 2  |  A sessão foi entre 8 e 12 usuários finais? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 3  | Os perfis de usuário são semelhantes? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 4  | A sessão foi iniciada com uma pergunta que sumariza o objetivo de entender o que os usuários querem e precisam no produto? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 5  | A pergunta se refere ao “Sistema ideal” para que os participantes não se limitem ao que eles acreditam que a tecnologia possa fazer? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 6  | A sessão tem um moderador? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 7  | A sessão possui um secretário? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 8  | A sessão possui um cinegrafista? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 9  | Na atividade de priorização, cada participante registrou em um formulário, os cinco itens que considera essenciais para o produto? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 10 | No formulário, foi registrado os números dos itens? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 11 | No formulário, foi registrado a descrição do item? |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 12 | No formulário, foi registrado o porque esse item é importante? |  [Vilmar José](https://github.com/VilmarFagundes) |
+
 ## Referências
 SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 21 de setembro de 2025.
 WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. Disponível em: [Software Requirements](../arquivos/PriorizacaoRequisitos.pdf).
@@ -122,3 +140,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | 1.2 | 26/09/2025 | Elaboração da Lista de Verificação de 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Joao Sapiencia](https://github.com/JoaoSapiencia) |
 | 1.3 | 30/09/2025 | Elaboração da Lista de Verificação da entrevista | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.4 | 30/09/2025 | Elaboração da Lista de Verificação do MoScoW | [Arthur Henrique Vieira](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1) e [João Felipe](https://github.com/MrBolt2005) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)|
+| 1.5 | 30/09/2025 | Elaboração da Lista de Verificação do brainstorming | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
