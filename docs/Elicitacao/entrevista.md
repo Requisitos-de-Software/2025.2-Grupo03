@@ -60,7 +60,7 @@ O roteiro foi elaborado em conjunto por [Arthur Henrique](https://github.com/art
 
 ### Gravação 
 
-A gravação da entrevista está contida no link a seguir: https://youtu.be/eK-qXv4SoGc
+A gravação da entrevista está contida no link a seguir: [https://youtu.be/eK-qXv4SoGc](https://youtu.be/eK-qXv4SoGc)
 
 ### Requisitos Elicitados
 
@@ -106,9 +106,7 @@ A tabela 3 apresenta os requistos funcionais extraidos e a tabela 4 apresenta os
 
 ## Referencias 
 
-Vazquez, Carlos Eduardo; Simões, Guilherme Siqueira. Engenharia de requisitos: software orientado ao negócio. Rio de Janeiro, 2016. Disponível em: https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20negócio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf. Acesso em: 30 set. 2025.
-
-Robby. Elicitation Interview Questions. Your Career Support. 24 out. 2022. Disponível em: https://yourcareersupport.com/elicitation-interview-questions/. Acesso em: 30 SET. 2025.
+Robby. Elicitation Interview Questions. Your Career Support. 24 out. 2022. Disponível em: [https://yourcareersupport.com/elicitation-interview-questions/](https://yourcareersupport.com/elicitation-interview-questions/). Acesso em: 30 SET. 2025.
 
 ## Histórico de versões 
 | Versão | Data | Descrição | Autor(es) | Revisor |
