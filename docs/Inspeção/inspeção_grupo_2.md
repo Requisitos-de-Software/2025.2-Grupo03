@@ -20,7 +20,7 @@ Tabela 1: lista de verificação da entrega 2
 
 ## Vídeo da inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://www.youtube.com/watch?v=MYahn-Bq4cw)
 
 ## Histórico de versão
 
