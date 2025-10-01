@@ -127,6 +127,10 @@ Esse tópico apresenta a lista de verificação da técnica de elicitação **br
 | 11 | No formulário, foi registrado a descrição do item? |  [Vilmar José](https://github.com/VilmarFagundes) |
 | 12 | No formulário, foi registrado o porque esse item é importante? |  [Vilmar José](https://github.com/VilmarFagundes) |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui]( ../arquivos/Grupo03VilmarJoseVerifacaçãoListaTécnicadeelicitação(1).pdf )
+
 ## Referências
 SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 21 de setembro de 2025.
 WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. Disponível em: [Software Requirements](../arquivos/PriorizacaoRequisitos.pdf).
