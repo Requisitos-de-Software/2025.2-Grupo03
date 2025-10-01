@@ -56,7 +56,7 @@ A elicitação de requisitos foi conduzida pelos integrantes [Vilmar José](http
 
 ### Roteiro da entrevista 
 
-O roteiro foi elaborado em conjunto por [Artur Henrique](https://github.com/arthurhvieira1) e [Tiago Lemes](https://github.com/TiagoTeixeira-2005) seguindo a ordem das questões elaboradas, o documento das questões está disponível em PDF [aqui](../arquivos/entrevistaVandor%20(1).pdf).
+O roteiro foi elaborado em conjunto por [Arthur Henrique](https://github.com/arthurhvieira1) e [Tiago Lemes](https://github.com/TiagoTeixeira-2005) seguindo a ordem das questões elaboradas, o documento das questões está disponível em PDF [aqui](../arquivos/entrevistaVandor%20(1).pdf).
 
 ### Gravação 
 
