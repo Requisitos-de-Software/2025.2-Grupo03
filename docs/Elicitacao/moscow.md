@@ -90,7 +90,7 @@ A Tabela 5 apresenta as informações do usuário que participou da etapa de pri
 | Isaque Camargo | 30/09/2025 | 16:00 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
-Além disso, a gravação da elicitação conferida em: [https://youtu.be/uLOp7-jHY7Y](https://youtu.be/uLOp7-jHY7Y).
+Além disso, a gravação da elicitação conferida em: [https://youtu.be/N-bMKNZjJzk](https://youtu.be/N-bMKNZjJzk).
 
 ## Conclusão
 
