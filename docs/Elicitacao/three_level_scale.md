@@ -85,6 +85,7 @@ A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem decresc
 A Tabela 3 apresenta as informações do usuário que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
 <div align="center"><strong>Tabela 3: Usuário Real e Informações da Gravação</strong></div>
+
 | Nome | Data | Hora | Local|
 |-------------------------|-----------------|-----------------|------------------|
 | Mariana Schumann | 29/09/2025 | 13:30 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
@@ -99,4 +100,4 @@ SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 30 de setembro de 20
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 29/09/2025 | Criação do documento do Three Level Scale | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | |
+| 1.0    | 29/09/2025 | Criação do documento do Three Level Scale | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Vilmar José](https://github.com/VilmarFagundes) |
