@@ -23,6 +23,7 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 ## Resultados
 
 ### Must Have (Deve Ter)
+**Tabela 1 - Requisitos classificados como Must Have**  
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF20   | Acompanhamento Real (Real)        | O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade. |
@@ -37,7 +38,10 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 | RF24   | Apoio à Decisão (MAD)             | Deve mostrar como o desempenho está sendo calculado.                     |
 | RF10   | Acompanhamento Real (Real)        | A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo. |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
 ### Should Have (Deveria Ter)
+**Tabela 2 - Requisitos classificados como Should Have**  
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF51   | Sistema Tutor Inteligente (STI)   | O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo. |
@@ -49,7 +53,10 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 | RF08   | Acompanhamento Real (Real)        | A interface deve exibir um progresso em porcentagem do andamento da disciplina. |
 | RF17   | Acompanhamento Real (Real)        | O sistema deve enviar lembretes para o usuário sobre datas de entregas de atividades. |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
 ### Could Have (Poderia Ter)
+**Tabela 3 - Requisitos classificados como Could Have**  
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF34   | Cooperação (Integra)              | O sistema deve integrar outros softwares educacionais (como AVAs).       |
@@ -57,20 +64,23 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 | RF37   | Interface Animado (MInA)          | A integração deve visar a compreensão da situação de aprendizagem.       |
 | RF48   | Projeto de Monitoria Estudantil (PMon) | Deve disponibilizar informações sobre horários e locais de monitoria.    |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
 ### Won't Have (Não Terá)
+**Tabela 4 - Requisitos classificados como Won't Have**  
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF36   | Interface Animado (MInA)          | O sistema deve criar um personagem antropomórfico para interação direta com o estudante. |
 | RF14   | Acompanhamento Real (Real)        | O usuário deve marcar os tópicos da disciplina no qual ele sente mais facilidade. |
 | RF46   | Projeto de Monitoria Estudantil (PMon) | O assistente virtual deve acompanhar interações.                         |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ### Gravação da Validação com Usuário
 
 Para validar a priorização, foi realizada uma reunião com o usuário Isaque Camargo, conduzida por João Victor Pires. Durante a reunião, foram discutidas e validadas as categorias atribuídas aos requisitos.
 
-- *Gravação 1*: [YouTube - Validação MoSCoW](https://www.youtube.com/embed/-ntORMR2FnE)
-
+- *Gravação 1*: [YouTube - Validação MoSCoW]()
 
 ## Conclusão
 
