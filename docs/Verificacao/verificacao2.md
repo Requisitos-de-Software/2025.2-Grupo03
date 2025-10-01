@@ -57,7 +57,7 @@ Esse tópico apresenta a lista de verificação da técnica de priorização **1
 |----|---------------------|-------|
 | 1 | **Foram dados exatos 100 dólares imaginarios para o grupo de priorização?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
 | 2 | **Cada membro do grupo fez sua propria alocação de seus dólares aos requisitos?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
-| 3 | **Os requisitos que não tiveram dólares alocados foram considerados com o valor 0** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
+| 3 | **Os requisitos que não tiveram dólares alocados foram considerados com o valor 0?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
 | 4 | **Não há requisitos que ultrapassem 100 dólares?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
 | 5 | **A soma de todos os dólares alocados não ultrapassa 100 dólares?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
 | 6 | **Os integrantes do grupo de priorização foram instruidos a evitar manipulações de valores?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  
@@ -107,7 +107,7 @@ Esse tópico apresenta a lista de verificação da técnica de elicitação **en
 
 <div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>  
 
-Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/FelipeVerificaçãoListaEntrevista.pdf).
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/FelipeVerifacaçãoListaEntrevista.pdf).
 
 ## Elicitação - Brainstorming 
 Esse tópico apresenta a lista de verificação da técnica de elicitação **brainstorming**
