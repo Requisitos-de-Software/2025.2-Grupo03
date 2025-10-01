@@ -98,7 +98,8 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 30/09/2025 | Criação do documento do 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | |
+| 1.0    | 30/09/2025 | Criação do documento do 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+
 
 
 
