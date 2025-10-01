@@ -103,4 +103,4 @@ SAE, Sistema de Apoio Educacional. Disponível em: [https://sae.unb.br/ajudasae/
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 27/09/2025 | Construção do Perfil do Usuário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Felipe Guimaraes](https://github.com/felipegf1)| |
+| 1.0 | 27/09/2025 | Construção do Perfil do Usuário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Felipe Guimaraes](https://github.com/felipegf1)| [Vilmar José](https://github.com/VilmarFagundes) |
