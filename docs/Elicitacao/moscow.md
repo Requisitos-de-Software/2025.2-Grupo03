@@ -80,11 +80,17 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
-### Gravação da Validação com Usuário
+## Gravação
+A Tabela 5 apresenta as informações do usuário que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
-Para validar a priorização, foi realizada uma reunião com o usuário Isaque Camargo, conduzida por João Victor Pires. Durante a reunião, foram discutidas e validadas as categorias atribuídas aos requisitos.
+<div align="center"><strong>Tabela 5: Usuário Real e Informações da Gravação</strong></div>
 
-- *Gravação 1*: [YouTube - Validação MoSCoW]()
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| Isaque Camargo | 30/09/2025 | 16:00 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+Além disso, a gravação da elicitação conferida em: [https://youtu.be/uLOp7-jHY7Y](https://youtu.be/uLOp7-jHY7Y).
 
 ## Conclusão
 
