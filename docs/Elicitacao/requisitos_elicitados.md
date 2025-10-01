@@ -105,4 +105,4 @@ Tabela 2: Requisitos Não Funcionais
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 27/09/2025 | Criação da pagina | [Felipe Guimaraes](https://github.com/felipegf1)  | |
+| 1.0    | 27/09/2025 | Criação da pagina | [Felipe Guimaraes](https://github.com/felipegf1)  |  [Vilmar José](https://github.com/VilmarFagundes) |
