@@ -165,5 +165,5 @@ SAE, Trabalhos Futuros. Disponível em: [https://sae.unb.br/ajudasae/conhecasae/
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 20/09/2025 | Análise de Documentos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Arthur Guilherme](https://github.com/ArthurGuilher62) | |
-| 2.0    | 27/09/2025 | Alteração nas tabelas | [Felipe Guimaraes](https://github.com/felipegf1) | |
+| 1.0    | 20/09/2025 | Análise de Documentos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 2.0    | 27/09/2025 | Alteração nas tabelas | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Vieira](https://github.com/arthurhvieira1) |
