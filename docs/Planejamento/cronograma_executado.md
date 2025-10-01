@@ -51,7 +51,6 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | 10/09 | 11/09 |
 | Criação de Perfis dos usuários | Tiago Lemes | João Sapiencia | 30/09 | 27/09 |
 | Elicitação de requisitos: Análise de Documentos | Arthur Guilherme, Tiago Lemes | João Felipe | 29/09 | 20/09 |
-| Elicitação de requisitos: Glossário | João Felipe, João Sapiencia | Vilmar José | 29/09 |  |
 | Elicitação de requisitos: Entrevista | Arthur Henrique, Tiago Lemes, Vilmar José | Arthur Guilherme | 29/09 | 25/09 | 
 | Elicitação de requisitos: Brainstorming | Vilmar José, Felipe Guimarães, João Felipe | Arthur Henrique | 29/09 | 26/09 |
 | Priorização de requisitos: "First Thing First" e "Three level scale" | Vilmar José, Felipe Guimarães, Tiago Lemes | Arthur Guilherme | 30/09 | 29/09 |
