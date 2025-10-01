@@ -12,7 +12,7 @@ Na Tabela 1 estão todos os integrantes da equipe que participaram desta etapa d
 
 | **Nome** | **Quais etapas participou** |
 |------|-------------------------|
-| Artur Henrique | Ajudou no desenvolvimento das perguntas, Executou a gravação da entrevista |
+| Arthur Henrique | Ajudou no desenvolvimento das perguntas, Executou a gravação da entrevista |
 | Tiago Lemes | Ajudou no desenvolvimento das perguntas, Participou da entrevista como secretário, transcreveu respostas, auxiliou na elicitação de requisitos |
 | Vilmar José | Realizou a entrevista, publicou video no YouTube (não listado), auxiliou na elicitação de requisitos, estruturou a documentação final da entrevista|
 
