@@ -23,7 +23,8 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 ## Resultados
 
 ### Must Have (Deve Ter)
-**Tabela 1 - Requisitos classificados como Must Have**  
+**Tabela 1 - Requisitos classificados como Must Have** 
+
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF20   | Acompanhamento Real (Real)        | O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade. |
@@ -42,6 +43,7 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 
 ### Should Have (Deveria Ter)
 **Tabela 2 - Requisitos classificados como Should Have**  
+
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF51   | Sistema Tutor Inteligente (STI)   | O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo. |
@@ -57,6 +59,7 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 
 ### Could Have (Poderia Ter)
 **Tabela 3 - Requisitos classificados como Could Have**  
+
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF34   | Cooperação (Integra)              | O sistema deve integrar outros softwares educacionais (como AVAs).       |
@@ -68,6 +71,7 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 
 ### Won't Have (Não Terá)
 **Tabela 4 - Requisitos classificados como Won't Have**  
+
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF36   | Interface Animado (MInA)          | O sistema deve criar um personagem antropomórfico para interação direta com o estudante. |
