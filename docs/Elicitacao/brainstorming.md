@@ -72,5 +72,5 @@ RETRAINING. Técnicas de elicitação de requisitos: brainstorming. Guia facetad
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 26/09/2025 | Gravação do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) , [Vilmar José](https://github.com/VilmarFagundes) e [João Felipe](https://github.com/MrBolt2005.png) | |
-| 1.0    | 28/09/2025 | Criação da Página do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) | |
+| 1.0    | 26/09/2025 | Gravação do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) , [Vilmar José](https://github.com/VilmarFagundes) e [João Felipe](https://github.com/MrBolt2005.png) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)|
+| 1.0    | 28/09/2025 | Criação da Página do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |

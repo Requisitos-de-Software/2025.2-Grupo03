@@ -1,6 +1,6 @@
 # Apresentação 1
 
-## Tópicos tratados
+## Tópicos 
 
 Esta apresentação é referente à entrega 1 do projeto. Com base no plano de ensino da disciplina, o objetivo inicial é apresentar como foi feito o planejamento da equipe em relação ao projeto, abordando os seguintes tópicos:
 
