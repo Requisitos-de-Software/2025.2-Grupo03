@@ -17,7 +17,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 A atividade de tabulação e priorização dos requisitos foi conduzida presencialmente com o integrante Arthur Guilherme, juntamente com RENAN PEREIRA, usuária real que participou validando os requisitos. Nessa etapa, foi utilizada o 100 dólares, distribuindo os 100 dólares(pontos) entre as funcionalidades.
 
 ## Tabela de Priorização
-A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem decrescente de prioridade.
+A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem crescente de ID.
 
 | ID | Categoria                             | Requisito                                                                                                        | Prioridade |
 |--------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------|
@@ -55,8 +55,7 @@ A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem decresc
 | RF50   | Sistema Tutor Inteligente             | O assistente virtual deve atuar como agente colaborativo na aprendizagem                                         | 2          |
 | RF51   | Sistema Tutor Inteligente             | O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo                                          | 1          |
 | RF52   | Sistema Tutor Inteligente             | O sistema deve apresentar ao professor qual aluno possui comportamento adequado                                  | 2          |
-
-|total|||100|
+|total| | |100|
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -82,4 +81,5 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
 | 1.0    | 30/09/2025 | Criação do documento do 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | |
+
 
