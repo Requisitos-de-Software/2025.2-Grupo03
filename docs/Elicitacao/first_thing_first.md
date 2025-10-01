@@ -106,4 +106,4 @@ SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 30 de setembro de 20
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 29/09/2025 | Criação do documento do First Thing First | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | |
+| 1.0    | 29/09/2025 | Criação do documento do First Thing First | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
