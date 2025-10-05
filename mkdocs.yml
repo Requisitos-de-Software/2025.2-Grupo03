@@ -79,6 +79,12 @@ nav:
       - Three Level Scale: Elicitacao/three_level_scale.md
       - $100: Elicitacao/100_dolares.md
       - MoSCoW: Elicitacao/moscow.md
+  - Modelagem:
+    - Metodologias Tradicionais:
+      - Casos de Uso: Modelagem/casos_de_uso.md
+      - Cenário: Modelagem/cenario.md
+      - Especificação Suplementar: Modelagem/especificacao_suplementar.md
+      - Léxico: Modelagem/lexico.md
   - Inspeção:
     - Grupo: 
       - Entrega 1: Inspeção/inspeção_grupo_1.md
