@@ -1,6 +1,6 @@
 # Lista de Verificação da Entrega 2
 
-Introdução
+## Introdução
 
 Essa etapa apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 2, tanto para o nosso grupo quanto ao grupo +1.  
 
