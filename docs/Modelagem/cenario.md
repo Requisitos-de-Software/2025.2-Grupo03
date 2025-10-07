@@ -11,7 +11,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |                                       |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |                                       |
-| [Felipe Guimaraes](https://github.com/felipegf1) |                                       |
+| [Felipe Guimaraes](https://github.com/felipegf1) |   Criou os cenários 01, 02 e 03, referente aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  Criou os cenários 04, 05 e 06, que são referentes, respectivamente, aos requisitos RF15, RF19 e RF20.                                 |
@@ -22,6 +22,52 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 ## Metodologia
 
 ## Cenários
+
+### Cenário 01: Exibição do Progresso Geral na Disciplina
+**Requisito Associado:** RF08 - A interface deve exibir um progresso em porcentagem do andamento da disciplina.
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **ID**              | CE01    |
+| **Título**          | Progresso Geral da Disciplina  |
+| **Metas/Objetivos** | Permitir que o aluno visualize o quanto já avançou na disciplina, incentivando o acompanhamento contínuo e a conclusão dos conteúdos.                                                                                          |
+| **Contexto**        | O aluno acessa a plataforma e deseja entender seu progresso global dentro de uma disciplina específica.                                                                                                                        |
+| **Ator(es)**        | - Aluno<br>- Sistema de controle de progresso                                                                                                                                                                                  |
+| **Recursos**        | - Banco de dados de atividades concluídas e pendentes<br>- Módulo de cálculo de progresso<br>- Interface de exibição gráfica (ex: barra de progresso ou percentual numérico)                                                   |
+| **Exceções**        | - Falha na atualização automática do progresso após novas atividades concluídas.<br>- Dados inconsistentes no banco de atividades.                                                                                             |
+| **Restrições**      | - O progresso deve ser atualizado em tempo real após cada conclusão de atividade.<br>- A interface deve ser clara e acessível em todos os dispositivos.                                                                        |
+| **Episódios**       | 1. O aluno acessa a página da disciplina.<br>2. O sistema consulta os dados de atividades concluídas e pendentes.<br>3. Calcula o percentual de progresso.<br>4. Exibe o progresso em formato visual (porcentagem e/ou barra). |
+
+### Cenário 02: Exibição da Porcentagem de Acertos por Conteúdo
+**Requisito Associado:** RF09 - A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo.
+
+| **Elemento**        | **Descrição**   |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **ID**              | CE02    |
+| **Título**          | Desempenho de Acertos por Conteúdo  |
+| **Metas/Objetivos** | Fornecer ao aluno uma visão detalhada de seu desempenho em cada conteúdo, destacando pontos fortes e incentivando o aprimoramento.                                             |
+| **Contexto**        | O aluno deseja acompanhar sua taxa de acertos em cada conteúdo para entender onde está indo bem e onde precisa melhorar.                                                       |
+| **Ator(es)**        | - Aluno<br>- Sistema de monitoramento de desempenho                                                                   |
+| **Recursos**        | - Banco de dados de resultados das atividades<br>- Módulo de cálculo de desempenho<br>- Interface de exibição de desempenho (gráficos ou indicadores numéricos)              |
+| **Exceções**        | - Dados incompletos de atividades podem afetar o cálculo da porcentagem.<br>- Atividades ainda não corrigidas não entram no cálculo.                                           |
+| **Restrições**      | - A porcentagem deve ser atualizada automaticamente após a correção de cada atividade.<br>- Deve ser exibida de forma compreensível e visualmente intuitiva.                   |
+| **Episódios**       | 1. O aluno acessa o banco de questões.<br>2. O sistema calcula o percentual de acertos em cada conteúdo.<br>3. Exibe a porcentagem de forma gráfica ou numérica. |
+
+### Cenário 03: Exibição da Porcentagem de Erros por Conteúdo
+**Requisito Associado:** RF10 - A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo.
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**              | CE03 |
+| **Título**          | Desempenho de Erros por Conteúdo  |
+| **Metas/Objetivos** | Permitir que o aluno identifique conteúdos com maiores índices de erro, auxiliando no direcionamento dos estudos e revisões.   |
+| **Contexto**        | O aluno quer verificar em quais conteúdos tem mais dificuldades, observando a taxa de erros.     |
+| **Ator(es)**        | - Aluno<br>- Sistema de monitoramento de desempenho   |
+| **Recursos**        | - Banco de dados de atividades e resultados<br>- Módulo de cálculo de desempenho<br>- Interface de exibição de desempenho (gráficos ou indicadores numéricos)   |
+| **Exceções**        | - Falha no registro correto dos resultados das atividades.<br>- Atividades ainda não finalizadas não devem ser contabilizadas. |
+| **Restrições**      | - O cálculo deve considerar apenas atividades concluídas.<br>- A exibição deve ser clara e comparável entre diferentes conteúdos. |
+| **Episódios**       | 1. O aluno acessa o banco de questões.<br>2. O sistema identifica a quantidade de erros em cada atividade.<br>3. Calcula a porcentagem de erros por conteúdo.<br>4. Exibe a porcentagem de forma gráfica ou numérica. |
+
 
 ### Cenário 04: Lembretes de Revisão de Conteúdos
 **Requisito Associado:** RF15 - O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados.
@@ -81,4 +127,5 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 05/10/2025 | Criação do documento dos Cados de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.0    | 05/10/2025 | Criação do documento de cenários | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.1    | 07/10/2025 | Criação dos cenarios CE01 , CE02 e CE03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
