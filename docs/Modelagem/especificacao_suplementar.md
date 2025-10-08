@@ -41,6 +41,7 @@ A estrutura foi adaptada às particularidades do projeto, utilizando uma linguag
 As funcionalidades foram identificadas durante o processo de elicitação de requisitos e estão detalhadas tanto na seção de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) quanto nos [Casos de Uso](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/casos_de_uso/) desenvolvidos.
 
 ### 2. Usabilidade
+Esta seção lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente, incluindo aspectos como prevenção de erros, design e estética, ajuda e documentação, consistência e padronização na interface e acessibilidade.
 
 <div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
 
@@ -62,6 +63,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
 </div>
 
 ### 3. Confiabilidade
+Esta seção trata da estabilidade, segurança e integridade do sistema, bem como sua capacidade de operar corretamente mesmo em situações inesperadas, considerando frequência e tolerância a falhas, capacidade de recuperação, previsibilidade, exatidão e tempo médio entre falhas.
 
 <div align="center"><strong>Tabela 3: Requisitos de Confiabilidade</strong></div>
 
@@ -82,6 +84,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
 </div>
 
 ### 4. Suportabilidade
+Esta seção descreve os requisitos relacionados à facilidade de manutenção, evolução e adaptabilidade do sistema, incluindo aspectos como testabilidade, escalabilidade, internacionalização e extensibilidade.
 
 <div align="center"><strong>Tabela 4: Requisitos de Suportabilidade</strong></div>
 
@@ -103,6 +106,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
 </div>
 
 ### 5. Performance
+Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluindo eficiência sob diferentes condições, tempo de resposta, uso de memória, utilização da CPU, capacidade de processamento e disponibilidade da aplicação.
 
 <div align="center"><strong>Tabela 5: Requisitos de Performance</strong></div>
 
