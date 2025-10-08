@@ -102,7 +102,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-## UC07 – Análise Cognitiva e Apoio à Aprendizagem  
+### UC07 – Análise Cognitiva e Apoio à Aprendizagem  
 **Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve analisar documentos escolares (atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
 
 
@@ -124,7 +124,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ---
 
-## UC08 – Identificação de Conhecimento sobre o Conteúdo  
+### UC08 – Identificação de Conhecimento sobre o Conteúdo  
 **Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
 
 
@@ -145,7 +145,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ---
 
-## UC09 – Avaliação de Comportamento Escolar  
+### UC09 – Avaliação de Comportamento Escolar  
 **Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
 
 | Campo      | Descrição |
