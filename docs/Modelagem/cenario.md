@@ -189,4 +189,4 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento de cenários | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.1    | 07/10/2025 | Criação dos cenarios CE01 , CE02 e CE03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
-| 1.2    | 08/10/2025 | Atualização de informação no documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.2    | 08/10/2025 | Atualização de informações no documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
