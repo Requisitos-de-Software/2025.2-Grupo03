@@ -25,7 +25,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [Felipe Guimaraes](https://github.com/felipegf1) |                                       |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |                                       |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Especificação Suplementar e classificação dos requisitos não funcionais: [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).                                      |
 | [Vilmar José](https://github.com/VilmarFagundes) |                                       |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -46,7 +46,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
 
 | **Requsito** | **Descrição** |
 | ------------------- | ---------------- |
-|  |  |
+| [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). |
 
 <div align="center">
     <strong>
@@ -76,8 +76,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
         <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
         <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
         <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
         <a href="https://github.com/VilmarFagundes">Vilmar José</a>
     </strong>
 </div>
@@ -88,7 +87,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
 
 | **Requsito** | **Descrição** |
 | ------------------- | ---------------- |
-|  |  |
+| [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
 
 <div align="center">
     <strong>
@@ -118,8 +117,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
         <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
         <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
         <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
         <a href="https://github.com/VilmarFagundes">Vilmar José</a>
     </strong>
 </div>
@@ -131,3 +129,4 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento da Especificação Suplementar | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Sapiência](https://github.com/JoaoSapiencia) |
+| 1.1    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF01 e RNF05 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) | |
