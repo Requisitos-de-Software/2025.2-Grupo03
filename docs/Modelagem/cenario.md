@@ -180,6 +180,62 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 ---
 
+### Cenário 07: Análise Cognitiva e Apoio à Aprendizagem  
+**Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve analisar documentos escolares(atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
+
+<div style="text-align: center;"><strong> Tabela 3 - Cenário 07 </strong></div>
+
+| Elemento       | Descrição |
+|----------------|-----------|
+| **Título**     | Análise Cognitiva e Apoio à Aprendizagem |
+| **Metas/Objetivos** | Avaliar a situação cognitiva de cada aluno e oferecer suporte personalizado para melhorar o processo de aprendizagem. |
+| **Contexto**    | O sistema educacional utiliza algoritmos de inferência cognitiva para analisar documentos escolares (provas e atividades) e identificar dificuldades específicas de cada aluno. Com base nessa análise, o assistente virtual sugere estratégias de reforço ao aluno. |
+| **Ator(es)**    | - Aluno<br>- Professor<br>- Assistente Virtual |
+| **Recursos**    | - Módulo de análise documental<br>- Algoritmos de inferência cognitiva<br>- Banco de dados de desempenho escolar |
+| **Exceções**    | - Documentos insuficientes para análise<br>- Dados inconsistentes ou corrompidos |
+| **Restrições**  | A análise deve respeitar a privacidade dos dados dos alunos e seguir diretrizes pedagógicas. |
+| **Episódios**   | 1. O sistema acessa os documentos escolares do aluno.<br>2. Identifica padrões de dificuldade.<br>3. Sugere conteúdo adaptados para suas dificuldades.<br>4. Monitora a evolução do aluno ao longo do tempo. |
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+### Cenário 08: Identificação de Conhecimento sobre o Conteúdo  
+**Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
+
+<div style="text-align: center;"><strong> Tabela 3 - Cenário 08 </strong></div>
+
+| Elemento       | Descrição |
+|----------------|-----------|
+| **Título**     | Identificação de Conhecimento sobre o Conteúdo |
+| **Metas/Objetivos** | Permitir ao professor visualizar o nível de domínio de conteúdo de cada aluno com base em provas e questões, utilizando Lógica Fuzzy para gerar uma análise graduada e confiável. |
+| **Contexto**    | Após a realização de atividades avaliativas, o sistema processa os resultados e apresenta ao professor uma visão detalhada do desempenho dos alunos por conteúdo. A análise é feita por meio de Lógica Fuzzy, permitindo identificar quais alunos dominam ou têm dificuldades em cada tema. |
+| **Ator(es)**    | - Professor<br>- Sistema de Avaliação Inteligente |
+| **Recursos**    | - Banco de questões por conteúdo<br>- Sistema de correção automática<br>- Módulo de inferência com Lógica Fuzzy<br>- Painel de desempenho por aluno |
+| **Exceções**    | - Provas não corrigidas ou com erros<br>- Dados insuficientes para inferência confiável |
+| **Restrições**  | A visualização deve ser clara, pedagógica e respeitar a privacidade dos alunos. |
+| **Episódios**   | 1. Os alunos realizam provas e atividades.<br>2. O sistema aplica Lógica Fuzzy para avaliar o domínio por conteúdo.<br>3. O professor acessa o painel de desempenho dos alunos.<br>4. O sistema apresenta níveis de conhecimento e destaca alunos com dificuldades. |
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+### Cenário 09: Avaliação de Comportamento Escolar  
+**Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
+
+<div style="text-align: center;"><strong> Tabela 3 - Cenário 09 </strong></div>
+
+| Elemento       | Descrição |
+|----------------|-----------|
+| **Título**     | Avaliação de Comportamento Escolar |
+| **Metas/Objetivos** | Apresentar ao professor quais alunos mantêm comportamento adequado com base em critérios como presença nas aulas, participação em monitorias, realização de atividades e estudo dos conteúdos sugeridos. |
+| **Contexto**    | O sistema educacional monitora continuamente o comportamento dos alunos por meio de registros de presença, entregas de atividades, participação em monitorias e acesso aos conteúdos recomendados. O assistente virtual analisa esses dados e gera relatórios que ajudam o professor a identificar alunos engajados e aqueles que precisam de acompanhamento. |
+| **Ator(es)**    | - Aluno<br>- Professor<br>- Assistente Virtual |
+| **Recursos**    | - Registro de frequência<br>- Plataforma de entrega de atividades<br>- Sistema de monitoria<br>- Módulo de rastreamento de estudo de conteúdos sugeridos |
+| **Exceções**    | - Dados incompletos ou não sincronizados<br>- Aluno ausente em todas as atividades avaliadas |
+| **Restrições**  | O sistema deve garantir a integridade e atualização dos dados, respeitando normas de privacidade e acessibilidade. |
+| **Episódios**   | 1. O sistema registra a presença do aluno nas aulas.<br>2. Monitora a participação em sessões de monitoria.<br>3. Verifica a entrega de atividades e prazos.<br>4. Acompanha o acesso e estudo dos conteúdos sugeridos.<br>5. O assistente virtual analisa os dados e gera um relatório de comportamento.<br>6. O professor acessa o relatório e identifica os alunos com comportamento adequado. |
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
 
 ## Referências
 
@@ -190,3 +246,4 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | 1.0    | 05/10/2025 | Criação do documento de cenários | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.1    | 07/10/2025 | Criação dos cenarios CE01 , CE02 e CE03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.2    | 08/10/2025 | Atualização de informações no documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.3    | 08/10/2025 | Criação dos cenarios CE07 , CE08 e CE09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
