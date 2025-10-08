@@ -1,6 +1,10 @@
-# Casos de Uso
+# Diagrama e Especificação de Casos de Uso
 
 ## Introdução
+Um caso de uso é uma descrição detalhada de como os usuários de um sistema, neste trabalho o **SAE (Sistema de Apoio Educacional)**, interagem com ele em situações específicas. Ele apresenta passo a passo as ações realizadas pelo usuário e as respostas do sistema a essas interações.
+O principal objetivo dos casos de uso é apoiar o desenvolvimento do aplicativo, oferecendo uma visão clara e prática dos requisitos funcionais. Eles ajudam a definir o comportamento esperado do sistema diante das ações dos usuários, garantindo que as funcionalidades realmente atendam às necessidades dos usuários.
+No âmbito da disciplina, estão sendo levadas em conta as funcionalidades ainda não-implementadas para a realização do diagrama de caso de uso, assim como de suas especificações.
+
 
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção dos Casos de Uso, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
@@ -20,6 +24,8 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Metodologia
+Foi utilizado o diagrama de caso de uso, que representa, por meio de atores (como alunos e docentes) e casos de uso (como escolher o melhor modo de receber notificações), as funcionalidades ainda não implementadas e os comportamentos esperados do sistema em uma hipótese de implementação.
+Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que compõem o diagrama de caso de uso, oferecendo uma visão organizada da estrutura de interações entre os atores e o sistema.
 
 ## Diagramas de Caso de Uso
 
