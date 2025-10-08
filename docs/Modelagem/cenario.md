@@ -183,7 +183,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ### Cenário 07: Análise Cognitiva e Apoio à Aprendizagem  
 **Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve analisar documentos escolares(atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
 
-<div style="text-align: center;"><strong> Tabela 3 - Cenário 07 </strong></div>
+<div style="text-align: center;"><strong> Tabela 9 - Cenário 07 </strong></div>
 
 | Elemento       | Descrição |
 |----------------|-----------|
@@ -202,7 +202,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ### Cenário 08: Identificação de Conhecimento sobre o Conteúdo  
 **Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
 
-<div style="text-align: center;"><strong> Tabela 3 - Cenário 08 </strong></div>
+<div style="text-align: center;"><strong> Tabela 10 - Cenário 08 </strong></div>
 
 | Elemento       | Descrição |
 |----------------|-----------|
@@ -221,7 +221,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ### Cenário 09: Avaliação de Comportamento Escolar  
 **Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
 
-<div style="text-align: center;"><strong> Tabela 3 - Cenário 09 </strong></div>
+<div style="text-align: center;"><strong> Tabela 11 - Cenário 09 </strong></div>
 
 | Elemento       | Descrição |
 |----------------|-----------|
