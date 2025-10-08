@@ -135,4 +135,4 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento da Especificação Suplementar | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Sapiência](https://github.com/JoaoSapiencia) |
 | 1.1    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF01 e RNF05 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
-| 1.2    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF09, RNF10 e RNF 15 | [Vilmar José](https://github.com/VilmarFagundes) |  |
+| 1.2    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF09, RNF10 e RNF15 | [Vilmar José](https://github.com/VilmarFagundes) |  |
