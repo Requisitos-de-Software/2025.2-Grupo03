@@ -59,14 +59,14 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | Campo | Descrição |
 |-------|------------|
 | **UC05** | Configuração da Forma de Notificação |
-| **Descrição** | O aluno acessa as configurações de notificação e escolhe como deseja ser notificado. |
-| **Ator** | Aluno, Sistema de configuração de notificações |
-| **Pré-condições** | 1. O aluno está logado. <br>2. O sistema possui diferentes canais de envio disponíveis. |
-| **Ação** | O aluno seleciona o canal preferido de notificação e salva suas preferências. |
-| **Fluxo principal** | - O aluno acessa “Preferências de Notificação”.<br>- Escolhe o canal preferido (push, WhatsApp, e-mail, alerta no sistema).<br>- O sistema salva a configuração. |
-| **Fluxo alternativo** | - O aluno não escolhe nenhuma opção.<br>- O sistema mantém o canal padrão. |
+| **Descrição** | O usuário acessa as configurações de notificação e escolhe como deseja ser notificado. |
+| **Ator(es)** | - Aluno<br> - Docente<br> - Monitor<br> - Coordenador<br> - Administrador<br> - Sistema de configuração de notificações |
+| **Pré-condições** | 1. O usuário está logado. <br>2. O sistema possui diferentes canais de envio disponíveis. |
+| **Ação** | O usuário seleciona o canal preferido de notificação e salva suas preferências. |
+| **Fluxo principal** | - O usuário acessa “Preferências de Notificação”.<br>- Escolhe o canal preferido (push, WhatsApp, e-mail, alerta no sistema).<br>- O sistema salva a configuração. |
+| **Fluxo alternativo** | - O usuário não escolhe nenhuma opção.<br>- O sistema mantém o canal padrão. |
 | **Fluxo de exceção** | - O canal selecionado está temporariamente indisponível.<br>- O sistema exibe mensagem de erro e mantém o padrão. |
-| **Pós-condições** | As notificações passam a ser enviadas conforme a escolha do aluno. |
+| **Pós-condições** | As notificações passam a ser enviadas conforme a escolha do usuário. |
 | **Rastreabilidade** | [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Data de criação** | 08/10/2025 |
 

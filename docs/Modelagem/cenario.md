@@ -147,13 +147,13 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 |-----------|------------|
 | **ID** | CE05 |
 | **Título** | Escolha da Forma de Notificação |
-| **Metas/Objetivos** | Permitir que o aluno defina sua preferência de comunicação para receber notificações ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo ). |
-| **Contexto** | O aluno acessa a plataforma e quer receber alertas e lembretes da forma que considera mais conveniente. |
-| **Ator(es)** | - Aluno<br>- Sistema de configuração de notificações |
+| **Metas/Objetivos** | Permitir que o usuário defina sua preferência de comunicação para receber notificações ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo ). |
+| **Contexto** | O usuário acessa a plataforma e quer receber alertas e lembretes da forma que considera mais conveniente. |
+| **Ator(es)** | - Aluno<br> - Docente<br> - Monitor<br> - Coordenador<br> - Administrador<br> - Sistema de configuração de notificações |
 | **Recursos** | - Painel de preferências do usuário<br>- Mecanismo de envio de notificações configurável |
 | **Exceções** | - Usuário não escolhe forma de notificação, permanecendo a padrão.<br>- Opção selecionada não está disponível no momento do envio. |
 | **Restrições** | - Sistema deve garantir que as notificações sejam enviadas conforme a escolha do aluno.<br>- Preferência deve ser atualizável a qualquer momento. |
-| **Episódios** | 1. O aluno acessa a seção “Preferências de Notificação”.<br>2. Escolhe o canal preferido ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo ).<br>3. Sistema salva a configuração e envia notificações conforme a escolha. |
+| **Episódios** | 1. O usuário acessa a seção “Preferências de Notificação”.<br>2. Escolhe o canal preferido ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo ).<br>3. Sistema salva a configuração e envia notificações conforme a escolha. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
