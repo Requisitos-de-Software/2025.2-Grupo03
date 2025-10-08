@@ -1,6 +1,17 @@
 # Especificação Suplementar
 
 ## Introdução
+A Especificação Suplementar é um documento essencial no processo de engenharia de requisitos, pois tem o objetivo de detalhar aspectos que não são tratados diretamente nos casos de uso, com foco especial nos **requisitos não funcionais**.
+Diferente dos **requisitos funcionais**, que descrevem as ações e comportamentos esperados do sistema, os **requisitos não funcionais** se referem a atributos de qualidade que afetam a experiência do usuário, a estabilidade do sistema e a facilidade de manutenção e evolução do software.  
+Entre esses atributos estão: a usabilidade, confiabilidade, desempenho, segurança, portabilidade, entre outros.
+Este documento segue o modelo **FURPS+**, que organiza os requisitos não funcionais em cinco categorias principais:
+
+- **Functionality (Funcionalidade)** Representa todos os aspectos funcionais do software.
+- **Usability (Usabilidade)** : Refere-se à facilidade de uso e interação do usuário com o sistema. Incluindo subcategorias como prevenção de erros, design e estética, ajuda e documentação,  consistência e padronização na interface e acessibilidade.
+- **Reliability (Confiabilidade)** : Refere-se à integridade, conformidade e interoperabilidade do software. Os principais aspectos considerados são: frequência e tolerância a falhas, capacidade de recuperação, previsibilidade, exatidão e tempo médio entre falhas.
+- **Performance (Desempenho)** : Avalia a eficiência do sistema em diferentes condições. Pode ser medida por fatores como tempo de resposta, uso de memória, utilização da CPU, capacidade de processamento e disponibilidade da aplicação.
+- **Supportability (Manutenibilidade)** : Abrange características relacionadas à facilidade de manutenção e evolução do sistema, incluindo testabilidade, adaptabilidade,  entre outras.
+
 
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção da Especificação Suplementar, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
@@ -20,8 +31,98 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Metodologia
+A Especificação Suplementar foi elaborada de forma colaborativa, seguindo o modelo FURPS+, com o objetivo de organizar os requisitos não funcionais do projeto de maneira clara e objetiva. Os requisitos foram distribuídos nos tópicos Usabilidade, Confiabilidade, Suportabilidade e Desempenho.
+
+A estrutura foi adaptada às particularidades do projeto, utilizando uma linguagem clara e acessível, facilitando a compreensão tanto por leitores com conhecimento técnico quanto por aqueles sem conhecimento técnico.
 
 ## Especificação Suplementar Realizada
+
+### 1. Funcionalidade
+As funcionalidades foram identificadas durante o processo de elicitação de requisitos e estão detalhadas tanto na seção de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) quanto nos [Casos de Uso](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/casos_de_uso/) desenvolvidos.
+
+### 2. Usabilidade
+
+<div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
+
+| **Requsito** | **Descrição** |
+| ------------------- | ---------------- |
+|  |  |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
+        <a href="https://github.com/MrBolt2005">João Felipe</a>,
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+    </strong>
+</div>
+
+### 3. Confiabilidade
+
+<div align="center"><strong>Tabela 3: Requisitos de Confiabilidade</strong></div>
+
+| **Requsito** | **Descrição** |
+| ------------------- | ---------------- |
+|  |  |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
+        <a href="https://github.com/MrBolt2005">João Felipe</a>,
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+    </strong>
+</div>
+
+### 4. Suportabilidade
+
+<div align="center"><strong>Tabela 4: Requisitos de Suportabilidade</strong></div>
+
+| **Requsito** | **Descrição** |
+| ------------------- | ---------------- |
+|  |  |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
+        <a href="https://github.com/MrBolt2005">João Felipe</a>,
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+    </strong>
+</div>
+
+### 5. Performance
+
+<div align="center"><strong>Tabela 5: Requisitos de Performance</strong></div>
+
+| **Requsito** | **Descrição** |
+| ------------------- | ---------------- |
+|  |  |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
+        <a href="https://github.com/MrBolt2005">João Felipe</a>,
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+    </strong>
+</div>
 
 ## Referências
 
