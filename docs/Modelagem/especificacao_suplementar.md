@@ -20,13 +20,13 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) |                                       |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | classificação dos requisitos não funcionais: [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).|
 | [Arthur Henrique](https://github.com/arthurhvieira1) |                                       |
 | [Felipe Guimaraes](https://github.com/felipegf1) |                                       |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Especificação Suplementar e classificação dos requisitos não funcionais: [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).                                      |
-| [Vilmar José](https://github.com/VilmarFagundes) | Classificação dos requisitos não funcionais: [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) |
+| [Vilmar José](https://github.com/VilmarFagundes) |                                       |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -69,8 +69,7 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
 
 | **Requsito** | **Descrição** |
 | ------------------- | ---------------- |
-| [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês. Logo, o tempo máximo de inatividade permitido é de 1% ao mês, o que equivale a aproximadamente 7.2 horas de indisponibilidade mensal (considerando um mês de 30 dias). |
-| [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD. Ele impõe que o sistema seja desenvolvido e mantido em estrita conformidade com a [Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) do Brasil](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm) |
+| [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada. Isso implica na adoção de algoritmos de criptografia robustos para proteger informações sensíveis, tanto em repouso quanto em trânsito, assegurando confidencialidade e integridade dos dados contra acessos não autorizados. |
 
 <div align="center">
     <strong>
@@ -92,6 +91,7 @@ Esta seção descreve os requisitos relacionados à facilidade de manutenção, 
 | **Requsito** | **Descrição** |
 | ------------------- | ---------------- |
 | [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
+| [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. Isso requer uma arquitetura modular e baseada em serviços, capaz de distribuir carga eficientemente, suportar balanceamento dinâmico e permitir expansão horizontal (adicionando servidores) ou vertical (melhorando recursos de hardware) conforme a demanda. |
 
 <div align="center">
     <strong>
@@ -113,7 +113,7 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 
 | **Requsito** | **Descrição** |
 | ------------------- | ---------------- |
-| [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. Ele garante uma experiência de usuário ágil e satisfatória, evitando longas esperas que poderiam levar à frustração e ao abandono da ferramenta. |
+|  |  |
 
 <div align="center">
     <strong>
@@ -134,5 +134,5 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento da Especificação Suplementar | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Sapiência](https://github.com/JoaoSapiencia) |
-| 1.1    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF01 e RNF05 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
-| 1.2    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF09, RNF10 e RNF15 | [Vilmar José](https://github.com/VilmarFagundes) |  |
+| 1.1    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF01 e RNF05 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.2    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF08 e RNF14 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  [Vilmar José](https://github.com/VilmarFagundes) | |
