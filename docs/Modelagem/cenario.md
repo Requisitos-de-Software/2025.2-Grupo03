@@ -285,7 +285,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 | Elemento | Descrição |
 |-----------|------------|
-| **ID** | CE11 |
+| **ID** | CE12 |
 | **Título** | Priorização de Conteúdo por Dificuldade da Turma |
 | **Metas/Objetivos** | - **Para o aluno:** Ajudar a identificar e focar nos conteúdos onde a turma apresenta a maior porcentagem de erros, otimizando a preparação para avaliações. |
 | **Contexto** | Um aluno está se preparando para uma prova e quer revisar os tópicos de forma mais eficiente. Ele decide acessar o índice de conteúdos para ver quais assuntos a turma, em geral, mais errou e que, portanto, merecem mais atenção. |
@@ -304,7 +304,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 | Elemento | Descrição |
 |-----------|------------|
-| **ID** | CE12 |
+| **ID** | CE13 |
 | **Título** | Personalização de Lembretes de Atividades |
 | **Metas/Objetivos** | - **Para o usuário:** Dar controle sobre como e quando ele é notificado sobre os prazos, permitindo que o sistema se adapte ao seu método pessoal de organização. |
 | **Contexto** | Um aluno prefere receber um único lembrete 3 dias antes do prazo final de uma atividade, em vez do padrão de 24 horas. Ele acessa as configurações do seu perfil para ajustar essa preferência de notificação. |
