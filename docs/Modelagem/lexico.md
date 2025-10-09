@@ -58,6 +58,21 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
+### Léxico 12: Consultar Desempenho
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Consultar Desempenho | Verbo | Ver Resultados | Usuário verifica acertos, erros, médias e progresso. | - Permite acompanhamento do aprendizado.<br>- Auxilia na tomada de decisão sobre revisão de conteúdo. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+### Léxico 13: Fornecer Estatísticas
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Fornecer Estatísticas| Verbo | Exibir Estatísticas | Sistema disponibiliza informações analíticas sobre desempenho e progresso. | - Suporte a decisões pedagógicas.<br>- Auxilia monitoramento de turmas e indivíduos. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+
 
 ## Referências
 
