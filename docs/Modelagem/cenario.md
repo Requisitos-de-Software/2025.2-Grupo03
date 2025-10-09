@@ -275,6 +275,44 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
+### Cenário 12: Priorização de Conteúdo por Dificuldade
+**Requisito Associado:** [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)  - O sistema deve ter um índice de conteúdos ordenado pela porcentagem de erros em cada conteúdo
+
+<div align="center"><strong>Tabela 14: Cenário 12</strong></div>
+
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE11 |
+| **Título** | Priorização de Conteúdo por Dificuldade da Turma |
+| **Metas/Objetivos** | - **Para o aluno:** Ajudar a identificar e focar nos conteúdos onde a turma apresenta a maior porcentagem de erros, otimizando a preparação para avaliações. |
+| **Contexto** | Um aluno está se preparando para uma prova e quer revisar os tópicos de forma mais eficiente. Ele decide acessar o índice de conteúdos para ver quais assuntos a turma, em geral, mais errou e que, portanto, merecem mais atenção. |
+| **Ator(es)** | - Aluno |
+| **Recursos** | - Banco de dados com resultados de atividades<br>- Módulo de tagueamento de questões por conteúdo<br>- Módulo de cálculo de percentuais de erro |
+| **Exceções** | - Dados Insuficientes: O índice não pode ser gerado se poucas atividades foram respondidas pela turma.<br>- Erro de Cálculo: O sistema falha ao processar as porcentagens de erro. |
+| **Restrições** | - O índice deve ser baseado em dados anonimizados da turma, sem expor o desempenho individual de outros alunos.<br>- A lista deve ser atualizada periodicamente para refletir os dados mais recentes. |
+| **Episódios** | 1. O aluno acessa a plataforma e navega até a disciplina desejada.<br>2. O aluno seleciona a opção "Guia de Estudos" ou "Conteúdos".<br>3. O sistema calcula a porcentagem de erros da turma para cada tópico com base nas atividades já realizadas.<br>4. O sistema exibe uma lista com todos os conteúdos, ordenada do tópico com maior percentual de erro para o menor.<br>5. O aluno utiliza essa informação para priorizar seus estudos. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+### Cenário 13: Personalização de Lembretes de Atividades
+**Requisito Associado:** [RF21](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)  - O usuário escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade
+
+<div align="center"><strong>Tabela 15: Cenário 13</strong></div>
+
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE12 |
+| **Título** | Personalização de Lembretes de Atividades |
+| **Metas/Objetivos** | - **Para o usuário:** Dar controle sobre como e quando ele é notificado sobre os prazos, permitindo que o sistema se adapte ao seu método pessoal de organização. |
+| **Contexto** | Um aluno prefere receber um único lembrete 3 dias antes do prazo final de uma atividade, em vez do padrão de 24 horas. Ele acessa as configurações do seu perfil para ajustar essa preferência de notificação. |
+| **Ator(es)** | - Aluno (Usuário) |
+| **Recursos** | - Painel de configurações do usuário<br>- Banco de dados para armazenar preferências de notificação<br>- Serviço agendador de notificações |
+| **Exceções** | - Erro ao Salvar: O sistema não consegue salvar a preferência por uma falha no banco de dados.<br>- Serviço Indisponível: O serviço de notificações está temporariamente fora do ar e não envia o lembrete agendado. |
+| **Restrições** | - A configuração de notificação é individual e não deve afetar outros usuários.<br>- As opções de tempo para o lembrete devem ser claras e pré-definidas (ex: 1 dia antes, 3 dias antes, etc.). |
+| **Episódios** | 1. O usuário acessa a área de "Configurações" ou "Preferências" do seu perfil.<br>2. Ele navega até a seção "Notificações".<br>3. Na opção "Lembrete de entrega de atividade", ele altera a seleção padrão para a desejada (ex: "3 dias antes").<br>4. O sistema confirma que a alteração foi salva com sucesso.<br>5. O serviço de notificação passa a utilizar essa nova configuração para os futuros lembretes deste usuário. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
 ---
 
 ## Referências
