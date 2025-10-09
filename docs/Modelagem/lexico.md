@@ -23,6 +23,20 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 ## Léxicos
 
+### Léxico 3: Monitor
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Monitor | Objeto | Tutor | Pessoa que auxilia alunos no acompanhamento das atividades. | - Auxilia alunos e professores.<br>- Acompanha desempenho.<br>- Facilita interações. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+### Léxico 4: Coordenador
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Coordenador | Objeto | Supervisor Acadêmico | Responsável por supervisionar cursos ou disciplinas, organizando processos e atividades. | - Monitora desempenho e progresso de alunos e professores.<br>- Coordena informações de atividades e módulos.<br>- Garante o alinhamento pedagógico entre professores e monitores. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
 ### Léxico 5: Administrador
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
