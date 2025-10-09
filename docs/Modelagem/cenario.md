@@ -16,7 +16,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  Criação do documento de Cenário e criação dos cenários 04, 05 e 06, que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais).                                 |
-| [Vilmar José](https://github.com/VilmarFagundes) |                                       |
+| [Vilmar José](https://github.com/VilmarFagundes) | Criação dos cenários 10 e 11, referentes, respectivamente aos requisitos [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -52,10 +52,8 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | ID              | CEN° |
 | Título          | Nome do cenário, geralmente relacionado ao objetivo principal ou ao requisito funcional ainda não implementado. |
 | Metas/Objetivos | Explica o propósito do cenário e o que se espera alcançar com a futura implementação da funcionalidade. |
-| Contexto        | Define a situação e o ambiente em que o cenário ocorre, estabelecendo as pré-condições para o fluxo de eventos.
- |
-| Ator(es)        | Indica as pessoas, sistemas ou entidades que interagem diretamente com a funcionalidade descrita.
- |
+| Contexto        | Define a situação e o ambiente em que o cenário ocorre, estabelecendo as pré-condições para o fluxo de eventos. |
+| Ator(es)        | Indica as pessoas, sistemas ou entidades que interagem diretamente com a funcionalidade descrita. |
 | Recursos        | Lista as ferramentas ou componentes do sistema necessários para executar o cenário. |
 | Exceções        | Aponta situações inesperadas ou problemas que podem interromper o fluxo normal do cenário. |
 | Restrições      | Mostra as limitações, regras de negócio ou condições que devem ser respeitadas durante a execução. |
@@ -236,6 +234,48 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ---
+### Cenário 10: Visualização da Média Geral da Turma por Atividade
+**Requisito Associado:** [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - A interface deve exibir a média geral da turma em cada atividade
+
+
+<div align="center"><strong>Tabela 12: Cenário 10</strong></div>
+
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE10 |
+| **Título** | Visualização da Média Geral da Turma por Atividade |
+| **Metas/Objetivos** | - **Para o professor:** Analisar o desempenho agregado da turma em cada avaliação, facilitando a identificação de dificuldades de aprendizagem<br> - **Para o aluno:** Permitir que compare seu próprio desempenho com a média geral da turma, servindo como um parâmetro para seus estudos. |
+| **Contexto** | Um usuário (professor ou aluno) está autenticado no sistema de gestão de aprendizagem e acessou a área de atividades de uma disciplina. Ele escolhe uma das atividades e verifica se as notas já foram lançadas e a média calculada. |
+| **Ator(es)** | - Professor<br>- Aluno |
+| **Recursos** | - Banco de dados de atividades<br> - Bance de dados de resultados de atividades |
+| **Exceções** | - Cálculo Indisponível: A média não pode ser exibida se nenhuma nota foi lançada para a atividade.<br> - Erro de Carregamento: A página de notas falha ao carregar devido a um problema de conexão ou erro no servidor. |
+| **Restrições** | - A média deve ser calculada considerando apenas os alunos que receberam uma nota.<br> - Os alunos podem ver a média geral, mas não têm acesso às notas individuais de seus colegas. |
+| **Episódios** | 	1. O usuário (professor ou aluno) acessa a plataforma e navega até a disciplina desejada. <br> 2. O usuário seleciona a opção "Atividades" no menu da disciplina.<br> 3. O sistema exibe uma lista com todas as atividades avaliativas.<br> 4. Para cada atividade, o sistema exibe a nota individual do aluno (se for o aluno logado) e, em uma coluna separada, a "Média da Turma".<br> 5. O usuário utiliza essa informação para fins de análise de desempenho (seja da turma ou pessoal). |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
+### Cenário 11: Personalização da Frequência de Alertas de Atividades Atrasadas
+**Requisito Associado:** [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas
+
+<div align="center"><strong>Tabela 13: Cenário 11</strong></div>
+
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE11 |
+| **Título** | Personalização da Frequência de Alertas de Atividades Atrasadas |
+| **Metas/Objetivos** | Oferecer ao aluno a flexibilidade de configurar com que antecedência deseja ser notificado sobre atividades pendentes, a fim de melhorar sua gestão de tempo e reduzir o número de entregas em atraso. |
+| **Contexto** | O usuário está logado em seu perfil no sistema e acessa a área de configurações de sua conta para ajustar suas preferências de notificação. |
+| **Ator(es)** | Aluno |
+| **Recursos** | - Banco de dados de atividades e prazos<br>- Sistema de envio de notificações ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo ) |
+| **Exceções** |  Falha ao Salvar: O sistema apresenta um erro e não consegue salvar as novas preferências de notificação devido a uma instabilidade na rede |
+| **Restrições** | - O usuário deve ter um meio de contato válido cadastrado (e-mail ou permissão para notificação push) para receber os alertas.<br> - As opções de tempo para os alertas são predefinidas pelo sistema (ex: "1 dia antes", "2 dias antes", "No dia do vencimento").<br> - A configuração é aplicada individualmente e não afeta as preferências de outros usuários. |
+| **Episódios** | 1. O usuário acessa sua conta no sistema.<br> 2. Ele seleciona a opção "Configurações".<br> 3. Na página de configurações, ele navega até a seção "Notificações".<br> 4. O sistema exibe uma lista de tipos de alerta que podem ser configurados. O usuário localiza a opção "Alertas sobre atividades atrasadas".<br> 5. Ao lado desta opção, há um menu suspenso (dropdown) com os intervalos de tempo disponíveis.<br> 6. O usuário clica no menu e seleciona a opção desejada (por exemplo, "1 dia após o vencimento").<br> 7. Após a seleção, o usuário clica no botão "Salvar" ou "Atualizar Preferências".<br> 8. O sistema exibe uma mensagem de confirmação, como "Suas preferências de notificação foram salvas com sucesso". |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
 
 ## Referências
 
@@ -247,3 +287,4 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | 1.1    | 07/10/2025 | Criação dos cenarios CE01 , CE02 e CE03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.2    | 08/10/2025 | Atualização de informações no documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.3    | 08/10/2025 | Criação dos cenarios CE07 , CE08 e CE09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.4    | 08/10/2025 | Criação dos cenarios CE10 e CE11 | [Vilmar Fagundes](https://github.com/VilmarFagundes) |  |
