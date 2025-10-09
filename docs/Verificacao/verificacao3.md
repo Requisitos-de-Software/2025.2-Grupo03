@@ -38,6 +38,71 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 ## Especificação Suplementar
 
+<div align="center"><strong>Tabela 3: Lista de Verificação da Especificação Suplementar</strong></div>
+
+| **ID** | **Item de verificação** | **Autor** |
+|----|---------------------|-------|
+| 1 | A especificação suplementar possui um histórico de versões? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 2 | A especificação suplementar possui um sumário? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 3 | A especificação suplementar possui um tópico de introdução? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 4 | A introdução possui finalidade projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 5 | A introdução possui escopo do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 6 | A introdução possui as definições do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 7 | A introdução possui os acrônimos do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 8 | A introdução possui as abreviações? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 9 | A introdução possui as referências? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 10 | A introdução possui a visão geral da especificação suplementar? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 11 | A especificação suplementar possui um tópico de identificação do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 12 | A identificação do projeto possui a sigla do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 13 | A identificação do projeto possui o nome do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 14 | A identificação do projeto possui o nome do requisitante? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 15 | A identificação do projeto possui o nome do gerente de projetos? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 16 | A especificação suplementar possui um tópico de funcionalidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 17 | A funcionalidade descreve os requisitos funcionais do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 18 | Os requisitos escritos na funcionalidade são expressos no estilo de linguagem natural? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 19 | Cada requisito enunciado na funcionalidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 20 | A especificação suplementar possui um tópico de usabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 21 | A seção possui todos os requisitos que afetam a usabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 22 | Cada requisito enunciado na usabilidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 23 | A especificação suplementar possui um tópico de confiabilidade? | [Vilmar Fagundes](httpshttps://github.com/VilmarFagundes) |
+| 24 | A confiabilidade possui todos os requisitos que afetam a confiabilidade do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 25 | Cada requisito enunciado na confiabilidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 26 | A especificação suplementar possui um tópico de desempenho? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 27 | O tópico desempenho possui as características de desempenho do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 28 | No desempenho foi incluído tempos de respostas específicos? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 29 | Cada requisito enunciado no desempenho possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 30 | A especificação suplementar possui um tópico de suportabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 31 | A suportabilidade possui todos os requisitos que aprimoraram a suportabilidade ou a manutenção do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 32 | Cada requisito enunciado na suportabilidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 33 | A especificação suplementar possui um tópico de restrições do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 34 | A seção de restrições do projeto indica todas as restrições de design referentes ao sistema que está sendo criado? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 35 | As restrições representam decisões de design que foram impostas? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 36 | Cada requisito de restrição possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 37 | A especificação suplementar possui um tópico de Outros requisitos do produto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 38 | Na seção de outros requisitos do produto é listado os padrões aplicáveis? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 39 | Na seção de outros requisitos do produto é listado os requisitos do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 40 | Na seção de outros requisitos do produto é listado os requisitos ambientais? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 41 | A especificação suplementar possui um tópico de componentes comprados? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 42 | A seção de componentes comprados descreve todos os documentos comprados a serem usados no sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 43 | A seção de componentes comprados descreve qualquer restrição de utilização aplicável a qualquer padrão associado de compatibilidade, interoperabilidade ou de interface? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 44 | A especificação suplementar possui um tópico de interfaces? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 45 | Na sessão de interfaces, ela define as interfaces que devem ser suportadas pelo aplicativo? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 46 | A sessão de interfaces descreve as interfaces do usuário? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 47 | A sessão de interfaces descreve as interfaces de hardware? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 48 | A sessão de interfaces descreve as interfaces de software? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 49 | A sessão de interfaces descreve as interfaces de comunicação? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 50 | A especificação suplementar possui um tópico de requisitos de licenciamento? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 51 | A seção de requisitos de licenciamento define todos os requisitos de imposição de licenciamento? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 52 | A seção de requisitos de licenciamento define todos os requisitos de restrição de utilização que serão exibidos pelo software? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 53 | A especificação suplementar possui um tópico de Anexos? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 54 | No tópico de anexos, foram adicionados documentos que fazem parte do presente artefato (atas de reunião, cronograma, etc)? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 55 | A especificação suplementar possui um tópico de referências? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 56 | A especificação suplementar possui um tópico de Aprovações? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/LVEspSuplProj1.pdf).
+
 ## Léxico
 
 ## Histórico de versão
@@ -46,3 +111,4 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento das Listas de Verificação da Entrega 3 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.1    | 09/10/2025 | Adição da Lista de Verificação de Cenário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 1.2    | 09/10/2025 | Adição da Lista de Verificação de Especificação Suplementar | [Vilmar Fagundes](https://github.com/VilmarFagundes |  [Arthur Henrique](https://github.com/arthurhvieira1) |
