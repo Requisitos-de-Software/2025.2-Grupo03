@@ -48,6 +48,7 @@ Esta seção lista os requisitos que garantem que a interação do usuário com 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
 | [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). |
+|[RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser totalmente compatível com dispositivos móveis, garantindo responsividade na interface e adaptação automática a diferentes tamanhos e orientações de tela (smartphones, tablets e notebooks). |
 
 <div align="center">
     <strong>
@@ -116,6 +117,7 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
 | [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. Ele garante uma experiência de usuário ágil e satisfatória, evitando longas esperas que poderiam levar à frustração e ao abandono da ferramenta. |
+|[RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários, independentemente da complexidade da operação executada. Esse requisito garante uma experiência fluida e responsiva, reduzindo a percepção de lentidão e aumentando a produtividade dos usuários. |
 
 <div align="center">
     <strong>
@@ -139,3 +141,4 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 | 1.1    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF01 e RNF05 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
 | 1.2    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF09, RNF10 e RNF15 | [Vilmar José](https://github.com/VilmarFagundes) |  |
 | 1.3    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF08 e RNF14 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | | 
+| 1.4    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF03 e RNF11 |[Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
