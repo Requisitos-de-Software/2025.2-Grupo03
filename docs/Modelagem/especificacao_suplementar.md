@@ -38,33 +38,12 @@ A estrutura foi adaptada às particularidades do projeto, utilizando uma linguag
 ## Especificação Suplementar Realizada
 
 ### 1. Funcionalidade
-Esta seção representa os aspectos funcionais do software, descrevendo o que o sistema deve realizar para atender às necessidades dos usuários e aos objetivos do projeto.
-
-<div align="center"><strong>Tabela 2: Requisitos de Funcionalidade</strong></div>
-
-| **Requisito** | **Descrição** |
-| ------------------- | ---------------- |
-|[RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
-|[RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve possibilitar integração com outros AVAs (Ambientes Virtuais de Aprendizagem) e sistemas educacionais externos. |
-
-<div align="center">
-    <strong>
-        Autoria de 
-        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
-        <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
-        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
-    </strong>
-</div>
-
+As funcionalidades foram identificadas durante o processo de elicitação de requisitos e estão detalhadas tanto na seção de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) quanto nos [Casos de Uso](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/casos_de_uso/) desenvolvidos.
 
 ### 2. Usabilidade
 Esta seção lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente, incluindo aspectos como prevenção de erros, design e estética, ajuda e documentação, consistência e padronização na interface e acessibilidade.
 
-<div align="center"><strong>Tabela 3: Requisitos de Usabilidade</strong></div>
+<div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -77,20 +56,17 @@ Esta seção lista os requisitos que garantem que a interação do usuário com 
 <div align="center">
     <strong>
         Autoria de 
-        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
         <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
         <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
-        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> 
     </strong>
 </div>
 
 ### 3. Confiabilidade
 Esta seção trata da estabilidade, segurança e integridade do sistema, bem como sua capacidade de operar corretamente mesmo em situações inesperadas, considerando frequência e tolerância a falhas, capacidade de recuperação, previsibilidade, exatidão e tempo médio entre falhas.
 
-<div align="center"><strong>Tabela 4: Requisitos de Confiabilidade</strong></div>
+<div align="center"><strong>Tabela 3: Requisitos de Confiabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -103,10 +79,7 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
     <strong>
         Autoria de 
         <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
-        <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a> e
         <a href="https://github.com/VilmarFagundes">Vilmar José</a>
     </strong>
 </div>
@@ -114,12 +87,14 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
 ### 4. Suportabilidade
 Esta seção descreve os requisitos relacionados à facilidade de manutenção, evolução e adaptabilidade do sistema, incluindo aspectos como testabilidade, escalabilidade, internacionalização e extensibilidade.
 
-<div align="center"><strong>Tabela 5: Requisitos de Suportabilidade</strong></div>
+<div align="center"><strong>Tabela 4: Requisitos de Suportabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
+|[RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
 | [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
 | [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O projeto deve ser multidisciplinar, envolvendo as áreas de Educação, Psicologia e Informática, o que implica em flexibilidade de manutenção e evolução do sistema para atender diferentes perspectivas e áreas de conhecimento. |
+|[RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve possibilitar integração com outros AVAs (Ambientes Virtuais de Aprendizagem) e sistemas educacionais externos. |
 | [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. Isso requer uma arquitetura modular e baseada em serviços, capaz de distribuir carga eficientemente, suportar balanceamento dinâmico e permitir expansão horizontal (adicionando servidores) ou vertical (melhorando recursos de hardware) conforme a demanda. |
 
 <div align="center">
@@ -127,18 +102,16 @@ Esta seção descreve os requisitos relacionados à facilidade de manutenção, 
         Autoria de 
         <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
         <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
         <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
-        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>  
     </strong>
 </div>
 
 ### 5. Performance
 Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluindo eficiência sob diferentes condições, tempo de resposta, uso de memória, utilização da CPU, capacidade de processamento e disponibilidade da aplicação.
 
-<div align="center"><strong>Tabela 6: Requisitos de Performance</strong></div>
+<div align="center"><strong>Tabela 5: Requisitos de Performance</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -149,11 +122,7 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 <div align="center">
     <strong>
         Autoria de 
-        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
-        <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a> e
         <a href="https://github.com/VilmarFagundes">Vilmar José</a>
     </strong>
 </div>
