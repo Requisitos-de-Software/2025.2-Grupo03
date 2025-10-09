@@ -69,8 +69,8 @@ Esta seção lista os requisitos que garantem que a interação do usuário com 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
 | [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). |
-|[RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser totalmente compatível com dispositivos móveis, garantindo responsividade na interface e adaptação automática a diferentes tamanhos e orientações de tela (smartphones, tablets e notebooks). |
 |[RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser acessível pela internet, permitindo uso presencial ou a distância. |
+|[RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser totalmente compatível com dispositivos móveis, garantindo responsividade na interface e adaptação automática a diferentes tamanhos e orientações de tela (smartphones, tablets e notebooks). |
 |[RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve seguir padrões de acessibilidade para garantir a usabilidade a todos os usuários, incluindo pessoas com deficiência. |
 
 
@@ -94,10 +94,10 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
+| [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | As análises do módulo MAD (Módulo de Análise de Desempenho) devem ser realizadas em tempo real, assegurando precisão e consistência nos resultados. |
+| [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada. Isso implica na adoção de algoritmos de criptografia robustos para proteger informações sensíveis, tanto em repouso quanto em trânsito, assegurando confidencialidade e integridade dos dados contra acessos não autorizados. |
 | [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês. Logo, o tempo máximo de inatividade permitido é de 1% ao mês, o que equivale a aproximadamente 7.2 horas de indisponibilidade mensal (considerando um mês de 30 dias). |
 | [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD. Ele impõe que o sistema seja desenvolvido e mantido em estrita conformidade com a [Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) do Brasil](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm) |
-| [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada. Isso implica na adoção de algoritmos de criptografia robustos para proteger informações sensíveis, tanto em repouso quanto em trânsito, assegurando confidencialidade e integridade dos dados contra acessos não autorizados. |
-| [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | As análises do módulo MAD (Módulo de Análise de Desempenho) devem ser realizadas em tempo real, assegurando precisão e consistência nos resultados. |
 
 <div align="center">
     <strong>
@@ -119,8 +119,8 @@ Esta seção descreve os requisitos relacionados à facilidade de manutenção, 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
 | [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
-| [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. Isso requer uma arquitetura modular e baseada em serviços, capaz de distribuir carga eficientemente, suportar balanceamento dinâmico e permitir expansão horizontal (adicionando servidores) ou vertical (melhorando recursos de hardware) conforme a demanda. |
 | [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O projeto deve ser multidisciplinar, envolvendo as áreas de Educação, Psicologia e Informática, o que implica em flexibilidade de manutenção e evolução do sistema para atender diferentes perspectivas e áreas de conhecimento. |
+| [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. Isso requer uma arquitetura modular e baseada em serviços, capaz de distribuir carga eficientemente, suportar balanceamento dinâmico e permitir expansão horizontal (adicionando servidores) ou vertical (melhorando recursos de hardware) conforme a demanda. |
 
 <div align="center">
     <strong>
@@ -142,9 +142,8 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
-| [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. Ele garante uma experiência de usuário ágil e satisfatória, evitando longas esperas que poderiam levar à frustração e ao abandono da ferramenta. |
 |[RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários, independentemente da complexidade da operação executada. Esse requisito garante uma experiência fluida e responsiva, reduzindo a percepção de lentidão e aumentando a produtividade dos usuários. |
-|[RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos, garantindo uma experiência fluida ao usuário. |
+| [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. Ele garante uma experiência de usuário ágil e satisfatória, evitando longas esperas que poderiam levar à frustração e ao abandono da ferramenta. |
 
 
 <div align="center">
