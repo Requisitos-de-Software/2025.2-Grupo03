@@ -181,10 +181,11 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ### Cenário 07: Análise Cognitiva e Apoio à Aprendizagem  
 **Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve analisar documentos escolares(atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
 
-<div style="text-align: center;"><strong> Tabela 9 - Cenário 07 </strong></div>
+<div align="center"><strong> Tabela 9 - Cenário 07 </strong></div>
 
 | Elemento       | Descrição |
 |----------------|-----------|
+| **ID** | CE07 |
 | **Título**     | Análise Cognitiva e Apoio à Aprendizagem |
 | **Metas/Objetivos** | Avaliar a situação cognitiva de cada aluno e oferecer suporte personalizado para melhorar o processo de aprendizagem. |
 | **Contexto**    | O sistema educacional utiliza algoritmos de inferência cognitiva para analisar documentos escolares (provas e atividades) e identificar dificuldades específicas de cada aluno. Com base nessa análise, o assistente virtual sugere estratégias de reforço ao aluno. |
@@ -200,10 +201,11 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ### Cenário 08: Identificação de Conhecimento sobre o Conteúdo  
 **Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
 
-<div style="text-align: center;"><strong> Tabela 10 - Cenário 08 </strong></div>
+<div align="center"><strong> Tabela 10 - Cenário 08 </strong></div>
 
 | Elemento       | Descrição |
 |----------------|-----------|
+| **ID** | CE08 |
 | **Título**     | Identificação de Conhecimento sobre o Conteúdo |
 | **Metas/Objetivos** | Permitir ao professor visualizar o nível de domínio de conteúdo de cada aluno com base em provas e questões, utilizando Lógica Fuzzy para gerar uma análise graduada e confiável. |
 | **Contexto**    | Após a realização de atividades avaliativas, o sistema processa os resultados e apresenta ao professor uma visão detalhada do desempenho dos alunos por conteúdo. A análise é feita por meio de Lógica Fuzzy, permitindo identificar quais alunos dominam ou têm dificuldades em cada tema. |
@@ -219,10 +221,11 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ### Cenário 09: Avaliação de Comportamento Escolar  
 **Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
 
-<div style="text-align: center;"><strong> Tabela 11 - Cenário 09 </strong></div>
+<div align="center"><strong> Tabela 11 - Cenário 09 </strong></div>
 
 | Elemento       | Descrição |
 |----------------|-----------|
+| **ID** | CE09 |
 | **Título**     | Avaliação de Comportamento Escolar |
 | **Metas/Objetivos** | Apresentar ao professor quais alunos mantêm comportamento adequado com base em critérios como presença nas aulas, participação em monitorias, realização de atividades e estudo dos conteúdos sugeridos. |
 | **Contexto**    | O sistema educacional monitora continuamente o comportamento dos alunos por meio de registros de presença, entregas de atividades, participação em monitorias e acesso aos conteúdos recomendados. O assistente virtual analisa esses dados e gera relatórios que ajudam o professor a identificar alunos engajados e aqueles que precisam de acompanhamento. |
