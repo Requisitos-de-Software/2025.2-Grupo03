@@ -38,8 +38,9 @@ A estrutura foi adaptada às particularidades do projeto, utilizando uma linguag
 ## Especificação Suplementar Realizada
 
 ### 1. Funcionalidade
-As funcionalidades foram identificadas durante o processo de elicitação de requisitos e estão detalhadas tanto na seção de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) quanto nos [Casos de Uso](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/casos_de_uso/) desenvolvidos.
-<div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
+Esta seção representa os aspectos funcionais do software, descrevendo o que o sistema deve realizar para atender às necessidades dos usuários e aos objetivos do projeto.
+
+<div align="center"><strong>Tabela 2: Requisitos de Funcionalidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -63,7 +64,7 @@ As funcionalidades foram identificadas durante o processo de elicitação de req
 ### 2. Usabilidade
 Esta seção lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente, incluindo aspectos como prevenção de erros, design e estética, ajuda e documentação, consistência e padronização na interface e acessibilidade.
 
-<div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
+<div align="center"><strong>Tabela 3: Requisitos de Usabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -89,7 +90,7 @@ Esta seção lista os requisitos que garantem que a interação do usuário com 
 ### 3. Confiabilidade
 Esta seção trata da estabilidade, segurança e integridade do sistema, bem como sua capacidade de operar corretamente mesmo em situações inesperadas, considerando frequência e tolerância a falhas, capacidade de recuperação, previsibilidade, exatidão e tempo médio entre falhas.
 
-<div align="center"><strong>Tabela 3: Requisitos de Confiabilidade</strong></div>
+<div align="center"><strong>Tabela 4: Requisitos de Confiabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -113,7 +114,7 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
 ### 4. Suportabilidade
 Esta seção descreve os requisitos relacionados à facilidade de manutenção, evolução e adaptabilidade do sistema, incluindo aspectos como testabilidade, escalabilidade, internacionalização e extensibilidade.
 
-<div align="center"><strong>Tabela 4: Requisitos de Suportabilidade</strong></div>
+<div align="center"><strong>Tabela 5: Requisitos de Suportabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -137,7 +138,7 @@ Esta seção descreve os requisitos relacionados à facilidade de manutenção, 
 ### 5. Performance
 Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluindo eficiência sob diferentes condições, tempo de resposta, uso de memória, utilização da CPU, capacidade de processamento e disponibilidade da aplicação.
 
-<div align="center"><strong>Tabela 5: Requisitos de Performance</strong></div>
+<div align="center"><strong>Tabela 6: Requisitos de Performance</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
