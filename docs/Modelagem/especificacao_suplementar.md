@@ -20,8 +20,8 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | classificação dos requisitos não funcionais: [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).|
-| [Arthur Henrique](https://github.com/arthurhvieira1) |                                       |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Classificação dos requisitos não funcionais: [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).|
+| [Arthur Henrique](https://github.com/arthurhvieira1) |  Classificação dos requisitos não funcionais: [RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).   |
 | [Felipe Guimaraes](https://github.com/felipegf1) |                                       |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
@@ -39,6 +39,26 @@ A estrutura foi adaptada às particularidades do projeto, utilizando uma linguag
 
 ### 1. Funcionalidade
 As funcionalidades foram identificadas durante o processo de elicitação de requisitos e estão detalhadas tanto na seção de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) quanto nos [Casos de Uso](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/casos_de_uso/) desenvolvidos.
+<div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
+
+| **Requisito** | **Descrição** |
+| ------------------- | ---------------- |
+|[RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
+|[RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve possibilitar integração com outros AVAs (Ambientes Virtuais de Aprendizagem) e sistemas educacionais externos. |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
+        <a href="https://github.com/MrBolt2005">João Felipe</a>,
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+    </strong>
+</div>
+
 
 ### 2. Usabilidade
 Esta seção lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente, incluindo aspectos como prevenção de erros, design e estética, ajuda e documentação, consistência e padronização na interface e acessibilidade.
@@ -49,6 +69,9 @@ Esta seção lista os requisitos que garantem que a interação do usuário com 
 | ------------------- | ---------------- |
 | [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). |
 |[RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser totalmente compatível com dispositivos móveis, garantindo responsividade na interface e adaptação automática a diferentes tamanhos e orientações de tela (smartphones, tablets e notebooks). |
+|[RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser acessível pela internet, permitindo uso presencial ou a distância. |
+|[RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve seguir padrões de acessibilidade para garantir a usabilidade a todos os usuários, incluindo pessoas com deficiência. |
+
 
 <div align="center">
     <strong>
@@ -73,6 +96,7 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
 | [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês. Logo, o tempo máximo de inatividade permitido é de 1% ao mês, o que equivale a aproximadamente 7.2 horas de indisponibilidade mensal (considerando um mês de 30 dias). |
 | [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD. Ele impõe que o sistema seja desenvolvido e mantido em estrita conformidade com a [Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) do Brasil](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm) |
 | [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada. Isso implica na adoção de algoritmos de criptografia robustos para proteger informações sensíveis, tanto em repouso quanto em trânsito, assegurando confidencialidade e integridade dos dados contra acessos não autorizados. |
+| [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | As análises do módulo MAD (Módulo de Análise de Desempenho) devem ser realizadas em tempo real, assegurando precisão e consistência nos resultados. |
 
 <div align="center">
     <strong>
@@ -95,6 +119,7 @@ Esta seção descreve os requisitos relacionados à facilidade de manutenção, 
 | ------------------- | ---------------- |
 | [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
 | [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. Isso requer uma arquitetura modular e baseada em serviços, capaz de distribuir carga eficientemente, suportar balanceamento dinâmico e permitir expansão horizontal (adicionando servidores) ou vertical (melhorando recursos de hardware) conforme a demanda. |
+| [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O projeto deve ser multidisciplinar, envolvendo as áreas de Educação, Psicologia e Informática, o que implica em flexibilidade de manutenção e evolução do sistema para atender diferentes perspectivas e áreas de conhecimento. |
 
 <div align="center">
     <strong>
@@ -118,6 +143,8 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 | ------------------- | ---------------- |
 | [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. Ele garante uma experiência de usuário ágil e satisfatória, evitando longas esperas que poderiam levar à frustração e ao abandono da ferramenta. |
 |[RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários, independentemente da complexidade da operação executada. Esse requisito garante uma experiência fluida e responsiva, reduzindo a percepção de lentidão e aumentando a produtividade dos usuários. |
+|[RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos, garantindo uma experiência fluida ao usuário. |
+
 
 <div align="center">
     <strong>
