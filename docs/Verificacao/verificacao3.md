@@ -101,7 +101,7 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
-Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/LVEspSuplProj1.pdf).
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/LVEspSuplProj01.pdf).
 
 ## Léxico
 
