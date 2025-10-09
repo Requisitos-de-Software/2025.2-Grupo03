@@ -72,7 +72,26 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
+### Léxico 18: Conteúdo Dominado
 
+O termo “Conteúdo Dominado” refere-se ao estado em que o aluno demonstrou domínio sobre determinado tema ou módulo, atingindo o nível de acertos esperado.
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|----------|-------|----------------|-----------|------------|
+| Conteúdo Dominado  | Estado | Aprovado, Domínio Alcançado | Indica que o aluno atingiu o desempenho mínimo esperado em um conteúdo. | - Atualiza o progresso de aprendizagem.<br>- Reduz a priorização de revisões.<br>- Fornece base para recomendações personalizadas. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+Léxico 19: Conteúdo em Dificuldade
+
+O termo “Conteúdo em Dificuldade” refere-se ao estado em que o sistema identifica baixo desempenho ou alto índice de erro em determinado tema.
+
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|----------|-------|----------------|-----------|------------|
+| Conteúdo em Dificuldade  | Estado | Fraco, Necessidade de revisão   | Indica que o aluno apresenta baixo desempenho em um determinado conteúdo. | - Gera alertas ao assistente virtual.<br>- Direciona materiais de reforço.<br>- Auxilia professores na identificação de dificuldades coletivas. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Referências
 
