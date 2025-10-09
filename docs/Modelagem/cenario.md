@@ -319,87 +319,70 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ---
 
 ### Cenário 17: Organização de Materiais por Tópicos
-**Requisito Associado:**
-[RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitad
-os/#funcionais) - Os materiais devem estar postados em tópicos de conteúdos separados
-na disciplina
+**Requisito Associado:** [RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - Os materiais devem estar postados em tópicos de conteúdos separados na disciplina.
+
 <div align="center"><strong>Tabela 19: Cenário 17</strong></div>
-| Elemento | Descrição |
-|-----------|------------|
-| **ID** | CE17 |
-| **Título** | Materiais Organizacionais por Tópicos |
-| **Metas/Objetivos** | Garantir que os materiais de estudo sejam organizados e acessíveis
-por tópicos, facilitando a navegação e aprendizagem. |
-| **Contexto** | O usuário acessa uma disciplina e deseja consultar materiais agrupados por
-tópicos específicos. |
-| **Ator(es)** | Aluno<br>Professor |
-| **Recursos** | - Banco de dados de materiais<br>- Interface de exibição por tópicos |
-| **Exceções** | - Falha na categorização dos materiais.<br>- Material inexistente ou
-corrompido. |
-| **Restrições** | - Cada material deve estar vinculado a apenas um tópico.<br>- Exibição
-deve ser clara e intuitiva. |
-| **Episódios** | 1. O sistema organiza materiais por tópicos.<br>2. O aluno acessa a
-disciplina.<br>3. Navega pelos tópicos.<br>4. Visualiza materiais correspondentes. |
+
+| Elemento        | Descrição                                                                 |
+|------------------|---------------------------------------------------------------------------|
+| **ID**          | CE17                                                                      |
+| **Título**      | Materiais Organizacionais por Tópicos                                     |
+| **Metas/Objetivos** | Garantir que os materiais de estudo sejam organizados e acessíveis por tópicos, facilitando a navegação e aprendizagem. |
+| **Contexto**    | O usuário acessa uma disciplina e deseja consultar materiais agrupados por tópicos específicos. |
+| **Ator(es)**    | - Aluno<br>- Professor                                                   |
+| **Recursos**    | - Banco de dados de materiais<br>- Interface de exibição por tópicos      |
+| **Exceções**    | - Falha na categorização dos materiais.<br>- Material inexistente ou corrompido. |
+| **Restrições**  | - Cada material deve estar vinculado a apenas um tópico.<br>- Exibição deve ser clara e intuitiva. |
+| **Episódios**   | 1. O sistema organiza materiais por tópicos.<br>2. O aluno acessa a disciplina.<br>3. Navega pelos tópicos.<br>4. Visualiza materiais correspondentes. |
+
 ---
+
 ### Cenário 18: Integração com Outros Softwares Educacionais
-**Requisito Associado:**
-[RF34](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitad
-os/#funcionais) - O sistema deve integrar outros softwares educacionais (como AVAs)
+**Requisito Associado:** [RF34](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve integrar outros softwares educacionais (como AVAs).
+
 <div align="center"><strong>Tabela 20: Cenário 18</strong></div>
-| Elemento | Descrição |
-|-----------|------------|
-| **ID** | CE18 |
-| **Título** | Integração com Softwares Educacionais Externos |
-| **Metas/Objetivos** | Permitir que conteúdos e atividades de outros softwares sejam
-acessíveis dentro da plataforma, centralizando o aprendizado. |
-| **Contexto** | O aluno ou professor deseja acessar recursos de AVAs e outras plataformas
-educacionais diretamente pelo sistema. |
-| **Ator(es)** | Aluno<br>Professor<br>Sistema |
-| **Recursos** | - APIs de integração com softwares externos<br>- Banco de dados do
-sistema |
-| **Exceções** | - Falha na comunicação com softwares externos.<br>- Dados
-inconsistentes importados. |
-| **Restrições** | - Apenas plataformas autorizadas devem ser integradas.<br>- Integração
-segura e em tempo real. |
-| **Episódios** | 1. O sistema conecta com o software externo.<br>2. Importa materiais e
-atividades.<br>3. Exibe conteúdo integrado aos usuários.<br>4. Usuário interage com
-materiais normalmente. |
+
+| Elemento        | Descrição                                                                 |
+|------------------|---------------------------------------------------------------------------|
+| **ID**          | CE18                                                                      |
+| **Título**      | Integração com Softwares Educacionais Externos                            |
+| **Metas/Objetivos** | Permitir que conteúdos e atividades de outros softwares sejam acessíveis dentro da plataforma, centralizando o aprendizado. |
+| **Contexto**    | O aluno ou professor deseja acessar recursos de AVAs e outras plataformas educacionais diretamente pelo sistema. |
+| **Ator(es)**    | - Aluno<br>- Professor<br>- Sistema                                       |
+| **Recursos**    | - APIs de integração com softwares externos<br>- Banco de dados do sistema |
+| **Exceções**    | - Falha na comunicação com softwares externos.<br>- Dados inconsistentes importados. |
+| **Restrições**  | - Apenas plataformas autorizadas devem ser integradas.<br>- Integração segura e em tempo real. |
+| **Episódios**   | 1. O sistema conecta com o software externo.<br>2. Importa materiais e atividades.<br>3. Exibe conteúdo integrado aos usuários.<br>4. Usuário interage com materiais normalmente. |
+
 ---
+
 ### Cenário 19: Customização do Assistente Virtual
-**Requisito Associado:**
-[RF40](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitad
-os/#funcionais) - O assistente virtual deve ser customizável pelo usuário
+**Requisito Associado:** [RF40](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O assistente virtual deve ser customizável pelo usuário.
+
 <div align="center"><strong>Tabela 21: Cenário 19</strong></div>
-| Elemento | Descrição |
-|-----------|------------|
-| **ID** | CE19 |
-| **Título** | Customização do Assistente Virtual |
-| **Metas/Objetivos** | Permitir que o usuário personalize a aparência, comportamento e
-notificações do assistente virtual, aumentando engajamento e satisfação. |
-| **Contexto** | O usuário deseja ajustar o assistente virtual de acordo com suas
-preferências. |
-| **Ator(es)** | Aluno |
-| **Recursos** | - Interface de configuração do assistente<br>- Banco de dados de
-preferências do usuário |
-| **Exceções** | - Falha ao salvar configurações.<br>- Alterações não aplicadas
-corretamente. |
-| **Restrições** | - Configurações aplicam-se apenas ao usuário.<br>- Devem respeitar
-limites técnicos da plataforma. |
-| **Episódios** | 1. O usuário acessa a seção de customização.<br>2. Ajusta aparência,
-comportamento e notificações.<br>3. Salva preferências.<br>4. Assistente virtual se adapta
-às configurações. |
+
+| Elemento        | Descrição                                                                 |
+|------------------|---------------------------------------------------------------------------|
+| **ID**          | CE19                                                                      |
+| **Título**      | Customização do Assistente Virtual                                        |
+| **Metas/Objetivos** | Permitir que o usuário personalize a aparência, comportamento e notificações do assistente virtual, aumentando engajamento e satisfação. |
+| **Contexto**    | O usuário deseja ajustar o assistente virtual de acordo com suas preferências. |
+| **Ator(es)**    | - Aluno                                                                  |
+| **Recursos**    | - Interface de configuração do assistente<br>- Banco de dados de preferências do usuário |
+| **Exceções**    | - Falha ao salvar configurações.<br>- Alterações não aplicadas corretamente. |
+| **Restrições**  | - Configurações aplicam-se apenas ao usuário.<br>- Devem respeitar limites técnicos da plataforma. |
+| **Episódios**   | 1. O usuário acessa a seção de customização.<br>2. Ajusta aparência, comportamento e notificações.<br>3. Salva preferências.<br>4. Assistente virtual se adapta às configurações. |
 
 ---
 
-## Referências
+## Histórico de Versões
 
-## Histórico de versão
-
-| Versão | Data | Descrição | Autor(es) | Revisor |
-|--------|------|-----------|-----------|---------|
-| 1.0    | 05/10/2025 | Criação do documento de cenários | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
-| 1.1    | 07/10/2025 | Criação dos cenarios CE01 , CE02 e CE03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
-| 1.2    | 08/10/2025 | Atualização de informações no documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
-| 1.3    | 08/10/2025 | Criação dos cenarios CE07 , CE08 e CE09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
-| 1.4    | 08/10/2025 | Criação dos cenarios CE10 e CE11 | [Vilmar Fagundes](https://github.com/VilmarFagundes) |  |
-| 1.5    | 09/10/2025 | Criação dos cenarios CE10 e CE11 | [Arthur Henrique](https://github.com/arthurhieira1) |  |
+| Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
+|--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
+| 1.0    | 05/10/2025 | Criação do documento de cenários            | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.1    | 07/10/2025 | Criação dos cenários CE01, CE02 e CE03      | [Felipe Guimaraes](https://github.com/felipegf1)           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.2    | 08/10/2025 | Atualização de informações no documento     | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.3    | 08/10/2025 | Criação dos cenários CE07, CE08 e CE09      | [Arthur Guilherme](https://github.com/ArthurGuilher62)     | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.4    | 08/10/2025 | Criação dos cenários CE10 e CE11            | [Vilmar Fagundes](https://github.com/VilmarFagundes)       | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 1.5    | 09/10/2025 | Criação dos cenários CE12 e CE13            | [Arthur Henrique](https://github.com/arthurhvieira1)       | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 1.6    | 09/10/2025 | Criação dos cenários CE17, CE18 e CE19      | [João Sapiência](https://github.com/JoaoSapiencia)         | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
