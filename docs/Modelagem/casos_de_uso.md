@@ -18,8 +18,8 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [Felipe Guimaraes](https://github.com/felipegf1) | Criou as especificações de casos de uso 01, 02 e 03, que são referentes, respectivamente, aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Casos de Uso e criação das especificações de casos de uso 04, 05 e 06, que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais).                                      |
-| [Vilmar José](https://github.com/VilmarFagundes) |                                       |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Casos de Uso e criação das especificações de casos de uso 04, 05 e 06, que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais).                                      |
+| [Vilmar José](https://github.com/VilmarFagundes) | Criou as especificações de casos de uso 10 e 11, que são referentes, respectivamente, aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -217,7 +217,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 | Campo      | Descrição |
 |----------------|-----------|
-|UC08 |Avaliação de Comportamento Escolar|
+|UC09 |Avaliação de Comportamento Escolar|
 | Descrição |O sistema monitora o comportamento dos alunos e gera relatórios para o professor com base em critérios pedagógicos.|
 | Ator|- Aluno  <br>- Professor  <br>- Assistente Virtual|
 | Pré-condições| 1. O aluno está registrado no sistema.  <br>2. Há dados de presença, atividades e monitorias disponíveis.|
@@ -229,6 +229,46 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |Rastreabilidade| RF52  |
 |Data de criação| 08/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+### UC10 – Exibir média geral da turma em cada atividade
+**Requisito Associado:** [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir a média geral da turma em cada atividade
+| Campo      | Descrição |
+|----------------|-----------|
+|UC10 |Exibir média geral da turma em cada atividade|
+| Descrição |Permite que o Aluno e o Professor visualizem o desempenho médio de todos os estudantes em uma atividade avaliativa específica.|
+| Ator|- Aluno  <br>- Professor |
+| Pré-condições| 	1. O ator deve estar autenticado no sistema e ter acesso à disciplina.<br> 2. A atividade avaliativa deve ter sido concluída (prazo expirado ou corrigida) por uma amostra significativa de alunos da turma.|
+| Ação| O sistema calcula a média geral da turma na atividade após a sua finalização. |
+|Fluxo principal|1. O Ator acessa a área de visualização de desempenho da disciplina.<br> 2. O sistema recupera e calcula a média das notas de todos os alunos que realizaram a atividade.<br> 3. O sistema exibe o valor da média geral da turma na interface, associado à atividade correspondente.|
+|Fluxo alternativo| Dados de Média Indisponíveis (Parcial): Se o cálculo da média geral não puder ser realizado (ex: poucos alunos realizaram ou atividade pendente de correção), o sistema pode exibir uma mensagem indicando "Média em processamento" ou "Média indisponível".|
+|Fluxo de exceção|Falha de Cálculo Crítica: O sistema não consegue acessar o banco de dados ou a função de cálculo retorna um erro fatal (ex: divisão por zero). O sistema deve notificar o usuário com uma mensagem de erro genérica ("Não foi possível carregar a média da turma. Tente novamente mais tarde.") e registrar o erro no log.|
+|Pós-condições|O sistema exibe a média geral da turma para a atividade na interface do usuário.|
+|Rastreabilidade| RF11  |
+|Data de criação| 09/10/2025 |
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
+### UC11 – Escolher o tempo em que deseja receber alertas sobre atividades atrasadas
+**Requisito Associado:** [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas
+| Campo      | Descrição |
+|----------------|-----------|
+|UC11 |Escolher o tempo em que deseja receber alertas sobre atividades atrasadas|
+| Descrição |Permite ao Aluno configurar o intervalo de tempo ou a frequência desejada para o recebimento de notificações automáticas sobre atividades que estão com o prazo de entrega expirado.|
+| Ator| Aluno |
+| Pré-condições| 	1. O aluno deve estar autenticado no sistema.<br> 2. O sistema deve possuir uma interface de Configurações de Notificação acessível ao usuário.|
+| Ação| O ator seleciona a opção de frequencia desejada e o sistema salva a preferencia |
+|Fluxo principal|1. O Ator acessa a área de Configurações de Notificação.<br> 2. O sistema exibe as opções de frequência para alertas de atraso (ex: a cada 3 horas, diariamente, semanalmente).<br> 3. O Ator seleciona a frequência desejada.<br> 4. O Ator confirma a alteração, e o sistema salva a preferência.|
+|Fluxo alternativo| Personalização da Frequência: O usuário opta por definir um intervalo de tempo customizado não listado nas opções pré-definidas (ex: a cada 4 horas). O sistema valida a entrada e salva a configuração.|
+|Fluxo de exceção|Erro ao Salvar a Preferência: O sistema encontra um erro de conexão com o banco de dados ao tentar salvar a nova preferência. O sistema deve exibir uma mensagem de erro ("Não foi possível salvar a preferência de alerta. Verifique sua conexão.") e manter a configuração anterior.|
+|Pós-condições|O sistema armazena a preferência de tempo do usuário, e os alertas futuros de atividades atrasadas serão disparados com base nesta nova frequência.|
+|Rastreabilidade| RF13  |
+|Data de criação| 09/10/2025 |
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+
 ## Referências
 
 ## Histórico de versão
@@ -239,3 +279,4 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 | 1.1    | 08/10/2025 | Criação das especificações de casos de uso 04, 05 e 06 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Felipe](https://github.com/MrBolt2005) |
 | 1.2    | 08/10/2025 | Criação das especificações de casos de uso 07, 08 e 09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |# Diagrama e Especificação de Casos de Uso
 | 1.3    | 08/10/2025 | Criação das especificações de casos de uso 01, 02 e 03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.4    | 08/10/2025 | Criação das especificações de casos de uso 10 e 11 | [Vilmar José](https://github.com/VilmarFagundes) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
