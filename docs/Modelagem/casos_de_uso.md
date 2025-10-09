@@ -31,12 +31,79 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ## Especificação dos Casos de Uso
 
+### **UC01 – Exibição do Progresso na Disciplina**
+**Requisito Associado:** [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir um progresso em porcentagem do andamento da disciplina
+
+<div align="center"><strong>Tabela 2: Caso de Uso UC01</strong></div>
+
+| Campo   | Descrição  |
+| --------------------- | -------------- |
+| **UC06**              | Exibição do Progresso na Disciplina   |
+| **Descrição**         | O sistema calcula e exibe, em formato percentual, o progresso do aluno em cada disciplina com base nos conteúdos concluídos.   |
+| **Ator**          | - Aluno <br> - Sistema de acompanhamento de progresso  |
+| **Pré-condições**     | 1. O aluno está logado na plataforma. <br>2. O aluno possui disciplinas cadastradas com conteúdos disponíveis.   |
+| **Ação**          | O sistema coleta os dados de conteúdos concluídos e calcula a porcentagem de progresso para exibição na interface.|
+| **Fluxo principal**   | - O aluno acessa a página da disciplina. <br>- O sistema verifica o número total de conteúdos e os já concluídos. <br>- O sistema calcula o percentual de progresso. <br>- A interface exibe o progresso do aluno em formato percentual (ex.: “Progresso: 75%”). |
+| **Fluxo alternativo** | - O aluno ainda não iniciou nenhum conteúdo. <br>- O sistema exibe “Progresso: 0%”. |
+| **Fluxo de exceção**  | - Erro na recuperação dos dados do aluno ou das disciplinas. <br>- O sistema exibe uma mensagem de erro (“Não foi possível carregar o progresso no momento”).  |
+| **Pós-condições**     | O aluno visualiza corretamente seu progresso percentual em cada disciplina. |
+| **Rastreabilidade**   | [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)|
+| **Data de criação**   | 08/10/2025       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+---
+
+### **UC02 – Exibição da Porcentagem de Acertos por Conteúdo**
+**Requisito Associado:** [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo
+
+<div align="center"><strong>Tabela 3: Caso de Uso UC02</strong></div>
+
+| Campo                 | Descrição     |
+| --------------------- | ----------------------------------------------- |
+| **UC07**              | Exibição da Porcentagem de Acertos por Conteúdo |
+| **Descrição**         | O sistema calcula e exibe, em formato percentual, o desempenho do aluno nas atividades de cada conteúdo da disciplina. |
+| **Ator**          | - Aluno <br> - Sistema de avaliação de desempenho  |
+| **Pré-condições**     | 1. O aluno está logado na plataforma. <br>2. Existem atividades concluídas associadas aos conteúdos da disciplina.   |
+| **Ação**  | O sistema coleta os resultados das atividades de cada conteúdo e calcula a porcentagem de acertos, exibindo o valor correspondente na interface. |
+| **Fluxo principal**   | - O aluno acessa a página de um conteúdo. <br>- O sistema busca os resultados das atividades realizadas. <br>- O sistema calcula a porcentagem de acertos do aluno naquele conteúdo. <br>- A interface exibe o valor percentual (ex.: “Acertos: 85%”). |
+| **Fluxo alternativo** | - O aluno ainda não realizou nenhuma atividade do conteúdo. <br>- O sistema exibe “Acertos: 0%” ou “Sem atividades concluídas”.  |
+| **Fluxo de exceção**  | - Falha ao carregar os dados de desempenho. <br>- O sistema exibe uma mensagem de erro (“Não foi possível carregar os resultados”).  |
+| **Pós-condições**     | O aluno visualiza o percentual de acertos das atividades cada conteúdo estudado. |
+| **Rastreabilidade**   | [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Data de criação**   | 08/10/2025  |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+---
+
+### **UC03 – Exibição da Porcentagem de Erros por Conteúdo**
+**Requisito Associado:** [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo
+
+<div align="center"><strong>Tabela 4: Caso de Uso UC03</strong></div>
+
+| Campo                 | Descrição |
+| --------------------- | ---------------------------------|
+| **UC08**              | Exibição da Porcentagem de Erros por Conteúdo     |
+| **Descrição**         | O sistema calcula e exibe, em formato percentual, o índice de erros do aluno nas atividades de cada conteúdo da disciplina.   |
+| **Ator**         | - Aluno <br> - Sistema de avaliação de desempenho   |
+| **Pré-condições**     | 1. O aluno está logado na plataforma. <br>2. Existem atividades concluídas associadas aos conteúdos da disciplina.  |
+| **Ação**              | O sistema coleta os resultados das atividades e calcula a porcentagem de erros de cada conteúdo, exibindo o valor correspondente na interface. |
+| **Fluxo principal**   | - O aluno acessa a página de um conteúdo. <br>- O sistema busca os resultados das atividades realizadas. <br>- O sistema calcula a porcentagem de erros com base nas respostas incorretas. <br>- A interface exibe o valor percentual (ex.: “Erros: 15%”). |
+| **Fluxo alternativo** | - O aluno ainda não realizou nenhuma atividade do conteúdo. <br>- O sistema exibe “Erros: 0%” ou “Sem atividades concluídas”.  |
+| **Fluxo de exceção**  | - Falha ao carregar os dados de desempenho. <br>- O sistema exibe uma mensagem de erro (“Não foi possível carregar os resultados”). |
+| **Pós-condições**     | O aluno visualiza o percentual de erros das atividades de cada conteúdo estudado.  |
+| **Rastreabilidade**   | [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)|
+| **Data de criação**   | 08/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
 ---
 
 ### **UC04 – Lembretes de Revisão de Conteúdos**
 **Requisito Associado:** [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados.
 
-<div align="center"><strong>Tabela 6: Caso de Uso UC04</strong></div>
+<div align="center"><strong>Tabela 5: Caso de Uso UC04</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -60,7 +127,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC05 – Configuração da Forma de Notificação**
 **Requisito Associado:** [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve pedir ao usuário a melhor forma de caminho de notificação.
 
-<div align="center"><strong>Tabela 7: Caso de Uso UC05</strong></div>
+<div align="center"><strong>Tabela 6: Caso de Uso UC05</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -84,7 +151,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC06 – Notificação de Prazo de Entrega**
 **Requisito Associado:** [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.
 
-<div align="center"><strong>Tabela 8: Caso de Uso UC06</strong></div>
+<div align="center"><strong>Tabela 7: Caso de Uso UC06</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -171,3 +238,4 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 | 1.0    | 05/10/2025 | Criação do documento dos Cados de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.1    | 08/10/2025 | Criação das especificações de casos de uso 04, 05 e 06 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Felipe](https://github.com/MrBolt2005) |
 | 1.2    | 08/10/2025 | Criação das especificações de casos de uso 07, 08 e 09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |# Diagrama e Especificação de Casos de Uso
+| 1.3    | 08/10/2025 | Criação das especificações de casos de uso 01, 02 e 03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
