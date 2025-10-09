@@ -24,7 +24,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 ## Léxicos
 
 ### Léxico 1: Aluno
-O termo **Aluno** define o ator principal e central do sistema. É a pessoa cuja experiência de aprendizado, desempenho e progresso são o foco de todas as funcionalidades de análise e interação do sistema.
+O termo "Aluno" define o ator principal e central do sistema. É a pessoa cuja experiência de aprendizado, desempenho e progresso são o foco de todas as funcionalidades de análise e interação do sistema.
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -33,7 +33,7 @@ O termo **Aluno** define o ator principal e central do sistema. É a pessoa cuja
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
 
 ### Léxico 2: Professor
-O termo **Professor** define o ator supervisor e facilitador do processo de ensino. É o responsável por ministrar o conteúdo, acompanhar o desempenho coletivo e individual dos estudantes e utilizar os dados analíticos do sistema para tomar decisões pedagógicas.
+O termo "Professor" define o ator supervisor e facilitador do processo de ensino. É o responsável por ministrar o conteúdo, acompanhar o desempenho coletivo e individual dos estudantes e utilizar os dados analíticos do sistema para tomar decisões pedagógicas.
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -77,7 +77,7 @@ O termo **Professor** define o ator supervisor e facilitador do processo de ensi
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ### Léxico 8: Receber Notificação
-O termo **Receber Notificação** é um verbo de ação do sistema que garante a comunicação proativa com o usuário. Refere-se ao ato de o ator ser alertado sobre eventos importantes, como prazos, atividades pendentes ou sugestões de conteúdo para revisão.
+O termo "Receber Notificação" é um verbo de ação do sistema que garante a comunicação proativa com o usuário. Refere-se ao ato de o ator ser alertado sobre eventos importantes, como prazos, atividades pendentes ou sugestões de conteúdo para revisão.
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -86,7 +86,7 @@ O termo **Receber Notificação** é um verbo de ação do sistema que garante a
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
 
 ### Léxico 9: Consultar Histórico
-O termo **Consultar Histórico** é um verbo essencial para a função analítica do sistema. Permite que o ator visualize e recupere registros de suas atividades passadas, desempenho e o fluxo de notificações, sendo crucial para a autoavaliação do progresso e para o acompanhamento docente.
+O termo "Consultar Histórico" é um verbo essencial para a função analítica do sistema. Permite que o ator visualize e recupere registros de suas atividades passadas, desempenho e o fluxo de notificações, sendo crucial para a autoavaliação do progresso e para o acompanhamento docente.
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
