@@ -23,6 +23,28 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 ## Léxicos
 
+### Léxico 5: Administrador
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Administrador | Objeto | Gestor do Sistema | Responsável pela gestão do sistema, usuários e configurações gerais. | - Mantém perfis de usuários.<br>- Gerencia permissões e dados do sistema.<br>- Garante segurança, backup e disponibilidade do sistema. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+### Léxico 6: AVAs
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| AVAs | Objeto | Ambientes Virtuais de Aprendizagem | Plataformas digitais externas integráveis ao sistema. | - Integração com outros sistemas educacionais.<br>- Centraliza informações sobre desempenho e atividades. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+### Léxico 7: MinA
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Personagem | Objeto | - Personagem antropomórfico | Representação antropomórfica do Sistema Tutor Inteligente para interação direta com o estudante. | - Facilita engajamento.<br>- Permite interação intuitiva. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+
 ## Referências
 
 ## Histórico de versão
