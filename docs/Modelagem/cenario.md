@@ -14,7 +14,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Criação dos cenários 12 e 13, referentes, respectivamente aos requisitos [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF21](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                       |
 | [Felipe Guimaraes](https://github.com/felipegf1) |   Criou os cenários 01, 02 e 03, referente aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
-| [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
+| [João Sapiência](https://github.com/JoaoSapiencia) |  Criou os cenários 17, 18 e 19, referente aos requisitos [RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF34](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF40](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                     |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  Criação do documento de Cenário e criação dos cenários 04, 05 e 06, que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais).                                 |
 | [Vilmar José](https://github.com/VilmarFagundes) | Criação dos cenários 10 e 11, referentes, respectivamente aos requisitos [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 
@@ -315,6 +315,79 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Episódios** | 1. O usuário acessa a área de "Configurações" ou "Preferências" do seu perfil.<br>2. Ele navega até a seção "Notificações".<br>3. Na opção "Lembrete de entrega de atividade", ele altera a seleção padrão para a desejada (ex: "3 dias antes").<br>4. O sistema confirma que a alteração foi salva com sucesso.<br>5. O serviço de notificação passa a utilizar essa nova configuração para os futuros lembretes deste usuário. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+### Cenário 17: Organização de Materiais por Tópicos
+**Requisito Associado:**
+[RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitad
+os/#funcionais) - Os materiais devem estar postados em tópicos de conteúdos separados
+na disciplina
+<div align="center"><strong>Tabela 19: Cenário 17</strong></div>
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE17 |
+| **Título** | Materiais Organizacionais por Tópicos |
+| **Metas/Objetivos** | Garantir que os materiais de estudo sejam organizados e acessíveis
+por tópicos, facilitando a navegação e aprendizagem. |
+| **Contexto** | O usuário acessa uma disciplina e deseja consultar materiais agrupados por
+tópicos específicos. |
+| **Ator(es)** | Aluno<br>Professor |
+| **Recursos** | - Banco de dados de materiais<br>- Interface de exibição por tópicos |
+| **Exceções** | - Falha na categorização dos materiais.<br>- Material inexistente ou
+corrompido. |
+| **Restrições** | - Cada material deve estar vinculado a apenas um tópico.<br>- Exibição
+deve ser clara e intuitiva. |
+| **Episódios** | 1. O sistema organiza materiais por tópicos.<br>2. O aluno acessa a
+disciplina.<br>3. Navega pelos tópicos.<br>4. Visualiza materiais correspondentes. |
+---
+### Cenário 18: Integração com Outros Softwares Educacionais
+**Requisito Associado:**
+[RF34](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitad
+os/#funcionais) - O sistema deve integrar outros softwares educacionais (como AVAs)
+<div align="center"><strong>Tabela 20: Cenário 18</strong></div>
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE18 |
+| **Título** | Integração com Softwares Educacionais Externos |
+| **Metas/Objetivos** | Permitir que conteúdos e atividades de outros softwares sejam
+acessíveis dentro da plataforma, centralizando o aprendizado. |
+| **Contexto** | O aluno ou professor deseja acessar recursos de AVAs e outras plataformas
+educacionais diretamente pelo sistema. |
+| **Ator(es)** | Aluno<br>Professor<br>Sistema |
+| **Recursos** | - APIs de integração com softwares externos<br>- Banco de dados do
+sistema |
+| **Exceções** | - Falha na comunicação com softwares externos.<br>- Dados
+inconsistentes importados. |
+| **Restrições** | - Apenas plataformas autorizadas devem ser integradas.<br>- Integração
+segura e em tempo real. |
+| **Episódios** | 1. O sistema conecta com o software externo.<br>2. Importa materiais e
+atividades.<br>3. Exibe conteúdo integrado aos usuários.<br>4. Usuário interage com
+materiais normalmente. |
+---
+### Cenário 19: Customização do Assistente Virtual
+**Requisito Associado:**
+[RF40](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitad
+os/#funcionais) - O assistente virtual deve ser customizável pelo usuário
+<div align="center"><strong>Tabela 21: Cenário 19</strong></div>
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE19 |
+| **Título** | Customização do Assistente Virtual |
+| **Metas/Objetivos** | Permitir que o usuário personalize a aparência, comportamento e
+notificações do assistente virtual, aumentando engajamento e satisfação. |
+| **Contexto** | O usuário deseja ajustar o assistente virtual de acordo com suas
+preferências. |
+| **Ator(es)** | Aluno |
+| **Recursos** | - Interface de configuração do assistente<br>- Banco de dados de
+preferências do usuário |
+| **Exceções** | - Falha ao salvar configurações.<br>- Alterações não aplicadas
+corretamente. |
+| **Restrições** | - Configurações aplicam-se apenas ao usuário.<br>- Devem respeitar
+limites técnicos da plataforma. |
+| **Episódios** | 1. O usuário acessa a seção de customização.<br>2. Ajusta aparência,
+comportamento e notificações.<br>3. Salva preferências.<br>4. Assistente virtual se adapta
+às configurações. |
 
 ---
 
