@@ -326,3 +326,4 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | 1.2    | 08/10/2025 | Atualização de informações no documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.3    | 08/10/2025 | Criação dos cenarios CE07 , CE08 e CE09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.4    | 08/10/2025 | Criação dos cenarios CE10 e CE11 | [Vilmar Fagundes](https://github.com/VilmarFagundes) |  |
+| 1.5    | 09/10/2025 | Criação dos cenarios CE10 e CE11 | [Arthur Henrique](https://github.com/arthurhieira1) |  |
