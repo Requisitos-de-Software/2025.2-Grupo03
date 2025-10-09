@@ -111,4 +111,4 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento das Listas de Verificação da Entrega 3 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.1    | 09/10/2025 | Adição da Lista de Verificação de Cenário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 1.2    | 09/10/2025 | Adição da Lista de Verificação de Especificação Suplementar | [Vilmar Fagundes](https://github.com/VilmarFagundes |  [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 1.2    | 09/10/2025 | Adição da Lista de Verificação de Especificação Suplementar | [Vilmar Fagundes](https://github.com/VilmarFagundes) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
