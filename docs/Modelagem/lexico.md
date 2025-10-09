@@ -15,7 +15,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |                                       |
-| [Vilmar José](https://github.com/VilmarFagundes) |                                       |
+| [Vilmar José](https://github.com/VilmarFagundes) | Elaboração dos léxicos 1, 2, 8, 9, 14, 15 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -156,3 +156,4 @@ O termo “Conteúdo em Dificuldade” refere-se ao estado em que o sistema iden
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento dos Léxicos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.1    | 09/10/2025 | Elaboração dos Léxicos 1, 2, 8, 9, 14, 15 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)  |
