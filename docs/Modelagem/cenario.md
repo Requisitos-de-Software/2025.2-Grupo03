@@ -374,6 +374,18 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Episódios**   | 1. O usuário acessa a seção de customização.<br>2. Ajusta aparência, comportamento e notificações.<br>3. Salva preferências.<br>4. Assistente virtual se adapta às configurações. |
 
 ---
+## Gravação da validação do documento
+### Usuário entrevistado
+Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário
+<div align="center"><strong>Tabela 6: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| João Igor | 09/10/2025 | 13:30 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/WbPsxPIdTtg](https://youtu.be/WbPsxPIdTtg)
 
 ## Referências
 SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
