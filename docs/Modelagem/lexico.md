@@ -9,7 +9,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) |                                       |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |                                       |
 | [Felipe Guimaraes](https://github.com/felipegf1) |                                       |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
@@ -42,6 +42,7 @@ O termo "Professor" define o ator supervisor e facilitador do processo de ensino
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
 
 ### Léxico 3: Monitor
+O termo "Monitor" representa o ator auxiliar no processo educacional. É responsável por apoiar os estudantes na realização das atividades, esclarecer dúvidas e facilitar a comunicação entre os envolvidos no ambiente de aprendizagem.
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Monitor | Objeto | Tutor | Pessoa que auxilia alunos no acompanhamento das atividades. | - Auxilia alunos e professores.<br>- Acompanha desempenho.<br>- Facilita interações. |
@@ -49,6 +50,7 @@ O termo "Professor" define o ator supervisor e facilitador do processo de ensino
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ### Léxico 4: Coordenador
+O termo "Coordenador" define o ator responsável pela supervisão pedagógica do sistema. É a pessoa que organiza processos, acompanha o desempenho dos envolvidos e garante o alinhamento entre os objetivos educacionais e as ações dos professores e monitores.
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Coordenador | Objeto | Supervisor Acadêmico | Responsável por supervisionar cursos ou disciplinas, organizando processos e atividades. | - Monitora desempenho e progresso de alunos e professores.<br>- Coordena informações de atividades e módulos.<br>- Garante o alinhamento pedagógico entre professores e monitores. |
@@ -94,6 +96,22 @@ O termo "Consultar Histórico" é um verbo essencial para a função analítica 
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
 
+### Léxico 10: Consultar Conteúdo
+O termo "Consultar Conteúdo" é um verbo que representa a ação de acessar materiais didáticos. Permite ao ator visualizar tópicos da disciplina, servindo como base para o estudo.
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Consultar Conteúdo | Verbo | Visualizar Conteúdo | Ator acessa material didático ou tópicos da disciplina. | - Base para realização de atividades.<br>- Orienta estudo individual. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+### Léxico 11: Realizar Atividade
+O termo "Realizar Atividade" é um verbo que expressa a execução de tarefas propostas pelo sistema. Refere-se ao momento em que o usuário interage com exercícios, avaliações ou atividades, gerando dados de desempenho.
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Realizar Atividade | Verbo | Executar Tarefa | Usuário completa exercício, avaliação ou tarefa. | - Gera registros de desempenho.<br>- Contribui para histórico e progresso. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
 ### Léxico 12: Consultar Desempenho
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -128,6 +146,26 @@ O termo “Atividade Pendente” refere-se à condição em que uma atividade ai
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
 
+### Léxico 16: Atividade em Andamento
+
+O termo “Atividade em Andamento” refere-se ao estado em que o aluno iniciou uma atividade, mas ainda não a concluiu completamente.
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|----------|-------|----------------|-----------|------------|
+| Atividade em Andamento   | Estado | Em Execução, Em Progresso | Condição em que o aluno está realizando uma atividade, mas o envio ainda não foi concluído. | - Permite acompanhamento em tempo real.<br>- Atualiza parcialmente o progresso.<br>- Garante continuidade entre sessões de uso. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+### Léxico 17: Atividade Atrasada
+
+O termo “Atividade Atrasada” refere-se à condição em que o prazo de entrega da atividade foi ultrapassado sem a sua conclusão.
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|----------|-------|----------------|-----------|------------|
+| Atividade Atrasada | Estado | Vencida, Fora do Prazo | Condição em que o prazo da atividade expirou antes da entrega. | - Gera notificações automáticas ao aluno e ao professor.<br>- Afeta o cálculo de desempenho e pontuação.<br>- Pode influenciar alertas do assistente virtual. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
 ### Léxico 18: Conteúdo Dominado
 
 O termo “Conteúdo Dominado” refere-se ao estado em que o aluno demonstrou domínio sobre determinado tema ou módulo, atingindo o nível de acertos esperado.
@@ -157,3 +195,4 @@ O termo “Conteúdo em Dificuldade” refere-se ao estado em que o sistema iden
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento dos Léxicos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.1    | 09/10/2025 | Elaboração dos Léxicos 1, 2, 8, 9, 14, 15 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)  |
+| 1.2    | 09/10/2025 | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes)  |
