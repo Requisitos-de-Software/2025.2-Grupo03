@@ -240,6 +240,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ### UC10 – Exibir média geral da turma em cada atividade
 **Requisito Associado:** [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir a média geral da turma em cada atividade
+
 | Campo      | Descrição |
 |----------------|-----------|
 |UC10 |Exibir média geral da turma em cada atividade|
@@ -259,6 +260,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ### UC11 – Escolher o tempo em que deseja receber alertas sobre atividades atrasadas
 **Requisito Associado:** [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas
+
 | Campo      | Descrição |
 |----------------|-----------|
 |UC11 |Escolher o tempo em que deseja receber alertas sobre atividades atrasadas|
