@@ -270,6 +270,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 
 ## Referências
+Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
 
 ## Histórico de versão
 

@@ -188,6 +188,7 @@ O termo “Conteúdo em Dificuldade” refere-se ao estado em que o sistema iden
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Referências
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
 
 ## Histórico de versão
 

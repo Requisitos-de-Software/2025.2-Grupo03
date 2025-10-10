@@ -375,6 +375,9 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 ---
 
+## Referências
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |

@@ -141,6 +141,9 @@ Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuár
 Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/km8nqY-LzkY](https://youtu.be/km8nqY-LzkY) 
 
 ## Referências
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 13. Disponível em: [Requisitos_Aula 10](../arquivos/Suplementar_Aula13.pdf). Acesso em: 10 outubro 2025.
+
+BRASIL. Ministério da Ciência, Tecnologia e Inovações. Especificação Suplementar. Disponível em: [Especificação de Caso de Uso](../arquivos/SiglaProjeto_EspecificacaoCasoUso.pdf). Acesso em: 10 outubro 2025.
 
 ## Histórico de versão
 
