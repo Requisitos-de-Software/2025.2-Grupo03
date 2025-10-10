@@ -11,7 +11,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |                                       |
-| [Felipe Guimaraes](https://github.com/felipegf1) |                                       |
+| [Felipe Guimaraes](https://github.com/felipegf1) |   Elaboração dos léxicos 20, 21 , 22 |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19 |
@@ -190,7 +190,7 @@ O termo “Conteúdo Dominado” refere-se ao estado em que o aluno demonstrou d
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Léxico 19: Conteúdo em Dificuldade
+### Léxico 19: Conteúdo em Dificuldade
 
 O termo “Conteúdo em Dificuldade” refere-se ao estado em que o sistema identifica baixo desempenho ou alto índice de erro em determinado tema.
 
@@ -200,6 +200,36 @@ O termo “Conteúdo em Dificuldade” refere-se ao estado em que o sistema iden
 | Conteúdo em Dificuldade  | Estado | Fraco, Necessidade de revisão   | Indica que o aluno apresenta baixo desempenho em um determinado conteúdo. | - Gera alertas ao assistente virtual.<br>- Direciona materiais de reforço.<br>- Auxilia professores na identificação de dificuldades coletivas. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+### Léxico 20: Banco de questoões
+
+O termo “Banco de Questões” refere-se ao repositório central do sistema onde são armazenadas, organizadas e gerenciadas todas as questões utilizadas nas atividades e avaliações.
+
+| Termo             | Tipo   | Sinônimos    | Noção  | Impacto   |
+| ----------------- | ------ | -------- | ------------------------|-------------------------------|
+| Banco de Questões | Objeto | Repositório de Questões, Base de Questões | Conjunto estruturado de questões criadas ou importadas pelos professores, classificadas por conteúdo, nível de dificuldade e tipo. | - Facilita a criação e reaproveitamento de avaliações.<br>- Permite organização eficiente por temas e disciplinas.<br>- Garante consistência e padronização das questões no sistema.<br>- Contribui para a geração automática de provas e exercícios. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+### Léxico 21: Separar por conteudo
+
+O termo “Separar por Conteúdo” refere-se à ação de organizar as questões do banco de acordo com os conteúdos temáticos definidos pelo professor.
+
+| Termo                | Tipo  | Sinônimos                         | Noção        | Impacto     |
+| -------------------- | ----- |---------------------------------|------------------- |------- |
+| Separar por Conteúdo | Verbo | Classificar por Tópico, Organizar por Assunto | Ação de agrupar ou associar cada questão a um conteúdo específico, garantindo a estruturação do banco de questões. | - Melhora a navegação e busca no banco.<br>- Permite geração de provas temáticas e filtragens personalizadas.<br>- Garante coerência entre questões e o plano de ensino.<br>- Pode ser realizada automaticamente ou manualmente pelo professor. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+### Léxico 22: Aluno com Dificuldade
+
+O termo “Aluno com Dificuldade” refere-se ao estado em que o desempenho do aluno apresenta indícios de baixo aproveitamento em uma ou mais disciplinas, conteúdos ou atividades avaliativas.
+
+| Termo                 | Tipo   | Sinônimos                        | Noção  | Impacto |
+| --------------------- | ------ | -------------------------------- | --------|--------- |
+| Aluno com Dificuldade | Estado | Desempenho Baixo, Aluno em Risco | Condição em que o aluno apresenta resultados abaixo do esperado, seja por notas, frequência, ou tempo de conclusão das atividades. | - Permite geração de alertas automáticos ao professor.<br>- Pode acionar recomendações de estudo personalizadas.<br>- Contribui para relatórios de desempenho e acompanhamento pedagógico.<br>- Ajuda na tomada de decisão sobre intervenções e reforços. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
 
 ## Referências
 SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.

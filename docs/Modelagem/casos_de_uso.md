@@ -339,6 +339,9 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ---
 
+## Validação dos casos de uso
+- [Link No Youtube](https://youtu.be/C0O24DxxID4)
+
 ## Referências
 Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
 
@@ -352,3 +355,4 @@ Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. D
 | 1.3    | 08/10/2025 | Criação das especificações de casos de uso 01, 02 e 03 | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.4    | 08/10/2025 | Criação das especificações de casos de uso 10 e 11 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.5    | 10/10/2025 | Criação das especificações de casos de uso 12, 13 e 14 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.6    | 10/10/2025 | Gravação da Validação | [Felipe Guimaraes](https://github.com/felipegf1) e [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
