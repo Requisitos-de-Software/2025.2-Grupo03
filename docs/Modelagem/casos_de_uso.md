@@ -29,6 +29,12 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ## Diagramas de Caso de Uso
 
+<div align="center"><strong>Figura 1: Caso de Uso UC04, UC05, UC06 e UC11</strong></div>
+![Figura 1: Diagrama 1](../imagens/casosDeUso/DiagramaCasoUso1.jpeg)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+
 ## Especificação dos Casos de Uso
 
 ### **UC01 – Exibição do Progresso na Disciplina**
