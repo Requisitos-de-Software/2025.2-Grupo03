@@ -268,6 +268,76 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |Data de criação| 09/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
+---
+
+### **UC12 – Organização do Banco de Questões por Conteúdo**
+**Requisito Associado:** RF32 – O banco de questões deve estar separado por conteúdo.
+
+<div align="center"><strong>Tabela 13: Caso de Uso UC12</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC12** | Organização do Banco de Questões por Conteúdo |
+| **Descrição** | Permite ao professor e ao aluno visualizar e filtrar as questões do banco de dados de acordo com o conteúdo específico da disciplina, facilitando a busca e a organização dos materiais de estudo e avaliação. |
+| **Ator** | - Professor<br>- Aluno<br>- Sistema de Banco de Questões (BDQ) |
+| **Pré-condições** | 1. O usuário (professor ou aluno) está autenticado no sistema.<br>2. Existem conteúdos (tópicos, capítulos) cadastrados nas disciplinas.<br>3. Existem questões no Banco de Questões associadas a esses conteúdos. |
+| **Ação** | O usuário seleciona um filtro de conteúdo, e o sistema exibe apenas as questões relacionadas a ele. |
+| **Fluxo principal** | - O usuário acessa a área do "Banco de Questões".<br>- O sistema exibe as opções de filtro por conteúdo (ex: uma lista de tópicos da disciplina).<br>- O usuário seleciona um conteúdo desejado.<br>- O sistema atualiza a visualização e exibe apenas as questões associadas ao conteúdo selecionado. |
+| **Fluxo alternativo** | - O conteúdo selecionado não possui questões cadastradas.<br>- O sistema exibe a mensagem: "Nenhuma questão encontrada para este conteúdo". |
+| **Fluxo de exceção** | - O sistema não consegue carregar os filtros de conteúdo ou as questões devido a uma falha no banco de dados.<br>- O sistema exibe uma mensagem de erro: "Não foi possível carregar as questões. Tente novamente mais tarde." |
+| **Pós-condições** | O usuário visualiza uma lista de questões devidamente filtrada pelo conteúdo escolhido. |
+| **Rastreabilidade** | RF32 |
+| **Data de criação** | 10/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+### **UC13 – Acesso ao Painel de Desempenho Centralizado**
+**Requisito Associado:** RF34 – A integração deve reduzir o esforço de professores e monitores, centralizando informações sobre atividades e desempenho.
+
+<div align="center"><strong>Tabela 14: Caso de Uso UC13</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC13** | Acesso ao Painel de Desempenho Centralizado |
+| **Descrição** | Permite que professores e monitores acessem uma tela unificada que consolida as informações de atividades, notas e progresso dos alunos, otimizando o tempo de análise e acompanhamento. |
+| **Ator** | - Professor<br>- Monitor |
+| **Pré-condições** | 1. O usuário (professor ou monitor) está autenticado no sistema.<br>2. Existem alunos vinculados às suas disciplinas ou grupos de monitoria.<br>3. Existem dados de desempenho e atividades dos alunos registrados no sistema. |
+| **Ação** | O sistema coleta e exibe dados de diferentes módulos em um painel de controle único para o usuário. |
+| **Fluxo principal** | - O usuário acessa a área "Desempenho da Turma" ou o perfil de um aluno específico.<br>- O sistema busca e consolida informações de atividades, progresso nos conteúdos e notas.<br>- A interface exibe um painel centralizado com os dados compilados (ex: média geral, atividades pendentes, últimos resultados). |
+| **Fluxo alternativo** | - Um aluno específico ainda não possui dados de desempenho.<br>- O sistema exibe no painel a mensagem: "Sem dados de desempenho para exibir". |
+| **Fluxo de exceção** | - Falha na integração com um dos módulos do sistema ao buscar os dados.<br>- O sistema exibe os dados que conseguiu carregar e uma mensagem de alerta: "Algumas informações não puderam ser carregadas". |
+| **Pós-condições** | O professor ou monitor visualiza as informações de desempenho dos alunos de forma centralizada, reduzindo o esforço de busca em diferentes partes do sistema. |
+| **Rastreabilidade** | RF34 |
+| **Data de criação** | 10/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+### **UC14 – Sugestão de Questões pelo Assistente Virtual**
+**Requisito Associado:** RF40 – O assistente virtual deve sugerir questões com o conteúdo da vídeo aula.
+
+<div align="center"><strong>Tabela 15: Caso de Uso UC14</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC14** | Sugestão de Questões pelo Assistente Virtual |
+| **Descrição** | O assistente virtual (ITA) identifica o conteúdo da vídeoaula que o aluno está assistindo e, de forma proativa, sugere questões relacionadas do banco de dados para reforçar o aprendizado. |
+| **Ator** | - Aluno<br>- Assistente Virtual (ITA) |
+| **Pré-condições** | 1. O aluno está logado na plataforma SAE.<br>2. O aluno está na página de uma vídeoaula.<br>3. Existem questões no Banco de Questões (BDQ) associadas ao conteúdo da vídeoaula. |
+| **Ação** | O assistente virtual analisa o conteúdo da vídeoaula e busca por questões correspondentes para sugerir ao aluno. |
+| **Fluxo principal** | - O aluno inicia a reprodução de uma vídeoaula.<br>- Durante ou após a exibição, o assistente virtual apresenta uma notificação com a sugestão de questões relacionadas.<br>- A notificação contém um chamado como "Que tal praticar o que você aprendeu?".<br>- O aluno clica na sugestão.<br>- O sistema direciona o aluno para uma atividade com as questões selecionadas. |
+| **Fluxo alternativo** | - O aluno opta por ignorar ou fechar a notificação de sugestão.<br>- O assistente virtual recolhe a notificação e o aluno continua a navegar normalmente. |
+| **Fluxo de exceção** | - O assistente virtual não encontra questões relevantes para o conteúdo no Banco de Questões.<br>- Nenhuma sugestão é exibida para o aluno.<br>- Ocorre uma falha ao tentar carregar as questões após o aluno aceitar a sugestão.<br>- O sistema exibe uma mensagem de erro: "Não foi possível carregar as questões no momento." |
+| **Pós-condições** | O aluno pratica o conteúdo da vídeoaula por meio de questões relevantes sugeridas pelo assistente virtual. |
+| **Rastreabilidade** | RF40 |
+| **Data de criação** | 10/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
 
 ## Referências
 Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
@@ -276,8 +346,9 @@ Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. D
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 05/10/2025 | Criação do documento dos Cados de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Vilmar José](https://github.com/VilmarFagundes) |
-| 1.1    | 08/10/2025 | Criação das especificações de casos de uso 04, 05 e 06 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Felipe](https://github.com/MrBolt2005) |
-| 1.2    | 08/10/2025 | Criação das especificações de casos de uso 07, 08 e 09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |# Diagrama e Especificação de Casos de Uso
-| 1.3    | 08/10/2025 | Criação das especificações de casos de uso 01, 02 e 03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
-| 1.4    | 08/10/2025 | Criação das especificações de casos de uso 10 e 11 | [Vilmar José](https://github.com/VilmarFagundes) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.0    | 05/10/2025 | Criação do documento dos Casos de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1    | 08/10/2025 | Criação das especificações de casos de uso 04, 05 e 06 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [João Felipe](https://github.com/MrBolt2005) |
+| 1.2    | 08/10/2025 | Criação das especificações de casos de uso 07, 08 e 09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | - |
+| 1.3    | 08/10/2025 | Criação das especificações de casos de uso 01, 02 e 03 | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.4    | 08/10/2025 | Criação das especificações de casos de uso 10 e 11 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.5    | 10/10/2025 | Criação das especificações de casos de uso 12, 13 e 14 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
