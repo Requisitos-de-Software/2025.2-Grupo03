@@ -14,7 +14,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [Felipe Guimaraes](https://github.com/felipegf1) |                                       |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |                                       |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19 |
 | [Vilmar José](https://github.com/VilmarFagundes) | Elaboração dos léxicos 1, 2, 8, 9, 14, 15 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -43,6 +43,7 @@ O termo "Professor" define o ator supervisor e facilitador do processo de ensino
 
 ### Léxico 3: Monitor
 O termo "Monitor" representa o ator auxiliar no processo educacional. É responsável por apoiar os estudantes na realização das atividades, esclarecer dúvidas e facilitar a comunicação entre os envolvidos no ambiente de aprendizagem.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Monitor | Objeto | Tutor | Pessoa que auxilia alunos no acompanhamento das atividades. | - Auxilia alunos e professores.<br>- Acompanha desempenho.<br>- Facilita interações. |
@@ -51,6 +52,7 @@ O termo "Monitor" representa o ator auxiliar no processo educacional. É respons
 
 ### Léxico 4: Coordenador
 O termo "Coordenador" define o ator responsável pela supervisão pedagógica do sistema. É a pessoa que organiza processos, acompanha o desempenho dos envolvidos e garante o alinhamento entre os objetivos educacionais e as ações dos professores e monitores.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Coordenador | Objeto | Supervisor Acadêmico | Responsável por supervisionar cursos ou disciplinas, organizando processos e atividades. | - Monitora desempenho e progresso de alunos e professores.<br>- Coordena informações de atividades e módulos.<br>- Garante o alinhamento pedagógico entre professores e monitores. |
@@ -58,6 +60,8 @@ O termo "Coordenador" define o ator responsável pela supervisão pedagógica do
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ### Léxico 5: Administrador
+O termo **Administrador** define o ator responsável pela gestão técnica e operacional do sistema. Ele gerencia perfis, permissões, configurações e assegura a integridade, segurança e disponibilidade dos dados, garantindo o funcionamento adequado da plataforma e o acesso controlado dos diferentes perfis de usuários.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Administrador | Objeto | Gestor do Sistema | Responsável pela gestão do sistema, usuários e configurações gerais. | - Mantém perfis de usuários.<br>- Gerencia permissões e dados do sistema.<br>- Garante segurança, backup e disponibilidade do sistema. |
@@ -65,6 +69,8 @@ O termo "Coordenador" define o ator responsável pela supervisão pedagógica do
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ### Léxico 6: AVAs
+O termo **AVAs** (Ambientes Virtuais de Aprendizagem) representa as plataformas digitais externas que podem ser integradas ao sistema principal. Elas concentram atividades, materiais e informações de desempenho dos estudantes.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | AVAs | Objeto | Ambientes Virtuais de Aprendizagem | Plataformas digitais externas integráveis ao sistema. | - Integração com outros sistemas educacionais.<br>- Centraliza informações sobre desempenho e atividades. |
@@ -72,6 +78,8 @@ O termo "Coordenador" define o ator responsável pela supervisão pedagógica do
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ### Léxico 7: MinA
+O termo **MinA** representa a personagem antropomórfica do Sistema Tutor Inteligente, projetada para interagir diretamente com o estudante de forma amigável e intuitiva. Seu papel é facilitar o engajamento, personalizar a comunicação e melhorar a experiência de aprendizado por meio de interações humanizadas e acessíveis.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Personagem | Objeto | - Personagem antropomórfico | Representação antropomórfica do Sistema Tutor Inteligente para interação direta com o estudante. | - Facilita engajamento.<br>- Permite interação intuitiva. |
@@ -98,6 +106,7 @@ O termo "Consultar Histórico" é um verbo essencial para a função analítica 
 
 ### Léxico 10: Consultar Conteúdo
 O termo "Consultar Conteúdo" é um verbo que representa a ação de acessar materiais didáticos. Permite ao ator visualizar tópicos da disciplina, servindo como base para o estudo.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Consultar Conteúdo | Verbo | Visualizar Conteúdo | Ator acessa material didático ou tópicos da disciplina. | - Base para realização de atividades.<br>- Orienta estudo individual. |
@@ -106,6 +115,7 @@ O termo "Consultar Conteúdo" é um verbo que representa a ação de acessar mat
 
 ### Léxico 11: Realizar Atividade
 O termo "Realizar Atividade" é um verbo que expressa a execução de tarefas propostas pelo sistema. Refere-se ao momento em que o usuário interage com exercícios, avaliações ou atividades, gerando dados de desempenho.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Realizar Atividade | Verbo | Executar Tarefa | Usuário completa exercício, avaliação ou tarefa. | - Gera registros de desempenho.<br>- Contribui para histórico e progresso. |
@@ -113,6 +123,8 @@ O termo "Realizar Atividade" é um verbo que expressa a execução de tarefas pr
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ### Léxico 12: Consultar Desempenho
+O termo **Consultar Desempenho** é um verbo que representa a ação de verificar resultados e métricas de aprendizado. Essa funcionalidade permite ao usuário acompanhar seus acertos, erros, médias e progresso ao longo da disciplina, servindo como base para autoavaliação e revisão de conteúdos.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Consultar Desempenho | Verbo | Ver Resultados | Usuário verifica acertos, erros, médias e progresso. | - Permite acompanhamento do aprendizado.<br>- Auxilia na tomada de decisão sobre revisão de conteúdo. |
@@ -120,6 +132,8 @@ O termo "Realizar Atividade" é um verbo que expressa a execução de tarefas pr
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ### Léxico 13: Fornecer Estatísticas
+O termo **Fornecer Estatísticas** é um verbo que descreve a ação do sistema ao disponibilizar dados analíticos sobre o desempenho dos estudantes e o andamento das atividades. Essa função é essencial para suporte à gestão pedagógica, monitoramento de turmas e avaliação de resultados por parte de professores e coordenadores.
+
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Fornecer Estatísticas| Verbo | Exibir Estatísticas | Sistema disponibiliza informações analíticas sobre desempenho e progresso. | - Suporte a decisões pedagógicas.<br>- Auxilia monitoramento de turmas e indivíduos. |
@@ -197,3 +211,4 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requ
 | 1.0    | 05/10/2025 | Criação do documento dos Léxicos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.1    | 09/10/2025 | Elaboração dos Léxicos 1, 2, 8, 9, 14, 15 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)  |
 | 1.2    | 09/10/2025 | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes)  |
+| 1.3    | 10/10/2025 | Elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
