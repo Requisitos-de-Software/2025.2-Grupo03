@@ -1,6 +1,9 @@
 # Léxico
 
 ## Introdução
+Léxicos referem-se aos termos, vocabulário e símbolos específicos usados para descrever e documentar os requisitos de um sistema, com o objetivo de garantir que todos, desde clientes até desenvolvedores, utilizem e compreendam os mesmos conceitos de forma consistente e sem ambiguidades.
+
+Este documento apresenta os principais léxicos identificados no projeto **SAE (Sistema de Apoio Educacional)**, considerando seus possíveis sinônimos, tipo, definição dentro do contexto do sistema e sua importância tanto para o funcionamento do sistema quanto para a experiência do usuário.
 
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção dos Léxicos, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
