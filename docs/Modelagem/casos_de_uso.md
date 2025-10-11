@@ -34,6 +34,13 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
+---
+
+<div align="center"><strong>Figura 2: Caso de Uso UC07, </strong></div>
+
+![Figura 1: Diagrama 1](../imagens/casosDeUso/DiagramaCasoUso2.jpeg)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ## Especificação dos Casos de Uso
 
