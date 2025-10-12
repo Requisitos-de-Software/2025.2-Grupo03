@@ -13,7 +13,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 |
-| [Arthur Henrique](https://github.com/arthurhvieira1) | Elaboração dos léxicos 23, 24 e 25 |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Elaboração dos léxicos 23, 24, 25 e 26 |
 | [Felipe Guimaraes](https://github.com/felipegf1) |   Elaboração dos léxicos 20, 21 , 22 |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
