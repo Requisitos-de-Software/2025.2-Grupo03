@@ -305,55 +305,54 @@ O termo “Aluno com Dificuldade” refere-se ao estado em que o desempenho do a
 
 <div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
 
-### **Léxico 23: Progresso**
-O termo "Progresso" representa o acompanhamento contínuo do aprendizado do aluno dentro das disciplinas e atividades. Indica visualmente o quanto o aluno já avançou em relação aos conteúdos estudados.
 
-<div align="center"><strong>Tabela 23: Léxico – Progresso</strong></div>
+### **Léxico 23: Perfil**
+O termo "Perfil" representa o conjunto de informações que definem o tipo de usuário no sistema, suas permissões, funções e nível de acesso.
 
-| Termo | Tipo | Sinônimos | Noção | Impacto |
-|-------|------|-----------|-------|---------|
-| Progresso | Objeto | - Evolução<br>- Avanço<br>- Desenvolvimento | Percentual que indica o quanto do conteúdo ou atividade foi concluído pelo aluno. É calculado com base nos conteúdos finalizados e nas atividades respondidas. | - Permite ao aluno acompanhar sua evolução na disciplina.<br>- Alimenta análises gráficas e relatórios.<br>- É exibido na interface e utilizado pelo assistente virtual.<br>- Serve de base para notificações de desempenho. |
-
-<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
-
----
-
-### **Léxico 24: Vídeo Aula**
-O termo "Vídeo Aula" refere-se ao material audiovisual utilizado para o ensino dos conteúdos da disciplina, servindo como base para estudo, prática e recomendação de questões pelo assistente virtual.
-
-<div align="center"><strong>Tabela 24: Léxico – Vídeo Aula</strong></div>
+<div align="center"><strong>Tabela 23: Léxico – Perfil</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Vídeo Aula | Objeto | - Aula Gravada<br>- Conteúdo Audiovisual<br>- Material de Ensino | Recurso que transmite o conteúdo teórico ou prático da disciplina, vinculado a tópicos específicos de aprendizagem. | - Serve como base para sugestões de questões.<br>- Pode ser analisada pelo assistente virtual.<br>- Estimula o aprendizado autônomo.<br>- Integra-se aos conteúdos e atividades avaliativas. |
+| Perfil | Objeto | - Conta<br>- Identidade de Usuário<br>- Nível de Acesso | Estrutura que armazena as informações e definições de acesso de cada indivíduo (aluno, professor, coordenador, etc.) dentro da plataforma. | - Determina o que cada usuário pode visualizar e realizar.<br>- Define o comportamento da interface de acordo com o tipo de usuário.<br>- É essencial para personalização de notificações, relatórios e assistente virtual.<br>- Baseia o controle de permissões no sistema. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
----
 
-### **Léxico 25: Inferência**
-O termo "Inferência" representa o processo automatizado de análise cognitiva realizado pelo sistema, com base em dados e resultados do aluno, para interpretar o nível de aprendizagem e sugerir ações pedagógicas.
+### **Léxico 24: Analisar**
+O termo "Analisar" define a ação executada pelo sistema e pelos professores para interpretar dados, identificar padrões e gerar informações úteis sobre o desempenho e o aprendizado.
 
-<div align="center"><strong>Tabela 25: Léxico – Inferência</strong></div>
+<div align="center"><strong>Tabela 24: Léxico – Analisar</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Inferência | Processo | - Análise Cognitiva<br>- Dedução | Processo conduzido pelo sistema ou assistente virtual para avaliar padrões de desempenho, acertos e erros, aplicando modelos como a Lógica Fuzzy e a Teoria da Aprendizagem Significativa. | - Permite avaliações graduais e mais humanas.<br>- Alimenta decisões do assistente virtual.<br>- Orienta recomendações personalizadas de conteúdo.<br>- Auxilia professores na identificação de dificuldades cognitivas. |
+| Analisar | Verbo | - Avaliar<br>- Examinar<br>- Interpretar | Ação de processar dados de atividades, conteúdos e interações para extrair indicadores de desempenho e aprendizado. | - Permite gerar relatórios e estatísticas em tempo real.<br>- Alimenta o assistente virtual e o sistema de inferência.<br>- Auxilia na tomada de decisão pedagógica.<br>- Relaciona-se à avaliação do progresso e dificuldades. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
----
 
-### **Léxico 26: Estatísticas**
-O termo "Estatísticas" define o conjunto de dados analíticos e métricas apresentadas pelo sistema, que representam o desempenho do aluno, da turma e de comparativos entre disciplinas.
+### **Léxico 25: Atividade Concluída**
+O termo "Atividade Concluída" representa o estado de uma tarefa finalizada pelo aluno, indicando que todas as etapas foram respondidas e o resultado foi registrado pelo sistema.
 
-<div align="center"><strong>Tabela 26: Léxico – Estatísticas</strong></div>
+<div align="center"><strong>Tabela 25: Léxico – Atividade Concluída</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Atividade Concluída | Estado | - Finalizada<br>- Encerrada<br>- Respondida | Condição de uma atividade que foi totalmente realizada pelo aluno e validada pelo sistema. | - Alimenta o cálculo de progresso e desempenho.<br>- Pode gerar notificações de conclusão ou revisão.<br>- Permite a atualização de estatísticas e gráficos.<br>- Marca o avanço do aluno na disciplina. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
+### **Léxico 26: Estatística**
+O termo "Estatística" define o conjunto de dados analíticos e métricas apresentadas pelo sistema, que representam o desempenho do aluno, da turma e de comparativos entre disciplinas.
+
+<div align="center"><strong>Tabela 26: Léxico – Estatística</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
 | Estatística | Objeto | - Análise de Dados<br>- Relatório de Desempenho<br>- Indicador | Representação numérica e gráfica dos resultados obtidos por alunos, turmas e disciplinas, geralmente exibida em formato de gráfico ou relatório. | - Facilita a análise de desempenho por parte dos docentes.<br>- Fornece feedback visual ao aluno.<br>- Alimenta o painel de controle do sistema.<br>- Suporta a tomada de decisão pedagógica. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
 
 ### Léxico 27: Assistente Virtual
 
