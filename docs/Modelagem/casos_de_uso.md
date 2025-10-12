@@ -457,7 +457,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### Usuário entrevistado
 
 Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário
-<div align="center"><strong>Tabela 17: Usuário Real e Informações da Gravação</strong></div>
+<div align="center"><strong>Tabela 18: Usuário Real e Informações da Gravação</strong></div>
 
 | Nome | Data | Hora | Local|
 |-------------------------|-----------------|-----------------|------------------|
