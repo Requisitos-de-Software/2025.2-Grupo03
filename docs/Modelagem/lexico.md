@@ -309,7 +309,7 @@ O termo “Aluno com Dificuldade” refere-se ao estado em que o desempenho do a
 ### **Léxico 23: Perfil**
 O termo "Perfil" representa o conjunto de informações que definem o tipo de usuário no sistema, suas permissões, funções e nível de acesso.
 
-<div align="center"><strong>Tabela 23: Léxico – Perfil</strong></div>
+<div align="center"><strong>Tabela 25: Léxico – Perfil</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -321,7 +321,7 @@ O termo "Perfil" representa o conjunto de informações que definem o tipo de us
 ### **Léxico 24: Analisar**
 O termo "Analisar" define a ação executada pelo sistema e pelos professores para interpretar dados, identificar padrões e gerar informações úteis sobre o desempenho e o aprendizado.
 
-<div align="center"><strong>Tabela 24: Léxico – Analisar</strong></div>
+<div align="center"><strong>Tabela 26: Léxico – Analisar</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -333,7 +333,7 @@ O termo "Analisar" define a ação executada pelo sistema e pelos professores pa
 ### **Léxico 25: Atividade Concluída**
 O termo "Atividade Concluída" representa o estado de uma tarefa finalizada pelo aluno, indicando que todas as etapas foram respondidas e o resultado foi registrado pelo sistema.
 
-<div align="center"><strong>Tabela 25: Léxico – Atividade Concluída</strong></div>
+<div align="center"><strong>Tabela 27: Léxico – Atividade Concluída</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -345,7 +345,7 @@ O termo "Atividade Concluída" representa o estado de uma tarefa finalizada pelo
 ### **Léxico 26: Estatística**
 O termo "Estatística" define o conjunto de dados analíticos e métricas apresentadas pelo sistema, que representam o desempenho do aluno, da turma e de comparativos entre disciplinas.
 
-<div align="center"><strong>Tabela 26: Léxico – Estatística</strong></div>
+<div align="center"><strong>Tabela 28: Léxico – Estatística</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -358,7 +358,7 @@ O termo "Estatística" define o conjunto de dados analíticos e métricas aprese
 
 Esta tabela descreve o termo "Assistente Virtual" no contexto do SAE, apresentando seu tipo, sinônimos, noção e o impacto esperado para o sistema e para os usuários.
 
-<div align="center"><strong>Tabela 27: Léxico – Assistente Virtual</strong></div>
+<div align="center"><strong>Tabela 29: Léxico – Assistente Virtual</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 | :--- | :--- | :--- | :--- | :--- |
@@ -370,7 +370,7 @@ Esta tabela descreve o termo "Assistente Virtual" no contexto do SAE, apresentan
 
 O termo "Desempenho" refere-se às medidas quantitativas e qualitativas que indicam o rendimento do aluno em atividades, avaliações e ao longo da disciplina.
 
-<div align="center"><strong>Tabela 28: Léxico – Desempenho</strong></div>
+<div align="center"><strong>Tabela 30: Léxico – Desempenho</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 | :--- | :--- | :--- | :--- | :--- |
@@ -382,7 +382,7 @@ O termo "Desempenho" refere-se às medidas quantitativas e qualitativas que indi
 
 O termo "Configurar Aviso" refere-se à ação do usuário de definir preferências de notificações do sistema, incluindo tipos de aviso, canais e momentos de recebimento.
 
-<div align="center"><strong>Tabela 29: Léxico – Configurar Aviso</strong></div>
+<div align="center"><strong>Tabela 31: Léxico – Configurar Aviso</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 | :--- | :--- | :--- | :--- | :--- |
