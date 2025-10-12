@@ -31,39 +31,39 @@ Tabela 1: ferramentas utilizadas
 
 ## Referências  
 
-[1] CANVA. Disponível em: [https://www.canva.com/](https://www.canva.com/). Acesso em: 09 de abril de 2025.  
+[1] CANVA. Disponível em: [https://www.canva.com/](https://www.canva.com/). Acesso em: 09 de setembro de 2025.  
 
-[2] CHATGPT. Disponível em: [https://chat.openai.com/](https://chat.openai.com/). Acesso em: 09 de abril de 2025.  
+[2] CHATGPT. Disponível em: [https://chat.openai.com/](https://chat.openai.com/). Acesso em: 09 de setembro de 2025.  
 
-[3] DEEPSEEK. Disponível em: [https://deepseek.com/](https://deepseek.com/). Acesso em: 09 de abril de 2025.  
+[3] DEEPSEEK. Disponível em: [https://deepseek.com/](https://deepseek.com/). Acesso em: 09 de setembro de 2025.  
 
-[4] FIGMA. Disponível em: [https://www.figma.com/](https://www.figma.com/). Acesso em: 09 de abril de 2025.  
+[4] FIGMA. Disponível em: [https://www.figma.com/](https://www.figma.com/). Acesso em: 09 de setembro de 2025.  
 
-[5] GEMINI. Disponível em: [https://gemini.google.com/](https://gemini.google.com/). Acesso em: 09 de abril de 2025.  
+[5] GEMINI. Disponível em: [https://gemini.google.com/](https://gemini.google.com/). Acesso em: 09 de setembro de 2025.  
 
-[6] GITHUB. Disponível em: [https://github.com/](https://github.com/). Acesso em: 09 de abril de 2025.  
+[6] GITHUB. Disponível em: [https://github.com/](https://github.com/). Acesso em: 09 de setembro de 2025.  
 
-[7] GITHUB COPILOT. Disponível em: [https://github.com/features/copilot](https://github.com/features/copilot). Acesso em: 09 de abril de 2025.  
+[7] GITHUB COPILOT. Disponível em: [https://github.com/features/copilot](https://github.com/features/copilot). Acesso em: 09 de setembro de 2025.  
 
-[8] GOOGLE DOCS. Disponível em: [https://www.google.com/docs/about/](https://www.google.com/docs/about/). Acesso em: 09 de abril de 2025.  
+[8] GOOGLE DOCS. Disponível em: [https://www.google.com/docs/about/](https://www.google.com/docs/about/). Acesso em: 09 de setembro de 2025.  
 
-[9] GOOGLE FORMS. Disponível em: [https://www.google.com/forms/about/](https://www.google.com/forms/about/). Acesso em: 09 de abril de 2025.  
+[9] GOOGLE FORMS. Disponível em: [https://www.google.com/forms/about/](https://www.google.com/forms/about/). Acesso em: 09 de setembro de 2025.  
 
-[10] GOOGLE PLANILHAS. Disponível em: [https://www.google.com/sheets/about/](https://www.google.com/sheets/about/). Acesso em: 09 de abril de 2025.  
+[10] GOOGLE PLANILHAS. Disponível em: [https://www.google.com/sheets/about/](https://www.google.com/sheets/about/). Acesso em: 09 de setembro de 2025.  
 
-[11] LUCIDCHART. Disponível em: [https://www.lucidchart.com/](https://www.lucidchart.com/). Acesso em: 09 de abril de 2025.  
+[11] LUCIDCHART. Disponível em: [https://www.lucidchart.com/](https://www.lucidchart.com/). Acesso em: 09 de setembro de 2025.  
 
-[12] MICROSOFT TEAMS. Disponível em: [https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software). Acesso em: 09 de abril de 2025.  
+[12] MICROSOFT TEAMS. Disponível em: [https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software). Acesso em: 09 de setembro de 2025.  
 
-[13] MKDOCS. Disponível em: [https://www.mkdocs.org/](https://www.mkdocs.org/). Acesso em: 09 de abril de 2025.  
+[13] MKDOCS. Disponível em: [https://www.mkdocs.org/](https://www.mkdocs.org/). Acesso em: 09 de setembro de 2025.  
 
-[14] TELEGRAM. Disponível em: [https://telegram.org/](https://telegram.org/). Acesso em: 09 de abril de 2025.  
+[14] TELEGRAM. Disponível em: [https://telegram.org/](https://telegram.org/). Acesso em: 09 de setembro de 2025.  
 
-[15] THIS PERSON DOESN’T EXIST. Disponível em: [https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/). Acesso em: 09 de abril de 2025.  
+[15] THIS PERSON DOESN’T EXIST. Disponível em: [https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/). Acesso em: 09 de setembro de 2025.  
 
-[16] VISUAL STUDIO CODE. Disponível em: [https://code.visualstudio.com/](https://code.visualstudio.com/). Acesso em: 09 de abril de 2025.  
+[16] VISUAL STUDIO CODE. Disponível em: [https://code.visualstudio.com/](https://code.visualstudio.com/). Acesso em: 09 de setembro de 2025.  
 
-[17] WHATSAPP. Disponível em: [https://www.whatsapp.com/](https://www.whatsapp.com/). Acesso em: 09 de abril de 2025.   
+[17] WHATSAPP. Disponível em: [https://www.whatsapp.com/](https://www.whatsapp.com/). Acesso em: 09 de setembro de 2025.   
 
 ## Histórico de Versões
 
