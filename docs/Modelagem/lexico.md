@@ -355,9 +355,46 @@ O termo "Estatísticas" define o conjunto de dados analíticos e métricas apres
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
+### Léxico 27: Assistente Virtual
+
+Esta tabela descreve o termo "Assistente Virtual" no contexto do SAE, apresentando seu tipo, sinônimos, noção e o impacto esperado para o sistema e para os usuários.
+
+<div align="center"><strong>Tabela 27: Léxico – Assistente Virtual</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+| :--- | :--- | :--- | :--- | :--- |
+| **Assistente Virtual** | Objeto | ITA, Tutor Inteligente, Chatbot de Apoio, Guia Virtual. | Componente de software inteligente do SAE, personificado como "ITA", que interage com os usuários. Sua função é analisar dados de desempenho e comportamento do aluno para oferecer orientação, sugestões de atividades e suporte pedagógico de forma personalizada e proativa. | **Para o sistema:** É o principal motor da personalização da aprendizagem, conectando diferentes módulos (como o Banco de Questões) para entregar uma experiência adaptativa.<br><br>**Para o usuário:** Oferece suporte imediato e focado nas suas necessidades individuais, ajudando a reforçar o conteúdo estudado e a superar dificuldades de aprendizagem, tornando o estudo mais eficiente e engajador. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+### Léxico 28: Desempenho
+
+O termo "Desempenho" refere-se às medidas quantitativas e qualitativas que indicam o rendimento do aluno em atividades, avaliações e ao longo da disciplina.
+
+<div align="center"><strong>Tabela 28: Léxico – Desempenho</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+| :--- | :--- | :--- | :--- | :--- |
+| **Desempenho** | Estado | Progresso, Rendimento, Nível de Conhecimento, Resultados. | Conjunto de métricas que representam o progresso e o nível de proficiência de um aluno. É calculado com base em dados como percentual de acertos em atividades, conclusão de conteúdos e notas, servindo como base para as análises do sistema. | **Para o sistema:** É a principal fonte de dados para a inteligência do SAE, alimentando o assistente virtual e os mecanismos de personalização para sugerir conteúdos e atividades.<br><br>**Para o usuário:** Permite que alunos, professores e monitores visualizem de forma clara o avanço no aprendizado, identificando pontos fortes e dificuldades para direcionar os estudos e as intervenções pedagógicas. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+### Léxico 29: Configurar Aviso
+
+O termo "Configurar Aviso" refere-se à ação do usuário de definir preferências de notificações do sistema, incluindo tipos de aviso, canais e momentos de recebimento.
+
+<div align="center"><strong>Tabela 29: Léxico – Configurar Aviso</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+| :--- | :--- | :--- | :--- | :--- |
+| **Configurar Aviso** | Verbo | Personalizar Notificação, Ajustar Alerta, Definir Preferências de Notificação, Gerenciar Lembretes. | Ação realizada pelo usuário para personalizar as notificações do sistema. Isso inclui a escolha do canal de comunicação (ex: e-mail, push) e a definição da frequência ou do tempo para receber alertas sobre eventos, como prazos de atividades ou lembretes de revisão. | **Para o sistema:** Permite que o sistema se adapte às preferências do usuário, aumentando a eficácia da comunicação e a probabilidade de o usuário interagir com os alertas.<br><br>**Para o usuário:** Concede ao usuário controle total sobre como e quando é contatado pelo sistema, melhorando a experiência de uso, evitando notificações indesejadas e garantindo que os avisos importantes sejam recebidos da maneira mais conveniente. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ## Referências
 SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
+
+## Histórico de versão
 
 ## Histórico de versão
 
@@ -369,4 +406,6 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requ
 | 1.3    | 10/10/2025 | Elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.4    | 12/10/2025 | Atualização do documento de Léxico | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.5    | 12/10/2025 | Atualização do documento de Léxico | [Arthur Henrique](https://github.com/arthurhvieira1) |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.6    | 12/10/2025 | Elaboração dos léxicos 20, 21 e 22 | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.7    | 12/10/2025 | Elaboração dos léxicos 27, 28 e 29 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 
