@@ -25,7 +25,20 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 ## Metodologia
 Foi utilizado o diagrama de caso de uso, que representa, por meio de atores (como alunos e docentes) e casos de uso (como escolher o melhor modo de receber notificações), as funcionalidades ainda não implementadas e os comportamentos esperados do sistema em uma hipótese de implementação.
+
 Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que compõem o diagrama de caso de uso, oferecendo uma visão organizada da estrutura de interações entre os atores e o sistema.
+
+<div align="center"><strong>Tabela 2: Elementos de Caso de Uso</strong></div>
+
+| Nome | Função | Representação |
+|--------|------|-----------|
+| Ator    | Representa os diferentes tipos de usuários externos que interagem com o sistema. Cada ator desempenha um papel específico nas interações, podendo ser uma pessoa, organização ou outro sistema. | ![Ator](../imagens/elementoCasoUso/ator_casoUso.png) |
+| Elipse (Caso de Uso)    | Utilizada para representar os casos de uso no diagrama. Cada elipse destaca uma funcionalidade ou ação específica que o sistema realiza em resposta às interações dos atores. | ![Caso de Uso](../imagens/elementoCasoUso/elipse_casoUso.png) |
+| Retângulo (Sistema)    | Representa o sistema ou o componente em análise. Dentro dele são agrupados os casos de uso e os atores diretamente relacionados ao seu funcionamento. | ![Sistema](../imagens/elementoCasoUso/sistema_casoUso.png) |
+| Flecha (Relações) | As setas indicam as relações e interações entre os atores e os casos de uso. Elas podem ser:<br>• **Normal:** representa uma interação direta entre o ator e o caso de uso.<br>• **Incluir (`<<include>>`):** indica que um caso de uso incorpora obrigatoriamente o comportamento de outro caso de uso.<br>• **Estender (`<<extend>>`):** representa uma relação opcional, onde um caso de uso pode estender o comportamento de outro sob determinadas condições. | ![Relações](../imagens/elementoCasoUso/setas_casoUso.png) |
+
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Diagramas de Caso de Uso
 
@@ -47,7 +60,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC01 – Exibição do Progresso na Disciplina**
 **Requisito Associado:** [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir um progresso em porcentagem do andamento da disciplina
 
-<div align="center"><strong>Tabela 2: Caso de Uso UC01</strong></div>
+<div align="center"><strong>Tabela 3: Caso de Uso UC01</strong></div>
 
 | Campo   | Descrição  |
 | --------------------- | -------------- |
@@ -70,7 +83,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC02 – Exibição da Porcentagem de Acertos por Conteúdo**
 **Requisito Associado:** [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo
 
-<div align="center"><strong>Tabela 3: Caso de Uso UC02</strong></div>
+<div align="center"><strong>Tabela 4: Caso de Uso UC02</strong></div>
 
 | Campo                 | Descrição     |
 | --------------------- | ----------------------------------------------- |
@@ -93,7 +106,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC03 – Exibição da Porcentagem de Erros por Conteúdo**
 **Requisito Associado:** [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo
 
-<div align="center"><strong>Tabela 4: Caso de Uso UC03</strong></div>
+<div align="center"><strong>Tabela 5: Caso de Uso UC03</strong></div>
 
 | Campo                 | Descrição |
 | --------------------- | ---------------------------------|
@@ -116,7 +129,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC04 – Lembretes de Revisão de Conteúdos**
 **Requisito Associado:** [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados.
 
-<div align="center"><strong>Tabela 5: Caso de Uso UC04</strong></div>
+<div align="center"><strong>Tabela 6: Caso de Uso UC04</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -140,7 +153,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC05 – Configuração da Forma de Notificação**
 **Requisito Associado:** [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve pedir ao usuário a melhor forma de caminho de notificação.
 
-<div align="center"><strong>Tabela 6: Caso de Uso UC05</strong></div>
+<div align="center"><strong>Tabela 7: Caso de Uso UC05</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -164,7 +177,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC06 – Notificação de Prazo de Entrega**
 **Requisito Associado:** [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.
 
-<div align="center"><strong>Tabela 7: Caso de Uso UC06</strong></div>
+<div align="center"><strong>Tabela 8: Caso de Uso UC06</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -185,6 +198,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### UC07 – Análise Cognitiva e Apoio à Aprendizagem  
 **Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve analisar documentos escolares (atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
 
+<div align="center"><strong>Tabela 9: Caso de Uso UC07</strong></div>
 
 | Campo      | Descrição |
 |----------------|-----------|
@@ -207,6 +221,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### UC08 – Identificação de Conhecimento sobre o Conteúdo  
 **Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
 
+<div align="center"><strong>Tabela 10: Caso de Uso UC08</strong></div>
 
 | Campo      | Descrição |
 |----------------|-----------|
@@ -228,6 +243,8 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### UC09 – Avaliação de Comportamento Escolar  
 **Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
 
+<div align="center"><strong>Tabela 11: Caso de Uso UC09</strong></div>
+
 | Campo      | Descrição |
 |----------------|-----------|
 |UC09 |Avaliação de Comportamento Escolar|
@@ -247,6 +264,8 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ### UC10 – Exibir média geral da turma em cada atividade
 **Requisito Associado:** [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir a média geral da turma em cada atividade
+
+<div align="center"><strong>Tabela 12: Caso de Uso UC10</strong></div>
 
 | Campo      | Descrição |
 |----------------|-----------|
@@ -268,6 +287,8 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### UC11 – Escolher o tempo em que deseja receber alertas sobre atividades atrasadas
 **Requisito Associado:** [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas
 
+<div align="center"><strong>Tabela 13: Caso de Uso UC11</strong></div>
+
 | Campo      | Descrição |
 |----------------|-----------|
 |UC11 |Escolher o tempo em que deseja receber alertas sobre atividades atrasadas|
@@ -288,7 +309,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC12 – Organização do Banco de Questões por Conteúdo**
 **Requisito Associado:** RF32 – O banco de questões deve estar separado por conteúdo.
 
-<div align="center"><strong>Tabela 13: Caso de Uso UC12</strong></div>
+<div align="center"><strong>Tabela 14: Caso de Uso UC12</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -311,7 +332,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC13 – Acesso ao Painel de Desempenho Centralizado**
 **Requisito Associado:** RF34 – A integração deve reduzir o esforço de professores e monitores, centralizando informações sobre atividades e desempenho.
 
-<div align="center"><strong>Tabela 14: Caso de Uso UC13</strong></div>
+<div align="center"><strong>Tabela 15: Caso de Uso UC13</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -334,7 +355,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC14 – Sugestão de Questões pelo Assistente Virtual**
 **Requisito Associado:** RF40 – O assistente virtual deve sugerir questões com o conteúdo da vídeo aula.
 
-<div align="center"><strong>Tabela 15: Caso de Uso UC14</strong></div>
+<div align="center"><strong>Tabela 16: Caso de Uso UC14</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -354,8 +375,19 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ---
 
-## Validação dos casos de uso
-- [Link No Youtube](https://youtu.be/C0O24DxxID4)
+## Gravação da validação do documento
+### Usuário entrevistado
+
+Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário
+<div align="center"><strong>Tabela 17: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| Nicollas Gabriel | 10/10/2025 | 15:00 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimarães</a></strong></div>
+
+Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/C0O24DxxID4](https://youtu.be/C0O24DxxID4)
 
 ## Referências
 Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
@@ -371,3 +403,4 @@ Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. D
 | 1.4    | 08/10/2025 | Criação das especificações de casos de uso 10 e 11 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.5    | 10/10/2025 | Criação das especificações de casos de uso 12, 13 e 14 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.6    | 10/10/2025 | Gravação da Validação | [Felipe Guimaraes](https://github.com/felipegf1) e [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.7    | 12/10/2025 | Atualização do documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Henrique](https://github.com/arthurhvieira1) |
