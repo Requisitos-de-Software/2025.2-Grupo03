@@ -141,6 +141,24 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 ## Léxico
 
+<div align="center"><strong>Tabela 4: Lista de Verificação de léxico</strong></div>
+
+| ID  | Item de Verificação | Autor |
+|-----|---------------------|-------|
+| 1   | Cada símbolo descrito está associado a ao menos uma noção?                          | Arthur Guilherme |
+| 2   | A noção do símbolo descreve o significado dele?                                     | Arthur Guilherme |
+| 3   | Cada símbolo descrito está associado a ao menos um impacto?                         | Arthur Guilherme |
+| 4   | O impacto do símbolo descreve o efeito/uso/ocorrência do símbolo na aplicação?      | Arthur Guilherme |
+| 5   | Cada símbolo pertence a somente um tipo (VERBO, OBJETO, ESTADO)?                    | Arthur Guilherme |
+| 6   | A noção dos símbolos do tipo verbo é sobre quem realiza, quando acontece e procedimentos? | Arthur Guilherme |
+| 7   | A noção dos símbolos do tipo estado é sobre o que significa e quais ações levaram a esse estado? | Arthur Guilherme |
+| 8   | O impacto dos símbolos do tipo objeto é sobre as ações que podem ser aplicadas ao objeto? | Arthur Guilherme |
+| 9   | O impacto dos símbolos do tipo estado é sobre identificar outros estados e ações que podem ocorrer a partir do estado que se descreve? | Arthur Guilherme |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificacaoLexico.pdf).
+
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
@@ -149,3 +167,4 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 | 1.1    | 09/10/2025 | Adição da Lista de Verificação de Cenário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.2    | 09/10/2025 | Adição da Lista de Verificação de Especificação Suplementar | [Vilmar Fagundes](https://github.com/VilmarFagundes) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.3    | 09/10/2025 | Adição da Lista de Verificação de Casos de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 1.4    | 12/10/2025 | Adição da Lista de Verificação de Léxico | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  [Vilmar Fagundes](https://github.com/VilmarFagundes) |
