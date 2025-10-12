@@ -383,6 +383,76 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ---
 
+### **UC15 – Índice de Conteúdos Ordenado por Taxa de Erros**  
+**Requisito Associado:** RF16 – O sistema deve ter um índice de conteúdos ordenado pela porcentagem de erros em cada conteúdo.
+
+<div align="center"><strong>Tabela 17: Caso de Uso UC15</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC15** | Índice de Conteúdos Ordenado por Taxa de Erros |
+| **Descrição** | O sistema calcula a porcentagem de erros por conteúdo e exibe um índice ordenado (do maior para o menor percentual), permitindo que o aluno identifique rapidamente os tópicos com maior dificuldade. |
+| **Ator** | - Aluno<br>- Sistema de análise de desempenho |
+| **Pré-condições** | 1. O aluno está logado na plataforma.<br>2. Existem conteúdos com tentativas registradas (acertos/erros). |
+| **Ação** | O sistema consolida as tentativas por conteúdo, calcula a taxa de erros e ordena a lista para exibição. |
+| **Fluxo principal** | - O aluno acessa o índice de conteúdos.<br>- O sistema coleta as estatísticas de desempenho por conteúdo.<br>- O sistema calcula a porcentagem de erros por conteúdo.<br>- O sistema ordena o índice do maior para o menor percentual de erros.<br>- A interface exibe o índice ordenado, destacando conteúdos com maior taxa de erros. |
+| **Fluxo alternativo** | - Não há tentativas registradas para um ou mais conteúdos.<br>- O sistema exibe “Sem dados suficientes” para esses conteúdos e os posiciona após os conteúdos com dados. |
+| **Fluxo de exceção** | - Erro na recuperação dos dados do aluno ou dos conteúdos.<br>- O sistema exibe uma mensagem de erro: “Não foi possível carregar o índice no momento.” |
+| **Pós-condições** | O aluno visualiza corretamente o índice de conteúdos ordenado pela porcentagem de erros. |
+| **Rastreabilidade** | RF16 |
+| **Data de criação** | 12/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
+---
+
+### **UC16 – Configuração de Aviso de Proximidade de Entrega**  
+**Requisito Associado:** RF21 – O usuário escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade.
+
+<div align="center"><strong>Tabela 18: Caso de Uso UC16</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC16** | Configuração de Aviso de Proximidade de Entrega |
+| **Descrição** | O sistema permite que o usuário defina quando deseja receber notificações de proximidade da data de entrega de atividades (por exemplo, 7, 3 ou 1 dia antes). |
+| **Ator** | - Usuário (Aluno)<br>- Sistema de notificações |
+| **Pré-condições** | 1. O usuário está logado na plataforma.<br>2. Existem atividades com datas de entrega cadastradas.<br>3. O usuário autorizou o recebimento de notificações (push ou e-mail). |
+| **Ação** | O usuário acessa as preferências de notificação, escolhe a antecedência desejada e salva. O sistema agenda os avisos de acordo com as preferências. |
+| **Fluxo principal** | - O usuário acessa **Configurações → Notificações**.<br>- O usuário seleciona a antecedência do aviso (ex.: 7, 3 e/ou 1 dia).<br>- O usuário confirma e salva as preferências.<br>- O sistema registra a preferência e agenda as notificações para cada atividade com data de entrega.<br>- Na antecedência definida, o sistema envia a notificação ao usuário. |
+| **Fluxo alternativo** | - O usuário desativa as notificações de proximidade.<br>- O sistema cancela os agendamentos futuros relacionados a essas notificações.<br><br>- Uma atividade não possui data de entrega.<br>- O sistema não agenda notificação para essa atividade e informa “Atividade sem data de entrega.” |
+| **Fluxo de exceção** | - Falha ao salvar as preferências ou ausência de permissão de notificação no dispositivo.<br>- O sistema exibe uma mensagem de erro: “Não foi possível salvar as preferências” ou “Permissão de notificação negada.” |
+| **Pós-condições** | As preferências de antecedência ficam salvas e as notificações são agendadas de acordo com a escolha do usuário. |
+| **Rastreabilidade** | RF21 |
+| **Data de criação** | 12/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
+---
+
+### **UC17 – Importação de Questões de Outras Origens para o Banco de Questões**  
+**Requisito Associado:** RF30 – O banco de questões do sistema deve conter questões de outras origens.
+
+<div align="center"><strong>Tabela 19: Caso de Uso UC17</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC17** | Importação de Questões de Outras Origens para o Banco de Questões |
+| **Descrição** | O sistema permite inserir questões provenientes de outras origens (arquivos, bancos externos ou APIs), incorporando-as ao banco de questões do sistema com metadados de origem. |
+| **Ator** | - Professor/Administrador<br>- Sistema do Banco de Questões<br>- Fonte externa (arquivo CSV/JSON, repositório, API) |
+| **Pré-condições** | 1. O usuário está logado e possui permissão para gerenciar o banco de questões.<br>2. A fonte externa está disponível (arquivo válido ou integração configurada). |
+| **Ação** | O usuário seleciona a origem, realiza o upload ou inicia a integração, mapeia campos obrigatórios e confirma a importação. O sistema valida e registra as novas questões. |
+| **Fluxo principal** | - O usuário acessa **Banco de Questões → Importar**.<br>- O usuário escolhe a origem (arquivo ou integração).<br>- O usuário envia o arquivo ou autentica na integração.<br>- O sistema valida o formato e os campos obrigatórios (enunciado, alternativas e gabarito).<br>- O usuário confirma a importação.<br>- O sistema salva as questões, registrando a origem e status.<br>- A interface confirma a importação concluída e lista as novas questões. |
+| **Fluxo alternativo** | - Questões duplicadas detectadas.<br>- O sistema pergunta se deseja ignorar, mesclar metadados ou criar nova versão; o usuário escolhe e o sistema aplica a regra.<br><br>- Campos opcionais ausentes.<br>- O sistema importa as questões e marca os campos ausentes como “não informado.” |
+| **Fluxo de exceção** | - Formato inválido, erro de leitura ou falha na integração.<br>- O sistema interrompe a importação e exibe um relatório de erros (linhas afetadas, causa e orientação de correção). |
+| **Pós-condições** | As questões externas são adicionadas ao banco com referência de origem e ficam disponíveis para uso nas avaliações. |
+| **Rastreabilidade** | RF30 |
+| **Data de criação** | 12/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
 ## Gravação da validação do documento
 ### Usuário entrevistado
 
@@ -412,3 +482,4 @@ Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. D
 | 1.5    | 10/10/2025 | Criação das especificações de casos de uso 12, 13 e 14 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.6    | 10/10/2025 | Gravação da Validação | [Felipe Guimaraes](https://github.com/felipegf1) e [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.7    | 12/10/2025 | Atualização do documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 1.8    | 12/10/2025 | Atualização do documento | [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
