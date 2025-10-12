@@ -13,7 +13,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 |
-| [Arthur Henrique](https://github.com/arthurhvieira1) |                                       |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Elaboração dos léxicos 23, 24 e 25 |
 | [Felipe Guimaraes](https://github.com/felipegf1) |   Elaboração dos léxicos 20, 21 , 22 |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
@@ -305,6 +305,57 @@ O termo “Aluno com Dificuldade” refere-se ao estado em que o desempenho do a
 
 <div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
 
+### **Léxico 23: Progresso**
+O termo "Progresso" representa o acompanhamento contínuo do aprendizado do aluno dentro das disciplinas e atividades. Indica visualmente o quanto o aluno já avançou em relação aos conteúdos estudados.
+
+<div align="center"><strong>Tabela 23: Léxico – Progresso</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Progresso | Objeto | - Evolução<br>- Avanço<br>- Desenvolvimento | Percentual que indica o quanto do conteúdo ou atividade foi concluído pelo aluno. É calculado com base nos conteúdos finalizados e nas atividades respondidas. | - Permite ao aluno acompanhar sua evolução na disciplina.<br>- Alimenta análises gráficas e relatórios.<br>- É exibido na interface e utilizado pelo assistente virtual.<br>- Serve de base para notificações de desempenho. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+### **Léxico 24: Vídeo Aula**
+O termo "Vídeo Aula" refere-se ao material audiovisual utilizado para o ensino dos conteúdos da disciplina, servindo como base para estudo, prática e recomendação de questões pelo assistente virtual.
+
+<div align="center"><strong>Tabela 24: Léxico – Vídeo Aula</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Vídeo Aula | Objeto | - Aula Gravada<br>- Conteúdo Audiovisual<br>- Material de Ensino | Recurso que transmite o conteúdo teórico ou prático da disciplina, vinculado a tópicos específicos de aprendizagem. | - Serve como base para sugestões de questões.<br>- Pode ser analisada pelo assistente virtual.<br>- Estimula o aprendizado autônomo.<br>- Integra-se aos conteúdos e atividades avaliativas. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+### **Léxico 25: Inferência**
+O termo "Inferência" representa o processo automatizado de análise cognitiva realizado pelo sistema, com base em dados e resultados do aluno, para interpretar o nível de aprendizagem e sugerir ações pedagógicas.
+
+<div align="center"><strong>Tabela 25: Léxico – Inferência</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Inferência | Processo | - Análise Cognitiva<br>- Dedução | Processo conduzido pelo sistema ou assistente virtual para avaliar padrões de desempenho, acertos e erros, aplicando modelos como a Lógica Fuzzy e a Teoria da Aprendizagem Significativa. | - Permite avaliações graduais e mais humanas.<br>- Alimenta decisões do assistente virtual.<br>- Orienta recomendações personalizadas de conteúdo.<br>- Auxilia professores na identificação de dificuldades cognitivas. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+### **Léxico 26: Estatísticas**
+O termo "Estatísticas" define o conjunto de dados analíticos e métricas apresentadas pelo sistema, que representam o desempenho do aluno, da turma e de comparativos entre disciplinas.
+
+<div align="center"><strong>Tabela 26: Léxico – Estatísticas</strong></div>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto |
+|-------|------|-----------|-------|---------|
+| Estatística | Objeto | - Análise de Dados<br>- Relatório de Desempenho<br>- Indicador | Representação numérica e gráfica dos resultados obtidos por alunos, turmas e disciplinas, geralmente exibida em formato de gráfico ou relatório. | - Facilita a análise de desempenho por parte dos docentes.<br>- Fornece feedback visual ao aluno.<br>- Alimenta o painel de controle do sistema.<br>- Suporta a tomada de decisão pedagógica. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
 ## Referências
 SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
 
@@ -317,3 +368,5 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requ
 | 1.2    | 09/10/2025 | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes)  |
 | 1.3    | 10/10/2025 | Elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.4    | 12/10/2025 | Atualização do documento de Léxico | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.5    | 12/10/2025 | Atualização do documento de Léxico | [Arthur Henrique](https://github.com/arthurhvieira1) |  [Vilmar José](https://github.com/VilmarFagundes) |
+
