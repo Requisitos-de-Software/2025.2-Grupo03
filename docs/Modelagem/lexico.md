@@ -395,8 +395,6 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requ
 
 ## Histórico de versão
 
-## Histórico de versão
-
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento dos Léxicos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) |
@@ -407,4 +405,3 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requ
 | 1.5    | 12/10/2025 | Atualização do documento de Léxico | [Arthur Henrique](https://github.com/arthurhvieira1) |  [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.6    | 12/10/2025 | Elaboração dos léxicos 20, 21 e 22 | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.7    | 12/10/2025 | Elaboração dos léxicos 27, 28 e 29 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
-
