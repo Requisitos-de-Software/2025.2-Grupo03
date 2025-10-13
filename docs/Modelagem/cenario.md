@@ -445,7 +445,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 | Elemento | Descrição |
 |-----------|------------|
-| **ID** | CE07 |
+| **ID** | CE20 |
 | **Título** | Importação de Questões Externas |
 | **Metas/Objetivos** | Permitir que professores e administradores ampliem o banco de questões importando perguntas de outras origens (arquivos, bancos de dados ou plataformas externas). |
 | **Contexto** | O professor deseja enriquecer o banco de questões do sistema com conteúdos adicionais, obtidos de fontes externas ou arquivos previamente preparados. |
