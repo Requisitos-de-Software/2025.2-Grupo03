@@ -16,7 +16,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Elaboração dos léxicos 23, 24, 25 e 26 |
 | [Felipe Guimaraes](https://github.com/felipegf1) |   Elaboração dos léxicos 20, 21 , 22 |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
-| [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
+| [João Sapiência](https://github.com/JoaoSapiencia) |  Elaboração dos léxicos 27, 28 , 29                                     |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Léxico e elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19 |
 | [Vilmar José](https://github.com/VilmarFagundes) | Elaboração dos léxicos 1, 2, 8, 9, 14, 15 |
 
