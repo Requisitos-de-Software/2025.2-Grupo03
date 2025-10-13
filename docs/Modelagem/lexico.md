@@ -325,10 +325,7 @@ O termo "Analisar Desempenho" define a ação executada pelo sistema e pelos pro
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Analisar | Verbo | - Avaliar resultados<br>- Examinar resultados<br>- Interpretar dados | Ação de examinar as informações de desempenho do aluno, como médias, porcentagens de acertos e evolução, com o objetivo de compreender o nível de aprendizado e identificar dificuldades | - Gera relatórios individuais e coletivos de desempenho.
-- Permite comparações entre alunos e turmas.
-- Alimenta o assistente virtual para recomendações de estudo.
-- Suporta decisões pedagógicas e personalização de ensino. |
+| Analisar | Verbo | - Avaliar resultados<br>- Examinar resultados<br>- Interpretar dados | Ação de examinar as informações de desempenho do aluno, como médias, porcentagens de acertos e evolução, com o objetivo de compreender o nível de aprendizado e identificar dificuldades | - Gera relatórios individuais e coletivos de desempenho.<br>- Permite comparações entre alunos e turmas.<br>- Alimenta o assistente virtual para recomendações de estudo.<br>- Suporta decisões pedagógicas e personalização de ensino. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
@@ -340,10 +337,7 @@ O termo "Aluno Inativo" representa o estado em que o aluno deixa de interagir co
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Aluno Inativo | Estado | - Aluno aesconectado<br>-  Aluno ausente<br>- Aluno offline| Condição atribuída a um aluno que apresenta ausência de acessos, interações e entregas de atividades por um tempo configurado no sistema. | - Gera alertas automáticos ao assistente virtual.
-- Pode acionar notificações de reengajamento.
-- Afeta os indicadores de desempenho e participação da turma.
-- Serve de base para relatórios de engajamento e acompanhamento do docente. |
+| Aluno Inativo | Estado | - Aluno aesconectado<br>-  Aluno ausente<br>- Aluno offline| Condição atribuída a um aluno que apresenta ausência de acessos, interações e entregas de atividades por um tempo configurado no sistema. | - Gera alertas automáticos ao assistente virtual.<br>- Pode acionar notificações de reengajamento.<br>- Afeta os indicadores de desempenho e participação da turma.<br>- Serve de base para relatórios de engajamento e acompanhamento do docente. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
