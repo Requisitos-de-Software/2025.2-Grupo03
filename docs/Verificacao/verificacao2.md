@@ -131,10 +131,6 @@ Esse tópico apresenta a lista de verificação da técnica de elicitação **br
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui]( ../arquivos/Grupo03VilmarJoseVerifacaçãoListaTécnicadeelicitação(1).pdf )
 
-## Referências
-SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 21 de setembro de 2025.
-WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. Disponível em: [Software Requirements](../arquivos/PriorizacaoRequisitos.pdf).
-
 ## Perfil de Usuário
 Esse tópico apresenta a lista de verificação da técnica de elicitação **Perfil de Usuário**
 
@@ -163,7 +159,9 @@ Esse tópico apresenta a lista de verificação da técnica de elicitação **Pe
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/Grupo3JoãoVictorPiresVerifacaçãoListaPerfilUsuário.pdf).
 
-
+## Referências
+SERRANO, Milene; SERRANO, Maurício - Aula 07. Acessado em: 21 de setembro de 2025.
+WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. Disponível em: [Software Requirements](../arquivos/PriorizacaoRequisitos.pdf).
 
 ## Histórico de versão
 
