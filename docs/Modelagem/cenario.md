@@ -80,6 +80,8 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Restrições**      | - O progresso deve ser atualizado em tempo real após cada conclusão de atividade.<br>- A interface deve ser clara e acessível em todos os dispositivos.                                                                        |
 | **Episódios**       | 1. O aluno acessa a página da disciplina.<br>2. O sistema consulta os dados de atividades concluídas e pendentes.<br>3. Calcula o percentual de progresso.<br>4. Exibe o progresso em formato visual (porcentagem e/ou barra). |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
 ### Cenário 02: Exibição da Porcentagem de Acertos por Conteúdo
 **Requisito Associado:** [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo.
 
@@ -96,6 +98,8 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Exceções**        | - Dados incompletos de atividades podem afetar o cálculo da porcentagem.<br>- Atividades ainda não corrigidas não entram no cálculo.                                           |
 | **Restrições**      | - A porcentagem deve ser atualizada automaticamente após a correção de cada atividade.<br>- Deve ser exibida de forma compreensível e visualmente intuitiva.                   |
 | **Episódios**       | 1. O aluno acessa o banco de questões.<br>2. O sistema calcula o percentual de acertos em cada conteúdo.<br>3. Exibe a porcentagem de forma gráfica ou numérica. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
 
 ### Cenário 03: Exibição da Porcentagem de Erros por Conteúdo
 **Requisito Associado:** [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo.
@@ -114,6 +118,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Restrições**      | - O cálculo deve considerar apenas atividades concluídas.<br>- A exibição deve ser clara e comparável entre diferentes conteúdos. |
 | **Episódios**       | 1. O aluno acessa o banco de questões.<br>2. O sistema identifica a quantidade de erros em cada atividade.<br>3. Calcula a porcentagem de erros por conteúdo.<br>4. Exibe a porcentagem de forma gráfica ou numérica. |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
 
 ### Cenário 04: Lembretes de Revisão de Conteúdos
 **Requisito Associado:** [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados.
@@ -398,6 +403,8 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Restrições**  | - Cada material deve estar vinculado a apenas um tópico.<br>- Exibição deve ser clara e intuitiva. |
 | **Episódios**   | 1. O sistema organiza materiais por tópicos.<br>2. O aluno acessa a disciplina.<br>3. Navega pelos tópicos.<br>4. Visualiza materiais correspondentes. |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
 ---
 
 ### Cenário 18: Integração com Outros Softwares Educacionais
@@ -416,6 +423,8 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Exceções**    | - Falha na comunicação com softwares externos.<br>- Dados inconsistentes importados. |
 | **Restrições**  | - Apenas plataformas autorizadas devem ser integradas.<br>- Integração segura e em tempo real. |
 | **Episódios**   | 1. O sistema conecta com o software externo.<br>2. Importa materiais e atividades.<br>3. Exibe conteúdo integrado aos usuários.<br>4. Usuário interage com materiais normalmente. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ---
 
@@ -436,12 +445,14 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Restrições**  | - Configurações aplicam-se apenas ao usuário.<br>- Devem respeitar limites técnicos da plataforma. |
 | **Episódios**   | 1. O usuário acessa a seção de customização.<br>2. Ajusta aparência, comportamento e notificações.<br>3. Salva preferências.<br>4. Assistente virtual se adapta às configurações. |
 
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
 ---
 
 ### **Cenário 20: Importação de Questões Externas**  
 **Requisito Associado:** [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O banco de questões do sistema deve conter questões de outras origens.
 
-<div align="center"><strong>Tabela 22: Cenário 07</strong></div>
+<div align="center"><strong>Tabela 22: Cenário 20</strong></div>
 
 | Elemento | Descrição |
 |-----------|------------|
