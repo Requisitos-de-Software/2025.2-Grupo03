@@ -318,38 +318,44 @@ O termo "Perfil" representa o conjunto de informações que definem o tipo de us
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 
-### **Léxico 24: Analisar**
+### **Léxico 24: Analisar Desempenho**
 O termo "Analisar" define a ação executada pelo sistema e pelos professores para interpretar dados, identificar padrões e gerar informações úteis sobre o desempenho e o aprendizado.
 
 <div align="center"><strong>Tabela 26: Léxico – Analisar</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Analisar | Verbo | - Avaliar<br>- Examinar<br>- Interpretar | Ação de processar dados de atividades, conteúdos e interações para extrair indicadores de desempenho e aprendizado. | - Permite gerar relatórios e estatísticas em tempo real.<br>- Alimenta o assistente virtual e o sistema de inferência.<br>- Auxilia na tomada de decisão pedagógica.<br>- Relaciona-se à avaliação do progresso e dificuldades. |
+| Analisar | Verbo | - Avaliar resultados<br>- Examinar resultados<br>- Interpretar dados | Ação de examinar as informações de desempenho do aluno, como médias, porcentagens de acertos e evolução, com o objetivo de compreender o nível de aprendizado e identificar dificuldades | - Gera relatórios individuais e coletivos de desempenho.
+- Permite comparações entre alunos e turmas.
+- Alimenta o assistente virtual para recomendações de estudo.
+- Suporta decisões pedagógicas e personalização de ensino. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 
-### **Léxico 25: Atividade Concluída**
-O termo "Atividade Concluída" representa o estado de uma tarefa finalizada pelo aluno, indicando que todas as etapas foram respondidas e o resultado foi registrado pelo sistema.
+### **Léxico 25: Aluno Inativo**
+O termo "Aluno Inativo" representa o estado em que o aluno deixa de interagir com o sistema por um determinado período, não realizando atividades, acessos ou revisões de conteúdo.
 
 <div align="center"><strong>Tabela 27: Léxico – Atividade Concluída</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Atividade Concluída | Estado | - Finalizada<br>- Encerrada<br>- Respondida | Condição de uma atividade que foi totalmente realizada pelo aluno e validada pelo sistema. | - Alimenta o cálculo de progresso e desempenho.<br>- Pode gerar notificações de conclusão ou revisão.<br>- Permite a atualização de estatísticas e gráficos.<br>- Marca o avanço do aluno na disciplina. |
+| Aluno Inativo | Estado | - Aluno aesconectado<br>-  Aluno ausente<br>- Aluno offline| Condição atribuída a um aluno que apresenta ausência de acessos, interações e entregas de atividades por um tempo configurado no sistema. | - Gera alertas automáticos ao assistente virtual.
+- Pode acionar notificações de reengajamento.
+- Afeta os indicadores de desempenho e participação da turma.
+- Serve de base para relatórios de engajamento e acompanhamento do docente. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 
-### **Léxico 26: Estatística**
-O termo "Estatística" define o conjunto de dados analíticos e métricas apresentadas pelo sistema, que representam o desempenho do aluno, da turma e de comparativos entre disciplinas.
+### **Léxico 26: Estatísticas**
+O termo "Estatísticas" define o conjunto de dados analíticos e métricas apresentadas pelo sistema, que representam o desempenho do aluno, da turma e de comparativos entre disciplinas.
 
-<div align="center"><strong>Tabela 28: Léxico – Estatística</strong></div>
+<div align="center"><strong>Tabela 28: Léxico – Estatísticas</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Estatística | Objeto | - Análise de Dados<br>- Relatório de Desempenho<br>- Indicador | Representação numérica e gráfica dos resultados obtidos por alunos, turmas e disciplinas, geralmente exibida em formato de gráfico ou relatório. | - Facilita a análise de desempenho por parte dos docentes.<br>- Fornece feedback visual ao aluno.<br>- Alimenta o painel de controle do sistema.<br>- Suporta a tomada de decisão pedagógica. |
+| Estatísticas | Objeto | - Análise de Dados<br>- Relatório de Desempenho<br>- Indicador | Representação numérica e gráfica dos resultados obtidos por alunos, turmas e disciplinas, geralmente exibida em formato de gráfico ou relatório. | - Facilita a análise de desempenho por parte dos docentes.<br>- Fornece feedback visual ao aluno.<br>- Alimenta o painel de controle do sistema.<br>- Suporta a tomada de decisão pedagógica. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
