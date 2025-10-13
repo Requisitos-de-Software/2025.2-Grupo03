@@ -319,9 +319,9 @@ O termo "Perfil" representa o conjunto de informações que definem o tipo de us
 
 
 ### **Léxico 24: Analisar Desempenho**
-O termo "Analisar" define a ação executada pelo sistema e pelos professores para interpretar dados, identificar padrões e gerar informações úteis sobre o desempenho e o aprendizado.
+O termo "Analisar Desempenho" define a ação executada pelo sistema e pelos professores para interpretar dados, identificar padrões e gerar informações úteis sobre o desempenho e o aprendizado.
 
-<div align="center"><strong>Tabela 26: Léxico – Analisar</strong></div>
+<div align="center"><strong>Tabela 26: Léxico – Analisar Desempenho</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
@@ -336,7 +336,7 @@ O termo "Analisar" define a ação executada pelo sistema e pelos professores pa
 ### **Léxico 25: Aluno Inativo**
 O termo "Aluno Inativo" representa o estado em que o aluno deixa de interagir com o sistema por um determinado período, não realizando atividades, acessos ou revisões de conteúdo.
 
-<div align="center"><strong>Tabela 27: Léxico – Atividade Concluída</strong></div>
+<div align="center"><strong>Tabela 27: Léxico – Aluno Inativo</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
