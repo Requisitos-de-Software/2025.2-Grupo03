@@ -346,7 +346,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 | **Elemento** | **Descrição** |
 |---------------|---------------|
-| **ID** | CE14 |
+| **ID** | CE15 |
 | **Título** | Seleção de Disciplinas de Maior Facilidade |
 | **Metas/Objetivos** | Permitir que o aluno identifique e marque as disciplinas ou tópicos em que sente maior facilidade, ajudando o sistema a personalizar o acompanhamento e o feedback. |
 | **Contexto** | O aluno acessa a plataforma e seleciona, em seu painel pessoal, as disciplinas ou tópicos nos quais tem maior domínio. O sistema pode usar essa informação para ajustar sugestões e análises de desempenho. |
