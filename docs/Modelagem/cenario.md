@@ -11,7 +11,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  Criou os cenários 07, 08 e 09, referente aos requisitos [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
-| [Arthur Henrique](https://github.com/arthurhvieira1) | Criação dos cenários 12 e 13, referentes, respectivamente aos requisitos [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF21](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                       |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Criação dos cenários 12 e 13, referentes, respectivamente aos requisitos [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF21](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)|
 | [Felipe Guimaraes](https://github.com/felipegf1) |   Criou os cenários 01, 02 e 03, referente aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) | Criou os cenários 14, 15 e 16, referente aos requisitos [RF24](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF42](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                      |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  Criou os cenários 17, 18 e 19, referente aos requisitos [RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF34](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF40](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                     |
@@ -437,6 +437,28 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 | **Episódios**   | 1. O usuário acessa a seção de customização.<br>2. Ajusta aparência, comportamento e notificações.<br>3. Salva preferências.<br>4. Assistente virtual se adapta às configurações. |
 
 ---
+
+### **Cenário 20: Importação de Questões Externas**  
+**Requisito Associado:** [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O banco de questões do sistema deve conter questões de outras origens.
+
+<div align="center"><strong>Tabela 22: Cenário 07</strong></div>
+
+| Elemento | Descrição |
+|-----------|------------|
+| **ID** | CE07 |
+| **Título** | Importação de Questões Externas |
+| **Metas/Objetivos** | Permitir que professores e administradores ampliem o banco de questões importando perguntas de outras origens (arquivos, bancos de dados ou plataformas externas). |
+| **Contexto** | O professor deseja enriquecer o banco de questões do sistema com conteúdos adicionais, obtidos de fontes externas ou arquivos previamente preparados. |
+| **Ator(es)** | - Professor<br>- Administrador do sistema |
+| **Recursos** | - Banco de questões interno do sistema<br>- Arquivos externos (CSV, JSON, XML, etc.)<br>- APIs ou integrações com outras plataformas educacionais |
+| **Exceções** | - O arquivo enviado está em formato inválido.<br>- Falha de conexão com a origem externa.<br>- Questões duplicadas detectadas durante a importação. |
+| **Restrições** | - Somente usuários com permissão de edição (professores e administradores) podem importar.<br>- Questões importadas devem seguir o formato padrão do sistema (enunciado, alternativas, gabarito). |
+| **Episódios** | 1. O usuário acessa o módulo **Banco de Questões**.<br>2. Seleciona a opção **Importar Questões**.<br>3. Escolhe a origem externa (arquivo ou integração).<br>4. O sistema valida o formato e os campos obrigatórios.<br>5. As questões são adicionadas ao banco, com metadados sobre sua origem.<br>6. O sistema exibe uma mensagem confirmando o sucesso da importação. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
 ## Gravação da validação do documento
 ### Usuário entrevistado
 Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário
@@ -462,6 +484,6 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requ
 | 1.2    | 08/10/2025 | Atualização de informações no documento     | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.3    | 08/10/2025 | Criação dos cenários CE07, CE08 e CE09      | [Arthur Guilherme](https://github.com/ArthurGuilher62)     | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.4    | 08/10/2025 | Criação dos cenários CE10 e CE11            | [Vilmar Fagundes](https://github.com/VilmarFagundes)       | [Arthur Henrique](https://github.com/arthurhvieira1) |
-| 1.5    | 09/10/2025 | Criação dos cenários CE12 e CE13            | [Arthur Henrique](https://github.com/arthurhvieira1)       | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 1.5    | 09/10/2025 | Criação dos cenários CE12, CE13 e CE20      | [Arthur Henrique](https://github.com/arthurhvieira1)       | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
 | 1.6    | 09/10/2025 | Criação dos cenários CE17, CE18 e CE19      | [João Sapiência](https://github.com/JoaoSapiencia)         | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.7    | 12/10/2025 | Criação dos cenários CE14, CE15 e CE16      | [João Felipe](https://github.com/MrBolt2005)         | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
