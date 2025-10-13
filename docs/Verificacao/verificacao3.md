@@ -159,6 +159,17 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificacaoLexico.pdf).
 
+## Referências
+
+BRASIL. Ministério da Ciência, Tecnologia e Inovações. Especificação Suplementar. Disponível em: [Especificação de Caso de Uso](../arquivos/SiglaProjeto_EspecificacaoCasoUso.pdf). Acesso em: 10 outubro 2025.
+
+Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
+
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
+
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 13. Disponível em: [Requisitos_Aula 13](../arquivos/Suplementar_Aula13.pdf). Acesso em: 10 outubro 2025.
+
+
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
