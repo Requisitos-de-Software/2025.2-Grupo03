@@ -1,0 +1,47 @@
+# Inspeção grupo +1 - Entrega 3
+
+Documento baseado na lista de verificação feita para a entrega 3 do grupo +1. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 3 do grupo +1. 
+
+Tabela 1: lista de verificação da entrega 3
+
+| ID | Item | Autor | Revisor | Status |
+|:---|:-----|:------|:--------|:-------|
+| 1 | As especificações dos cenários para o projeto | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 2 | Os léxicos possuem os tipos verbo, objeto, estado? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 3 | Os léxicos possuem ligações entre si (hiper links)? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 4 | Sobre o Diagrama de Caso de Uso, há uma legenda explicando os componentes do diagrama (notação)? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 5 | No diagrama de Caso de Uso há ao menos um caso de uso com pontos de extensão? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 6 | A especificação do diagrama de caso de uso (com Nome, Descrição, Atores, Pré-Condição, Pós-Condição, Fluxo Principal, Fluxo Alternativo e Fluxo de Exceção etc.)? Todos os itens estão preenchidos? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 7 | A gravação da participação do cliente e/ou persona na validação dos Léxicos? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 8 | A gravação da participação do cliente e/ou persona na validação dos Cenários? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 9 | A gravação da participação do cliente e/ou persona na validação do Diagrama de Caso de Uso e especificação do Caso de Uso? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 10 | A gravação da participação do cliente e/ou persona na validação da Especificação Suplementar? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 11 | Cada cenário é rastreável (possui o requisito de origem e esse requisito possui uma origem em ao menos uma técnica de elicitação) (com hiperlink)? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 12 | Cada especificação de Caso de Uso é rastreável (possui o requisito de origem e esse requisito possui uma origem em ao menos uma técnica de elicitação) (com hiperlink)? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 13 | Cada RNF especificado na Especificação Suplementar é rastreável (possui o requisito de origem e esse requisito possui uma origem em ao menos uma técnica de elicitação) (com hiperlink)? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 14 | Na especificação suplementar, todos os RNF podem ser testáveis? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 15 | Na especificação suplementar, o documento especifica qual plataforma o aplicativo pode ser executado (versão)? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 16 | Cada item da lista de verificação de Cenários possui uma referência, com foto do texto (destacado) de origem do item? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 17 | Cada item da lista de verificação de Diagrama de Caso de Uso possui uma referência, com foto do texto (destacado) de origem do item? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 18 | Na lista de verificação há um item para verificar o ator principal e ator secundário no diagrama de caso de uso? Há um texto explicando a diferença entre os dois para o avaliador? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 19 | Na lista de verificação há um item para verificar se o ator principal está do lado esquerdo do sistema no diagrama de caso de uso? Há uma referência bibliográfica da fonte e foto do texto (destacado) da referência explicando esse item de avaliação? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 20 | Cada item da lista de verificação da Especificação do Caso de Uso possui uma referência, com foto do texto (destacado) de origem do item? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 21 | Cada item da lista de verificação da Especificação Suplementar possui uma referência, com foto do texto (destacado) de origem do item? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 22 | A gravação da inspeção do próprio grupo e do grupo +1? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 23 | Na lista de verificação dos Cenários, cada item de conteúdo da disciplina possui referência bibliográfica da fonte e foto do texto da referência e o autor do item? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 24 | Na lista de verificação do Diagrama de Caso de Uso e da Especificação do Diagrama de Caso de Uso, cada item de conteúdo da disciplina possui referência bibliográfica da fonte e foto do texto da referência e o autor do item? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 25 | Na lista de verificação da Especificação Suplementar, cada item de conteúdo da disciplina possui referência bibliográfica da fonte e foto do texto da referência e o autor do item? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 26 | Foi realizada a inspeção do grupo +1? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 27 | Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento dos Léxicos? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 28 | Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento dos Cenários? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+| 29 | Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento da Especificação Suplementar? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | | |
+
+## Vídeo da inspeção
+
+- [Link do video no youtube]()
+
+## Histórico de versão
+
+| Versão | Data | Descrição | Autor(es) | Revisor |
+| ---- | ----- | ----- | ---- | ----- | 
+| 1.0 | 14/10/2025 | Criação da Pagina de inspeção | [Felipe Guimaraes](https://github.com/felipegf1) | |
