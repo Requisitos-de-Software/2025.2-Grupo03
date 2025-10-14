@@ -38,7 +38,7 @@ Tabela 1: lista de verificação da entrega 3
 
 ## Vídeo da inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://www.youtube.com/watch?v=I2zjAJscZVA)
 
 ## Histórico de versão
 
