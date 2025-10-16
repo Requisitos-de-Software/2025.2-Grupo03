@@ -468,6 +468,9 @@ Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuár
 
 Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/C0O24DxxID4](https://youtu.be/C0O24DxxID4)
 
+## Agradecimentos
+O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
+
 ## Referências
 Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
 
