@@ -44,4 +44,4 @@ Tabela 1: lista de verificação da entrega 3
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 14/10/2025 | Criação da Pagina de inspeção | [Felipe Guimaraes](https://github.com/felipegf1) | |
+| 1.0 | 14/10/2025 | Criação da Pagina de inspeção | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)|
