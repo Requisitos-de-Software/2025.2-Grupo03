@@ -483,6 +483,9 @@ Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuár
 
 Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/WbPsxPIdTtg](https://youtu.be/WbPsxPIdTtg)
 
+## Agradecimentos
+O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
+
 ## Referências
 SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
 
