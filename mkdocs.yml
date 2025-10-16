@@ -86,6 +86,10 @@ nav:
       - Cenário: Modelagem/cenario.md
       - Especificação Suplementar: Modelagem/especificacao_suplementar.md
       - Léxico: Modelagem/lexico.md
+    - Metodologias Ágeis:
+      - Histórias de Usuário: Modelagem/historias_de_usuario.md
+      - Backlog do Produto: Modelagem/backlog_do_produto.md
+      - NFR Framework: Modelagem/nfr_framework.md
   - Inspeção:
     - Grupo: 
       - Entrega 1: Inspeção/inspeção_grupo_1.md
