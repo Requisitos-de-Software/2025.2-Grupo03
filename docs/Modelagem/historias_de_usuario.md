@@ -14,7 +14,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 | [Felipe Guimaraes](https://github.com/felipegf1) |   |
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |   |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Histórias de Usuário e criação das histórias de usuário [US06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy), [US15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos), [US18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao), [US19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade), [US21](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas) e [US22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos) |
 | [Vilmar José](https://github.com/VilmarFagundes) |   |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -43,7 +43,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ## Histórias de Usuário
 
-## [US06](#us06-combinar-resultados-formais-com-inferencias-fuzzy) - Combinar Resultados Formais com Inferências Fuzzy 
+## [US06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy) - Combinar Resultados Formais com Inferências Fuzzy 
 
 <div align="center"><strong>Tabela 8: US06</strong></div>
 
@@ -60,7 +60,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-## [US15](#us15-enviar-notificacoes-para-revisao-de-conteudos) - Enviar Notificações para Revisão de Conteúdos  
+## [US15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos) - Enviar Notificações para Revisão de Conteúdos  
 
 <div align="center"><strong>Tabela 17: US15</strong></div>
 
@@ -77,7 +77,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-## [US18](#us18-definir-forma-preferida-de-notificacao) - Definir Forma Preferida de Notificação  
+## [US18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao) - Definir Forma Preferida de Notificação  
 
 <div align="center"><strong>Tabela 20: US18</strong></div>
 
@@ -94,7 +94,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-## [US19](#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade) - Enviar Notificação sobre Prazo de Entrega de Atividade  
+## [US19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade) - Enviar Notificação sobre Prazo de Entrega de Atividade  
 
 <div align="center"><strong>Tabela 21: US19</strong></div>
 
@@ -111,7 +111,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-## [US21](#us21-exibir-dados-e-informacoes-analiticas) - Exibir Dados e Informações Analíticas  
+## [US21](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas) - Exibir Dados e Informações Analíticas  
 <div align="center"><strong>Tabela 23: US21</strong></div>
 
 | Campo | Descrição |
@@ -127,7 +127,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-## [US22](#us22-gerar-analises-em-tempo-real-com-graficos) - Gerar Análises em Tempo Real com Gráficos  
+## [US22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos) - Gerar Análises em Tempo Real com Gráficos  
 
 <div align="center"><strong>Tabela 24: US22</strong></div>
 
