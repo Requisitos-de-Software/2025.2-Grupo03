@@ -20,8 +20,26 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Metodologia
-A metodologia adotada para a elaboração das Histórias de Usuário baseou-se na **análise dos requisitos funcionais previamente identificados durante a etapa de elicitação. Cada requisito foi reinterpretado sob a perspectiva do usuário final, transformando-se em narrativas objetivas que descrevem o que o sistema deve realizar e o valor educacional que essa funcionalidade proporciona.
+A metodologia adotada para a elaboração das Histórias de Usuário baseou-se na **análise dos requisitos funcionais** previamente identificados durante a etapa de elicitação. Cada requisito foi reinterpretado sob a perspectiva do usuário final, transformando-se em narrativas objetivas que descrevem o que o sistema deve realizar e o valor educacional que essa funcionalidade proporciona.
 Esse processo garantiu uma visão centrada no usuário, em conformidade com as boas práticas do desenvolvimento ágil, e reforçou o foco do SAE em oferecer suporte personalizado ao aprendizado.
+
+---
+
+A padronização da tabela pode ser observada na Tabela 2.
+
+<div align="center"><strong>Tabela 2: Padronização das Histórias de Usuário</strong></div>
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**              | USN° |
+| **Título**          | Nome da história de usuário, geralmente relacionado ao objetivo principal ou ao requisito funcional relacionado. |
+| **História** | Descrição no formato: <br>“Como um [tipo de usuário],<br>eu quero [função ou comportamento desejado],<br>para que [benefício ou justificativa].” |
+| **Critérios de Aceitação** | Conjunto de condições que definem quando a história é considerada concluída. São expressos com linguagem de comportamento esperado, seguindo o padrão: <br>“Dado que...”, “Quando...”, “Então...”. |
+| **Rastreabilidade** | Indicação do(s) requisito(s) funcional(is) ao qual a história está associada. |
+| **Épico Relacionado** | Referência ao épico correspondente. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
 
 ## Histórias de Usuário
 
