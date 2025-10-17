@@ -132,7 +132,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario) – Exibir Médias e Porcentagens por Conteúdo e Usuário
 **Descrição:** Exibir médias e porcentagens de desempenho organizadas por conteúdo, turma e usuário.  
 
-**Histórias relacionadas:** 
+**Histórias relacionadas:** [US09 - Visualizar Porcentagem de Acertos por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo), [US10 - Visualizar Porcentagem de Erros por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo), [US11], [US12 - Exibir Média do Usuário Após Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade)
 
 ---
 
@@ -146,7 +146,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP16](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno) – Exibir Progresso Completo e Percentual do Aluno
 **Descrição:** Mostrar o progresso total e percentual do aluno em cada disciplina, auxiliando no acompanhamento de seu desenvolvimento.  
 
-**Histórias relacionadas:** 
+**Histórias relacionadas:** [US07 - Visualizar Progresso do Aluno na Disciplina](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina), [US08 - Exibir Progresso da Disciplina em Porcentagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem)
 
 ---
 
@@ -183,7 +183,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP20](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) – Disponibilizar Vídeo Aulas como Recurso Complementar
 **Descrição:** Oferecer vídeo aulas como recurso complementar aos materiais escritos e atividades práticas.  
 
-**Histórias relacionadas:** 
+**Histórias relacionadas:** [US17 Assistir a uma Videoaula do Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo) 
 
 ---
 
@@ -303,7 +303,8 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Históricos de versão
 
-| Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
-|--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
-| 1.0    | 16/10/2025 | Criação do documento de Backlog do Produto           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
-| 1.1    | 17/10/2025 | Participação da criação dos épicos EP06, EP13, EP18 e EP19           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| Versão | Data       | Descrição   | Autor(es) | Revisor   |
+|--------|------------|---------------------------------------------|------------------------|---------------|
+| 1.0    | 16/10/2025 | Criação do documento de Backlog do Produto   | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.1    | 17/10/2025 | Participação da criação dos épicos EP06, EP13, EP18 e EP19 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.2    | 17/10/2025 | Participação da criação dos épicos EP14, EP16 e EP20  | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
