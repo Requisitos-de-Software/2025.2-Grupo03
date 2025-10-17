@@ -23,6 +23,30 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 
 ## Épicos
 
+## Temas 
+
+### TM01. Identificação e Perfis de Usuário
+
+### TM02. Conteúdo e Aprendizagem Significativa
+
+### TM03. Avaliação e Planejamento Educacional
+
+### TM04. Assistente Virtual Inteligente
+
+### TM05. Análise e Visualização de Desempenho 
+
+### TM06. Progresso e Engajamento do Aluno
+
+### TM07. Alertas e Notificações Inteligentes
+
+### TM08. Recursos Multimídia e Materiais Didáticos 
+
+### TM09. Banco de Questões e Atividades
+
+### TM10. Integração e Centralização de Sistemas
+
+### TM11. Comunicação e Colaboração Acadêmica
+
 ## Gravação da validação do documento
 
 ## Agradecimentos
