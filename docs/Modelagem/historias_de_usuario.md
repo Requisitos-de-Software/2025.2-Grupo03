@@ -60,6 +60,73 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US07](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina) - Visualizar Progresso do Aluno na Disciplina
+
+<div align="center"><strong>Tabela 9: US07</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US07 |
+| **Título** | Visualizar Progresso do Aluno na Disciplina |
+| **História** | Como um aluno,<br>eu quero visualizar meu progresso geral na disciplina de forma clara e consolidada,<br>para que eu possa saber quais atividades já concluí, o que ainda preciso fazer e organizar melhor meus estudos. |
+| **Critérios de Aceitação** | - **Dado que** o aluno está na página principal da disciplina,<br>- **Quando** ele acessa a área de "Progresso",<br>- **Então** ele deve visualizar uma representação gráfica (ex: barra de progresso com porcentagem) do seu avanço total no curso.<br><br>- **Dado que** o aluno está na tela de progresso,<br>- **Quando** ele observa a lista de atividades,<br>- **Então** as atividades concluídas devem estar claramente diferenciadas das pendentes (ex: por cor, ícone ou status).<br><br>- **Dado que** o aluno está visualizando seu progresso,<br>- **Quando** ele clica em uma atividade pendente listada,<br>- **Então** ele deve ser redirecionado para a página da respectiva atividade. |
+| **Rastreabilidade** | [RF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** |[EP16](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+---
+
+## [US08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem) - Exibir Progresso da Disciplina em Porcentagem
+
+<div align="center"><strong>Tabela 10: US08</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US08 |
+| **Título** | Exibir Progresso da Disciplina em Porcentagem |
+| **História** | Como um aluno,<br>eu quero ver meu progresso total na disciplina em formato de porcentagem,<br>para que eu tenha uma noção rápida e quantitativa do quanto já avancei e do quanto ainda falta para concluir. |
+| **Critérios de Aceitação** | - Dado que o aluno está na página de progresso da disciplina,<br>- Quando ele olha para o resumo do seu andamento,<br>- Então ele deve ver um indicador numérico claro com a porcentagem de conclusão (ex: "75% Concluído").<br><br>- Dado que o aluno completa uma nova atividade obrigatória,<br>- Quando ele retorna à página de progresso,<br>- Então a porcentagem de progresso deve ser recalculada e atualizada automaticamente. |
+| **Rastreabilidade** | [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** |[EP16](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+---
+
+## [US09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo) - Visualizar Porcentagem de Acertos por Conteúdo
+
+<div align="center"><strong>Tabela 11: US09</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US09 |
+| **Título** | Visualizar Porcentagem de Acertos por Conteúdo |
+| **História** | Como um aluno,<br>eu quero visualizar minha porcentagem de acertos nas atividades, separada por cada conteúdo ou tópico,<br>para que eu possa identificar facilmente em quais assuntos estou com bom desempenho. |
+| **Critérios de Aceitação** | - Dado que o aluno está na sua página de desempenho,<br>- Quando ele visualiza a lista de conteúdos da disciplina,<br>- Então ele deve ver, ao lado de cada conteúdo, a porcentagem de acertos das atividades relacionadas (ex: "Tópico 1: 90% de acertos").<br><br>- Dado que um conteúdo ainda não teve atividades realizadas,<br>- Quando o aluno olha para a porcentagem de acertos,<br>- Então deve ser exibido um status indicativo como "N/A" ou "Aguardando realização". |
+| **Rastreabilidade** | [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario)|
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+---
+
+## [US10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-erros-por-conteudo) - Visualizar Porcentagem de Erros por Conteúdo
+
+<div align="center"><strong>Tabela 12: US10</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US10 |
+| **Título** | Visualizar Porcentagem de Erros por Conteúdo |
+| **História** | Como um aluno,<br>eu quero visualizar minha porcentagem de erros nas atividades, separada por cada conteúdo ou tópico,<br>para que eu saiba exatamente onde estão minhas dificuldades e em quais assuntos preciso focar para estudar mais. |
+| **Critérios de Aceitação** | - Dado que o aluno está na sua página de desempenho,<br>- Quando ele visualiza a lista de conteúdos da disciplina,<br>- Então ele deve ver, ao lado de cada conteúdo, a porcentagem de erros das atividades relacionadas (ex: "Tópico 2: 30% de erros").<br><br>- Dado que o aluno visualiza uma alta porcentagem de erros para um tópico,<br>- Quando ele clica nesse tópico,<br>- Então o sistema pode levá-lo para uma página de reforço com os materiais de estudo daquele conteúdo. |
+| **Rastreabilidade** | [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+---
+
 ## [US15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos) - Enviar Notificações para Revisão de Conteúdos  
 
 <div align="center"><strong>Tabela 17: US15</strong></div>
@@ -74,6 +141,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Épico Relacionado** | [EP19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo) – Enviar Alertas sobre Prazos e Revisões de Conteúdo |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
+## [US17](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-assistir-a-uma-videoaula-do-conteudo) - Assistir a uma Videoaula do Conteúdo  
+
+<div align="center"><strong>Tabela 19: US17</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US17 |
+| **Título** | Assistir a uma Videoaula do Conteúdo |
+| **História** | Como um aluno,<br>eu quero assistir a videoaulas relacionadas aos conteúdos da disciplina,<br>para que eu possa ter um recurso de aprendizado visual e auditivo que me ajude a compreender melhor os temas. |
+| **Critérios de Aceitação** | - Dado que o aluno está na página de um conteúdo da disciplina,<br>- Quando uma videoaula estiver disponível para aquele conteúdo,<br>- Então ele deve visualizar um player de vídeo ou um link claro para acessá-la.<br><br>- Dado que o aluno clica no botão de play,<br>- Quando o vídeo é reproduzido,<br>- Então ele deve ter acesso a controles básicos (play/pause, volume, tela cheia).<br><br>- Dado que o aluno assiste à videoaula até o fim,<br>- Quando ele retorna à lista de atividades,<br>- Então a videoaula deve ser marcada como "concluída". |
+| **Rastreabilidade** | [RF17](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP20](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
 
 ---
 
