@@ -29,218 +29,193 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 ---
 
-### EP01 – Gerenciar Perfis de Usuários 
-**Descrição:** Permitir o gerenciamento de perfis de usuários conforme seus papéis 
-educacionais, como aluno, professor, monitor e gestor. 
+### [EP01](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios) – Gerenciar Perfis de Usuários
+**Descrição:** Permitir o gerenciamento de perfis de usuários conforme seus papéis educacionais, como aluno, professor, monitor e gestor.  
 
 **Histórias relacionadas:** 
 
 ---
 
-### EP02 – Mapear e Estruturar Conteúdos segundo a TAS 
-**Descrição:** Mapear e estruturar conteúdos de acordo com a Teoria da Aprendizagem 
-Significativa (TAS), facilitando a organização pedagógica do material. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP03 – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos 
-**Descrição:** Organizar e publicar materiais educacionais considerando tópicos, níveis 
-cognitivos e relações entre conteúdos. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual 
-**Descrição:** Integrar o processo formal de avaliação ao ambiente virtual de 
-aprendizagem, permitindo o acompanhamento contínuo do desempenho. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional 
-**Descrição:** Associar resultados de avaliações docentes às inferências geradas pelo 
-assistente educacional, promovendo feedbacks mais precisos. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP06 – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas 
-**Descrição:** Empregar lógica Fuzzy para apoiar decisões pedagógicas, considerando 
-incertezas e avaliações graduais. 
-
-**Histórias relacionadas:**
-
- --- 
-
-### EP07 – Exibir Cálculos de Desempenho com Base em Dados e Inferências 
-**Descrição:** Exibir cálculos de desempenho que combinem dados objetivos e inferências 
-do sistema, favorecendo a análise pedagógica. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP08 – Oferecer Assistência Personalizada a Alunos e Professores 
-**Descrição:** Fornecer assistência personalizada por meio do assistente virtual, adaptando 
-respostas e recomendações ao perfil do usuário. 
-
-**Histórias relacionadas:**
-
- --- 
-
-### EP09 – Criar Personagem Interativo Customizável 
-**Descrição:** Desenvolver um personagem interativo com interface visual e opções de 
-personalização para melhorar a experiência do usuário. 
-
-**Histórias relacionadas:**
-
- --- 
-
-### EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos 
-**Descrição:** Analisar o desempenho cognitivo dos alunos e sugerir conteúdos adequados 
-para superar lacunas de aprendizagem. 
-
-**Histórias relacionadas:**
-
- --- 
-
-### EP11 – Acompanhar Interações e Progresso do Usuário 
-**Descrição:** Monitorar as interações do usuário com o sistema e acompanhar seu 
-progresso de forma contínua. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP12 – Promover Compreensão da Aprendizagem por Interação Inteligente 
-**Descrição:** Favorecer a compreensão do aprendizado por meio de interações 
-inteligentes e adaptativas com o assistente virtual. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP13 – Gerar Análises em Tempo Real com Gráficos e Indicadores 
-**Descrição:** Produzir análises e gráficos de desempenho em tempo real, permitindo o 
-acompanhamento dinâmico dos resultados. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP14 – Exibir Médias e Porcentagens por Conteúdo e Usuário 
-**Descrição:** Exibir médias e porcentagens de desempenho organizadas por conteúdo, 
-turma e usuário. 
-
-**Histórias relacionadas:**
-
----
-
-### EP15 – Identificar Conteúdos com Maior Índice de Erro 
-**Descrição:** Detectar conteúdos que apresentem altos índices de erro, fornecendo 
-subsídios para a intervenção pedagógica. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP16 – Exibir Progresso Completo e Percentual do Aluno 
-**Descrição:** Mostrar o progresso total e percentual do aluno em cada disciplina, 
-auxiliando no acompanhamento de seu desenvolvimento. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP17 – Permitir Marcação de Tópicos de Facilidade 
-**Descrição:** Permitir que o aluno marque tópicos que considera fáceis ou dominados, 
-para personalizar seu plano de estudo. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP18 – Configurar Preferências de Tempo e Forma de Notificação 
-**Descrição:** Permitir que o usuário defina o modo e o tempo em que deseja receber 
-notificações do sistema. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP19 – Enviar Alertas sobre Prazos e Revisões de Conteúdo 
-**Descrição:** Enviar notificações automáticas lembrando o usuário sobre prazos, revisões 
-e atividades pendentes. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP20 – Disponibilizar Vídeo Aulas como Recurso Complementar 
-**Descrição:** Oferecer vídeo aulas como recurso complementar aos materiais escritos e 
-atividades práticas.
-
-**Histórias relacionadas:**
- --- 
-
-### EP21 – Gerar Questões Baseadas em Vídeo Aulas 
-**Descrição:** Criar automaticamente questões de reforço cognitivo com base no conteúdo 
-de vídeo aulas. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP22 – Criar e Organizar Questões Interativas 
-**Descrição:** Criar e organizar questões interativas voltadas à avaliação formativa e 
-autoavaliação do aluno. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP23 – Gerenciar Banco de Questões de Professores e Outras Fontes 
-**Descrição:** Gerenciar um banco de questões provenientes de diferentes origens, 
-permitindo filtragem e reutilização. 
-
-**Histórias relacionadas:** 
-
---- 
-
-### EP24 – Integrar com Outros Sistemas Educacionais 
-**Descrição:** Integrar o sistema a outros softwares educacionais e ambientes virtuais de 
-aprendizagem (AVAs). 
+### [EP02](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas) – Mapear e Estruturar Conteúdos segundo a TAS
+**Descrição:** Mapear e estruturar conteúdos de acordo com a Teoria da Aprendizagem Significativa (TAS), facilitando a organização pedagógica do material.  
 
 **Histórias relacionadas:** 
 
 ---
 
-### EP25 – Centralizar Informações Educacionais 
-**Descrição:** Centralizar informações acadêmicas em um único ambiente, reduzindo o 
-esforço docente e evitando duplicidade de dados. 
+### [EP03](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos) – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos
+**Descrição:** Organizar e publicar materiais educacionais considerando tópicos, níveis cognitivos e relações entre conteúdos.  
 
 **Histórias relacionadas:** 
 
---- 
+---
 
-### EP26 – Facilitar Comunicação via Chat e Monitoria 
-**Descrição:** Disponibilizar canais de comunicação síncronos e assíncronos (chat, fórum, 
-monitoria) entre alunos e professores. 
+### [EP04](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual) – Integrar o Processo de Avaliação ao Ambiente Virtual
+**Descrição:** Integrar o processo formal de avaliação ao ambiente virtual de aprendizagem, permitindo o acompanhamento contínuo do desempenho.  
 
 **Histórias relacionadas:** 
 
---- 
+---
 
-### EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento 
-**Descrição:** Fornecer ao professor dados sobre o domínio de conteúdo e o 
-comportamento de aprendizagem dos alunos, auxiliando na personalização do ensino. 
+### [EP05](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional) – Relacionar Avaliação Docente com Inferências do Assistente Educacional
+**Descrição:** Associar resultados de avaliações docentes às inferências geradas pelo assistente educacional, promovendo feedbacks mais precisos.  
 
-**Histórias relacionadas:**
+**Histórias relacionadas:** 
+
+---
+
+### [EP06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas) – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas
+**Descrição:** Empregar lógica Fuzzy para apoiar decisões pedagógicas, considerando incertezas e avaliações graduais.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP07](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias) – Exibir Cálculos de Desempenho com Base em Dados e Inferências
+**Descrição:** Exibir cálculos de desempenho que combinem dados objetivos e inferências do sistema, favorecendo a análise pedagógica.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores) – Oferecer Assistência Personalizada a Alunos e Professores
+**Descrição:** Fornecer assistência personalizada por meio do assistente virtual, adaptando respostas e recomendações ao perfil do usuário.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel) – Criar Personagem Interativo Customizável
+**Descrição:** Desenvolver um personagem interativo com interface visual e opções de personalização para melhorar a experiência do usuário.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos) – Analisar Dificuldades Cognitivas e Sugerir Conteúdos
+**Descrição:** Analisar o desempenho cognitivo dos alunos e sugerir conteúdos adequados para superar lacunas de aprendizagem.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP11](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario) – Acompanhar Interações e Progresso do Usuário
+**Descrição:** Monitorar as interações do usuário com o sistema e acompanhar seu progresso de forma contínua.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP12](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente) – Promover Compreensão da Aprendizagem por Interação Inteligente
+**Descrição:** Favorecer a compreensão do aprendizado por meio de interações inteligentes e adaptativas com o assistente virtual.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP13](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores) – Gerar Análises em Tempo Real com Gráficos e Indicadores
+**Descrição:** Produzir análises e gráficos de desempenho em tempo real, permitindo o acompanhamento dinâmico dos resultados. 
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario) – Exibir Médias e Porcentagens por Conteúdo e Usuário
+**Descrição:** Exibir médias e porcentagens de desempenho organizadas por conteúdo, turma e usuário.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-identificar-conteudos-com-maior-indice-de-erro) – Identificar Conteúdos com Maior Índice de Erro
+**Descrição:** Detectar conteúdos que apresentem altos índices de erro, fornecendo subsídios para a intervenção pedagógica.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP16](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno) – Exibir Progresso Completo e Percentual do Aluno
+**Descrição:** Mostrar o progresso total e percentual do aluno em cada disciplina, auxiliando no acompanhamento de seu desenvolvimento.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP17](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep17-permitir-marcacao-de-topicos-de-facilidade) – Permitir Marcação de Tópicos de Facilidade
+**Descrição:** Permitir que o aluno marque tópicos que considera fáceis ou dominados, para personalizar seu plano de estudo.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) – Configurar Preferências de Tempo e Forma de Notificação
+**Descrição:** Permitir que o usuário defina o modo e o tempo em que deseja receber notificações do sistema.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo) – Enviar Alertas sobre Prazos e Revisões de Conteúdo
+**Descrição:** Enviar notificações automáticas lembrando o usuário sobre prazos, revisões e atividades pendentes.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP20](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) – Disponibilizar Vídeo Aulas como Recurso Complementar
+**Descrição:** Oferecer vídeo aulas como recurso complementar aos materiais escritos e atividades práticas.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP21](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep21-gerar-questoes-baseadas-em-video-aulas) – Gerar Questões Baseadas em Vídeo Aulas
+**Descrição:** Criar automaticamente questões de reforço cognitivo com base no conteúdo de vídeo aulas.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas) – Criar e Organizar Questões Interativas
+**Descrição:** Criar e organizar questões interativas voltadas à avaliação formativa e autoavaliação do aluno.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes
+**Descrição:** Gerenciar um banco de questões provenientes de diferentes origens, permitindo filtragem e reutilização.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep24-integrar-com-outros-sistemas-educacionais) – Integrar com Outros Sistemas Educacionais
+**Descrição:** Integrar o sistema a outros softwares educacionais e ambientes virtuais de aprendizagem (AVAs).  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP25](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep25-centralizar-informacoes-educacionais) – Centralizar Informações Educacionais
+**Descrição:** Centralizar informações acadêmicas em um único ambiente, reduzindo o esforço docente e evitando duplicidade de dados.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP26](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) – Facilitar Comunicação via Chat e Monitoria
+**Descrição:** Disponibilizar canais de comunicação síncronos e assíncronos (chat, fórum, monitoria) entre alunos e professores.  
+
+**Histórias relacionadas:** 
+
+---
+
+### [EP27](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) – Fornecer Dados ao Professor sobre Domínio e Comportamento
+**Descrição:** Fornecer ao professor dados sobre o domínio de conteúdo e o comportamento de aprendizagem dos alunos, auxiliando na personalização do ensino.  
+
+**Histórias relacionadas:** 
+
 
 ---
 
