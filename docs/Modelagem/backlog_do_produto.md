@@ -68,6 +68,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Empregar lógica Fuzzy para apoiar decisões pedagógicas, considerando incertezas e avaliações graduais.  
 
 **Histórias relacionadas:** 
+- [US06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy) - Combinar Resultados Formais com Inferências Fuzzy 
 
 ---
 
@@ -117,6 +118,8 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Produzir análises e gráficos de desempenho em tempo real, permitindo o acompanhamento dinâmico dos resultados. 
 
 **Histórias relacionadas:** 
+- [US21](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas) - Exibir Dados e Informações Analíticas
+- [US22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos) - Gerar Análises em Tempo Real com Gráficos
 
 ---
 
@@ -152,6 +155,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Permitir que o usuário defina o modo e o tempo em que deseja receber notificações do sistema.  
 
 **Histórias relacionadas:** 
+- [US18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao) - Definir Forma Preferida de Notificação  
 
 ---
 
@@ -159,6 +163,8 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Enviar notificações automáticas lembrando o usuário sobre prazos, revisões e atividades pendentes.  
 
 **Histórias relacionadas:** 
+- [US15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos) - Enviar Notificações para Revisão de Conteúdos
+- [US19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade) - Enviar Notificação sobre Prazo de Entrega de Atividade
 
 ---
 
