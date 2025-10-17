@@ -222,26 +222,59 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ## Temas 
 
 ### [TM01](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm01-identificacao-e-perfis-de-usuario). Identificação e Perfis de Usuário
+Funcionalidades relacionadas ao **cadastro, autenticação e gerenciamento de perfis** de alunos, professores, monitores, coordenadores e administradores. Permite personalizar a experiência do usuário e controlar o acesso às funcionalidades conforme o papel.
+
+**Épicos relacionados:** 
 
 ### [TM02](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm02-conteudo-e-aprendizagem-significativa). Conteúdo e Aprendizagem Significativa
+Funcionalidades voltadas à **organização, mapeamento e estruturação de conteúdos** seguindo a Teoria da Aprendizagem Significativa (TAS).
+
+**Épicos relacionados:** 
 
 ### [TM03](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm03-avaliacao-e-planejamento-educacional). Avaliação e Planejamento Educacional
+Funcionalidades que permitem **planejar, aplicar e acompanhar avaliações**, integrando resultados formais com feedbacks para melhorar o desempenho pedagógico.
+
+**Épicos relacionados:** 
 
 ### [TM04](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm04-assistente-virtual-inteligente). Assistente Virtual Inteligente
+Funcionalidades que permitem **interação personalizada com o assistente virtual**, fornecendo recomendações, inferências e suporte adaptativo aos usuários, incluindo uso de lógica Fuzzy para decisões pedagógicas graduais.
+
+**Épicos relacionados:** 
 
 ### [TM05](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm05-analise-e-visualizacao-de-desempenho). Análise e Visualização de Desempenho
+Funcionalidades que geram **gráficos, indicadores e relatórios em tempo real**, permitindo professores e gestores acompanhar o desempenho dos alunos e tomar decisões pedagógicas fundamentadas.
+
+**Épicos relacionados:** 
 
 ### [TM06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm06-progresso-e-engajamento-do-aluno). Progresso e Engajamento do Aluno
+Funcionalidades para monitorar **interações e progresso dos alunos**, identificando tópicos dominados, dificuldades e lacunas de aprendizagem, promovendo acompanhamento contínuo e personalizado.
+
+**Épicos relacionados:** 
 
 ### [TM07](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm07-alertas-e-notificacoes-inteligentes). Alertas e Notificações Inteligentes
+Funcionalidades que enviam **alertas automáticos e notificações personalizadas**, lembrando sobre prazos, revisões e eventos relevantes.
+
+**Épicos relacionados:** 
 
 ### [TM08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm08-recursos-multimidia-e-materiais-didaticos). Recursos Multimídia e Materiais Didáticos
+Funcionalidades que disponibilizam **materiais educacionais multimídia**, como textos, vídeos, imagens e exercícios interativos, favorecendo diferentes estilos de aprendizagem.
+
+**Épicos relacionados:** 
 
 ### [TM09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm09-banco-de-questoes-e-atividades). Banco de Questões e Atividades
+Funcionalidades para **criar, organizar e gerenciar questões e atividades**, permitindo reutilização, avaliação formativa e feedback automático.
+
+**Épicos relacionados:** 
 
 ### [TM10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm10-integracao-e-centralizacao-de-sistemas). Integração e Centralização de Sistemas
+Funcionalidades que permitem **integrar o sistema com outros softwares educacionais e AVAs**, centralizando informações acadêmicas e facilitando a interoperabilidade.
+
+**Épicos relacionados:** 
 
 ### [TM11](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm11-comunicacao-e-colaboracao-academica). Comunicação e Colaboração Acadêmica
+Funcionalidades para **interação e colaboração entre alunos, professores e monitores**, via chat, fórum e monitoria, promovendo engajamento e troca de conhecimento.
+
+**Épicos relacionados:** 
 
 ## Gravação da validação do documento
 
