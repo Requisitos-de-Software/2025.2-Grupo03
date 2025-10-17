@@ -12,7 +12,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [Felipe Guimaraes](https://github.com/felipegf1) |   |
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Backlog  |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Backlog e participação da criação dos épicos [EP06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas), [EP13](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo)  |
 | [Vilmar José](https://github.com/VilmarFagundes) |   |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -68,7 +68,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Empregar lógica Fuzzy para apoiar decisões pedagógicas, considerando incertezas e avaliações graduais.  
 
 **Histórias relacionadas:** 
-- [US06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy) - Combinar Resultados Formais com Inferências Fuzzy 
+
+- [US06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy) - Combinar Resultados Formais com Inferências Fuzzy
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ---
 
@@ -118,8 +121,11 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Produzir análises e gráficos de desempenho em tempo real, permitindo o acompanhamento dinâmico dos resultados. 
 
 **Histórias relacionadas:** 
+
 - [US21](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas) - Exibir Dados e Informações Analíticas
 - [US22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos) - Gerar Análises em Tempo Real com Gráficos
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ---
 
@@ -155,7 +161,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Permitir que o usuário defina o modo e o tempo em que deseja receber notificações do sistema.  
 
 **Histórias relacionadas:** 
-- [US18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao) - Definir Forma Preferida de Notificação  
+
+- [US18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao) - Definir Forma Preferida de Notificação
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ---
 
@@ -163,8 +172,11 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Enviar notificações automáticas lembrando o usuário sobre prazos, revisões e atividades pendentes.  
 
 **Histórias relacionadas:** 
+
 - [US15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos) - Enviar Notificações para Revisão de Conteúdos
 - [US19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade) - Enviar Notificação sobre Prazo de Entrega de Atividade
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ---
 
@@ -294,3 +306,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
 |--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
 | 1.0    | 16/10/2025 | Criação do documento de Backlog do Produto           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.1    | 17/10/2025 | Participação da criação dos épicos EP06, EP13, EP18 e EP19           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
