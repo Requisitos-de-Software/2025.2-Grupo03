@@ -133,6 +133,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Exibir médias e porcentagens de desempenho organizadas por conteúdo, turma e usuário.  
 
 **Histórias relacionadas:** 
+
 - [US09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo) - Visualizar Porcentagem de Acertos por Conteúdo
 - [US10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo) - Visualizar Porcentagem de Erros por Conteúdo
 - [US11]
@@ -153,6 +154,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Mostrar o progresso total e percentual do aluno em cada disciplina, auxiliando no acompanhamento de seu desenvolvimento.  
 
 **Histórias relacionadas:** 
+
 - [US07](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina) - Visualizar Progresso do Aluno na Disciplina
 - [US08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem) - Exibir Progresso da Disciplina em Porcentagem
 
@@ -194,6 +196,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Oferecer vídeo aulas como recurso complementar aos materiais escritos e atividades práticas.  
 
 **Histórias relacionadas:** 
+
 - [US17](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo) - Assistir a uma Videoaula do Conteúdo
 
 <div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
