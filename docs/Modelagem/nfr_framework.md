@@ -17,13 +17,14 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [Felipe Guimaraes](https://github.com/felipegf1) |   |
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |   |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação da documentação e auxílio na criação do NFR 01 - Usabilidade |
 | [Vilmar José](https://github.com/VilmarFagundes) |   |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Gráfico de Interdependência de Softgoals (SIG)
 O Gráfico de Interdependência de Softgoals **(Softgoal Interdependency Graph — SIG)** é uma ferramenta do NFR Framework usada para mostrar de forma visual os **Requisitos Não Funcionais (NFR)** e como eles se relacionam entre si.
+
 Esse gráfico apresenta, de maneira clara e resumida, as decisões de desenvolvimento, as alternativas consideradas e as justificativas de cada escolha. Sendo possível entender como diferentes softgoals se influenciam e verificar se os objetivos de nível mais alto foram alcançados.
 
 ### Tipos de Softgoals
