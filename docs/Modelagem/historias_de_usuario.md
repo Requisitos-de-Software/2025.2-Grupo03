@@ -9,7 +9,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) |   |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação das historias de usuario [US43 – Facilitar Interação entre Monitores, Professores e Alunos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos), [US44 – Chat Síncrono para Interação a Distância](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia), [US46 – Exibir Progresso do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno), [US49 – Análise Cognitiva e Apoio à Aprendizagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem), [US50 – Identificar Conhecimento do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno) e [US51 – Identificar Comportamento Adequado do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |   |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Criação das historias de usuario [US07 Visualizar Progresso do Aluno na Disciplina](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina), [US08 - Exibir Progresso da Disciplina em Porcentagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem), [US09 - Visualizar Porcentagem de Acertos por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo), [US10 - Visualizar Porcentagem de Erros por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo), [US12 - Exibir Média do Usuário Após Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade), [US17 - Assistir a uma Videoaula do Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo) |
 | [João Felipe](https://github.com/MrBolt2005) |   |
@@ -246,6 +246,107 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## US43 – Facilitar Interação entre Monitores, Professores e Alunos
+
+<div align="center"><strong>Tabela 45: US43</strong></div>
+
+| Campo                | Descrição |
+|---------------------|-----------|
+| **ID**              | US43 |
+| **Título**          | Facilitar Interação entre Monitores, Professores e Alunos |
+| **História**        | Como um usuário do sistema educacional,<br>eu quero que o sistema facilite a comunicação entre monitores, professores e alunos, para que a troca de informações e apoio pedagógico seja mais eficiente. |
+| **Critérios de Aceitação** | - Dado que o usuário acessa o sistema,<br>- Quando desejar interagir com outro perfil educacional,<br>- Então o sistema deve oferecer meios de comunicação integrados e acessíveis. |
+| **Rastreabilidade** | RF43 |
+| **Épico Relacionado** | EP26 – Facilitar Comunicação via Chat e Monitoria |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+## US44 – Chat Síncrono para Interação a Distância
+
+<div align="center"><strong>Tabela 46: US44</strong></div>
+
+| Campo                | Descrição |
+|---------------------|-----------|
+| **ID**              | US44 |
+| **Título**          | Chat Síncrono para Interação a Distância |
+| **História**        | Como um aluno,<br>eu quero utilizar um chat síncrono no sistema, para que eu possa interagir com professores e monitores em tempo real, mesmo à distância. |
+| **Critérios de Aceitação** | - Dado que o aluno está conectado ao sistema,<br>- Quando inicia uma conversa pelo chat,<br>- Então a comunicação deve ocorrer em tempo real, com histórico acessível. |
+| **Rastreabilidade** | RF44 |
+| **Épico Relacionado** | EP26 – Facilitar Comunicação via Chat e Monitoria |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+## US46 – Exibir Progresso do Aluno
+
+<div align="center"><strong>Tabela 48: US46</strong></div>
+
+| Campo                | Descrição |
+|---------------------|-----------|
+| **ID**              | US46 |
+| **Título**          | Exibir Progresso do Aluno |
+| **História**        | Como um aluno,<br>eu quero que o assistente virtual me informe sobre meu progresso,<br>para que eu possa acompanhar meu desempenho e evolução no curso. |
+| **Critérios de Aceitação** | - Dado que o aluno acessa o assistente virtual,<br>- Quando solicita informações sobre seu progresso,<br>- Então o sistema deve apresentar dados atualizados e relevantes. |
+| **Rastreabilidade** | RF46 |
+| **Épico Relacionado** | EP11 – Acompanhar Interações e Progresso do Usuário |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+## US49 – Análise Cognitiva e Apoio à Aprendizagem
+
+<div align="center"><strong>Tabela 51: US49</strong></div>
+
+| Campo                | Descrição |
+|---------------------|-----------|
+| **ID**              | US49 |
+| **Título**          | Análise Cognitiva e Apoio à Aprendizagem |
+| **História**        | Como um aluno,<br>eu quero que o assistente virtual compreenda minha situação cognitiva, para que ele possa me ajudar de forma personalizada na aprendizagem. |
+| **Critérios de Aceitação** | - Dado que o aluno interage com o assistente virtual,<br>- Quando o sistema identifica dificuldades cognitivas,<br>- Então ele deve oferecer suporte adaptado às necessidades do aluno. |
+| **Rastreabilidade** | RF49 |
+| **Épico Relacionado** | EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+## US50 – Identificar Conhecimento do Aluno
+
+<div align="center"><strong>Tabela 52: US50</strong></div>
+
+| Campo                | Descrição |
+|---------------------|-----------|
+| **ID**              | US50 |
+| **Título**          | Identificar Conhecimento do Aluno |
+| **História**        | Como um professor,<br>eu quero saber quais alunos dominam o conteúdo,<br>para que eu possa planejar melhor minhas aulas e intervenções. |
+| **Critérios de Aceitação** | - Dado que o professor acessa o sistema,<br>- Quando solicita informações sobre o conhecimento dos alunos,<br>- Então o sistema deve apresentar dados precisos sobre o domínio de conteúdo. |
+| **Rastreabilidade** | RF50 |
+| **Épico Relacionado** | EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+## US51 – Identificar Comportamento Adequado do Aluno
+
+<div align="center"><strong>Tabela 53: US51</strong></div>
+
+| Campo                | Descrição |
+|---------------------|-----------|
+| **ID**              | US51 |
+| **Título**          | Identificar Comportamento Adequado do Aluno |
+| **História**        | Como um professor,<br>eu quero visualizar quais alunos têm comportamento adequado,<br>para que eu possa reconhecer e incentivar boas práticas como presença e entrega de atividades. |
+| **Critérios de Aceitação** | - Dado que o professor acessa o sistema,<br>- Quando solicita dados comportamentais dos alunos,<br>- Então o sistema deve apresentar indicadores como frequência e pontualidade nas entregas. |
+| **Rastreabilidade** | RF51 |
+| **Épico Relacionado** | EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
 
 ## Gravação da validação do documento
 
@@ -260,3 +361,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |--------|------------|---------------------------------------------|----|---------------|
 | 1.0    | 16/10/2025 | Criação do documento de Histórias de Usuário  | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.1    | 16/10/2025 | Criação das historias de usuario 7, 8, 9, 10, 12 e 17 | [Felipe Guimaraes](https://github.com/felipegf1)| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.2    | 18/10/2025 | Criação das historias de usuario 43, 44, 46, 49, 50 e 51 | [Arthur Guilherme](https://github.com/ArthurGuilher62)| [Felipe Guimaraes](https://github.com/felipegf1) |

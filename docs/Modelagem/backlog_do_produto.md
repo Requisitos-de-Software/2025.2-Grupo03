@@ -7,7 +7,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento de Backlog  |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento de Backlog e Criação dos epicos Criação dos épicos [EP10 - Analisar Dificuldades Cognitivas e Sugerir Conteúdos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos), [EP11 - Acompanhar Interações e Progresso do Usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario), [EP26 - Facilitar Comunicação via Chat e Monitoria](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) e [EP27 - Fornecer Dados ao Professor sobre Domínio e Comportamento](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |   |
 | [Felipe Guimaraes](https://github.com/felipegf1) |  Criação dos epicos [EP14 - Exibir media e porcentagens por conteudo e usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario), [EP16 - Exibir progresso completo e percentual do aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno) e [EP20 - Disponibilizar videoaulas como recurso complementar](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) |
 | [João Felipe](https://github.com/MrBolt2005) |   |
@@ -160,12 +160,20 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:** 
 
+- [US49](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem) - Análise Cognitiva e Apoio à Aprendizagem
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
 ---
 
 ### [EP11](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario) – Acompanhar Interações e Progresso do Usuário
 **Descrição:** Monitorar as interações do usuário com o sistema e acompanhar seu progresso de forma contínua.  
 
 **Histórias relacionadas:** 
+
+- [US46](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno) - Exibir Progresso do Aluno
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ---
 
@@ -302,6 +310,11 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:** 
 
+- [US43](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos) - Facilitar Interação entre Monitores, Professores e Alunos  
+- [US44](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia) - Chat Síncrono para Interação a Distância
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
 ---
 
 ### [EP27](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) – Fornecer Dados ao Professor sobre Domínio e Comportamento
@@ -309,6 +322,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:** 
 
+- [US50](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno) - Identificar Conhecimento do Aluno  
+- [US51](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno) - Identificar Comportamento Adequado do Aluno
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ---
 
@@ -326,3 +343,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.0    | 16/10/2025 | Criação do documento de Backlog do Produto   | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.1    | 17/10/2025 | Participação da criação dos épicos EP06, EP13, EP18 e EP19 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.2    | 17/10/2025 | Participação da criação dos épicos EP14, EP16 e EP20  | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.3    | 18/10/2025 | Participação da criação dos épicos EP14, EP16 e EP20  | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Felipe Guimaraes](https://github.com/felipegf1) |
