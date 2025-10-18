@@ -38,6 +38,9 @@ Os softgoals no NFR Framework são divididos em três tipos principais:
 
 <div align="center"><strong>Figura 1: Tipos de Softgoals</strong></div>
 
+![Figura 1: Tipos de Softgoals](../imagens/NFR/tipos_Softgoals.png)
+
+
 <div align="center"><strong>Fonte: </strong></div>
 
 
