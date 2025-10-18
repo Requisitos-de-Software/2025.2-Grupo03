@@ -45,6 +45,10 @@ Funcionalidades que permitem **interação personalizada com o assistente virtua
 
 - [EP06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas)  - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas 
 
+- [EP10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos) - Analisar Dificuldades Cognitivas e Sugerir Conteúdos
+
+- [EP11](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario) - Acompanhar Interações e Progresso do Usuário
+
 ### [TM05](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm05-analise-e-visualizacao-de-desempenho). Análise e Visualização de Desempenho
 Funcionalidades que geram **gráficos, indicadores e relatórios em tempo real**, permitindo professores e gestores acompanhar o desempenho dos alunos e tomar decisões pedagógicas fundamentadas.
 
@@ -84,6 +88,10 @@ Funcionalidades que permitem **integrar o sistema com outros softwares educacion
 Funcionalidades para **interação e colaboração entre alunos, professores e monitores**, via chat, fórum e monitoria, promovendo engajamento e troca de conhecimento.
 
 **Épicos relacionados:** 
+
+- [EP26](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) - Facilitar Comunicação via Chat e Monitoria
+
+- [EP27](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) - Fornecer Dados ao Professor sobre Domínio e Comportamento
 
 ---
 
