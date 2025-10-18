@@ -43,10 +43,14 @@ Funcionalidades que permitem **interação personalizada com o assistente virtua
 
 **Épicos relacionados:** 
 
+- [EP06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas)  - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas 
+
 ### [TM05](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm05-analise-e-visualizacao-de-desempenho). Análise e Visualização de Desempenho
 Funcionalidades que geram **gráficos, indicadores e relatórios em tempo real**, permitindo professores e gestores acompanhar o desempenho dos alunos e tomar decisões pedagógicas fundamentadas.
 
 **Épicos relacionados:** 
+
+- [EP13](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores) - Gerar Análises em Tempo Real com Gráficos e Indicadores
 
 ### [TM06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm06-progresso-e-engajamento-do-aluno). Progresso e Engajamento do Aluno
 Funcionalidades para monitorar **interações e progresso dos alunos**, identificando tópicos dominados, dificuldades e lacunas de aprendizagem, promovendo acompanhamento contínuo e personalizado.
@@ -57,6 +61,9 @@ Funcionalidades para monitorar **interações e progresso dos alunos**, identifi
 Funcionalidades que enviam **alertas automáticos e notificações personalizadas**, lembrando sobre prazos, revisões e eventos relevantes.
 
 **Épicos relacionados:** 
+
+- [EP18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) - Configurar Preferências de Tempo e Forma de Notificação
+- [EP19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo) - Enviar Alertas sobre Prazos e Revisões de Conteúdo
 
 ### [TM08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm08-recursos-multimidia-e-materiais-didaticos). Recursos Multimídia e Materiais Didáticos
 Funcionalidades que disponibilizam **materiais educacionais multimídia**, como textos, vídeos, imagens e exercícios interativos, favorecendo diferentes estilos de aprendizagem.
