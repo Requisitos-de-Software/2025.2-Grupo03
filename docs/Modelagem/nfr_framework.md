@@ -41,7 +41,7 @@ Os softgoals no NFR Framework são divididos em três tipos principais:
 ![Figura 1: Tipos de Softgoals](../imagens/NFR/tipos_Softgoals.png)
 
 
-<div align="center"><strong>Fonte: </strong></div>
+<div align="center"><strong>Fonte: **CHUNG et al., 2000**</strong></div>
 
 ## Refinamentos no NFR Framework
 
@@ -71,7 +71,28 @@ A seguir, são apresentados os principais tipos de contribuição definidos por 
 - **EQUALS:** o descendente só será satisfeito se o ascendente for satisfeito; da mesma forma, será negado se o ascendente for negado.  
 - **SOME:** usada quando se conhece o tipo da contribuição (positiva ou negativa), mas não sua intensidade (parcial ou total).  
 - **SOME+:** indica certeza de que a contribuição é positiva, mas incerteza quanto ao grau.  
-- **SOME-:** indica certeza de que a contribuição é negativa, mas incerteza quanto ao grau.  
+- **SOME-:** indica certeza de que a contribuição é negativa, mas incerteza quanto ao grau.
+
+## Procedimento de Avaliação no NFR Framework
+
+O **procedimento de avaliação** define o grau em que os requisitos não funcionais são atendidos por um conjunto de decisões do projeto. Ele verifica se cada *softgoal* ou interdependência do SIG foi suficientemente satisfeito.  Para isso, são atribuídos **rótulos** aos *softgoals*, indicando seu nível de satisfação, que podem ser observados na Imagem.  
+
+- **(✓) Satisfeito**
+- **(𝒲+) Fracamente Satisfeito**
+- **( X) Negado**
+- **(𝒲-) Fracamente Negado**
+- **(🗲) Conflitante**
+- **(u) Indeterminado**
+
+<div align="center"><strong>Figura 2: Procedimento de Avaliação no NFR Framework</strong></div>
+
+
+<div align="center"><strong>Fonte: **CHUNG et al., 2000**</strong></div>
+
+A avaliação começa pelos *softgoals* de nível mais baixo na hierarquia, onde são tomadas decisões sobre aceitar ou rejeitar alternativas de projeto. Essas decisões geram os primeiros rótulos, que são então usados para calcular o impacto nos *softgoals* de níveis superiores.  
+
+Esse processo continua de forma hierárquica até chegar aos *softgoals* de nível mais alto do **SIG**, permitindo entender como as decisões locais afetam os objetivos globais do sistema.  
+
 
 
 ## Metodologia
