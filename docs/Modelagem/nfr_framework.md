@@ -43,6 +43,23 @@ Os softgoals no NFR Framework são divididos em três tipos principais:
 
 <div align="center"><strong>Fonte: </strong></div>
 
+## Contribuições no NFR Framework
+
+No **NFR Framework**, existem diferentes tipos de **contribuições** que mostram como a satisfação (ou não) de um softgoal descendente influencia a satisfação do *softgoal* ascendente.  
+A seguir, são apresentados os principais tipos de contribuição definidos por **Chung et al. (2000)**:
+
+- **AND:** todos os *softgoals* descendentes precisam ser satisfeitos para que o *softgoal* ascendente também seja satisfeito.  
+- **OR:** basta que um dos *softgoals* descendentes seja satisfeito para que o *softgoal* ascendente também seja satisfeito.  
+- **MAKE (++)**: contribuição totalmente positiva — se o descendente for satisfeito, o ascendente também será satisfeito no nível máximo.  
+- **BREAK (--)**: contribuição totalmente negativa — se o descendente for satisfeito, o ascendente será negado.  
+- **HELP (+)**: contribuição parcialmente positiva — se o descendente for parcialmente satisfeito, o ascendente também será parcialmente satisfeito.  
+- **HURT (-)**: contribuição parcialmente negativa — se o descendente for satisfeito, o ascendente será parcialmente negado.  
+- **UNKNOWN (?)**: contribuição desconhecida, podendo ser positiva ou negativa, dependendo do contexto.  
+- **EQUALS:** o descendente só será satisfeito se o ascendente for satisfeito; da mesma forma, será negado se o ascendente for negado.  
+- **SOME:** usada quando se conhece o tipo da contribuição (positiva ou negativa), mas não sua intensidade (parcial ou total).  
+- **SOME+:** indica certeza de que a contribuição é positiva, mas incerteza quanto ao grau.  
+- **SOME-:** indica certeza de que a contribuição é negativa, mas incerteza quanto ao grau.  
+
 
 ## Metodologia
 
