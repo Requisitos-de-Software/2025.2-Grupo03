@@ -50,9 +50,11 @@ Os softgoals no NFR Framework são divididos em três tipos principais:
 A Figura 3 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
 Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cada requisito contribui para atingir os objetivos gerais do sistema.
 
-<div align="center"><strong>Figura 3: Gráfico de Interdependência de Softgoals (SIG) para os Requisitos Não-Funcionais</strong></div>
+<div align="center"><strong>Figura 3: Gráfico de Interdependência de Softgoals (SIG) - Requisitos Não-Funcionais</strong></div>
 
-<div align="center"><strong>Fonte: </strong></div>
+![Figura 3: Gráfico de Interdependência de Softgoals (SIG) - Requisitos Não-Funcionais](../imagens/NFR/RNF.jpeg)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ### NFR 01 - Usabilidade
 

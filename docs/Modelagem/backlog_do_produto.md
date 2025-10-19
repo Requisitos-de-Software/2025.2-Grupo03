@@ -35,6 +35,8 @@ A modelagem seguiu a ordem **Histórias de Usuário → Épicos → Temas**, de 
 
 <div align="center"><strong>Figura 1: Ordem da Modelagem</strong></div>
 
+![Figura 1: Ordem da Modelagem](../imagens/ordem_modelagem.jpeg)
+
 <div align="center"><strong>Fonte: Requisitos – Aula 15, de Milene Serrano e Maurício Serrano</strong></div>
 
 ### Priorização do Sprint Backlog
