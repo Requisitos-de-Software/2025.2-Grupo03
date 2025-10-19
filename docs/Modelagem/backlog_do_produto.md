@@ -1,5 +1,9 @@
 ## Introdução
 
+O backlog (ou registro pendente de trabalhos) é uma **lista priorizada** de requisitos e funcionalidades que agregam valor ao cliente e orientam o desenvolvimento do projeto.  O backlog é dividido em dois níveis: o **Product Backlog**, que contém todas as funcionalidades planejadas para o sistema, e o **Sprint Backlog**, que reúne as tarefas selecionadas para o ciclo de desenvolvimento em andamento.
+
+Este trabalho adotou uma abordagem colaborativa para a priorização do Sprint Backlog e a validação do Product Backlog, levando em conta a restrição decorrente da **ausência de um Product Owner (PO) formal**. A metodologia utilizada seguiu o princípio de que a priorização estratégica deve envolver stakeholders relevantes.
+
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de Backlog do Produto, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
 
@@ -18,6 +22,28 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Metodologia
+
+### Estrutura Hierárquica e Fluxo de Trabalho
+
+Cada aluno ficou responsável pela redação das especificações (histórias de usuário, épicos e temas) referentes aos requisitos previamente escolhidos, além de conduzir uma entrevista com o usuário, com o objetivo de validar os itens do backlog.
+
+A modelagem seguiu a ordem **Histórias de Usuário → Épicos → Temas**, de forma a manter uma sequência concisa e refletir um nível crescente de abstração, conforme a apresentado na Figura 1 e conforme apresentado nos slides da aula Requisitos – Aula 15, de Milene Serrano e Maurício Serrano.
+
+- **Histórias de Usuário:** São pequenas descrições do que o usuário precisa que o sistema faça, sempre escritas de forma simples e direta. Elas focam no “o que” deve ser feito, e não no “como”. Cada história representa uma funcionalidade que gera valor para o usuário.
+- **Épicos:** São grupos maiores de histórias de usuário que tratam de um mesmo tema ou objetivo mais amplo. Cada épico representa uma parte importante do produto, que pode ser dividida em várias histórias menores.
+- **Temas:** São categorias gerais que reúnem vários épicos com objetivos parecidos, ajudando a organizar o produto em áreas de foco.
+
+<div align="center"><strong>Figura 1: Ordem da Modelagem</strong></div>
+
+<div align="center"><strong>Fonte: Requisitos – Aula 15, de Milene Serrano e Maurício Serrano</strong></div>
+
+### Priorização do Sprint Backlog
+
+Nesta etapa, também foi realizada uma entrevista com um usuário para classificar cada História de Usuário e, consequentemente, o Épico a ela relacionado, de acordo com três níveis de prioridade:
+
+- **Alta prioridade:** Funcionalidades essenciais, usadas com frequência ou diretamente ligadas à proposta de valor principal do sistema;
+- **Média prioridade:** Funcionalidades importantes, mas que podem ser entregues em sprints futuros sem comprometer o produto;
+- **Baixa prioridade:** Funcionalidades complementares ou de menor impacto imediato para o usuário.
 
 ## Backlog
 
