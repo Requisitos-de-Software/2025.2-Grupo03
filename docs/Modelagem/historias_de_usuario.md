@@ -256,8 +256,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título**          | Facilitar Interação entre Monitores, Professores e Alunos |
 | **História**        | Como um usuário do sistema educacional,<br>eu quero que o sistema facilite a comunicação entre monitores, professores e alunos, para que a troca de informações e apoio pedagógico seja mais eficiente. |
 | **Critérios de Aceitação** | - Dado que o usuário acessa o sistema,<br>- Quando desejar interagir com outro perfil educacional,<br>- Então o sistema deve oferecer meios de comunicação integrados e acessíveis. |
-| **Rastreabilidade** | RF43 |
-| **Épico Relacionado** | EP26 – Facilitar Comunicação via Chat e Monitoria |
+| **Rastreabilidade** | [RF43](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP26](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) – Facilitar Comunicação via Chat e Monitoria |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -273,8 +273,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título**          | Chat Síncrono para Interação a Distância |
 | **História**        | Como um aluno,<br>eu quero utilizar um chat síncrono no sistema, para que eu possa interagir com professores e monitores em tempo real, mesmo à distância. |
 | **Critérios de Aceitação** | - Dado que o aluno está conectado ao sistema,<br>- Quando inicia uma conversa pelo chat,<br>- Então a comunicação deve ocorrer em tempo real, com histórico acessível. |
-| **Rastreabilidade** | RF44 |
-| **Épico Relacionado** | EP26 – Facilitar Comunicação via Chat e Monitoria |
+| **Rastreabilidade** | [RF44](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP26](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) – Facilitar Comunicação via Chat e Monitoria |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -290,8 +290,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título**          | Exibir Progresso do Aluno |
 | **História**        | Como um aluno,<br>eu quero que o assistente virtual me informe sobre meu progresso,<br>para que eu possa acompanhar meu desempenho e evolução no curso. |
 | **Critérios de Aceitação** | - Dado que o aluno acessa o assistente virtual,<br>- Quando solicita informações sobre seu progresso,<br>- Então o sistema deve apresentar dados atualizados e relevantes. |
-| **Rastreabilidade** | RF46 |
-| **Épico Relacionado** | EP11 – Acompanhar Interações e Progresso do Usuário |
+| **Rastreabilidade** | [RF46](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP11](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario) – Acompanhar Interações e Progresso do Usuário |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -307,8 +307,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título**          | Análise Cognitiva e Apoio à Aprendizagem |
 | **História**        | Como um aluno,<br>eu quero que o assistente virtual compreenda minha situação cognitiva, para que ele possa me ajudar de forma personalizada na aprendizagem. |
 | **Critérios de Aceitação** | - Dado que o aluno interage com o assistente virtual,<br>- Quando o sistema identifica dificuldades cognitivas,<br>- Então ele deve oferecer suporte adaptado às necessidades do aluno. |
-| **Rastreabilidade** | RF49 |
-| **Épico Relacionado** | EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos |
+| **Rastreabilidade** | [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos) – Analisar Dificuldades Cognitivas e Sugerir Conteúdos |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -324,8 +324,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título**          | Identificar Conhecimento do Aluno |
 | **História**        | Como um professor,<br>eu quero saber quais alunos dominam o conteúdo,<br>para que eu possa planejar melhor minhas aulas e intervenções. |
 | **Critérios de Aceitação** | - Dado que o professor acessa o sistema,<br>- Quando solicita informações sobre o conhecimento dos alunos,<br>- Então o sistema deve apresentar dados precisos sobre o domínio de conteúdo. |
-| **Rastreabilidade** | RF50 |
-| **Épico Relacionado** | EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento |
+| **Rastreabilidade** | [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP27](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) – Fornecer Dados ao Professor sobre Domínio e Comportamento |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -341,8 +341,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título**          | Identificar Comportamento Adequado do Aluno |
 | **História**        | Como um professor,<br>eu quero visualizar quais alunos têm comportamento adequado,<br>para que eu possa reconhecer e incentivar boas práticas como presença e entrega de atividades. |
 | **Critérios de Aceitação** | - Dado que o professor acessa o sistema,<br>- Quando solicita dados comportamentais dos alunos,<br>- Então o sistema deve apresentar indicadores como frequência e pontualidade nas entregas. |
-| **Rastreabilidade** | RF51 |
-| **Épico Relacionado** | EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento |
+| **Rastreabilidade** | [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP27](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) – Fornecer Dados ao Professor sobre Domínio e Comportamento |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
