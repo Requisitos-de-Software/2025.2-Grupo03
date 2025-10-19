@@ -55,6 +55,7 @@ nav:
       - Introdução: Apresentação/apresentacao.md
       - Apresentação 1: Apresentação/apresentacao1.md
       - Apresentação 2: Apresentação/apresentacao2.md
+      - Apresentação 3: Apresentação/apresentacao3.md
   - Planejamento: 
     - HeatMap: Planejamento/heatmap.md
     - Ferramentas: Planejamento/ferramentas.md
@@ -67,6 +68,7 @@ nav:
     - Entrega 1: Verificacao/verificacao.md
     - Entrega 2: Verificacao/verificacao2.md
     - Entrega 3: Verificacao/verificacao3.md
+    - Entrega 4: Verificacao/verificacao4.md
   - Elicitação:
     - Perfil de Usuário: Elicitacao/perfil_usuario.md
     - Brainstorming - Perfil de Usuário: Elicitacao/brainstorming_perfil.md
@@ -86,10 +88,18 @@ nav:
       - Cenário: Modelagem/cenario.md
       - Especificação Suplementar: Modelagem/especificacao_suplementar.md
       - Léxico: Modelagem/lexico.md
+    - Metodologias Ágeis:
+      - Histórias de Usuário: Modelagem/historias_de_usuario.md
+      - Backlog do Produto: Modelagem/backlog_do_produto.md
+      - NFR Framework: Modelagem/nfr_framework.md
   - Inspeção:
     - Grupo: 
       - Entrega 1: Inspeção/inspeção_grupo_1.md
       - Entrega 2: Inspeção/inspeção_grupo_2.md
+      - Entrega 3: Inspeção/inspeção_grupo_3.md
+      - Entrega 4: Inspeção/inspeção_grupo_4.md
     - Grupo +1: 
       - Entrega 1: Inspeção/inspeção_grupo_+1_1.md
       - Entrega 2: Inspeção/inspeção_grupo_+1_2.md
+      - Entrega 3: Inspeção/inspeção_grupo_+1_3.md
+      - Entrega 4: Inspeção/inspeção_grupo_+1_4.md

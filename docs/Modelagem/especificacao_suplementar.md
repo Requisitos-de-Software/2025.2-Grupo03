@@ -4,7 +4,7 @@
 A Especificação Suplementar é um documento essencial no processo de engenharia de requisitos, pois tem o objetivo de detalhar aspectos que não são tratados diretamente nos casos de uso, com foco especial nos **requisitos não funcionais**.
 Diferente dos **requisitos funcionais**, que descrevem as ações e comportamentos esperados do sistema, os **requisitos não funcionais** se referem a atributos de qualidade que afetam a experiência do usuário, a estabilidade do sistema e a facilidade de manutenção e evolução do software.  
 Entre esses atributos estão: a usabilidade, confiabilidade, desempenho, segurança, portabilidade, entre outros.
-Este documento segue o modelo **FURPS+**, que organiza os requisitos não funcionais em cinco categorias principais:
+Este documento segue o modelo **FURPS+**, que organiza os requisitos em cinco categorias principais:
 
 - **Functionality (Funcionalidade)** Representa todos os aspectos funcionais do software.
 - **Usability (Usabilidade)** : Refere-se à facilidade de uso e interação do usuário com o sistema. Incluindo subcategorias como prevenção de erros, design e estética, ajuda e documentação,  consistência e padronização na interface e acessibilidade.
@@ -21,12 +21,12 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Classificação dos requisitos não funcionais: [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).|
-| [Arthur Henrique](https://github.com/arthurhvieira1) |  Classificação dos requisitos não funcionais: [RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).   |
+| [Arthur Henrique](https://github.com/arthurhvieira1) |  Classificação dos requisitos não funcionais: [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).   |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Classificação dos requisitos não funcionais: [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).                                      |
-| [João Felipe](https://github.com/MrBolt2005) |                                       |
-| [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Especificação Suplementar e classificação dos requisitos não funcionais: [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).                                      |
-| [Vilmar José](https://github.com/VilmarFagundes) | Classificação dos requisitos não funcionais: [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) |
+| [João Felipe](https://github.com/MrBolt2005) |  Classificação dos requisitos não funcionais: [RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).   |
+| [João Sapiência](https://github.com/JoaoSapiencia) |      Classificação dos requisitos não funcionais: [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)                                 |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Especificação Suplementar, classificação dos requisitos não funcionais: [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e participação da gravação de validação do documento |
+| [Vilmar José](https://github.com/VilmarFagundes) | Classificação dos requisitos não funcionais: [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e participação da gravação de validação do documento |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -38,33 +38,12 @@ A estrutura foi adaptada às particularidades do projeto, utilizando uma linguag
 ## Especificação Suplementar Realizada
 
 ### 1. Funcionalidade
-Esta seção representa os aspectos funcionais do software, descrevendo o que o sistema deve realizar para atender às necessidades dos usuários e aos objetivos do projeto.
-
-<div align="center"><strong>Tabela 2: Requisitos de Funcionalidade</strong></div>
-
-| **Requisito** | **Descrição** |
-| ------------------- | ---------------- |
-|[RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
-|[RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve possibilitar integração com outros AVAs (Ambientes Virtuais de Aprendizagem) e sistemas educacionais externos. |
-
-<div align="center">
-    <strong>
-        Autoria de 
-        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
-        <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
-        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
-    </strong>
-</div>
-
+As funcionalidades foram identificadas durante o processo de elicitação de requisitos e estão detalhadas tanto na seção de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) quanto nos [Casos de Uso](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/casos_de_uso/) desenvolvidos.
 
 ### 2. Usabilidade
 Esta seção lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente, incluindo aspectos como prevenção de erros, design e estética, ajuda e documentação, consistência e padronização na interface e acessibilidade.
 
-<div align="center"><strong>Tabela 3: Requisitos de Usabilidade</strong></div>
+<div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -77,20 +56,17 @@ Esta seção lista os requisitos que garantem que a interação do usuário com 
 <div align="center">
     <strong>
         Autoria de 
-        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
         <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
         <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
-        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> 
     </strong>
 </div>
 
 ### 3. Confiabilidade
 Esta seção trata da estabilidade, segurança e integridade do sistema, bem como sua capacidade de operar corretamente mesmo em situações inesperadas, considerando frequência e tolerância a falhas, capacidade de recuperação, previsibilidade, exatidão e tempo médio entre falhas.
 
-<div align="center"><strong>Tabela 4: Requisitos de Confiabilidade</strong></div>
+<div align="center"><strong>Tabela 3: Requisitos de Confiabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -103,10 +79,7 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
     <strong>
         Autoria de 
         <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
-        <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a> e
         <a href="https://github.com/VilmarFagundes">Vilmar José</a>
     </strong>
 </div>
@@ -114,12 +87,14 @@ Esta seção trata da estabilidade, segurança e integridade do sistema, bem com
 ### 4. Suportabilidade
 Esta seção descreve os requisitos relacionados à facilidade de manutenção, evolução e adaptabilidade do sistema, incluindo aspectos como testabilidade, escalabilidade, internacionalização e extensibilidade.
 
-<div align="center"><strong>Tabela 5: Requisitos de Suportabilidade</strong></div>
+<div align="center"><strong>Tabela 4: Requisitos de Suportabilidade</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
+|[RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
 | [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
 | [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O projeto deve ser multidisciplinar, envolvendo as áreas de Educação, Psicologia e Informática, o que implica em flexibilidade de manutenção e evolução do sistema para atender diferentes perspectivas e áreas de conhecimento. |
+|[RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve possibilitar integração com outros AVAs (Ambientes Virtuais de Aprendizagem) e sistemas educacionais externos. |
 | [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. Isso requer uma arquitetura modular e baseada em serviços, capaz de distribuir carga eficientemente, suportar balanceamento dinâmico e permitir expansão horizontal (adicionando servidores) ou vertical (melhorando recursos de hardware) conforme a demanda. |
 
 <div align="center">
@@ -127,18 +102,16 @@ Esta seção descreve os requisitos relacionados à facilidade de manutenção, 
         Autoria de 
         <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
         <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
         <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>,
-        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e 
-        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>  
     </strong>
 </div>
 
 ### 5. Performance
 Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluindo eficiência sob diferentes condições, tempo de resposta, uso de memória, utilização da CPU, capacidade de processamento e disponibilidade da aplicação.
 
-<div align="center"><strong>Tabela 6: Requisitos de Performance</strong></div>
+<div align="center"><strong>Tabela 5: Requisitos de Performance</strong></div>
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
@@ -149,16 +122,31 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 <div align="center">
     <strong>
         Autoria de 
-        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, 
-        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
-        <a href="https://github.com/felipegf1">Felipe Guimaraes</a>,
-        <a href="https://github.com/MrBolt2005">João Felipe</a>,
-        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a> e
         <a href="https://github.com/VilmarFagundes">Vilmar José</a>
     </strong>
 </div>
 
+## Gravação da validação do documento
+### Usuário entrevistado
+Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário
+<div align="center"><strong>Tabela 6: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| João Igor | 09/10/2025 | 11:30 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/km8nqY-LzkY](https://youtu.be/km8nqY-LzkY) 
+
+## Agradecimentos
+O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
+
 ## Referências
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 13. Disponível em: [Requisitos_Aula 13](../arquivos/Suplementar_Aula13.pdf). Acesso em: 10 outubro 2025.
+
+BRASIL. Ministério da Ciência, Tecnologia e Inovações. Especificação Suplementar. Disponível em: [Especificação de Caso de Uso](../arquivos/SiglaProjeto_EspecificacaoCasoUso.pdf). Acesso em: 10 outubro 2025.
 
 ## Histórico de versão
 
@@ -166,7 +154,10 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 |--------|------|-----------|-----------|---------|
 | 1.0    | 05/10/2025 | Criação do documento da Especificação Suplementar | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Sapiência](https://github.com/JoaoSapiencia) |
 | 1.1    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF01 e RNF05 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
-| 1.2    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF09, RNF10 e RNF15 | [Vilmar José](https://github.com/VilmarFagundes) |  |
+| 1.2    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF09 e RNF15 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.3    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF08 e RNF14 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | | 
 | 1.4    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF03 e RNF11 |[Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) | 
-| 1.5    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF02, RNF04, RNF06, RNF07, RNF10, RNF12 e RNF13 | [Arthur Henrique](https://github.com/arthurhvieira1) |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.5    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF07, RNF10 e RNF13 | [Arthur Henrique](https://github.com/arthurhvieira1) |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.6    | 09/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF02 e RNF04 | [João Felipe](https://github.com/MrBolt2005) |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.7    | 08/10/2025 | Edição do documento de Especificação Suplementar e classificação dos requisitos não funcionais: RNF06 e RNF12 | [João Sapiência](https://github.com/JoaoSapiencia) |  [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.8    | 09/10/2025 | Adição da gravação da validação do documento | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |

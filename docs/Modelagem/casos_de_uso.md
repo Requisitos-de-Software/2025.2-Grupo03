@@ -14,27 +14,61 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criou as especificações de casos de uso 07, 08 e 09, que são referentes, respectivamente, aos requisitos [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)|
-| [Arthur Henrique](https://github.com/arthurhvieira1) |                                       |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Criou as especificações de casos de uso 15, 16 e 17, que são referentes, respectivamente, aos requisitos [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF21](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                       |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Criou as especificações de casos de uso 01, 02 e 03, que são referentes, respectivamente, aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
-| [João Sapiência](https://github.com/JoaoSapiencia) |                                       |
+| [João Sapiência](https://github.com/JoaoSapiencia) | Criação das especificações de casos de uso 12, 13 e 14, que são referentes, respectivamente aos requisitos [RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF34](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF40](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)  |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Casos de Uso e criação das especificações de casos de uso 04, 05 e 06, que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais).                                      |
-| [Vilmar José](https://github.com/VilmarFagundes) |                                       |
+| [Vilmar José](https://github.com/VilmarFagundes) | Criou as especificações de casos de uso 10 e 11, que são referentes, respectivamente, aos requisitos [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Metodologia
 Foi utilizado o diagrama de caso de uso, que representa, por meio de atores (como alunos e docentes) e casos de uso (como escolher o melhor modo de receber notificações), as funcionalidades ainda não implementadas e os comportamentos esperados do sistema em uma hipótese de implementação.
+
 Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que compõem o diagrama de caso de uso, oferecendo uma visão organizada da estrutura de interações entre os atores e o sistema.
 
+<div align="center"><strong>Tabela 2: Elementos de Caso de Uso</strong></div>
+
+| Nome | Função | Representação |
+|--------|------|-----------|
+| Ator    | Representa os diferentes tipos de usuários externos que interagem com o sistema. Cada ator desempenha um papel específico nas interações, podendo ser uma pessoa, organização ou outro sistema. | ![Ator](../imagens/elementoCasoUso/ator_casoUso.png) |
+| Elipse (Caso de Uso)    | Utilizada para representar os casos de uso no diagrama. Cada elipse destaca uma funcionalidade ou ação específica que o sistema realiza em resposta às interações dos atores. | ![Caso de Uso](../imagens/elementoCasoUso/elipse_casoUso.png) |
+| Retângulo (Sistema)    | Representa o sistema ou o componente em análise. Dentro dele são agrupados os casos de uso e os atores diretamente relacionados ao seu funcionamento. | ![Sistema](../imagens/elementoCasoUso/sistema_casoUso.png) |
+| Flecha (Relações) | As setas indicam as relações e interações entre os atores e os casos de uso. Elas podem ser:<br>• **Normal:** representa uma interação direta entre o ator e o caso de uso.<br>• **Incluir (`<<include>>`):** indica que um caso de uso incorpora obrigatoriamente o comportamento de outro caso de uso.<br>• **Estender (`<<extend>>`):** representa uma relação opcional, onde um caso de uso pode estender o comportamento de outro sob determinadas condições. | ![Relações](../imagens/elementoCasoUso/setas_casoUso.png) |
+
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
 ## Diagramas de Caso de Uso
+
+<div align="center"><strong>Figura 1: Caso de Uso UC04, UC05, UC06 e UC11</strong></div>
+
+![Figura 1: Diagrama 1](../imagens/casosDeUso/DiagramaCasoUso1.jpeg)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
+<div align="center"><strong>Figura 2: Caso de Uso UC07, </strong></div>
+
+![Figura 1: Diagrama 1](../imagens/casosDeUso/DiagramaCasoUso2.jpeg)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<div align="center"><strong>Figura 2: Caso de Uso UC08, UC09, UC10 </strong></div>
+
+![Figura 1: Diagrama 1](../imagens/casosDeUso/DiagramaCasoUso3.png)
+
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ## Especificação dos Casos de Uso
 
 ### **UC01 – Exibição do Progresso na Disciplina**
 **Requisito Associado:** [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir um progresso em porcentagem do andamento da disciplina
 
-<div align="center"><strong>Tabela 2: Caso de Uso UC01</strong></div>
+<div align="center"><strong>Tabela 3: Caso de Uso UC01</strong></div>
 
 | Campo   | Descrição  |
 | --------------------- | -------------- |
@@ -57,7 +91,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC02 – Exibição da Porcentagem de Acertos por Conteúdo**
 **Requisito Associado:** [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo
 
-<div align="center"><strong>Tabela 3: Caso de Uso UC02</strong></div>
+<div align="center"><strong>Tabela 4: Caso de Uso UC02</strong></div>
 
 | Campo                 | Descrição     |
 | --------------------- | ----------------------------------------------- |
@@ -80,7 +114,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC03 – Exibição da Porcentagem de Erros por Conteúdo**
 **Requisito Associado:** [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo
 
-<div align="center"><strong>Tabela 4: Caso de Uso UC03</strong></div>
+<div align="center"><strong>Tabela 5: Caso de Uso UC03</strong></div>
 
 | Campo                 | Descrição |
 | --------------------- | ---------------------------------|
@@ -103,7 +137,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC04 – Lembretes de Revisão de Conteúdos**
 **Requisito Associado:** [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados.
 
-<div align="center"><strong>Tabela 5: Caso de Uso UC04</strong></div>
+<div align="center"><strong>Tabela 6: Caso de Uso UC04</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -127,7 +161,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC05 – Configuração da Forma de Notificação**
 **Requisito Associado:** [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve pedir ao usuário a melhor forma de caminho de notificação.
 
-<div align="center"><strong>Tabela 6: Caso de Uso UC05</strong></div>
+<div align="center"><strong>Tabela 7: Caso de Uso UC05</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -151,7 +185,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### **UC06 – Notificação de Prazo de Entrega**
 **Requisito Associado:** [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.
 
-<div align="center"><strong>Tabela 7: Caso de Uso UC06</strong></div>
+<div align="center"><strong>Tabela 8: Caso de Uso UC06</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -172,6 +206,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### UC07 – Análise Cognitiva e Apoio à Aprendizagem  
 **Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve analisar documentos escolares (atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
 
+<div align="center"><strong>Tabela 9: Caso de Uso UC07</strong></div>
 
 | Campo      | Descrição |
 |----------------|-----------|
@@ -194,6 +229,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### UC08 – Identificação de Conhecimento sobre o Conteúdo  
 **Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
 
+<div align="center"><strong>Tabela 10: Caso de Uso UC08</strong></div>
 
 | Campo      | Descrição |
 |----------------|-----------|
@@ -215,9 +251,11 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ### UC09 – Avaliação de Comportamento Escolar  
 **Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
 
+<div align="center"><strong>Tabela 11: Caso de Uso UC09</strong></div>
+
 | Campo      | Descrição |
 |----------------|-----------|
-|UC08 |Avaliação de Comportamento Escolar|
+|UC09 |Avaliação de Comportamento Escolar|
 | Descrição |O sistema monitora o comportamento dos alunos e gera relatórios para o professor com base em critérios pedagógicos.|
 | Ator|- Aluno  <br>- Professor  <br>- Assistente Virtual|
 | Pré-condições| 1. O aluno está registrado no sistema.  <br>2. Há dados de presença, atividades e monitorias disponíveis.|
@@ -229,13 +267,223 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |Rastreabilidade| RF52  |
 |Data de criação| 08/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+### UC10 – Exibir média geral da turma em cada atividade
+**Requisito Associado:** [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – A interface deve exibir a média geral da turma em cada atividade
+
+<div align="center"><strong>Tabela 12: Caso de Uso UC10</strong></div>
+
+| Campo      | Descrição |
+|----------------|-----------|
+|UC10 |Exibir média geral da turma em cada atividade|
+| Descrição |Permite que o Aluno e o Professor visualizem o desempenho médio de todos os estudantes em uma atividade avaliativa específica.|
+| Ator|- Aluno  <br>- Professor |
+| Pré-condições| 	1. O ator deve estar autenticado no sistema e ter acesso à disciplina.<br> 2. A atividade avaliativa deve ter sido concluída (prazo expirado ou corrigida) por uma amostra significativa de alunos da turma.|
+| Ação| O sistema calcula a média geral da turma na atividade após a sua finalização. |
+|Fluxo principal|1. O Ator acessa a área de visualização de desempenho da disciplina.<br> 2. O sistema recupera e calcula a média das notas de todos os alunos que realizaram a atividade.<br> 3. O sistema exibe o valor da média geral da turma na interface, associado à atividade correspondente.|
+|Fluxo alternativo| Dados de Média Indisponíveis (Parcial): Se o cálculo da média geral não puder ser realizado (ex: poucos alunos realizaram ou atividade pendente de correção), o sistema pode exibir uma mensagem indicando "Média em processamento" ou "Média indisponível".|
+|Fluxo de exceção|Falha de Cálculo Crítica: O sistema não consegue acessar o banco de dados ou a função de cálculo retorna um erro fatal (ex: divisão por zero). O sistema deve notificar o usuário com uma mensagem de erro genérica ("Não foi possível carregar a média da turma. Tente novamente mais tarde.") e registrar o erro no log.|
+|Pós-condições|O sistema exibe a média geral da turma para a atividade na interface do usuário.|
+|Rastreabilidade| RF11  |
+|Data de criação| 09/10/2025 |
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
+### UC11 – Escolher o tempo em que deseja receber alertas sobre atividades atrasadas
+**Requisito Associado:** [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas
+
+<div align="center"><strong>Tabela 13: Caso de Uso UC11</strong></div>
+
+| Campo      | Descrição |
+|----------------|-----------|
+|UC11 |Escolher o tempo em que deseja receber alertas sobre atividades atrasadas|
+| Descrição |Permite ao Aluno configurar o intervalo de tempo ou a frequência desejada para o recebimento de notificações automáticas sobre atividades que estão com o prazo de entrega expirado.|
+| Ator| Aluno |
+| Pré-condições| 	1. O aluno deve estar autenticado no sistema.<br> 2. O sistema deve possuir uma interface de Configurações de Notificação acessível ao usuário.|
+| Ação| O ator seleciona a opção de frequencia desejada e o sistema salva a preferencia |
+|Fluxo principal|1. O Ator acessa a área de Configurações de Notificação.<br> 2. O sistema exibe as opções de frequência para alertas de atraso (ex: a cada 3 horas, diariamente, semanalmente).<br> 3. O Ator seleciona a frequência desejada.<br> 4. O Ator confirma a alteração, e o sistema salva a preferência.|
+|Fluxo alternativo| Personalização da Frequência: O usuário opta por definir um intervalo de tempo customizado não listado nas opções pré-definidas (ex: a cada 4 horas). O sistema valida a entrada e salva a configuração.|
+|Fluxo de exceção|Erro ao Salvar a Preferência: O sistema encontra um erro de conexão com o banco de dados ao tentar salvar a nova preferência. O sistema deve exibir uma mensagem de erro ("Não foi possível salvar a preferência de alerta. Verifique sua conexão.") e manter a configuração anterior.|
+|Pós-condições|O sistema armazena a preferência de tempo do usuário, e os alertas futuros de atividades atrasadas serão disparados com base nesta nova frequência.|
+|Rastreabilidade| RF13  |
+|Data de criação| 09/10/2025 |
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
+### **UC12 – Organização do Banco de Questões por Conteúdo**
+**Requisito Associado:** RF32 – O banco de questões deve estar separado por conteúdo.
+
+<div align="center"><strong>Tabela 14: Caso de Uso UC12</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC12** | Organização do Banco de Questões por Conteúdo |
+| **Descrição** | Permite ao professor e ao aluno visualizar e filtrar as questões do banco de dados de acordo com o conteúdo específico da disciplina, facilitando a busca e a organização dos materiais de estudo e avaliação. |
+| **Ator** | - Professor<br>- Aluno<br>- Sistema de Banco de Questões (BDQ) |
+| **Pré-condições** | 1. O usuário (professor ou aluno) está autenticado no sistema.<br>2. Existem conteúdos (tópicos, capítulos) cadastrados nas disciplinas.<br>3. Existem questões no Banco de Questões associadas a esses conteúdos. |
+| **Ação** | O usuário seleciona um filtro de conteúdo, e o sistema exibe apenas as questões relacionadas a ele. |
+| **Fluxo principal** | - O usuário acessa a área do "Banco de Questões".<br>- O sistema exibe as opções de filtro por conteúdo (ex: uma lista de tópicos da disciplina).<br>- O usuário seleciona um conteúdo desejado.<br>- O sistema atualiza a visualização e exibe apenas as questões associadas ao conteúdo selecionado. |
+| **Fluxo alternativo** | - O conteúdo selecionado não possui questões cadastradas.<br>- O sistema exibe a mensagem: "Nenhuma questão encontrada para este conteúdo". |
+| **Fluxo de exceção** | - O sistema não consegue carregar os filtros de conteúdo ou as questões devido a uma falha no banco de dados.<br>- O sistema exibe uma mensagem de erro: "Não foi possível carregar as questões. Tente novamente mais tarde." |
+| **Pós-condições** | O usuário visualiza uma lista de questões devidamente filtrada pelo conteúdo escolhido. |
+| **Rastreabilidade** | RF32 |
+| **Data de criação** | 10/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+### **UC13 – Acesso ao Painel de Desempenho Centralizado**
+**Requisito Associado:** RF34 – A integração deve reduzir o esforço de professores e monitores, centralizando informações sobre atividades e desempenho.
+
+<div align="center"><strong>Tabela 15: Caso de Uso UC13</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC13** | Acesso ao Painel de Desempenho Centralizado |
+| **Descrição** | Permite que professores e monitores acessem uma tela unificada que consolida as informações de atividades, notas e progresso dos alunos, otimizando o tempo de análise e acompanhamento. |
+| **Ator** | - Professor<br>- Monitor |
+| **Pré-condições** | 1. O usuário (professor ou monitor) está autenticado no sistema.<br>2. Existem alunos vinculados às suas disciplinas ou grupos de monitoria.<br>3. Existem dados de desempenho e atividades dos alunos registrados no sistema. |
+| **Ação** | O sistema coleta e exibe dados de diferentes módulos em um painel de controle único para o usuário. |
+| **Fluxo principal** | - O usuário acessa a área "Desempenho da Turma" ou o perfil de um aluno específico.<br>- O sistema busca e consolida informações de atividades, progresso nos conteúdos e notas.<br>- A interface exibe um painel centralizado com os dados compilados (ex: média geral, atividades pendentes, últimos resultados). |
+| **Fluxo alternativo** | - Um aluno específico ainda não possui dados de desempenho.<br>- O sistema exibe no painel a mensagem: "Sem dados de desempenho para exibir". |
+| **Fluxo de exceção** | - Falha na integração com um dos módulos do sistema ao buscar os dados.<br>- O sistema exibe os dados que conseguiu carregar e uma mensagem de alerta: "Algumas informações não puderam ser carregadas". |
+| **Pós-condições** | O professor ou monitor visualiza as informações de desempenho dos alunos de forma centralizada, reduzindo o esforço de busca em diferentes partes do sistema. |
+| **Rastreabilidade** | RF34 |
+| **Data de criação** | 10/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+### **UC14 – Sugestão de Questões pelo Assistente Virtual**
+**Requisito Associado:** RF40 – O assistente virtual deve sugerir questões com o conteúdo da vídeo aula.
+
+<div align="center"><strong>Tabela 16: Caso de Uso UC14</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC14** | Sugestão de Questões pelo Assistente Virtual |
+| **Descrição** | O assistente virtual (ITA) identifica o conteúdo da vídeoaula que o aluno está assistindo e, de forma proativa, sugere questões relacionadas do banco de dados para reforçar o aprendizado. |
+| **Ator** | - Aluno<br>- Assistente Virtual (ITA) |
+| **Pré-condições** | 1. O aluno está logado na plataforma SAE.<br>2. O aluno está na página de uma vídeoaula.<br>3. Existem questões no Banco de Questões (BDQ) associadas ao conteúdo da vídeoaula. |
+| **Ação** | O assistente virtual analisa o conteúdo da vídeoaula e busca por questões correspondentes para sugerir ao aluno. |
+| **Fluxo principal** | - O aluno inicia a reprodução de uma vídeoaula.<br>- Durante ou após a exibição, o assistente virtual apresenta uma notificação com a sugestão de questões relacionadas.<br>- A notificação contém um chamado como "Que tal praticar o que você aprendeu?".<br>- O aluno clica na sugestão.<br>- O sistema direciona o aluno para uma atividade com as questões selecionadas. |
+| **Fluxo alternativo** | - O aluno opta por ignorar ou fechar a notificação de sugestão.<br>- O assistente virtual recolhe a notificação e o aluno continua a navegar normalmente. |
+| **Fluxo de exceção** | - O assistente virtual não encontra questões relevantes para o conteúdo no Banco de Questões.<br>- Nenhuma sugestão é exibida para o aluno.<br>- Ocorre uma falha ao tentar carregar as questões após o aluno aceitar a sugestão.<br>- O sistema exibe uma mensagem de erro: "Não foi possível carregar as questões no momento." |
+| **Pós-condições** | O aluno pratica o conteúdo da vídeoaula por meio de questões relevantes sugeridas pelo assistente virtual. |
+| **Rastreabilidade** | RF40 |
+| **Data de criação** | 10/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+### **UC15 – Índice de Conteúdos Ordenado por Taxa de Erros**  
+**Requisito Associado:** RF16 – O sistema deve ter um índice de conteúdos ordenado pela porcentagem de erros em cada conteúdo.
+
+<div align="center"><strong>Tabela 17: Caso de Uso UC15</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC15** | Índice de Conteúdos Ordenado por Taxa de Erros |
+| **Descrição** | O sistema calcula a porcentagem de erros por conteúdo e exibe um índice ordenado (do maior para o menor percentual), permitindo que o aluno identifique rapidamente os tópicos com maior dificuldade. |
+| **Ator** | - Aluno<br>- Sistema de análise de desempenho |
+| **Pré-condições** | 1. O aluno está logado na plataforma.<br>2. Existem conteúdos com tentativas registradas (acertos/erros). |
+| **Ação** | O sistema consolida as tentativas por conteúdo, calcula a taxa de erros e ordena a lista para exibição. |
+| **Fluxo principal** | - O aluno acessa o índice de conteúdos.<br>- O sistema coleta as estatísticas de desempenho por conteúdo.<br>- O sistema calcula a porcentagem de erros por conteúdo.<br>- O sistema ordena o índice do maior para o menor percentual de erros.<br>- A interface exibe o índice ordenado, destacando conteúdos com maior taxa de erros. |
+| **Fluxo alternativo** | - Não há tentativas registradas para um ou mais conteúdos.<br>- O sistema exibe “Sem dados suficientes” para esses conteúdos e os posiciona após os conteúdos com dados. |
+| **Fluxo de exceção** | - Erro na recuperação dos dados do aluno ou dos conteúdos.<br>- O sistema exibe uma mensagem de erro: “Não foi possível carregar o índice no momento.” |
+| **Pós-condições** | O aluno visualiza corretamente o índice de conteúdos ordenado pela porcentagem de erros. |
+| **Rastreabilidade** | RF16 |
+| **Data de criação** | 12/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
+---
+
+### **UC16 – Configuração de Aviso de Proximidade de Entrega**  
+**Requisito Associado:** RF21 – O usuário escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade.
+
+<div align="center"><strong>Tabela 18: Caso de Uso UC16</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC16** | Configuração de Aviso de Proximidade de Entrega |
+| **Descrição** | O sistema permite que o usuário defina quando deseja receber notificações de proximidade da data de entrega de atividades (por exemplo, 7, 3 ou 1 dia antes). |
+| **Ator** | - Usuário (Aluno)<br>- Sistema de notificações |
+| **Pré-condições** | 1. O usuário está logado na plataforma.<br>2. Existem atividades com datas de entrega cadastradas.<br>3. O usuário autorizou o recebimento de notificações (push ou e-mail). |
+| **Ação** | O usuário acessa as preferências de notificação, escolhe a antecedência desejada e salva. O sistema agenda os avisos de acordo com as preferências. |
+| **Fluxo principal** | - O usuário acessa **Configurações → Notificações**.<br>- O usuário seleciona a antecedência do aviso (ex.: 7, 3 e/ou 1 dia).<br>- O usuário confirma e salva as preferências.<br>- O sistema registra a preferência e agenda as notificações para cada atividade com data de entrega.<br>- Na antecedência definida, o sistema envia a notificação ao usuário. |
+| **Fluxo alternativo** | - O usuário desativa as notificações de proximidade.<br>- O sistema cancela os agendamentos futuros relacionados a essas notificações.<br><br>- Uma atividade não possui data de entrega.<br>- O sistema não agenda notificação para essa atividade e informa “Atividade sem data de entrega.” |
+| **Fluxo de exceção** | - Falha ao salvar as preferências ou ausência de permissão de notificação no dispositivo.<br>- O sistema exibe uma mensagem de erro: “Não foi possível salvar as preferências” ou “Permissão de notificação negada.” |
+| **Pós-condições** | As preferências de antecedência ficam salvas e as notificações são agendadas de acordo com a escolha do usuário. |
+| **Rastreabilidade** | RF21 |
+| **Data de criação** | 12/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
+---
+
+### **UC17 – Importação de Questões de Outras Origens para o Banco de Questões**  
+**Requisito Associado:** RF30 – O banco de questões do sistema deve conter questões de outras origens.
+
+<div align="center"><strong>Tabela 19: Caso de Uso UC17</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **UC17** | Importação de Questões de Outras Origens para o Banco de Questões |
+| **Descrição** | O sistema permite inserir questões provenientes de outras origens (arquivos, bancos externos ou APIs), incorporando-as ao banco de questões do sistema com metadados de origem. |
+| **Ator** | - Professor/Administrador<br>- Sistema do Banco de Questões<br>- Fonte externa (arquivo CSV/JSON, repositório, API) |
+| **Pré-condições** | 1. O usuário está logado e possui permissão para gerenciar o banco de questões.<br>2. A fonte externa está disponível (arquivo válido ou integração configurada). |
+| **Ação** | O usuário seleciona a origem, realiza o upload ou inicia a integração, mapeia campos obrigatórios e confirma a importação. O sistema valida e registra as novas questões. |
+| **Fluxo principal** | - O usuário acessa **Banco de Questões → Importar**.<br>- O usuário escolhe a origem (arquivo ou integração).<br>- O usuário envia o arquivo ou autentica na integração.<br>- O sistema valida o formato e os campos obrigatórios (enunciado, alternativas e gabarito).<br>- O usuário confirma a importação.<br>- O sistema salva as questões, registrando a origem e status.<br>- A interface confirma a importação concluída e lista as novas questões. |
+| **Fluxo alternativo** | - Questões duplicadas detectadas.<br>- O sistema pergunta se deseja ignorar, mesclar metadados ou criar nova versão; o usuário escolhe e o sistema aplica a regra.<br><br>- Campos opcionais ausentes.<br>- O sistema importa as questões e marca os campos ausentes como “não informado.” |
+| **Fluxo de exceção** | - Formato inválido, erro de leitura ou falha na integração.<br>- O sistema interrompe a importação e exibe um relatório de erros (linhas afetadas, causa e orientação de correção). |
+| **Pós-condições** | As questões externas são adicionadas ao banco com referência de origem e ficam disponíveis para uso nas avaliações. |
+| **Rastreabilidade** | RF30 |
+| **Data de criação** | 12/10/2025 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+## Gravação da validação do documento
+### Usuário entrevistado
+
+Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário
+<div align="center"><strong>Tabela 20: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| Nicollas Gabriel | 10/10/2025 | 15:00 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimarães</a></strong></div>
+
+Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/C0O24DxxID4](https://youtu.be/C0O24DxxID4)
+
+## Agradecimentos
+O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
+
 ## Referências
+Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
 
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 05/10/2025 | Criação do documento dos Cados de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Vilmar José](https://github.com/VilmarFagundes) |
-| 1.1    | 08/10/2025 | Criação das especificações de casos de uso 04, 05 e 06 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [João Felipe](https://github.com/MrBolt2005) |
-| 1.2    | 08/10/2025 | Criação das especificações de casos de uso 07, 08 e 09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |# Diagrama e Especificação de Casos de Uso
-| 1.3    | 08/10/2025 | Criação das especificações de casos de uso 01, 02 e 03 | [Felipe Guimaraes](https://github.com/felipegf1) |  [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.0    | 05/10/2025 | Criação do documento dos Casos de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1    | 08/10/2025 | Criação das especificações de casos de uso 04, 05 e 06 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [João Felipe](https://github.com/MrBolt2005) |
+| 1.2    | 08/10/2025 | Criação das especificações de casos de uso 07, 08 e 09 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [João Sapiência](https://github.com/JoaoSapiencia) |
+| 1.3    | 08/10/2025 | Criação das especificações de casos de uso 01, 02 e 03 | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.4    | 08/10/2025 | Criação das especificações de casos de uso 10 e 11 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.5    | 10/10/2025 | Criação das especificações de casos de uso 12, 13 e 14 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.6    | 10/10/2025 | Gravação da Validação | [Felipe Guimaraes](https://github.com/felipegf1) e [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.7    | 12/10/2025 | Atualização do documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 1.8    | 12/10/2025 | Atualização do documento | [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |

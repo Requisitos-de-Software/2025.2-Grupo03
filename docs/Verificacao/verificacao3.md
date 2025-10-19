@@ -5,6 +5,42 @@
 Essa etapa apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 3, tanto para o nosso grupo quanto ao grupo +1.  
 
 ## Casos de Uso
+<div align="center"><strong>Tabela 1: Lista de Verificação de Casos de Uso</strong></div>
+
+| ID | Item de Verificação | Autor |
+|----|--------------------|-------|
+| 1  | **O diagrama oferece uma visão geral (abstrata) do que o sistema faz?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 2  | **O sistema representa um site, software, um processo ou aplicativo?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 3  | **O sistema é representado por um retângulo?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 4  | **O sistema possui um nome?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 5  | **O nome do sistema está inserido no topo do retângulo?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 6  | **Os atores são representados pelo boneco palito?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 7  | **O ator é algo ou alguém que usa o sistema para atingir uma meta?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 8  | **Os atores são colocados fora dos limites do sistema (retângulo)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 9  | **Os atores são descritos em termos de classe/categoria (ex: "Cliente", "Banco")?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 10 | **Os atores não são descritos em nomes específicos (ex: "João", “Banco do Brasil")?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 11 | **Os atores primários (que iniciam a interação) estão posicionados à esquerda do sistema?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 12 | **Os atores secundários (que reagem à interação) estão posicionados à direita do sistema?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 13 | **Os casos de uso são representados por elipses (ovais)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 14 | **Os casos de uso (elipses) estão posicionados dentro do limite do sistema (retângulo)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 15 | **O nome de cada caso de uso começa com um verbo no infinitivo (para indicar uma ação)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 16 | **O caso de uso é suficientemente descritivo?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 17 | **Os casos de uso estão organizados em uma ordem lógica (se possível)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 18 | **O relacionamento de Associação (entre Ator e Caso de Uso) é desenhado com uma linha sólida?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 19 | **Cada ator interage com pelo menos um caso de uso?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 20 | **O relacionamento de Inclusão é desenhado com uma linha tracejada com seta?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 21 | **A seta do relacionamento de Inclusão aponta para o caso de uso incluído?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 22 | **O rótulo <<incluir>> foi inserido na linha tracejada de Inclusão?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 23 | **O relacionamento de Extensão é desenhado com uma linha tracejada com seta?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 24 | **A seta do relacionamento de Extensão aponta para o caso de uso base?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 25 | **O rótulo <<estender>> foi inserido na linha tracejada de Extensão?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 26 | **As setas do relacionamento de Extensão e do relacionamento de Inclusão apontam em direções opostas?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 27 | **O relacionamento de Generalização (Herança) é desenhado com uma seta vazia (triângulo) do caso de uso secundário para o primário?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificacaoCasosDeUso.pdf).
+
 
 ## Cenário
 <div align="center"><strong>Tabela 2: Lista de Verificação de Cenário</strong></div>
@@ -101,9 +137,38 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
-Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/LVEspSuplProj1.pdf).
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/LVEspSuplProj01.pdf).
 
 ## Léxico
+
+<div align="center"><strong>Tabela 4: Lista de Verificação de léxico</strong></div>
+
+| ID  | Item de Verificação | Autor |
+|-----|---------------------|-------|
+| 1   | Cada símbolo descrito está associado a ao menos uma noção?                          | Arthur Guilherme |
+| 2   | A noção do símbolo descreve o significado dele?                                     | Arthur Guilherme |
+| 3   | Cada símbolo descrito está associado a ao menos um impacto?                         | Arthur Guilherme |
+| 4   | O impacto do símbolo descreve o efeito/uso/ocorrência do símbolo na aplicação?      | Arthur Guilherme |
+| 5   | Cada símbolo pertence a somente um tipo (VERBO, OBJETO, ESTADO)?                    | Arthur Guilherme |
+| 6   | A noção dos símbolos do tipo verbo é sobre quem realiza, quando acontece e procedimentos? | Arthur Guilherme |
+| 7   | A noção dos símbolos do tipo estado é sobre o que significa e quais ações levaram a esse estado? | Arthur Guilherme |
+| 8   | O impacto dos símbolos do tipo objeto é sobre as ações que podem ser aplicadas ao objeto? | Arthur Guilherme |
+| 9   | O impacto dos símbolos do tipo estado é sobre identificar outros estados e ações que podem ocorrer a partir do estado que se descreve? | Arthur Guilherme |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/ListaVerificacaoLexico.pdf).
+
+## Referências
+
+BRASIL. Ministério da Ciência, Tecnologia e Inovações. Especificação Suplementar. Disponível em: [Especificação de Caso de Uso](../arquivos/SiglaProjeto_EspecificacaoCasoUso.pdf). Acesso em: 10 outubro 2025.
+
+Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. Disponível em: [https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE](https://youtu.be/ab6eDdwS3rA?si=geKJuyxRkgBXmeJE). Acesso em: 10 outubro 2025.
+
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: [Requisitos_Aula 10](../arquivos/Cenarios_Aula10.pdf). Acesso em: 10 outubro 2025.
+
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 13. Disponível em: [Requisitos_Aula 13](../arquivos/Suplementar_Aula13.pdf). Acesso em: 10 outubro 2025.
+
 
 ## Histórico de versão
 
@@ -112,3 +177,5 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 | 1.0    | 05/10/2025 | Criação do documento das Listas de Verificação da Entrega 3 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.1    | 09/10/2025 | Adição da Lista de Verificação de Cenário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.2    | 09/10/2025 | Adição da Lista de Verificação de Especificação Suplementar | [Vilmar Fagundes](https://github.com/VilmarFagundes) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 1.3    | 09/10/2025 | Adição da Lista de Verificação de Casos de Uso | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Vilmar Fagundes](https://github.com/VilmarFagundes) |
+| 1.4    | 12/10/2025 | Adição da Lista de Verificação de Léxico | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  [Vilmar Fagundes](https://github.com/VilmarFagundes) |
