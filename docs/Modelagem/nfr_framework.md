@@ -140,6 +140,14 @@ A **Figura 5** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
     </strong>
 </div>
 
+### Avaliação dos softgoals de usabilidade:
+
+- [RNF01 (Adaptação de Perfil)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Satisfeito (✓)** – A interface adapta-se automaticamente ao perfil do usuário (aluno, monitor, professor etc.), oferecendo conteúdo e funcionalidades condizentes com cada papel.  
+- [RNF02 (Acessibilidade Remota)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Satisfeito (✓)** – O sistema é acessível pela internet, permitindo uso tanto presencial quanto a distância, sem restrições significativas.  
+- [RNF11 (Compatibilidade com Dispositivos Móveis)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Negado (X)** – O sistema não possui versão mobile nem apresenta responsividade adequada, impossibilitando o uso em diferentes tamanhos e orientações de tela.
+- [RNF12 (Acessibilidade)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Negado (X)** – O sistema não segue integralmente os padrões de acessibilidade, pois não oferece recursos adequados para usuários com deficiência visual, como suporte a leitores de tela, design claro com bom contraste e opção para daltonismo.
+
+
 ### NFR 02 - Confiabilidade
 
 ### NFR 03 - Suportabilidade
