@@ -12,7 +12,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) |   |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | auxílio na criação do [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |   |
 | [Felipe Guimaraes](https://github.com/felipegf1) |   |
 | [João Felipe](https://github.com/MrBolt2005) |   |
@@ -169,6 +169,41 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 ---
 
+<div align="center"><strong>Tabela 5: Cartão de Especificação 3</strong></div>
+
+| **Índice e Título do Requisito** |
+|---------------------------|
+| **RNF08 – Armazenamento seguro e criptografado** |
+**Classificação:** Confiabilidade |
+**Descrição:** O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada.  |
+**Justificativa:** Protege informações sensíveis dos usuários contra acessos indevidos, vazamentos e ataques cibernéticos, promovendo confiança no uso da plataforma.  |
+**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) .  |
+**Critério de Aceitação:** Os dados devem ser armazenados com criptografia AES-128 e acesso restrito mediante autenticação segura.  |
+**Dependências:** Implementação de módulo de segurança, autenticação de usuários e infraestrutura de banco de dados compatível. | 
+**Prioridade:** Alta  |
+**Conflitos:** Pode impactar o tempo de resposta exigido por [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) e [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais).|
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+| **Índice e Título do Requisito** |
+|---------------------------|
+| **RNF14 – Escalabilidade** |
+**Classificação:** Suportabilidade  |
+**Descrição:** O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho.  |
+**Justificativa:** Garante que o sistema continue funcional e eficiente mesmo com o crescimento da base de usuários e funcionalidades, evitando gargalos.  |
+**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais).  |
+**Critério de Aceitação:** O sistema deve suportar ao menos 5.000 usuários simultâneos com tempo de resposta inferior a 2 segundos.  |
+**Dependências:** Arquitetura escalável (ex.: microserviços), infraestrutura em nuvem e balanceamento de carga.  |
+**Prioridade:** Alta  |
+**Conflitos:** Pode entrar em conflito com [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais).|
+
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
 ## Gráfico de Interdependência de Softgoals (SIG)
 A Figura 4 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
 Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cada requisito contribui para atingir os objetivos gerais do sistema.
@@ -217,6 +252,38 @@ A **Figura 5** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 
 ### NFR 03 - Suportabilidade
 
+Os requisitos utilizados para o **NFR 03 (Suportabilidade)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:  
+
+- [RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): Deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA).
+- [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS).
+- [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): Projeto multidisciplinar envolvendo Educação, Psicologia e Informática.
+- [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho.
+
+A **Figura 7** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** referente ao NFR 03, destacando as relações de contribuição entre os requisitos de Usabilidade. 
+
+<div align="center"><strong>Figura 7: Gráfico de Interdependência de Softgoals (SIG) - Suportabilidade</strong></div>
+
+![Figura 7: Gráfico de Interdependência de Softgoals (SIG) - Suportabilidade](../imagens/NFR/suportabilidade.png)
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>,
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>,
+        <a href="https://github.com/MrBolt2005">João Felipe</a>,
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a> e
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> 
+    </strong>
+</div>
+
+**Avaliação dos softgoals de usabilidade:**
+
+- [RNF04 (Extensão de STI para ITA)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – O sistema se baseia na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA), promovendo suporte personalizado ao aprendizado.
+- [RNF05 (Tecnologia alinhada à TAS)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – Emprega recursos tecnológicos que favorecem a Teoria da Aprendizagem Significativa (TAS), como contextualização, interação e construção ativa do conhecimento.
+- [RNF06 (Projeto Multidisciplinar)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – multidisciplinar, envolvendo as áreas de Educação, Psicologia e Informática, o que implica em flexibilidade de manutenção e evolução do sistema para atender diferentes perspectivas e áreas de conhecimento.
+- [RNF14 (Escalabilidade)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Indeterminado (u)** – O sistema permite escalabilidade, atendendo a um número crescente de alunos e módulos sem comprometer o desempenho.
+
+
 ### NFR 04 - Performance
 
 ## Gravação da validação do documento
@@ -232,5 +299,6 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
 | 1.0    | 16/10/2025 | Criação do documento de NFR           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.1    | 18/10/2025 | Auxílio na criação do NFR 01 - Usabilidade           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.2    | 20/10/2025 | Auxílio na criação do NFR 03- suportabilidade          | [Arthur Guilherme](https://github.com/ArthurGuilher62)       | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 
 
