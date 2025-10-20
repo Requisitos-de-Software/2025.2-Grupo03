@@ -15,7 +15,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 | [João Felipe](https://github.com/MrBolt2005) | Criação das histórias de usuário [US14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us14-selecao-de-disciplinas-mais-faceis), [US24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno), [US30](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos), [US37](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy), [US42](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis) e [US47](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria). |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Histórias de Usuário e criação das histórias de usuário [US06 - Combinar Resultados Formais com Inferências Fuzzy](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy), [US15 - Enviar Notificações para Revisão de Conteúdos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos), [US18 - Definir Forma Preferida de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao), [US19 - Enviar Notificação sobre Prazo de Entrega de Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade), [US21 - Exibir Dados e Informações Analíticas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas) e [US22 - Gerar Análises em Tempo Real com Gráficos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos) |
-| [Vilmar José](https://github.com/VilmarFagundes) |   |
+| [Vilmar José](https://github.com/VilmarFagundes) | Criação das histórias de usuário [US01]() |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -42,6 +42,40 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 
 ## Histórias de Usuário
+
+## [US01](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us01-identificacao-e-autenticacao-de-usuarios) - Identificação e Autenticação de Usuários
+
+<div align="center"><strong>Tabela 3: US01</strong\></div\>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US01 |
+| **Título** | Identificação e Autenticação de Usuários |
+| **História** | Como um usuário (aluno, monitor, professor, coordenador, diretor ou administrador),<br>eu quero me identificar e autenticar no sistema,<br>para que eu possa acessar as funcionalidades e informações específicas do meu perfil. |
+| **Critérios de Aceitação** | - **Dado que** o usuário acessa a tela de login do sistema,<br>- **Quando** ele insere suas credenciais válidas (ex: usuário e senha),<br>- **Então** o sistema deve identificá-lo e carregar a interface correspondente ao seu papel (aluno, monitor, professor, etc.).<br><br>- **Dado que** o usuário está logado,<br>- **Quando** ele tenta acessar uma funcionalidade restrita a outro perfil,<br>- **Então** o sistema deve negar o acesso. |
+| **Rastreabilidade** | [RF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP01](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios) – Gerenciar Perfis de Usuários |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
+## [US02](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us02-visualizar-e-gerenciar-perfil-individual) - Visualizar e Gerenciar Perfil Individual
+
+<div align="center"><strong>Tabela 4: US02</strong\></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US02 |
+| **Título** | Visualizar e Gerenciar Perfil Individual |
+| **História** | Como um usuário do sistema,<br>eu quero ter um perfil individual onde possa visualizar e gerenciar minhas informações pessoais e preferências,<br>para que minha experiência no sistema seja personalizada e meus dados estejam sempre atualizados. |
+| **Critérios de Aceitação** | - **Dado que** o usuário está logado no sistema,<br>- **Quando** ele acessa a seção "Meu Perfil",<br>- **Então** ele deve visualizar suas informações cadastrais (nome, e-mail, papel no sistema, etc.).<br><br>- **Dado que** o usuário está na sua página de perfil,<br>- **Quando** ele clica em "Editar Informações",<br>- **Então** o sistema deve permitir a alteração de dados permitidos, como senha, foto de perfil ou preferências de notificação. |
+| **Rastreabilidade** | [RF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP01](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios) – Gerenciar Perfis de Usuários |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
 
 ## [US06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy) - Combinar Resultados Formais com Inferências Fuzzy 
 
@@ -128,6 +162,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US11](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us11-exibir-media-geral-da-turma) - Exibir Média Geral da Turma
+
+<div align="center"><strong\>Tabela 13: US11</strong\></div\>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US11 |
+| **Título** | Exibir Média Geral da Turma por Atividade |
+| **História** | Como um professor ou coordenador,<br>eu quero visualizar a média geral da turma em cada atividade,<br>para que eu possa avaliar o desempenho coletivo e identificar quais atividades apresentaram maior dificuldade para o grupo. |
+| **Critérios de Aceitação** | - **Dado que** o professor (ou coordenador) está na página de análise de desempenho da turma,<br>- **Quando** ele visualiza a lista de atividades concluídas,<br>- **Então** o sistema deve exibir a média geral da turma (ex: nota ou porcentagem) para cada atividade. |
+| **Rastreabilidade** | [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP13](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores) – Gerar Análises em Tempo Real com Gráficos e Indicadores |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
 ## [US12](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade) - Exibir Média do Usuário Após Atividade
 
 <div align="center"><strong>Tabela 14: US12</strong></div>
@@ -142,6 +193,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Épico Relacionado** |[EP14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+---
+
+## [US13](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us13-configurar-alertas-de-atividades-atrasadas) - Configurar Alertas de Atividades Atrasadas
+
+<div align="center"><strong\>Tabela 15: US13</strong\></div\>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US13 |
+| **Título** | Configurar Tempo de Alerta para Atividades Atrasadas |
+| **História** | Como um usuário,<br>eu quero escolher o tempo em que desejo receber alertas sobre minhas atividades atrasadas,<br>para que eu possa gerenciar minhas pendências conforme minha preferência, sem receber notificações excessivas. |
+| **Critérios de Aceitação** | - **Dado que** o usuário acessa seu painel de "Configurações de Notificação",<br>- **Quando** ele seleciona a opção "Atividades Atrasadas",<br>- **Então** o sistema deve exibir opções de tempo (ex: "1 dia após o prazo", "A cada 3 dias", "Não notificar").<br><br>- **Dado que** o usuário salvou sua preferência de tempo,<br>- **Quando** uma atividade sua ficar atrasada pelo período configurado,<br>- **Então** o sistema deve enviar um alerta pelo canal preferido (definido na US18). |
+| **Rastreabilidade** | [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) – Configurar Preferências de Tempo e Forma de Notificação |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
@@ -280,6 +348,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US28](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us28-gerenciar-banco-de-questoes-do-professor) - Gerenciar Banco de Questões do Professor
+
+<div align="center"><strong\>Tabela 30: US28</strong\></div\>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US28 |
+| **Título** | Gerenciar Banco de Questões do Professor |
+| **História** | Como um professor,<br>eu quero cadastrar, organizar e gerenciar meu próprio banco de questões,<br>para que eu possa reutilizá-las facilmente na criação de diferentes atividades e avaliações. |
+| **Critérios de Aceitação** | - **Dado que** o professor acessa a área "Meu Banco de Questões",<br>- **Quando** ele clica em "Adicionar Nova Questão",<br>- **Então** o sistema deve permitir que ele insira o enunciado, as alternativas (se aplicável), a resposta correta e associe a um tópico/conteúdo.<br><br>- **Dado que** o professor está montando uma nova atividade,<br>- **Quando** ele seleciona a opção "Importar do Banco de Questões",<br>- **Então** o sistema deve permitir que ele filtre e selecione as questões que ele gerou anteriormente. |
+| **Rastreabilidade** | [RF28](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
 ## [US30](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos) – Direcionamento Sob Medida de Materiais aos Alunos
 
 <div align="center"><strong>Tabela 32: US30</strong></div>
@@ -311,6 +396,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Épico Relacionado** | [EP06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas) – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
+## [US38](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us38-visualizar-personagem-do-assistente-virtual) - Visualizar Personagem do Assistente Virtual
+
+<div align="center"><strong\>Tabela 40: US38</strong\></div\>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US38 |
+| **Título** | Visualizar o Personagem do Assistente Virtual |
+| **História** | Como um usuário do sistema,<br>eu quero que o assistente virtual seja visível na interface como um personagem interativo,<br>para que eu possa acessá-lo rapidamente e ter uma experiência de interação mais engajadora. |
+| **Critérios de Aceitação** | - **Dado que** o usuário está logado no sistema,<br>- **Quando** a interface principal é carregada,<br>- **Então** um personagem interativo (ou ícone) representando o assistente virtual deve estar visível em um local fixo da tela.<br><br>- **Dado que** o personagem está visível,<br>- **Quando** o usuário clica nele,<br>- **Então** a janela de chat do assistente virtual deve ser aberta para interação. |
+| **Rastreabilidade** | [RF38](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel) – Criar Personagem Interativo Customizável |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
