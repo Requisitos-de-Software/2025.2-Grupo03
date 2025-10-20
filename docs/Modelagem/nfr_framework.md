@@ -104,6 +104,71 @@ Esse processo continua de forma hierárquica até chegar aos *softgoals* de nív
 
 ## Metodologia
 
+Para a construção do NFR Framework, selecionamos todos os [requisitos não-funcionais](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) elicitados no projeto e os classificamos em temas como **usabilidade, confiabilidade, suportabilidade** e **performance**. 
+
+Cada requisito foi detalhado em um **cartão de especificação**, contendo o índice e o nome do requisito não-funcional, classifciação , descrição, justificativa, origem, critérios de aceitação, dependências, prioridade possíveis conflitos.  
+
+Em seguida, organizamos os requisitos em um **Gráfico de Interdependência de Softgoals (SIG)**, que representa visualmente as relações de contribuição entre os softgoals e o refinamento hierárquico entre eles. Para a construção do SIG, utilizamos como ferramenta o [Lucidchart](https://www.lucidchart.com/).  
+
+A avaliação dos softgoals foi realizada aplicando os **rótulos do NFR Framework**, propagando as decisões dos níveis mais baixos até o topo da hierarquia.
+
+
+### Cartões de Especificação
+
+Um cartão de especificação é uma forma de registrar de maneira estruturada os detalhes de um requisito de software, focando em fornecer uma visão clara, padronizada e completa de cada requisito. Nesse tópico, os cartões de especificação foram voltados para os requisitos não-funcionais e organizados conforme o padrão apresentado na Tabela 2:
+
+<div align="center"><strong>Tabela 2: Modelo Cartão de Especificação</strong></div>
+
+| Índice e Título do Requisito |
+|---------------------------|
+| **Classificação:** Em qual classe de requisito não-funcional se adequa |
+**Descrição:** Breve descrição do requisito |
+**Justificativa:** Explica por que o requisito é necessário e qual benefício traz ao sistema ou ao usuário |
+**Origem do Requisito:** De qual técnica(s) de elicitação ele se origina  |
+**Critério de Aceitação:** Como será verificado que o requisito foi atendido |
+**Dependências:** Requisitos, módulos ou condições que devem existir para que este requisito seja implementado |
+**Prioridade:** Indica a importância do requisito (ex.: alta, média, baixa) |
+**Conflitos:** Possíveis conflitos ou restrições com outros requisitos |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 3: Cartão de Especificação 1</strong></div>
+
+|  [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Adaptabilidade ao Perfil|
+|---------------------------|
+| **Classificação:** Usabilidade  |
+**Descrição:** A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.), exibindo apenas as funcionalidades e informações relevantes a cada papel.  |
+**Justificativa:** Personalizar a experiência do usuário, tornando a navegação mais intuitiva e reduzindo a complexidade de uso para diferentes perfis.  |
+**Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
+**Critério de Aceitação:** O sistema ajusta automaticamente o conteúdo e as permissões de acordo com o perfil do usuário no momento do login.  |
+**Dependências:** Cadastro e autenticação de perfis de usuário.  |
+**Prioridade:** Alta  |
+**Conflitos:** Nenhum  |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 4: Cartão de Especificação 2</strong></div>
+
+
+|  [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Recursos Alinhados à TAS|
+|---------------------------|
+| **Classificação:** Suportabilidade | 
+**Descrição:** O sistema deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
+**Justificativa:** Garantir que a plataforma ofereça suporte pedagógico adequado, reforçando a aprendizagem ativa e contextualizada de acordo com a Teoria da Aprendizagem Significativa.  |
+**Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais)   |
+**Critério de Aceitação:** O sistema incorpora mecanismos (como mapas conceituais, recomendações de conteúdo e feedback contextual) que relacionam novos conceitos aos conhecimentos prévios do usuário. | 
+**Dependências:** Modelagem dos conteúdos educacionais com base na TAS.  |
+**Prioridade:** Média  |
+**Conflitos:** Nenhum  |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
 ## Gráfico de Interdependência de Softgoals (SIG)
 A Figura 4 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
 Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cada requisito contribui para atingir os objetivos gerais do sistema.
@@ -140,12 +205,12 @@ A **Figura 5** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
     </strong>
 </div>
 
-### Avaliação dos softgoals de usabilidade:
+**Avaliação dos softgoals de usabilidade:**
 
-- [RNF01 (Adaptação de Perfil)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Satisfeito (✓)** – A interface adapta-se automaticamente ao perfil do usuário (aluno, monitor, professor etc.), oferecendo conteúdo e funcionalidades condizentes com cada papel.  
-- [RNF02 (Acessibilidade Remota)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Satisfeito (✓)** – O sistema é acessível pela internet, permitindo uso tanto presencial quanto a distância, sem restrições significativas.  
-- [RNF11 (Compatibilidade com Dispositivos Móveis)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Negado (X)** – O sistema não possui versão mobile nem apresenta responsividade adequada, impossibilitando o uso em diferentes tamanhos e orientações de tela.
-- [RNF12 (Acessibilidade)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais): **Negado (X)** – O sistema não segue integralmente os padrões de acessibilidade, pois não oferece recursos adequados para usuários com deficiência visual, como suporte a leitores de tela, design claro com bom contraste e opção para daltonismo.
+- [RNF01 (Adaptabilidade de Perfil)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – A interface adapta-se automaticamente ao perfil do usuário (aluno, monitor, professor etc.), oferecendo conteúdo e funcionalidades condizentes com cada papel.  
+- [RNF02 (Acessibilidade Remota)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – O sistema é acessível pela internet, permitindo uso tanto presencial quanto a distância, sem restrições significativas.  
+- [RNF11 (Compatibilidade com Dispositivos Móveis)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Negado (X)** – O sistema não possui versão mobile nem apresenta responsividade adequada, impossibilitando o uso em diferentes tamanhos e orientações de tela.
+- [RNF12 (Acessibilidade)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Negado (X)** – O sistema não segue integralmente os padrões de acessibilidade, pois não oferece recursos adequados para usuários com deficiência visual, como suporte a leitores de tela, design claro com bom contraste e opção para daltonismo.
 
 
 ### NFR 02 - Confiabilidade
