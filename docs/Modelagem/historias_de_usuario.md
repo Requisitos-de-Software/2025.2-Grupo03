@@ -45,7 +45,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ## [US01](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us01-identificacao-e-autenticacao-de-usuarios) - Identificação e Autenticação de Usuários
 
-<div align="center"><strong>Tabela 3: US01</strong\></div\>
+<div align="center"><strong>Tabela 3: US01</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -62,7 +62,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ## [US02](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us02-visualizar-e-gerenciar-perfil-individual) - Visualizar e Gerenciar Perfil Individual
 
-<div align="center"><strong>Tabela 4: US02</strong\></div>
+<div align="center"><strong>Tabela 4: US02</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -164,7 +164,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ## [US11](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us11-exibir-media-geral-da-turma) - Exibir Média Geral da Turma
 
-<div align="center"><strong\>Tabela 13: US11</strong\></div\>
+<div align="center"><strong>Tabela 13: US11</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -198,7 +198,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ## [US13](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us13-configurar-alertas-de-atividades-atrasadas) - Configurar Alertas de Atividades Atrasadas
 
-<div align="center"><strong\>Tabela 15: US13</strong\></div\>
+<div align="center"><strong>Tabela 15: US13</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -350,7 +350,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ## [US28](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us28-gerenciar-banco-de-questoes-do-professor) - Gerenciar Banco de Questões do Professor
 
-<div align="center"><strong\>Tabela 30: US28</strong\></div\>
+<div align="center"><strong>Tabela 30: US28</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
@@ -401,7 +401,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ## [US38](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us38-visualizar-personagem-do-assistente-virtual) - Visualizar Personagem do Assistente Virtual
 
-<div align="center"><strong\>Tabela 40: US38</strong\></div\>
+<div align="center"><strong>Tabela 40: US38</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
