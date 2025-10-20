@@ -72,4 +72,4 @@ aqui documentação do SAE
 | Versão | Data | Descrição | Autor(a) |
 |--------|------|----------|----------|
 | 1.0    | 06/09/2025 | Atualização do readme | [João Sapiência](https://github.com/JoaoSapiencia)|
-| 1.1    | 19/10/2025 | Correção ortográfica (no/do README) | [João Sapiência](https://github.com/JoaoSapiencia)|
+| 1.1    | 19/10/2025 | Correção ortográfica (no/do README) | [João Felipe](https://github.com/MrBolt2005)|
