@@ -17,7 +17,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [Felipe Guimaraes](https://github.com/felipegf1) |   |
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação da documentação e auxílio na criação do NFR 01 - Usabilidade |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação da documentação e auxílio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) |
 | [Vilmar José](https://github.com/VilmarFagundes) |   |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -48,12 +48,18 @@ Os softgoals no NFR Framework são divididos em três tipos principais:
 Os refinamentos mostram uma relação de **dependência hierárquica**, que acontece de cima para baixo. Nela, um **softgoal principal (pai)** dá origem a outros **softgoals mais específicos (filhos)**, que se relacionam diretamente com ele.  
 
 O objetivo dos refinamentos é **detalhar e especializar os softgoals**, tornando-os mais claros e aplicáveis ao projeto.  
-Os principais tipos de refinamento no **NFR Framework** são:
+Os principais tipos de refinamento no **NFR Framework** podem ser observados na Figura 2 e são:
 
 - **Decomposição de Softgoal NFR:** Divide um *softgoal* NFR em outros mais específicos, ajudando a esclarecer e priorizar requisitos complexos.  
 - **Decomposição de Operacionalização:** Subdivide um *softgoal* de operacionalização em outros *softgoals* de operacionalização mais específicos. Transforma uma solução geral em soluções mais detalhadas e práticas.  
 - **Decomposição de Afirmação (Claims):** Refina um *softgoal* de afirmação em outros *softgoals* do mesmo tipo . Serve para apoiar ou questionar justificativas de projeto.  
 - **Priorização:** Refina um *softgoal* em outro do mesmo tipo, mas com diferentes níveis de importância.  
+
+<div align="center"><strong>Figura 2: Refinamentos no NFR Framework</strong></div>
+
+![Figura 2: Refinamentos no NFR Framework](../imagens/NFR/refinamentos_NFR.png)
+
+<div align="center"><strong>Fonte: CHUNG et al., 2000</strong></div>
 
 
 ## Contribuições no NFR Framework
@@ -75,7 +81,7 @@ A seguir, são apresentados os principais tipos de contribuição definidos por 
 
 ## Procedimento de Avaliação no NFR Framework
 
-O **procedimento de avaliação** define o grau em que os requisitos não funcionais são atendidos por um conjunto de decisões do projeto. Ele verifica se cada *softgoal* ou interdependência do SIG foi suficientemente satisfeito.  Para isso, são atribuídos **rótulos** aos *softgoals*, indicando seu nível de satisfação, que podem ser observados na Imagem.  
+O **procedimento de avaliação** define o grau em que os requisitos não funcionais são atendidos por um conjunto de decisões do projeto. Ele verifica se cada *softgoal* ou interdependência do SIG foi suficientemente satisfeito.  Para isso, são atribuídos **rótulos** aos *softgoals*, indicando seu nível de satisfação, que podem ser observados na Figura 3.  
 
 - **(✓) Satisfeito**
 - **(𝒲+) Fracamente Satisfeito**
@@ -84,9 +90,9 @@ O **procedimento de avaliação** define o grau em que os requisitos não funcio
 - **(🗲) Conflitante**
 - **(u) Indeterminado**
 
-<div align="center"><strong>Figura 2: Avaliação no NFR Framework</strong></div>
+<div align="center"><strong>Figura 3: Avaliação no NFR Framework</strong></div>
 
-![Figura 2: Avaliação no NFR Framework](../imagens/NFR/avaliacao_NFR.jpeg)
+![Figura 3: Avaliação no NFR Framework](../imagens/NFR/avaliacao_NFR.jpeg)
 
 <div align="center"><strong>Fonte: CHUNG et al., 2000</strong></div>
 
@@ -99,12 +105,12 @@ Esse processo continua de forma hierárquica até chegar aos *softgoals* de nív
 ## Metodologia
 
 ## Gráfico de Interdependência de Softgoals (SIG)
-A Figura 3 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
+A Figura 4 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
 Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cada requisito contribui para atingir os objetivos gerais do sistema.
 
-<div align="center"><strong>Figura 3: Gráfico de Interdependência de Softgoals (SIG) - Requisitos Não-Funcionais</strong></div>
+<div align="center"><strong>Figura 4: Gráfico de Interdependência de Softgoals (SIG) - Requisitos Não-Funcionais</strong></div>
 
-![Figura 3: Gráfico de Interdependência de Softgoals (SIG) - Requisitos Não-Funcionais](../imagens/NFR/RNF.jpeg)
+![Figura 4: Gráfico de Interdependência de Softgoals (SIG) - Requisitos Não-Funcionais](../imagens/NFR/RNF.jpeg)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -117,12 +123,12 @@ Os requisitos utilizados para o **NFR 01 (Usabilidade)** estão apresentados na 
 - [RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) O sistema deve ser totalmente compatível com dispositivos móveis, garantindo responsividade e adaptação automática a diferentes tamanhos e orientações de tela (smartphones, tablets e notebooks).  
 - [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) O sistema deve seguir padrões de acessibilidade para garantir a usabilidade a todos os usuários, incluindo pessoas com deficiência.  
 
-A **Figura 4** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** referente ao NFR 01, destacando as relações de contribuição entre os requisitos de Usabilidade.  
+A **Figura 5** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** referente ao NFR 01, destacando as relações de contribuição entre os requisitos de Usabilidade.  
 
 
-<div align="center"><strong>Figura 4: Gráfico de Interdependência de Softgoals (SIG) - Usabilidade</strong></div>
+<div align="center"><strong>Figura 5: Gráfico de Interdependência de Softgoals (SIG) - Usabilidade</strong></div>
 
-![Figura 4: Gráfico de Interdependência de Softgoals (SIG) - Usabilidade](../imagens/NFR/Usabilidade.jpeg)
+![Figura 5: Gráfico de Interdependência de Softgoals (SIG) - Usabilidade](../imagens/NFR/Usabilidade.jpeg)
 
 <div align="center">
     <strong>

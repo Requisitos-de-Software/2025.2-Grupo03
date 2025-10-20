@@ -55,6 +55,7 @@ Nesta etapa, também foi realizada uma entrevista com um usuário para classific
 Funcionalidades relacionadas ao **cadastro, autenticação e gerenciamento de perfis** de alunos, professores, monitores, coordenadores e administradores. Permite personalizar a experiência do usuário e controlar o acesso às funcionalidades conforme o papel.
 
 **Épicos relacionados:**
+
 - [EP01 – Gerenciar Perfis de Usuários](#ep01-gerenciar-perfis-de-usuarios)
 
 ### [TM02](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm02-conteudo-e-aprendizagem-significativa). Conteúdo e Aprendizagem Significativa
