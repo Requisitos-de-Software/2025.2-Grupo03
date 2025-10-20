@@ -12,7 +12,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação das historias de usuario [US43 – Facilitar Interação entre Monitores, Professores e Alunos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos), [US44 – Chat Síncrono para Interação a Distância](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia), [US46 – Exibir Progresso do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno), [US49 – Análise Cognitiva e Apoio à Aprendizagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem), [US50 – Identificar Conhecimento do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno) e [US51 – Identificar Comportamento Adequado do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |   |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Criação das historias de usuario [US07 Visualizar Progresso do Aluno na Disciplina](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina), [US08 - Exibir Progresso da Disciplina em Porcentagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem), [US09 - Visualizar Porcentagem de Acertos por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo), [US10 - Visualizar Porcentagem de Erros por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo), [US12 - Exibir Média do Usuário Após Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade), [US17 - Assistir a uma Videoaula do Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo) |
-| [João Felipe](https://github.com/MrBolt2005) |   |
+| [João Felipe](https://github.com/MrBolt2005) | Criação das histórias de usuário [US14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us14-selecao-de-disciplinas-mais-faceis), [US24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno), [US30](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos), [US37](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy), [US42](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis) e [US47](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria). |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Histórias de Usuário e criação das histórias de usuário [US06 - Combinar Resultados Formais com Inferências Fuzzy](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy), [US15 - Enviar Notificações para Revisão de Conteúdos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos), [US18 - Definir Forma Preferida de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao), [US19 - Enviar Notificação sobre Prazo de Entrega de Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade), [US21 - Exibir Dados e Informações Analíticas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas) e [US22 - Gerar Análises em Tempo Real com Gráficos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos) |
 | [Vilmar José](https://github.com/VilmarFagundes) |   |
@@ -145,6 +145,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us14-selecao-de-disciplinas-mais-faceis) - Seleção de Disciplinas Mais Fáceis
+
+<div align="center"><strong>Tabela 26: US14</strong></div>
+
+| Campo | Descrição |
+|-------|-----------|
+| **ID** | US14 |
+| **Título** | Seleção de Disciplinas Mais Fáceis |
+| **História** | **Como** um aluno no sistema educacional, **quero** selecionar as disciplinas matriculadas onde me sinto mais confortável e com maior facilidade, **para** o melhor ajuste das minhas sugestões e análises de desempenho. |
+| **Critérios de Aceitação** | - **Dado** que o aluno acesse o seu painel de preferências,<br>- **Quando** ele selecionar, revisar ou alterar as disciplinas ou (os) tópicos em que sentir maior facilidade,<br>- **Então** o sistema salva essas preferências e as utiliza para ajustar relatórios, notificações e recomendações futuras. |
+| **Rastreabilidade** | [RF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP17](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep17-personalizar-sugestoes-e-analises-com-base-em-disciplinas-facilitadas) – Personalizar Sugestões e Análises com Base em Disciplinas Facilitadas |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
 ## [US15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos) - Enviar Notificações para Revisão de Conteúdos  
 
 <div align="center"><strong>Tabela 17: US15</strong></div>
@@ -246,6 +263,74 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno) – Cálculo do Desempenho do Aluno
+
+<div align="center"><strong>Tabela 26: US24</strong></div>
+
+| Campo                | Descrição |
+|----------------------|-----------|
+| **ID**              | US24 |
+| **Título**          | Cálculo do Desempenho do Aluno |
+| **História**        | **Como** um usuário do sistema educacional, **quero** visualizar tanto o quão bem minha turma no geral ou alunos individuais – eu mesmo, se for um aluno, ou qualquer aluno, se eu for o professor –, está se saindo numa disciplina, como também como se chegou a esse resultado, **para** saber mais especificamente os pontos fortes e fracos em particular no exercício na disciplina, e quais deles estão sendo mais influentes no próprio desempenho geral finalmente obtido. |
+| **Critérios de Aceitação** | - **Dado** que o usuário acesse a página de uma turma em que esteja matriculado ou lecione, <br>- **Quando** abrir as informações de desempenho individual e geral dessa turma, <br>- **Então** deve visualizar esses desempenhos, mais as suas métricas de computação e os métodos usados para os próprios cálculos. <br><br>- **Dado** que o usuário tenha configurado para ser notificado sobre tal, <br>- **Quando** houver atualizações significantes sobre métricas de computação de desempenho que ele for escolher, <br>- **Então** deverá ser notificado sobre isto pelo sistema nos canais desejados. |
+| **Rastreabilidade** | [RF24](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | |
+| **Épico Relacionado** | [EP15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-calcular-desempenho-do-aluno-com-base-em-metricas-definidas) – Calcular Desempenho do Aluno com Base em Métricas Definidas |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
+## [US30](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos) – Direcionamento Sob Medida de Materiais aos Alunos
+
+<div align="center"><strong>Tabela 32: US30</strong></div>
+
+| Campo                | Descrição |
+|----------------------|-----------|
+| **ID**              | US30 |
+| **Título**          | Direcionamento Sob Medida de Materiais aos Alunos |
+| **História**        | **Como** um docente no sistema educacional, **quero** que o sistema direcione cada aluno a materiais adequados à sua situação cognitiva e às suas preferências **para** que eles foquem melhor seus esforços e pedidos de ajuda quando for mais necessário. |
+| **Critérios de Aceitação** | - **Dado** que o professor tenha cadastrado materiais de estudo no sistema, <br>- **Quando** o sistema analisar o desempenho e preferências dos alunos periodicamente, <br>- **Então** ele deve sugerir materiais específicos para cada aluno conforme suas necessidades. <br><br>- **Dado** que o docente tenha acesso ao painel de gerenciamento de materiais, <br>- **Quando** ele configurar os parâmetros para direcionamento de materiais (ex: tipo de material, nível de dificuldade, formato preferencial) por aluno ou grupo de alunos, <br>- **Então** o sistema deve aplicar essas configurações para selecionar e apresentar os materiais mais relevantes. <br><br>- **Dado** que um aluno acesse a área de materiais de estudo, <br>- **Quando** o sistema exibir os materiais direcionados, <br>- **Então** esses materiais devem estar alinhados com suas características cognitivas e de desempenho (identificadas pelo sistema) e suas preferências (configuradas pelo aluno ou docente). |
+| **Rastreabilidade** | [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | |
+| **Épico Relacionado** | [EP21](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep21-direcionar-materiais-de-estudo-com-base-em-desempenho-e-preferencias) – Direcionar Materiais de Estudo com Base em Desempenho e Preferências |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
+## [US37](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy) – Inferências com Lógica *Fuzzy*
+
+<div align="center"><strong>Tabela 39: US37</strong></div>
+
+| Campo                | Descrição |
+|----------------------|-----------|
+| **ID**              | US37 |
+| **Título**          | Inferências com Lógica *Fuzzy* |
+| **História**        | **Como** um usuário do sistema educacional, **quero** que as inferências avaliadas nesse sistema envolvam a lógica *fuzzy*, isto é, com a possibilidade de níveis intermediários entre apenas “bom” e “fraco”, **para** aumentar/melhorar a sua granularidade, precisão e clareza perante a mim próprio. |
+| **Critérios de Aceitação** | - **Dado** que o sistema esteja avaliando o desempenho do usuário, <br>- **Quando** qualquer métrica de desempenho, seja ela geral ou específica de um conteúdo, for calculada ou atualizada, <br>- **Então** o sistema deve aplicar lógica fuzzy para determinar os níveis de desempenho (ex.: "fraco", “razoável”, "regular", "bom", "muito bom" etc.) em vez de uma simples dicotomia binária. |
+| **Rastreabilidade** | [RF37](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | |
+| **Épico Relacionado** | [EP06](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas) – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
+## [US42](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis) – Notificação de Conteúdos Mais Difíceis
+
+<div align="center"><strong>Tabela 44: US42</strong></div>
+
+| Campo                | Descrição |
+|----------------------|-----------|
+| **ID**              | US42 |
+| **Título**          | Notificação de Conteúdos Mais Difíceis |
+| **História**        | **Como** um aluno no sistema educacional, **quero** saber em que conteúdo(s) eu ando tendo mais dificuldade de assimilamento e desempenho acadêmico(s), **para** focar melhor meus esforços de melhoria e minhas requisições de ajuda para tal onde for mais necessário num dado momento. |
+| **Critérios de Aceitação** | - **Dado** que o aluno tenha desempenho significativamente abaixo da média pessoal em quaisquer conteúdos, <br>- **Quando** o sistema de análise de desempenho estiver analisando periodicamente as métricas de desempenho do aluno em suas disciplinas e o assistente virtual receber desse sistema que se encontrou esse tipo de valores de desempenho, <br>- **Então** o aluno deverá ser notificado sobre isto conforme as suas configurações de canais, frequência, tipo(s) de notificação etc. |
+| **Rastreabilidade** | [RF42](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | |
+| **Épico Relacionado** | [EP27](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-notificar-aluno-sobre-dificuldades-em-conteudos) – Notificar Aluno sobre Dificuldades em Conteúdos |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
 ## US43 – Facilitar Interação entre Monitores, Professores e Alunos
 
 <div align="center"><strong>Tabela 45: US43</strong></div>
@@ -294,6 +379,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Épico Relacionado** | [EP11](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario) – Acompanhar Interações e Progresso do Usuário |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+## [US47](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria) – Informações sobre Horários e Locais de Monitoria
+
+<div align="center"><strong>Tabela 49: US47</strong></div>
+
+| Campo                | Descrição |
+|----------------------|-----------|
+| **ID**              | US47 |
+| **Título**          | Informações sobre Horários e Locais de Monitoria |
+| **História**        | **Como** um aluno no sistema educacional, **quero** ser informado sobre os horários e locais de monitoria **para** organizar minha agenda, meus estudos e seu planejamento (no) geral. |
+| **Critérios de Aceitação** | - **Dado** que o aluno acesse a plataforma e navegue para a seção de Monitorias Disponíveis,<br>- **Quando** ele visualizar a lista de monitorias,<br>- **Então** deverá ver claramente o nome da disciplina, o monitor responsável, os horários disponíveis e os locais (online ou presencial) de cada monitoria.<br><br>- **Dado** que o aluno tenha acesso à sua agenda pessoal dentro do sistema, <br>- **Quando** ele selecionar uma monitoria (que tenha/venha a ter participação/presença marcável, a exemplo de uma tutoria valendo bonificação na nota do aluno em alguma disciplina com a presença confirmada) e confirmar sua participação, <br>- **Então** o sistema deverá adicionar automaticamente essa monitoria à sua agenda e, opcionalmente – conforme (as) configurações do próprio usuário –, enviar um lembrete antes do horário agendado.
+| **Rastreabilidade** | [RF47](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | |
+| **Épico Relacionado** | [EP26](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) – Facilitar Comunicação via Chat e Monitoria |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 
 ---
 
@@ -351,7 +453,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 ## Gravação da validação do documento
 
 ## Agradecimentos
-O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
+O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
 
 ## Referências
 
@@ -362,3 +464,5 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.0    | 16/10/2025 | Criação do documento de Histórias de Usuário  | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.1    | 16/10/2025 | Criação das historias de usuario 7, 8, 9, 10, 12 e 17 | [Felipe Guimaraes](https://github.com/felipegf1)| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.2    | 18/10/2025 | Criação das historias de usuario 43, 44, 46, 49, 50 e 51 | [Arthur Guilherme](https://github.com/ArthurGuilher62)| [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.3    | 19/10/2025 | Correção dos hiperlinks das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões | [João Victor Pires](https://github.com/joaovpires) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.3    | 19/10/2025 | Correção por adição de *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos | [João Felipe](https://github.com/MrBolt2005) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) <rb> [Vilmar José](https://github.com/VilmarFagundes) |
