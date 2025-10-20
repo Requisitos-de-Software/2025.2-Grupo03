@@ -84,8 +84,9 @@ O **procedimento de avaliação** define o grau em que os requisitos não funcio
 - **(🗲) Conflitante**
 - **(u) Indeterminado**
 
-<div align="center"><strong>Figura 2: Procedimento de Avaliação no NFR Framework</strong></div>
+<div align="center"><strong>Figura 2: Avaliação no NFR Framework</strong></div>
 
+![Figura 2: Avaliação no NFR Framework](../imagens/NFR/avaliacao_NFR.jpeg)
 
 <div align="center"><strong>Fonte: CHUNG et al., 2000</strong></div>
 
@@ -151,4 +152,6 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
 |--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
 | 1.0    | 16/10/2025 | Criação do documento de NFR           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1    | 18/10/2025 | Auxílio na criação do NFR 01 - Usabilidade           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
+
 

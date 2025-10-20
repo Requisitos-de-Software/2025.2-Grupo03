@@ -61,6 +61,7 @@ Funcionalidades relacionadas ao **cadastro, autenticação e gerenciamento de pe
 Funcionalidades voltadas à **organização, mapeamento e estruturação de conteúdos** seguindo a Teoria da Aprendizagem Significativa (TAS).
 
 **Épicos relacionados:**
+
 - [EP02 – Mapear e Estruturar Conteúdos segundo a TAS](#ep02-mapear-e-estruturar-conteudos-segundo-a-tas)
 - [EP03 – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos](#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos)
 
@@ -68,6 +69,7 @@ Funcionalidades voltadas à **organização, mapeamento e estruturação de cont
 Funcionalidades que permitem **planejar, aplicar e acompanhar avaliações**, integrando resultados formais com feedbacks para melhorar o desempenho pedagógico.
 
 **Épicos relacionados:**
+
 - [EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual](#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual)
 - [EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional](#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional)
 
@@ -75,6 +77,7 @@ Funcionalidades que permitem **planejar, aplicar e acompanhar avaliações**, in
 Funcionalidades que permitem **interação personalizada com o assistente virtual**, fornecendo recomendações, inferências e suporte adaptativo aos usuários, incluindo uso de lógica Fuzzy para decisões pedagógicas graduais.
 
 **Épicos relacionados:**
+
 - [EP06 – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas)
 - [EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos](#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos)
 - [EP11 – Acompanhar Interações e Progresso do Usuário](#ep11-acompanhar-interacoes-e-progresso-do-usuario)
@@ -83,6 +86,7 @@ Funcionalidades que permitem **interação personalizada com o assistente virtua
 Funcionalidades que geram **gráficos, indicadores e relatórios em tempo real**, permitindo professores e gestores acompanhar o desempenho dos alunos e tomar decisões pedagógicas fundamentadas.
 
 **Épicos relacionados:**
+
 - [EP13 – Gerar Análises em Tempo Real com Gráficos e Indicadores](#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores)
 - [EP14 – Exibir Médias e Porcentagens por Conteúdo e Usuário](#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario)
 - [EP15 – Identificar Conteúdos com Maior Índice de Erro](#ep15-identificar-conteudos-com-maior-indice-de-erro)
@@ -91,6 +95,7 @@ Funcionalidades que geram **gráficos, indicadores e relatórios em tempo real**
 Funcionalidades para monitorar **interações e progresso dos alunos**, identificando tópicos dominados, dificuldades e lacunas de aprendizagem, promovendo acompanhamento contínuo e personalizado.
 
 **Épicos relacionados:**
+
 - [EP16 – Exibir Progresso Completo e Percentual do Aluno](#ep16-exibir-progresso-completo-e-percentual-do-aluno)
 - [EP17 – Permitir Marcação de Tópicos de Facilidade](#ep17-permitir-marcacao-de-topicos-de-facilidade)
 
@@ -98,6 +103,7 @@ Funcionalidades para monitorar **interações e progresso dos alunos**, identifi
 Funcionalidades que enviam **alertas automáticos e notificações personalizadas**, lembrando sobre prazos, revisões e eventos relevantes.
 
 **Épicos relacionados:**
+
 - [EP18 – Configurar Preferências de Tempo e Forma de Notificação](#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao)
 - [EP19 – Enviar Alertas sobre Prazos e Revisões de Conteúdo](#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo)
 
@@ -105,6 +111,7 @@ Funcionalidades que enviam **alertas automáticos e notificações personalizada
 Funcionalidades que disponibilizam **materiais educacionais multimídia**, como textos, vídeos, imagens e exercícios interativos, favorecendo diferentes estilos de aprendizagem.
 
 **Épicos relacionados:**
+
 - [EP20 – Disponibilizar Vídeo Aulas como Recurso Complementar](#ep20-disponibilizar-video-aulas-como-recurso-complementar)
 - [EP21 – Gerar Questões Baseadas em Vídeo Aulas](#ep21-gerar-questoes-baseadas-em-video-aulas)
 
@@ -112,6 +119,7 @@ Funcionalidades que disponibilizam **materiais educacionais multimídia**, como 
 Funcionalidades para **criar, organizar e gerenciar questões e atividades**, permitindo reutilização, avaliação formativa e feedback automático.
 
 **Épicos relacionados:**
+
 - [EP22 – Criar e Organizar Questões Interativas](#ep22-criar-e-organizar-questoes-interativas)
 - [EP23 – Gerenciar Banco de Questões de Professores e Outras Fontes](#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes)
 
@@ -119,6 +127,7 @@ Funcionalidades para **criar, organizar e gerenciar questões e atividades**, pe
 Funcionalidades que permitem **integrar o sistema com outros softwares educacionais e AVAs**, centralizando informações acadêmicas e facilitando a interoperabilidade.
 
 **Épicos relacionados:**
+
 - [EP24 – Integrar com Outros Sistemas Educacionais](#ep24-integrar-com-outros-sistemas-educacionais)
 - [EP25 – Centralizar Informações Educacionais](#ep25-centralizar-informacoes-educacionais)
 
@@ -126,6 +135,7 @@ Funcionalidades que permitem **integrar o sistema com outros softwares educacion
 Funcionalidades para **interação e colaboração entre alunos, professores e monitores**, via chat, fórum e monitoria, promovendo engajamento e troca de conhecimento.
 
 **Épicos relacionados:**
+
 - [EP26 – Facilitar Comunicação via Chat e Monitoria](#ep26-facilitar-comunicacao-via-chat-e-monitoria)
 - [EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento](#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento)
 - [EP27 – Notificar Aluno sobre Dificuldades em Conteúdos](#ep27-notificar-aluno-sobre-dificuldades-em-conteudos)
@@ -179,6 +189,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Empregar lógica Fuzzy para apoiar decisões pedagógicas, considerando incertezas e avaliações graduais.  
 
 **Histórias relacionadas:**
+
 - [US06 – Combinar Resultados Formais com Inferências Fuzzy](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy)
 - [US37 – Inferências com Lógica Fuzzy](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy)
 
@@ -211,6 +222,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Analisar o desempenho cognitivo dos alunos e sugerir conteúdos adequados para superar lacunas de aprendizagem.  
 
 **Histórias relacionadas:**
+
 - [US49 – Análise Cognitiva e Apoio à Aprendizagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
@@ -221,6 +233,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Monitorar as interações do usuário com o sistema e acompanhar seu progresso de forma contínua.  
 
 **Histórias relacionadas:**
+
 - [US46 – Exibir Progresso do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
@@ -238,6 +251,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Produzir análises e gráficos de desempenho em tempo real, permitindo o acompanhamento dinâmico dos resultados. 
 
 **Histórias relacionadas:**
+
 - [US21 – Exibir Dados e Informações Analíticas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas)
 - [US22 – Gerar Análises em Tempo Real com Gráficos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos)
 
@@ -249,6 +263,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Exibir médias e porcentagens de desempenho organizadas por conteúdo, turma e usuário.  
 
 **Histórias relacionadas:**
+
 - [US09 – Visualizar Porcentagem de Acertos por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo)
 - [US10 – Visualizar Porcentagem de Erros por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo)
 - [US12 – Exibir Média do Usuário Após Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade)
@@ -268,6 +283,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Mostrar o progresso total e percentual do aluno em cada disciplina, auxiliando no acompanhamento de seu desenvolvimento.  
 
 **Histórias relacionadas:**
+
 - [US07 – Visualizar Progresso do Aluno na Disciplina](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina)
 - [US08 – Exibir Progresso da Disciplina em Porcentagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem)
 
@@ -279,14 +295,17 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Permitir que o aluno marque tópicos que considera fáceis ou dominados, para personalizar seu plano de estudo.  
 
 **Histórias relacionadas:**
+
 - [US14 – Seleção de Disciplinas Mais Fáceis](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us14-selecao-de-disciplinas-mais-faceis)
 
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 ---
 
 ### [EP18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) – Configurar Preferências de Tempo e Forma de Notificação
 **Descrição:** Permitir que o usuário defina o modo e o tempo em que deseja receber notificações do sistema.  
 
 **Histórias relacionadas:**
+
 - [US18 – Definir Forma Preferida de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -297,6 +316,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Enviar notificações automáticas lembrando o usuário sobre prazos, revisões e atividades pendentes.  
 
 **Histórias relacionadas:**
+
 - [US15 – Enviar Notificações para Revisão de Conteúdos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos)
 - [US19 – Enviar Notificação sobre Prazo de Entrega de Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade)
 
@@ -308,6 +328,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Oferecer vídeo aulas como recurso complementar aos materiais escritos e atividades práticas.  
 
 **Histórias relacionadas:**
+
 - [US17 – Assistir a uma Videoaula do Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
@@ -318,7 +339,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Criar automaticamente questões de reforço cognitivo com base no conteúdo de vídeo aulas.  
 
 **Histórias relacionadas:**
+
 - [US30 – Direcionamento Sob Medida de Materiais aos Alunos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 
 ---
 
@@ -326,7 +350,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Criar e organizar questões interativas voltadas à avaliação formativa e autoavaliação do aluno.  
 
 **Histórias relacionadas:**
+
 - [US24 – Cálculo do Desempenho do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 
 ---
 
@@ -355,11 +382,12 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Disponibilizar canais de comunicação síncronos e assíncronos (chat, fórum, monitoria) entre alunos e professores.  
 
 **Histórias relacionadas:**
+
 - [US43 – Facilitar Interação entre Monitores, Professores e Alunos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos)
 - [US44 – Chat Síncrono para Interação a Distância](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia)
 - [US47 – Informações sobre Horários e Locais de Monitoria](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria)
 
-<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a> e <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 
 ---
 
@@ -367,11 +395,13 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Fornecer ao professor dados sobre o domínio de conteúdo e o comportamento de aprendizagem dos alunos, auxiliando na personalização do ensino.  
 
 **Histórias relacionadas:**
+
+- [US42 – Notificação de Conteúdos Mais Difíceis](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis)
 - [US50 – Identificar Conhecimento do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno)
 - [US51 – Identificar Comportamento Adequado do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno)
-- [US42 – Notificação de Conteúdos Mais Difíceis](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis)
 
-<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a> e <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 
 ---
 
