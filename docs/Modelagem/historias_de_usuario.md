@@ -170,8 +170,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 |-------|------------|
 | **ID** | US11 |
 | **Título** | Exibir Média Geral da Turma por Atividade |
-| **História** | Como um professor ou coordenador,<br>eu quero visualizar a média geral da turma em cada atividade,<br>para que eu possa avaliar o desempenho coletivo e identificar quais atividades apresentaram maior dificuldade para o grupo. |
-| **Critérios de Aceitação** | - **Dado que** o professor (ou coordenador) está na página de análise de desempenho da turma,<br>- **Quando** ele visualiza a lista de atividades concluídas,<br>- **Então** o sistema deve exibir a média geral da turma (ex: nota ou porcentagem) para cada atividade. |
+| **História** | Como um usuário do sistema,<br>eu quero visualizar a média geral da turma em cada atividade,<br>para que eu possa avaliar o desempenho coletivo e identificar quais atividades apresentaram maior dificuldade para o grupo. |
+| **Critérios de Aceitação** | - **Dado que** o usuário está na página de atividades da turma,<br>- **Quando** ele visualiza a lista de atividades concluídas,<br>- **Então** o sistema deve exibir a média geral da turma (ex: nota ou porcentagem) para cada atividade. |
 | **Rastreabilidade** | [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | [EP13](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores) – Gerar Análises em Tempo Real com Gráficos e Indicadores |
 
@@ -408,7 +408,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **ID** | US38 |
 | **Título** | Visualizar o Personagem do Assistente Virtual |
 | **História** | Como um usuário do sistema,<br>eu quero que o assistente virtual seja visível na interface como um personagem interativo,<br>para que eu possa acessá-lo rapidamente e ter uma experiência de interação mais engajadora. |
-| **Critérios de Aceitação** | - **Dado que** o usuário está logado no sistema,<br>- **Quando** a interface principal é carregada,<br>- **Então** um personagem interativo (ou ícone) representando o assistente virtual deve estar visível em um local fixo da tela.<br><br>- **Dado que** o personagem está visível,<br>- **Quando** o usuário clica nele,<br>- **Então** a janela de chat do assistente virtual deve ser aberta para interação. |
+| **Critérios de Aceitação** | - **Dado que** o usuário está logado no sistema,<br>- **Quando** a interface principal é carregada,<br>- **Então** um personagem interativo representando o assistente virtual deve estar visível em um local fixo da tela.<br><br>- **Dado que** o personagem está visível,<br>- **Quando** o usuário clica nele,<br>- **Então** a janela de chat do assistente virtual deve ser aberta para interação. |
 | **Rastreabilidade** | [RF38](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | [EP09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel) – Criar Personagem Interativo Customizável |
 
