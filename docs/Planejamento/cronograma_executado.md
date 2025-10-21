@@ -63,6 +63,44 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
+## Cronograma de entrega 3 - Modelagem de Requisitos
+
+<div align="center"><strong>Tabela 6: Entrega 3</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
+|------------|---------------|-----------------|-------------------------------|-------------------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 06/10 | 06/10 |
+| Modelagem de requisitos: Cenário | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Tiago Lemes | 11/10 | 12/10  |
+| Modelagem de requisitos: Léxico | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | João Felipe | 11/10 | 12/10 |
+| Modelagem de requisitos: Use Case |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Vilmar José | 11/10 | 12/10  |
+| Modelagem de requisitos: Especificação suplementar |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Felipe Guimarães | 11/10 | 12/10 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 12/10 | 12/10 |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 12/10 | 12/10 |
+| Gravação da inspeção do grupo +1 | Tiago Lemes, Arthur Guilherme, Felipe Guimarães | João Sapiencia | 13/10 | 13/10 |
+| Envio da entrega | Vilmar José | Arthur Henrique | 12/10 | 12/10 |
+| Check List de entrega | João Sapiencia | João Felipe | 12/10 | 12/10 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma de entrega 4 - Modelagem de Requisitos: Ágil
+
+<div align="center"><strong>Tabela 7: Entrega 4</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
+|------------|---------------|-----------------|-------------------------------|-------------------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 16/10 | 16/10 |
+| Modelagem de requisitos - Ágil: Histórias do usuário | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | João Felipe | 20/10 | 21/10 |
+| Modelagem de requisitos - Ágil: Backlog |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Tiago Lemes | 20/10 | 21/10|
+| Modelagem de requisitos - Ágil: NFR Framework |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Felipe Guimarães | 20/10 | 21/10 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 21/10 | 21/10 |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Spiencia, Tiago Lemes, Vilmar José | Arthur Guilherme | 21/10 | 21/10 |
+| Gravação da inspeção do grupo +1 | João Felipe, João Sapiencia, Vilmar | Tiago Lemes | 22/10 | 22/10 |
+| Envio da entrega | Vilmar José | João Sapiencia | 21/10 | 21/10 |
+| Check List de entrega | João Sapiencia | Vilmar José | 21/10 | 21/10 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+
 ## Bibliografias 
 
 SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software – 2025/2. Universidade de Brasília – FGA, 2025. Disponível em: [https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf](https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf). Acesso em 08 set. 2025 
