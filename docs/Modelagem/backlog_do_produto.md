@@ -219,9 +219,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ---
 
 ### [EP03](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos) – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos
-**Descrição:** Organizar e publicar materiais educacionais considerando tópicos, níveis cognitivos e relações entre conteúdos.  
+**Descrição:** Organizar e publicar materiais educacionais considerando tópicos, níveis cognitivos e relações entre conteúdos.  
 
-**Histórias relacionadas:** 
+**Histórias relacionadas:** - [US31 – Organização de Materiais por Tópicos de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us53-organizacao-de-materiais-por-topicos-de-conteudo)
 
 ---
 
@@ -266,22 +266,22 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ---
 
 ### [EP09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel) – Criar Personagem Interativo Customizável
-**Descrição:** Desenvolver um personagem interativo com interface visual e opções de personalização para melhorar a experiência do usuário.  
+**Descrição:** Desenvolver um personagem interativo com interface visual e opções de personalização para melhorar a experiência do usuário.  
 
-**Histórias relacionadas:** 
-
-- [US38 - Visualizar Personagem do Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual)
+**Histórias relacionadas:** - [US38 - Visualizar Personagem do Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual)
+- [US39 – Customizar o Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us39-customizar-o-assistente-virtual)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
 ### [EP10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos) – Analisar Dificuldades Cognitivas e Sugerir Conteúdos
-**Descrição:** Analisar o desempenho cognitivo dos alunos e sugerir conteúdos adequados para superar lacunas de aprendizagem.  
+**Descrição:** Analisar o desempenho cognitivo dos alunos e sugerir conteúdos adequados para superar lacunas de aprendizagem.  
 
 **Histórias relacionadas:**
 
 - [US49 – Análise Cognitiva e Apoio à Aprendizagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem)
+- [US36 – Analisar Situação de Aprendizagem na Interação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us36-analisar-situacao-de-aprendizagem-na-interacao)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -407,31 +407,31 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ---
 
 ### [EP22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas) – Criar e Organizar Questões Interativas
-**Descrição:** Criar e organizar questões interativas voltadas à avaliação formativa e autoavaliação do aluno.  
+**Descrição:** Criar e organizar questões interativas voltadas à avaliação formativa e autoavaliação do aluno.  
 
 **Histórias relacionadas:**
 
 - [US24 – Cálculo do Desempenho do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno)
+- [US24 – Criar e Organizar Questões Interativas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-criar-e-organizar-questoes-interativas)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 
 ---
 
 ### [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes
-**Descrição:** Gerenciar um banco de questões provenientes de diferentes origens, permitindo filtragem e reutilização.  
+**Descrição:** Gerenciar um banco de questões provenientes de diferentes origens, permitindo filtragem e reutilização.  
 
-**Histórias relacionadas:** 
-
-- [US28 - Gerenciar Banco de Questões do Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor)
+**Histórias relacionadas:** - [US28 - Gerenciar Banco de Questões do Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor)
+- [US32 – Filtrar Banco de Questões por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us32-filtrar-banco-de-questoes-por-conteudo)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
 ### [EP24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep24-integrar-com-outros-sistemas-educacionais) – Integrar com Outros Sistemas Educacionais
-**Descrição:** Integrar o sistema a outros softwares educacionais e ambientes virtuais de aprendizagem (AVAs).  
+**Descrição:** Integrar o sistema a outros softwares educacionais e ambientes virtuais de aprendizagem (AVAs).  
 
-**Histórias relacionadas:** 
+**Histórias relacionadas:** - [US33 – Integração com Softwares Educacionais Externos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us33-integracao-com-softwares-educacionais-externos)
 
 ---
 
