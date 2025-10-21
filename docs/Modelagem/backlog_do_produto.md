@@ -16,7 +16,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [Felipe Guimaraes](https://github.com/felipegf1) |  Criação dos epicos [EP14 - Exibir media e porcentagens por conteudo e usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario), [EP16 - Exibir progresso completo e percentual do aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno) e [EP20 - Disponibilizar videoaulas como recurso complementar](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) |
 | [João Felipe](https://github.com/MrBolt2005) | Correção dos *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos. |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Backlog e participação da criação dos épicos [EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo)  |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Backlog e participação da criação dos épicos [EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo)  |
 | [Vilmar José](https://github.com/VilmarFagundes) | Participação dos épicos [EP01 - Gerenciar Perfis de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes)  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -129,7 +129,8 @@ Funcionalidades que permitem **interação personalizada com o assistente virtua
 
 **Épicos relacionados:**
 
-- [EP06 – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas)
+- [EP06 – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas]([#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas))
+- [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel)
 - [EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos](#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos)
 - [EP11 – Acompanhar Interações e Progresso do Usuário](#ep11-acompanhar-interacoes-e-progresso-do-usuario)
 
@@ -155,8 +156,8 @@ Funcionalidades que enviam **alertas automáticos e notificações personalizada
 
 **Épicos relacionados:**
 
-- [EP18 – Configurar Preferências de Tempo e Forma de Notificação](#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao)
-- [EP19 – Enviar Alertas sobre Prazos e Revisões de Conteúdo](#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo)
+- [EP18 – Configurar Preferências de Tempo e Forma de Notificação]([#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao))
+- [EP19 – Enviar Alertas sobre Prazos e Revisões de Conteúdo]([#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo))
 
 ### [TM08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm08-recursos-multimidia-e-materiais-didaticos). Recursos Multimídia e Materiais Didáticos
 Funcionalidades que disponibilizam **materiais educacionais multimídia**, como textos, vídeos, imagens e exercícios interativos, favorecendo diferentes estilos de aprendizagem.
@@ -236,7 +237,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:** 
 
-- [US04 - Alinhamento do Plano de Ensino ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava
+- [US04 - Alinhamento do Plano de Ensino ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
@@ -287,10 +288,13 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel) – Criar Personagem Interativo Customizável
 **Descrição:** Desenvolver um personagem interativo com interface visual e opções de personalização para melhorar a experiência do usuário.  
 
-**Histórias relacionadas:** - [US38 - Visualizar Personagem do Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual)
+**Histórias relacionadas:** 
+
+- [US35 - Criar Personagem Antropomórfico para Interação Direta](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us35-criar-personagem-antropomorfico-para-interacao-direta)
+- [US38 - Visualizar Personagem do Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual)
 - [US39 – Customizar o Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us39-customizar-o-assistente-virtual)
 
-<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
