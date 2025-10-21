@@ -75,6 +75,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
+---
+
 <div align="center"><strong>Tabela 5: US03</strong></div>
 
 | Campo | Descrição |
@@ -107,7 +109,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-<div align="center"><strong>Tabela 7: US17</strong></div>
+<div align="center"><strong>Tabela 7: US05</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
