@@ -322,6 +322,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Histórias relacionadas:**
 
 - [US46 – Exibir Progresso do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno)
+- [US45 – Acompanhar Interações do Usuário com o Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us45-acompanhar-interacoes-do-usuario-com-o-assistente-virtual)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
