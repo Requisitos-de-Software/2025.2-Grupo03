@@ -831,7 +831,7 @@ A Tabela 54 mostra os participantes do grupo envolvidos na validação.
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-A Tabela 55 apresenta as informações do usuário que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+A Tabela 55 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
 <div align="center"><strong>Tabela 55: Usuário Real e Informações da Gravação</strong></div>
 
@@ -841,7 +841,7 @@ A Tabela 55 apresenta as informações do usuário que participou da etapa de pr
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Além disso, a gravação da elicitação conferida em: [https://youtu.be/G6XRiBhnWI8?si=zb9n7M_hhYv8x2UO](https://youtu.be/G6XRiBhnWI8?si=zb9n7M_hhYv8x2UO).
+Além disso, a gravação da validação conferida em: [https://youtu.be/G6XRiBhnWI8?si=zb9n7M_hhYv8x2UO](https://youtu.be/G6XRiBhnWI8?si=zb9n7M_hhYv8x2UO).
 
 ---
 
@@ -858,7 +858,7 @@ A Tabela 56 mostra os participantes do grupo envolvidos na validação.
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-A Tabela 57 apresenta as informações do usuário que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+A Tabela 57 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
 <div align="center"><strong>Tabela 57: Usuário Real e Informações da Gravação</strong></div>
 
@@ -868,7 +868,7 @@ A Tabela 57 apresenta as informações do usuário que participou da etapa de pr
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Além disso, a gravação da elicitação conferida em: .
+Além disso, a gravação da validação conferida em: .
 
 ## Agradecimentos
 O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
