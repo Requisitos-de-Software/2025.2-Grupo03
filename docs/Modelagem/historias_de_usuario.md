@@ -421,13 +421,13 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-## [US24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno) – Cálculo do Desempenho do Aluno
+## [US23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us23-calculo-do-desempenho-do-aluno) – Cálculo do Desempenho do Aluno
 
-<div align="center"><strong>Tabela 26: US24</strong></div>
+<div align="center"><strong>Tabela 25: US23</strong></div>
 
 | Campo                | Descrição |
 |----------------------|-----------|
-| **ID**              | US24 |
+| **ID**              | US23 |
 | **Título**          | Cálculo do Desempenho do Aluno |
 | **História**        | **Como** um usuário do sistema educacional, **quero** visualizar tanto o quão bem minha turma no geral ou alunos individuais – eu mesmo, se for um aluno, ou qualquer aluno, se eu for o professor –, está se saindo numa disciplina, como também como se chegou a esse resultado, **para** saber mais especificamente os pontos fortes e fracos em particular no exercício na disciplina, e quais deles estão sendo mais influentes no próprio desempenho geral finalmente obtido. |
 | **Critérios de Aceitação** | - **Dado** que o usuário acesse a página de uma turma em que esteja matriculado ou lecione, <br>- **Quando** abrir as informações de desempenho individual e geral dessa turma, <br>- **Então** deve visualizar esses desempenhos, mais as suas métricas de computação e os métodos usados para os próprios cálculos. <br><br>- **Dado** que o usuário tenha configurado para ser notificado sobre tal, <br>- **Quando** houver atualizações significantes sobre métricas de computação de desempenho que ele for escolher, <br>- **Então** deverá ser notificado sobre isto pelo sistema nos canais desejados. |
