@@ -87,7 +87,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título** | Mapeamento de Conceitos segundo a TAS |
 | **História** | Como um coordenador pedagógico,<br>eu quero mapear conceitos do conteúdo respeitando a hierarquia da Teoria da Aprendizagem Significativa (TAS),<br>para que pré-requisitos e relações entre tópicos orientem atividades e recomendações. |
 | **Critérios de Aceitação** | - Dado que defino conceitos e pré-requisitos,<br>- Quando salvo o mapa conceitual,<br>- Então o sistema deve representar a hierarquia (do mais inclusivo ao menos inclusivo) e validar ciclos inconsistentes.<br><br>- Dado que o aluno possui lacunas em pré-requisitos,<br>- Quando ele acessa um tópico avançado,<br>- Então o sistema deve recomendar estudo dos conceitos base antes de prosseguir.<br><br>- Dado o mapa conceitual publicado,<br>- Quando o professor cria atividades,<br>- Então o sistema deve sugerir questões alinhadas aos conceitos e níveis hierárquicos. |
-| **Rastreabilidade** | [RF03]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Rastreabilidade** | [RF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | |
 <br>
 
@@ -105,7 +105,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título** | Alinhamento do Plano de Ensino ao AVA |
 | **História** | Como um professor,<br>eu quero agregar o processo formal de avaliação do Plano de Ensino ao ambiente virtual,<br>para que prazos, pesos e critérios avaliativos fiquem sincronizados com as atividades online. |
 | **Critérios de Aceitação** | - Dado que importo o Plano de Ensino (prazos, pesos, critérios),<br>- Quando confirmo o alinhamento,<br>- Então o sistema deve criar/exigir as avaliações no AVA com as configurações correspondentes.<br><br>- Dado que há alterações no Plano de Ensino,<br>- Quando publico uma nova versão,<br>- Então o calendário, pesos e rubricas do AVA devem ser atualizados mantendo histórico de versões.<br><br>- Dado o Plano de Ensino em vigor,<br>- Quando os alunos acessam a disciplina,<br>- Então devem ver cronograma, pesos e critérios consolidados em uma única visão. |
-| **Rastreabilidade** | [RF04]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Rastreabilidade** | [RF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | |
 <br>
 
@@ -123,7 +123,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título** | Integração de Avaliações ao AVA |
 | **História** | Como um professor,<br>eu quero integrar as avaliações (provas, atividades, rubricas) diretamente ao AVA,<br>para que a criação, aplicação, correção e lançamento de notas ocorram em um fluxo único. |
 | **Critérios de Aceitação** | - Dado que crio uma avaliação no módulo de avaliações,<br>- Quando eu a publico,<br>- Então ela deve aparecer automaticamente no AVA com prazos, tentativas e rubricas configuradas.<br><br>- Dado que os alunos submetem respostas,<br>- Quando a avaliação encerra,<br>- Então o sistema deve disponibilizar correção (automática ou por rubrica), feedback e lançar notas no boletim da disciplina.<br><br>- Dado que há ajustes após a publicação,<br>- Quando atualizo instruções, rubrica ou prazo,<br>- Então o AVA deve refletir as mudanças e notificar os alunos. |
-| **Rastreabilidade** | [RF05]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Rastreabilidade** | [RF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** ||
 <br>
 
@@ -311,7 +311,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título** | Índice de Conteúdos Ordenado por Porcentagem de Erros |
 | **História** | Como um aluno,<br>eu quero visualizar um índice de conteúdos ordenado pela porcentagem de erros,<br>para que eu identifique facilmente quais tópicos tenho mais dificuldade e priorize meus estudos nesses assuntos. |
 | **Critérios de Aceitação** | - Dado que o aluno acessa a página de desempenho,<br>- Quando o sistema carrega o índice de conteúdos,<br>- Então os conteúdos devem ser listados em ordem decrescente de porcentagem de erros (do maior para o menor).<br><br>- Dado que dois conteúdos tenham a mesma porcentagem de erros,<br>- Quando o sistema exibe o índice,<br>- Então deve aplicar ordenação secundária alfabética pelo nome do conteúdo.<br><br>- Dado que o aluno clique em um conteúdo no índice,<br>- Quando ele acessa os detalhes,<br>- Então o sistema deve exibir gráficos e atividades relacionadas a esse conteúdo específico. |
-| **Rastreabilidade** | [RF16]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Rastreabilidade** | [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | |
 <br>
 
@@ -380,7 +380,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título** | Configuração de Notificação de Prazos pelo Usuário |
 | **História** | Como um aluno,<br>eu quero escolher quando quero receber notificações sobre a proximidade da data de entrega de uma atividade,<br>para que eu possa me organizar conforme minha rotina e evitar atrasos. |
 | **Critérios de Aceitação** | - Dado que o aluno acessa as configurações de notificações,<br>- Quando ele seleciona o tempo de antecedência (ex: 1 dia, 3 dias, 1 semana),<br>- Então o sistema deve salvar a preferência e exibir uma confirmação visual de que a configuração foi atualizada.<br><br>- Dado que uma atividade está próxima do prazo configurado,<br>- Quando a antecedência definida é atingida,<br>- Então o sistema deve enviar uma notificação via canal escolhido (e-mail, push, ou WhatsApp).<br><br>- Dado que o aluno desative as notificações,<br>- Quando salvar a configuração,<br>- Então o sistema deve deixar de enviar alertas até que o recurso seja reativado. |
-| **Rastreabilidade** | [RF20]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Rastreabilidade** | [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | |
 <br>
 
@@ -448,7 +448,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título** | Interação com Questões (Avaliação Informativa e Formativa) |
 | **História** | Como um aluno,<br>eu quero interagir com questões que avaliem meu conhecimento informativo e formativo,<br>para aprender com feedback imediato e acompanhar minha evolução. |
 | **Critérios de Aceitação** | - Dado que o aluno responde a uma questão,<br>- Quando submete a resposta,<br>- Então deve receber feedback imediato com explicação, referência de estudo e sugestão de próximo passo (formativa).<br><br>- Dado um conjunto de questões de um tópico,<br>- Quando o aluno conclui o bloco,<br>- Então o sistema deve mostrar resumo com acertos, erros e recomendações de reforço (informativa + formativa).<br><br>- Dado que o aluno revisite uma questão,<br>- Quando visualizar o histórico,<br>- Então deve ver suas tentativas, feedbacks e progresso ao longo do tempo. |
-| **Rastreabilidade** | [RF25]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Rastreabilidade** | [RF25](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | |
 <br>
 
@@ -466,7 +466,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Título** | Assistência ao Professor no Módulo de Interação |
 | **História** | Como um professor,<br>eu quero receber assistência do SAE para planejar, aplicar e revisar atividades no módulo de interação,<br>para otimizar o tempo e melhorar a qualidade pedagógica. |
 | **Critérios de Aceitação** | - Dado que informo objetivos de aprendizagem e o conteúdo,<br>- Quando solicito sugestões,<br>- Então o sistema deve recomendar tipos de questões, níveis de dificuldade e materiais de apoio coerentes.<br><br>- Dado que a turma concluiu uma atividade,<br>- Quando abro o relatório do módulo,<br>- Então devo ver estatísticas por questão/tópico, principais erros, padrões de confusão e sugestões de intervenção.<br><br>- Dado que tenho pouco tempo para preparar uma aula,<br>- Quando aciono o assistente do SAE,<br>- Então ele deve gerar um roteiro com sequência de atividades e checkpoints avaliativos. |
-| **Rastreabilidade** | [RF26]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Rastreabilidade** | [RF26](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | |
 <br>
 
