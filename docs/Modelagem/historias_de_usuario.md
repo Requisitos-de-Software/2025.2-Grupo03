@@ -259,7 +259,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **ID** | US13 |
 | **Título** | Configurar Tempo de Alerta para Atividades Atrasadas |
 | **História** | Como um usuário,<br>eu quero escolher o tempo em que desejo receber alertas sobre minhas atividades atrasadas,<br>para que eu possa gerenciar minhas pendências conforme minha preferência, sem receber notificações excessivas. |
-| **Critérios de Aceitação** | - **Dado que** o usuário acessa seu painel de "Configurações de Notificação",<br>- **Quando** ele seleciona a opção "Atividades Atrasadas",<br>- **Então** o sistema deve exibir opções de tempo (ex: "1 dia após o prazo", "A cada 3 dias", "Não notificar").<br><br>- **Dado que** o usuário salvou sua preferência de tempo,<br>- **Quando** uma atividade sua ficar atrasada pelo período configurado,<br>- **Então** o sistema deve enviar um alerta pelo canal preferido (definido na US18). |
+| **Critérios de Aceitação** | - **Dado que** o usuário acessa seu painel de "Configurações de Notificação",<br>- **Quando** ele seleciona a opção "Atividades Atrasadas",<br>- **Então** o sistema deve exibir opções de tempo (ex: "1 dia após o prazo", "A cada 3 dias", "Não notificar").<br><br>- **Dado que** o usuário salvou sua preferência de tempo,<br>- **Quando** uma atividade ficar atrasada pelo período configurado,<br>- **Então** o sistema deve enviar um alerta pelo canal preferido (definido na US18). |
 | **Rastreabilidade** | [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Épico Relacionado** | [EP18](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) – Configurar Preferências de Tempo e Forma de Notificação |
 
@@ -438,6 +438,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## US24 – Criar e Organizar Questões Interativas
+
+<div align="center"><strong>Tabela 26: US52</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US24 |
+| **Título** | Criar e Organizar Questões Interativas |
+| **História** | Como um professor,<br>eu quero criar e organizar questões interativas no sistema,<br>para que eu possa montar atividades e avaliações que apoiem o ensino-aprendizagem dos alunos. |
+| **Critérios de Aceitação** | - **Dado que** o professor está na área do "Banco de Questões".<br>- **Quando** ele seleciona a opção "Criar Nova Questão Interativa".<br>- **Então** o sistema deve apresentar um formulário para ele definir o tipo de questão (ex: múltipla escolha, V/F, preencher lacuna), o enunciado, as opções e a resposta correta.<br><br>- **Dado que** o professor está criando uma questão.<br>- **Quando** ele preenche os campos da questão.<br>- **Então** o sistema deve exigir que ele associe a questão a um conteúdo/tópico da disciplina para fins de organização.<br><br>- **Dado que** o professor está no seu "Banco de Questões".<br>- **Quando** ele filtra por um conteúdo específico.<br>- **Então** o sistema deve exibir apenas as questões interativas organizadas sob aquele conteúdo. |
+| **Rastreabilidade** | [RF24](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
 ## [US25](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us25-interacao-com-questoes-avaliacao-informativa-e-formativa) - Interação com Questões (Avaliação Informativa e Formativa)
 
 <div align="center"><strong>Tabela 27: US25</strong></div>
@@ -509,6 +526,75 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## US31 – Organização de Materiais por Tópicos de Conteúdo
+
+<div align="center"><strong>Tabela 33: US31</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US31 |
+| **Título** | Organização de Materiais por Tópicos de Conteúdo |
+| **História** | Como um aluno,<br>eu quero visualizar os materiais de estudo (vídeos, textos, links) agrupados por tópicos de conteúdo da disciplina,<br>para que eu possa acessar facilmente os recursos relevantes para o que estou estudando no momento. |
+| **Critérios de Aceitação** | - **Dado que** o professor postou materiais e os associou a tópicos específicos (ex: "Vídeo A" ao "Tópico 1", "Texto B" ao "Tópico 2").<br>- **Quando** o aluno acessa a página do "Tópico 1" da disciplina.<br>- **Então** o sistema deve exibir o "Vídeo A" e não deve exibir o "Texto B".<br><br>- **Dado que** o aluno está na página principal da disciplina.<br>- **Quando** ele visualiza a estrutura de conteúdos.<br>- **Então** ele deve ver os materiais de estudo (links, arquivos) listados dentro de seus respectivos tópicos. |
+| **Rastreabilidade** | [RF31](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+## US32 – Filtrar Banco de Questões por Conteúdo
+
+<div align="center"><strong>Tabela 34: US32</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US32 |
+| **Título** | Filtrar Banco de Questões por Conteúdo |
+| **História** | Como um professor,<br>eu quero que o banco de questões esteja separado por conteúdo,<br>para que eu possa encontrar e selecionar rapidamente as questões de um tópico específico ao montar uma atividade. |
+| **Critérios de Aceitação** | - **Dado que** o professor acessa o "Banco de Questões" para criar uma atividade.<br>- **Quando** ele visualiza a interface de seleção de questões.<br>- **Então** o sistema deve apresentar opções para filtrar as questões por conteúdo ou tópico (ex: por disciplina, depois por capítulo).<br><br>- **Dado que** o professor selecionou um filtro de conteúdo (ex: "Tópico 3").<br>- **Quando** a lista de questões é exibida.<br>- **Então** o sistema deve mostrar apenas as questões previamente associadas ao "Tópico 3". |
+| **Rastreabilidade** | [RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+## US33 – Integração com Softwares Educacionais Externos
+
+<div align="center"><strong>Tabela 35: US33</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US33 |
+| **Título** | Integração com Softwares Educacionais Externos (AVAs) |
+| **História** | Como um administrador do sistema,<br>eu quero que o SAE se integre a outros softwares educacionais, como AVAs (Ambientes Virtuais de Aprendizagem) existentes,<br>para que haja uma sincronização de dados (listas de alunos, notas) e se evite a duplicação de trabalho manual. |
+| **Critérios de Aceitação** | - **Dado que** o administrador está na área de "Configurações" do SAE.<br>- **Quando** ele acessa a seção "Integrações" e seleciona um AVA (ex: Moodle).<br>- **Então** o sistema deve permitir a inserção de credenciais de API para estabelecer a conexão.<br><br>- **Dado que** uma integração com um AVA está ativa.<br>- **Quando** um novo aluno é matriculado no AVA.<br>- **Então** o sistema SAE deve ser capaz de sincronizar e criar automaticamente o perfil desse aluno.<br><br>- **Dado que** uma nota final é gerada no SAE.<br>- **Quando** a sincronização de notas está habilitada.<br>- **Então** o sistema deve ser capaz de enviar essa nota para o quadro de notas do AVA correspondente. |
+| **Rastreabilidade** | [RF33](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+## US36 – Analisar Situação de Aprendizagem na Interação
+
+<div align="center"><strong>Tabela 36: US36</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US36 |
+| **Título** | Analisar Situação de Aprendizagem na Interação |
+| **História** | Como um aluno,<br>eu quero que a minha interação com o assistente virtual (ITA) ajude o sistema a entender minha real situação de aprendizagem (o que eu sei e o que eu não sei),<br>para que ele possa me oferecer ajuda e sugestões que sejam realmente úteis e personalizadas para minha dificuldade. |
+| **Critérios de Aceitação** | - **Dado que** o aluno faz uma pergunta vaga ao assistente virtual (ex: "Me explique 'TAS'").<br>- **Quando** o assistente não tem certeza do nível de conhecimento do aluno sobre o tema.<br>- **Então** o assistente deve fazer perguntas de sondagem para compreender a situação (ex: "Você já entendeu o que são 'subsunssores' ou quer começar pelo básico?").<br><br>- **Dado que** o aluno erra uma questão sugerida pelo assistente durante o chat.<br>- **Quando** o assistente analisa essa interação.<br>- **Então** o sistema deve usar essa informação para (compreender a situação) e reajustar a próxima sugestão, focando no ponto de dificuldade. |
+| **Rastreabilidade** | [RF36](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos) – Analisar Dificuldades Cognitivas e Sugerir Conteúdos |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
 ## [US37](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy) – Inferências com Lógica *Fuzzy*
 
 <div align="center"><strong>Tabela 39: US37</strong></div>
@@ -540,6 +626,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Épico Relacionado** | [EP09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel) – Criar Personagem Interativo Customizável |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
+## US39 – Customizar o Assistente Virtual
+
+<div align="center"><strong>Tabela 41: US39</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US39 |
+| **Título** | Customizar o Assistente Virtual |
+| **História** | Como um usuário do sistema,<br>eu quero poder customizar a aparência ou o comportamento do assistente virtual (ITA),<br>para que minha experiência de interação seja mais pessoal e agradável. |
+| **Critérios de Aceitação** | - **Dado que** o usuário está logado no sistema.<br>- **Quando** ele acessa a área de "Configurações" ou "Preferências" do assistente virtual.<br>- **Então** o sistema deve exibir as opções de customização disponíveis (ex: mudar cor, avatar, nome de exibição).<br><br>- **Dado que** o usuário escolheu uma nova aparência (ex: um novo avatar).<br>- **Quando** ele salva a alteração.<br>- **Então** o assistente virtual deve aparecer imediatamente com a aparência selecionada em toda a interface. |
+| **Rastreabilidade** | [RF39](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel) – Criar Personagem Interativo Customizável |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ---
 
@@ -697,3 +800,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.3    | 19/10/2025 | Correção por adição de *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos | [João Felipe](https://github.com/MrBolt2005) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) <rb> [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.4    | 20/10/2025 | Criação e adição das histórias de usuário [US01 - Identificação e Autenticação de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us01-identificacao-e-autenticacao-de-usuarios), [US02 - Visualizar e Gerenciar Perfil Individual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us02-visualizar-e-gerenciar-perfil-individual), [US11 - Exibir média geral da turma](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us11-exibir-media-geral-da-turma), [US13 - Configurar Alertas de Atividades Atrasadas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us13-configurar-alertas-de-atividades-atrasadas), [US28 - Gerenciar Banco de Questões do Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor) e [US38 - Visualizar Personagem do Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual) | [Vilmar José](https://github.com/VilmarFagundes) | [João Sapiência](https://github.com/JoaoSapiencia) |
 | 1.5    | 18/10/2025 | Criação das historias de usuario 03, 04, 05, 16, 20, 25 e 26 | [Arthur Henrique](https://github.com/arthurhvieira1)| [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.6    | 21/10/2025 | Adição das histórias de usuário US14, US24, US31, US32, US33, US36 e US39 | [João Sapiência](https://github.com/JoaoSapiencia) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
