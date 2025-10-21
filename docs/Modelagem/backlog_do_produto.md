@@ -83,7 +83,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
 | | | [US19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade) – Enviar Notificação sobre Prazo de Entrega de Atividade | [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | A Definir |
 | [TM08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm08-recursos-multimidia-e-materiais-didaticos). Recursos Multimídia e Materiais Didáticos | [EP20](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) – Disponibilizar Vídeo Aulas como Recurso Complementar | [US17](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo) – Assistir a uma Videoaula do Conteúdo | [RF17](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | A Definir |
 | | [EP21](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep21-gerar-questoes-baseadas-em-video-aulas) – Gerar Questões Baseadas em Vídeo Aulas | [US30](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos) – Direcionamento Sob Medida de Materiais aos Alunos | [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | A Definir |
-| [TM09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm09-banco-de-questoes-e-atividades). Banco de Questões e Atividades | [EP22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas) – Criar e Organizar Questões Interativas | [US24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno) – Cálculo do Desempenho do Aluno | [RF24](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | A Definir |
+| [TM09](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm09-banco-de-questoes-e-atividades). Banco de Questões e Atividades | [EP22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas) – Criar e Organizar Questões Interativas | [US24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-criar-e-organizar-questoes-interativas) – Criar e Organizar Questões Interativas | [RF24](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) | A Definir |
 | | [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes | (Nenhuma história explicitada no texto) | A Definir | A Definir |
 | [TM10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm10-integracao-e-centralizacao-de-sistemas). Integração e Centralização de Sistemas | [EP24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep24-integrar-com-outros-sistemas-educacionais) – Integrar com Outros Sistemas Educacionais | (Nenhuma história explicitada no texto) | A Definir | A Definir |
 | | [EP25](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep25-centralizar-informacoes-educacionais) – Centralizar Informações Educacionais | (Nenhuma história explicitada no texto) | A Definir | A Definir |
@@ -122,6 +122,7 @@ Funcionalidades que permitem **planejar, aplicar e acompanhar avaliações**, in
 
 - [EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual](#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual)
 - [EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional](#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional)
+- [EP07 – Exibir Cálculos de Desempenho com Base em Dados e Inferências](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias)
 
 ### [TM04](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm04-assistente-virtual-inteligente). Assistente Virtual Inteligente
 Funcionalidades que permitem **interação personalizada com o assistente virtual**, fornecendo recomendações, inferências e suporte adaptativo aos usuários, incluindo uso de lógica Fuzzy para decisões pedagógicas graduais.
@@ -214,7 +215,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP02](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas) – Mapear e Estruturar Conteúdos segundo a TAS
 **Descrição:** Mapear e estruturar conteúdos de acordo com a Teoria da Aprendizagem Significativa (TAS), facilitando a organização pedagógica do material.  
 
-**Histórias relacionadas:**  - [US03 - Mapeamento de Conceitos segundo a Teoria da Aprendizagem Significativa (TAS)](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us03-mapeamento-de-conceitos-segundo-a-teoria-da-aprendizagem-significativa-tas)
+**Histórias relacionadas:**  
+
+- [US03 - Mapeamento de Conceitos segundo a Teoria da Aprendizagem Significativa (TAS)](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us03-mapeamento-de-conceitos-segundo-a-teoria-da-aprendizagem-significativa-tas)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 ---
@@ -222,14 +225,18 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP03](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos) – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos
 **Descrição:** Organizar e publicar materiais educacionais considerando tópicos, níveis cognitivos e relações entre conteúdos.  
 
-**Histórias relacionadas:** - [US31 – Organização de Materiais por Tópicos de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us53-organizacao-de-materiais-por-topicos-de-conteudo)
+**Histórias relacionadas:** 
+
+- [US31 – Organização de Materiais por Tópicos de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us53-organizacao-de-materiais-por-topicos-de-conteudo)
 
 ---
 
 ### [EP04](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual) – Integrar o Processo de Avaliação ao Ambiente Virtual
 **Descrição:** Integrar o processo formal de avaliação ao ambiente virtual de aprendizagem, permitindo o acompanhamento contínuo do desempenho.  
 
-**Histórias relacionadas:** - [US04 - Alinhamento do Plano de Ensino ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava
+**Histórias relacionadas:** 
+
+- [US04 - Alinhamento do Plano de Ensino ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
@@ -238,7 +245,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP05](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional) – Relacionar Avaliação Docente com Inferências do Assistente Educacional
 **Descrição:** Associar resultados de avaliações docentes às inferências geradas pelo assistente educacional, promovendo feedbacks mais precisos.  
 
-**Histórias relacionadas:** -  [US05 - Integração de Avaliações ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us05-integracao-de-avaliacoes-ao-ava)
+**Histórias relacionadas:** 
+
+-  [US05 - Integração de Avaliações ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us05-integracao-de-avaliacoes-ao-ava)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
@@ -260,6 +269,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Exibir cálculos de desempenho que combinem dados objetivos e inferências do sistema, favorecendo a análise pedagógica.  
 
 **Histórias relacionadas:** 
+
+- [US23 – Cálculo do Desempenho do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us23-calculo-do-desempenho-do-aluno)
+
 
 ---
 
@@ -418,9 +430,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas) – Criar e Organizar Questões Interativas
 **Descrição:** Criar e organizar questões interativas voltadas à avaliação formativa e autoavaliação do aluno.  
 
-**Histórias relacionadas:** - [US25 - Interação com Questões (Avaliação Informativa e Formativa)](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us25-interacao-com-questoes-avaliacao-informativa-e-formativa)
+**Histórias relacionadas:** 
 
-- [US24 – Cálculo do Desempenho do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno)
+- [US25 - Interação com Questões (Avaliação Informativa e Formativa)](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us25-interacao-com-questoes-avaliacao-informativa-e-formativa)
 - [US24 – Criar e Organizar Questões Interativas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-criar-e-organizar-questoes-interativas)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a> e <a href="https://github.com/arthurhvieira1">Arthur Henrique</a> </strong></div>
@@ -430,7 +442,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP23](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) – Gerenciar Banco de Questões de Professores e Outras Fontes
 **Descrição:** Gerenciar um banco de questões provenientes de diferentes origens, permitindo filtragem e reutilização.  
 
-**Histórias relacionadas:** - [US28 - Gerenciar Banco de Questões do Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor)
+**Histórias relacionadas:** 
+
+- [US28 - Gerenciar Banco de Questões do Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor)
 - [US32 – Filtrar Banco de Questões por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us32-filtrar-banco-de-questoes-por-conteudo)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
@@ -440,7 +454,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 ### [EP24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep24-integrar-com-outros-sistemas-educacionais) – Integrar com Outros Sistemas Educacionais
 **Descrição:** Integrar o sistema a outros softwares educacionais e ambientes virtuais de aprendizagem (AVAs).  
 
-**Histórias relacionadas:** - [US33 – Integração com Softwares Educacionais Externos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us33-integracao-com-softwares-educacionais-externos)
+**Histórias relacionadas:** 
+
+- [US33 – Integração com Softwares Educacionais Externos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us33-integracao-com-softwares-educacionais-externos)
 
 ---
 
