@@ -530,7 +530,7 @@ A Tabela 4 apresenta as informações do usuário que participou da etapa de val
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Além disso, a gravação da elicitação conferida em: [https://youtu.be/uWmAvddPt_U?si=g668_QBPEmEtwYml](https://youtu.be/uWmAvddPt_U?si=g668_QBPEmEtwYml).
+Além disso, a gravação da validação e priorização pode ser conferida em: [https://youtu.be/uWmAvddPt_U?si=g668_QBPEmEtwYml](https://youtu.be/uWmAvddPt_U?si=g668_QBPEmEtwYml).
 
 ---
 
@@ -557,7 +557,7 @@ A Tabela 6 apresenta as informações do usuário que participou da etapa de val
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Além disso, a gravação da elicitação conferida em: .
+Além disso, a gravação da validação e priorização pode ser conferida em: .
 
 ## Agradecimentos
 O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
