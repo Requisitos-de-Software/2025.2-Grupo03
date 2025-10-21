@@ -10,23 +10,23 @@ Essa etapa apresenta uma lista de verificação para avaliar os artefatos produz
 
 | ID  | Item de Verificação | Autor |
 |-----|---------------------|-------|
-| 1   | As histórias descrevem resultados requisitados? | Felipe Guimarães |
-| 2   | As histórias descrevem características requisitadas? | Felipe Guimarães |
-| 3   | As histórias descrevem funcionalidades requisitadas? | Felipe Guimarães |
-| 4   | Cada história foi escrita pelo cliente? | Felipe Guimarães |
-| 5   | Cada história foi registrada em uma ferramenta de acompanhamento? | Felipe Guimarães |
-| 6   | O cliente atribuiu prioridade às histórias? | Felipe Guimarães |
-| 7   | A prioridade atribuída baseou-se no valor de negócio global? | Felipe Guimarães |
-| 8   | Os desenvolvedores atribuíram um custo estimado às histórias? | Felipe Guimarães |
-| 9   | O custo foi medido em semanas de desenvolvimento? | Felipe Guimarães |
-| 10  | Histórias com custo acima de três semanas foram subdivididas? | Tiago Lemes |
-| 11  | As histórias subdivididas receberam nova atribuição de valor? | Tiago Lemes |
-| 12  | As histórias subdivididas receberam nova atribuição de custo? | Tiago Lemes |
-| 13  | Clientes e desenvolvedores colaboraram para agrupar histórias para o próximo incremento de software? | Tiago Lemes |
-| 14  | Houve concordância sobre quais histórias seriam incluídas? | Tiago Lemes |
-| 15  | As histórias foram ordenadas priorizando maior valor de negócio? | Tiago Lemes |
-| 16  | As histórias foram ordenadas priorizando maior risco? | Tiago Lemes |
-| 17  | As histórias de usuários descrevem “o que” deve ser feito e não “como”? | Tiago Lemes |
+| 1   | As histórias descrevem resultados requisitados? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 2   | As histórias descrevem características requisitadas? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 3   | As histórias descrevem funcionalidades requisitadas? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 4   | Cada história foi escrita pelo cliente? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 5   | Cada história foi registrada em uma ferramenta de acompanhamento? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 6   | O cliente atribuiu prioridade às histórias? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 7   | A prioridade atribuída baseou-se no valor de negócio global? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 8   | Os desenvolvedores atribuíram um custo estimado às histórias? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 9   | O custo foi medido em semanas de desenvolvimento? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 10  | Histórias com custo acima de três semanas foram subdivididas? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 11  | As histórias subdivididas receberam nova atribuição de valor? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 12  | As histórias subdivididas receberam nova atribuição de custo? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 13  | Clientes e desenvolvedores colaboraram para agrupar histórias para o próximo incremento de software? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 14  | Houve concordância sobre quais histórias seriam incluídas? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 15  | As histórias foram ordenadas priorizando maior valor de negócio? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 16  | As histórias foram ordenadas priorizando maior risco? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 17  | As histórias de usuários descrevem “o que” deve ser feito e não “como”? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 
 <div align="center">
     <strong>
