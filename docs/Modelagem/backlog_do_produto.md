@@ -476,12 +476,13 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Referências
 
+
 ## Históricos de versão
 
 | Versão | Data       | Descrição   | Autor(es) | Revisor   |
 |--------|------------|---------------------------------------------|------------------------|---------------|
 | 1.0    | 16/10/2025 | Criação do documento de Backlog do Produto   | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
-| 1.1    | 17/10/2025 | Participação da criação dos épicos EP06, EP13, EP18 e EP19 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.1    | 17/10/2025 | Participação da criação dos épicos [EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.2    | 17/10/2025 | Participação da criação dos épicos EP14, EP16 e EP20  | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.3    | 18/10/2025 | Participação da criação dos épicos EP14, EP16 e EP20  | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.4    | 19/10/2025 | Correção dos hiperlinks das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões | [João Victor Pires](https://github.com/joaovpires) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
