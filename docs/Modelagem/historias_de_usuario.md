@@ -77,6 +77,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US03](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us03-mapeamento-de-conceitos-segundo-a-teoria-da-aprendizagem-significativa-tas) - Mapeamento de Conceitos segundo a Teoria da Aprendizagem Significativa (TAS)
+
 <div align="center"><strong>Tabela 5: US03</strong></div>
 
 | Campo | Descrição |
@@ -93,6 +95,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US04](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava) - Alinhamento do Plano de Ensino ao AVA
+
 <div align="center"><strong>Tabela 6: US04</strong></div>
 
 | Campo | Descrição |
@@ -108,6 +112,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
+
+## [US05](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us05-integracao-de-avaliacoes-ao-ava) - Integração de Avaliações ao AVA
 
 <div align="center"><strong>Tabela 7: US05</strong></div>
 
@@ -295,6 +301,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US16](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us16-indice-de-conteudos-ordenado-por-porcentagem-de-erros) - Índice de Conteúdos Ordenado por Porcentagem de Erros
+
 <div align="center"><strong>Tabela 18: US16</strong></div>
 
 | Campo | Descrição |
@@ -362,6 +370,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US20](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us20-configuracao-de-notificacao-de-prazos-pelo-usuario) - Configuração de Notificação de Prazos pelo Usuário
+
 <div align="center"><strong>Tabela 22: US20</strong></div>
 
 | Campo | Descrição |
@@ -428,6 +438,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US25](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us25-interacao-com-questoes-avaliacao-informativa-e-formativa) - Interação com Questões (Avaliação Informativa e Formativa)
+
 <div align="center"><strong>Tabela 27: US25</strong></div>
 
 | Campo | Descrição |
@@ -443,6 +455,8 @@ A padronização da tabela pode ser observada na Tabela 2.
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
+
+## [US26](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us26-assistencia-ao-professor-no-modulo-de-interacao) - Assistência ao Professor no Módulo de Interação
 
 <div align="center"><strong>Tabela 28: US26</strong></div>
 
