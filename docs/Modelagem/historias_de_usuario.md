@@ -10,7 +10,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação das historias de usuario [US43 – Facilitar Interação entre Monitores, Professores e Alunos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos), [US44 – Chat Síncrono para Interação a Distância](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia), [US46 – Exibir Progresso do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno), [US49 – Análise Cognitiva e Apoio à Aprendizagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem), [US50 – Identificar Conhecimento do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno) e [US51 – Identificar Comportamento Adequado do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno) |
-| [Arthur Henrique](https://github.com/arthurhvieira1) |   |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Criação das histórias de usuário [US03 - Mapeamento de Conceitos segundo a Teoria da Aprendizagem Significativa (TAS)](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us03-mapeamento-de-conceitos-segundo-a-teoria-da-aprendizagem-significativa-tas), [US04 - Alinhamento do Plano de Ensino ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava), [US05 - Integração de Avaliações ao AVA](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us05-integracao-de-avaliacoes-ao-ava), [US16 - Índice de Conteúdos Ordenado por Porcentagem de Erros](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us16-indice-de-conteudos-ordenado-por-porcentagem-de-erros), [US20 - Configuração de Notificação de Prazos pelo Usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us20-configuracao-de-notificacao-de-prazos-pelo-usuario), [US25 - Interação com Questões (Avaliação Informativa e Formativa)](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us25-interacao-com-questoes-avaliacao-informativa-e-formativa) e [US26 - Assistência ao Professor no Módulo de Interação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us26-assistencia-ao-professor-no-modulo-de-interacao) |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Criação das historias de usuario [US07 Visualizar Progresso do Aluno na Disciplina](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina), [US08 - Exibir Progresso da Disciplina em Porcentagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem), [US09 - Visualizar Porcentagem de Acertos por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo), [US10 - Visualizar Porcentagem de Erros por Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo), [US12 - Exibir Média do Usuário Após Atividade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade), [US17 - Assistir a uma Videoaula do Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo) |
 | [João Felipe](https://github.com/MrBolt2005) | Criação das histórias de usuário [US14](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us14-selecao-de-disciplinas-mais-faceis), [US24](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-calculo-do-desempenho-do-aluno), [US30](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos), [US37](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy), [US42](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis) e [US47](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria). |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
@@ -74,6 +74,52 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Épico Relacionado** | [EP01](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios) – Gerenciar Perfis de Usuários |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<div align="center"><strong>Tabela 5: US03</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US03 |
+| **Título** | Mapeamento de Conceitos segundo a TAS |
+| **História** | Como um coordenador pedagógico,<br>eu quero mapear conceitos do conteúdo respeitando a hierarquia da Teoria da Aprendizagem Significativa (TAS),<br>para que pré-requisitos e relações entre tópicos orientem atividades e recomendações. |
+| **Critérios de Aceitação** | - Dado que defino conceitos e pré-requisitos,<br>- Quando salvo o mapa conceitual,<br>- Então o sistema deve representar a hierarquia (do mais inclusivo ao menos inclusivo) e validar ciclos inconsistentes.<br><br>- Dado que o aluno possui lacunas em pré-requisitos,<br>- Quando ele acessa um tópico avançado,<br>- Então o sistema deve recomendar estudo dos conceitos base antes de prosseguir.<br><br>- Dado o mapa conceitual publicado,<br>- Quando o professor cria atividades,<br>- Então o sistema deve sugerir questões alinhadas aos conceitos e níveis hierárquicos. |
+| **Rastreabilidade** | [RF03]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Épico Relacionado** | |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 6: US04</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US04 |
+| **Título** | Alinhamento do Plano de Ensino ao AVA |
+| **História** | Como um professor,<br>eu quero agregar o processo formal de avaliação do Plano de Ensino ao ambiente virtual,<br>para que prazos, pesos e critérios avaliativos fiquem sincronizados com as atividades online. |
+| **Critérios de Aceitação** | - Dado que importo o Plano de Ensino (prazos, pesos, critérios),<br>- Quando confirmo o alinhamento,<br>- Então o sistema deve criar/exigir as avaliações no AVA com as configurações correspondentes.<br><br>- Dado que há alterações no Plano de Ensino,<br>- Quando publico uma nova versão,<br>- Então o calendário, pesos e rubricas do AVA devem ser atualizados mantendo histórico de versões.<br><br>- Dado o Plano de Ensino em vigor,<br>- Quando os alunos acessam a disciplina,<br>- Então devem ver cronograma, pesos e critérios consolidados em uma única visão. |
+| **Rastreabilidade** | [RF04]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Épico Relacionado** | |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 7: US17</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US05 |
+| **Título** | Integração de Avaliações ao AVA |
+| **História** | Como um professor,<br>eu quero integrar as avaliações (provas, atividades, rubricas) diretamente ao AVA,<br>para que a criação, aplicação, correção e lançamento de notas ocorram em um fluxo único. |
+| **Critérios de Aceitação** | - Dado que crio uma avaliação no módulo de avaliações,<br>- Quando eu a publico,<br>- Então ela deve aparecer automaticamente no AVA com prazos, tentativas e rubricas configuradas.<br><br>- Dado que os alunos submetem respostas,<br>- Quando a avaliação encerra,<br>- Então o sistema deve disponibilizar correção (automática ou por rubrica), feedback e lançar notas no boletim da disciplina.<br><br>- Dado que há ajustes após a publicação,<br>- Quando atualizo instruções, rubrica ou prazo,<br>- Então o AVA deve refletir as mudanças e notificar os alunos. |
+| **Rastreabilidade** | [RF05]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Épico Relacionado** ||
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
 
@@ -247,6 +293,22 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+<div align="center"><strong>Tabela 18: US16</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US16 |
+| **Título** | Índice de Conteúdos Ordenado por Porcentagem de Erros |
+| **História** | Como um aluno,<br>eu quero visualizar um índice de conteúdos ordenado pela porcentagem de erros,<br>para que eu identifique facilmente quais tópicos tenho mais dificuldade e priorize meus estudos nesses assuntos. |
+| **Critérios de Aceitação** | - Dado que o aluno acessa a página de desempenho,<br>- Quando o sistema carrega o índice de conteúdos,<br>- Então os conteúdos devem ser listados em ordem decrescente de porcentagem de erros (do maior para o menor).<br><br>- Dado que dois conteúdos tenham a mesma porcentagem de erros,<br>- Quando o sistema exibe o índice,<br>- Então deve aplicar ordenação secundária alfabética pelo nome do conteúdo.<br><br>- Dado que o aluno clique em um conteúdo no índice,<br>- Quando ele acessa os detalhes,<br>- Então o sistema deve exibir gráficos e atividades relacionadas a esse conteúdo específico. |
+| **Rastreabilidade** | [RF16]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Épico Relacionado** | |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
 ## [US17](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo) - Assistir a uma Videoaula do Conteúdo  
 
 <div align="center"><strong>Tabela 19: US17</strong></div>
@@ -295,6 +357,22 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **Épico Relacionado** | [EP19](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo) – Enviar Alertas sobre Prazos e Revisões de Conteúdo |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 22: US20</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US20 |
+| **Título** | Configuração de Notificação de Prazos pelo Usuário |
+| **História** | Como um aluno,<br>eu quero escolher quando quero receber notificações sobre a proximidade da data de entrega de uma atividade,<br>para que eu possa me organizar conforme minha rotina e evitar atrasos. |
+| **Critérios de Aceitação** | - Dado que o aluno acessa as configurações de notificações,<br>- Quando ele seleciona o tempo de antecedência (ex: 1 dia, 3 dias, 1 semana),<br>- Então o sistema deve salvar a preferência e exibir uma confirmação visual de que a configuração foi atualizada.<br><br>- Dado que uma atividade está próxima do prazo configurado,<br>- Quando a antecedência definida é atingida,<br>- Então o sistema deve enviar uma notificação via canal escolhido (e-mail, push, ou WhatsApp).<br><br>- Dado que o aluno desative as notificações,<br>- Quando salvar a configuração,<br>- Então o sistema deve deixar de enviar alertas até que o recurso seja reativado. |
+| **Rastreabilidade** | [RF20]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Épico Relacionado** | |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
 
@@ -347,6 +425,39 @@ A padronização da tabela pode ser observada na Tabela 2.
 <div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
 
 ---
+
+<div align="center"><strong>Tabela 27: US25</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US25 |
+| **Título** | Interação com Questões (Avaliação Informativa e Formativa) |
+| **História** | Como um aluno,<br>eu quero interagir com questões que avaliem meu conhecimento informativo e formativo,<br>para aprender com feedback imediato e acompanhar minha evolução. |
+| **Critérios de Aceitação** | - Dado que o aluno responde a uma questão,<br>- Quando submete a resposta,<br>- Então deve receber feedback imediato com explicação, referência de estudo e sugestão de próximo passo (formativa).<br><br>- Dado um conjunto de questões de um tópico,<br>- Quando o aluno conclui o bloco,<br>- Então o sistema deve mostrar resumo com acertos, erros e recomendações de reforço (informativa + formativa).<br><br>- Dado que o aluno revisite uma questão,<br>- Quando visualizar o histórico,<br>- Então deve ver suas tentativas, feedbacks e progresso ao longo do tempo. |
+| **Rastreabilidade** | [RF25]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Épico Relacionado** | |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 28: US26</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US26 |
+| **Título** | Assistência ao Professor no Módulo de Interação |
+| **História** | Como um professor,<br>eu quero receber assistência do SAE para planejar, aplicar e revisar atividades no módulo de interação,<br>para otimizar o tempo e melhorar a qualidade pedagógica. |
+| **Critérios de Aceitação** | - Dado que informo objetivos de aprendizagem e o conteúdo,<br>- Quando solicito sugestões,<br>- Então o sistema deve recomendar tipos de questões, níveis de dificuldade e materiais de apoio coerentes.<br><br>- Dado que a turma concluiu uma atividade,<br>- Quando abro o relatório do módulo,<br>- Então devo ver estatísticas por questão/tópico, principais erros, padrões de confusão e sugestões de intervenção.<br><br>- Dado que tenho pouco tempo para preparar uma aula,<br>- Quando aciono o assistente do SAE,<br>- Então ele deve gerar um roteiro com sequência de atividades e checkpoints avaliativos. |
+| **Rastreabilidade** | [RF26]((https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)) |
+| **Épico Relacionado** | |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
 
 ## [US28](https://www.google.com/search?q=https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/%23us28-gerenciar-banco-de-questoes-do-professor) - Gerenciar Banco de Questões do Professor
 
@@ -569,3 +680,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.3    | 19/10/2025 | Correção dos hiperlinks das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões | [João Victor Pires](https://github.com/joaovpires) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.3    | 19/10/2025 | Correção por adição de *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos | [João Felipe](https://github.com/MrBolt2005) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) <rb> [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.4    | 20/10/2025 | Criação e adição das histórias de usuário [US01 - Identificação e Autenticação de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us01-identificacao-e-autenticacao-de-usuarios), [US02 - Visualizar e Gerenciar Perfil Individual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us02-visualizar-e-gerenciar-perfil-individual), [US11 - Exibir média geral da turma](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us11-exibir-media-geral-da-turma), [US13 - Configurar Alertas de Atividades Atrasadas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us13-configurar-alertas-de-atividades-atrasadas), [US28 - Gerenciar Banco de Questões do Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor) e [US38 - Visualizar Personagem do Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual) | [Vilmar José](https://github.com/VilmarFagundes) | [João Sapiência](https://github.com/JoaoSapiencia) |
+| 1.5    | 18/10/2025 | Criação das historias de usuario 03, 04, 05, 16, 20, 25 e 26 | [Arthur Henrique](https://github.com/arthurhvieira1)| [Felipe Guimaraes](https://github.com/felipegf1) |
