@@ -349,7 +349,56 @@ Os requisitos utilizados para o **NFR 04 (Perfomance)** estão apresentados na p
 
 - [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos.
 
-## Gravação da validação do documento
+## Gravações da Validação do Documento
+
+### Gravação 1
+A Tabela 9 mostra os participantes do grupo envolvidos na validação.
+
+<div align="center"><strong>Tabela 9: Participantes envolvidos</strong></div>
+
+| Nome |
+|------|
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005)   |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+A Tabela 10 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+
+<div align="center"><strong>Tabela 55: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| João Igor | 21/10/2025 | 13:15 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+Além disso, a gravação da validação conferida em: [https://youtu.be/oau9-6bMAJQ?si=HfKC5XhVh90sN2V3](https://youtu.be/oau9-6bMAJQ?si=HfKC5XhVh90sN2V3).
+
+---
+
+### Gravação 2
+A Tabela 11 mostra os participantes do grupo envolvidos na validação.
+
+<div align="center"><strong>Tabela 11: Participantes envolvidos</strong></div>
+
+| Nome |
+|------|
+| [Vilmar José](https://github.com/VilmarFagundes)       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+A Tabela 12 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+
+<div align="center"><strong>Tabela 12: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| Bianca Gonçalves | 21/10/2025 | 00:00 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+Além disso, a gravação da validação conferida em: .
 
 ## Agradecimentos
 O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
