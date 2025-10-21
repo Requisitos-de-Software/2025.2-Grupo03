@@ -18,7 +18,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação da documentação e auxílio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) |
-| [Vilmar José](https://github.com/VilmarFagundes) |   |
+| [Vilmar José](https://github.com/VilmarFagundes) | Auxílio na criação do [NFR 02 - Confiabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-02-confiabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -187,20 +187,74 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 ---
 
+<div align="center"><strong>Tabela 6: Cartão de Especificação 4</strong></div>
+
+| **Índice e Título do Requisito** |
+|---------------------------|
+| **RNF09 – Disponibilidade 24/7** |
+**Classificação:** Confiabilidade |
+**Descrição:** O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês. |
+**Justificativa:** Garantir que os usuários possam acessar a plataforma a qualquer momento, adaptando-se a diferentes rotinas de estudo e trabalho. |
+**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
+**Critério de Aceitação:** O tempo de funcionamento do sistema, medido mensalmente por ferramentas de monitoramento, deve ser de no mínimo 99%. |
+**Dependências:** Infraestrutura de servidor robusta (ex: nuvem com redundância), plano de contingência e monitoramento de serviços. |
+**Prioridade:** Alta |
+**Conflitos:** Pode exigir custos de infraestrutura elevados e limitar janelas de manutenção necessárias para atualizações (Suportabilidade). |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 7: Cartão de Especificação 5</strong></div>
+
+| **Índice e Título do Requisito** |
+|---------------------------|
+| **RNF10 – Tempo de Resposta de Dashboards** |
+**Classificação:** Performance |
+**Descrição:** O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. |
+**Justificativa:** Assegurar uma experiência de usuário fluida e ágil ao consultar dados analíticos, evitando frustração e abandono da ferramenta. |
+**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
+**Critério de Aceitação:** O tempo médio de carregamento completo (renderização de todos os elementos) dos dashboards e gráficos deve ser inferior a 3 segundos, medido em 95% das requisições. |
+**Dependências:** Otimização de consultas ao banco de dados e da renderização dos componentes gráficos no *frontend*. |
+**Prioridade:** Alta |
+**Conflitos:** Pode conflitar com [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) (criptografia de dados) e [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) (auditoria de acesso), que adicionam sobrecarga ao processamento e consulta de dados. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+---
+
 | **Índice e Título do Requisito** |
 |---------------------------|
 | **RNF14 – Escalabilidade** |
 **Classificação:** Suportabilidade  |
 **Descrição:** O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho.  |
 **Justificativa:** Garante que o sistema continue funcional e eficiente mesmo com o crescimento da base de usuários e funcionalidades, evitando gargalos.  |
-**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais).  |
+**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/).  |
 **Critério de Aceitação:** O sistema deve suportar ao menos 5.000 usuários simultâneos com tempo de resposta inferior a 2 segundos.  |
 **Dependências:** Arquitetura escalável (ex.: microserviços), infraestrutura em nuvem e balanceamento de carga.  |
 **Prioridade:** Alta  |
-**Conflitos:** Pode entrar em conflito com [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais).|
+**Conflitos:** Pode entrar em conflito com [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).|
 
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 8: Cartão de Especificação 6</strong></div>
+
+| **Índice e Título do Requisito** |
+|---------------------------|
+| **RNF15 – Conformidade com LGPD** |
+**Classificação:** Confiabilidade |
+**Descrição:** O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD (Lei Geral de Proteção de Dados). |
+**Justificativa:** Atender às exigências legais, protegendo os dados pessoais dos usuários contra acessos indevidos e evitando sanções. Gera confiança na plataforma. |
+**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
+**Critério de Aceitação:** O sistema deve possuir mecanismos de consentimento de uso de dados, permitir a anonimização ou exclusão de dados pessoais sob demanda, e ter políticas de privacidade claras. Acesso aos dados deve ser restrito e auditado. |
+**Dependências:** Implementação de [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) (Armazenamento seguro) e módulos de controle de acesso e auditoria. |
+**Prioridade:** Alta |
+**Conflitos:** A implementação de logs de auditoria detalhados pode impactar a performance do sistema, especialmente em consultas ([RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)). |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
@@ -250,6 +304,11 @@ A **Figura 5** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 
 ### NFR 02 - Confiabilidade
 
+Os requisitos utilizados para o **NFR 02 (Confiabilidade)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes: 
+
+- [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês.
+- [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD.
+
 ### NFR 03 - Suportabilidade
 
 Os requisitos utilizados para o **NFR 03 (Suportabilidade)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:  
@@ -286,6 +345,10 @@ A **Figura 7** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 
 ### NFR 04 - Performance
 
+Os requisitos utilizados para o **NFR 04 (Perfomance)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:
+
+- [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos.
+
 ## Gravação da validação do documento
 
 ## Agradecimentos
@@ -300,5 +363,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.0    | 16/10/2025 | Criação do documento de NFR           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.1    | 18/10/2025 | Auxílio na criação do NFR 01 - Usabilidade           | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.2    | 20/10/2025 | Auxílio na criação do NFR 03- suportabilidade          | [Arthur Guilherme](https://github.com/ArthurGuilher62)       | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
-
-
+| 1.3    | 21/10/2025 | Auxílio na criação do [NFR 02 - Confiabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-02-confiabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
