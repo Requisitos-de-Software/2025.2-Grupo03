@@ -17,7 +17,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [João Felipe](https://github.com/MrBolt2005) | Correção dos *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos. |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Backlog e participação da criação dos épicos [EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo)  |
-| [Vilmar José](https://github.com/VilmarFagundes) |   |
+| [Vilmar José](https://github.com/VilmarFagundes) | Participação dos épicos [EP01 - Gerenciar Perfis de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes)  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -204,6 +204,11 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:** 
 
+- [US01 -  Identificação e Autenticação de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us01-identificacao-e-autenticacao-de-usuarios)
+- [US02 - Visualizar e Gerenciar Perfil Individual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us02-visualizar-e-gerenciar-perfil-individual)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
 ---
 
 ### [EP02](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas) – Mapear e Estruturar Conteúdos segundo a TAS
@@ -265,6 +270,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:** 
 
+- [US38 - Visualizar Personagem do Assistente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
 ---
 
 ### [EP10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos) – Analisar Dificuldades Cognitivas e Sugerir Conteúdos
@@ -301,10 +310,11 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:**
 
+- [US11 - Exibir Média Geral da Turma](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us11-exibir-media-geral-da-turma)
 - [US21 – Exibir Dados e Informações Analíticas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas)
 - [US22 – Gerar Análises em Tempo Real com Gráficos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos)
 
-<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href ="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
@@ -355,9 +365,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:**
 
+- [US13 - Configurar Alertas de Atividades Atrasadas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us13-configurar-alertas-de-atividades-atrasadas)
 - [US18 – Definir Forma Preferida de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao)
 
-<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href ="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
@@ -410,6 +421,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Descrição:** Gerenciar um banco de questões provenientes de diferentes origens, permitindo filtragem e reutilização.  
 
 **Histórias relacionadas:** 
+
+- [US28 - Gerenciar Banco de Questões do Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
@@ -471,3 +486,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.3    | 18/10/2025 | Participação da criação dos épicos EP14, EP16 e EP20  | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.4    | 19/10/2025 | Correção dos hiperlinks das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões | [João Victor Pires](https://github.com/joaovpires) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.4    | 19/10/2025 | Correção dos *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos | [João Felipe](https://github.com/MrBolt2005) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) <rb> [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.5    | 20/10/2025 | Participação da criação dos épicos [EP01 - Gerenciar Perfis de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) | [Vilmar José](https://github.com/VilmarFagundes) | [Felipe Guimaraes](https://github.com/felipegf1) |
