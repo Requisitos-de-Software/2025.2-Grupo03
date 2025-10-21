@@ -11,8 +11,8 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 |---------|-----------|-------------|
 | [Etapa 1](#cronograma-de-entrega-1-planejamento) | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
 | [Etapa 2](#cronograma-de-entrega-2-elicitacao-tecnicas-e-priorizacao) | Elicitação – Técnicas e Priorização | 30/09 |
-| Etapa 3 | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
-| Etapa 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
+| [Etapa 3](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-de-entrega-3-modelagem-de-requisitos) | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
+| [Etapa 4](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-de-entrega-4-modelagem-de-requisitos-agil)| Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
 | Etapa 6 | Pós-Rastreabilidade - Gerência II | 28/10 |
 | Etapa 5 | Análise de Requisitos: Verificação e Validação | 12/11 |
 | Projeto Final | Desenvolvimento e Finalização do Projeto | 24/11 |
