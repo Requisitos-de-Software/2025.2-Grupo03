@@ -11,13 +11,13 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento de Backlog e Criação dos epicos Criação dos épicos [EP10 - Analisar Dificuldades Cognitivas e Sugerir Conteúdos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos), [EP11 - Acompanhar Interações e Progresso do Usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario), [EP26 - Facilitar Comunicação via Chat e Monitoria](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) e [EP27 - Fornecer Dados ao Professor sobre Domínio e Comportamento](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento de Backlog e Criação dos epicos Criação dos épicos [EP10 - Analisar Dificuldades Cognitivas e Sugerir Conteúdos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos), [EP11 - Acompanhar Interações e Progresso do Usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario), [EP26 - Facilitar Comunicação via Chat e Monitoria](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) e [EP27 - Fornecer Dados ao Professor sobre Domínio e Comportamento](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento). Além da participação na validação na [Gravação 1](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-1) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Participação dos épicos [EP02 – Mapear e Estruturar Conteúdos segundo a TAS](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas), [EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual), [EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional), [EP08 – Oferecer Assistência Personalizada a Alunos e Professores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores), [EP15 – Identificar Conteúdos com Maior Índice de Erro](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-identificar-conteudos-com-maior-indice-de-erro), [EP20 – Disponibilizar Vídeo Aulas como Recurso Complementar](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) e [EP22 – Criar e Organizar Questões Interativas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas) |
 | [Felipe Guimaraes](https://github.com/felipegf1) |  Criação dos epicos [EP14 - Exibir media e porcentagens por conteudo e usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario), [EP16 - Exibir progresso completo e percentual do aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno) e [EP20 - Disponibilizar videoaulas como recurso complementar](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) |
 | [João Felipe](https://github.com/MrBolt2005) | Correção dos *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos. |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Backlog e participação da criação dos épicos [EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo)  |
-| [Vilmar José](https://github.com/VilmarFagundes) | Participação dos épicos [EP01 - Gerenciar Perfis de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes)  |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Backlog e participação da criação dos épicos [EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo). Além da participação na validação na [Gravação 1](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-1)  |
+| [Vilmar José](https://github.com/VilmarFagundes) | Participação dos épicos [EP01 - Gerenciar Perfis de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes). Além da participação na validação na [Gravação 1](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-1)  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -505,7 +505,59 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 ---
 
-## Gravação da validação do documento
+## Gravações da Validação e Priorização do Documento
+
+### Gravação 1
+A Tabela 3 mostra os participantes do grupo envolvidos na validação e priorização.
+
+<div align="center"><strong>Tabela 3: Participantes envolvidos</strong></div>
+
+| Nome |
+|------|
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005)   |
+| [Vilmar José](https://github.com/VilmarFagundes)       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+A Tabela 4 apresenta as informações do usuário que participou da etapa de validação e priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+
+<div align="center"><strong>Tabela 4: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| Yzabella Miranda | 21/10/2025 | 11:00 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+Além disso, a gravação da elicitação conferida em: [https://youtu.be/G6XRiBhnWI8?si=zb9n7M_hhYv8x2UO](https://youtu.be/G6XRiBhnWI8?si=zb9n7M_hhYv8x2UO).
+
+---
+
+### Gravação 2
+A Tabela 5 mostra os participantes do grupo envolvidos na validação e priorização.
+
+<div align="center"><strong>Tabela 5: Participantes envolvidos</strong></div>
+
+| Nome |
+|------|
+| [Arthur Henrique](https://github.com/arthurhvieira1) |
+| [Felipe Guimaraes](https://github.com/felipegf1)   |
+| [João Sapiência](https://github.com/JoaoSapiencia)       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+A Tabela 6 apresenta as informações do usuário que participou da etapa de validação e priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+
+<div align="center"><strong>Tabela 6: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| João Igor | 21/10/2025 | 11:00 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+Além disso, a gravação da elicitação conferida em: .
 
 ## Agradecimentos
 O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
@@ -525,3 +577,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.4    | 19/10/2025 | Correção dos *hiperlinks* das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos | [João Felipe](https://github.com/MrBolt2005) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) <rb> [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.5    | 20/10/2025 | Participação da criação dos épicos [EP01 - Gerenciar Perfis de Usuários](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios), [EP09 - Criar Personagem Interativo Customizável](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel), [EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores), [EP18 - Configurar Preferências de Tempo e Forma de Notificação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao) e [EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) | [Vilmar José](https://github.com/VilmarFagundes) | [Felipe Guimaraes](https://github.com/felipegf1) |
 | 1.6    | 21/10/2025 | Participação dos épicos [EP02](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas) – Mapear e Estruturar Conteúdos segundo a TAS, [EP04](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual) – Integrar o Processo de Avaliação ao Ambiente Virtual, [EP05](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional) – Relacionar Avaliação Docente com Inferências do Assistente Educacional, [EP15](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-identificar-conteudos-com-maior-indice-de-erro) – Identificar Conteúdos com Maior Índice de Erro, [EP20](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar) – Disponibilizar Vídeo Aulas como Recurso Complementar, [EP22](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas) – Criar e Organizar Questões Interativas e [EP08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores) – Oferecer Assistência Personalizada a Alunos e Professores   | [Arthur Henrique](https://github.com/arthurhvieira1) | [Felipe Guimaraes](https://github.com/felipegf1) |
+| 1.7    | 21/10/2025 | Adição da Gravação 1 de validação  | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [João Sapiência](https://github.com/JoaoSapiencia) |
