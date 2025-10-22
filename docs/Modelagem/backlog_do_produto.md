@@ -97,7 +97,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
 | [TM11](httpsDhttps://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm11-comunicacao-e-colaboracao-academica). Comunicação e Colaboração Acadêmica | [EP26](httpsDhttps://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria) – Facilitar Comunicação via Chat e Monitoria | [US43 – Facilitar Interação entre Monitores, Professores e Alunos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos) | RF43 | Média |
 | | | [US44 – Chat Síncrono para Interação a Distância](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia) | RF44 | Média |
 | | | [US47 – Informações sobre Horários e Locais de Monitoria](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria) | RF47 | Média |
-| | [EP27](httpsDhttps://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) – Fornecer Dados ao Professor sobre Domínio e Comportamento | [US42 – Notificação de Conteúdos Mais Difíceis](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis) | RF42 | Média |
+| | [EP27](httpsDhttps://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento) – Fornecer Dados ao Professor sobre Domínio e Comportamento | [US41 – Notificação de Conteúdos Mais Difíceis ao Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us41-notificacao-de-conteudos-mais-dificeis-ao-aluno) | RF41 | Média |
 | | | [US50 – Identificar Conhecimento do Aluno](httpsDhttps://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno) | RF50 | Média |
 | | | [US51 – Identificar Comportamento Adequado do Aluno](httpsDhttps://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno) | RF51 | Média |
 
@@ -496,7 +496,7 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:**
 
-- [US42 – Notificação de Conteúdos Mais Difíceis](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis)
+- [US41 – Notificação de Conteúdos Mais Difíceis ao Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us41-notificacao-de-conteudos-mais-dificeis-ao-aluno)
 - [US50 – Identificar Conhecimento do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno)
 - [US51 – Identificar Comportamento Adequado do Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno)
 
