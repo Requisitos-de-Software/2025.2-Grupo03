@@ -48,6 +48,44 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 <div align="center"><strong>Tabela 3: Lista de Verificação de NFR Framework</strong></div>
 
+| ID  | Item de Verificação | Autor |
+|-----|---------------------|-------|
+| 1   | O sistema utiliza o NFR Framework para representar e analisar requisitos não-funcionais? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 2   | Os softgoals foram definidos com clareza e sem critérios de satisfação precisos? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 3   | As inter-relações entre softgoals estão representadas? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 4   | O modelo inclui análise qualitativa dos softgoals? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 5   | Foram utilizados catálogos de requisitos e trade-offs? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 6   | O gráfico SIG foi criado para representar softgoals e interdependências? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 7   | As decisões de desenvolvimento foram registradas graficamente no SIG? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 8   | Foram identificados os três tipos de softgoals (NFR, Operacionalização e Afirmação)? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 9   | Cada softgoal possui tipo e tópico definidos (ex: Confiabilidade [Infusor])? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 10  | Foram aplicados refinamentos top-down entre softgoals? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 11  | Foram utilizadas decomposições de softgoals (NFR, operacionalização, afirmação e priorização)? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 12  | As contribuições entre softgoals estão representadas e identificadas corretamente? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 13  | Foram utilizadas contribuições positivas e negativas (AND, OR, MAKE, BREAK, HELP, HURT, SOME, UNKNOWN, EQUALS)? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 14  | Os trade-offs entre requisitos foram analisados (ex: Segurança vs Desempenho)? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 15  | Foi aplicado o procedimento de avaliação para determinar o grau de satisfação dos RNFs? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 16  | Foram atribuídos rótulos de satisfação aos softgoals? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 17  | O impacto das decisões de baixo nível foi propagado aos níveis superiores do SIG? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 18  | O framework contribuiu para rastreabilidade e justificativas das decisões? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 19  | O NFR Framework foi utilizado para expressar os requisitos do catálogo NFR4ES? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 20  | O modelo final inclui todos os elementos do framework: softgoals, interdependências, contribuições e avaliação? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 21  | As afirmações foram utilizadas para apoiar ou negar justificativas de projeto? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 22  | As contribuições entre softgoals estão corretamente especificadas no SIG? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 23  | As contribuições parciais e totais (HELP, HURT, MAKE, BREAK) estão corretamente diferenciadas? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 24  | As relações AND e OR entre softgoals foram utilizadas quando aplicável? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 25  | Foram aplicadas contribuições SOME, UNKNOWN e EQUALS conforme incerteza das relações? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 26  | O procedimento de avaliação foi corretamente aplicado ao final da modelagem? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 27  | Foram utilizados os rótulos de satisfação adequados durante a avaliação (satisfeito, negado, etc.)? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 28  | O impacto das decisões de baixo nível foi corretamente propagado para os softgoals superiores? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 29  | Há registro gráfico e textual das decisões de refinamento e contribuição? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/JoaoSapiencia">João Sapiência</a>
+    </strong>
+</div>
 
 ## Referências
 
