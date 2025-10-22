@@ -331,6 +331,40 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 ---
 
+<div align="center"><strong>Tabela 13: Cartão de Especificação 11</strong></div>
+
+|  [RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Acessibilidade Remota e Presencial|
+|---------------------------|
+| **Classificação:** Disponibilidade (Confiabilidade) |
+**Descrição:** O sistema deve ser plenamente acessível e funcional tanto remotamente (a distância, via internet) quanto localmente (presencial, na rede da instituição). |
+**Justificativa:** Garantir que alunos, professores e monitores possam utilizar o SAE independentemente do modelo de ensino (presencial, híbrido ou EAD), oferecendo flexibilidade total de acesso. |
+**Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
+**Critério de Aceitação:** 1. O sistema deve ser acessível por meio de um navegador web padrão (ex: Chrome, Firefox) conectado à internet pública.<br> 2. O sistema deve ser acessível pela rede interna da instituição (se aplicável).<br> 3. Todas as funcionalidades devem operar de forma idêntica em ambos os acessos. |
+**Dependências:** Infraestrutura de hospedagem web (servidor, domínio) com acesso à internet; Configuração de rede local (para acesso presencial). |
+**Prioridade:** Alta |
+**Conflitos:** O acesso público pela internet (a distância) aumenta a necessidade de robustez da segurança ([RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)), exigindo firewalls e controles que podem impactar a latência ([RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)). |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 14: Cartão de Especificação 12</strong></div>
+
+|  [RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Extensão de STI para ITA|
+|---------------------------|
+| **Classificação:** Suportabilidade (Arquitetura) |
+**Descrição:** O sistema deve ser arquitetado como uma extensão de um Sistema Tutor Inteligente (STI) existente, evoluindo suas capacidades para se tornar um Assistente Virtual de Ensino Inteligente (ITA). |
+**Justificativa:** Aproveitar a base de conhecimento, as regras pedagógicas e a arquitetura já validadas do STI, acelerando o desenvolvimento e garantindo que o novo assistente (ITA) herde a inteligência pedagógica do sistema anterior, adicionando novas capacidades de interação proativa. |
+**Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
+**Critério de Aceitação:** 1. A arquitetura do ITA deve demonstrar o reaproveitamento dos módulos centrais do STI (ex: motor de inferência, base de conhecimento pedagógico).<br> 2. O ITA deve ser capaz de executar todas as funções de tutoria do STI original, além das novas funcionalidades de assistência virtual. |
+**Dependências:** Acesso completo ao código-fonte, documentação e arquitetura do Sistema Tutor Inteligente (STI) que servirá de base. |
+**Prioridade:** Alta |
+**Conflitos:** A arquitetura legada do STI pode impor restrições que dificultem a implementação de novos requisitos de performance ([RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)) ou escalabilidade ([RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)). |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
 ## Gráfico de Interdependência de Softgoals (SIG)
 A Figura 4 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
 Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cada requisito contribui para atingir os objetivos gerais do sistema.
