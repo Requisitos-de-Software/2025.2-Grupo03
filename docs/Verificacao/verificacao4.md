@@ -107,6 +107,9 @@ Para acessar esse PDF [clique aqui](../arquivos/LVBACKLOG.pdf).
     </strong>
 </div>
 
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado.  
+Para acessar esse PDF [clique aqui](../arquivos/listaverificaçãonfr.pdf).
+
 ## Referências
 
 SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 15. Disponível em: [Requisitos_Aula 15](../arquivos/backlog_aula.pdf). Acesso em: 21 outubro 2025.
