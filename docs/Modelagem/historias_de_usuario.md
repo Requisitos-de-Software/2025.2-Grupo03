@@ -631,7 +631,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
-## [US36](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us36-analisar-situacao-de-aprendizagem-na-interacao) – Analisar Situação de Aprendizagem na Interação
+## [](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us36-analisar-situacao-de-aprendizagem-na-interacao) – Analisar Situação de Aprendizagem na Interação
 
 <div align="center"><strong>Tabela 38: US36</strong></div>
 
@@ -642,7 +642,7 @@ A padronização da tabela pode ser observada na Tabela 2.
 | **História** | Como um aluno,<br>eu quero que a minha interação com o assistente virtual (ITA) ajude o sistema a entender minha real situação de aprendizagem (o que eu sei e o que eu não sei),<br>para que ele possa me oferecer ajuda e sugestões que sejam realmente úteis e personalizadas para minha dificuldade. |
 | **Critérios de Aceitação** | - **Dado que** o aluno faz uma pergunta vaga ao assistente virtual (ex: "Me explique 'TAS'").<br>- **Quando** o assistente não tem certeza do nível de conhecimento do aluno sobre o tema.<br>- **Então** o assistente deve fazer perguntas de sondagem para compreender a situação (ex: "Você já entendeu o que são 'subsunssores' ou quer começar pelo básico?").<br><br>- **Dado que** o aluno erra uma questão sugerida pelo assistente durante o chat.<br>- **Quando** o assistente analisa essa interação.<br>- **Então** o sistema deve usar essa informação para (compreender a situação) e reajustar a próxima sugestão, focando no ponto de dificuldade. |
 | **Rastreabilidade** | [RF36](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
-| **Épico Relacionado** | [EP10](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos) – Analisar Dificuldades Cognitivas e Sugerir Conteúdos |
+| **Épico Relacionado** | [EP12](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente) – Promover Compreensão da Aprendizagem por Interação Inteligente |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
