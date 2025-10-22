@@ -51,6 +51,14 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 ## Referências
 
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 15. Disponível em: [Requisitos_Aula 15](../arquivos/backlog_aula.pdf). Acesso em: 21 outubro 2025.
+
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 17. Disponível em: [Requisitos_Aula 17](../arquivos/NFR_aula017.pdf). Acesso em: 21 outubro 2025.
+
+Reinaldo Antônio da Silva – Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Disponível em: [Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados](../arquivos/requisitos_naoFuncionais_embarcados.pdf). Acesso em: 21 outubro 2025.
+
+Roger S. Pressman – Engenharia de Software Uma Abordagem Profissional - Cap. 3. Disponível em: [Engenharia de Software Uma Abordagem Profissional](../arquivos/desenvolvimento_Agil.pdf). Acesso em: 21 outubro 2025.
+
 
 ## Histórico de versão
 

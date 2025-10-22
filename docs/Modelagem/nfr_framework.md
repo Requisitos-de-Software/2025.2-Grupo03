@@ -442,6 +442,11 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Referências
 
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 17. Disponível em: [Requisitos_Aula 17](../arquivos/NFR_aula017.pdf). Acesso em: 21 outubro 2025.
+
+Reinaldo Antônio da Silva – Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Disponível em: [Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados](../arquivos/requisitos_naoFuncionais_embarcados.pdf). Acesso em: 21 outubro 2025.
+
+
 ## Históricos de versão
 
 | Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |

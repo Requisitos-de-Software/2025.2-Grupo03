@@ -901,6 +901,11 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Referências
 
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 15. Disponível em: [Requisitos_Aula 15](../arquivos/backlog_aula.pdf). Acesso em: 21 outubro 2025.
+
+Roger S. Pressman – Engenharia de Software Uma Abordagem Profissional - Cap. 3. Disponível em: [Engenharia de Software Uma Abordagem Profissional](../arquivos/desenvolvimento_Agil.pdf). Acesso em: 21 outubro 2025.
+
+
 
 ## Históricos de versão
 

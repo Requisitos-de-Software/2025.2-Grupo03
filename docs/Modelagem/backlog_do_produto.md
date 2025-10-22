@@ -583,12 +583,15 @@ A Tabela 59 apresenta as informações do usuário que participou da etapa de va
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Além disso, a gravação da validação conferida em: [https://youtu.be/LPax-bLDhYw?si=uShTjdpKJhNuvm45](https://youtu.be/LPax-bLDhYw?si=uShTjdpKJhNuvm45). Sendo que do minuto 9:41 até o minuto 20:51 corresponde à validação e priorização do Backlog.
+Além disso, a gravação da validação conferida em: [https://youtu.be/LPax-bLDhYw?si=uShTjdpKJhNuvm45](https://youtu.be/LPax-bLDhYw?si=uShTjdpKJhNuvm45). Sendo que do minuto 9:42 até o minuto 20:51 corresponde à validação e priorização do Backlog.
 
 ## Agradecimentos
 O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
 
 ## Referências
+
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 15. Disponível em: [Requisitos_Aula 15](../arquivos/backlog_aula.pdf). Acesso em: 21 outubro 2025.
+
 
 
 ## Históricos de versão
