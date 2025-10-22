@@ -416,8 +416,8 @@ A **Figura 8** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 
 **Avaliação dos softgoals de usabilidade:**
 
-- [RNF03 (Tempo de resposta de ate 1 segundo)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** - O ambiente ainda nao tem tempo de resposta de até 1 segundo para todos os perfis de usuários.
-- [RNF10 (Tempo de resposta em dashboards e graficos)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** O tempo de resposta para carregamento de dashboards e gráficos ainda nao é inferior a 3 segundos.
+- [RNF03 (Tempo de resposta de ate 1 segundo)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Indeterminado (u)** - O ambiente ainda nao tem tempo de resposta de até 1 segundo para todos os perfis de usuários.
+- [RNF10 (Tempo de resposta em dashboards e graficos)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Indeterminado (u)** O tempo de resposta para carregamento de dashboards e gráficos ainda nao é inferior a 3 segundos.
 
 ## Gravações da Validação do Documento
 
