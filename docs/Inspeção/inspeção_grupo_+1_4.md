@@ -28,7 +28,7 @@ Documento baseado na lista de verificação feita para a entrega 4 do grupo +1. 
 
 # Vídeo da inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://youtu.be/Wt3UbA7tg-o)
 
 ## Histórico de versão
 
