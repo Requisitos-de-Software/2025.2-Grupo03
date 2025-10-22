@@ -322,37 +322,37 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 ---
 
-<div align="center"><strong>Tabela 13: Cartão de Especificação 11</strong></div>
+<div align="center"><strong>Tabela 16: Cartão de Especificação 14</strong></div>
 
-|  [RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Acessibilidade Remota e Presencial|
+|  [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Abordagem Multidisciplinar do Projeto|
 |---------------------------|
-| **Classificação:** Disponibilidade (Confiabilidade) |
-**Descrição:** O sistema deve ser plenamente acessível e funcional tanto remotamente (a distância, via internet) quanto localmente (presencial, na rede da instituição). |
-**Justificativa:** Garantir que alunos, professores e monitores possam utilizar o SAE independentemente do modelo de ensino (presencial, híbrido ou EAD), oferecendo flexibilidade total de acesso. |
+| **Classificação:** Suportabilidade (Organizacional) |
+**Descrição:** O projeto deve ser desenvolvido e mantido por uma equipe multidisciplinar, integrando especialistas das áreas de Educação (Pedagogia), Psicologia (Cognitiva) e Informática (IA, Engenharia de Software). |
+**Justificativa:** Assegurar que as funcionalidades do SAE (especialmente o ITA e as análises do MAD) sejam pedagogicamente válidas, psicologicamente adequadas e tecnicamente robustas, alinhando a tecnologia aos fundamentos teóricos do aprendizado (TAS). |
 **Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
-**Critério de Aceitação:** 1. O sistema deve ser acessível por meio de um navegador web padrão (ex: Chrome, Firefox) conectado à internet pública.<br> 2. O sistema deve ser acessível pela rede interna da instituição (se aplicável).<br> 3. Todas as funcionalidades devem operar de forma idêntica em ambos os acessos. |
-**Dependências:** Infraestrutura de hospedagem web (servidor, domínio) com acesso à internet; Configuração de rede local (para acesso presencial). |
+**Critério de Aceitação:** 1. As especificações de regras pedagógicas e modelos cognitivos devem ser revisadas e validadas por especialistas das áreas de Educação e Psicologia.<br> 2. As soluções de Informática implementadas devem refletir fielmente os modelos definidos pela equipe multidisciplinar. |
+**Dependências:** Disponibilidade de profissionais e consultores das três áreas (Educação, Psicologia, Informática) durante o ciclo de vida do projeto. |
 **Prioridade:** Alta |
-**Conflitos:** O acesso público pela internet (a distância) aumenta a necessidade de robustez da segurança ([RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)), exigindo firewalls e controles que podem impactar a latência ([RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)). |
+**Conflitos:** A necessidade de validação constante entre as diferentes áreas pode aumentar o tempo de ciclo do desenvolvimento de novas funcionalidades, potencialmente impactando cronogramas de entrega. |
 
-<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/usuario">Seu Nome/Usuário</a></strong></div>
 
 ---
 
-<div align="center"><strong>Tabela 14: Cartão de Especificação 12</strong></div>
+<div align="center"><strong>Tabela 15: Cartão de Especificação 13</strong></div>
 
-|  [RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Extensão de STI para ITA|
+|  [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Conformidade com Padrões de Acessibilidade|
 |---------------------------|
-| **Classificação:** Suportabilidade (Arquitetura) |
-**Descrição:** O sistema deve ser arquitetado como uma extensão de um Sistema Tutor Inteligente (STI) existente, evoluindo suas capacidades para se tornar um Assistente Virtual de Ensino Inteligente (ITA). |
-**Justificativa:** Aproveitar a base de conhecimento, as regras pedagógicas e a arquitetura já validadas do STI, acelerando o desenvolvimento e garantindo que o novo assistente (ITA) herde a inteligência pedagógica do sistema anterior, adicionando novas capacidades de interação proativa. |
-**Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
-**Critério de Aceitação:** 1. A arquitetura do ITA deve demonstrar o reaproveitamento dos módulos centrais do STI (ex: motor de inferência, base de conhecimento pedagógico).<br> 2. O ITA deve ser capaz de executar todas as funções de tutoria do STI original, além das novas funcionalidades de assistência virtual. |
-**Dependências:** Acesso completo ao código-fonte, documentação e arquitetura do Sistema Tutor Inteligente (STI) que servirá de base. |
+| **Classificação:** Usabilidade (Acessibilidade) |
+**Descrição:** O sistema deve seguir padrões de acessibilidade (como as diretrizes WCAG 2.1) para garantir que possa ser utilizado por todos os usuários, incluindo pessoas com deficiências (visuais, auditivas, motoras ou cognitivas). |
+**Justificativa:** Tornar a plataforma inclusiva, permitindo que todos os alunos, independentemente de suas habilidades, possam acessar o conteúdo e as ferramentas de aprendizado sem barreiras, garantindo a equidade educacional. |
+**Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
+**Critério de Aceitação:** 1. O sistema deve atingir o nível de conformidade "AA" das diretrizes WCAG 2.1.<br> 2. Toda a navegação e funcionalidade principal do sistema deve ser operável via teclado.<br> 3. As imagens informativas devem possuir texto alternativo (alt text) e o contraste de cores entre texto e fundo deve atender aos mínimos do nível AA.<br> 4. O sistema deve ser compatível com os principais leitores de tela (ex: NVDA, VoiceOver). |
+**Dependências:** Utilização de HTML semântico e práticas de desenvolvimento front-end que sigam as diretrizes de acessibilidade. |
 **Prioridade:** Alta |
-**Conflitos:** A arquitetura legada do STI pode impor restrições que dificultem a implementação de novos requisitos de performance ([RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)) ou escalabilidade ([RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)). |
+**Conflitos:** Nenhum conflito direto identificado. Pode exigir um esforço de design e desenvolvimento mais detalhado para componentes interativos complexos, como os gráficos do [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais). |
 
-<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/usuario">Seu Nome/Usuário</a></strong></div>
 
 ---
 
