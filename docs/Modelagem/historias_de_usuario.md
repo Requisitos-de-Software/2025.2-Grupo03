@@ -868,7 +868,7 @@ A Tabela 57 apresenta as informações do usuário que participou da etapa de va
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Além disso, a gravação da validação conferida em: .
+Além disso, a gravação da validação conferida em: [Link no Youtube](https://www.youtube.com/watch?v=tFK8LEWU538&t)
 
 ---
 
