@@ -171,10 +171,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 5: Cartão de Especificação 3</strong></div>
 
-| **Índice e Título do Requisito** |
+| [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Armazenamento seguro e criptografado |
 |---------------------------|
-| **RNF08 – Armazenamento seguro e criptografado** |
-**Classificação:** Confiabilidade |
+| **Classificação:** Confiabilidade |
 **Descrição:** O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada.  |
 **Justificativa:** Protege informações sensíveis dos usuários contra acessos indevidos, vazamentos e ataques cibernéticos, promovendo confiança no uso da plataforma.  |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) .  |
@@ -189,10 +188,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 6: Cartão de Especificação 4</strong></div>
 
-| **Índice e Título do Requisito** |
+| [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Disponibilidade 24/7 |
 |---------------------------|
-| **RNF09 – Disponibilidade 24/7** |
-**Classificação:** Confiabilidade |
+| **Classificação:** Confiabilidade |
 **Descrição:** O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês. |
 **Justificativa:** Garantir que os usuários possam acessar a plataforma a qualquer momento, adaptando-se a diferentes rotinas de estudo e trabalho. |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
@@ -207,10 +205,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 7: Cartão de Especificação 5</strong></div>
 
-| **Índice e Título do Requisito** |
+| [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Tempo de Resposta de Dashboards |
 |---------------------------|
-| **RNF10 – Tempo de Resposta de Dashboards** |
-**Classificação:** Performance |
+| **Classificação:** Performance |
 **Descrição:** O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. |
 **Justificativa:** Assegurar uma experiência de usuário fluida e ágil ao consultar dados analíticos, evitando frustração e abandono da ferramenta. |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
@@ -223,10 +220,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 ---
 
-| **Índice e Título do Requisito** |
+| [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Escalabilidade |
 |---------------------------|
-| **RNF14 – Escalabilidade** |
-**Classificação:** Suportabilidade  |
+| **Classificação:** Suportabilidade  |
 **Descrição:** O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho.  |
 **Justificativa:** Garante que o sistema continue funcional e eficiente mesmo com o crescimento da base de usuários e funcionalidades, evitando gargalos.  |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/).  |
@@ -242,10 +238,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 8: Cartão de Especificação 6</strong></div>
 
-| **Índice e Título do Requisito** |
+| [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Conformidade com LGPD |
 |---------------------------|
-| **RNF15 – Conformidade com LGPD** |
-**Classificação:** Confiabilidade |
+| **Classificação:** Confiabilidade |
 **Descrição:** O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD (Lei Geral de Proteção de Dados). |
 **Justificativa:** Atender às exigências legais, protegendo os dados pessoais dos usuários contra acessos indevidos e evitando sanções. Gera confiança na plataforma. |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
@@ -260,9 +255,8 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 9: Cartão de Especificação 7</strong></div>
 
-| **Índice e Título do Requisito** |
-|---------------------------|
 | [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) - Tempo de Resposta do Ambiente |
+|---------------------------|
 | **Classificação:** Performance |
 | **Descrição:** O sistema deve processar as requisições do usuário e apresentar uma resposta visual completa em, no máximo, 1 segundo. |
 | **Justificativa:** Um tempo de resposta rápido é crucial para a retenção e satisfação do aluno. Atrasos acima de 1 segundo podem causar frustração, prejudicar o foco no estudo e aumentar a taxa de abandono da plataforma. |
@@ -278,10 +272,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 10: Cartão de Especificação 8</strong></div>
 
-| **Índice e Título do Requisito** |
-|---------------------------|
 | [RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) - Compatibilidade com Dispositivos Móveis |
-| **Classificação:** Usabilidade |
+|---------------------------|
+|  **Classificação:** Usabilidade |
 | **Descrição:** A interface do sistema deve se adaptar (layout, fontes, menus) e ser plenamente funcional em diferentes tamanhos de tela, com foco em smartphones e tablets. |
 | **Justificativa:** Os alunos utilizam diversos dispositivos para estudar. Garantir a responsividade permite que o usuário tenha uma boa experiência de aprendizado independentemente de onde acesse, aumentando a acessibilidade e a flexibilidade. |
 | **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
@@ -296,9 +289,8 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 11: Cartão de Especificação 9</strong></div>
 
-| **Índice e Título do Requisito** |
+| [RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) - Integração com outros AVAs e Sistemas Educacionais Externos |
 |---|
-| **RNF13 – Integração com outros AVAs e Sistemas Educacionais Externos** |
 | **Classificação:** Suportabilidade |
 | **Descrição:** O sistema deve possibilitar integração bidirecional com AVAs e sistemas educacionais externos por meio de padrões abertos e APIs, além de webhooks e SDKs quando aplicável. |
 | **Justificativa:** Garantir interoperabilidade com o ecossistema educacional, evitar *vendor lock-in*, reduzir retrabalho de dados e viabilizar adoção/expansão do produto em diferentes contextos institucionais. |
@@ -314,10 +306,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 <div align="center"><strong>Tabela 12: Cartão de Especificação 10</strong></div>
 
-| **Índice e Título do Requisito** |
+| [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) - Análises do módulo MAD em tempo real |
 |---|
-| **RNF07 – Análises do módulo MAD em tempo real** |
-| **Classificação:** Performance |
+|  **Classificação:** Performance |
 | **Descrição:** As análises do módulo **MAD** devem ser processadas e refletidas nas visualizações e alertas **em tempo real**, a partir de eventos de uso da plataforma (interações, submissões, notas, progresso). |
 | **Justificativa:** Fornecer feedback imediato para alunos e professores, apoiando intervenções rápidas e decisões pedagógicas baseadas em dados atualizados. |
 | **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
