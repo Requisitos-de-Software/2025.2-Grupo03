@@ -15,7 +15,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | auxílio na criação do [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Auxílio na criação do [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance)   |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Auxilio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance)|
-| [João Felipe](https://github.com/MrBolt2005) |   |
+| [João Felipe](https://github.com/MrBolt2005) | Auxílio na criação e documentação de cartões de especificação dos Requisitos Não-Funcionais |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação da documentação e auxílio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) |
 | [Vilmar José](https://github.com/VilmarFagundes) | Auxílio na criação do [NFR 02 - Confiabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-02-confiabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) |
@@ -331,6 +331,42 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 ---
 
+<div align="center"><strong>Tabela 13: Cartão de Especificação 11</strong></div>
+
+| **Índice e Título do Requisito** |
+|----------------------------------|
+| **RNF02** – O sistema deve ser acessível pela *internet*, presencial ou a distância. |
+| **Classificação:** Usabilidade |
+| **Descrição:** O sistema deve ser acessível pela *internet* e permitir, também, o uso tanto presencial quanto a distância. |
+| **Justificativa:** Permitir que os usuários acessem a plataforma de qualquer local com conexão à *internet*, (inclusive/também) facilitando o aprendizado remoto e híbrido. |
+| **Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
+| **Critério de Aceitação:** O sistema deve estar disponível via navegador *web* em qualquer local com conexão à *internet*, sem restrições geográficas e/ou de telecomunicações significativas. |
+| **Dependências:** Infraestrutura de hospedagem *web* confiável e escalonável; suporte multiplataforma: a múltiplos navegadores, dispositivos e interfaces. |
+| **Prioridade:** Alta |
+| **Conflitos:** Podem se manifestar com [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) (Disponibilidade 24/7) em caso de falhas de rede ou manutenção programada. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 14: Cartão de Especificação 12</strong></div>
+
+| **Índice e Título do Requisito** |
+|----------------------------------|
+| **RNF04** – O sistema deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
+| **Classificação:** Suportabilidade |
+| **Descrição:** O sistema deve ser construído como uma extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA), incorporando funcionalidades avançadas de tutoria e (de) suporte ao aprendizado. |
+| **Justificativa:** Aproveitar as capacidades de um STI para fornecer suporte personalizado e adaptativo aos alunos, (se) melhorando a eficácia do ensino e a experiência de aprendizado. |
+| **Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
+| **Critério de Aceitação:** O sistema deve implementar funcionalidades típicas de um STI, como diagnóstico de erros (desempenho/assimilação), *feedback* adaptativo e planejamento de estudos personalizados. |
+| **Dependências:** Módulos de inteligência artificial e aprendizado de máquina; base de conhecimento pedagógica; integração com sistemas educacionais existentes. |
+| **Prioridade:** Média |
+| **Conflitos:** Pode haver conflitos com [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) (Escalabilidade) devido à complexidade adicional introduzida pelas funcionalidades de STI, que podem impactar a capacidade do sistema de escalonar eficientemente. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+---
+
 ## Gráfico de Interdependência de Softgoals (SIG)
 A Figura 4 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
 Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cada requisito contribui para atingir os objetivos gerais do sistema.
@@ -530,5 +566,6 @@ Reinaldo Antônio da Silva – Um Catálogo de Requisitos Não-Funcionais para S
 | 1.1    | 18/10/2025 | Auxílio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade)          | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.2    | 20/10/2025 | Auxílio na criação do NFR 03- suportabilidade          | [Arthur Guilherme](https://github.com/ArthurGuilher62)       | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.3    | 21/10/2025 | Auxílio na criação do [NFR 02 - Confiabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-02-confiabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
-| 1.4    | 21/10/2025 | Auxílio na criação do Auxilio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.4    | 21/10/2025 | Auxilio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.5    | 21/10/2025 | Auxílio na criação do [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance)   | [Arthur Henrique](https://github.com/arthurhvieira1)  | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.6    | 21/10/2025 | Auxílio na criação e documentação de cartões de especificação dos Requisitos Não-Funcionais | [João Felipe](https://github.com/JoaoFelipe) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) <br> [Vilmar José](https://github.com/VilmarFagundes) |
