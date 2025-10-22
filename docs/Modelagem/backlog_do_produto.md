@@ -433,8 +433,9 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Histórias relacionadas:**
 
 - [US30 – Direcionamento Sob Medida de Materiais aos Alunos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos)
+- [US40 – Sugerir Questões Pós-Videoaula](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us40-sugerir-questoes-pos-videoaula)
 
-<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a> e <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
 ---
 
@@ -468,9 +469,10 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 
 **Histórias relacionadas:** 
 
-- [US33 – Integração com Softwares Educacionais Externos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us33-integracao-com-softwares-educacionais-externos)
+- [US33 – Integração com Softwares Educacionais Externos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us33-integracao-com-softwares-educacionais-externos
 
-<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
 
 ---
 
@@ -480,6 +482,8 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Histórias relacionadas:** 
 
 - [US34 - Centralizar Informações de Atividades e Desempenho](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us34-centralizar-informacoes-de-atividades-e-desempenho)
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ---
 
