@@ -428,6 +428,7 @@ A **Figura 7** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 - [RNF04 (Extensão de STI para ITA)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – O sistema se baseia na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA), promovendo suporte personalizado ao aprendizado.
 - [RNF05 (Tecnologia alinhada à TAS)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – Emprega recursos tecnológicos que favorecem a Teoria da Aprendizagem Significativa (TAS), como contextualização, interação e construção ativa do conhecimento.
 - [RNF06 (Projeto Multidisciplinar)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – multidisciplinar, envolvendo as áreas de Educação, Psicologia e Informática, o que implica em flexibilidade de manutenção e evolução do sistema para atender diferentes perspectivas e áreas de conhecimento.
+- [RNF13 (Integração com outros AVAs e Sistemas Educacionais Externos)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Fracamente Satisfeito (𝒲+)** – O sistema possibilita integração com outros ambientes virtuais de aprendizagem por meio de APIs e padrões abertos, mas o nível de compatibilidade e estabilidade das integrações ainda requer testes adicionais.
 - [RNF14 (Escalabilidade)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Indeterminado (u)** – O sistema permite escalabilidade, atendendo a um número crescente de alunos e módulos sem comprometer o desempenho.
 
 
@@ -457,6 +458,7 @@ A **Figura 8** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 **Avaliação dos softgoals de usabilidade:**
 
 - [RNF03 (Tempo de resposta de ate 1 segundo)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** - O ambiente ainda nao tem tempo de resposta de até 1 segundo para todos os perfis de usuários.
+- [RNF07 (Análises do módulo MAD em tempo real)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – As análises do módulo MAD são processadas e exibidas praticamente em tempo real, atendendo ao limite máximo de 2 segundos em 99% das requisições, conforme testes de carga.
 - [RNF10 (Tempo de resposta em dashboards e graficos)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** O tempo de resposta para carregamento de dashboards e gráficos ainda nao é inferior a 3 segundos.
 
 ## Gravações da Validação do Documento
