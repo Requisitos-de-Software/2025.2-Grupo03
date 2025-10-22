@@ -310,7 +310,6 @@ menores, chamadas de **histórias de usuário**, facilitando o entendimento do s
 **Histórias relacionadas:**
 
 - [US49 – Análise Cognitiva e Apoio à Aprendizagem](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem)
-- [US36 – Analisar Situação de Aprendizagem na Interação](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us36-analisar-situacao-de-aprendizagem-na-interacao)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
