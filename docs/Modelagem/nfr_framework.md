@@ -335,7 +335,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 **Prioridade:** Alta |
 **Conflitos:** A necessidade de validação constante entre as diferentes áreas pode aumentar o tempo de ciclo do desenvolvimento de novas funcionalidades, potencialmente impactando cronogramas de entrega. |
 
-<div align="center"><strong>Autoria de <a href="https://github.com/usuario">Seu Nome/Usuário</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ---
 
@@ -352,7 +352,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 **Prioridade:** Alta |
 **Conflitos:** Nenhum conflito direto identificado. Pode exigir um esforço de design e desenvolvimento mais detalhado para componentes interativos complexos, como os gráficos do [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais). |
 
-<div align="center"><strong>Autoria de <a href="https://github.com/usuario">Seu Nome/Usuário</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ---
 
