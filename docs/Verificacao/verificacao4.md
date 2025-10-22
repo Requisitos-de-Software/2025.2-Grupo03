@@ -43,6 +43,26 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 
 <div align="center"><strong>Tabela 2: Lista de Verificação de Backlog</strong></div>
 
+| ID  | Item de Verificação | Autor |
+|-----|---------------------|-------|
+| 1   | O backlog contém todas as funcionalidades desejadas para um produto? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 2   | Os itens são especificados com base em Histórias de Usuário? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 3   | Os itens do backlog são centrados no cliente? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 4   | O conteúdo do backlog do produto é definido pelo Product Owner? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 5   | O backlog do produto contém todas as funcionalidades desejadas? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 6   | As histórias de usuário são mais centradas em “o que” do que “como”? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 7   | Durante uma sprint, o Scrum Master atualizou o Sprint Backlog de acordo com as tarefas completadas? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 8   | Durante uma sprint, o Scrum Master foi o responsável por atualizar o Sprint Backlog? | [Arthur Henrique](https://github.com/arthurhvieira1) |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>
+    </strong>
+</div>
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado.  
+Para acessar esse PDF [clique aqui](../arquivos/LVBACKLOG.pdf).
 
 ## NFR Framework
 
