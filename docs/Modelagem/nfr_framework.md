@@ -395,6 +395,9 @@ Os requisitos utilizados para o **NFR 02 (Confiabilidade)** estão apresentados 
 
 **Avaliação dos softgoals de confiabilidade:**
 
+- [RNF09 - Disponibilidade contínua](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): *Satisfeito (✓)* - O sistema está disponível 24 horas por dia nos 7 dias da semana, além do monitoramento para ajustes caso ocorra uma indisponibilidade no sistema
+- [RNF15 - Privacidade e proteção de dados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): *Satisfeito (✓)* - O sistema possui um meio de proteção de dados do usuário de acordo com a LGPD
+
 ### NFR 03 - Suportabilidade
 
 Os requisitos utilizados para o **NFR 03 (Suportabilidade)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:  
