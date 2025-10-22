@@ -817,6 +817,23 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## US48 – Orientação Pedagógica Individualizada pelo Assistente Virtual
+
+<div align="center"><strong>Tabela 50: US48</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US48 |
+| **Título** | Orientação Pedagógica Individualizada pelo Assistente Virtual |
+| **História** | Como um aluno,<br>eu quero que o assistente virtual (ITA) me forneça orientações de estudo personalizadas,<br>para que a ajuda seja baseada no meu conhecimento atual (TAS) e também alinhada com a metodologia definida pelo meu professor. |
+| **Critérios de Aceitação** | - **Dado que** o professor configurou uma abordagem didática específica para um tópico (ex: "ensinar 'Frações' usando exemplos visuais").<br>- **Quando** o aluno pedir ajuda ao assistente virtual sobre "Frações".<br>- **Então** o assistente deve priorizar a orientação usando exemplos visuais, respeitando o "desejo didático" do docente.<br><br>- **Dado que** o aluno demonstrou não dominar um conceito pré-requisito (TAS).<br>- **Quando** ele pede ajuda sobre um tópico avançado que depende desse pré-requisito.<br>- **Então** o assistente deve primeiro fornecer orientação para reforçar o conceito-base antes de avançar, garantindo a aprendizagem significativa.<br><br>- **Dado que** o aluno está com dificuldades específicas (ex: alto índice de erro em "Tipo X").<br>- **Quando** ele solicita orientação sobre o conteúdo geral.<br>- **Então** o assistente deve individualizar a ajuda, focando nos pontos onde o aluno apresenta maior dificuldade. |
+| **Rastreabilidade** | [RF48](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP08](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores) – Oferecer Assistência Personalizada a Alunos e Professores |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+---
+
 ## [US49](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem) – Análise Cognitiva e Apoio à Aprendizagem
 
 <div align="center"><strong>Tabela 51: US49</strong></div>
