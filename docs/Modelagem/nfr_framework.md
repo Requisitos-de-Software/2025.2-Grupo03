@@ -13,7 +13,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | auxílio na criação do [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) |
-| [Arthur Henrique](https://github.com/arthurhvieira1) |   |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Auxílio na criação do [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance)   |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Auxilio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance)|
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |   |
@@ -294,6 +294,43 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 
 ---
 
+<div align="center"><strong>Tabela 11: Cartão de Especificação 9</strong></div>
+
+| **Índice e Título do Requisito** |
+|---|
+| **RNF13 – Integração com outros AVAs e Sistemas Educacionais Externos** |
+| **Classificação:** Suportabilidade |
+| **Descrição:** O sistema deve possibilitar integração bidirecional com AVAs e sistemas educacionais externos por meio de padrões abertos e APIs (ex.: LTI 1.3/Advantage, OneRoster/IMS, SCORM/xAPI), além de webhooks e SDKs quando aplicável. |
+| **Justificativa:** Garantir interoperabilidade com o ecossistema educacional, evitar *vendor lock-in*, reduzir retrabalho de dados e viabilizar adoção/expansão do produto em diferentes contextos institucionais. |
+| **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
+| **Critério de Aceitação:** 1) **LTI 1.3/Advantage** operacional como Plataforma e/ou Ferramenta, com *launch* OIDC/OAuth2 validado em ambiente de homologação;<br>2) **API REST** pública com documentação **OpenAPI** e controle de acesso por **OAuth2 Client Credentials**, contemplando ao menos *users, courses/classes, enrollments, assignments, grades*;<br>3) **Webhooks** para eventos de criação/atualização de usuário, matrícula, publicação/atualização de nota e conclusão;<br>4) **Conteúdo**: suporte a **pelo menos um** entre **SCORM 1.2/2004** **ou** **xAPI** (importação e execução/registro);<br>5) **Teste de interoperabilidade** bem-sucedido com **2 sistemas externos** distintos em homologação, com registro de casos e evidências. |
+| **Dependências:** Gateway de APIs; gerenciamento de credenciais/segredos; mapeamento e conciliação de identidades (SSO/OIDC); *rate limiting* e observabilidade; governança de dados e consentimento (LGPD). |
+| **Prioridade:** Alta |
+| **Conflitos:** Pode **HURT (-)** **RNF03/RNF10** (sobrecarga e latência em chamadas externas); pode **HURT (-)** **RNF15** (LGPD) se escopo de dados/consentimento não forem restritos; pode **HURT (-)** **RNF09** durante janelas de manutenção de integrações de terceiros. |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
+<div align="center"><strong>Tabela 12: Cartão de Especificação 10</strong></div>
+
+| **Índice e Título do Requisito** |
+|---|
+| **RNF07 – Análises do módulo MAD em tempo real** |
+| **Classificação:** Performance |
+| **Descrição:** As análises do módulo **MAD** devem ser processadas e refletidas nas visualizações e alertas **em tempo real**, a partir de eventos de uso da plataforma (interações, submissões, notas, progresso). |
+| **Justificativa:** Fornecer feedback imediato para alunos e professores, apoiando intervenções rápidas e decisões pedagógicas baseadas em dados atualizados. |
+| **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
+| **Critério de Aceitação:** 1) **Latência ponta-a-ponta P95 ≤ 1 s** (ingestão do evento → cálculo → disponibilidade em widgets/indicadores principais); **P99 ≤ 2 s** sob carga nominal;<br>2) **Atualização de dashboards/widgets** do MAD em até **1 s** após novo evento em carga nominal (p.ex., **200 eventos/s** e **100 usuários concorrentes**);<br>3) **Alertas** gerados e enviados em até **2 s** após a condição ser satisfeita;<br>4) **Disponibilidade do pipeline** de *streaming* **≥ 99%** ao mês;<br>5) Métricas de **throughput, lag, erro** e **backpressure** monitoradas, com **SLOs** definidos e painéis de observabilidade. |
+| **Dependências:** Pipeline de *streaming* (message broker); motor de processamento contínuo; *timeseries* ou *columnar store* + *caching* (*in-memory*); particionamento/escala horizontal; CDN para *push* de atualizações; *feature flags* para degradação graciosa. |
+| **Prioridade:** Alta |
+| **Conflitos:** Pode **HURT (-)** **RNF08** (criptografia adiciona latência); pode **HURT (-)** **RNF10** (renderização de gráficos sob tráfego alto); **SOME-** com **RNF15** (minimização/mascaramento de dados pode exigir agregações assíncronas). |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+
+---
+
 ## Gráfico de Interdependência de Softgoals (SIG)
 A Figura 4 apresenta o Gráfico de Interdependência de Softgoals (SIG) dos Requisitos Não Funcionais do projeto.
 Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cada requisito contribui para atingir os objetivos gerais do sistema.
@@ -365,7 +402,9 @@ Os requisitos utilizados para o **NFR 03 (Suportabilidade)** estão apresentados
 - [RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): Deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA).
 - [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS).
 - [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): Projeto multidisciplinar envolvendo Educação, Psicologia e Informática.
+- [RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve possibilitar integração com outros AVAs e sistemas educacionais externos.
 - [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho.
+  
 
 A **Figura 7** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** referente ao NFR 03, destacando as relações de contribuição entre os requisitos de Usabilidade. 
 
@@ -397,6 +436,7 @@ A **Figura 7** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 Os requisitos utilizados para o **NFR 04 (Perfomance)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:
 
 - [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários.
+- [RNF07](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): As análises do módulo MAD devem ser realizadas em tempo real.
 - [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos.
 
 
@@ -416,8 +456,8 @@ A **Figura 8** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 
 **Avaliação dos softgoals de usabilidade:**
 
-- [RNF03 (Tempo de resposta de ate 1 segundo)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Indeterminado (u)** - O ambiente ainda nao tem tempo de resposta de até 1 segundo para todos os perfis de usuários.
-- [RNF10 (Tempo de resposta em dashboards e graficos)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Indeterminado (u)** O tempo de resposta para carregamento de dashboards e gráficos ainda nao é inferior a 3 segundos.
+- [RNF03 (Tempo de resposta de ate 1 segundo)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** - O ambiente ainda nao tem tempo de resposta de até 1 segundo para todos os perfis de usuários.
+- [RNF10 (Tempo de resposta em dashboards e graficos)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** O tempo de resposta para carregamento de dashboards e gráficos ainda nao é inferior a 3 segundos.
 
 ## Gravações da Validação do Documento
 
@@ -489,4 +529,4 @@ Reinaldo Antônio da Silva – Um Catálogo de Requisitos Não-Funcionais para S
 | 1.2    | 20/10/2025 | Auxílio na criação do NFR 03- suportabilidade          | [Arthur Guilherme](https://github.com/ArthurGuilher62)       | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.3    | 21/10/2025 | Auxílio na criação do [NFR 02 - Confiabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-02-confiabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.4    | 21/10/2025 | Auxílio na criação do Auxilio na criação do [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance) | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
-
+| 1.5    | 21/10/2025 | Auxílio na criação do [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) e [NFR 04 - Performance](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-04-performance)   | [Arthur Henrique](https://github.com/arthurhvieira1)  | [Vilmar José](https://github.com/VilmarFagundes) |
