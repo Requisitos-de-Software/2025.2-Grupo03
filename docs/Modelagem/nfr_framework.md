@@ -478,8 +478,9 @@ A **Figura 8** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 <div align="center">
     <strong>
         Autoria de 
-        <a href="https://github.com/VilmarFagundes">Vilmar José</a> e
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a>,
         <a href="https://github.com/felipegf1">Felipe Guimaraes</a> 
+        <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>
     </strong>
 </div>
 
