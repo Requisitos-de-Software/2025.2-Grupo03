@@ -345,6 +345,19 @@ Os requisitos utilizados para o **NFR 02 (Confiabilidade)** estão apresentados 
 - [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês.
 - [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD.
 
+<div align="center"><strong>Figura 6: Gráfico de Interdependência de Softgoals (SIG) - Confiabilidade</strong></div>
+
+![Figura 6: Gráfico de Interdependência de Softgoals (SIG) - Confiabilidade](../imagens/NFR/confiabilidade.jpg)
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a>
+    </strong>
+</div>
+
+**Avaliação dos softgoals de confiabilidade:**
+
 ### NFR 03 - Suportabilidade
 
 Os requisitos utilizados para o **NFR 03 (Suportabilidade)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:  
@@ -383,8 +396,28 @@ A **Figura 7** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 
 Os requisitos utilizados para o **NFR 04 (Perfomance)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:
 
-- [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos.
 - [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários.
+- [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos.
+
+
+A **Figura 8** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** referente ao NFR 04, destacando as relações de contribuição entre os requisitos de Performance. 
+
+<div align="center"><strong>Figura 8: Gráfico de Interdependência de Softgoals (SIG) - Performance</strong></div>
+
+![Figura 8: Gráfico de Interdependência de Softgoals (SIG) - Performance](../imagens/NFR/performance.jpg)
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/VilmarFagundes">Vilmar José</a> e
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a> 
+    </strong>
+</div>
+
+**Avaliação dos softgoals de usabilidade:**
+
+- [RNF03 (Tempo de resposta de ate 1 segundo)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** - O ambiente ainda nao tem tempo de resposta de até 1 segundo para todos os perfis de usuários.
+- [RNF10 (Tempo de resposta em dashboards e graficos)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **(u) Indeterminado** O tempo de resposta para carregamento de dashboards e gráficos ainda nao é inferior a 3 segundos.
 
 ## Gravações da Validação do Documento
 
