@@ -473,7 +473,7 @@ A **Figura 8** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 
 <div align="center"><strong>Figura 8: Gráfico de Interdependência de Softgoals (SIG) - Performance</strong></div>
 
-![Figura 8: Gráfico de Interdependência de Softgoals (SIG) - Performance](../imagens/NFR/performance.png)
+![Figura 8: Gráfico de Interdependência de Softgoals (SIG) - Performance](../imagens/NFR/performance.jpeg)
 
 <div align="center">
     <strong>
