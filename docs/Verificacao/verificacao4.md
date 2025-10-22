@@ -69,7 +69,7 @@ Para acessar esse PDF [clique aqui](../arquivos/LVBACKLOG.pdf).
 <div align="center"><strong>Tabela 3: Lista de Verificação de NFR Framework</strong></div>
 
 | ID  | Item de Verificação | Autor |
-|-----|---------------------|-------|
+|-----|---------------------|--------|
 | 1   | O sistema utiliza o NFR Framework para representar e analisar requisitos não-funcionais? | [João Sapiência](https://github.com/JoaoSapiencia) |
 | 2   | Os softgoals foram definidos com clareza e sem critérios de satisfação precisos? | [João Sapiência](https://github.com/JoaoSapiencia) |
 | 3   | As inter-relações entre softgoals estão representadas? | [João Sapiência](https://github.com/JoaoSapiencia) |
@@ -78,27 +78,27 @@ Para acessar esse PDF [clique aqui](../arquivos/LVBACKLOG.pdf).
 | 6   | O gráfico SIG foi criado para representar softgoals e interdependências? | [João Sapiência](https://github.com/JoaoSapiencia) |
 | 7   | As decisões de desenvolvimento foram registradas graficamente no SIG? | [João Sapiência](https://github.com/JoaoSapiencia) |
 | 8   | Foram identificados os três tipos de softgoals (NFR, Operacionalização e Afirmação)? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 9   | Cada softgoal possui tipo e tópico definidos (ex: Confiabilidade [Infusor])? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 10  | Foram aplicados refinamentos top-down entre softgoals? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 11  | Foram utilizadas decomposições de softgoals (NFR, operacionalização, afirmação e priorização)? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 12  | As contribuições entre softgoals estão representadas e identificadas corretamente? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 13  | Foram utilizadas contribuições positivas e negativas (AND, OR, MAKE, BREAK, HELP, HURT, SOME, UNKNOWN, EQUALS)? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 14  | Os trade-offs entre requisitos foram analisados (ex: Segurança vs Desempenho)? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 15  | Foi aplicado o procedimento de avaliação para determinar o grau de satisfação dos RNFs? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 16  | Foram atribuídos rótulos de satisfação aos softgoals? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 17  | O impacto das decisões de baixo nível foi propagado aos níveis superiores do SIG? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 18  | O framework contribuiu para rastreabilidade e justificativas das decisões? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 19  | O NFR Framework foi utilizado para expressar os requisitos do catálogo NFR4ES? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 20  | O modelo final inclui todos os elementos do framework: softgoals, interdependências, contribuições e avaliação? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 21  | As afirmações foram utilizadas para apoiar ou negar justificativas de projeto? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 22  | As contribuições entre softgoals estão corretamente especificadas no SIG? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 23  | As contribuições parciais e totais (HELP, HURT, MAKE, BREAK) estão corretamente diferenciadas? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 24  | As relações AND e OR entre softgoals foram utilizadas quando aplicável? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 25  | Foram aplicadas contribuições SOME, UNKNOWN e EQUALS conforme incerteza das relações? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 26  | O procedimento de avaliação foi corretamente aplicado ao final da modelagem? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 27  | Foram utilizados os rótulos de satisfação adequados durante a avaliação (satisfeito, negado, etc.)? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 28  | O impacto das decisões de baixo nível foi corretamente propagado para os softgoals superiores? | [João Sapiência](https://github.com/JoaoSapiencia) |
-| 29  | Há registro gráfico e textual das decisões de refinamento e contribuição? | [João Sapiência](https://github.com/JoaoSapiencia) |
+| 9   | Cada softgoal possui tipo e tópico definidos (ex: Confiabilidade [Infusor])? | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 10  | Foram aplicados refinamentos top-down entre softgoals? | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 11  | Foram utilizadas decomposições de softgoals (NFR, operacionalização, afirmação e priorização)? | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 12  | As contribuições entre softgoals estão representadas e identificadas corretamente? | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 13  | Foram utilizadas contribuições positivas e negativas (AND, OR, MAKE, BREAK, HELP, HURT, SOME, UNKNOWN, EQUALS)? | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 14  | Os trade-offs entre requisitos foram analisados (ex: Segurança vs Desempenho)? | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 15  | Foi aplicado o procedimento de avaliação para determinar o grau de satisfação dos RNFs? | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 16  | Foram atribuídos rótulos de satisfação aos softgoals? | [Vilmar José](https://github.com/VilmarFagundes) |
+| 17  | O impacto das decisões de baixo nível foi propagado aos níveis superiores do SIG? | [Vilmar José](https://github.com/VilmarFagundes) |
+| 18  | O framework contribuiu para rastreabilidade e justificativas das decisões? | [Vilmar José](https://github.com/VilmarFagundes) |
+| 19  | O NFR Framework foi utilizado para expressar os requisitos do catálogo NFR4ES? | [Vilmar José](https://github.com/VilmarFagundes) |
+| 20  | O modelo final inclui todos os elementos do framework: softgoals, interdependências, contribuições e avaliação? | [Vilmar José](https://github.com/VilmarFagundes) |
+| 21  | As afirmações foram utilizadas para apoiar ou negar justificativas de projeto? | [Vilmar José](https://github.com/VilmarFagundes) |
+| 22  | As contribuições entre softgoals estão corretamente especificadas no SIG? | [Vilmar José](https://github.com/VilmarFagundes) |
+| 23  | As contribuições parciais e totais (HELP, HURT, MAKE, BREAK) estão corretamente diferenciadas? | [João Felipe](https://github.com/MrBolt2005) |
+| 24  | As relações AND e OR entre softgoals foram utilizadas quando aplicável? | [João Felipe](https://github.com/MrBolt2005) |
+| 25  | Foram aplicadas contribuições SOME, UNKNOWN e EQUALS conforme incerteza das relações? | [João Felipe](https://github.com/MrBolt2005) |
+| 26  | O procedimento de avaliação foi corretamente aplicado ao final da modelagem? | [João Felipe](https://github.com/MrBolt2005) |
+| 27  | Foram utilizados os rótulos de satisfação adequados durante a avaliação (satisfeito, negado, etc.)? | [João Felipe](https://github.com/MrBolt2005) |
+| 28  | O impacto das decisões de baixo nível foi corretamente propagado para os softgoals superiores? | [João Felipe](https://github.com/MrBolt2005) |
+| 29  | Há registro gráfico e textual das decisões de refinamento e contribuição? | [João Felipe](https://github.com/MrBolt2005) |
 
 <div align="center">
     <strong>
