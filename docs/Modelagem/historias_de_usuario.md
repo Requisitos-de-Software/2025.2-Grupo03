@@ -509,6 +509,24 @@ A padronização da tabela pode ser observada na Tabela 2.
 
 ---
 
+## [US29](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us29-banco-de-questoes-com-fontes-externas) - Banco de Questões com Fontes Externas
+
+<div align="center"><strong>Tabela 31: US29</strong></div>
+
+| Campo | Descrição |
+|-------|------------|
+| **ID** | US29 |
+| **Título** | Banco de Questões com Fontes Externas |
+| **História** | Como um professor,<br>eu quero que o banco de questões do sistema contenha também questões de outras origens (como bancos públicos, APIs externas ou importação via arquivo),<br>para que eu tenha acesso a uma base de questões mais ampla e diversificada para compor minhas avaliações. |
+| **Critérios de Aceitação** | - Dado que o professor acesse o módulo de banco de questões,<br>- Quando ele selecionar a opção “Importar Questões”,<br>- Então o sistema deve permitir importar arquivos em formato compatível (CSV, XML, JSON, entre outros) contendo questões externas.<br><br>- Dado que o sistema esteja integrado a uma API pública de questões,<br>- Quando o professor realizar uma busca por tema,<br>- Então o sistema deve exibir resultados vindos tanto do banco interno quanto das fontes externas configuradas.<br><br>- Dado que uma questão externa seja importada,<br>- Quando o professor a editar ou utilizar,<br>- Então o sistema deve registrar a origem e permitir personalização completa do conteúdo (enunciado, alternativas, tags). |
+| **Rastreabilidade** | [RF29](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Épico Relacionado** | [EP23 – Gerenciar Banco de Questões de Professores e Outras Fontes](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes) |
+<br>
+
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+---
+
 ## [US30](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos) – Direcionamento Sob Medida de Materiais aos Alunos
 
 <div align="center"><strong>Tabela 32: US30</strong></div>
