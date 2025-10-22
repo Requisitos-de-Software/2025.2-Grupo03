@@ -11,8 +11,8 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 |---------|-----------|-------------|
 | [Etapa 1](#cronograma-de-entrega-1-planejamento) | Planejamento do projeto, Heatmap, Ferramentas, cronograma, Rich Picture | 09/09 |
 | [Etapa 2](#cronograma-de-entrega-2-elicitacao-tecnicas-e-priorizacao) | Elicitação – Técnicas e Priorização | 30/09 |
-| Etapa 3 | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
-| Etapa 4 | Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
+| [Etapa 3](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-de-entrega-3-modelagem-de-requisitos) | Modelagem de Requisitos (Cenários , Léxico, Use Case, Especificação Suplementar)| 12/10 |
+| [Etapa 4](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-de-entrega-4-modelagem-de-requisitos-agil)| Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
 | Etapa 6 | Pós-Rastreabilidade - Gerência II | 28/10 |
 | Etapa 5 | Análise de Requisitos: Verificação e Validação | 12/11 |
 | Projeto Final | Desenvolvimento e Finalização do Projeto | 24/11 |
@@ -62,6 +62,44 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 | Check List de entrega | João Sapiencia | Tiago Lemes | 30/09 | 30/09 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma de entrega 3 - Modelagem de Requisitos
+
+<div align="center"><strong>Tabela 6: Entrega 3</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
+|------------|---------------|-----------------|-------------------------------|-------------------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 06/10 | 06/10 |
+| Modelagem de requisitos: Cenário | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Tiago Lemes | 11/10 | 12/10  |
+| Modelagem de requisitos: Léxico | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | João Felipe | 11/10 | 12/10 |
+| Modelagem de requisitos: Use Case |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Vilmar José | 11/10 | 12/10  |
+| Modelagem de requisitos: Especificação suplementar |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Felipe Guimarães | 11/10 | 12/10 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 12/10 | 12/10 |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 12/10 | 12/10 |
+| Gravação da inspeção do grupo +1 | Tiago Lemes, Arthur Guilherme, Felipe Guimarães | João Sapiencia | 13/10 | 13/10 |
+| Envio da entrega | Vilmar José | Arthur Henrique | 12/10 | 12/10 |
+| Check List de entrega | João Sapiencia | João Felipe | 12/10 | 12/10 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+## Cronograma de entrega 4 - Modelagem de Requisitos: Ágil
+
+<div align="center"><strong>Tabela 7: Entrega 4</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
+|------------|---------------|-----------------|-------------------------------|-------------------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 16/10 | 16/10 |
+| Modelagem de requisitos - Ágil: Histórias do usuário | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | João Felipe | 20/10 | 21/10 |
+| Modelagem de requisitos - Ágil: Backlog |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Tiago Lemes | 20/10 | 21/10|
+| Modelagem de requisitos - Ágil: NFR Framework |  Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José  | Felipe Guimarães | 20/10 | 21/10 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 21/10 | 21/10 |
+| Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Spiencia, Tiago Lemes, Vilmar José | Arthur Guilherme | 21/10 | 21/10 |
+| Gravação da inspeção do grupo +1 | João Felipe, João Sapiencia, Vilmar | Tiago Lemes | 22/10 | 22/10 |
+| Envio da entrega | Vilmar José | João Sapiencia | 21/10 | 21/10 |
+| Check List de entrega | João Sapiencia | Vilmar José | 21/10 | 21/10 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
 
 ## Bibliografias 
 

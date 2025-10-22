@@ -4,7 +4,7 @@ Este projeto tem como objetivo aplicar os conceitos e práticas de Requisitos de
 
 ## :scroll: Sobre o projeto
 
-Este projeto tem como objetivo aplicar os conceitos e práticas de Requisitos de Software, estudados ao longo da disciplina, na avaliação do site SAE. Durante a realização do projeto, a partir de interações com usuários reais, serão elaborados aterfatos como:
+Este projeto tem como objetivo aplicar os conceitos e práticas de Requisitos de Software, estudados ao longo da disciplina, na avaliação do site SAE. Durante a realização do projeto, a partir de interações com usuários reais, serão elaborados artefatos como:
 
 - Personas  
 - Histórias de usuário  
@@ -72,3 +72,4 @@ aqui documentação do SAE
 | Versão | Data | Descrição | Autor(a) |
 |--------|------|----------|----------|
 | 1.0    | 06/09/2025 | Atualização do readme | [João Sapiência](https://github.com/JoaoSapiencia)|
+| 1.1    | 19/10/2025 | Correção ortográfica (no/do README) | [João Felipe](https://github.com/MrBolt2005)|

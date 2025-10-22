@@ -6,9 +6,48 @@ Essa etapa apresenta uma lista de verificação para avaliar os artefatos produz
 
 ## Histórias de Usuário
 
+<div align="center"><strong>Tabela 1: Lista de Verificação de Histórias de Usuário</strong></div>
+
+| ID  | Item de Verificação | Autor |
+|-----|---------------------|-------|
+| 1   | As histórias descrevem resultados requisitados? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 2   | As histórias descrevem características requisitadas? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 3   | As histórias descrevem funcionalidades requisitadas? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 4   | Cada história foi escrita pelo cliente? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 5   | Cada história foi registrada em uma ferramenta de acompanhamento? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 6   | O cliente atribuiu prioridade às histórias? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 7   | A prioridade atribuída baseou-se no valor de negócio global? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 8   | Os desenvolvedores atribuíram um custo estimado às histórias? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 9   | O custo foi medido em semanas de desenvolvimento? | [Felipe Guimarães](https://github.com/felipegf1) |
+| 10  | Histórias com custo acima de três semanas foram subdivididas? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 11  | As histórias subdivididas receberam nova atribuição de valor? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 12  | As histórias subdivididas receberam nova atribuição de custo? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 13  | Clientes e desenvolvedores colaboraram para agrupar histórias para o próximo incremento de software? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 14  | Houve concordância sobre quais histórias seriam incluídas? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 15  | As histórias foram ordenadas priorizando maior valor de negócio? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 16  | As histórias foram ordenadas priorizando maior risco? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 17  | As histórias de usuários descrevem “o que” deve ser feito e não “como”? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+
+<div align="center">
+    <strong>
+        Autoria de 
+        <a href="https://github.com/felipegf1">Felipe Guimaraes</a> e
+        <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> 
+    </strong>
+</div>
+
+Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada item da lista de verificação foi retirado. Para acessar esse PDF [clique aqui](../arquivos/LV_Historia_de_Usuario.pdf).
+
+
 ## Backlog
 
+<div align="center"><strong>Tabela 2: Lista de Verificação de Backlog</strong></div>
+
+
 ## NFR Framework
+
+<div align="center"><strong>Tabela 3: Lista de Verificação de NFR Framework</strong></div>
+
 
 ## Referências
 
@@ -18,3 +57,4 @@ Essa etapa apresenta uma lista de verificação para avaliar os artefatos produz
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
 | 1.0    | 16/10/2025 | Criação do documento das Listas de Verificação da Entrega 4 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
+| 1.1    | 21/10/2025 | Adição da Lista de Verificação de Histórias de Usuário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  [Arthur Henrique](https://github.com/arthurhvieira1) |
