@@ -92,6 +92,10 @@ nav:
       - Histórias de Usuário: Modelagem/historias_de_usuario.md
       - Backlog do Produto: Modelagem/backlog_do_produto.md
       - NFR Framework: Modelagem/nfr_framework.md
+  - Pós Modelagem:
+    - Matriz de Rastreabilidade: Pos-modelagem/matriz_de_rastreabilidade.md
+    - Backward From: Pos-modelagem/backward.md
+    - Forward From: Pos-modelagem/forward.md
   - Inspeção:
     - Grupo: 
       - Entrega 1: Inspeção/inspeção_grupo_1.md
