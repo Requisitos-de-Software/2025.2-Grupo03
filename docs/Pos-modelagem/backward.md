@@ -1,5 +1,9 @@
 # Backward-From
 
+A rastreabilidade **Backward-From (ou rastreabilidade para trás)** é uma abordagem que permite identificar a origem de cada requisito dentro de um projeto. Ela busca responder à pergunta **“por que este requisito existe?”**, estabelecendo uma ligação entre os requisitos atuais e suas fontes de elicitação, como entrevistas, documentos, ou necessidades dos usuários.
+
+Em outras palavras, ela garante que nenhum requisito seja implementado sem uma justificativa clara, permitindo compreender o contexto e o motivo de sua criação. Essa prática é fundamental para manter a consistência, a transparência e o controle sobre as decisões tomadas durante o desenvolvimento do sistema.
+
 ## Introdução
 
 ## Integrantes do Grupo

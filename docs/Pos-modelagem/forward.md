@@ -1,5 +1,9 @@
 # Forward-From
 
+A rastreabilidade **Forward-From (ou rastreabilidade para frente)** é uma abordagem que permite acompanhar o destino de cada requisito ao longo do desenvolvimento do projeto. Ela responde à pergunta **“o que acontece com este requisito?”**, mostrando como ele é transformado em artefatos de design, código, testes e documentação.
+
+Em outras palavras, a rastreabilidade Forward-From garante que cada requisito seja devidamente implementado e testado, permitindo verificar se todas as necessidades levantadas foram atendidas e facilitando o controle de progresso e validação do sistema.
+
 ## Introdução
 
 ## Integrantes do Grupo
