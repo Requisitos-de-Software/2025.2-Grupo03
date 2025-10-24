@@ -18,16 +18,58 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 | [Felipe Guimaraes](https://github.com/felipegf1) |  |
 | [João Felipe](https://github.com/MrBolt2005) |  |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Forward-From e adição dos Forward-From: [FF06](#FF06), [FF15](#FF15), [FF18](#FF18), [FF19](#FF19), [FF21](#FF21), [FF22](#FF22), [FF34](#FF34), [FF35](#FF35), [FF52](#FF52) e [FF56](#FF56) |
 | [Vilmar José](https://github.com/VilmarFagundes) |  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Metodologia
 
+A metodologia adotada para esta análise baseia-se no **Meta-modelo de Toranzo**, conforme apresentado nos slides da aula *“Requisitos – Aula 26”*, de Milene Serrano e Maurício Serrano, disponíveis [clicando aqui](../arquivos/Requisitos%20-%20aula26-milene-modelagem.pdf).  
+
+Esse modelo organiza as informações rastreáveis em **níveis hierárquicos** e define **elos** que representam as relações entre os artefatos envolvidos no desenvolvimento de sistemas.
+
 ### Níveis de Informação
 
+Nesta análise, o foco está no **nível de Desenvolvimento**, um dos quatro níveis principais do modelo, conforme apresentado na Figura 1:  
+
+- **Ambiental**  
+- **Organizacional**  
+- **Gerencial**  
+- **Desenvolvimento**  
+
+<div align="center"><strong>Figura 1: Níveis de Desenvolvimento</strong></div>
+
+![Figura 1: Níveis de Desenvolvimento](../imagens/matriz_rastreabilidade/niveis_rastreabilidade.png)
+
+<div align="center"><strong>Fonte: SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26</strong></div>
+
+No contexto da **rastreabilidade Forward-From**, o objetivo é **conectar os requisitos documentados aos artefatos de design e implementação**, permitindo rastrear **como os requisitos são transformados em componentes técnicos**.
+
 ### Elos de Rastreabilidade
+
+Para modelar as conexões entre os requisitos e os artefatos técnicos, foram utilizados os **elos de rastreabilidade** definidos no modelo de Toranzo, conforme apresentado na Figura 2:  
+
+- **Satisfação:** Conecta um requisito funcional a um requisito não funcional que define uma condição ou qualidade que deve ser atendida.  
+- **Recurso:** Conecta um requisito a um dado, serviço ou funcionalidade da qual ele precisa para funcionar corretamente.  
+- **Responsabilidade:** Conecta um requisito ao ator, componente ou módulo que será responsável por realizá-lo.  
+- **Representação:** Conecta um requisito à sua forma de modelagem ou descrição em outro artefato.  
+- **Alocado:** Conecta um requisito a um artefato de planejamento que indica onde e como ele será desenvolvido.  
+- **Agregação:** Conecta um requisito a outro com o qual se combina para formar uma funcionalidade maior.
+
+
+<div align="center"><strong>Figura 2: Tipos de Elos de Rastreabilidade</strong></div>
+
+![Figura 2: Tipos de Elos de Rastreabilidade](../imagens/matriz_rastreabilidade/tipos_elos_rastreabilidade.png)
+
+<div align="center"><strong>Fonte: SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26</strong></div>
+
+Cada elo é aplicado conforme a **natureza da relação** entre os requisitos e os elementos de implementação.  
+
+A aplicação prática dessa metodologia é apresentada em uma **tabela de mapeamento**, que relaciona os requisitos aos artefatos de design e implementação correspondentes, indicando o tipo de elo utilizado em cada caso.  
+Essa abordagem permite **verificar se os requisitos estão sendo corretamente contemplados** nas etapas subsequentes do desenvolvimento e **facilita a gestão da conformidade** ao longo de todo o ciclo de vida do sistema.
+
+
 
 ## Legenda
 
@@ -63,6 +105,9 @@ Na tabela 3 encontra-se a rastreabilidade Forward-From dos Requisitos Não-Funci
 
 | ID   | Requisito | Descrição | Implementado | Elo Relacionado | Léxicos | Especificação Suplementar | NFR Framework |
 |------|-----------|-----------|--------------|-----------------|---------|---------------------------|---------------|
+| <a id="FF52"></a>FF52  | [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF01) | A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). | Sim |  | [Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/#lexico-1-aluno), [Monitor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/#lexico-3-monitor), [Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/#lexico-2-professor), [Perfil](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/#lexico-23-perfil) | [Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/especificacao_suplementar/#2-usabilidade) | [NFR 01 - Usabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-01-usabilidade) |
+| <a id="FF56"></a>FF56  | [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF05) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). | Sim |  | [Aluno](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/#lexico-1-aluno), [Professor](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/#lexico-2-professor), [Analisar Desempenho](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/#lexico-24-analisar-desempenho) | [Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/especificacao_suplementar/#4-suportabilidade) | [NFR 03 - Suportabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/#nfr-03-suportabilidade) |
+
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -83,17 +128,6 @@ A descrição de cada elo mostra como o requisito é **rastreado para frente**, 
 
 ---
 
-### Tipos de Elos Utilizados
-
-- **Representação:** Conecta um requisito à sua **modelagem ou especificação** em outro artefato.  
-- **Agregação:** Conecta um requisito a outro que **o compõe** ou do qual ele faz parte para entregar uma **funcionalidade maior**.  
-- **Alocado:** conecta um requisito a um **artefato de planejamento** que define onde e como ele será desenvolvido.  
-- **Recurso:** conecta um requisito a um **dado, serviço ou outra funcionalidade** da qual ele depende para operar.  
-- **Satisfação:** conecta um **requisito funcional** a um **requisito não funcional** que lhe impõe uma restrição de qualidade.
-
-
----
-
 ## Agradecimentos
 O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
 
@@ -106,3 +140,4 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26. Disponível em: [Requ
 | Versão | Data       | Descrição  | Autor(es)        | Revisor    |
 |--------|------------|---------------------------------------------|----|---------------|
 | 1.0    | 23/10/2025 | Criação do documento de Forward-From | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1    | 24/10/2025 | Adição dos Forward-From: [FF06](#FF06), [FF15](#FF15), [FF18](#FF18), [FF19](#FF19), [FF21](#FF21), [FF22](#FF22), [FF34](#FF34), [FF35](#FF35), [FF52](#FF52) e [FF56](#FF56) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [João Felipe](https://github.com/MrBolt2005) |

@@ -25,9 +25,49 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 
 ## Metodologia
 
+A metodologia adotada para esta análise baseia-se no **Meta-modelo de Toranzo**, conforme apresentado nos slides da aula *“Requisitos – Aula 26”*, de Milene Serrano e Maurício Serrano, disponíveis [clicando aqui](../arquivos/Requisitos%20-%20aula26-milene-modelagem.pdf).  
+
+Esse modelo organiza as informações rastreáveis em **níveis hierárquicos** e define **elos** que representam as relações entre os artefatos envolvidos no desenvolvimento de sistemas.
+
 ### Níveis de Informação
 
+Nesta análise, o foco está no **nível de Desenvolvimento**, um dos quatro níveis principais do modelo, conforme apresentado na Figura 1:  
+
+- **Ambiental**  
+- **Organizacional**  
+- **Gerencial**  
+- **Desenvolvimento**  
+
+<div align="center"><strong>Figura 1: Níveis de Desenvolvimento</strong></div>
+
+![Figura 1: Níveis de Desenvolvimento](../imagens/matriz_rastreabilidade/niveis_rastreabilidade.png)
+
+<div align="center"><strong>Fonte: SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26</strong></div>
+
+No contexto da **rastreabilidade Backward-From**, o objetivo é **conectar cada requisito à sua origem**, permitindo rastrear **de onde ele veio e qual necessidade ou decisão o motivou**.  
+Essa abordagem ajuda a compreender o **propósito de cada requisito** e a **garantir a consistência entre as fontes de elicitação e os requisitos documentados**.
+
 ### Elos de Rastreabilidade
+
+Para modelar as conexões entre os requisitos e suas origens, foram utilizados os **elos de rastreabilidade** definidos no modelo de Toranzo, conforme apresentado na Figura 2:  
+
+- **Satisfação:** liga um requisito funcional a um requisito não funcional que define uma condição ou qualidade que deve ser atendida.  
+- **Recurso:** liga um requisito a um dado, serviço ou funcionalidade da qual ele depende para funcionar corretamente.  
+- **Responsabilidade:** liga um requisito ao ator, componente ou módulo responsável por sua criação ou definição.  
+- **Representação:** liga um requisito à sua origem ou forma de especificação em outro artefato.  
+- **Alocado:** liga um requisito a um artefato de planejamento que indica de onde ele foi derivado ou relacionado.  
+- **Agregação:** liga um requisito a outro do qual ele faz parte ou que o complementa, formando uma funcionalidade mais ampla.
+
+<div align="center"><strong>Figura 2: Tipos de Elos de Rastreabilidade</strong></div>
+
+![Figura 2: Tipos de Elos de Rastreabilidade](../imagens/matriz_rastreabilidade/tipos_elos_rastreabilidade.png)
+
+<div align="center"><strong>Fonte: SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26</strong></div>
+
+Cada elo é aplicado conforme a **natureza da relação** entre os requisitos e os elementos que lhes dão origem.  
+
+A aplicação prática dessa metodologia é apresentada em uma **tabela de mapeamento**, que relaciona os requisitos às suas respectivas fontes e artefatos de elicitação, indicando o tipo de elo utilizado em cada caso.  
+Essa abordagem permite **verificar se todos os requisitos têm origem bem definida**, **mantendo a coerência entre as etapas de elicitação e documentação** e **facilitando o controle da rastreabilidade** ao longo do projeto.
 
 ## Legenda
 
@@ -83,20 +123,6 @@ Cada elo descreve como o requisito é **rastreado para trás**, conectando-o à 
 |------------|--------------------|-----------------|------------------|
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
-
-
----
-
-### Tipos de Elos Utilizados
-
-- **Representação:** Conecta a **origem de um requisito** (sua fonte na elicitação) à sua **manifestação no sistema**, mostrando como ele se materializa ou como se relaciona a outro requisito como parte de sua composição.  
-
-- **Agregação:** Conecta **dois ou mais requisitos** que, em conjunto, formam uma **funcionalidade maior e mais completa**, representando uma relação do tipo **“parte de um todo”**.  
-
-- **Recurso:** Conecta um requisito a um **dado, serviço ou funcionalidade** da qual ele **depende para funcionar**, representando uma relação de **dependência (“precisa de”)**.  
-
-- **Satisfação:** Conecta um **requisito de origem** (por exemplo, uma funcionalidade) a um **requisito de destino** (como uma restrição não funcional), indicando que a **implementação da origem deve atender às condições** estabelecidas pelo destino.
-
 
 ---
 
