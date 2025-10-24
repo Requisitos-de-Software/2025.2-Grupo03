@@ -18,7 +18,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 | [Felipe Guimaraes](https://github.com/felipegf1) | Criou as especificações de casos de uso 01, 02 e 03, que são referentes, respectivamente, aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
 | [João Sapiência](https://github.com/JoaoSapiencia) | Criação das especificações de casos de uso 12, 13 e 14, que são referentes, respectivamente aos requisitos [RF32](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF34](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF40](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)  |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Casos de Uso e criação das especificações de casos de uso 04, 05 e 06, que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais).                                      |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Casos de Uso e criação das especificações de casos de uso 04, 05 e 06, que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais).                                      |
 | [Vilmar José](https://github.com/VilmarFagundes) | Criou as especificações de casos de uso 10 e 11, que são referentes, respectivamente, aos requisitos [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -159,7 +159,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ---
 
 ### **UC05 – Configuração da Forma de Notificação**
-**Requisito Associado:** [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve pedir ao usuário a melhor forma de caminho de notificação.
+**Requisito Associado:** [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve pedir ao usuário a melhor forma de caminho de notificação.
 
 <div align="center"><strong>Tabela 7: Caso de Uso UC05</strong></div>
 
@@ -174,7 +174,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 | **Fluxo alternativo** | - O usuário não escolhe nenhuma opção.<br>- O sistema mantém o canal padrão. |
 | **Fluxo de exceção** | - O canal selecionado está temporariamente indisponível.<br>- O sistema exibe mensagem de erro e mantém o padrão. |
 | **Pós-condições** | As notificações passam a ser enviadas conforme a escolha do usuário. |
-| **Rastreabilidade** | [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Rastreabilidade** | [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Data de criação** | 08/10/2025 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -183,7 +183,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ---
 
 ### **UC06 – Notificação de Prazo de Entrega**
-**Requisito Associado:** [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.
+**Requisito Associado:** [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.
 
 <div align="center"><strong>Tabela 8: Caso de Uso UC06</strong></div>
 
@@ -198,7 +198,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 | **Fluxo alternativo** | - O aluno já entregou a atividade.<br>- O sistema não envia mais alertas. |
 | **Fluxo de exceção** | - Falha no envio da notificação.<br>- O prazo da atividade é alterado após o envio do alerta. |
 | **Pós-condições** | O aluno recebe lembrete sobre a entrega das atividades no tempo adequado. |
-| **Rastreabilidade** | [RF20](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| **Rastreabilidade** | [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Data de criação** | 08/10/2025 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
