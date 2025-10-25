@@ -50,7 +50,7 @@ No contexto da **rastreabilidade Forward-From**, o objetivo é **conectar os req
 
 Para modelar as conexões entre os requisitos e os artefatos técnicos, foram utilizados os **elos de rastreabilidade** definidos no modelo de Toranzo, conforme apresentado na Figura 2:  
 
-- **Satisfação:** Conecta um requisito funcional a um requisito não funcional que define uma condição ou qualidade que deve ser atendida.  
+- **Satisfação:** Conecta um requisito (artefato de origem) a qualquer outro artefato de destino (como outro requisito, história de usuário, componente ou módulo) que seja necessário para cumprir, implementar ou atender a esse requisito.
 - **Recurso:** Conecta um requisito a um dado, serviço ou funcionalidade da qual ele precisa para funcionar corretamente.  
 - **Responsabilidade:** Conecta um requisito ao ator, componente ou módulo que será responsável por realizá-lo.  
 - **Representação:** Conecta um requisito à sua forma de modelagem ou descrição em outro artefato.  
