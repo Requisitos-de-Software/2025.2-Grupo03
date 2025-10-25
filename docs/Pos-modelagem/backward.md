@@ -51,12 +51,12 @@ Essa abordagem ajuda a compreender o **propósito de cada requisito** e a **gara
 
 Para modelar as conexões entre os requisitos e suas origens, foram utilizados os **elos de rastreabilidade** definidos no modelo de Toranzo, conforme apresentado na Figura 2:  
 
-- **Satisfação:** liga um requisito funcional a um requisito não funcional que define uma condição ou qualidade que deve ser atendida.  
-- **Recurso:** liga um requisito a um dado, serviço ou funcionalidade da qual ele depende para funcionar corretamente.  
-- **Responsabilidade:** liga um requisito ao ator, componente ou módulo responsável por sua criação ou definição.  
-- **Representação:** liga um requisito à sua origem ou forma de especificação em outro artefato.  
-- **Alocado:** liga um requisito a um artefato de planejamento que indica de onde ele foi derivado ou relacionado.  
-- **Agregação:** liga um requisito a outro do qual ele faz parte ou que o complementa, formando uma funcionalidade mais ampla.
+- **Satisfação:** Conecta um requisito (artefato de origem) a qualquer outro artefato de destino (como outro requisito, história de usuário, componente ou módulo) que seja necessário para cumprir, implementar ou atender a esse requisito. 
+- **Recurso:** Conecta um requisito a um dado, serviço ou funcionalidade da qual ele depende para funcionar corretamente.  
+- **Responsabilidade:** Conecta um requisito ao ator, componente ou módulo responsável por sua criação ou definição.  
+- **Representação:** Conecta um requisito à sua origem ou forma de especificação em outro artefato.  
+- **Alocado:** Conecta um requisito a um artefato de planejamento que indica de onde ele foi derivado ou relacionado.  
+- **Agregação:** Conecta um requisito a outro do qual ele faz parte ou que o complementa, formando uma funcionalidade mais ampla.
 
 <div align="center"><strong>Figura 2: Tipos de Elos de Rastreabilidade</strong></div>
 
