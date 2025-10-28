@@ -14,15 +14,6 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da
 
 <div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
 
-| Nome | Quais etapas participou |
-|---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Adição dos requisitos de [RF43](#MR43), [RF44](#MR44), [RF45](#MR45), [RF46](#MR46), [RF49](#MR49), [RF50](#MR50), [RF51](#MR51), [RNF08](#MRN08) e [RNF14](#MRN14) |
-| [Arthur Henrique](https://github.com/arthurhvieira1) |  |
-| [Felipe Guimaraes](https://github.com/felipegf1) |  |
-| [João Felipe](https://github.com/MrBolt2005) |  |
-| [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Matriz de Rastreabilidade e adição dos requisitos de [RF06](#MR06), [RF15](#MR15), [RF18](#MR18), [RF19](#MR19), [RF21](#MR21), [RF22](#MR22), [RF34](#MR34), [RF35](#MR35), [RNF01](#MRN01) e [RNF05](#MRN05) |
-| [Vilmar José](https://github.com/VilmarFagundes) | Adição dos requisitos de [RF01](#MR01), [RF02](#MR02), [RF11](#MR11), [RF13](#MR13), [RF28](#MR28), [RF38](#MR38), [RF40](#MR40), [RNF09](#MRN09), [RNF10](#MRN10) e [RNF15](#MRN15) |
 | Nome  | Quais etapas participou  |
 | ------------------------ | -------------------------------
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Adição dos requisitos de [RF43](#MR43), [RF44](#MR44), [RF45](#MR45), [RF46](#MR46), [RF49](#MR49), [RF50](#MR50), [RF51](#MR51), [RNF08](#MRN08) e [RNF14](#MRN14)    |
