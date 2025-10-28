@@ -71,6 +71,13 @@ Essa abordagem permite **verificar se todos os requisitos têm origem bem defini
 
 ## Legenda
 
+Serão utilizados as seguintes legendas das tabelas:
+
+- RFx: Requisito Funcional número x;
+- RNFx: Requisito Não Funcional número x;
+- ELOBFx: Elo do Backward-From número x;
+- BFx: Backward from número x.
+
 ## Backward-From
 
 ### Requisitos Funcionais
