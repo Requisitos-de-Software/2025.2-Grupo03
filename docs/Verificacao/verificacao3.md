@@ -100,7 +100,7 @@ Esse trecho apresenta um arquivo PDF com os trechos específicos de onde cada it
 | 20 | A especificação suplementar possui um tópico de usabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
 | 21 | A seção possui todos os requisitos que afetam a usabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
 | 22 | Cada requisito enunciado na usabilidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
-| 23 | A especificação suplementar possui um tópico de confiabilidade? | [Vilmar Fagundes](httpshttps://github.com/VilmarFagundes) |
+| 23 | A especificação suplementar possui um tópico de confiabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
 | 24 | A confiabilidade possui todos os requisitos que afetam a confiabilidade do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
 | 25 | Cada requisito enunciado na confiabilidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
 | 26 | A especificação suplementar possui um tópico de desempenho? | [Vilmar Fagundes](https://github.com/VilmarFagundes) |
