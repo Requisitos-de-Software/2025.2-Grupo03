@@ -130,7 +130,7 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Referências
 
-
+SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26. Disponível em: [Requisitos_Aula 26](../arquivos/Requisitos%20-%20aula26-milene-modelagem.pdf). Acesso em: 24 outubro 2025.
 
 ## Históricos de versão
 
