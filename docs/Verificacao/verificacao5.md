@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Essa etapa apresenta uma lista de verificação para avaliar os elos de rastreabilidade conforme o meta-modelo de Toranzo, com base na Aula 26 da disciplina de Requisitos de Software.
+Essa etapa apresenta uma lista de verificação para avaliar os elos de rastreabilidade conforme o meta-modelo de Toranzo.
 
 ## Elos de Rastreabilidade
 
