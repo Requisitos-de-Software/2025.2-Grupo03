@@ -16,4 +16,4 @@ Esta apresentação é referente à entrega 6 do projeto. Com base no plano de e
 
 | Versão       | Data | Autor(es)                            | Descrição                | Revisor |
 |------------|--------|--------------------------------------|--------------------------|---------|
-|   1.0      |    29/10/2025       |     [Vilmar Fagundes](https://github.com/VilmarFagundes)        |       Criação da pagina                    | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)  |
+|   1.0      |    28/10/2025       |     [Vilmar Fagundes](https://github.com/VilmarFagundes)        |       Criação da pagina                    | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)  |
