@@ -42,6 +42,16 @@ A matriz é composta por 7 colunas, descritas a seguir:
 
 ## Legenda
 
+- RFx: Requisito Funcional número x;
+- RNFx: Requisito Não Funcional número x;
+- USx: História de usuário número x;
+- CEx: Cenário número x;
+- TMx: Tema número x;
+- UCx: Casos de Uso número x;
+- EPx: Épico número x;
+- ELOFx: Elo do Foward from número x;
+- ELOBFx: Elo do Backward-From número x;
+
 ## Matriz de Rastreabilidade
 
 ### Requisitos Funcionais
