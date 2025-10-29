@@ -141,7 +141,7 @@ Na tabela 2 encontra-se a rastreabilidade Backward-From dos Requisitos Funcionai
 | <a id="BF51"></a>BF51 | [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51) | O sistema deve apresentar ao professor qual aluno possui um comportamento adequado (entrega de atividades, presença na aula) | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não | [ELOBF51](#ELOBF51) |
 
 
-<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
 
@@ -169,7 +169,7 @@ Na tabela 3 encontra-se a rastreabilidade Backward-From dos Requisitos Não-Func
 | <a id="BF65"></a>BF65 | [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF15) | O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim | [ELOBF65](#ELOBF65) |
 | <a id="BF66"></a>BF66 | [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF12) | O sistema deve seguir padrões de acessibilidade para garantir usabilidade a todos os usuários. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não | [ELOBF66](#ELOBF66) |
 
-<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
 
@@ -234,7 +234,7 @@ Cada elo descreve como o requisito é **rastreado para trás**, conectando-o à 
 | <a id="ELOBF65"></a>ELOBF65 | [BF65](#BF65) | **Satisfação** | Este elo formaliza que o requisito [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF15) é satisfeito por políticas de segurança e anonimização de dados, garantindo conformidade com a LGPD. |
 | <a id="ELOBF66"></a>ELOBF66 | [BF66](#BF66) | **Satisfação** | Este elo formaliza que o requisito [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF12) foi derivado da necessidade de inclusão, identificada na [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/), satisfazendo a demanda para que todos os usuários possam utilizar o sistema. |
 
-<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
 
