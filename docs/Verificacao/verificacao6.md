@@ -4,8 +4,6 @@
 
 Essa etapa apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 6, tanto para o nosso grupo quanto ao grupo +1.  
 
-## Histórias de Usuário
-
 <div align="center"><strong>Tabela 1: Lista de Verificação de  Elos de rastreabilidade de Toranzo e  Matriz de Rastreabilidade</strong></div>
 
 | ID  | Item de Verificação | Autor |
