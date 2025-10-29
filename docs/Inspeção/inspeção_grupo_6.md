@@ -43,7 +43,7 @@ Documento baseado na lista de verificação feita para a entrega 6 do nosso grup
 
 # Vídeo da inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://www.youtube.com/watch?v=E3zLsTS4yGc)
 
 ## Histórico de versão
 
