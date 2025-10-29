@@ -134,7 +134,7 @@ Na tabela 2 encontra-se a rastreabilidade Backward-From dos Requisitos Funcionai
 | <a id="BF51"></a>BF51 | [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51) | O sistema deve apresentar ao professor qual aluno possui um comportamento adequado (entrega de atividades, presença na aula) | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Não | [ELOBF51](#ELOBF51) |
 
 
-<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
 
@@ -160,7 +160,7 @@ Na tabela 3 encontra-se a rastreabilidade Backward-From dos Requisitos Não-Func
 | <a id="BF64"></a>BF64 | [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF14) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim | [ELOBF64](#ELOBF64) |
 | <a id="BF65"></a>BF65 | [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF15) | O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD. | [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) | Sim | [ELOBF65](#ELOBF65) |
 
-<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 ---
 
