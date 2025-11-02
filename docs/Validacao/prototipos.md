@@ -34,8 +34,8 @@ O protótipo completo pode ser acessado no Figma **clicando aqui**. No entanto, 
 
 <div align="center"><strong>Tabela 2: Protótipos</strong></div>
 
-|**Código**| **Descrição** | **Pré-Rastreabilidade** | **Implementada** | **Artefatos** | **Elos** |
-|----------|---------------|-------------------------|-----------------|---------------------|----------|
+|**Código**| **Requisito** | **Descrição** | **Protótipo** |
+|----------|---------------|---------------|---------------|
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
