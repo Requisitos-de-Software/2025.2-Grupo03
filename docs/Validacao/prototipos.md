@@ -32,7 +32,7 @@ Após a finalização das telas, foi conduzida uma etapa de validação com usu�
 
 ## Protótipos
 
-Os protótipos completos podem ser acessados no Figma: o protótipo sob a perspectiva do Aluno pode ser visualizado [clicando aqui](https://www.figma.com/proto/Ylcbg1HC2cU5gCT86wZzuW/Requisitos?node-id=1-5&p=f&t=CeKGYi1Z6VrmyAav-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5), e o protótipo sob a perspectiva do Professor pode ser acessado [clicando aqui]().
+Os protótipos completos podem ser acessados no Figma: o protótipo sob a perspectiva do Aluno pode ser visualizado [clicando aqui](https://www.figma.com/proto/Ylcbg1HC2cU5gCT86wZzuW/Requisitos?node-id=1-5&p=f&t=CeKGYi1Z6VrmyAav-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5), e o protótipo sob a perspectiva do Professor pode ser acessado [clicando aqui](https://www.figma.com/proto/Ylcbg1HC2cU5gCT86wZzuW/Requisitos?node-id=33-1980&p=f&t=LzjQmstu8FXPOCsg-1&scaling=scale-down&content-scaling=fixed&page-id=33%3A1167).
 
 A Tabela 2 apresenta informações detalhadas sobre cada protótipo individual, permitindo uma visualização mais clara das funcionalidades desenvolvidas para o sistema.
 
