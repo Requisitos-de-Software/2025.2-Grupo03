@@ -41,7 +41,7 @@ Documento baseado na lista de verificação feita para a entrega 6 do nosso grup
 | 32 | Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento de Forward-Form? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Vieira](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [Joao Sapiencia](https://github.com/JoaoSapiencia), [João Felipe](https://github.com/MrBolt2005), [Tiago Lemes](https://github.com/TiagoTeixeira-2005), [Vilmar José](https://github.com/VilmarFagundes) | Conforme |
 | 33 | Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento de Matriz de Rastreabilidade? | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Vieira](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [Joao Sapiencia](https://github.com/JoaoSapiencia), [João Felipe](https://github.com/MrBolt2005), [Tiago Lemes](https://github.com/TiagoTeixeira-2005), [Vilmar José](https://github.com/VilmarFagundes) | Conforme |
 
-# Vídeo da inspeção
+## Vídeo da inspeção
 
 - [Link do video no youtube](https://www.youtube.com/watch?v=E3zLsTS4yGc)
 
