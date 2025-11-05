@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta funcionalidades que ainda não estão presentes no SAE, por meio de **protótipos de alta fidelidade criados no Figma** para representar o sistema proposto de forma visual e interativa. Esses protótipos mostram com bastante precisão como o produto final deve parecer e funcionar, incluindo cores, fontes, imagens e todos os caminhos de navegação entre as telas.
+Este documento apresenta funcionalidades que ainda não estão presentes no SAE, por meio de **protótipos criados no Figma** para representar o sistema proposto de forma visual e interativa. Esses protótipos ilustram como o produto final deve parecer e funcionar, mostrando elementos como cores, fontes, imagens e os caminhos de navegação entre as telas.
 
 Eles são usados em uma fase mais avançada do processo de design e têm como objetivo testar e validar a experiência do usuário. Dessa forma, é possível identificar ajustes necessários, melhorar a usabilidade e garantir que o sistema realmente atenda às necessidades dos usuários antes de começar o desenvolvimento.
 
@@ -18,24 +18,31 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [Felipe Guimaraes](https://github.com/felipegf1)      | |
 | [João Felipe](https://github.com/MrBolt2005)          | |
 | [João Sapiência](https://github.com/JoaoSapiencia)    | |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005)    | Criação do documento de Prototipação |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005)    | Criação do documento de prototipação, desenvolvimento dos protótipos dos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15), [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18) e [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19), além da validação dos protótipos com um usuário real. |
 | [Vilmar José](https://github.com/VilmarFagundes)      | |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ## Metodologia
-A construção dos protótipos de alta fidelidade foi feita no Figma, escolhido por sua praticidade e robustez na criação de interfaces interativas. As telas foram desenvolvidas com base nas modelagens tradicionais e ágeis realizadas anteriormente, garantindo coerência com o planejamento do sistema.
+A construção dos protótipos foi realizada no Figma, ferramenta escolhida por sua praticidade e robustez na criação de interfaces interativas. As telas foram desenvolvidas com base nas modelagens tradicionais e ágeis feitas anteriormente, garantindo coerência com o planejamento do sistema.
 
-Após a finalização das telas, foi realizada uma etapa de validação com usuários reais, por meio de entrevistas individuais. Nessas sessões, os participantes puderam explorar livremente o protótipo, enquanto os observadores registravam suas interações, percepções e eventuais dificuldades encontradas.
+Embora o sistema SAE seja exclusivamente web, a prototipação foi feita considerando uma possível adaptação futura para **dispositivos móveis**.
+
+Após a finalização das telas, foi conduzida uma etapa de validação com usuários reais, por meio de entrevistas individuais. Nessas sessões, os participantes puderam explorar o protótipo livremente, enquanto os observadores registravam suas interações, percepções e eventuais dificuldades encontradas.
 
 ## Protótipos
 
-O protótipo completo pode ser acessado no Figma **clicando aqui**. No entanto, a Tabela 2 apresenta informações detalhadas sobre cada protótipo individual, permitindo uma visualização mais clara das funcionalidades desenvolvidas para o sistema.
+Os protótipos completos podem ser acessados no Figma: o protótipo sob a perspectiva do Aluno pode ser visualizado [clicando aqui](https://www.figma.com/proto/Ylcbg1HC2cU5gCT86wZzuW/Requisitos?node-id=1-5&p=f&t=CeKGYi1Z6VrmyAav-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5), e o protótipo sob a perspectiva do Professor pode ser acessado [clicando aqui]().
+
+A Tabela 2 apresenta informações detalhadas sobre cada protótipo individual, permitindo uma visualização mais clara das funcionalidades desenvolvidas para o sistema.
 
 <div align="center"><strong>Tabela 2: Protótipos</strong></div>
 
 |**Código**| **Requisito** | **Descrição** | **Protótipo** |
 |----------|---------------|---------------|---------------|
+| <a id="PT07"></a>PT07 | [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15) | O sistema deve enviar notificações para lembrar o aluno de revisar conteúdos passados. | |
+| <a id="PT09"></a>PT09 | [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18) | O sistema deve pedir ao indivíduo a melhor forma de caminho de notificação. | |
+| <a id="PT10"></a>PT10 | [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19) | O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
