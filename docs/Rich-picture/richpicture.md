@@ -7,25 +7,24 @@ Nesse projeto, o Rich Picture foi desenvolvido com base no sistema SAE, escolhid
 
 A elaboração do nosso Rich Picture foi feita através da ferramenta Canva. Logo abaixo, temos o Rich Picture do SAE (Figura 1), sua legenda (Figura 2) e a legenda dos principais tópicos do SAE (Figura 3).
 
-**Figura 1: Rich Picture do SAE**
+
+<div align="center"><strong>Figura 1: Rich Picture do SAE</strong></div>
 
 ![Figura 1: Rich Picture do SAE](../imagens/RichPicture-SAE.jpg)
 
-<div align="center"><strong>Autores: <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
-
-**Figura 2: Legenda do Rich Picture do SAE**
+<div align="center"><strong>Figura 2: Legenda do Rich Picture do SAE</strong></div>
 
 ![Figura 2: Legenda do Rich Picture do SAE](../imagens/legendaRichPicture.png)
 
-<div align="center"><strong>Autores: <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
-
-**Figura 3: Legenda dos principais tópicos do SAE**
+<div align="center"><strong>Figura 3: Legenda dos principais tópicos do SAE</strong></div>
 
 ![Figura 3: Legenda dos principais tópicos do SAE](../imagens/legendaSAE.jpeg)
 
-<div align="center"><strong>Autores: <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 
 ## Referências
