@@ -13,7 +13,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 
 | Nome    | Quais etapas participou  |
 | ------------------------ | --------------------------------------------------------- |
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) |desenvolvimento dos protótipos dos requisitos [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49), [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50) e [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51), além da validação dos protótipos com um usuário real.|
 | [Arthur Henrique](https://github.com/arthurhvieira1) | |
 | [Felipe Guimaraes](https://github.com/felipegf1)      | |
 | [João Felipe](https://github.com/MrBolt2005)          | |
@@ -43,6 +43,9 @@ A Tabela 2 apresenta informações detalhadas sobre cada protótipo individual, 
 | <a id="PT07"></a>PT07 | [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15) | O sistema deve enviar notificações para lembrar o aluno de revisar conteúdos passados. | |
 | <a id="PT09"></a>PT09 | [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18) | O sistema deve pedir ao indivíduo a melhor forma de caminho de notificação. | |
 | <a id="PT10"></a>PT10 | [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19) | O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.  |
+| <a id="PT18"></a>PT18 | [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49) | O assistente virtual deve analisar a situação cognitiva de cada aluno e atuar como agente colaborativo na aprendizagem.  |
+| <a id="PT19"></a>PT19 | [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50) | O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo.  |
+| <a id="PT20"></a>PT20 | [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51) | O sistema deve apresentar ao professor qual aluno possui um comportamento adequado (entrega de atividades, presença na aula).  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
 
