@@ -14,11 +14,15 @@ A elaboração do nosso Rich Picture foi feita através da ferramenta Canva. Log
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
+---
+
 <div align="center"><strong>Figura 2: Legenda do Rich Picture do SAE</strong></div>
 
 ![Figura 2: Legenda do Rich Picture do SAE](../imagens/legendaRichPicture.png)
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+---
 
 <div align="center"><strong>Figura 3: Legenda dos principais tópicos do SAE</strong></div>
 
@@ -26,6 +30,7 @@ A elaboração do nosso Rich Picture foi feita através da ferramenta Canva. Log
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
+---
 
 ## Referências
 CTEC2402 Software Development Project, Introducing Rich Pictures
