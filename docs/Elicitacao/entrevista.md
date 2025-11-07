@@ -12,9 +12,9 @@ Na Tabela 1 estão todos os integrantes da equipe que participaram desta etapa d
 
 | **Nome** | **Quais etapas participou** |
 |------|-------------------------|
-| Arthur Henrique | Ajudou no desenvolvimento das perguntas, Executou a gravação da entrevista |
-| Tiago Lemes | Ajudou no desenvolvimento das perguntas, Participou da entrevista como secretário, transcreveu respostas, auxiliou na elicitação de requisitos |
-| Vilmar José | Realizou a entrevista, publicou video no YouTube (não listado), auxiliou na elicitação de requisitos, estruturou a documentação final da entrevista|
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Ajudou no desenvolvimento das perguntas, Executou a gravação da entrevista |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Ajudou no desenvolvimento das perguntas, Participou da entrevista como secretário, transcreveu respostas, auxiliou na elicitação de requisitos |
+| [Vilmar José](https://github.com/VilmarFagundes) | Realizou a entrevista, publicou video no YouTube (não listado), auxiliou na elicitação de requisitos, estruturou a documentação final da entrevista|
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
