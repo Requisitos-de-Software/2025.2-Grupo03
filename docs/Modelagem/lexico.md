@@ -12,13 +12,13 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Elaboração dos léxicos 3, 4, 10, 11, 16, 17 |
-| [Arthur Henrique](https://github.com/arthurhvieira1) | Elaboração dos léxicos 23, 24, 25 e 26 |
-| [Felipe Guimaraes](https://github.com/felipegf1) |   Elaboração dos léxicos 20, 21 , 22 |
-| [João Felipe](https://github.com/MrBolt2005) |                                       |
-| [João Sapiência](https://github.com/JoaoSapiencia) |  Elaboração dos léxicos 27, 28 , 29                                     |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Léxico e elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19 |
-| [Vilmar José](https://github.com/VilmarFagundes) | Elaboração dos léxicos 1, 2, 8, 9, 14, 15 |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Elaboração dos léxicos [3 - Monitor](#léxico-3-monitor), [4 - Coordenador](#léxico-4-coordenador), [10 - Consultar Conteúdo](#léxico-10-consultar-conteúdo), [11 - Realizar Atividade](#léxico-11-realizar-atividade), [16 - Atividade em Andamento](#léxico-16-atividade-em-andamento), [17 - Atividade Atrasada](#léxico-17-atividade-atrasada) |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Elaboração dos léxicos [23 - Perfil](#léxico-23-perfil), [24 - Analisar Desempenho](#léxico-24-analisar-desempenho), [25 - Aluno Inativo](#léxico-25-aluno-inativo) |
+| [Felipe Guimaraes](https://github.com/felipegf1) | Elaboração dos léxicos [20 - Banco de questoões](#léxico-20-banco-de-questoões), [21 - Separar por conteudo](#léxico-21-separar-por-conteudo), [22 - Aluno com Dificuldade](#léxico-22-aluno-com-dificuldade) |
+| [João Felipe](https://github.com/MrBolt2005) | — |
+| [João Sapiência](https://github.com/JoaoSapiencia) | Elaboração dos léxicos [27 - Assistente Virtual](#léxico-27-assistente-virtual), [28 - Desempenho](#léxico-28-desempenho), [29 - Configurar Aviso](#léxico-29-configurar-aviso) |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e elaboração dos léxicos [5 - Administrador](#léxico-5-administrador), [6 - AVAs](#léxico-6-avas), [7 - MinA](#léxico-7-mina), [12 - Consultar Desempenho](#léxico-12-consultar-desempenho), [13 - Fornecer Estatísticas](#léxico-13-fornecer-estatísticas), [18 - Conteúdo Dominado](#léxico-18-conteúdo-dominado), [19 - Conteúdo em Dificuldade](#léxico-19-conteúdo-em-dificuldade) |
+| [Vilmar José](https://github.com/VilmarFagundes) | Elaboração dos léxicos [1 - Aluno](#léxico-1-aluno), [2 - Professor](#léxico-2-professor), [8 - Receber Notificação](#léxico-8-receber-notificação), [9 - Consultar Histórico](#léxico-9-consultar-histórico), [14 - Atividade Concluída](#léxico-14-atividade-concluída), [15 - Atividade Pendente](#léxico-15-atividade-pendente) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
