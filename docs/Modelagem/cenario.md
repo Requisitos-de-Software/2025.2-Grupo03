@@ -10,7 +10,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) |  Criou os cenários 07, 08 e 09, referente aos requisitos [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) |  Criou os cenários 07, 08 e 09, referente aos requisitos [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Criação dos cenários 12 e 13, referentes, respectivamente aos requisitos [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF21](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)|
 | [Felipe Guimaraes](https://github.com/felipegf1) |   Criou os cenários 01, 02 e 03, referente aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) | Criou os cenários 14, 15 e 16, referente aos requisitos [RF24](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF42](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                      |
@@ -184,7 +184,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ---
 
 ### Cenário 07: Análise Cognitiva e Apoio à Aprendizagem  
-**Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve analisar documentos escolares(atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
+**Requisito Associado:** [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve analisar documentos escolares(atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
 
 <div align="center"><strong> Tabela 9 - Cenário 07 </strong></div>
 
@@ -204,7 +204,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ---
 
 ### Cenário 08: Identificação de Conhecimento sobre o Conteúdo  
-**Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
+**Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
 
 <div align="center"><strong> Tabela 10 - Cenário 08 </strong></div>
 
@@ -224,7 +224,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 ---
 
 ### Cenário 09: Avaliação de Comportamento Escolar  
-**Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
+**Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) - O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
 
 <div align="center"><strong> Tabela 11 - Cenário 09 </strong></div>
 
