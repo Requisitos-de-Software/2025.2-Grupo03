@@ -4,7 +4,7 @@
 
 Como parte do entendimento do sistema **SAE**, foi realizado uma entrevista com o desenvolvedor e usuário do sistema, com o objetivo de coletar expectativas, necessidades e desafios no uso de um sistema acadêmico com tutor inteligente.
 
-## Integrantes 
+## Integrantes do Grupo
 
 Na Tabela 1 estão todos os integrantes da equipe que participaram desta etapa de entrevista e as atividades desenvolvidas por cada um.
 
