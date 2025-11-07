@@ -13,7 +13,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da constru�
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criou as especificações de casos de uso 07, 08 e 09, que são referentes, respectivamente, aos requisitos [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)|
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criou as especificações de casos de uso 07, 08 e 09, que são referentes, respectivamente, aos requisitos [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49), [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50) e [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51)|
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Criou as especificações de casos de uso 15, 16 e 17, que são referentes, respectivamente, aos requisitos [RF16](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF21](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF30](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais)                                       |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Criou as especificações de casos de uso 01, 02 e 03, que são referentes, respectivamente, aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | [João Felipe](https://github.com/MrBolt2005) |                                       |
@@ -204,7 +204,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ### UC07 – Análise Cognitiva e Apoio à Aprendizagem  
-**Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve analisar documentos escolares (atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
+**Requisito Associado:** [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49) – O sistema deve analisar documentos escolares (atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.
 
 <div align="center"><strong>Tabela 9: Caso de Uso UC07</strong></div>
 
@@ -219,7 +219,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |Fluxo alternativo|- Documentos insuficientes para análise.  <br> - Dados corrompidos ou inconsistentes.|
 |Fluxo de exceção|- Falha na análise cognitiva.  <br> - Estratégias sugeridas não são compatíveis com o perfil do aluno.|
 |*Pós-condições| O aluno recebe sugestões personalizadas para reforço de aprendizagem.|
-|Rastreabilidade| RF50 |
+|Rastreabilidade| RF49 |
 |Data de criação| 08/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -227,7 +227,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ---
 
 ### UC08 – Identificação de Conhecimento sobre o Conteúdo  
-**Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
+**Requisito Associado:** [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50) – O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.
 
 <div align="center"><strong>Tabela 10: Caso de Uso UC08</strong></div>
 
@@ -242,14 +242,14 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |Fluxo alternativo|- Provas não corrigidas ou com erros.  <br>- Dados insuficientes para análise.|
 |Fluxo de exceção|- Falha na aplicação da Lógica Fuzzy.  <br>- Erro na geração do painel de desempenho.|
 |*Pós-condições| O professor visualiza o nível de conhecimento dos alunos por conteúdo.|
-|Rastreabilidade| RF51  |
+|Rastreabilidade| RF50  |
 |Data de criação| 08/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ---
 
 ### UC09 – Avaliação de Comportamento Escolar  
-**Requisito Associado:** [RF52](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
+**Requisito Associado:** [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51) – O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.
 
 <div align="center"><strong>Tabela 11: Caso de Uso UC09</strong></div>
 
@@ -264,7 +264,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |Fluxo alternativo|- Dados incompletos ou não sincronizados.  <br>- Aluno ausente em todas as atividades.|
 |Fluxo de exceção|- Falha na geração do relatório.  <br>- Dados corrompidos ou inconsistentes.|
 |*Pós-condições| O professor recebe relatório com avaliação comportamental dos alunos.|
-|Rastreabilidade| RF52  |
+|Rastreabilidade| RF51  |
 |Data de criação| 08/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
@@ -487,3 +487,4 @@ Lucid Software Português. Tutorial de Caso de Uso UML. Youtube, 25 abr. 2019. D
 | 1.6    | 10/10/2025 | Gravação da Validação | [Felipe Guimaraes](https://github.com/felipegf1) e [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.7    | 12/10/2025 | Atualização do documento | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Henrique](https://github.com/arthurhvieira1) |
 | 1.8    | 12/10/2025 | Atualização do documento | [Arthur Henrique](https://github.com/arthurhvieira1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.9    | 07/11/2025 | Atualização do documento | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
