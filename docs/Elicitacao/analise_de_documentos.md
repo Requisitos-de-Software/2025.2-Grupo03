@@ -12,9 +12,26 @@ A elicitação utilizou como base as seguintes páginas do SAE:
 Eles estão organizados em três categorias: **Requisitos Funcionais**, **Requisitos Não-Funcionais** e **Requisitos Não Implementados**.  
 Além disso, são apresentados os diferentes **perfis de usuários** do sistema e sua forma de interação com os módulos.
 
+## Integrantes do Grupo
+
+A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de Análise de Documentos, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
+
+<div align="center"><strong>Tabela 1: Integrantes envolvidos</strong></div>
+
+| **Nome** | **Quais etapas participou** |
+|------|-------------------------|
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento e realização da Análise de Documentos |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e realização da Análise de Documentos |
+
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong>
+</div>
+
 
 ---
 ## Requisitos Funcionais
+
+<div align="center"><strong>Tabela 2: Requisitos Funcionais</strong></div>
 
 | ID   | Módulo | Descrição |
 |------|--------|-----------|
@@ -54,6 +71,8 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 
 ## Requisitos Não-Funcionais
 
+<div align="center"><strong>Tabela 3: Requisitos Não-Funcionais</strong></div>
+
 | ID  | Categoria     | Descrição |
 |-----|---------------|-----------|
 | RNF01 | **Usabilidade** | - A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). |
@@ -74,6 +93,8 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 
 ## Requisitos Não Implementados
 
+<div align="center"><strong>Tabela 4: Requisitos Não Implementados</strong></div>
+
 | Categoria | Descrição |
 |-----------|-----------|
 | **Novos Módulos e Integrações** | - Sistema de Recomendação de Conteúdo (já adicionado).<br>- Agente Inteligente (já adicionado).<br>- Interação com AVAs externos (ex.: Moodle). |
@@ -91,6 +112,9 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 ## Perfis de Usuários
 
 ### 1. Perfil do Aluno
+
+<div align="center"><strong>Tabela 5: Perfil do Aluno</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema, com perfil adaptado. |
@@ -104,6 +128,9 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 ---
 
 ### 2. Perfil do Professor/Docente
+
+<div align="center"><strong>Tabela 6: Perfil do Professor/Docente</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -117,6 +144,9 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 ---
 
 ### 3. Perfil do Monitor
+
+<div align="center"><strong>Tabela 7: Perfil do Monitor</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -130,6 +160,9 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 ---
 
 ### 4. Perfil do Coordenador/Diretor
+
+<div align="center"><strong>Tabela 8: Perfil do Coordenador/Diretor</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -143,6 +176,9 @@ Além disso, são apresentados os diferentes **perfis de usuários** do sistema 
 ---
 
 ### 5. Perfil do Administrador
+
+<div align="center"><strong>Tabela 9: Perfil do Administrador</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -165,5 +201,6 @@ SAE, Trabalhos Futuros. Disponível em: [https://sae.unb.br/ajudasae/conhecasae/
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 20/09/2025 | Análise de Documentos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes) |
-| 2.0    | 27/09/2025 | Alteração nas tabelas | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Vieira](https://github.com/arthurhvieira1) |
+| 1.0    | 20/09/2025 | Criação da página de Análise de Documentos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1    | 27/09/2025 | Alteração nas tabelas | [Felipe Guimaraes](https://github.com/felipegf1) | [Arthur Vieira](https://github.com/arthurhvieira1) |
+| 1.2    | 07/11/2025 | Atualização da página | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
