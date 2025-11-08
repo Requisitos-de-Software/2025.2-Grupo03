@@ -3,7 +3,7 @@
 ## Introdução
 Léxicos referem-se aos termos, vocabulário e símbolos específicos usados para descrever e documentar os requisitos de um sistema, com o objetivo de garantir que todos, desde clientes até desenvolvedores, utilizem e compreendam os mesmos conceitos de forma consistente e sem ambiguidades.
 
-Este documento apresenta os principais léxicos identificados no projeto **SAE (Sistema de Apoio Educacional)**, considerando seus possíveis sinônimos, tipo, definição dentro do contexto do sistema e sua importância tanto para o funcionamento do sistema quanto para a experiência do usuário.
+Este documento apresenta os principais léxicos identificados no projeto **SAE (Sistema de Apoio Educacional)**, considerando seus possíveis sinônimos, tipo, definição dentro do contexto do sistema e sua importância tanto para o funcionamento do sistema quanto para a experiência do indivíduo.
 
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção dos Léxicos, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
@@ -38,7 +38,7 @@ Cada léxico foi construído a partir da análise individual de um requisito fun
 
 - **Sinônimos:** Outras palavras ou expressões que possuem o mesmo ou semelhante significado dentro do contexto do sistema.
 - **Noção:** Definição do termo dentro do contexto do sistema, explicando seu significado e uso.
-- **Impacto:** Importância do termo para o funcionamento do sistema e para o usuário.
+- **Impacto:** Importância do termo para o funcionamento do sistema e para o beneficiário.
 
 ---
 
@@ -48,7 +48,7 @@ A **padronização da tabela** se baseou nesses elementos apresentados acima e p
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Nome do conceito identificado. | Classificação do termo como **verbo**, **objeto** ou **estado**.  | Outras palavras ou expressões que possuem o mesmo ou semelhante significado dentro do contexto do sistema. | Definição do termo dentro do contexto do sistema, explicando seu significado e uso. | Importância do termo para o funcionamento do sistema e para o usuário. |
+| Nome do conceito identificado. | Classificação do termo como **verbo**, **objeto** ou **estado**.  | Outras palavras ou expressões que possuem o mesmo ou semelhante significado dentro do contexto do sistema. | Definição do termo dentro do contexto do sistema, explicando seu significado e uso. | Importância do termo para o funcionamento do sistema e para o beneficiário. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -105,7 +105,7 @@ O termo **Administrador** define o ator responsável pela gestão técnica e ope
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Administrador | Objeto | Gestor do Sistema | Responsável pela gestão do sistema, usuários e configurações gerais. | - Mantém perfis de usuários.<br>- Gerencia permissões e dados do sistema.<br>- Garante segurança, backup e disponibilidade do sistema. |
+| Administrador | Objeto | Gestor do Sistema | Responsável pela gestão do sistema, perfis e configurações gerais. | - Mantém os diferentes perfis de acesso.<br>- Gerencia permissões e dados do sistema.<br>- Garante segurança, backup e disponibilidade do sistema. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -132,13 +132,13 @@ O termo **MinA** representa a personagem antropomórfica do Sistema Tutor Inteli
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ### Léxico 8: Receber Notificação
-O termo "Receber Notificação" é um verbo de ação do sistema que garante a comunicação proativa com o usuário. Refere-se ao ato de o ator ser alertado sobre eventos importantes, como prazos, atividades pendentes ou sugestões de conteúdo para revisão.
+O termo "Receber Notificação" é um verbo de ação do sistema que garante a comunicação proativa com os participantes da plataforma. Refere-se ao ato de o ator ser alertado sobre eventos importantes, como prazos, atividades pendentes ou sugestões de conteúdo para revisão.
 
 <div align="center"><strong>Tabela 10: Léxico – Receber Notificação</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Receber Notificação | Verbo | Alertar-se | Ator recebe alertas sobre atividades, prazos ou conteúdo. | - Mantém usuário informado. |
+| Receber Notificação | Verbo | Alertar-se | Ator recebe alertas sobre atividades, prazos ou conteúdo. | - Mantém os participantes informados. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
 
@@ -165,24 +165,24 @@ O termo "Consultar Conteúdo" é um verbo que representa a ação de acessar mat
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ### Léxico 11: Realizar Atividade
-O termo "Realizar Atividade" é um verbo que expressa a execução de tarefas propostas pelo sistema. Refere-se ao momento em que o usuário interage com exercícios, avaliações ou atividades, gerando dados de desempenho.
+O termo "Realizar Atividade" é um verbo que expressa a execução de tarefas propostas pelo sistema. Refere-se ao momento em que o aluno interage com exercícios, avaliações ou atividades, gerando dados de desempenho.
 
 <div align="center"><strong>Tabela 13: Léxico – Realizar Atividade</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Realizar Atividade | Verbo | Executar Tarefa | Usuário completa exercício, avaliação ou tarefa. | - Gera registros de desempenho.<br>- Contribui para histórico e progresso. |
+| Realizar Atividade | Verbo | Executar Tarefa | Aluno completa exercício, avaliação ou tarefa. | - Gera registros de desempenho.<br>- Contribui para histórico e progresso. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ### Léxico 12: Consultar Desempenho
-O termo **Consultar Desempenho** é um verbo que representa a ação de verificar resultados e métricas de aprendizado. Essa funcionalidade permite ao usuário acompanhar seus acertos, erros, médias e progresso ao longo da disciplina, servindo como base para autoavaliação e revisão de conteúdos.
+O termo **Consultar Desempenho** é um verbo que representa a ação de verificar resultados e métricas de aprendizado. Essa funcionalidade permite ao aluno acompanhar seus acertos, erros, médias e progresso ao longo da disciplina, servindo como base para autoavaliação e revisão de conteúdos.
 
 <div align="center"><strong>Tabela 14: Léxico – Consultar Desempenho</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Consultar Desempenho | Verbo | Ver Resultados | Usuário verifica acertos, erros, médias e progresso. | - Permite acompanhamento do aprendizado.<br>- Auxilia na tomada de decisão sobre revisão de conteúdo. |
+| Consultar Desempenho | Verbo | Ver Resultados | Aluno verifica acertos, erros, médias e progresso. | - Permite acompanhamento do aprendizado.<br>- Auxilia na tomada de decisão sobre revisão de conteúdo. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -205,7 +205,7 @@ O termo “Atividade Concluída” refere-se ao estado em que o aluno finalizou 
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |----------|-------|----------------|-----------|------------|
-| Atividade Concluída  | Estado | Finalizada, Encerrada  | Condição em que a atividade foi totalmente realizada pelo aluno.       | - Permite o registro de notas e estatísticas.<br>- Atualiza o progresso geral da disciplina.<br>- Gera feedback automático ao usuário. |
+| Atividade Concluída  | Estado | Finalizada, Encerrada  | Condição em que a atividade foi totalmente realizada pelo aluno.       | - Permite o registro de notas e estatísticas.<br>- Atualiza o progresso geral da disciplina.<br>- Gera feedback automático ao aluno. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
 
@@ -307,13 +307,13 @@ O termo “Aluno com Dificuldade” refere-se ao estado em que o desempenho do a
 
 
 ### **Léxico 23: Perfil**
-O termo "Perfil" representa o conjunto de informações que definem o tipo de usuário no sistema, suas permissões, funções e nível de acesso.
+O termo "Perfil" representa o conjunto de informações que definem o tipo de participante no sistema, suas permissões, funções e nível de acesso.
 
 <div align="center"><strong>Tabela 25: Léxico – Perfil</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 |-------|------|-----------|-------|---------|
-| Perfil | Objeto | - Conta<br>- Identidade de Usuário<br>- Nível de Acesso | Estrutura que armazena as informações e definições de acesso de cada indivíduo (aluno, professor, coordenador, etc.) dentro da plataforma. | - Determina o que cada usuário pode visualizar e realizar.<br>- Define o comportamento da interface de acordo com o tipo de usuário.<br>- É essencial para personalização de notificações, relatórios e assistente virtual.<br>- Baseia o controle de permissões no sistema. |
+| Perfil | Objeto | - Conta<br>- Identidade<br>- Nível de Acesso | Estrutura que armazena as informações e definições de acesso de cada indivíduo (aluno, professor, coordenador, etc.) dentro da plataforma. | - Determina o que cada perfil pode visualizar e realizar.<br>- Define o comportamento da interface de acordo com o tipo de perfil.<br>- É essencial para personalização de notificações, relatórios e assistente virtual.<br>- Baseia o controle de permissões no sistema. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
@@ -356,13 +356,13 @@ O termo "Estatísticas" define o conjunto de dados analíticos e métricas apres
 
 ### Léxico 27: Assistente Virtual
 
-Esta tabela descreve o termo "Assistente Virtual" no contexto do SAE, apresentando seu tipo, sinônimos, noção e o impacto esperado para o sistema e para os usuários.
+Esta tabela descreve o termo "Assistente Virtual" no contexto do SAE, apresentando seu tipo, sinônimos, noção e o impacto esperado para o sistema e para os participantes da plataforma.
 
 <div align="center"><strong>Tabela 29: Léxico – Assistente Virtual</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 | :--- | :--- | :--- | :--- | :--- |
-| **Assistente Virtual** | Objeto | ITA, Tutor Inteligente, Chatbot de Apoio, Guia Virtual. | Componente de software inteligente do SAE, personificado como "ITA", que interage com os usuários. Sua função é analisar dados de desempenho e comportamento do aluno para oferecer orientação, sugestões de atividades e suporte pedagógico de forma personalizada e proativa. | **Para o sistema:** É o principal motor da personalização da aprendizagem, conectando diferentes módulos (como o Banco de Questões) para entregar uma experiência adaptativa.<br><br>**Para o usuário:** Oferece suporte imediato e focado nas suas necessidades individuais, ajudando a reforçar o conteúdo estudado e a superar dificuldades de aprendizagem, tornando o estudo mais eficiente e engajador. |
+| **Assistente Virtual** | Objeto | ITA, Tutor Inteligente, Chatbot de Apoio, Guia Virtual. | Componente de software inteligente do SAE, personificado como "ITA", que interage com os participantes. Sua função é analisar dados de desempenho e comportamento do aluno para oferecer orientação, sugestões de atividades e suporte pedagógico de forma personalizada e proativa. | **Para o sistema:** É o principal motor da personalização da aprendizagem, conectando diferentes módulos (como o Banco de Questões) para entregar uma experiência adaptativa.<br><br>**Para os participantes:** Oferece suporte imediato e focado nas suas necessidades individuais, ajudando a reforçar o conteúdo estudado e a superar dificuldades de aprendizagem, tornando o estudo mais eficiente e engajador. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
@@ -374,19 +374,19 @@ O termo "Desempenho" refere-se às medidas quantitativas e qualitativas que indi
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 | :--- | :--- | :--- | :--- | :--- |
-| **Desempenho** | Estado | Progresso, Rendimento, Nível de Conhecimento, Resultados. | Conjunto de métricas que representam o progresso e o nível de proficiência de um aluno. É calculado com base em dados como percentual de acertos em atividades, conclusão de conteúdos e notas, servindo como base para as análises do sistema. | **Para o sistema:** É a principal fonte de dados para a inteligência do SAE, alimentando o assistente virtual e os mecanismos de personalização para sugerir conteúdos e atividades.<br><br>**Para o usuário:** Permite que alunos, professores e monitores visualizem de forma clara o avanço no aprendizado, identificando pontos fortes e dificuldades para direcionar os estudos e as intervenções pedagógicas. |
+| **Desempenho** | Estado | Progresso, Rendimento, Nível de Conhecimento, Resultados. | Conjunto de métricas que representam o progresso e o nível de proficiência de um aluno. É calculado com base em dados como percentual de acertos em atividades, conclusão de conteúdos e notas, servindo como base para as análises do sistema. | **Para o sistema:** É a principal fonte de dados para a inteligência do SAE, alimentando o assistente virtual e os mecanismos de personalização para sugerir conteúdos e atividades.<br><br>**Para os participantes:** Permite que alunos, professores e monitores visualizem de forma clara o avanço no aprendizado, identificando pontos fortes e dificuldades para direcionar os estudos e as intervenções pedagógicas. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ### Léxico 29: Configurar Aviso
 
-O termo "Configurar Aviso" refere-se à ação do usuário de definir preferências de notificações do sistema, incluindo tipos de aviso, canais e momentos de recebimento.
+O termo "Configurar Aviso" refere-se à ação do participante de definir preferências de notificações do sistema, incluindo tipos de aviso, canais e momentos de recebimento.
 
 <div align="center"><strong>Tabela 31: Léxico – Configurar Aviso</strong></div>
 
 | Termo | Tipo | Sinônimos | Noção | Impacto |
 | :--- | :--- | :--- | :--- | :--- |
-| **Configurar Aviso** | Verbo | Personalizar Notificação, Ajustar Alerta, Definir Preferências de Notificação, Gerenciar Lembretes. | Ação realizada pelo usuário para personalizar as notificações do sistema. Isso inclui a escolha do canal de comunicação (ex: e-mail, push) e a definição da frequência ou do tempo para receber alertas sobre eventos, como prazos de atividades ou lembretes de revisão. | **Para o sistema:** Permite que o sistema se adapte às preferências do usuário, aumentando a eficácia da comunicação e a probabilidade de o usuário interagir com os alertas.<br><br>**Para o usuário:** Concede ao usuário controle total sobre como e quando é contatado pelo sistema, melhorando a experiência de uso, evitando notificações indesejadas e garantindo que os avisos importantes sejam recebidos da maneira mais conveniente. |
+| **Configurar Aviso** | Verbo | Personalizar Notificação, Ajustar Alerta, Definir Preferências de Notificação, Gerenciar Lembretes. | Ação realizada pelo participante para personalizar as notificações do sistema. Isso inclui a escolha do canal de comunicação (ex: e-mail, push) e a definição da frequência ou do tempo para receber alertas sobre eventos, como prazos de atividades ou lembretes de revisão. | **Para o sistema:** Permite que o sistema se adapte às preferências do indivíduo, aumentando a eficácia da comunicação e a probabilidade de o participante interagir com os alertas.<br><br>**Para os participantes:** Concede controle total sobre como e quando é contatado pelo sistema, melhorando a experiência de uso, evitando notificações indesejadas e garantindo que os avisos importantes sejam recebidos da maneira mais conveniente. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
