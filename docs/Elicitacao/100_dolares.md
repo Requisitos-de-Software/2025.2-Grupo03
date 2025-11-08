@@ -1,7 +1,7 @@
 # 100 Dólares
 
 ## Introdução
-A priorização de requisitos é uma etapa essencial da engenharia de requisitos, pois orienta a definição das funcionalidades que devem ser implementadas primeiro. Nesse processo, as funcionalidades são atribuidas valores que de acordo com que o usuário quer que seja implementado, sendo atribudos 100 dólares(pontos) para alocar nas funcionalidades.
+A priorização de requisitos é uma etapa essencial da engenharia de requisitos, pois orienta a definição das funcionalidades que devem ser implementadas primeiro. Nesse processo, as funcionalidades são atribuidas valores que de acordo com que o indivíduo quer que seja implementado, sendo atribudos 100 dólares(pontos) para alocar nas funcionalidades.
 
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de priorização de requisitos, assim como a contribuição de cada um durante o desenvolvimento do projeto.
@@ -27,9 +27,9 @@ A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem crescen
 | RF04   | Acompanhamento Real (Real)            | O sistema deve agregar o processo formal de avaliação (Plano de Ensino) com o ambiente virtual                   | 0          |
 | RF05   | Acompanhamento Real (Real)            | A interface deve conter o progresso do aluno na disciplina toda                                                  | 0          |
 | RF06   | Acompanhamento Real (Real)            | A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo                       | 0          |
-| RF07   | Acompanhamento Real (Real)            | A interface deve exibir a média do usuário após a atividade                                                      | 1          |
+| RF07   | Acompanhamento Real (Real)            | A interface deve exibir a média do indivíduo após a atividade                                                      | 1          |
 | RF08   | Acompanhamento Real (Real)            | O sistema deve possuir vídeo aula                                                                                | 2          |
-| RF09   | Acompanhamento Real (Real)            | O sistema deve pedir ao usuário a melhor forma de caminho de notificação                                         | 0          |
+| RF09   | Acompanhamento Real (Real)            | O sistema deve pedir ao indivíduo a melhor forma de caminho de notificação                                         | 0          |
 | RF10   | Apoio a Decisão (MAD)                 | O sistema deve fornecer dados e informações analíticas em diferentes níveis                                      | 0          |
 | RF11   | Apoio a Decisão (MAD)                 | Deve mostrar como o desempenho está sendo calculado                                                              | 3          |
 | RF12   | Banco de Questões (BDQ)               | O sistema deve permitir a criação e organização de questões interativas                                          | 2          |
@@ -42,14 +42,14 @@ A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem crescen
 | RF19   | Cooperação (Integra)                  | A integração deve reduzir o esforço de professores e monitores, centralizando informações sobre atividades       | 3          |
 | RF20   | Interface Animado (MInA)              | O sistema deve criar um personagem antropomórfico para interação direta com o estudante                          | 0          |
 | RF21   | Interface Animado (MInA)              | A interação deve visar a compreensão da situação de aprendizagem                                                 | 0          |
-| RF22   | Interface Animado (MInA)              | O assistente virtual deve ser customizável pelo usuário                                                          | 3          |
+| RF22   | Interface Animado (MInA)              | O assistente virtual deve ser customizável pelo indivíduo                                                          | 3          |
 | RF23   | Interface Animado (MInA)              | O assistente virtual deve notificar o professor da disciplina sobre dificuldades dos alunos                      | 0          |
 | RF24   | Projeto de Monitoria Estudantil (PMon)| O sistema deve facilitar a interação entre monitores, professores e alunos                                       | 0          |
-| RF25   | Projeto de Monitoria Estudantil (PMon)| O assistente virtual deve fornecer dados relevantes ao usuário (progressão do aluno)                             | 7          |
+| RF25   | Projeto de Monitoria Estudantil (PMon)| O assistente virtual deve fornecer dados relevantes ao indivíduo (progressão do aluno)                             | 7          |
 | RF26   | Sistema Tutor Inteligente (STI)       | O assistente virtual deve fornecer orientação pedagógica individualizada, baseada na TAS                         | 2          |
 | RF27   | Sistema Tutor Inteligente (STI)       | O assistente virtual deve analisar a situação cognitiva de cada aluno e atuar como agente colaborativo           | 2          |
 | RF28   | Acompanhamento Real (Real)            | A interface deve exibir a média geral da turma em cada atividade                                                 | 0          |
-| RF29   | Acompanhamento Real (Real)            | O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados                          | 0          |
+| RF29   | Acompanhamento Real (Real)            | O sistema deve enviar notificações para lembrar o indivíduo de revisar conteúdos passados                          | 0          |
 | RF30   | Cooperação (Integra)                  | O sistema deve integrar outros softwares educacionais (como AVAs)                                                | 0          |
 | RF31   | Interface Animado (MInA)              | O assistente virtual deve notificar qual conteúdo o aluno está tendo mais dificuldade                            | 3          |
 | RF32   | Projeto de Monitoria Estudantil (PMon)| Deve fornecer chat síncrono para interação a distância                                                           | 2          |
@@ -60,12 +60,12 @@ A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem crescen
 | RF37   | Acompanhamento Real (Real)            | O assistente virtual deve combinar resultados formais com inferências Fuzzy                                      | 1          |
 | RF38   | Acompanhamento Real (Real)            | A interface deve exibir um progresso em porcentagem do andamento da disciplina                                   | 0          |
 | RF39   | Acompanhamento Real (Real)            | A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo                         | 4          |
-| RF40   | Acompanhamento Real (Real)            | O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas                         | 3          |
-| RF41   | Acompanhamento Real (Real)            | O usuário deve marcar os tópicos da disciplina no qual ele sente mais facilidade                                 | 5          |
+| RF40   | Acompanhamento Real (Real)            | O indivíduo deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas                         | 3          |
+| RF41   | Acompanhamento Real (Real)            | O indivíduo deve marcar os tópicos da disciplina no qual ele sente mais facilidade                                 | 5          |
 | RF42   | Acompanhamento Real (Real)            | O sistema deve ter um índice de conteúdos ordenado pela porcentagem de erros em cada conteúdo                    | 5          |
-| RF43   | Acompanhamento Real (Real)            | O sistema deve enviar lembretes para o usuário sobre datas de entregas de atividades                             | 0          |
+| RF43   | Acompanhamento Real (Real)            | O sistema deve enviar lembretes para o indivíduo sobre datas de entregas de atividades                             | 0          |
 | RF44   | Acompanhamento Real (Real)            | O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade             | 0          |
-| RF45   | Acompanhamento Real (Real)            | O usuário escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade                 | 0          |
+| RF45   | Acompanhamento Real (Real)            | O indivíduo escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade                 | 0          |
 | RF46   | Apoio a Decisão (MAD) / PMon          | As análises devem ser em tempo real e apresentadas em gráficos / O assistente virtual deve acompanhar interações | 3       |
 | RF47   | Banco de Questões (BDQ)               | O SAE deve fornecer assistência para professores neste módulo                                                    | 2          |
 | RF48   | Banco de Questões (BDQ)               | O banco de questões do sistema deve conter questões de outras origens                                            | 6          |
@@ -78,7 +78,7 @@ A Tabela 2 apresenta a priorização dos requisitos, organizada em ordem crescen
 <div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
 
 ## Gravação
-A Tabela 3 apresenta as informações do usuário que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+A Tabela 3 apresenta as informações do indivíduo que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
 <div align="center"><strong>Tabela 3: Usuário Real e Informações da Gravação</strong></div>
 
@@ -99,6 +99,7 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
 | 1.0    | 30/09/2025 | Criação do documento do 100 dólares | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+
 
 
 
