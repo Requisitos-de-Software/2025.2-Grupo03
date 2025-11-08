@@ -137,7 +137,7 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 | Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 23/10 - 24/10 | 24/20 |
 | Pós-rastreabilidade: Backward-form | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Guilherme | 24/10 - 27/10 | 28/10 |
 | Pós-rastreabilidade: Forward-form | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 24/10 - 27/10 | 28/10 |
-| Matriz de Rastreabilidade | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Tiago Lemes | 26/10 | 24/10 | 28/10 |
+| Matriz de Rastreabilidade | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Tiago Lemes | 24/10 - 27/10 | 28/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Henrique | 28/10 | 28/10 | 
 | Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Sapiencia | 28/10 | 28/10 | 
 | Gravação da inspeção do grupo +1 | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Tiago Lemes | 29/10 | 29/10 | 
