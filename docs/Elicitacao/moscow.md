@@ -11,7 +11,7 @@ A técnica de priorização MoSCoW foi utilizada para identificar e classificar 
 
 ## Metodologia
 
-A priorização foi realizada por meio de uma entrevista com um usuário do sistema avaliado. Durante a entrevista, cada requisito identificado foi discutido e classificado em uma das categorias acima. A decisão foi baseada em critérios como impacto no usuário, viabilidade técnica e alinhamento com os objetivos do projeto.
+A priorização foi realizada por meio de uma entrevista com um indivíduo do sistema avaliado. Durante a entrevista, cada requisito identificado foi discutido e classificado em uma das categorias acima. A decisão foi baseada em critérios como impacto no indivíduo, viabilidade técnica e alinhamento com os objetivos do projeto.
 
 ## Envolvidos
 
@@ -51,9 +51,9 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 | RF44   | Projeto de Monitoria Estudantil (PMon) | O sistema deve facilitar a interação entre monitores, professores e alunos. |
 | RF38   | Interface Animado (MInA)          | A inferência deve envolver Lógica Fuzzy, permitindo avaliações graduais (ex.: "bom", "razoável", "fraco"). |
 | RF42   | Interface Animado (MInA)          | O assistente virtual deve notificar qual conteúdo o aluno está tendo mais dificuldade. |
-| RF15   | Acompanhamento Real (Real)        | O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados. |
+| RF15   | Acompanhamento Real (Real)        | O sistema deve enviar notificações para lembrar o indivíduo de revisar conteúdos passados. |
 | RF08   | Acompanhamento Real (Real)        | A interface deve exibir um progresso em porcentagem do andamento da disciplina. |
-| RF17   | Acompanhamento Real (Real)        | O sistema deve enviar lembretes para o usuário sobre datas de entregas de atividades. |
+| RF17   | Acompanhamento Real (Real)        | O sistema deve enviar lembretes para o indivíduo sobre datas de entregas de atividades. |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
@@ -75,13 +75,13 @@ Os responsáveis pela realização da priorização MoSCoW foram:
 | Código | Nome do Requisito                  | Descrição                                                                 |
 |--------|------------------------------------|---------------------------------------------------------------------------|
 | RF36   | Interface Animado (MInA)          | O sistema deve criar um personagem antropomórfico para interação direta com o estudante. |
-| RF14   | Acompanhamento Real (Real)        | O usuário deve marcar os tópicos da disciplina no qual ele sente mais facilidade. |
+| RF14   | Acompanhamento Real (Real)        | O indivíduo deve marcar os tópicos da disciplina no qual ele sente mais facilidade. |
 | RF46   | Projeto de Monitoria Estudantil (PMon) | O assistente virtual deve acompanhar interações.                         |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
 
 ## Gravação
-A Tabela 5 apresenta as informações do usuário que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+A Tabela 5 apresenta as informações do indivíduo que participou da etapa de priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
 <div align="center"><strong>Tabela 5: Usuário Real e Informações da Gravação</strong></div>
 
@@ -106,5 +106,5 @@ Visual Paradigm. *Prioritizing Requirements with MoSCoW Method: A Guide for Agil
 
 | Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
 |--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
-| 1.0    | 30/09/2025 | Realização da priorização MoSCoW por meio de entrevista com usuário | [João Sapiência](https://github.com/JoaoSapiencia), [João Felipe](https://github.com/JoaoFelipe) | [Arthur Henrique](https://github.com/arthurhvieira1)             |
+| 1.0    | 30/09/2025 | Realização da priorização MoSCoW por meio de entrevista com indivíduo | [João Sapiência](https://github.com/JoaoSapiencia), [João Felipe](https://github.com/JoaoFelipe) | [Arthur Henrique](https://github.com/arthurhvieira1)             |
 
