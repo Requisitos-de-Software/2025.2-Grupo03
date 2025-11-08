@@ -2,12 +2,12 @@
 
 ## Introdução
 A Especificação Suplementar é um documento essencial no processo de engenharia de requisitos, pois tem o objetivo de detalhar aspectos que não são tratados diretamente nos casos de uso, com foco especial nos **requisitos não funcionais**.
-Diferente dos **requisitos funcionais**, que descrevem as ações e comportamentos esperados do sistema, os **requisitos não funcionais** se referem a atributos de qualidade que afetam a experiência do usuário, a estabilidade do sistema e a facilidade de manutenção e evolução do software.  
+Diferente dos **requisitos funcionais**, que descrevem as ações e comportamentos esperados do sistema, os **requisitos não funcionais** se referem a atributos de qualidade que afetam a experiência de uso, a estabilidade do sistema e a facilidade de manutenção e evolução do software.  
 Entre esses atributos estão: a usabilidade, confiabilidade, desempenho, segurança, portabilidade, entre outros.
 Este documento segue o modelo **FURPS+**, que organiza os requisitos em cinco categorias principais:
 
 - **Functionality (Funcionalidade)** Representa todos os aspectos funcionais do software.
-- **Usability (Usabilidade)** : Refere-se à facilidade de uso e interação do usuário com o sistema. Incluindo subcategorias como prevenção de erros, design e estética, ajuda e documentação,  consistência e padronização na interface e acessibilidade.
+- **Usability (Usabilidade)** : Refere-se à facilidade de uso e interação dos indivíduos com o sistema. Incluindo subcategorias como prevenção de erros, design e estética, ajuda e documentação,  consistência e padronização na interface e acessibilidade.
 - **Reliability (Confiabilidade)** : Refere-se à integridade, conformidade e interoperabilidade do software. Os principais aspectos considerados são: frequência e tolerância a falhas, capacidade de recuperação, previsibilidade, exatidão e tempo médio entre falhas.
 - **Performance (Desempenho)** : Avalia a eficiência do sistema em diferentes condições. Pode ser medida por fatores como tempo de resposta, uso de memória, utilização da CPU, capacidade de processamento e disponibilidade da aplicação.
 - **Supportability (Manutenibilidade)** : Abrange características relacionadas à facilidade de manutenção e evolução do sistema, incluindo testabilidade, adaptabilidade,  entre outras.
@@ -41,7 +41,7 @@ A estrutura foi adaptada às particularidades do projeto, utilizando uma linguag
 As funcionalidades foram identificadas durante o processo de elicitação de requisitos e estão detalhadas tanto na seção de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) quanto nos [Casos de Uso](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/casos_de_uso/) desenvolvidos.
 
 ### 2. Usabilidade
-Esta seção lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente, incluindo aspectos como prevenção de erros, design e estética, ajuda e documentação, consistência e padronização na interface e acessibilidade.
+Esta seção lista os requisitos que garantem que a interação com o sistema seja intuitiva, acessível e eficiente, incluindo aspectos como prevenção de erros, design e estética, ajuda e documentação, consistência e padronização na interface e acessibilidade.
 
 <div align="center"><strong>Tabela 2: Requisitos de Usabilidade</strong></div>
 
@@ -50,7 +50,7 @@ Esta seção lista os requisitos que garantem que a interação do usuário com 
 | [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.). |
 |[RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser acessível pela internet, permitindo uso presencial ou a distância. |
 |[RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve ser totalmente compatível com dispositivos móveis, garantindo responsividade na interface e adaptação automática a diferentes tamanhos e orientações de tela (smartphones, tablets e notebooks). |
-|[RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve seguir padrões de acessibilidade para garantir a usabilidade a todos os usuários, incluindo pessoas com deficiência. |
+|[RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve seguir padrões de acessibilidade, assegurando a usabilidade por todas as pessoas, incluindo aquelas com deficiência. |
 
 
 <div align="center">
@@ -92,7 +92,7 @@ Esta seção descreve os requisitos relacionados à facilidade de manutenção, 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
 |[RNF04](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA). |
-| [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
+| [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do aluno, promovendo compreensão profunda e retenção duradoura. |
 | [RNF06](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O projeto deve ser multidisciplinar, envolvendo as áreas de Educação, Psicologia e Informática, o que implica em flexibilidade de manutenção e evolução do sistema para atender diferentes perspectivas e áreas de conhecimento. |
 |[RNF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O sistema deve possibilitar integração com outros AVAs (Ambientes Virtuais de Aprendizagem) e sistemas educacionais externos. |
 | [RNF14](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho. Isso requer uma arquitetura modular e baseada em serviços, capaz de distribuir carga eficientemente, suportar balanceamento dinâmico e permitir expansão horizontal (adicionando servidores) ou vertical (melhorando recursos de hardware) conforme a demanda. |
@@ -115,8 +115,8 @@ Esta seção trata dos requisitos relacionados ao desempenho do sistema, incluin
 
 | **Requisito** | **Descrição** |
 | ------------------- | ---------------- |
-|[RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários, independentemente da complexidade da operação executada. Esse requisito garante uma experiência fluida e responsiva, reduzindo a percepção de lentidão e aumentando a produtividade dos usuários. |
-| [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. Ele garante uma experiência de usuário ágil e satisfatória, evitando longas esperas que poderiam levar à frustração e ao abandono da ferramenta. |
+|[RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais)| O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de usuários, independentemente da complexidade da operação executada. Esse requisito garante uma experiência fluida e responsiva, reduzindo a percepção de lentidão e aumentando a produtividade. |
+| [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) | O carregamento de dashboards e gráficos deve ocorrer em até 3 segundos, assegurando uma experiência ágil e contínua, evitando longas esperas que possam causar frustração ou desengajamento. |
 
 
 <div align="center">
