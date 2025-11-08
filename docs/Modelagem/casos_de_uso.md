@@ -1,8 +1,8 @@
 # Diagrama e Especificação de Casos de Uso
 
 ## Introdução
-Um caso de uso é uma descrição detalhada de como os usuários de um sistema, neste trabalho o **SAE (Sistema de Apoio Educacional)**, interagem com ele em situações específicas. Ele apresenta passo a passo as ações realizadas pelo usuário e as respostas do sistema a essas interações.
-O principal objetivo dos casos de uso é apoiar o desenvolvimento do aplicativo, oferecendo uma visão clara e prática dos requisitos funcionais. Eles ajudam a definir o comportamento esperado do sistema diante das ações dos usuários, garantindo que as funcionalidades realmente atendam às necessidades dos usuários.
+Um caso de uso é uma descrição detalhada de como os participantes de um sistema, neste trabalho o **SAE (Sistema de Apoio Educacional)**, interagem com ele em situações específicas. Ele apresenta passo a passo as ações realizadas pelos atores e as respostas do sistema a essas interações.
+O principal objetivo dos casos de uso é apoiar o desenvolvimento do aplicativo, oferecendo uma visão clara e prática dos requisitos funcionais. Eles ajudam a definir o comportamento esperado do sistema diante das ações dos atores, garantindo que as funcionalidades realmente atendam às necessidades dos perfis de usuários.
 No âmbito da disciplina, estão sendo levadas em conta as funcionalidades ainda não-implementadas para a realização do diagrama de caso de uso, assim como de suas especificações.
 
 
@@ -32,7 +32,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 | Nome | Função | Representação |
 |--------|------|-----------|
-| Ator    | Representa os diferentes tipos de usuários externos que interagem com o sistema. Cada ator desempenha um papel específico nas interações, podendo ser uma pessoa, organização ou outro sistema. | ![Ator](../imagens/elementoCasoUso/ator_casoUso.png) |
+| Ator    | Representa os diferentes tipos de participantes externos que interagem com o sistema. Cada ator desempenha um papel específico nas interações, podendo ser uma pessoa, organização ou outro sistema. | ![Ator](../imagens/elementoCasoUso/ator_casoUso.png) |
 | Elipse (Caso de Uso)    | Utilizada para representar os casos de uso no diagrama. Cada elipse destaca uma funcionalidade ou ação específica que o sistema realiza em resposta às interações dos atores. | ![Caso de Uso](../imagens/elementoCasoUso/elipse_casoUso.png) |
 | Retângulo (Sistema)    | Representa o sistema ou o componente em análise. Dentro dele são agrupados os casos de uso e os atores diretamente relacionados ao seu funcionamento. | ![Sistema](../imagens/elementoCasoUso/sistema_casoUso.png) |
 | Flecha (Relações) | As setas indicam as relações e interações entre os atores e os casos de uso. Elas podem ser:<br>• **Normal:** representa uma interação direta entre o ator e o caso de uso.<br>• **Incluir (`<<include>>`):** indica que um caso de uso incorpora obrigatoriamente o comportamento de outro caso de uso.<br>• **Estender (`<<extend>>`):** representa uma relação opcional, onde um caso de uso pode estender o comportamento de outro sob determinadas condições. | ![Relações](../imagens/elementoCasoUso/setas_casoUso.png) |
@@ -135,7 +135,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ---
 
 ### **UC04 – Lembretes de Revisão de Conteúdos**
-**Requisito Associado:** [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar notificações para lembrar o usuário de revisar conteúdos passados.
+**Requisito Associado:** [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve enviar notificações para lembrar o aluno de revisar conteúdos passados.
 
 <div align="center"><strong>Tabela 6: Caso de Uso UC04</strong></div>
 
@@ -159,21 +159,21 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ---
 
 ### **UC05 – Configuração da Forma de Notificação**
-**Requisito Associado:** [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve pedir ao usuário a melhor forma de caminho de notificação.
+**Requisito Associado:** [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O sistema deve pedir ao participante a melhor forma de caminho de notificação.
 
 <div align="center"><strong>Tabela 7: Caso de Uso UC05</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
 | **UC05** | Configuração da Forma de Notificação |
-| **Descrição** | O usuário acessa as configurações de notificação e escolhe como deseja ser notificado. |
+| **Descrição** | O indivíduo acessa as configurações de notificação e escolhe como deseja ser notificado. |
 | **Ator(es)** | - Aluno<br> - Docente<br> - Monitor<br> - Coordenador<br> - Administrador<br> - Sistema de configuração de notificações |
-| **Pré-condições** | 1. O usuário está logado. <br>2. O sistema possui diferentes canais de envio disponíveis. |
-| **Ação** | O usuário seleciona o canal preferido de notificação e salva suas preferências. |
-| **Fluxo principal** | - O usuário acessa “Preferências de Notificação”.<br>- Escolhe o canal preferido (push, WhatsApp, e-mail, alerta no sistema).<br>- O sistema salva a configuração. |
-| **Fluxo alternativo** | - O usuário não escolhe nenhuma opção.<br>- O sistema mantém o canal padrão. |
+| **Pré-condições** | 1. O indivíduo está logado. <br>2. O sistema possui diferentes canais de envio disponíveis. |
+| **Ação** | O indivíduo seleciona o canal preferido de notificação e salva suas preferências. |
+| **Fluxo principal** | - O indivíduo acessa “Preferências de Notificação”.<br>- Escolhe o canal preferido (push, WhatsApp, e-mail, alerta no sistema).<br>- O sistema salva a configuração. |
+| **Fluxo alternativo** | - O indivíduo não escolhe nenhuma opção.<br>- O sistema mantém o canal padrão. |
 | **Fluxo de exceção** | - O canal selecionado está temporariamente indisponível.<br>- O sistema exibe mensagem de erro e mantém o padrão. |
-| **Pós-condições** | As notificações passam a ser enviadas conforme a escolha do usuário. |
+| **Pós-condições** | As notificações passam a ser enviadas conforme a escolha do indivíduo. |
 | **Rastreabilidade** | [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) |
 | **Data de criação** | 08/10/2025 |
 
@@ -284,8 +284,8 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 | Ação| O sistema calcula a média geral da turma na atividade após a sua finalização. |
 |Fluxo principal|1. O Ator acessa a área de visualização de desempenho da disciplina.<br> 2. O sistema recupera e calcula a média das notas de todos os alunos que realizaram a atividade.<br> 3. O sistema exibe o valor da média geral da turma na interface, associado à atividade correspondente.|
 |Fluxo alternativo| Dados de Média Indisponíveis (Parcial): Se o cálculo da média geral não puder ser realizado (ex: poucos alunos realizaram ou atividade pendente de correção), o sistema pode exibir uma mensagem indicando "Média em processamento" ou "Média indisponível".|
-|Fluxo de exceção|Falha de Cálculo Crítica: O sistema não consegue acessar o banco de dados ou a função de cálculo retorna um erro fatal (ex: divisão por zero). O sistema deve notificar o usuário com uma mensagem de erro genérica ("Não foi possível carregar a média da turma. Tente novamente mais tarde.") e registrar o erro no log.|
-|Pós-condições|O sistema exibe a média geral da turma para a atividade na interface do usuário.|
+|Fluxo de exceção|Falha de Cálculo Crítica: O sistema não consegue acessar o banco de dados ou a função de cálculo retorna um erro fatal (ex: divisão por zero). O sistema deve notificar o indivíduo com uma mensagem de erro genérica ("Não foi possível carregar a média da turma. Tente novamente mais tarde.") e registrar o erro no log.|
+|Pós-condições|O sistema exibe a média geral da turma para a atividade na interface do indivídui.|
 |Rastreabilidade| RF11  |
 |Data de criação| 09/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
@@ -293,7 +293,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ---
 
 ### UC11 – Escolher o tempo em que deseja receber alertas sobre atividades atrasadas
-**Requisito Associado:** [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O usuário deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas
+**Requisito Associado:** [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais) – O indivíduo deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas
 
 <div align="center"><strong>Tabela 13: Caso de Uso UC11</strong></div>
 
@@ -302,12 +302,12 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |UC11 |Escolher o tempo em que deseja receber alertas sobre atividades atrasadas|
 | Descrição |Permite ao Aluno configurar o intervalo de tempo ou a frequência desejada para o recebimento de notificações automáticas sobre atividades que estão com o prazo de entrega expirado.|
 | Ator| Aluno |
-| Pré-condições| 	1. O aluno deve estar autenticado no sistema.<br> 2. O sistema deve possuir uma interface de Configurações de Notificação acessível ao usuário.|
+| Pré-condições| 	1. O aluno deve estar autenticado no sistema.<br> 2. O sistema deve possuir uma interface de Configurações de Notificação acessível ao participante.|
 | Ação| O ator seleciona a opção de frequencia desejada e o sistema salva a preferencia |
 |Fluxo principal|1. O Ator acessa a área de Configurações de Notificação.<br> 2. O sistema exibe as opções de frequência para alertas de atraso (ex: a cada 3 horas, diariamente, semanalmente).<br> 3. O Ator seleciona a frequência desejada.<br> 4. O Ator confirma a alteração, e o sistema salva a preferência.|
-|Fluxo alternativo| Personalização da Frequência: O usuário opta por definir um intervalo de tempo customizado não listado nas opções pré-definidas (ex: a cada 4 horas). O sistema valida a entrada e salva a configuração.|
+|Fluxo alternativo| Personalização da Frequência: O indivíduo opta por definir um intervalo de tempo customizado não listado nas opções pré-definidas (ex: a cada 4 horas). O sistema valida a entrada e salva a configuração.|
 |Fluxo de exceção|Erro ao Salvar a Preferência: O sistema encontra um erro de conexão com o banco de dados ao tentar salvar a nova preferência. O sistema deve exibir uma mensagem de erro ("Não foi possível salvar a preferência de alerta. Verifique sua conexão.") e manter a configuração anterior.|
-|Pós-condições|O sistema armazena a preferência de tempo do usuário, e os alertas futuros de atividades atrasadas serão disparados com base nesta nova frequência.|
+|Pós-condições|O sistema armazena a preferência de tempo do indivíduo, e os alertas futuros de atividades atrasadas serão disparados com base nesta nova frequência.|
 |Rastreabilidade| RF13  |
 |Data de criação| 09/10/2025 |
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
@@ -324,12 +324,12 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 | **UC12** | Organização do Banco de Questões por Conteúdo |
 | **Descrição** | Permite ao professor e ao aluno visualizar e filtrar as questões do banco de dados de acordo com o conteúdo específico da disciplina, facilitando a busca e a organização dos materiais de estudo e avaliação. |
 | **Ator** | - Professor<br>- Aluno<br>- Sistema de Banco de Questões (BDQ) |
-| **Pré-condições** | 1. O usuário (professor ou aluno) está autenticado no sistema.<br>2. Existem conteúdos (tópicos, capítulos) cadastrados nas disciplinas.<br>3. Existem questões no Banco de Questões associadas a esses conteúdos. |
-| **Ação** | O usuário seleciona um filtro de conteúdo, e o sistema exibe apenas as questões relacionadas a ele. |
-| **Fluxo principal** | - O usuário acessa a área do "Banco de Questões".<br>- O sistema exibe as opções de filtro por conteúdo (ex: uma lista de tópicos da disciplina).<br>- O usuário seleciona um conteúdo desejado.<br>- O sistema atualiza a visualização e exibe apenas as questões associadas ao conteúdo selecionado. |
+| **Pré-condições** | 1. O participante (professor ou aluno) está autenticado no sistema.<br>2. Existem conteúdos (tópicos, capítulos) cadastrados nas disciplinas.<br>3. Existem questões no Banco de Questões associadas a esses conteúdos. |
+| **Ação** | O participante seleciona um filtro de conteúdo, e o sistema exibe apenas as questões relacionadas a ele. |
+| **Fluxo principal** | - O participante acessa a área do "Banco de Questões".<br>- O sistema exibe as opções de filtro por conteúdo (ex: uma lista de tópicos da disciplina).<br>- O participante seleciona um conteúdo desejado.<br>- O sistema atualiza a visualização e exibe apenas as questões associadas ao conteúdo selecionado. |
 | **Fluxo alternativo** | - O conteúdo selecionado não possui questões cadastradas.<br>- O sistema exibe a mensagem: "Nenhuma questão encontrada para este conteúdo". |
 | **Fluxo de exceção** | - O sistema não consegue carregar os filtros de conteúdo ou as questões devido a uma falha no banco de dados.<br>- O sistema exibe uma mensagem de erro: "Não foi possível carregar as questões. Tente novamente mais tarde." |
-| **Pós-condições** | O usuário visualiza uma lista de questões devidamente filtrada pelo conteúdo escolhido. |
+| **Pós-condições** | O participante visualiza uma lista de questões devidamente filtrada pelo conteúdo escolhido. |
 | **Rastreabilidade** | RF32 |
 | **Data de criação** | 10/10/2025 |
 
@@ -347,9 +347,9 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 | **UC13** | Acesso ao Painel de Desempenho Centralizado |
 | **Descrição** | Permite que professores e monitores acessem uma tela unificada que consolida as informações de atividades, notas e progresso dos alunos, otimizando o tempo de análise e acompanhamento. |
 | **Ator** | - Professor<br>- Monitor |
-| **Pré-condições** | 1. O usuário (professor ou monitor) está autenticado no sistema.<br>2. Existem alunos vinculados às suas disciplinas ou grupos de monitoria.<br>3. Existem dados de desempenho e atividades dos alunos registrados no sistema. |
-| **Ação** | O sistema coleta e exibe dados de diferentes módulos em um painel de controle único para o usuário. |
-| **Fluxo principal** | - O usuário acessa a área "Desempenho da Turma" ou o perfil de um aluno específico.<br>- O sistema busca e consolida informações de atividades, progresso nos conteúdos e notas.<br>- A interface exibe um painel centralizado com os dados compilados (ex: média geral, atividades pendentes, últimos resultados). |
+| **Pré-condições** | 1. O participante (professor ou monitor) está autenticado no sistema.<br>2. Existem alunos vinculados às suas disciplinas ou grupos de monitoria.<br>3. Existem dados de desempenho e atividades dos alunos registrados no sistema. |
+| **Ação** | O sistema coleta e exibe dados de diferentes módulos em um painel de controle único para o participante. |
+| **Fluxo principal** | - O participante acessa a área "Desempenho da Turma" ou o perfil de um aluno específico.<br>- O sistema busca e consolida informações de atividades, progresso nos conteúdos e notas.<br>- A interface exibe um painel centralizado com os dados compilados (ex: média geral, atividades pendentes, últimos resultados). |
 | **Fluxo alternativo** | - Um aluno específico ainda não possui dados de desempenho.<br>- O sistema exibe no painel a mensagem: "Sem dados de desempenho para exibir". |
 | **Fluxo de exceção** | - Falha na integração com um dos módulos do sistema ao buscar os dados.<br>- O sistema exibe os dados que conseguiu carregar e uma mensagem de alerta: "Algumas informações não puderam ser carregadas". |
 | **Pós-condições** | O professor ou monitor visualiza as informações de desempenho dos alunos de forma centralizada, reduzindo o esforço de busca em diferentes partes do sistema. |
@@ -408,21 +408,21 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ---
 
 ### **UC16 – Configuração de Aviso de Proximidade de Entrega**  
-**Requisito Associado:** RF21 – O usuário escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade.
+**Requisito Associado:** RF21 – O aluno escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade.
 
 <div align="center"><strong>Tabela 18: Caso de Uso UC16</strong></div>
 
 | Campo | Descrição |
 |-------|------------|
 | **UC16** | Configuração de Aviso de Proximidade de Entrega |
-| **Descrição** | O sistema permite que o usuário defina quando deseja receber notificações de proximidade da data de entrega de atividades (por exemplo, 7, 3 ou 1 dia antes). |
-| **Ator** | - Usuário (Aluno)<br>- Sistema de notificações |
-| **Pré-condições** | 1. O usuário está logado na plataforma.<br>2. Existem atividades com datas de entrega cadastradas.<br>3. O usuário autorizou o recebimento de notificações (push ou e-mail). |
-| **Ação** | O usuário acessa as preferências de notificação, escolhe a antecedência desejada e salva. O sistema agenda os avisos de acordo com as preferências. |
-| **Fluxo principal** | - O usuário acessa **Configurações → Notificações**.<br>- O usuário seleciona a antecedência do aviso (ex.: 7, 3 e/ou 1 dia).<br>- O usuário confirma e salva as preferências.<br>- O sistema registra a preferência e agenda as notificações para cada atividade com data de entrega.<br>- Na antecedência definida, o sistema envia a notificação ao usuário. |
-| **Fluxo alternativo** | - O usuário desativa as notificações de proximidade.<br>- O sistema cancela os agendamentos futuros relacionados a essas notificações.<br><br>- Uma atividade não possui data de entrega.<br>- O sistema não agenda notificação para essa atividade e informa “Atividade sem data de entrega.” |
+| **Descrição** | O sistema permite que o aluno defina quando deseja receber notificações de proximidade da data de entrega de atividades (por exemplo, 7, 3 ou 1 dia antes). |
+| **Ator** | - Aluno<br>- Sistema de notificações |
+| **Pré-condições** | 1. O aluno está logado na plataforma.<br>2. Existem atividades com datas de entrega cadastradas.<br>3. O aluno autorizou o recebimento de notificações (push ou e-mail). |
+| **Ação** | O aluno acessa as preferências de notificação, escolhe a antecedência desejada e salva. O sistema agenda os avisos de acordo com as preferências. |
+| **Fluxo principal** | - O aluno acessa **Configurações → Notificações**.<br>- O aluno seleciona a antecedência do aviso (ex.: 7, 3 e/ou 1 dia).<br>- O aluno confirma e salva as preferências.<br>- O sistema registra a preferência e agenda as notificações para cada atividade com data de entrega.<br>- Na antecedência definida, o sistema envia a notificação ao aluno. |
+| **Fluxo alternativo** | - O aluno desativa as notificações de proximidade.<br>- O sistema cancela os agendamentos futuros relacionados a essas notificações.<br><br>- Uma atividade não possui data de entrega.<br>- O sistema não agenda notificação para essa atividade e informa “Atividade sem data de entrega.” |
 | **Fluxo de exceção** | - Falha ao salvar as preferências ou ausência de permissão de notificação no dispositivo.<br>- O sistema exibe uma mensagem de erro: “Não foi possível salvar as preferências” ou “Permissão de notificação negada.” |
-| **Pós-condições** | As preferências de antecedência ficam salvas e as notificações são agendadas de acordo com a escolha do usuário. |
+| **Pós-condições** | As preferências de antecedência ficam salvas e as notificações são agendadas de acordo com a escolha do aluno. |
 | **Rastreabilidade** | RF21 |
 | **Data de criação** | 12/10/2025 |
 
@@ -440,11 +440,11 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 |-------|------------|
 | **UC17** | Importação de Questões de Outras Origens para o Banco de Questões |
 | **Descrição** | O sistema permite inserir questões provenientes de outras origens (arquivos, bancos externos ou APIs), incorporando-as ao banco de questões do sistema com metadados de origem. |
-| **Ator** | - Professor/Administrador<br>- Sistema do Banco de Questões<br>- Fonte externa (arquivo CSV/JSON, repositório, API) |
-| **Pré-condições** | 1. O usuário está logado e possui permissão para gerenciar o banco de questões.<br>2. A fonte externa está disponível (arquivo válido ou integração configurada). |
-| **Ação** | O usuário seleciona a origem, realiza o upload ou inicia a integração, mapeia campos obrigatórios e confirma a importação. O sistema valida e registra as novas questões. |
-| **Fluxo principal** | - O usuário acessa **Banco de Questões → Importar**.<br>- O usuário escolhe a origem (arquivo ou integração).<br>- O usuário envia o arquivo ou autentica na integração.<br>- O sistema valida o formato e os campos obrigatórios (enunciado, alternativas e gabarito).<br>- O usuário confirma a importação.<br>- O sistema salva as questões, registrando a origem e status.<br>- A interface confirma a importação concluída e lista as novas questões. |
-| **Fluxo alternativo** | - Questões duplicadas detectadas.<br>- O sistema pergunta se deseja ignorar, mesclar metadados ou criar nova versão; o usuário escolhe e o sistema aplica a regra.<br><br>- Campos opcionais ausentes.<br>- O sistema importa as questões e marca os campos ausentes como “não informado.” |
+| **Ator** | - Professor<br>- Sistema do Banco de Questões<br>- Fonte externa (arquivo CSV/JSON, repositório, API) |
+| **Pré-condições** | 1. O professor está logado e possui permissão para gerenciar o banco de questões.<br>2. A fonte externa está disponível (arquivo válido ou integração configurada). |
+| **Ação** | O professor seleciona a origem, realiza o upload ou inicia a integração, mapeia campos obrigatórios e confirma a importação. O sistema valida e registra as novas questões. |
+| **Fluxo principal** | - O professor acessa **Banco de Questões → Importar**.<br>- O professor escolhe a origem (arquivo ou integração).<br>- O professor envia o arquivo ou autentica na integração.<br>- O sistema valida o formato e os campos obrigatórios (enunciado, alternativas e gabarito).<br>- O professor confirma a importação.<br>- O sistema salva as questões, registrando a origem e status.<br>- A interface confirma a importação concluída e lista as novas questões. |
+| **Fluxo alternativo** | - Questões duplicadas detectadas.<br>- O sistema pergunta se deseja ignorar, mesclar metadados ou criar nova versão; o professor escolhe e o sistema aplica a regra.<br><br>- Campos opcionais ausentes.<br>- O sistema importa as questões e marca os campos ausentes como “não informado.” |
 | **Fluxo de exceção** | - Formato inválido, erro de leitura ou falha na integração.<br>- O sistema interrompe a importação e exibe um relatório de erros (linhas afetadas, causa e orientação de correção). |
 | **Pós-condições** | As questões externas são adicionadas ao banco com referência de origem e ficam disponíveis para uso nas avaliações. |
 | **Rastreabilidade** | RF30 |
@@ -457,7 +457,7 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 ## Gravação da validação do documento
 ### Usuário entrevistado
 
-Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário
+Vale ressaltar que a pessoa entrevistada se enquadra no nosso perfil de usuário.
 <div align="center"><strong>Tabela 20: Usuário Real e Informações da Gravação</strong></div>
 
 | Nome | Data | Hora | Local|
