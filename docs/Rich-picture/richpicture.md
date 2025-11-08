@@ -1,7 +1,7 @@
 # Rich Picture
 
 ## Introdução
-O Rich Picture é uma técnica visual colaborativa utilizada para explorar e comunicar a complexidade de sistemas de maneira simples e intuitiva. Na engenharia de requisitos, ele funciona como um recurso importante para representar os principais elementos de um sistema, como usuários, processos, fluxos de informação, armazenamento de dados, limites e possíveis problemas. Por ser uma representação informal, favorece uma visão sistêmica, estimula o diálogo entre os participantes do projeto e auxilia na identificação de requisitos e pontos críticos.
+O Rich Picture é uma técnica visual colaborativa utilizada para explorar e comunicar a complexidade de sistemas de maneira simples e intuitiva. Na engenharia de requisitos, ele funciona como um recurso importante para representar os principais elementos de um sistema, como indivíduos, processos, fluxos de informação, armazenamento de dados, limites e possíveis problemas. Por ser uma representação informal, favorece uma visão sistêmica, estimula o diálogo entre os participantes do projeto e auxilia na identificação de requisitos e pontos críticos.
 
 Nesse projeto, o Rich Picture foi desenvolvido com base no sistema SAE, escolhido pelo grupo pela afinidade com o uso e por ser um sistema presente na vida acadêmica de muitos estudantes da FCTE. Aqui utilizamos o Rich Picture para representar os atores, as funcionalidades, principais ações e os limites do sistema.
 
