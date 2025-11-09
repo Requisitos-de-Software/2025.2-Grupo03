@@ -2,6 +2,18 @@
 ## Introdução
 O perfil de usuário é uma descrição das principais características das pessoas que vão usar um sistema, como idade, gẽnero e nível de escolaridade. Ele serve para ajudar a entender quem vai utilizar o produto e orientar as decisões de design e avaliação. Durante o desenvolvimento, esse perfil pode mudar conforme se aprende mais sobre os usuários.
 
+## Integrantes do Grupo
+A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção do Perfil de Usuário, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
+
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+| Nome | Quais etapas participou |
+|---------------------------|---------------------------------------|
+| [Felipe Guimaraes](https://github.com/felipegf1) | Contribui na criação do documento e realizou a análise dos dados obtidos a partir da elicitação [Análise de Documentos](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#perfis-de-usuarios) e [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming_perfil/). |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Contribui na criação do documento e realizou a análise dos dados obtidos a partir da elicitação [Análise de Documentos](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#perfis-de-usuarios) e [Brainstorming](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming_perfil/). |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
 ## Metodologia
 Para a elaboração do Perfil do Usuário foram utilizadas as técnicas de Análise de Documentos, realizada pelos alunos [Arthur Guilherme](https://github.com/ArthurGuilher62) e [Tiago Lemes](https://github.com/TiagoTeixeira-2005), e Brainstorming, realizadas em conjunto por: [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005) e [Vilmar José](https://github.com/VilmarFagundes). A partir dessas atividades foi possível reunir informações importantes, discutir ideias e chegar a uma descrição que representa as principais características dos usuários.
 
@@ -9,6 +21,9 @@ Para a elaboração do Perfil do Usuário foram utilizadas as técnicas de Anál
 A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada no dia 20/09/2025, tendo como base principlamente a página [Conheça o SAE](https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html) para a avaliação do perfil de usuário referente ao SAE. Apresentando uma breve distinção entre o perfil de usuário do Aluno, do Professor/Docente, do Monitor, do Coordenador/Diretor e do Administrador.
 
 #### 1. Perfil do Aluno
+
+<div align="center"><strong>Tabela 2: Perfil do Aluno - Análise de Documentos</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema, com perfil adaptado. |
@@ -22,6 +37,9 @@ A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada
 ---
 
 #### 2. Perfil do Professor/Docente
+
+<div align="center"><strong>Tabela 3: Perfil do Professor/Docente - Análise de Documentos</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -35,6 +53,9 @@ A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada
 ---
 
 #### 3. Perfil do Monitor
+
+<div align="center"><strong>Tabela 4: Perfil do Monitor - Análise de Documentos</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -48,6 +69,9 @@ A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada
 ---
 
 #### 4. Perfil do Coordenador/Diretor
+
+<div align="center"><strong>Tabela 5: Perfil do Coordenador/Diretor - Análise de Documentos</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -61,6 +85,9 @@ A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada
 ---
 
 #### 5. Perfil do Administrador
+
+<div align="center"><strong>Tabela 6: Perfil do Administrador - Análise de Documentos</strong></div>
+
 | Campo | Descrição |
 |-------|-----------|
 | **Identificação** | Reconhecido pelo sistema. |
@@ -75,6 +102,9 @@ A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada
 O [Brainstorming](../Elicitacao/brainstorming_perfil.md) foi realizado com sete estudantes da FCTE, todos usuários de plataformas e sistemas de apoio educacional, como SAE, Aprender, SIGAA, entre outros. A atividade teve como objetivo levantar informações sobre o perfil dos usuários e identificar requisitos importantes para o projeto.
 
 ## Perfil de Usuário
+
+<div align="center"><strong>Tabela 7: Perfil de Usuário - Brainstorming</strong></div>
+
 | Critério                 | Especificação |
 |---------------------------|---------------|
 | Idade                     | Faixa de 20 a 22 anos |
@@ -104,3 +134,4 @@ SAE, Sistema de Apoio Educacional. Disponível em: [https://sae.unb.br/ajudasae/
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
 | 1.0 | 27/09/2025 | Construção do Perfil do Usuário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Felipe Guimaraes](https://github.com/felipegf1)| [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.1 | 09/11/2025 | Atualização da página de Perfil de Usuário | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Felipe Guimaraes](https://github.com/felipegf1) |
