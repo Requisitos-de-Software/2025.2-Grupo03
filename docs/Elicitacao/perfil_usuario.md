@@ -1,6 +1,6 @@
 # Perfil de Usuário
 ## Introdução
-O perfil de usuário é uma descrição das principais características das pessoas que vão usar um sistema, como idade, gẽnero e nível de escolaridade. Ele serve para ajudar a entender quem vai utilizar o produto e orientar as decisões de design e avaliação. Durante o desenvolvimento, esse perfil pode mudar conforme se aprende mais sobre os usuários.
+O perfil de usuário é uma descrição das principais características das pessoas que vão usar um sistema, como idade, gẽnero e nível de escolaridade. Ele serve para ajudar a entender quem vai utilizar o produto e orientar as decisões de design e avaliação. Durante o desenvolvimento, esse perfil pode mudar conforme se aprende mais sobre os utilizadores do sistema.
 
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção do Perfil de Usuário, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
@@ -99,7 +99,7 @@ A [Análise de Documentos](../Elicitacao/analise_de_documentos.md) foi realizada
 </div>
 
 ### Brainstorming
-O [Brainstorming](../Elicitacao/brainstorming_perfil.md) foi realizado com sete estudantes da FCTE, todos usuários de plataformas e sistemas de apoio educacional, como SAE, Aprender, SIGAA, entre outros. A atividade teve como objetivo levantar informações sobre o perfil dos usuários e identificar requisitos importantes para o projeto.
+O [Brainstorming](../Elicitacao/brainstorming_perfil.md) foi realizado com sete estudantes da FCTE, todos participantes de plataformas e sistemas de apoio educacional, como SAE, Aprender, SIGAA, entre outros. A atividade teve como objetivo levantar informações sobre o perfil dos usuários e identificar requisitos importantes para o projeto.
 
 ## Perfil de Usuário
 
@@ -120,11 +120,11 @@ O [Brainstorming](../Elicitacao/brainstorming_perfil.md) foi realizado com sete 
 </div>
 
 ## Conclusão
-A definição do Perfil de Usuário neste projeto tem como objetivo orientar o desenvolvimento de soluções que atendam de forma mais eficaz às necessidades reais dos usuários do SAE. O levantamento realizado mostra que os principais usuários são estudantes entre 20 e 22 anos, predominantemente do gênero masculino, matriculados no curso de Engenharia de Software, em nível de ensino superior incompleto. Esses usuários acessam sistemas de apoio educacional de forma moderada, principalmente por meio de dispositivos móveis, e utilizam com maior frequência as funcionalidades relacionadas ao acesso a materiais de estudo.
+A definição do Perfil de Usuário neste projeto tem como objetivo orientar o desenvolvimento de soluções que atendam de forma mais eficaz às necessidades reais das pessoas que utilizam o SAE. O levantamento realizado mostra que os principais participantes são estudantes entre 20 e 22 anos, predominantemente do gênero masculino, matriculados no curso de Engenharia de Software, em nível de ensino superior incompleto. Esses indivíduos acessam sistemas de apoio educacional de forma moderada, principalmente por meio de dispositivos móveis, e utilizam com maior frequência as funcionalidades relacionadas ao acesso a materiais de estudo.
 
 Além desse público principal, também foram identificados outros perfis relevantes para o funcionamento do sistema, como Professores/Docentes, Monitores, Coordenadores/Diretores e Administradores. Cada um deles possui finalidades e interações específicas, que vão desde a organização e avaliação pedagógica até o suporte técnico e a tomada de decisões estratégicas.
 
-Compreender quem são esses usuários e como se relacionam com o SAE possibilita decisões de design, usabilidade e definição de requisitos mais assertivas e centradas no público-alvo.
+Compreender quem são esses indivíduos e como se relacionam com o SAE possibilita decisões de design, usabilidade e definição de requisitos mais assertivas e centradas no público-alvo.
 
 ## Referências
 SAE, Sistema de Apoio Educacional. Disponível em: [https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html](https://sae.unb.br/ajudasae/conhecasae/conteudos/projeto.html). Acesso em: 20 set. 2025.  
