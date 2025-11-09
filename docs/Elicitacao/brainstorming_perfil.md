@@ -33,12 +33,12 @@ Fonte: [Felipe Guimaraes](https://github.com/felipegf1)
 
 ## Referências
 
-RETRAINING. Técnicas de elicitação de requisitos: brainstorming. Guia facetado de Técnicas de Elicitação de Requisitos. Disponível em: https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-brainstorming. Acesso em: 28 set. 2025.
+RETRAINING. Técnicas de elicitação de requisitos: brainstorming. Guia facetado de Técnicas de Elicitação de Requisitos. Disponível em: [https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-brainstorming](https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-brainstorming). Acesso em: 28 set. 2025.
 
 
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |--------|------|-----------|-----------|---------|
-| 1.0    | 26/09/2025 | Gravação do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) , [Vilmar José](https://github.com/VilmarFagundes) e [João Felipe](https://github.com/MrBolt2005.png) | |
-| 1.0    | 28/09/2025 | Criação da Página do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) | |
+| 1.0    | 26/09/2025 | Gravação do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) , [Vilmar José](https://github.com/VilmarFagundes) e [João Felipe](https://github.com/MrBolt2005.png) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.0    | 28/09/2025 | Criação da Página do Brainstorming | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
