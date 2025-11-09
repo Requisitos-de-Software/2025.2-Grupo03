@@ -123,7 +123,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 | **Classificação:** Em qual classe de requisito não-funcional se adequa |
 **Descrição:** Breve descrição do requisito |
-**Justificativa:** Explica por que o requisito é necessário e qual benefício traz ao sistema ou ao usuário |
+**Justificativa:** Explica por que o requisito é necessário e qual benefício traz ao sistema ou ao indivíduo |
 **Origem do Requisito:** De qual técnica(s) de elicitação ele se origina  |
 **Critério de Aceitação:** Como será verificado que o requisito foi atendido |
 **Dependências:** Requisitos, módulos ou condições que devem existir para que este requisito seja implementado |
@@ -140,7 +140,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 | **Classificação:** Usabilidade  |
 **Descrição:** A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.), exibindo apenas as funcionalidades e informações relevantes a cada papel.  |
-**Justificativa:** Personalizar a experiência do usuário, tornando a navegação mais intuitiva e reduzindo a complexidade de uso para diferentes perfis.  |
+**Justificativa:** Personalizar a experiência do indivíduo, tornando a navegação mais intuitiva e reduzindo a complexidade de uso para diferentes perfis.  |
 **Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
 **Critério de Aceitação:** O sistema ajusta automaticamente o conteúdo e as permissões de acordo com o perfil do usuário no momento do login.  |
 **Dependências:** Cadastro e autenticação de perfis de usuário.  |
@@ -157,10 +157,10 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |  [RNF05](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Recursos Alinhados à TAS|
 |---------------------------|
 | **Classificação:** Suportabilidade | 
-**Descrição:** O sistema deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do usuário, promovendo compreensão profunda e retenção duradoura. |
+**Descrição:** O sistema deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS). Isso significa que o sistema deve utilizar ferramentas e tecnologias que facilitem a aprendizagem ativa, conectando novas informações aos conhecimentos prévios do aluno, promovendo compreensão profunda e retenção duradoura. |
 **Justificativa:** Garantir que a plataforma ofereça suporte pedagógico adequado, reforçando a aprendizagem ativa e contextualizada de acordo com a Teoria da Aprendizagem Significativa.  |
 **Origem do Requisito:** [Análise de Documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais)   |
-**Critério de Aceitação:** O sistema incorpora mecanismos (como mapas conceituais, recomendações de conteúdo e feedback contextual) que relacionam novos conceitos aos conhecimentos prévios do usuário. | 
+**Critério de Aceitação:** O sistema incorpora mecanismos (como mapas conceituais, recomendações de conteúdo e feedback contextual) que relacionam novos conceitos aos conhecimentos prévios do aluno. | 
 **Dependências:** Modelagem dos conteúdos educacionais com base na TAS.  |
 **Prioridade:** Média  |
 **Conflitos:** Nenhum  |
@@ -175,10 +175,10 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 | **Classificação:** Confiabilidade |
 **Descrição:** O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada.  |
-**Justificativa:** Protege informações sensíveis dos usuários contra acessos indevidos, vazamentos e ataques cibernéticos, promovendo confiança no uso da plataforma.  |
+**Justificativa:** Protege informações sensíveis dos indivíduos contra acessos indevidos, vazamentos e ataques cibernéticos, promovendo confiança no uso da plataforma.  |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) .  |
 **Critério de Aceitação:** Os dados devem ser armazenados com criptografia AES-128 e acesso restrito mediante autenticação segura.  |
-**Dependências:** Implementação de módulo de segurança, autenticação de usuários e infraestrutura de banco de dados compatível. | 
+**Dependências:** Implementação do módulo de segurança, autenticação de acesso e infraestrutura de banco de dados compatível com os mecanismos de criptografia. | 
 **Prioridade:** Alta  |
 **Conflitos:** Pode impactar o tempo de resposta exigido por [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) e [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais).|
 
@@ -192,7 +192,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 | **Classificação:** Confiabilidade |
 **Descrição:** O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês. |
-**Justificativa:** Garantir que os usuários possam acessar a plataforma a qualquer momento, adaptando-se a diferentes rotinas de estudo e trabalho. |
+**Justificativa:** Garantir que os indivíduos possam acessar a plataforma a qualquer momento, adaptando-se a diferentes rotinas de estudo e trabalho. |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
 **Critério de Aceitação:** O tempo de funcionamento do sistema, medido mensalmente por ferramentas de monitoramento, deve ser de no mínimo 99%. |
 **Dependências:** Infraestrutura de servidor robusta (ex: nuvem com redundância), plano de contingência e monitoramento de serviços. |
@@ -209,7 +209,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 | **Classificação:** Performance |
 **Descrição:** O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos. |
-**Justificativa:** Assegurar uma experiência de usuário fluida e ágil ao consultar dados analíticos, evitando frustração e abandono da ferramenta. |
+**Justificativa:** Assegurar uma experiência de uso fluida e ágil ao consultar dados analíticos, evitando frustração e abandono da ferramenta. |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
 **Critério de Aceitação:** O tempo médio de carregamento completo (renderização de todos os elementos) dos dashboards e gráficos deve ser inferior a 3 segundos, medido em 95% das requisições. |
 **Dependências:** Otimização de consultas ao banco de dados e da renderização dos componentes gráficos no *frontend*. |
@@ -224,9 +224,9 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 | **Classificação:** Suportabilidade  |
 **Descrição:** O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho.  |
-**Justificativa:** Garante que o sistema continue funcional e eficiente mesmo com o crescimento da base de usuários e funcionalidades, evitando gargalos.  |
+**Justificativa:** Garante que a aplicação mantenha estabilidade e eficiência mesmo com o aumento de acessos e funcionalidades, evitando gargalos e falhas de disponibilidade.  |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/).  |
-**Critério de Aceitação:** O sistema deve suportar ao menos 5.000 usuários simultâneos com tempo de resposta inferior a 2 segundos.  |
+**Critério de Aceitação:** O sistema deve suportar, no mínimo, 5.000 acessos simultâneos com tempo de resposta inferior a 2 segundos.  |
 **Dependências:** Arquitetura escalável (ex.: microserviços), infraestrutura em nuvem e balanceamento de carga.  |
 **Prioridade:** Alta  |
 **Conflitos:** Pode entrar em conflito com [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais).|
@@ -242,7 +242,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 | **Classificação:** Confiabilidade |
 **Descrição:** O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD (Lei Geral de Proteção de Dados). |
-**Justificativa:** Atender às exigências legais, protegendo os dados pessoais dos usuários contra acessos indevidos e evitando sanções. Gera confiança na plataforma. |
+**Justificativa:** Atender às exigências legais, protegendo os dados pessoais dos indivíduos contra acessos indevidos e evitando sanções. Gera confiança na plataforma. |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
 **Critério de Aceitação:** O sistema deve possuir mecanismos de consentimento de uso de dados, permitir a anonimização ou exclusão de dados pessoais sob demanda, e ter políticas de privacidade claras. Acesso aos dados deve ser restrito e auditado. |
 **Dependências:** Implementação de [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) (Armazenamento seguro) e módulos de controle de acesso e auditoria. |
@@ -258,10 +258,10 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 | [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) - Tempo de Resposta do Ambiente |
 |---------------------------|
 | **Classificação:** Performance |
-| **Descrição:** O sistema deve processar as requisições do usuário e apresentar uma resposta visual completa em, no máximo, 1 segundo. |
+| **Descrição:** O sistema deve processar as requisições do indivíduo e apresentar uma resposta visual completa em, no máximo, 1 segundo. |
 | **Justificativa:** Um tempo de resposta rápido é crucial para a retenção e satisfação do aluno. Atrasos acima de 1 segundo podem causar frustração, prejudicar o foco no estudo e aumentar a taxa de abandono da plataforma. |
 | **Origem do Requisito:** [Analise de documento](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais) |
-| **Critério de Aceitação:** Em 95% das medições realizadas com ferramentas de teste de performance (ex: Lighthouse, JMeter) sob condições de carga normais (ex: 50 usuários concorrentes), o tempo de resposta para as interações principais (carregar página, submeter atividade, abrir vídeo) deve ser inferior a 1 segundo. |
+| **Critério de Aceitação:** Em 95% das medições realizadas com ferramentas de teste de performance (ex: Lighthouse, JMeter) sob condições de carga normais (ex: 50 acessos simultâneos), o tempo de resposta para as interações principais (carregar página, submeter atividade, abrir vídeo) deve ser inferior a 1 segundo. |
 | **Dependências:** Infraestrutura de servidor e rede otimizada; Otimização de consultas ao banco de dados; Otimização de assets de front-end (imagens, scripts). |
 | **Prioridade:** Alta |
 | **Conflitos:** Pode conflitar [RNF 08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) - O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada. Pois pode demorar a carregar os dados |
@@ -276,7 +276,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |---------------------------|
 |  **Classificação:** Usabilidade |
 | **Descrição:** A interface do sistema deve se adaptar (layout, fontes, menus) e ser plenamente funcional em diferentes tamanhos de tela, com foco em smartphones e tablets. |
-| **Justificativa:** Os alunos utilizam diversos dispositivos para estudar. Garantir a responsividade permite que o usuário tenha uma boa experiência de aprendizado independentemente de onde acesse, aumentando a acessibilidade e a flexibilidade. |
+| **Justificativa:** Os alunos utilizam diversos dispositivos para estudar. Garantir a responsividade permite que o indivíduo tenha uma boa experiência de aprendizado independentemente de onde acesse, aumentando a acessibilidade e a flexibilidade. |
 | **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
 | **Critério de Aceitação:** 1. O layout se reajusta em larguras de tela de 360px (móvel) e 768px (tablet) sem barras de rolagem horizontais.<br> 2. Todos os botões e links são facilmente clicáveis (touch-friendly).<br> 3. A navegação principal é adaptada para um menu "hambúrguer" ou equivalente em telas menores.<br> 4. Conteúdos como vídeos (RF17) e gráficos de progresso (RF08, RF09) são exibidos e funcionam corretamente. |
 | **Dependências:** Utilização de técnicas de design responsivo (ex: Media Queries, Flexbox/Grid CSS) no desenvolvimento do front-end. |
@@ -295,7 +295,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 | **Descrição:** O sistema deve possibilitar integração bidirecional com AVAs e sistemas educacionais externos por meio de padrões abertos e APIs, além de webhooks e SDKs quando aplicável. |
 | **Justificativa:** Garantir interoperabilidade com o ecossistema educacional, evitar *vendor lock-in*, reduzir retrabalho de dados e viabilizar adoção/expansão do produto em diferentes contextos institucionais. |
 | **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
-| **Critério de Aceitação:** 1) **LTI 1.3/Advantage** operacional como Plataforma e/ou Ferramenta, com *launch* OIDC/OAuth2 validado em ambiente de homologação;<br>2) **API REST** pública com documentação **OpenAPI** e controle de acesso por **OAuth2 Client Credentials**, contemplando ao menos *users, courses/classes, enrollments, assignments, grades*;<br>3) **Webhooks** para eventos de criação/atualização de usuário, matrícula, publicação/atualização de nota e conclusão;<br>4) **Conteúdo**: suporte a **pelo menos um** entre **SCORM 1.2/2004** **ou** **xAPI** (importação e execução/registro);<br>5) **Teste de interoperabilidade** bem-sucedido com **2 sistemas externos** distintos em homologação, com registro de casos e evidências. |
+| **Critério de Aceitação:** 1) **LTI 1.3/Advantage** operacional como Plataforma e/ou Ferramenta, com *launch* OIDC/OAuth2 validado em ambiente de homologação;<br>2) **API REST** pública com documentação **OpenAPI** e controle de acesso por **OAuth2 Client Credentials**, contemplando ao menos *users, courses/classes, enrollments, assignments, grades*;<br>3) **Webhooks** para eventos de criação/atualização de cadastro, matrícula, publicação/atualização de nota e conclusão;<br>4) **Conteúdo**: suporte a **pelo menos um** entre **SCORM 1.2/2004** **ou** **xAPI** (importação e execução/registro);<br>5) **Teste de interoperabilidade** bem-sucedido com **2 sistemas externos** distintos em homologação, com registro de casos e evidências. |
 | **Dependências:** Gateway de APIs; gerenciamento de credenciais/segredos; mapeamento e conciliação de identidades (SSO/OIDC); *rate limiting* e observabilidade; governança de dados e consentimento (LGPD). |
 | **Prioridade:** Alta |
 | **Conflitos:** Pode conflitar com [RNF03](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) e [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), pois o aumento de chamadas externas pode gerar sobrecarga e afetar o tempo de resposta.<br>Também pode conflitar com [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) devido à troca de dados sensíveis entre plataformas, exigindo maior controle de consentimento e segurança.<br>Além disso, pode impactar [RNF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) em períodos de manutenção ou falhas de integração. |
@@ -312,7 +312,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 | **Descrição:** As análises do módulo **MAD** devem ser processadas e refletidas nas visualizações e alertas **em tempo real**, a partir de eventos de uso da plataforma (interações, submissões, notas, progresso). |
 | **Justificativa:** Fornecer feedback imediato para alunos e professores, apoiando intervenções rápidas e decisões pedagógicas baseadas em dados atualizados. |
 | **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
-| **Critério de Aceitação:** 1) **Latência ponta-a-ponta P95 ≤ 1 s** (ingestão do evento → cálculo → disponibilidade em widgets/indicadores principais); **P99 ≤ 2 s** sob carga nominal;<br>2) **Atualização de dashboards/widgets** do MAD em até **1 s** após novo evento em carga nominal (p.ex., **200 eventos/s** e **100 usuários concorrentes**);<br>3) **Alertas** gerados e enviados em até **2 s** após a condição ser satisfeita;<br>4) **Disponibilidade do pipeline** de *streaming* **≥ 99%** ao mês;<br>5) Métricas de **throughput, lag, erro** e **backpressure** monitoradas, com **SLOs** definidos e painéis de observabilidade. |
+| **Critério de Aceitação:** 1) **Latência ponta-a-ponta P95 ≤ 1 s** (ingestão do evento → cálculo → disponibilidade em widgets/indicadores principais); **P99 ≤ 2 s** sob carga nominal;<br>2) **Atualização de dashboards/widgets** do MAD em até **1 s** após novo evento em carga nominal (p.ex., **200 eventos/s** e **100 acessos concorrentes**);<br>3) **Alertas** gerados e enviados em até **2 s** após a condição ser satisfeita;<br>4) **Disponibilidade do pipeline** de *streaming* **≥ 99%** ao mês;<br>5) Métricas de **throughput, lag, erro** e **backpressure** monitoradas, com **SLOs** definidos e painéis de observabilidade. |
 | **Dependências:** Pipeline de *streaming* ; motor de processamento contínuo; *timeseries* ou *columnar store* + *caching* (*in-memory*); particionamento/escala horizontal; CDN para *push* de atualizações; *feature flags* para degradação graciosa. |
 | **Prioridade:** Alta |
 | **Conflitos:** Pode conflitar com [RNF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), pois a criptografia e a segurança adicionam latência ao processamento de dados.<br>Pode impactar [RNF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) devido ao aumento da carga de processamento de gráficos e relatórios em tempo real.<br>Também pode gerar conflito parcial com [RNF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais), pois a anonimização e mascaramento de dados podem exigir agregações assíncronas, reduzindo a instantaneidade das análises. |
@@ -344,7 +344,7 @@ Um cartão de especificação é uma forma de registrar de maneira estruturada o
 |  [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) – Conformidade com Padrões de Acessibilidade|
 |---------------------------|
 | **Classificação:** Usabilidade (Acessibilidade) |
-**Descrição:** O sistema deve seguir padrões de acessibilidade (como as diretrizes WCAG 2.1) para garantir que possa ser utilizado por todos os usuários, incluindo pessoas com deficiências (visuais, auditivas, motoras ou cognitivas). |
+**Descrição:** O sistema deve seguir padrões de acessibilidade (como as diretrizes WCAG 2.1) para garantir que possa ser utilizado por todos os indivíduos, incluindo pessoas com deficiências (visuais, auditivas, motoras ou cognitivas). |
 **Justificativa:** Tornar a plataforma inclusiva, permitindo que todos os alunos, independentemente de suas habilidades, possam acessar o conteúdo e as ferramentas de aprendizado sem barreiras, garantindo a equidade educacional. |
 **Origem do Requisito:** [Entrevista](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/) |
 **Critério de Aceitação:** 1. O sistema deve atingir o nível de conformidade "AA" das diretrizes WCAG 2.1.<br> 2. Toda a navegação e funcionalidade principal do sistema deve ser operável via teclado.<br> 3. As imagens informativas devem possuir texto alternativo (alt text) e o contraste de cores entre texto e fundo deve atender aos mínimos do nível AA.<br> 4. O sistema deve ser compatível com os principais leitores de tela (ex: NVDA, VoiceOver). |
@@ -370,10 +370,10 @@ Esse gráfico mostra como os softgoals se relacionam entre si e de que forma cad
 
 Os requisitos utilizados para o **NFR 01 (Usabilidade)** estão apresentados na página de [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/) e são os seguintes:  
 
-- [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): A interface deve se adaptar automaticamente ao perfil de cada usuário (aluno, monitor, professor etc.).  
+- [RNF01](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): A interface deve se adaptar automaticamente ao perfil de usuário (aluno, monitor, professor etc.).  
 - [RNF02](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): O sistema deve ser acessível pela internet, permitindo o uso tanto presencial quanto a distância.  
 - [RNF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) O sistema deve ser totalmente compatível com dispositivos móveis, garantindo responsividade e adaptação automática a diferentes tamanhos e orientações de tela (smartphones, tablets e notebooks).  
-- [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) O sistema deve seguir padrões de acessibilidade para garantir a usabilidade a todos os usuários, incluindo pessoas com deficiência.  
+- [RNF12](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais) O sistema deve seguir padrões de acessibilidade para garantir a usabilidade a todos os indivíduos, incluindo pessoas com deficiência.  
 
 A **Figura 5** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** referente ao NFR 01, destacando as relações de contribuição entre os requisitos de Usabilidade.  
 
@@ -397,7 +397,7 @@ A **Figura 5** apresenta o **Gráfico de Interdependência de Softgoals (SIG)** 
 - [RNF01 (Adaptabilidade de Perfil)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – A interface adapta-se automaticamente ao perfil do usuário (aluno, monitor, professor etc.), oferecendo conteúdo e funcionalidades condizentes com cada papel.  
 - [RNF02 (Acessibilidade Remota)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** – O sistema é acessível pela internet, permitindo uso tanto presencial quanto a distância, sem restrições significativas.  
 - [RNF11 (Compatibilidade com Dispositivos Móveis)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Negado (X)** – O sistema não possui versão mobile nem apresenta responsividade adequada, impossibilitando o uso em diferentes tamanhos e orientações de tela.
-- [RNF12 (Acessibilidade)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Negado (X)** – O sistema não segue integralmente os padrões de acessibilidade, pois não oferece recursos adequados para usuários com deficiência visual, como suporte a leitores de tela, design claro com bom contraste e opção para daltonismo.
+- [RNF12 (Acessibilidade)](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Negado (X)** – O sistema não segue integralmente os padrões de acessibilidade, pois não oferece recursos adequados para indivíduos com deficiência visual, como suporte a leitores de tela, design claro com bom contraste e opção para daltonismo.
 
 
 ### NFR 02 - Confiabilidade
@@ -421,7 +421,7 @@ Os requisitos utilizados para o **NFR 02 (Confiabilidade)** estão apresentados 
 **Avaliação dos softgoals de confiabilidade:**
 
 - [RNF09 - Disponibilidade contínua](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** - O sistema está disponível 24 horas por dia nos 7 dias da semana, além do monitoramento para ajustes caso ocorra uma indisponibilidade no sistema
-- [RNF15 - Privacidade e proteção de dados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** - O sistema possui um meio de proteção de dados do usuário de acordo com a LGPD
+- [RNF15 - Privacidade e proteção de dados](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#requisitos-nao-funcionais): **Satisfeito (✓)** - O sistema possui um meio de proteção de dados do indivíduo de acordo com a LGPD
 
 ### NFR 03 - Suportabilidade
 
@@ -504,7 +504,7 @@ A Tabela 9 mostra os participantes do grupo envolvidos na validação.
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-A Tabela 10 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+A Tabela 10 apresenta as informações do indivíduo que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
 <div align="center"><strong>Tabela 55: Usuário Real e Informações da Gravação</strong></div>
 
