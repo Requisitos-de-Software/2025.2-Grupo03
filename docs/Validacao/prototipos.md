@@ -19,7 +19,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | [João Felipe](https://github.com/MrBolt2005)          | |
 | [João Sapiência](https://github.com/JoaoSapiencia)    | |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)    | Criação do documento de prototipação, desenvolvimento dos protótipos dos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15), [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18) e [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19), além da validação dos protótipos com um usuário real. |
-| [Vilmar José](https://github.com/VilmarFagundes)      | |
+| [Vilmar José](https://github.com/VilmarFagundes)      | desenvolvimento e validação dos protótipos referentes aos requisitos [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11) e [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF13) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
