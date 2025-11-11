@@ -1,3 +1,5 @@
+# Aplicativo Escolhido
+
 ## Introdução
 
 No início do projeto, foram avaliados diversos aplicativos com o objetivo de identificar suas funcionalidades, limitações, formas de aplicação dos conteúdos aprendidos em sala de aula e possíveis impactos em nossa vida cotidiana. Entre os sistemas analisados pelos integrantes do grupo estavam: *Jornada do Estudante*, *Uber*, *Guardiões da Saúde*, *Mercado Livre*, *SAE (Sistema de Apoio Educacional)* e *Caixa Lotérica*.
@@ -21,15 +23,19 @@ Além desses pontos, o SAE foi aprovado tanto pelo professor da disciplina de Re
 ## Termos de uso 
 Para garantir que a análise fosse feita de maneira adequada, o grupo consultou a documentação oficial do SAE (Sistema de Apoio Educacional). O SAE é creditado como software público (Figura 1), o que significa que sua documentação segue diretrizes específicas que priorizam a transparência e o acesso aberto. Isso possibilita que qualquer pessoa consulte as informações e até colabore no desenvolvimento.
 
-**Figura 1 – SAE como Software Público**
+<div align="center"><strong>Figura 1: SAE como Software Público</strong></div>
+
 ![SAE](../imagens/termoUso/SAEsoftwarePublico.png)  
-**Fonte: Aplicativo SAE**
+
+<div align="center"><strong>Aplicativo SAE</strong></div>
 
 Durante a pesquisa, também foi encontrada a [PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016](../arquivos/PORTARIA_N__46__DE_28_DE_SETEMBRO_DE_2016-1.pdf), que trata sobre software público (Figura 2). Essa referência reforçou a segurança e a conformidade da análise realizada.
 
-**Figura 2 – Portaria sobre Software Público**
+<div align="center"><strong>Figura 2: Portaria sobre Software Público</strong></div>
+
 ![Portaria Software Público](../imagens/termoUso/portariaSoftwarePublico.png)  
-**Fonte: [PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016](../arquivos/PORTARIA_N__46__DE_28_DE_SETEMBRO_DE_2016-1.pdf)**
+
+<div align="center"><strong>Fonte: PORTARIA Nº 46, DE 28 DE SETEMBRO DE 2016</strong></div>
 
 ## Rich Picture
 O Rich Picture é uma técnica visual usada para entender e comunicar sistemas de forma simples. Ele ajuda a mostrar usuários, processos, informações, limites e possíveis problemas. Por ser informal, facilita a troca de ideias entre os participantes e contribui para identificar requisitos e pontos críticos.
