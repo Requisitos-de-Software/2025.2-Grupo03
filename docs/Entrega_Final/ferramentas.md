@@ -16,7 +16,6 @@ Tabela 1: ferramentas utilizadas
 | ![Github](../imagens/ferramentas/logoGithub.png) | [Github](https://github.com/) | Controle de versão e colaboração no código |
 | ![GitHubCopilot](../imagens/ferramentas/logoCopilot.svg) | [GitHub Copilot](https://github.com/features/copilot) | Assistente de programação com IA integrado ao editor para auxílio na escrita da documentação |
 | ![Docs](../imagens/ferramentas/logoDocs.png) | [Google Docs](https://www.google.com/docs/about/) | Produção e edição colaborativa de textos |
-| ![GoogleForms](../imagens/ferramentas/logoForms.svg) | [Google Forms](https://www.google.com/forms/about/) | Criação de formulários e coleta de dados |
 | ![Planilhas](../imagens/ferramentas/logoPlanilhas.png) | [Google Planilhas](https://www.google.com/sheets/about/) | Organização de planilhas e cronogramas |
 | ![Lucidchart](../imagens/ferramentas/logoLucidchart.png) | [Lucidchart](https://www.lucidchart.com/) | Criação de diagramas e fluxogramas |
 | ![MkDocs](../imagens/ferramentas/logoMkDocs.png) | [MkDocs](https://www.mkdocs.org/) | Criação e organização da documentação do projeto |
@@ -46,21 +45,19 @@ Tabela 1: ferramentas utilizadas
 
 [8] GOOGLE DOCS. Disponível em: [https://www.google.com/docs/about/](https://www.google.com/docs/about/). Acesso em: 09 de setembro de 2025.  
 
-[9] GOOGLE FORMS. Disponível em: [https://www.google.com/forms/about/](https://www.google.com/forms/about/). Acesso em: 09 de setembro de 2025.  
+[9] GOOGLE PLANILHAS. Disponível em: [https://www.google.com/sheets/about/](https://www.google.com/sheets/about/). Acesso em: 09 de setembro de 2025.  
 
-[10] GOOGLE PLANILHAS. Disponível em: [https://www.google.com/sheets/about/](https://www.google.com/sheets/about/). Acesso em: 09 de setembro de 2025.  
+[10] LUCIDCHART. Disponível em: [https://www.lucidchart.com/](https://www.lucidchart.com/). Acesso em: 09 de setembro de 2025.  
 
-[11] LUCIDCHART. Disponível em: [https://www.lucidchart.com/](https://www.lucidchart.com/). Acesso em: 09 de setembro de 2025.  
+[11] MICROSOFT TEAMS. Disponível em: [https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software). Acesso em: 09 de setembro de 2025.  
 
-[12] MICROSOFT TEAMS. Disponível em: [https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software). Acesso em: 09 de setembro de 2025.  
+[12] MKDOCS. Disponível em: [https://www.mkdocs.org/](https://www.mkdocs.org/). Acesso em: 09 de setembro de 2025.  
 
-[13] MKDOCS. Disponível em: [https://www.mkdocs.org/](https://www.mkdocs.org/). Acesso em: 09 de setembro de 2025.  
+[13] TELEGRAM. Disponível em: [https://telegram.org/](https://telegram.org/). Acesso em: 09 de setembro de 2025.  
 
-[14] TELEGRAM. Disponível em: [https://telegram.org/](https://telegram.org/). Acesso em: 09 de setembro de 2025.  
+[14] VISUAL STUDIO CODE. Disponível em: [https://code.visualstudio.com/](https://code.visualstudio.com/). Acesso em: 09 de setembro de 2025.  
 
-[15] VISUAL STUDIO CODE. Disponível em: [https://code.visualstudio.com/](https://code.visualstudio.com/). Acesso em: 09 de setembro de 2025.  
-
-[16] WHATSAPP. Disponível em: [https://www.whatsapp.com/](https://www.whatsapp.com/). Acesso em: 09 de setembro de 2025.   
+[15] WHATSAPP. Disponível em: [https://www.whatsapp.com/](https://www.whatsapp.com/). Acesso em: 09 de setembro de 2025.   
 
 ## Histórico de Versões
 
@@ -69,3 +66,4 @@ Tabela 1: ferramentas utilizadas
 | 1.0 | 09/09/2025 | Criação da página de ferramentas | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.0.1 | 10/09/2025 | Correção dos links de referência e das imagens | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.1 | 11/09/2025 | Adição de outros aplicativos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.2 | 11/11/2025 | Atualização dos aplicativos utilizados | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
