@@ -4,7 +4,8 @@
 Nesta página estão registradas todas as ferramentas usadas pela equipe durante o desenvolvimento do projeto. A escolha dessas ferramentas é importante para manter a produtividade, facilitar o trabalho em grupo e garantir a qualidade do que foi produzido. Cada ferramenta foi selecionada levando em conta sua utilidade em cada etapa do projeto e também o nível de familiaridade dos integrantes com ela.
 
 ## Ferramentas Utilizadas
-Tabela 1: ferramentas utilizadas 
+
+<div align="center"><strong>Tabela 1: Ferramentas Utilizadas</strong></div>
 
 |  | Ferramenta | Finalidade |
 |--|------------|------------|
