@@ -15,7 +15,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | ------------------------ | --------------------------------------------------------- |
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Desenvolvimento dos protótipos dos requisitos [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49), [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50) e [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51), além da validação dos protótipos com um usuário real.|
 | [Arthur Henrique](https://github.com/arthurhvieira1) | |
-| [Felipe Guimaraes](https://github.com/felipegf1)      | |
+| [Felipe Guimaraes](https://github.com/felipegf1)      | Criação do documento de prototipação e desenvolvimento dos protótipos dos requisitos [PT01](#PT01), [PT02](#PT02) e [PT03](#PT03), que são referentes, respectivamente, aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10). Além da validação dos protótipos com um usuário real. |
 | [João Felipe](https://github.com/MrBolt2005)          | |
 | [João Sapiência](https://github.com/JoaoSapiencia)    | |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)    | Criação do documento de prototipação e desenvolvimento dos protótipos dos requisitos [PT07](#PT07), [PT09](#PT09) e [PT10](#PT10), que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15), [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18) e [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19). Além da validação dos protótipos com um usuário real. |
@@ -40,6 +40,9 @@ A Tabela 2 apresenta informações detalhadas sobre cada protótipo individual, 
 
 |**Código**| **Requisito** | **Descrição** | **Protótipo** |
 |----------|---------------|---------------|---------------|
+| <a id="PT01"></a>PT01 | [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08) | A interface deve exibir um progresso em porcentagem do andamento da disciplina | O protótipo de [Andamento da Disciplina](../arquivos/prototipo_felipe_andamento_disciplina.pdf) detalha como o sistema exibe o progresso percentual da disciplina. A partir da tela de situação da disciplina, o aluno visualiza em porcentagem quanto da disciplina ja foi ministrada. |
+| <a id="PT02"></a>PT02 | [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09) | A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo | O protótipo de [Porcentagem de Acertos na Disciplina](../arquivos/prototipo_felipe_porcentagem_acertos_erros.pdf) demonstra como o aluno visualiza seu desempenho. A partir do historico, ele acessa a seção de conteudos, onde o sistema apresenta, dentro de cada conteúdo da disciplina, a porcentagem específica de acertos nas atividades realizadas.|
+| <a id="PT03"></a>PT03 | [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10) | A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo |O protótipo de [Porcentagem de Erros na Disciplina](../arquivos/prototipo_felipe_porcentagem_acertos_erros.pdf) demonstra como o aluno visualiza seu desempenho. A partir do historico, ele acessa a seção de conteudos, onde o sistema apresenta, dentro de cada conteúdo da disciplina, a porcentagem específica de erros nas atividades realizadas. |
 | <a id="PT04"></a>PT04 | [RF11](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11) | A interface deve exibir a média geral da turma em cada atividade | O protótipo de [Média da Turma](../arquivos/prototipo_Vilmar_media_turma.pdf) mostra como o sistema monitora as médias da turma. A partir do painel de gestão, o professor acessa **Acompanhar** e, em seguida, **Média da Turma**, podendo identificar a média da turma em cada conteúdo.  |
 | <a id="PT05"></a>PT05 | [RF13](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF13) | O aluno  deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas | O protótipo de [Período de notificação](../arquivos/prototipo_Vilmar_preferencia_notificacao.pdf) apresenta todo o caminho para acessar, alterar e salvar o período em que deseja receber alertas sobre atividades atrasadas. A partir da tela inicial, o usuário acessa o ícone de notificações, seleciona **Preferências** e é direcionado para a página correspondente, onde pode escolher o período de notificação desejado — 1 dia, 3 dias ou 7 dias — e, em seguida, salvar as alterações, recebendo uma confirmação de sucesso. |
 | <a id="PT07"></a>PT07 | [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15) | O sistema deve enviar notificações para lembrar o aluno de revisar conteúdos passados. | O protótipo de [Notificações de Lembrete de Revisão](../arquivos/prototipo_Tiago_revisao_entrega.pdf) apresenta todo o caminho para acessar as notificações relacionadas à revisão de conteúdos passados. A partir da tela inicial, o usuário acessa o ícone de notificações, seleciona **Recentes** e é direcionado para a página correspondente, onde pode visualizar as notificações de revisão de conteúdos anteriores e de proximidade da data de entrega das atividades. |
@@ -63,6 +66,7 @@ A Tabela 3 mostra os participantes do grupo envolvidos na validação.
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | [Vilmar José](https://github.com/VilmarFagundes) |
+| [Felipe Guimaraes](https://github.com/felipegf1) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -73,6 +77,7 @@ A Tabela 4 apresenta as informações do usuário que participou da etapa de val
 | Nome | Data | Hora | Local|
 |-------------------------|-----------------|-----------------|------------------|
 | Caio Sabino | 11/11/2025 | 17:10 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+| Filipe Ferreira | 12/11/2025 | 15:50 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -80,6 +85,7 @@ Além disso, a gravação da validação referente aos protótipos de [Tiago Lem
 
 Enquanto isso, a gravação da validação referente ao protótipo de [Arthur Guilherme](https://github.com/ArthurGuilher62) pode ser conferida em: [https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er](https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er)
 
+E a gravação da validação referente ao protótipo de [Felipe Guimaraes](https://github.com/felipegf1) pode ser conferida em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
 
 ---
 
