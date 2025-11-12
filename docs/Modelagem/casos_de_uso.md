@@ -454,6 +454,17 @@ Com base nesses conceitos, a Tabela 2 apresenta os principais elementos que comp
 
 ---
 
+### **UC18 – Seleção de Disciplinas Mais Fáceis**  
+**Requisito Associado:** O indivíduo pode marcar os tópicos da disciplina no qual ele sente mais facilidade
+
+<div align="center"><strong>Tabela 20: Caso de Uso UC18</strong></div>
+
+| Campo | Descrição |
+|-------|-----------|
+| UC18 | Seleção de Disciplinas Mais Fáceis |
+
+---
+
 ## Gravação da validação do documento
 ### Usuário entrevistado
 
