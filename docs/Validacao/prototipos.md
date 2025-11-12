@@ -15,7 +15,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 | ------------------------ | --------------------------------------------------------- |
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Desenvolvimento dos protótipos dos requisitos [RF49](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49), [RF50](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50) e [RF51](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51), além da validação dos protótipos com um usuário real.|
 | [Arthur Henrique](https://github.com/arthurhvieira1) | |
-| [Felipe Guimaraes](https://github.com/felipegf1)      | |
+| [Felipe Guimaraes](https://github.com/felipegf1)      | Criação do documento de prototipação e desenvolvimento dos protótipos dos requisitos [PT01](#PT01), [PT02](#PT02) e [PT03](#PT03), que são referentes, respectivamente, aos requisitos [RF08](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08), [RF09](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09) e [RF10](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10). Além da validação dos protótipos com um usuário real. |
 | [João Felipe](https://github.com/MrBolt2005)          | |
 | [João Sapiência](https://github.com/JoaoSapiencia)    | |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)    | Criação do documento de prototipação e desenvolvimento dos protótipos dos requisitos [PT07](#PT07), [PT09](#PT09) e [PT10](#PT10), que são referentes, respectivamente, aos requisitos [RF15](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15), [RF18](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18) e [RF19](https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19). Além da validação dos protótipos com um usuário real. |
@@ -73,6 +73,7 @@ A Tabela 4 apresenta as informações do usuário que participou da etapa de val
 | Nome | Data | Hora | Local|
 |-------------------------|-----------------|-----------------|------------------|
 | Caio Sabino | 11/11/2025 | 17:10 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+| Filipe Ferreira | 12/11/2025 | 15:50 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -80,6 +81,7 @@ Além disso, a gravação da validação referente aos protótipos de [Tiago Lem
 
 Enquanto isso, a gravação da validação referente ao protótipo de [Arthur Guilherme](https://github.com/ArthurGuilher62) pode ser conferida em: [https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er](https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er)
 
+Enquanto isso, a gravação da validação referente ao protótipo de [Felipe Guimaraes](https://github.com/felipegf1) pode ser conferida em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
 
 ---
 
