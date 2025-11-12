@@ -66,7 +66,6 @@ A Tabela 3 mostra os participantes do grupo envolvidos na validação.
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | [Vilmar José](https://github.com/VilmarFagundes) |
-| [Felipe Guimaraes](https://github.com/felipegf1) |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -77,15 +76,35 @@ A Tabela 4 apresenta as informações do usuário que participou da etapa de val
 | Nome | Data | Hora | Local|
 |-------------------------|-----------------|-----------------|------------------|
 | Caio Sabino | 11/11/2025 | 17:10 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
-| Filipe Ferreira | 12/11/2025 | 15:50 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 Além disso, a gravação da validação referente aos protótipos de [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) pode ser conferida em: [https://youtu.be/Lm3WyXxFRtY?si=5FuekfpwPKPInEc3](https://youtu.be/Lm3WyXxFRtY?si=5FuekfpwPKPInEc3)
 
-Enquanto isso, a gravação da validação referente ao protótipo de [Arthur Guilherme](https://github.com/ArthurGuilher62) pode ser conferida em: [https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er](https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er)
+---
 
-E a gravação da validação referente ao protótipo de [Felipe Guimaraes](https://github.com/felipegf1) pode ser conferida em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
+### Gravação 2
+A Tabela 5 mostra os participantes do grupo envolvidos na validação.
+
+<div align="center"><strong>Tabela 5: Participantes envolvidos</strong></div>
+
+| Nome |
+|------|
+| [Felipe Guimaraes](https://github.com/felipegf1) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+A Tabela 6 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+
+<div align="center"><strong>Tabela 6: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| Filipe Ferreira | 12/11/2025 | 15:50 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
 
 ---
 
