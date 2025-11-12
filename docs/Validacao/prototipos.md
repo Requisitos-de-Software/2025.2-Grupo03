@@ -85,7 +85,7 @@ Além disso, a gravação da validação referente aos protótipos de [Tiago Lem
 
 Enquanto isso, a gravação da validação referente ao protótipo de [Arthur Guilherme](https://github.com/ArthurGuilher62) pode ser conferida em: [https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er](https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er)
 
-Enquanto isso, a gravação da validação referente ao protótipo de [Felipe Guimaraes](https://github.com/felipegf1) pode ser conferida em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
+E a gravação da validação referente ao protótipo de [Felipe Guimaraes](https://github.com/felipegf1) pode ser conferida em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
 
 ---
 
