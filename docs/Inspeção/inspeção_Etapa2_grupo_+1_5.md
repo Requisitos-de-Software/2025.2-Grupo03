@@ -10,24 +10,24 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | ID | Item de Verificação | Autor | Status |
 |----|---------------------|-------|---|
-| 1 | **Todos os requisitos foram listados em uma planilha?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 2 | **As dependências lógicas entre os requisitos foram consideradas?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 3 | **O benefício relativo de cada requisito foi avaliado pelo cliente em uma escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 4 | **Teve a participação dos representantes dos clientes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 5 | **A penalidade relativa (impacto de não implementar um requisito) foi definida em escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 6 | **A coluna valor total foi calculada pela soma de (peso do benefício × valor do benefício) e (peso da penalidade × valor da penalidade)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 7 | **O custo relativo da implementação de cada requisito está em uma escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 8 | **Os desenvolvedores consideraram fatores como complexidade, interface, potencial de reutilização, testes e documentação ao estimar os custos?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 9 | **O grau relativo de risco de cada requisito está em uma escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 10 | **A priorização foi calculada usando a fórmula: Valor % / (Custo % × Peso + Risco % × Peso)?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 11 | **A lista final de requisitos foi ordenada em ordem decrescente com base na prioridade calculada?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 12 | **O processo de priorização foi liderado por um Gerente?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 13 | **O processo contou com a participação de representantes de desenvolvimento?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 14 | **Os benefícios de cada função foram avaliados e equilibrados em relação aos seus custos?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 15 | **As implicações que os requisitos trarão para a arquitetura do sistema foram claramente definidas?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 16 | **Os riscos técnicos associados a cada requisito foram estabelecidos?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 17 | **As demais dificuldades associadas a cada requisito foram estabelecidas?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 18 | **A granularidade dos requisitos foi definida para a priorização?** | [Vilmar José](https://github.com/VilmarFagundes) |  |
+| 1 | **Todos os requisitos foram listados em uma planilha?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 2 | **As dependências lógicas entre os requisitos foram consideradas?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 3 | **O benefício relativo de cada requisito foi avaliado pelo cliente em uma escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 4 | **Teve a participação dos representantes dos clientes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 5 | **A penalidade relativa (impacto de não implementar um requisito) foi definida em escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 6 | **A coluna valor total foi calculada pela soma de (peso do benefício × valor do benefício) e (peso da penalidade × valor da penalidade)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 7 | **O custo relativo da implementação de cada requisito está em uma escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 8 | **Os desenvolvedores consideraram fatores como complexidade, interface, potencial de reutilização, testes e documentação ao estimar os custos?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 9 | **O grau relativo de risco de cada requisito está em uma escala de 1 a 9?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não se aplica |
+| 10 | **A priorização foi calculada usando a fórmula: Valor % / (Custo % × Peso + Risco % × Peso)?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 11 | **A lista final de requisitos foi ordenada em ordem decrescente com base na prioridade calculada?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 12 | **O processo de priorização foi liderado por um Gerente?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 13 | **O processo contou com a participação de representantes de desenvolvimento?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 14 | **Os benefícios de cada função foram avaliados e equilibrados em relação aos seus custos?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 15 | **As implicações que os requisitos trarão para a arquitetura do sistema foram claramente definidas?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 16 | **Os riscos técnicos associados a cada requisito foram estabelecidos?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 17 | **As demais dificuldades associadas a cada requisito foram estabelecidas?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 18 | **A granularidade dos requisitos foi definida para a priorização?** | [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -121,18 +121,19 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | ID | Item de Verificação | Autor | Status |
 |----|---------------------|-------|---|
-| 1  | **Foi feita uma reunião com especialistas de diversos setores?**  |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 2  | **A sessão foi entre 8 e 12 usuários finais?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 3  | **Os perfis de usuário são semelhantes?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 4  | **A sessão foi iniciada com uma pergunta que sumariza o objetivo de entender o que os usuários querem e precisam no produto?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 5  | **A pergunta se refere ao “Sistema ideal” para que os participantes não se limitem ao que acreditam que a tecnologia possa fazer?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 6  | **A sessão tem um moderador?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 7  | **A sessão possui um secretário?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 8  | **A sessão possui um cinegrafista?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 9  | **Na atividade de priorização, cada participante registrou os cinco itens que considera essenciais para o produto?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 10 | **No formulário foi registrado os números dos itens?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 11 | **No formulário foi registrada a descrição do item?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
-| 12 | **No formulário foi registrado o porquê esse item é importante?** |  [Vilmar José](https://github.com/VilmarFagundes) |  |
+| 1  | **Foi feita uma reunião com especialistas de diversos setores?**  |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 2  | **A sessão foi entre 8 e 12 usuários finais?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 3  | **Os perfis de usuário são semelhantes?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 4  | **A sessão foi iniciada com uma pergunta que sumariza o objetivo de entender o que os usuários querem e precisam no produto?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 5  | **A pergunta se refere ao “Sistema ideal” para que os participantes não se limitem ao que acreditam que a tecnologia possa fazer?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 6  | **A sessão tem um moderador?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 7  | **A sessão possui um secretário?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 8  | **A sessão possui um cinegrafista?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 9  | **Na atividade de priorização, cada participante registrou os cinco itens que considera essenciais para o produto?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 10 | **No formulário foi registrado os números dos itens?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 11 | **No formulário foi registrada a descrição do item?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+| 12 | **No formulário foi registrado o porquê esse item é importante?** |  [Vilmar José](https://github.com/VilmarFagundes) | Não se aplica |
+
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -164,6 +165,8 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 | 18 | **O perfil de usuário serve como base para a criação de personas?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
 
 ## Vídeo da Inspeção
 
