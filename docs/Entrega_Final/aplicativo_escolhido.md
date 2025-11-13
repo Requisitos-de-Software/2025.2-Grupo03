@@ -48,5 +48,5 @@ Veja o Rich Picture do nosso projeto na página [Rich Picture](../Rich-picture/r
 
 | Versão      | Data | Descrição                                                        | Autor(es)                       | Revisor |
 |------------|--------|------------------------------------------------------------------|---------------------------------|---------|
-| 1.0 | 09/09/2025   | Criação do documento inicial                                     | [João Sapiência]((https://github.com/JoaoSapiencia)), [Tiago Lemes](https://github.com/TiagoTeixeira-2005)     | [Vilmar José](https://github.com/VilmarFagundes)
-| 1.1 | 09/09/2025   | Adição dos critérios de escolha do SAE e inclusão do histórico   | [João Sapiência]((https://github.com/JoaoSapiencia)), [Tiago Lemes](https://github.com/TiagoTeixeira-2005)     | [Vilmar José](https://github.com/VilmarFagundes)
+| 1.0 | 09/09/2025   | Criação do documento inicial                                     | [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005)     | [Vilmar José](https://github.com/VilmarFagundes)
+| 1.1 | 09/09/2025   | Adição dos critérios de escolha do SAE e inclusão do histórico   | [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005)     | [Vilmar José](https://github.com/VilmarFagundes)

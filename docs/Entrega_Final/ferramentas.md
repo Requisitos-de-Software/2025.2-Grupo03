@@ -68,4 +68,3 @@ Nesta página estão registradas todas as ferramentas usadas pela equipe durante
 | 1.0.1 | 10/09/2025 | Correção dos links de referência e das imagens | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.1 | 11/09/2025 | Adição de outros aplicativos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.2 | 11/11/2025 | Atualização dos aplicativos utilizados | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
-
