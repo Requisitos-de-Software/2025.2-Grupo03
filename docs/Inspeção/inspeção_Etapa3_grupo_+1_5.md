@@ -161,10 +161,10 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 ## Vídeo da Inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://youtu.be/fBzVvcIq47Q?si=-7BV4ALcPQ38Qf6U)
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 12/11/2025 | Criação da página | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.0 | 12/11/2025 | Criação da página | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
