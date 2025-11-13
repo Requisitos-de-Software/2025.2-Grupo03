@@ -2,7 +2,7 @@
 
 ## Etapa 02
 
-Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser visuaçizada em [Lista de Verificação da Entrega 2](https://requisitos-de-software.github.io/2025.2-Grupo03/Verificacao/verificacao2/). Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a entrega da Etapa 02 do grupo 7.
+Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser visualizada em [Lista de Verificação da Entrega 2](https://requisitos-de-software.github.io/2025.2-Grupo03/Verificacao/verificacao2/). Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a entrega da Etapa 02 do grupo 7.
 
 ### First Thing First 
 
