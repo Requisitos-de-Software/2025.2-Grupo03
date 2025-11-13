@@ -122,7 +122,7 @@ A Tabela 7 mostra os participantes do grupo envolvidos na validação.
 |------|
 | [Arthur Henrique](https://github.com/arthurhvieira1) |
 
-<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthru Henrique</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 A Tabela 8 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
@@ -132,7 +132,7 @@ A Tabela 8 apresenta as informações do usuário que participou da etapa de val
 |-------------------------|-----------------|-----------------|------------------|
 | Rafael Vieira | 12/11/2025 | 19:50 | Casa do Rafael |
 
-<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthru Henrique</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
 
