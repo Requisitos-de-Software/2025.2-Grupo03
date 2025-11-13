@@ -33,6 +33,10 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
+## Vídeo da Inspeção
+
+- [Link do video no youtube]()
+
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
