@@ -1,10 +1,12 @@
 # Lista de Verificação da Entrega 5 - Grupo 07
 
-# Etapa 01
+## Etapa 01
 
 Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser visuaçizada em [Lista de Verificação da Entrega 1](https://requisitos-de-software.github.io/2025.2-Grupo03/Verificacao/verificacao/). Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a entrega da Etapa 01 do grupo 7.
 
-<div align="center"><strong>Tabela 1: Lista de Verificação de Rich Picture - Grupo 07</strong></div>
+### Rich Picture
+
+<div align="center"><strong>Tabela 1: Lista de Verificação da Rich Picture - Grupo 07</strong></div>
 
 | ID | Item de Verificação | Autor | Status |
 | ---- | ----- | ----- | --- |
