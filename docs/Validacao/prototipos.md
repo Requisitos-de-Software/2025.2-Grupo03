@@ -147,4 +147,4 @@ Além disso, a gravação da validação pode ser visualizada em: [https://youtu
 |--------|------------|---------------------------------------------|------------------------------------------------------------|---------------|
 | 1.0    | 02/11/2025 | Criação do documento de Prototipação          | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.1   | 12/11/2025 | Adição dos Protótipos [PT08](#PT08), [PT11](#PT11) e [PT13](#PT13)         | [Arthur Henrique](https://github.com/arthurhvieira1)       | [Vilmar José](https://github.com/VilmarFagundes) |
-| 1.2   | 12/11/2025 | Adição dos Protótipos [PT21](#PT21), [PT22](#PT22) e [PT23](#PT23)         | [João Felipe](https://github.com/MrBolt2005)       | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) <rb> [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.2   | 12/11/2025 | Adição dos Protótipos [PT21](#PT21), [PT22](#PT22) e [PT23](#PT23)         | [João Felipe](https://github.com/MrBolt2005)       | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)<br>[Vilmar José](https://github.com/VilmarFagundes) |
