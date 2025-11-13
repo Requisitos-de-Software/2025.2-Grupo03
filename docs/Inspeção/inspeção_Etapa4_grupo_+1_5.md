@@ -2,7 +2,7 @@
 
 ## Etapa 04
 
-Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser visuaçizada em [Lista de Verificação da Entrega 4](https://requisitos-de-software.github.io/2025.2-Grupo03/Verificacao/verificacao4/). Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a entrega da Etapa 04 do grupo 7.
+Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser visualizada em [Lista de Verificação da Entrega 4](https://requisitos-de-software.github.io/2025.2-Grupo03/Verificacao/verificacao4/). Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a entrega da Etapa 04 do grupo 7.
 
 ### Histórias de Usuário
 
