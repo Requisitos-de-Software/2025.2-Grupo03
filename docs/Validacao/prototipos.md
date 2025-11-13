@@ -143,6 +143,9 @@ Além disso, a gravação da validação pode ser visualizada em: [https://youtu
 
 ---
 
+## Agradecimentos
+O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
+
 ## Históricos de versão
 
 | Versão | Data       | Descrição                                   | Autor(es)                                                   | Revisor       |
