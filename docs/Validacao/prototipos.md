@@ -87,7 +87,9 @@ A Tabela 4 apresenta as informações do usuário que participou da etapa de val
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
-Além disso, a gravação da validação referente aos protótipos de [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) pode ser conferida em: [https://youtu.be/Lm3WyXxFRtY?si=5FuekfpwPKPInEc3](https://youtu.be/Lm3WyXxFRtY?si=5FuekfpwPKPInEc3)
+Além disso, a gravação da validação referente aos protótipos de [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) pode ser conferida em: [https://youtu.be/Lm3WyXxFRtY?si=5FuekfpwPKPInEc3](https://youtu.be/Lm3WyXxFRtY?si=5FuekfpwPKPInEc3).
+
+Enquanto isso, a gravação da validação referente ao protótipo de [Arthur Guilherme](https://github.com/ArthurGuilher62) pode ser conferida em: [https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er](https://youtu.be/WIeOHGhVrzk?si=BF5jdOx2LvXmW9Er).
 
 ---
 
