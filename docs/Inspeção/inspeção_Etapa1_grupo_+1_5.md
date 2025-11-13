@@ -37,7 +37,7 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 ## Vídeo da Inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://youtu.be/i_Ay2UzJp3I?si=3u6faq4aEieXasag)
 
 ## Histórico de Versões
 
