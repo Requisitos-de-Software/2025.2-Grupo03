@@ -170,7 +170,7 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 ## Vídeo da Inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://youtu.be/mT4H5RyuK5s)
 
 ## Histórico de Versões
 
