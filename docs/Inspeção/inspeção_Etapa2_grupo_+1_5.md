@@ -39,14 +39,14 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | ID | Item de Verificação | Autor | Status |
 |----|---------------------|-------|---|
-| 1 | **Todos os requisitos foram listados em três categorias (Alta, Média, Baixa)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 2 | **A prioridade foi estabelecida com base em uma tabela de importância × urgência?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 3 | **Existe uma priorização definida para cada requisito?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 4 | **As partes interessadas concordaram com a priorização estabelecida?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 5 | **As prioridades altas correspondem a requisitos importantes e urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 6 | **As prioridades médias correspondem a requisitos importantes, mas não urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 7 | **As prioridades baixas correspondem a requisitos não importantes e não urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
-| 8 | **Requisitos classificados como urgentes, mas que não são importantes para os objetivos do negócio, foram identificados e tratados adequadamente (definidos como baixa prioridade ou eliminados)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |  |
+| 1 | **Todos os requisitos foram listados em três categorias (Alta, Média, Baixa)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme  |
+| 2 | **A prioridade foi estabelecida com base em uma tabela de importância × urgência?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Não Conforme  |
+| 3 | **Existe uma priorização definida para cada requisito?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |Conforme |
+| 4 | **As partes interessadas concordaram com a priorização estabelecida?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme  |
+| 5 | **As prioridades altas correspondem a requisitos importantes e urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme  |
+| 6 | **As prioridades médias correspondem a requisitos importantes, mas não urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme  |
+| 7 | **As prioridades baixas correspondem a requisitos não importantes e não urgentes?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme  |
+| 8 | **Requisitos classificados como urgentes, mas que não são importantes para os objetivos do negócio, foram identificados e tratados adequadamente (definidos como baixa prioridade ou eliminados)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>  
 
@@ -58,14 +58,14 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | ID | Item de Verificação | Autor | Status |
 |----|---------------------|-------|---|
-| 1 | **Foram dados exatos 100 dólares imaginários para o grupo de priorização?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
-| 2 | **Cada membro do grupo fez sua própria alocação de seus dólares aos requisitos?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
-| 3 | **Os requisitos que não tiveram dólares alocados foram considerados com o valor 0?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
-| 4 | **Não há requisitos que ultrapassem 100 dólares?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
-| 5 | **A soma de todos os dólares alocados não ultrapassa 100 dólares?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
-| 6 | **Os integrantes do grupo de priorização foram instruídos a evitar manipulações de valores?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
-| 7 | **Os dólares foram alocados de acordo com os interesses dos membros?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
-| 8 | **Cada requisito teve sua média dos valores recebidos?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
+| 1 | **Foram dados exatos 100 dólares imaginários para o grupo de priorização?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme  |
+| 2 | **Cada membro do grupo fez sua própria alocação de seus dólares aos requisitos?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme  |
+| 3 | **Os requisitos que não tiveram dólares alocados foram considerados com o valor 0?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Não se aplica |
+| 4 | **Não há requisitos que ultrapassem 100 dólares?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme  |
+| 5 | **A soma de todos os dólares alocados não ultrapassa 100 dólares?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Não Conforme |
+| 6 | **Os integrantes do grupo de priorização foram instruídos a evitar manipulações de valores?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme  |
+| 7 | **Os dólares foram alocados de acordo com os interesses dos membros?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |Conforme   |
+| 8 | **Cada requisito teve sua média dos valores recebidos?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) |Conforme   |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -77,20 +77,20 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | ID | Item de Verificação | Autor | Status |
 |----|---------------------|-------|---|
-| 1 | **A priorização possui quatro classificações de prioridade (Must, Should, Could, Won’t)?** | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
-| 2 | **As classes de priorização foram definidas de maneira clara e compreensível para todos os stakeholders?** | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
-| 3 | **A técnica foi usada com linguagem simples e acessível a todos os envolvidos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
-| 4 | **Os requisitos Must são realmente essenciais/críticos para o sucesso do projeto?** | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
-| 5 | **Caso os requisitos Must não sejam implementados, o projeto não será considerado concluído com sucesso?** | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
-| 6 | **Os requisitos Should são importantes, mas não impedem o sucesso do projeto caso não sejam incluídos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
-| 7 | **Os requisitos Could foram identificados como desejáveis e viáveis apenas se houver tempo e recursos disponíveis?** | [João Felipe](https://github.com/MrBolt2005) |  |
-| 8 | **Os itens classificados como Could foram avaliados quanto à sua relação com a satisfação do cliente?** | [João Felipe](https://github.com/MrBolt2005) |  |
-| 9 | **Os requisitos Won’t foram conscientemente excluídos por não serem prioritários neste momento?** | [João Felipe](https://github.com/MrBolt2005) |  |
-| 10 | **As decisões sobre o que será Won’t foram baseadas em retorno sobre investimento ou impacto estratégico?** | [João Felipe](https://github.com/MrBolt2005) |  |
-| 11 | **Os requisitos Won’t correspondem a funcionalidades que não serão implementadas na release atual?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 12 | **A exclusão dos requisitos Won’t não compromete a entrega ou o uso do produto?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 13 | **Todos os stakeholders podem participar da classificação dos requisitos?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 14 | **A classificação foi feita com base no conhecimento real do negócio pelos interessados?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
+| 1 | **A priorização possui quatro classificações de prioridade (Must, Should, Could, Won’t)?** | [Arthur Henrique](https://github.com/arthurhvieira1) | Conforme  |
+| 2 | **As classes de priorização foram definidas de maneira clara e compreensível para todos os stakeholders?** | [Arthur Henrique](https://github.com/arthurhvieira1) | Conforme  |
+| 3 | **A técnica foi usada com linguagem simples e acessível a todos os envolvidos?** | [Arthur Henrique](https://github.com/arthurhvieira1) | Conforme  |
+| 4 | **Os requisitos Must são realmente essenciais/críticos para o sucesso do projeto?** | [Arthur Henrique](https://github.com/arthurhvieira1) | Conforme  |
+| 5 | **Caso os requisitos Must não sejam implementados, o projeto não será considerado concluído com sucesso?** | [Arthur Henrique](https://github.com/arthurhvieira1) | Conforme  |
+| 6 | **Os requisitos Should são importantes, mas não impedem o sucesso do projeto caso não sejam incluídos?** | [Arthur Henrique](https://github.com/arthurhvieira1) |Conforme   |
+| 7 | **Os requisitos Could foram identificados como desejáveis e viáveis apenas se houver tempo e recursos disponíveis?** | [João Felipe](https://github.com/MrBolt2005) | Conforme  |
+| 8 | **Os itens classificados como Could foram avaliados quanto à sua relação com a satisfação do cliente?** | [João Felipe](https://github.com/MrBolt2005) | Conforme  |
+| 9 | **Os requisitos Won’t foram conscientemente excluídos por não serem prioritários neste momento?** | [João Felipe](https://github.com/MrBolt2005) | Conforme  |
+| 10 | **As decisões sobre o que será Won’t foram baseadas em retorno sobre investimento ou impacto estratégico?** | [João Felipe](https://github.com/MrBolt2005) | Conforme  |
+| 11 | **Os requisitos Won’t correspondem a funcionalidades que não serão implementadas na release atual?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 12 | **A exclusão dos requisitos Won’t não compromete a entrega ou o uso do produto?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 13 | **Todos os stakeholders podem participar da classificação dos requisitos?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 14 | **A classificação foi feita com base no conhecimento real do negócio pelos interessados?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -102,14 +102,14 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | ID | Item de Verificação | Autor | Status |
 |----|---------------------|-------|---|
-| 1 | **Foi elaborado um roteiro para a entrevista?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 2 | **O roteiro descreve os assuntos a serem abordados em termos gerais?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 3 | **No roteiro foi identificada a estrutura da entrevista?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 4 | **Durante a entrevista o entrevistador evitou influenciar as respostas do entrevistado?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 5 | **Durante a entrevista o entrevistador evitou fazer perguntas muito longas?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 6 | **Durante a entrevista o entrevistador evitou utilizar termos técnicos desconhecidos pelo entrevistado?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 7 | **Durante a entrevista foram feitas anotações por parte do entrevistador?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
-| 8 | **Após a entrevista foi gerado um relatório ou ata?** | [Felipe Guimarães](https://github.com/felipegf1) |  |
+| 1 | **Foi elaborado um roteiro para a entrevista?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 2 | **O roteiro descreve os assuntos a serem abordados em termos gerais?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 3 | **No roteiro foi identificada a estrutura da entrevista?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 4 | **Durante a entrevista o entrevistador evitou influenciar as respostas do entrevistado?** | [Felipe Guimarães](https://github.com/felipegf1) |Conforme   |
+| 5 | **Durante a entrevista o entrevistador evitou fazer perguntas muito longas?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 6 | **Durante a entrevista o entrevistador evitou utilizar termos técnicos desconhecidos pelo entrevistado?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
+| 7 | **Durante a entrevista foram feitas anotações por parte do entrevistador?** | [Felipe Guimarães](https://github.com/felipegf1) |Conforme   |
+| 8 | **Após a entrevista foi gerado um relatório ou ata?** | [Felipe Guimarães](https://github.com/felipegf1) | Conforme  |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div> 
 
@@ -145,24 +145,24 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | ID | Item de Verificação | Autor | Status |
 |----|---------------------|-------|---|
-| 1  | **O perfil de usuário é uma descrição detalhada das características dos usuários?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 2  | **O perfil ajuda a entender para quem o produto está sendo construído?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 3  | **Foram identificadas as características de interesse (cargo, função, experiência, nível de instrução, atividades principais, faixa etária etc.)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 4  | **Foram coletados dados sobre o próprio usuário (demográficos, profissionais, sociais)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 5  | **Foram coletados dados sobre a relação do usuário com a tecnologia (frequência de uso, atitude, experiência)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 6  | **Foram coletados dados sobre o conhecimento do domínio relacionado ao produto?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 7  | **Foram coletados dados sobre as tarefas que o usuário deverá realizar utilizando o produto?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 8  | **O perfil foi construído com base em estudo empírico (entrevistas, questionários, observação)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 9  | **Os dados foram agrupados em faixas ou categorias (ex.: idade 18–25, experiência iniciante/avançado)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 10 | **As proporções de usuários em cada faixa ou categoria foram determinadas?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 11 | **O processo foi iterativo, permitindo refinar impressões iniciais?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 12 | **Os perfis foram organizados em grupos homogêneos (ex.: novatos vs. especialistas, tecnófilos vs. tecnófobos)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 13 | **Foram definidos grupos representativos com base em atitudes, idade, experiência e tarefas principais?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 14 | **O perfil evidencia diferenças relevantes entre usuários (ex.: diferentes estilos de aprendizagem ou usos de tecnologia)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 15 | **Há quadros, tabelas ou representações visuais para resumir os perfis de usuário?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 16 | **Foram incluídos exemplos concretos (percentual de usuários em cada perfil, características de cada grupo)?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 17 | **Foi analisado se existem usuários que não se encaixam em nenhum perfil homogêneo?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| 18 | **O perfil de usuário serve como base para a criação de personas?** | [João Sapiência](https://github.com/JoaoSapiencia) |  |
+| 1  | **O perfil de usuário é uma descrição detalhada das características dos usuários?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 2  | **O perfil ajuda a entender para quem o produto está sendo construído?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 3  | **Foram identificadas as características de interesse (cargo, função, experiência, nível de instrução, atividades principais, faixa etária etc.)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Incompleto |
+| 4  | **Foram coletados dados sobre o próprio usuário (demográficos, profissionais, sociais)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Incompleto |
+| 5  | **Foram coletados dados sobre a relação do usuário com a tecnologia (frequência de uso, atitude, experiência)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Não Conforme |
+| 6  | **Foram coletados dados sobre o conhecimento do domínio relacionado ao produto?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 7  | **Foram coletados dados sobre as tarefas que o usuário deverá realizar utilizando o produto?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 8  | **O perfil foi construído com base em estudo empírico (entrevistas, questionários, observação)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Não Conforme |
+| 9  | **Os dados foram agrupados em faixas ou categorias (ex.: idade 18–25, experiência iniciante/avançado)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 10 | **As proporções de usuários em cada faixa ou categoria foram determinadas?** | [João Sapiência](https://github.com/JoaoSapiencia) | Não Conforme |
+| 11 | **O processo foi iterativo, permitindo refinar impressões iniciais?** | [João Sapiência](https://github.com/JoaoSapiencia) | Não Conforme |
+| 12 | **Os perfis foram organizados em grupos homogêneos (ex.: novatos vs. especialistas, tecnófilos vs. tecnófobos)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Não Conforme |
+| 13 | **Foram definidos grupos representativos com base em atitudes, idade, experiência e tarefas principais?** | [João Sapiência](https://github.com/JoaoSapiencia) | Incompleto |
+| 14 | **O perfil evidencia diferenças relevantes entre usuários (ex.: diferentes estilos de aprendizagem ou usos de tecnologia)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Não Conforme |
+| 15 | **Há quadros, tabelas ou representações visuais para resumir os perfis de usuário?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 16 | **Foram incluídos exemplos concretos (percentual de usuários em cada perfil, características de cada grupo)?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 17 | **Foi analisado se existem usuários que não se encaixam em nenhum perfil homogêneo?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
+| 18 | **O perfil de usuário serve como base para a criação de personas?** | [João Sapiência](https://github.com/JoaoSapiencia) | Conforme |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -176,4 +176,4 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 12/11/2025 | Criação da página | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.0 | 12/11/2025 | Criação da página | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
