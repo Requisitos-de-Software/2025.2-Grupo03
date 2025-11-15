@@ -65,7 +65,19 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 
 ### Facilidades
 
+Encontrei algumas facilidades durante o projeto: a adaptação à sintaxe do Markdown e à escrita dos documentos, além da boa comunicação com o grupo, que ajudou na divisão das tarefas. 
+
+Também tivemos acesso a repositórios de trabalhos anteriores, que serviram como guia, e as referências bibliográficas indicadas foram úteis e ofereceram uma boa base teórica para produzir alguns artefatos.
+
+Outra facilidade foi a disponibilidade e a solicitude do professor Vandor, um dos responsáveis pelo SAE, que sempre tirou nossas dúvidas e nos auxiliou na elaboração de alguns artefatos.
+
 ### Dificuldades
+
+No entanto, também encontrei algumas dificuldades. A obrigatoriedade de realizar as elicitações e validações presencialmente tornou a logística complicada, pois foi difícil conciliar os horários de todos os membros da equipe, cada um com sua rotina e compromissos. 
+
+Além disso, tive dificuldade para equilibrar as demandas do projeto com outras disciplinas e atividades fora da faculdade, especialmente porque o curso é em período integral, as aulas acontecem em horários variados e, neste semestre, as outras matérias também estavam bastante desgastantes e cheias de atividades, o que dificultou ainda mais a organização do tempo
+
+Também enfrentei dúvidas sobre o que exatamente deveria ser desenvolvido em alguns artefatos, como no caso da entrega 6, que precisava ser feita antes da entrega 5, gerando certa confusão.
 
 ## Vilmar José
 
