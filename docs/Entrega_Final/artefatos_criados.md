@@ -15,7 +15,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e da tabela da Etapa 2 — Elicitação de Requisitos |
-| [Vilmar José](https://github.com/VilmarFagundes) |  |
+| [Vilmar José](https://github.com/VilmarFagundes) | Criação da tabela da etapa 4 - Modelagem de Requisitos Ágil |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -70,6 +70,13 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 
 | Artefato | Descrição | Autor(es) | Revisor(es) |
 |----------|-----------|-----------|--------------|
+| [Histórias de Usuário](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/0) | Descrições de alto nível de uma funcionalidade do sistema do ponto de vista do usuário final. | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | 
+| [Backlog do Produto](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/) | Artefato da metodologia ágil que basicamente forma uma lista de todas as tarefas pendentes a serem feitas no projeto. | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | 
+| [NFR Framework](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/nfr_framework/) | Forma de representar e analisar os Requisitos Não-Funcionais onde se prioriza a implementação de resoluções particulares. | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | 
+
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong>
+</div>
 
 ---
 
@@ -117,4 +124,4 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 |--------|------------|---------------------------------------------|----|---------------|
 | 1.0    | 17/11/2025 | Criação do documento de Artefatos Criados | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.1    | 18/11/2025 | Criação ds tabela da Etapa 2 — Elicitação de Requisitos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
-
+| 1.2    | 18/11/2025 | Adição da tabela da etapa 4 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
