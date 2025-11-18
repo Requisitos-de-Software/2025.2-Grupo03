@@ -26,11 +26,14 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 <details>
   <summary>Artefatos da Etapa 1</summary>
 
-  
+<br>
+
 <div align="center"><strong>Tabela 2: Artefatos da Etapa 1</strong></div>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<br>
+
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
 
 </details>
 
@@ -41,16 +44,22 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 <details>
   <summary>Artefatos da Etapa 2</summary>
 
-  
+<br>
+
 <div align="center"><strong>Tabela 3: Artefatos da Etapa 2</strong></div>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<br>
 
-<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
+
+<br>
+
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong>
+</div>
 
 </details>
-
 
 ---
 
@@ -59,11 +68,14 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 <details>
   <summary>Artefatos da Etapa 3</summary>
 
-  
+<br>
+
 <div align="center"><strong>Tabela 4: Artefatos da Etapa 3</strong></div>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<br>
+
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
 
 </details>
 
@@ -74,11 +86,14 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 <details>
   <summary>Artefatos da Etapa 4</summary>
 
-  
+<br>
+
 <div align="center"><strong>Tabela 5: Artefatos da Etapa 4</strong></div>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<br>
+
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
 
 </details>
 
@@ -89,11 +104,14 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 <details>
   <summary>Artefatos da Etapa 5</summary>
 
-  
+<br>
+
 <div align="center"><strong>Tabela 6: Artefatos da Etapa 5</strong></div>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<br>
+
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
 
 </details>
 
@@ -104,11 +122,14 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 <details>
   <summary>Artefatos da Etapa 6</summary>
 
-  
+<br>
+
 <div align="center"><strong>Tabela 7: Artefatos da Etapa 6</strong></div>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<br>
+
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
 
 </details>
 
@@ -119,30 +140,37 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 <details>
   <summary>Artefatos da Entrega Final</summary>
 
-  
-<div align="center"><strong>Tabela 3: Artefatos da Etapa 2</strong></div>
+<br>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<div align="center"><strong>Tabela 8: Artefatos da Entrega Final</strong></div>
+
+<br>
+
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
 
 </details>
 
 ---
 
-### Apresentações
+### **Apresentações**
 
 <details>
   <summary>Artefatos das Apresentações</summary>
 
-  
-<div align="center"><strong>Tabela 3: Artefatos das Apresentações</strong></div>
+<br>
 
-| Artefato               | Descrição                                                   | Autor(es)                                                    | Revisor(es)                          |
-|------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------|
+<div align="center"><strong>Tabela 9: Artefatos das Apresentações</strong></div>
+
+<br>
+
+| Artefato | Descrição | Autor(es) | Revisor(es) |
+|----------|-----------|-----------|--------------|
 
 </details>
 
 ---
+
 
 ## Conclusão
 
