@@ -9,7 +9,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento e da tabela da Etapa 6 — Pós-Rastreabilidade |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |    |
 | [Felipe Guimaraes](https://github.com/felipegf1) | |
 | [João Felipe](https://github.com/MrBolt2005) |   |
@@ -95,7 +95,9 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 
 | Artefato | Descrição | Autor(es) | Revisor(es) |
 |----------|-----------|-----------|--------------|
-
+|[Matriz de Rastreabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Pos-modelagem/matriz_de_rastreabilidade/)|A Matriz Geral de Rastreabilidade é um documento que organiza os requisitos do projeto juntamente com suas origens e consequências, permitindo visualizar suas interdependências e conexões com os artefatos desenvolvidos.|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|
+|[Backward-From](https://requisitos-de-software.github.io/2025.2-Grupo03/Pos-modelagem/backward/#introducao)|A rastreabilidade Backward-From é uma abordagem que visa identificar a origem de cada requisito em um projeto, conectando-os às suas fontes de elicitação. Essa abordagem assegura que todos os requisitos tenham uma justificativa clara.|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|
+|[Forward-From](https://requisitos-de-software.github.io/2025.2-Grupo03/Pos-modelagem/forward/)|A rastreabilidade Forward-From é uma abordagem que permite acompanhar o destino de cada requisito, evidenciando sua transformação em artefatos como design e documentação. Essa técnica assegura que os requisitos sejam implementados e validados corretamente, facilitando o controle do progresso e a verificação do atendimento às necessidades do projeto.|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|
 ---
 
 ### **Artefatos da Entrega Final**
@@ -125,3 +127,4 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 | 1.0    | 17/11/2025 | Criação do documento de Artefatos Criados | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.1    | 18/11/2025 | Criação ds tabela da Etapa 2 — Elicitação de Requisitos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.2    | 18/11/2025 | Adição da tabela da etapa 4 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| 1.3    | 19/11/2025 | Adição da tabela da etapa 6 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes) |
