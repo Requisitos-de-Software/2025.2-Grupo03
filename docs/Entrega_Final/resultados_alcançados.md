@@ -48,7 +48,7 @@ A equipe realizou inspeções ao longo das entregas, incluindo:
 ### Protótipos
 Foram desenvolvidos [protótipos](https://requisitos-de-software.github.io/2025.2-Grupo03/Validacao/prototipos/#integrantes-do-grupo) voltados para uma possível **implementação mobile** de **requisitos não implementados** e validados com usuários reais, gerando feedback sobre usabilidade e melhorias possíveis.
 
-### Comprovação Informal
+#### Comprovação Informal
 A [comprovação informal](https://requisitos-de-software.github.io/2025.2-Grupo03/Validacao/contato/) foi realizada por meio da apresentação dos protótipos para um dos desenvolvedores do SAE, permitindo identificar percepções iniciais sobre a solução proposta e obter observações que contribuíram para ajustes e melhorias futuras.
 
 
