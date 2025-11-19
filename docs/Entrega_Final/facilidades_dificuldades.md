@@ -18,7 +18,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) |  |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
 | [Felipe Guimaraes](https://github.com/felipegf1) |  |
 | [João Felipe](https://github.com/MrBolt2005) | |
@@ -34,9 +34,13 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 ## Arthur Guilherme
 
 ### Facilidades
+Durante o projeto encontrei as seguintes facilidades: Os documentos fornecidos pelo professor proveram uma facilidade na hora de compreender o conteúdo e também foram capazes de prover uma boa base teorica para a prática no projeto.
 
+Além de que o grupo ter uma boa comunicação e a ferramenta para a criação de projeto, markdown, também ter sido facil de utilizar para a documentação.
 ### Dificuldades
+Durante o projeto também enfrentei dificuldade, como o fato de não ter sido muito claro quais artefatos deveriam ser feito e entregues na entrega 5, pois alguns artefatos pareciam fazer parte da entrega 6.
 
+Além disso, o fato de que a validação e elicitação serem obrigatoriamente presente promoveu certos dificuldades na hora de conciliar o grupo para realização das tarefas.
 ## Arthur Henrique
 
 ### Facilidades
