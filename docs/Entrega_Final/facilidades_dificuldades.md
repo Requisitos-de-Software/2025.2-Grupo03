@@ -27,7 +27,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 | [Vilmar José](https://github.com/VilmarFagundes) |  |
 
 
-<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
 ---
 
