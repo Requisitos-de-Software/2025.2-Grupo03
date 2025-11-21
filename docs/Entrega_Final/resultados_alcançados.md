@@ -5,6 +5,20 @@ O projeto teve como foco o sistema **SAE (Sistema de Apoio Educacional)**, busca
 
 A disciplina de Requisitos de Software permitiu compreender melhor essas necessidades, documentar requisitos de forma clara, manter boa rastreabilidade e gerenciar mudanças de maneira organizada
 
+## Integrantes do Grupo
+
+A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de documentação das Ferramentas Utilizadas, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
+
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+| Integrante         | Produção                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Criação do documento       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
 ## Resultados Alcançados
 
 ### Planejamento Inicial
