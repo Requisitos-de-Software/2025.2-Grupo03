@@ -35,6 +35,7 @@ Durante o desenvolvimento, cada integrante ficou responsável por prototipar e v
 A metodologia de validação, seleção dos participantes e resultados detalhados estão descritos em [Metodologia do Protótipo](https://requisitos-de-software.github.io/2025.2-Grupo03/Validacao/prototipos/#metodologia).
 
 ## Comprovação Informal
+A [comprovação informal](https://requisitos-de-software.github.io/2025.2-Grupo03/Validacao/contato/) foi realizada por meio da apresentação dos protótipos para um dos desenvolvedores do SAE, permitindo identificar percepções iniciais sobre a solução proposta e obter observações que contribuíram para ajustes e melhorias futuras.
 
 ## Resultados
 
