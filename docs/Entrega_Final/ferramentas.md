@@ -11,7 +11,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 
 | Integrante         | Produção                                                                 |
 |--------------------|--------------------------------------------------------------------------|
-|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Criação do documento       |
+|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Criação do documento de Ferramentas Utilizadas       |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
