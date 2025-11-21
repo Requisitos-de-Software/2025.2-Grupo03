@@ -3,9 +3,23 @@
 ## Introdução 
 Nesta página estão registradas todas as ferramentas usadas pela equipe durante o desenvolvimento do projeto. A escolha dessas ferramentas é importante para manter a produtividade, facilitar o trabalho em grupo e garantir a qualidade do que foi produzido. Cada ferramenta foi selecionada levando em conta sua utilidade em cada etapa do projeto e também o nível de familiaridade dos integrantes com ela.
 
+## Integrantes do Grupo
+
+A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de documentação das Ferramentas Utilizadas, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
+
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+| Integrante         | Produção                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Criação do documento       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
 ## Ferramentas Utilizadas
 
-<div align="center"><strong>Tabela 1: Ferramentas Utilizadas</strong></div>
+<div align="center"><strong>Tabela 2: Ferramentas Utilizadas</strong></div>
 
 |  | Ferramenta | Finalidade |
 |--|------------|------------|
