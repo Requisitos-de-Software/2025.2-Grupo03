@@ -7,7 +7,7 @@ A disciplina de Requisitos de Software permitiu compreender melhor essas necessi
 
 ## Integrantes do Grupo
 
-A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de documentação das Ferramentas Utilizadas, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
+A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de documentação dos Resultados Alcançados, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
 
 <div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
 
