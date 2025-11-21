@@ -8,6 +8,21 @@ Após essa avaliação preliminar, o **SAE (Sistema de Apoio Educacional)** foi 
 
 Os critérios que fundamentaram a escolha do SAE serão detalhados no próximo tópico.
 
+## Integrantes do Grupo
+
+A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de documentação do Aplicativo Escolhido, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
+
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+| Integrante         | Produção                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| [João Sapiência](https://github.com/JoaoSapiencia)   | Auxílio na criação do documento              |
+|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Auxílio na criação do documento       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
 
 ## Critério de Escolha
 
