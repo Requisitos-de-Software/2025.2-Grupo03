@@ -7,6 +7,21 @@ O processo incluiu a criação de protótipos voltados para uma possível **impl
 
 O objetivo foi garantir que os requisitos levantados realmente atendem às necessidades dos usuários e das pessoas envolvidas no projeto.
 
+## Integrantes do Grupo
+
+A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de documentação da Validação, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
+
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+| Integrante         | Produção                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Criação do documento de Ferramentas Utilizadas       |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+---
+
+
 ## Prototipação
 
 A prototipação foi desenvolvida de forma colaborativa por todos os membros do grupo, utilizando o **Figma** para simular a interface do SAE. 
@@ -15,7 +30,7 @@ Os protótipos completos podem ser acessados no Figma: o protótipo sob a perspe
 
 Durante o desenvolvimento, cada integrante ficou responsável por prototipar e validar requisitos específicos, conforme detalhado na tabela de protótipos. As validações foram realizadas com usuários reais, cujos registros e vídeos estão documentados no artefato.
 
-<div align="center"><strong>Tabela 1: Protótipos e Validações com Usuários Reais
+<div align="center"><strong>Tabela 2: Protótipos e Validações com Usuários Reais
 
 </strong></div>
 
