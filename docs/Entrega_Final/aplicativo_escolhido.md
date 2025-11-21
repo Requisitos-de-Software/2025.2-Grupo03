@@ -16,8 +16,8 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de
 
 | Integrante         | Produção                                                                 |
 |--------------------|--------------------------------------------------------------------------|
-| [João Sapiência](https://github.com/JoaoSapiencia)   | Auxílio na criação do documento              |
-|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Auxílio na criação do documento       |
+| [João Sapiência](https://github.com/JoaoSapiencia)   | Auxílio na criação do documento do Aplicativo Escolhido             |
+|[Tiago Lemes](https://github.com/TiagoTeixeira-2005)   | Auxílio na criação do documento do Aplicativo Escolhido        |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
