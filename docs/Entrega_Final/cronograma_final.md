@@ -349,4 +349,6 @@ Cronograma Realizado - Lichess. Disponível em: [https://requisitos-de-software.
 
 ## Históricos de versão
 
+| Versão | Data       | Descrição  | Autor(es)        | Revisor    |
+|--------|------------|---------------------------------------------|----|---------------|
 | 1.0    | 23/11/2025 | Criação do documento | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
