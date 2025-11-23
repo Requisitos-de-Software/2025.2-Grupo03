@@ -188,7 +188,7 @@ O cronograma planejado foi baseado nas datas oficiais do [plano de ensino](https
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Início** | **Prazo** | **Período de revisão** |
 |----------|-------------|-----------|----------|---------|----------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | | 14/11 | 15/11 | 15/11 |
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Felipe Guimarães | 14/11 | 15/11 | 15/11 |
 | Desenvolvimento do projeto final (correção e complemento) | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 16/11 | 22/11 | 22/11 - 23/11 |
 | Criação da lista de verificação | Tiago Lemes | Arthur Guilherme | 16/11 | 22/11 | 22/11 - 23/11 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 24/11 | 24/11 | 24/11 | 
