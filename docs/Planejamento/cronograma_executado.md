@@ -15,7 +15,7 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 | [Etapa 4](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-de-entrega-4-modelagem-de-requisitos-agil)| Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) | 21/10 |
 | [Etapa 6](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-da-entrega-6-pos-rastreabilidade-gerencia-ii) | Pós-Rastreabilidade - Gerência II | 28/10 |
 | [Etapa 5](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-da-entrega-5-verificacao-e-validacao) | Análise de Requisitos: Verificação e Validação | 12/11 |
-| Projeto Final | Desenvolvimento e Finalização do Projeto | 24/11 |
+| [Projeto Final](https://requisitos-de-software.github.io/2025.2-Grupo03/Planejamento/cronograma_executado/#cronograma-da-entrega-final-desenvolvimento-e-finalizacao-do-projeto) | Desenvolvimento e Finalização do Projeto | 24/11 |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
@@ -45,6 +45,8 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 - Retirada do item criação de personas
 - Alteração da elicitação introspecção para Análise de Documentos
+
+<div align="center"><strong>Tabela 5: Entrega 2</strong></div>
 
 | **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
 |------------|---------------|-----------------|-------------------------------|-------------------------------|
