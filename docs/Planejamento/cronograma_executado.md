@@ -146,6 +146,21 @@ Este documento apresenta o cronograma executado na disciplina de Requisitos de S
 
 <div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
 
+## Cronograma da Entrega Final - Desenvolvimento e Finalização do Projeto 
+
+<div align="center"><strong>Tabela 10: Entrega Final</strong></div>
+
+| **Título** | **Autor(es)** | **Revisor(es)** | **Data de Entrega Planejada** | **Data de Entrega Executada** |
+|----------|-------------|-----------|----------|---------|----------------------|
+| Correções no projeto conforme apontado na apresentação anterior | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 14/11 - 15/11 | 15/11 |
+| Desenvolvimento do projeto final (correção e complemento) | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 16/11 - 22/11 | 23/11 |
+| Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | João Felipe | 24/11 | 24/11 | 24/11 |  
+| Envio da entrega | Vilmar José | João Sapiencia | 24/11 | 24/11 | 24/11 |
+| Check List de entrega | João Sapiencia | Vilmar José | 24/11 | 24/11 | 24/11 |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José Fagundes</a></strong></div>
+
+
 ## Bibliografias 
 
 SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software – 2025/2. Universidade de Brasília – FGA, 2025. Disponível em: [https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf](https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf). Acesso em 08 set. 2025 
