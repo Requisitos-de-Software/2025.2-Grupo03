@@ -346,3 +346,7 @@ Cronograma - Bilheteria Digital. Disponível em: [https://requisitos-de-software
 Cronograma - Tik Tok. Disponível em: [https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/](https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/). Acesso em: 08 set. 2025. 
 
 Cronograma Realizado - Lichess. Disponível em: [https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7](https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7). Acesso em: 08 set. 2025.
+
+## Históricos de versão
+
+| 1.0    | 23/11/2025 | Criação do documento | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
