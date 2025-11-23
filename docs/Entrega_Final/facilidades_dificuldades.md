@@ -24,7 +24,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 | [João Felipe](https://github.com/MrBolt2005) | |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Facilidades e Dificuldades, além da adição dos relatos de dificuldades e facilidades em relação à disciplina. |
-| [Vilmar José](https://github.com/VilmarFagundes) |  |
+| [Vilmar José](https://github.com/VilmarFagundes) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
@@ -87,7 +87,19 @@ Também enfrentei dúvidas sobre o que exatamente deveria ser desenvolvido em al
 
 ### Facilidades
 
+As facilidades foram se adaptadar à sintaxe do Markdown durante as escritas dos documentos. 
+
+Também o acesso a repositórios de trabalhos anteriores, que serviram como guia, e as referências bibliográficas usadas e indicadas pelo próprio professor foram úteis e ofereceram uma boa base teórica para desenvolver o projeto.
+
+Outra facílidade foi a disponibilidade do professor Vandor, um dos responsáveis do SAE, e da facilidade de procurar pessoas para poder realizar validações e artefatos presenciais, que necessitam da participação de uma pessoa externa ao projeto. 
+
 ### Dificuldades
+
+As principais dificuldades para mim foram de ajustar a comunicação do grupo no início, conseguir um horário que todos estariam presentes e a velocidade para executar alguma gravação ou desenvolvimento do projeto. 
+
+As validações e elicitações serem obrigatoriamente presenciais trouxeram uma grande dificuldade para a logistica do grupo, tendo em vista a dificuldade de conseguir horário com os participantes, devido a rotina de cada um, e com a pessoa que contribuiria com o projeto. 
+
+Além disso, tive dúvidas sobre o que exatamente deveria ser desenvolvido em alguns artefatos, como no caso da entrega 6, que precisava ser feita antes da entrega 5, gerando certa confusão.
 
 ## Agradecimentos
 O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — **ChatGPT, GitHub Copilot, Google Gemini e DeepSeek** — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.
