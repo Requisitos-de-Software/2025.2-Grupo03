@@ -2,6 +2,10 @@
 
 ## Introdução
 
+Este documento apresenta tabelas que organizam todos os artefatos criados em cada etapa do projeto, junto com seus autores e revisores. O objetivo é manter a documentação clara e bem estruturada, oferecendo uma visão geral do que foi feito em cada fase. 
+
+Além disso, as tabelas funcionam como um guia de referência para a equipe, ajudando na comunicação e na identificação de possíveis lacunas ou tarefas duplicadas.
+
 ## Integrantes do Grupo
 A Tabela 1 apresenta todos os integrantes da equipe que participaram da criação do documento de Artefatos Criados, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.
 
@@ -9,13 +13,13 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento e da tabela da Etapa 6 — Pós-Rastreabilidade |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento e da tabela da [Etapa 6 — Pós-Rastreabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-6-pos-rastreabilidade) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |    |
 | [Felipe Guimaraes](https://github.com/felipegf1) | |
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e da tabela da Etapa 2 — Elicitação de Requisitos |
-| [Vilmar José](https://github.com/VilmarFagundes) | Criação da tabela da etapa 4 - Modelagem de Requisitos Ágil |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e da tabela da [Etapa 2 — Elicitação de Requisitos](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-2-elicitacao-de-requisitos) |
+| [Vilmar José](https://github.com/VilmarFagundes) | Criação da tabela da [Etapa 4 - Modelagem de Requisitos Ágil](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-4-modelagem-de-requisitos-agil)|
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -98,6 +102,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 |[Matriz de Rastreabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Pos-modelagem/matriz_de_rastreabilidade/)|A Matriz Geral de Rastreabilidade é um documento que organiza os requisitos do projeto juntamente com suas origens e consequências, permitindo visualizar suas interdependências e conexões com os artefatos desenvolvidos.|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|
 |[Backward-From](https://requisitos-de-software.github.io/2025.2-Grupo03/Pos-modelagem/backward/#introducao)|A rastreabilidade Backward-From é uma abordagem que visa identificar a origem de cada requisito em um projeto, conectando-os às suas fontes de elicitação. Essa abordagem assegura que todos os requisitos tenham uma justificativa clara.|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|
 |[Forward-From](https://requisitos-de-software.github.io/2025.2-Grupo03/Pos-modelagem/forward/)|A rastreabilidade Forward-From é uma abordagem que permite acompanhar o destino de cada requisito, evidenciando sua transformação em artefatos como design e documentação. Essa técnica assegura que os requisitos sejam implementados e validados corretamente, facilitando o controle do progresso e a verificação do atendimento às necessidades do projeto.|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Arthur Henrique](https://github.com/arthurhvieira1), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [João Sapiência](https://github.com/JoaoSapiencia), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|[Arthur Guilherme](https://github.com/ArthurGuilher62), [Felipe Guimaraes](https://github.com/felipegf1), [João Felipe](https://github.com/MrBolt2005), [Tiago Lemes](https://github.com/TiagoTeixeira-2005) e [Vilmar José](https://github.com/VilmarFagundes)|
+
 ---
 
 ### **Artefatos da Entrega Final**
@@ -119,6 +124,10 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 ---
 
 ## Conclusão
+
+Durante o projeto, vários artefatos foram criados, mostrando como o grupo evoluiu e aprendeu os conteúdos da disciplina. A equipe demonstrou bom domínio do assunto e produziu materiais importantes, que serviram como referência e foram aprimorados ao longo do desenvolvimento da documentação.
+
+Além disso, a tabela que apresenta a quantidade de artefatos criados por cada integrante em cada etapa, assim como a quantidade de documentos revisados, pode ser consultada no documento de [Participações](../arquivos/participacoes.pdf).
 
 ## Históricos de versão
 
