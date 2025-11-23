@@ -109,3 +109,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Versão | Data       | Descrição  | Autor(es)        | Revisor    |
 |--------|------------|---------------------------------------------|----|---------------|
 | 1.0    | 23/10/2025 | Criação do documento de Facilidades e Dificuldades | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.1    | 23/11/2025 | Adição de Facilidades e Dificuldades | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
