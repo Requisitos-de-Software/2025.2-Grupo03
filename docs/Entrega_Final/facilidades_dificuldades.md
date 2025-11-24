@@ -96,7 +96,7 @@ delas, pois, além de uma entrega no total mais certa do que errada (poder) ser
 (muito bem) totalmente anulada pelo menor erro, para mim o mais grave
 ainda é o aluno (como eu mesmo) poder estar cometendo erros sistêmicos ao longo
 de ditos exercícios e jamais poder identificá-los com certeza (a longo prazo)
-ao longo da realização de qualquer um eles. Quanto a este 2º aspecto,
+ao longo da realização de qualquer um deles. Quanto a este 2º aspecto,
 inclusive, mesmo com a facilidade pré-mencionada sobre o *feedback* em grupo
 possível, ela não pode determinar se algum erro eventualmente encontrado ou não
 nesse processo com certeza corresponderá ao que o professor encontraria.
