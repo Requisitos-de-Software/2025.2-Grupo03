@@ -20,7 +20,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Adição dos relatos de dificuldades e facilidades em relação à disciplina.  |
-| [Felipe Guimaraes](https://github.com/felipegf1) |  |
+| [Felipe Guimaraes](https://github.com/felipegf1) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [João Felipe](https://github.com/MrBolt2005) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Facilidades e Dificuldades, além da adição dos relatos de dificuldades e facilidades em relação à disciplina. |
@@ -60,7 +60,15 @@ Também houve dificuldade em equilibrar as demandas do projeto com as atividades
 
 ### Facilidades
 
+Durante o projeto tive facilidade em relação a documentação por ter familiaridade com a linguagem markdown por conta de disciplinas anteriores
+
+Tambem senti facilidade com a comunição com o grupo e tambem da forma como todos lidaram com o projeto fazendo ele fluir tranquilamente
+
 ### Dificuldades
+
+Como principal dificuldade eu diria que foi o fato de todas as validações serem presenciais atrapalhando um pouco a logistica
+
+Alem disso senti dificuldade em conciliar a disciplina com as outras para conseguir lidar com a quantidade de entregas durante a disciplina
 
 ## João Felipe
 
@@ -193,3 +201,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.1    | 23/11/2025 | Adição de Facilidades e Dificuldades | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.2    | 24/11/2025 | Adição de Facilidades e Dificuldades | [João Felipe](https://github.com/MrBolt2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.3    | 24/11/2025 | Adição de Facilidades e Dificuldades | [Arthur Henrique](https://github.com/arthurhveira1) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.4    | 24/11/2025 | Adição de Facilidades e Dificuldades | [Felipe Guimaraes](https://github.com/felipegf1) | [Vilmar José](https://github.com/VilmarFagundes) |
