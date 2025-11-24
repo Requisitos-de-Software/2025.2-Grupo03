@@ -188,8 +188,15 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 
 | Artefato | Descrição | Autor(es) | Revisor(es) |
 |----------|-----------|-----------|--------------|
+| | Protótipos | |
+| [PT18](#PT18), [PT19](#PT19) e [PT20](#PT20) | Os protótipos PT18, PT19 e PT20 ilustram funcionalidades para análise cognitiva, acompanhamento do conhecimento dos alunos e monitoramento do comportamento, facilitando a personalização do ensino e a gestão pedagógica no SAE. | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| [PT08](#PT08), [PT11](#PT11) e [PT13](#PT13) | Os protótipos PT08, PT11 e PT13 abordam funcionalidades de notificação e transparência no SAE. O PT08 permite que o sistema envie lembretes para atividades futuras, o PT11 foca em avisos sobre prazos de entrega, e o PT13 garante que o aluno visualize a origem das questões, promovendo maior clareza e organização no acompanhamento das tarefas. | [Arthur Henrique](https://github.com/arthurhvieira1) | [Felipe Guimaraes](https://github.com/felipegf1)  |
+| [PT01](#PT01), [PT02](#PT02) e [PT03](#PT03) | Os protótipos PT01, PT02 e PT03 apresentam telas que mostram ao aluno o progresso da disciplina, a porcentagem de acertos e de erros nas atividades, facilitando o acompanhamento do desempenho de forma clara e visual. | [Felipe Guimaraes](https://github.com/felipegf1) | [Vilmar José](https://github.com/VilmarFagundes) |
+| [PT06](#PT06), [PT12](#PT12) e [PT17](#PT17) | Os protótipos PT06, PT12 e PT17 permitem ao aluno marcar tópicos de facilidade, visualizar o cálculo do seu desempenho e ao professor identificar alunos com dificuldade em conteúdos, tornando o acompanhamento acadêmico mais personalizado e eficiente. | [João Felipe](https://github.com/MrBolt2005) | [Arthur Henrique](https://github.com/arthurhvieira1) |
+| [PT14](#PT14) e [PT15](#PT15) | Os protótipos PT14 e PT15 facilitam o acesso e a organização dos materiais da disciplina, permitindo ao usuário visualizar sistemas relacionados e navegar por listas de tópicos e conteúdos de forma simples e intuitiva. | [João Sapiência](https://github.com/JoaoSapiencia) | [João Felipe](https://github.com/MrBolt2005) |
+| [PT07](#PT07), [PT09](#PT09) e [PT10](#PT10) | Os protótipos PT07, PT09 e PT10 tratam de notificações no SAE: lembram o aluno de revisar conteúdos, permitem escolher o modo de recebimento das notificações e avisam sobre a proximidade do prazo de entrega das atividades, ajudando na organização dos estudos. | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [João Sapiência](https://github.com/JoaoSapiencia)  |
+| [PT04](#PT04) e [PT05](#PT05) | Os protótipos PT04 e PT05 permitem ao professor acompanhar a média da turma em cada atividade e ao aluno configurar o período de recebimento de alertas sobre tarefas atrasadas, contribuindo para o controle do desempenho e a organização dos estudos. | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 
----
 
 ### **Etapa 6 — Pós-Rastreabilidade**
 
