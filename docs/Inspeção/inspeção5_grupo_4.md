@@ -93,4 +93,4 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | ---- | ----- | ----- | ---- | ----- | 
-| 1.0 | 12/11/2025 | Criação da página | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.0 | 24/11/2025 | Criação da página | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
