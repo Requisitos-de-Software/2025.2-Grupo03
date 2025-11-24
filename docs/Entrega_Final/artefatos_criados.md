@@ -210,6 +210,15 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 
 | Artefato | Descrição | Autor(es) | Revisor(es) |
 |----------|-----------|-----------|--------------|
+| [Apresentação 1](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao1/) | Apresentação da Entrega 1.	 | [João Sapiência](https://github.com/JoaoSapiencia) | [Vilmar José](https://github.com/VilmarFagundes) |
+| [Apresentação 2](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao2/) | Apresentação da Entrega 2.	 | [Felipe Guimaraes](https://github.com/felipegf1) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| [Apresentação 3](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao3/) | Apresentação da Entrega 3.	 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| [Apresentação 4](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao4/) | Apresentação da Entrega 4.	 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| [Apresentação 5](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao5/) | Apresentação da Entrega 5.	 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62)|
+| [Apresentação 6](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao6/) | Apresentação da Entrega 6.	 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong>
+</div>
 
 ---
 
