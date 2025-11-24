@@ -62,7 +62,7 @@ disciplina, além da (própria) realização das listas de verificação
 correspondentes ao longo do projeto, se provaram úteis para a implantação dos
 seus conceitos no projeto quando necessário. Também foram exemplos/referências
 úteis para o grupo no geral a eventual consulta dos repositórios dos trabalhos
-dos semestres anteriores da disciplina, e, inclundo o (próprio) grupo mais no
+dos semestres anteriores da disciplina, e, incluindo o (próprio) grupo mais no
 geral, a disponibilidade do professor Vandor Rissoli, um dos responsáveis do
 SAE – (o) que nós temos avaliado neste trabalho –, e aa facilidade de (se)
 encontrar (as) pessoas externas ao projeto necessárias para poder realizar
