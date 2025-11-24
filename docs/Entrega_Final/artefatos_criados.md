@@ -18,7 +18,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 | [Felipe Guimaraes](https://github.com/felipegf1) |Criação da tabela da [Etapa 3 - Modelagem de Requisitos](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-3-modelagem-de-requisitos) |
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
-| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e da tabela da [Etapa 2 — Elicitação de Requisitos](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-2-elicitacao-de-requisitos) |
+| [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e da tabela da [Etapa 2 — Elicitação de Requisitos](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-2-elicitacao-de-requisitos) e das [Apresentações](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#apresentacoes) |
 | [Vilmar José](https://github.com/VilmarFagundes) | Criação da tabela da [Etapa 4 - Modelagem de Requisitos Ágil](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-4-modelagem-de-requisitos-agil)|
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
