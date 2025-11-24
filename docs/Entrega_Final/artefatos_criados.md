@@ -245,4 +245,4 @@ Além disso, a tabela que apresenta a quantidade de artefatos criados por cada i
 | 1.2    | 18/11/2025 | Adição da tabela da etapa 4 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.3    | 19/11/2025 | Adição da tabela da etapa 6 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.4    | 24/11/2025 | Adição da tabela da etapa 1 | [Arthur Henrique](https://github.com/arthurhvieira1) | [Vilmar José](https://github.com/VilmarFagundes) |
-| 1.5    | 24/11/2025 | Adição da tabela da etapa 3 | [Arthur Henrique](https://github.com/arthurhvieira1) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.5    | 24/11/2025 | Adição da tabela da etapa 3 | [Felipe Guimaraes](https://github.com/felipegf1) | [Vilmar José](https://github.com/VilmarFagundes) |
