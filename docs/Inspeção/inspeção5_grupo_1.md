@@ -6,7 +6,7 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 ### Rich Picture
 
-<div align="center"><strong>Tabela 1: Lista de Verificação da Rich Picture - Grupo 07</strong></div>
+<div align="center"><strong>Tabela 1: Lista de Verificação da Rich Picture - Grupo 03</strong></div>
 
 | ID | Item de Verificação | Autor | Status |
 | ---- | ----- | ----- | --- |
