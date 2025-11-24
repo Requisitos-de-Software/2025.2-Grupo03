@@ -18,10 +18,10 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
-| [Arthur Guilherme](https://github.com/ArthurGuilher62) | adição dos relatos de dificuldades e facilidades em relação à disciplina. |
+| [Arthur Guilherme](https://github.com/ArthurGuilher62) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [Arthur Henrique](https://github.com/arthurhvieira1) |  |
 | [Felipe Guimaraes](https://github.com/felipegf1) |  |
-| [João Felipe](https://github.com/MrBolt2005) | |
+| [João Felipe](https://github.com/MrBolt2005) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Facilidades e Dificuldades, além da adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [Vilmar José](https://github.com/VilmarFagundes) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
@@ -57,7 +57,78 @@ Além disso, o fato de que a validação e elicitação serem obrigatoriamente p
 
 ### Facilidades
 
+Os documentos/materiais, bibliografias e exemplos fornecidos no material da
+disciplina, além da (própria) realização das listas de verificação
+correspondentes ao longo do projeto, se provaram úteis para a implantação dos
+seus conceitos no projeto quando necessário. Também foram exemplos/referências
+úteis para o grupo no geral a eventual consulta dos repositórios dos trabalhos
+dos semestres anteriores da disciplina, e, inclundo o (próprio) grupo mais no
+geral, a disponibilidade do professor Vandor Rissoli, um dos responsáveis do
+SAE – (o) que nós temos avaliado neste trabalho –, e aa facilidade de (se)
+encontrar (as) pessoas externas ao projeto necessárias para poder realizar
+validações e artefatos presenciais.
+
+A comunicação em grupo foi bem decente ao longo do projeto no geral,
+permitindo a coordenação necessária para entregas trabalhosas e/ou volumosas
+em geral, além de soluções de problemas, dúvidas, conflitos de agenda,
+atrasos, controle de pendências individuais – este, importante não só para a
+conclusão geral de uma entrega para o grupo, mas também porque as próprias
+atividades em grupo também são avaliadas por aluno individual, em vez de
+se aplicar necessariamente a mesma avaliação para o grupo como um só –, etc.
+
+Algumas funções ajudaram a reduzir razoavelmente a dificuldade de se adaptar
+à edição dos documentos em Markdown (na forma "bruta", em código de *markup*),
+apesar da sua novidade para grande parte de nós alunos: a exemplo do uso de
+editores convenientes como o Visual Studio Code, que até mesmo fornece a opção
+de visualizar em tempo real a renderização das edições em um arquivo, inclusive
+simultaneamente a elas ao se usar a divisão do espaço de trabalho do editor
+para cada aba respectiva; além da assistência por IA generativa (como o GitHub
+Copilot) no próprio editor para formatações envolvendo mais trabalho, como
+tabelas, por exemplo e em particular, que foram, de fato, um utensílio bastante empregado ao longo de todos os documentos daqui.
+
 ### Dificuldades
+
+Percebo que o fato da correção das atividades individuais ser binária – ou
+se acerta uma toda, ou erra-se-a toda –, além das suas notas só serem
+disponibilizadas ao final do semestre – inclusive, muito tempo também depois da
+última entrega delas ser concluída –, prejudica muito o meu desempenho ao longo
+delas, pois, além de uma entrega no total mais certa do que errada (poder) ser
+(muito bem) totalmente anulada pelo menor de algum erro, para mim o mais grave
+ainda é o aluno (como eu mesmo) poder estar cometendo erros sistêmicos ao longo
+de ditos exercícios e jamais poder identificá-los com certeza (ao longo prazo)
+ao longo da realização de qualquer um eles. Quanto a este 2º aspecto,
+inclusive, mesmo com a facilidade pré-mencionada sobre o *feedback* em grupo
+possível, ela não pode determinar se algum erro eventualmente encontrado ou não
+nesse processo com certeza corresponderá ao que o professor encontraria.
+
+Inevitavelmente, tem havido diversas discrepâncias de datas e horários de
+encontro e trabalho entre os diversos integrantes do grupo, eventualmente
+prejudicando algumas entregas das atividades em grupo para nós. Embora o uso
+do *heatmap* venha a ajudar a mitigar isso, ele só o consegue de uma forma
+"parcial" – a que seria, na média dos integrantes, a mais ótima para todos, no
+geral –, fatalmente tendo que potencialmente ignorar as limitações de horários
+de uns ou de outros, além da estratégia ser, por ser realizada uma única vez no
+começo da disciplina, vulnerável a eventuais mudanças de disponibilidade(s) que
+eles venham a ter ao longo do semestre.
+
+Ainda sobre o tópico do tempo, também acabei tendo certos conflitos de
+disponibilidade para me dedicar a certas etapas do projeto causados pela minha
+própria agenda de aulas na UnB e, até mesmo, compromissos fora dela. Fazendo
+um paralelo com o último parágrafo, eu tenho regularmente um compromisso
+presencial (e) em grupo toda terça-feira de noite, e particularmente sobre as
+gravações e inspeções, cheguei a ter conflitos com ditos eventos mesmo
+comunicando isso aos demais integrantes, havendo dilemas, às vezes, de todos
+os membros terem que esperar o meu encontro terminar e/ou eu ter que faltá-lo
+em noites em que agendamos nossas ditas gravações e inspeções.
+
+Embora no geral o Markdown seja considerado um bom formato para formatação de
+documentos, a falta de um editor verdadeiramente visual – ao estilo (do)
+Microsoft Word ou Google Docs, por exemplo – para esse tipo e,
+consequentemente, a necessidade de escrever os documentos em *markup* bruto,
+inclusive tendo que (se) memorizar ou relembrar os modificadores necessários.
+Mesmo com os facilitadores relevantes previamente mencionados, ainda resultou
+em alguma(s) dificuldade(s), leves ou não, em elaborar alguns mais complexos,
+como aqueles envolvendo tabelas.
 
 ## João Sapiência
 
@@ -110,3 +181,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |--------|------------|---------------------------------------------|----|---------------|
 | 1.0    | 23/10/2025 | Criação do documento de Facilidades e Dificuldades | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.1    | 23/11/2025 | Adição de Facilidades e Dificuldades | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.2    | 24/11/2025 | Adição de Facilidades e Dificuldades | [João Felipe](https://github.com/MrBolt2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
