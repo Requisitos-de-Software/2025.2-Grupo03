@@ -227,3 +227,4 @@ Além disso, a tabela que apresenta a quantidade de artefatos criados por cada i
 | 1.1    | 18/11/2025 | Criação ds tabela da Etapa 2 — Elicitação de Requisitos | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.2    | 18/11/2025 | Adição da tabela da etapa 4 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | 1.3    | 19/11/2025 | Adição da tabela da etapa 6 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | [Vilmar José](https://github.com/VilmarFagundes) |
+| 1.3    | 19/11/2025 | Adição da tabela da etapa 1 | [Arthur Henrique](https://github.com/arthurhvieira1) | [Vilmar José](https://github.com/VilmarFagundes) |
