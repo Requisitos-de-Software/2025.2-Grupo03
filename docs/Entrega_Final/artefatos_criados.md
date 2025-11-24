@@ -16,8 +16,8 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento e da tabela da [Etapa 6 — Pós-Rastreabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-6-pos-rastreabilidade) |
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Criação da tabela da [Etapa 1 - Planejamento](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-1-planejamento)|  
 | [Felipe Guimaraes](https://github.com/felipegf1) |Criação da tabela da [Etapa 3 - Modelagem de Requisitos](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-3-modelagem-de-requisitos) |
-| [João Felipe](https://github.com/MrBolt2005) |   |
-| [João Sapiência](https://github.com/JoaoSapiencia) |  |
+| [João Felipe](https://github.com/MrBolt2005) | Criação da tabela da [Artefatos da Entrega Final](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#artefatos-da-entrega-final)  |
+| [João Sapiência](https://github.com/JoaoSapiencia) | Criação da tabela da [Etapa 5 — Análise de Requisitos: Verificação e Validação](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-5-analise-de-requisitos-verificacao-e-validacao) |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento e da tabela da [Etapa 2 — Elicitação de Requisitos](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-2-elicitacao-de-requisitos) e das [Apresentações](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#apresentacoes) |
 | [Vilmar José](https://github.com/VilmarFagundes) | Criação da tabela da [Etapa 4 - Modelagem de Requisitos Ágil](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-4-modelagem-de-requisitos-agil)|
 
@@ -197,6 +197,10 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 | [PT07](#PT07), [PT09](#PT09) e [PT10](#PT10) | Os protótipos PT07, PT09 e PT10 tratam de notificações no SAE: lembram o aluno de revisar conteúdos, permitem escolher o modo de recebimento das notificações e avisam sobre a proximidade do prazo de entrega das atividades, ajudando na organização dos estudos. | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [João Sapiência](https://github.com/JoaoSapiencia)  |
 | [PT04](#PT04) e [PT05](#PT05) | Os protótipos PT04 e PT05 permitem ao professor acompanhar a média da turma em cada atividade e ao aluno configurar o período de recebimento de alertas sobre tarefas atrasadas, contribuindo para o controle do desempenho e a organização dos estudos. | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong>
+</div>
+
 
 ### **Etapa 6 — Pós-Rastreabilidade**
 
@@ -249,6 +253,8 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 | [Apresentação 4](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao4/) | Apresentação da Entrega 4.	 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
 | [Apresentação 5](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao5/) | Apresentação da Entrega 5.	 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62)|
 | [Apresentação 6](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/apresentacao6/) | Apresentação da Entrega 6.	 | [Vilmar José](https://github.com/VilmarFagundes) | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) |
+| [Apresentação Entrega Final](https://requisitos-de-software.github.io/2025.2-Grupo03/Apresenta%C3%A7%C3%A3o/entrega_final/) | Apresentação da Entrega Final. | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | [Vilmar José](https://github.com/VilmarFagundes)
+
 <div align="center">
   <strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong>
 </div>
