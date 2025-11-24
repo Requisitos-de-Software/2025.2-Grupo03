@@ -14,7 +14,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Criação do documento e da tabela da [Etapa 6 — Pós-Rastreabilidade](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-6-pos-rastreabilidade) |
-| [Arthur Henrique](https://github.com/arthurhvieira1) |    |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Criação da tabela da [Etapa 1 - Planejamento](https://requisitos-de-software.github.io/2025.2-Grupo03/Entrega_Final/artefatos_criados/#etapa-1-planejamento)|  
 | [Felipe Guimaraes](https://github.com/felipegf1) | |
 | [João Felipe](https://github.com/MrBolt2005) |   |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
@@ -29,10 +29,100 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram da criaçã
 
 <div align="center"><strong>Tabela 2: Artefatos da Etapa 1</strong></div>
 
-| Artefato | Descrição | Autor(es) | Revisor(es) |
-|----------|-----------|-----------|--------------|
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Artefato</th>
+<th style="text-align:center">Descrição</th>
+<th style="text-align:center">Autor(es)</th>
+<th style="text-align:center">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
 
----
+<tr>
+<td style="text-align:center"><a href="../index.md">Home</a></td>
+<td style="text-align:center">Introdução sobre o projeto e apresentação dos membros.</td>
+<td style="text-align:center"><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td style="text-align:center"><a href="https://github.com/JoaoSapiencia">João Sapiencia</a></td>
+</tr>
+
+<tr>
+<td style="text-align:center"><a href="../Planejamento/ferramentas.md">Ferramentas</a></td>
+<td style="text-align:center">Ferramentas utilizadas durante o projeto.</td>
+<td style="text-align:center"><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/felipegf1">Felipe Guimarães</a></td>
+<td style="text-align:center"><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+
+</tr>
+
+<tr>
+<td style="text-align:center"><a href="../Planejamento/Cronograma.md">Cronograma Planejado</a></td>
+<td style="text-align:center">Cronograma inicial das atividades do projeto.</td>
+<td style="text-align:center"><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td style="text-align:center"><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>  
+</tr>
+
+<tr>
+<td style="text-align:center"><a href="../Planejamento/cronograma_executado.md">Cronograma Executado</a></td>
+<td style="text-align:center">Cronograma seguido ao longo do projeto</td>
+<td style="text-align:center"><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td style="text-align:center"><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>  
+</tr>
+
+<tr>
+<td style="text-align:center"><a href="../Planejamento/heatmap.md">Heatmap</a></td>
+<td style="text-align:center">Disponibilidade dos membros para reuniões.</td>
+<td style="text-align:center"><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td style="text-align:center"><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+</tr>
+
+<tr>
+<td style="text-align:center"><a href="../Planejamento/Aplicativos.md">Lista de Apps Avaliados</a></td>
+<td style="text-align:center">Aplicativos analisados como possíveis escolhas.</td>
+<td style="text-align:center"> <a href="https://github.com/JoaoSapiencia">João Sapiencia</a>,
+  <a href="https://github.com/felipegf1">Felipe Guimarães</a>,
+  <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>,
+  <a href="https://github.com/VilmarFagundes">Vilmar José</a>,
+  <a href="https://github.com/MrBolt2005">João Felipe</a>,
+  <a href="https://github.com/arthurhvieira1">Arthur Henrique</a> e
+  <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td style="text-align:center"><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+
+<tr>
+<td style="text-align:center"><a href="../Planejamento/aplicativo.md">App Escolhido</a></td>
+<td style="text-align:center">Aplicativo selecionado, justificativas e Rich Picture.</td>
+<td style="text-align:center">
+  <a href="https://github.com/JoaoSapiencia">João Sapiencia</a>,
+  <a href="https://github.com/felipegf1">Felipe Guimarães</a>,
+  <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a>,
+  <a href="https://github.com/VilmarFagundes">Vilmar José</a>,
+  <a href="https://github.com/MrBolt2005">João Felipe</a>,
+  <a href="https://github.com/arthurhvieira1">Arthur Henrique</a> e
+  <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>
+</td>
+<td style="text-align:center">
+  <a href="https://github.com/MrBolt2005">João Felipe</a>
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center"><a href="../Atas/">Atas de Reunião</a></td>
+<td style="text-align:center">Registro das reuniões da equipe.</td>
+<td style="text-align:center"><a href="https://github.com/felipegf1">Felipe Guimarães</a></td>
+<td style="text-align:center"><a href="https://github.com/JoaoSapiencia">João Sapiencia</a></td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong>
+</div>
+
+
 
 ### **Etapa 2 — Elicitação de Requisitos**
 
