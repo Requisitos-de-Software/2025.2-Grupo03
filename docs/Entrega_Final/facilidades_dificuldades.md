@@ -19,7 +19,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 | Nome | Quais etapas participou |
 |---------------------------|---------------------------------------|
 | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
-| [Arthur Henrique](https://github.com/arthurhvieira1) |  |
+| [Arthur Henrique](https://github.com/arthurhvieira1) | Adição dos relatos de dificuldades e facilidades em relação à disciplina.  |
 | [Felipe Guimaraes](https://github.com/felipegf1) |  |
 | [João Felipe](https://github.com/MrBolt2005) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [João Sapiência](https://github.com/JoaoSapiencia) |  |
@@ -41,11 +41,20 @@ Além de que o grupo ter uma boa comunicação e a ferramenta para a criação d
 Durante o projeto também enfrentei dificuldade, como o fato de não ter sido muito claro quais artefatos deveriam ser feito e entregues na entrega 5, pois alguns artefatos pareciam fazer parte da entrega 6.
 
 Além disso, o fato de que a validação e elicitação serem obrigatoriamente presente promoveu certos dificuldades na hora de conciliar o grupo para realização das tarefas.
+
 ## Arthur Henrique
 
 ### Facilidades
 
+Durante o desenvolvimento do projeto, algumas facilidades contribuíram positivamente para o andamento das atividades. A adaptação à sintaxe do Markdown e ao formato de escrita dos documentos ocorreu de maneira natural, e a boa comunicação entre os membros do grupo facilitou a divisão e execução das tarefas.
+
+O acesso a repositórios de semestres anteriores também foi um ponto favorável, pois serviram como referência e ajudaram a orientar a elaboração dos artefatos. Além disso, as bibliografias recomendadas também ajudaram, auxiliando especialmente na produção dos documentos mais complexos.
+
 ### Dificuldades
+
+Por outro lado, algumas dificuldades impactaram o andamento do projeto. A exigência de realizar as etapas de elicitação e validação de forma presencial tornou a logística mais complicada, pois conciliar os horários de todos os integrantes foi um desafio.
+
+Também houve dificuldade em equilibrar as demandas do projeto com as atividades das demais disciplinas e responsabilidades externas. Como o curso é em período integral e as aulas ocorrem em horários variados, o semestre se tornou particularmente cansativo, especialmente porque outras matérias também exigiam bastante dedicação.
 
 ## Felipe Guimaraes
 
@@ -183,3 +192,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.0    | 23/10/2025 | Criação do documento de Facilidades e Dificuldades | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)| [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.1    | 23/11/2025 | Adição de Facilidades e Dificuldades | [Vilmar José](https://github.com/VilmarFagundes) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
 | 1.2    | 24/11/2025 | Adição de Facilidades e Dificuldades | [João Felipe](https://github.com/MrBolt2005) | [Arthur Guilherme](https://github.com/ArthurGuilher62) |
+| 1.3    | 24/11/2025 | Adição de Facilidades e Dificuldades | [Arthur Henrique](https://github.com/arthurhveira1) | [Vilmar José](https://github.com/VilmarFagundes) |
