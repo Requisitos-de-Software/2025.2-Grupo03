@@ -22,7 +22,7 @@ A Tabela 1 apresenta todos os integrantes da equipe que participaram do artefato
 | [Arthur Henrique](https://github.com/arthurhvieira1) | Adição dos relatos de dificuldades e facilidades em relação à disciplina.  |
 | [Felipe Guimaraes](https://github.com/felipegf1) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [João Felipe](https://github.com/MrBolt2005) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
-| [João Sapiência](https://github.com/JoaoSapiencia) |  |
+| [João Sapiência](https://github.com/JoaoSapiencia) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Criação do documento de Facilidades e Dificuldades, além da adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 | [Vilmar José](https://github.com/VilmarFagundes) | Adição dos relatos de dificuldades e facilidades em relação à disciplina. |
 
