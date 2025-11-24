@@ -122,10 +122,10 @@ os membros terem que esperar o meu encontro terminar e/ou eu ter que faltá-lo
 em noites em que agendamos nossas ditas gravações e inspeções.
 
 Embora no geral o Markdown seja considerado um bom formato para formatação de
-documentos, a falta de um editor verdadeiramente visual – ao estilo (do)
-Microsoft Word ou Google Docs, por exemplo – para esse tipo e,
-consequentemente, a necessidade de escrever os documentos em *markup* bruto,
-inclusive tendo que (se) memorizar ou relembrar os modificadores necessários.
+documentos, a falta de um editor verdadeiramente visual – ao estilo do
+Microsoft Word ou Google Docs, por exemplo – para esse tipo faz com que,
+consequentemente, seja necessário escrever os documentos em *markup* bruto.
+Isso inclui ter que memorizar ou relembrar os modificadores necessários.
 Mesmo com os facilitadores relevantes previamente mencionados, ainda resultou
 em alguma(s) dificuldade(s), leves ou não, em elaborar alguns mais complexos,
 como aqueles envolvendo tabelas.
