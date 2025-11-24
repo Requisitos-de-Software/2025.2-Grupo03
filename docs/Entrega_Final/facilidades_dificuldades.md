@@ -78,13 +78,14 @@ se aplicar necessariamente a mesma avaliação para o grupo como um só –, etc
 
 Algumas funções ajudaram a reduzir razoavelmente a dificuldade de se adaptar
 à edição dos documentos em Markdown (na forma "bruta", em código de *markup*),
-apesar da sua novidade para grande parte de nós alunos: a exemplo do uso de
+apesar da sua novidade para grande parte de nós alunos. Um exemplo disso é o uso de
 editores convenientes como o Visual Studio Code, que até mesmo fornece a opção
 de visualizar em tempo real a renderização das edições em um arquivo, inclusive
 simultaneamente a elas ao se usar a divisão do espaço de trabalho do editor
-para cada aba respectiva; além da assistência por IA generativa (como o GitHub
-Copilot) no próprio editor para formatações envolvendo mais trabalho, como
-tabelas, por exemplo e em particular, que foram, de fato, um utensílio bastante empregado ao longo de todos os documentos daqui.
+para cada aba respectiva. Além disso, a assistência por IA generativa (como o GitHub
+Copilot) no próprio editor facilitou formatações que envolvem mais trabalho e foram, de
+fato, bastante empregadas ao longo de todos os documentos daqui, como (as) tabelas,
+por exemplo e em particular.
 
 ### Dificuldades
 
