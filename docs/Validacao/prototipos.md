@@ -121,7 +121,7 @@ Além disso, a gravação da validação pode ser visualizada em: [https://youtu
 ### Gravação 3
 A Tabela 7 mostra os participantes do grupo envolvidos na validação.
 
-<div align="center"><strong>Tabela 5: Participantes envolvidos</strong></div>
+<div align="center"><strong>Tabela 7: Participantes envolvidos</strong></div>
 
 | Nome |
 |------|
@@ -131,7 +131,7 @@ A Tabela 7 mostra os participantes do grupo envolvidos na validação.
 
 A Tabela 8 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
 
-<div align="center"><strong>Tabela 6: Usuário Real e Informações da Gravação</strong></div>
+<div align="center"><strong>Tabela 8: Usuário Real e Informações da Gravação</strong></div>
 
 | Nome | Data | Hora | Local|
 |-------------------------|-----------------|-----------------|------------------|
@@ -140,6 +140,31 @@ A Tabela 8 apresenta as informações do usuário que participou da etapa de val
 <div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
 
 Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/6AK6vUqBjUc](https://youtu.be/6AK6vUqBjUc)
+
+---
+
+### Gravação 4
+A Tabela 9 mostra o(s) participante(s) do grupo envolvido(s) na validação.
+
+<div align="center"><strong>Tabela 9: Participante(s) envolvido(s)</strong></div>
+
+| Nome |
+|------|
+| [João Felipe](https://github.com/MrBolt2005) |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+A Tabela 10 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.
+
+<div align="center"><strong>Tabela 10: Usuário Real e Informações da Gravação</strong></div>
+
+| Nome | Data | Hora | Local|
+|-------------------------|-----------------|-----------------|------------------|
+| Caio Soares | 24/11/2025 | 14:10 | Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB |
+
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+Além disso, a gravação da validação pode ser visualizada em: [https://youtu.be/XkMO1kuzWPE](https://youtu.be/XkMO1kuzWPE)
 
 ---
 
@@ -153,3 +178,4 @@ O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.0    | 02/11/2025 | Criação do documento de Prototipação          | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.1   | 12/11/2025 | Adição dos Protótipos [PT08](#PT08), [PT11](#PT11) e [PT13](#PT13)         | [Arthur Henrique](https://github.com/arthurhvieira1)       | [Vilmar José](https://github.com/VilmarFagundes) |
 | 1.2   | 12/11/2025 | Adição dos Protótipos [PT06](#PT06), [PT12](#PT12) e [PT17](#PT17)         | [João Felipe](https://github.com/MrBolt2005)       | [Tiago Lemes](https://github.com/TiagoTeixeira-2005)<br>[Vilmar José](https://github.com/VilmarFagundes) |
+| 1.3   | 24/11/2025 | Adição da Gravação 4 (Referente à validação dos Protótipos [PT06](#PT06), [PT12](#PT12) e [PT17](#PT17))         | [João Felipe](https://github.com/MrBolt2005)       | [Vilmar José](https://github.com/VilmarFagundes) |
