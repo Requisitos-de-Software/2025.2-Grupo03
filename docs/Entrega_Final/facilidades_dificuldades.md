@@ -93,7 +93,7 @@ se acerta uma toda, ou se erra ela toda –, além das suas notas só serem
 disponibilizadas ao final do semestre – inclusive, muito tempo também depois da
 última entrega delas ser concluída –, prejudica muito o meu desempenho ao longo
 delas, pois, além de uma entrega no total mais certa do que errada (poder) ser
-(muito bem) totalmente anulada pelo menor de algum erro, para mim o mais grave
+(muito bem) totalmente anulada pelo menor erro, para mim o mais grave
 ainda é o aluno (como eu mesmo) poder estar cometendo erros sistêmicos ao longo
 de ditos exercícios e jamais poder identificá-los com certeza (ao longo prazo)
 ao longo da realização de qualquer um eles. Quanto a este 2º aspecto,
