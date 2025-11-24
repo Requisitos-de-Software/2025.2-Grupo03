@@ -64,7 +64,7 @@ seus conceitos no projeto quando necessário. Também foram exemplos/referência
 úteis para o grupo no geral a eventual consulta dos repositórios dos trabalhos
 dos semestres anteriores da disciplina, e, incluindo o (próprio) grupo mais no
 geral, a disponibilidade do professor Vandor Rissoli, um dos responsáveis do
-SAE – (o) que nós temos avaliado neste trabalho –, e aa facilidade de (se)
+SAE – (o) que nós temos avaliado neste trabalho –, e a facilidade de (se)
 encontrar (as) pessoas externas ao projeto necessárias para poder realizar
 validações e artefatos presenciais.
 
