@@ -89,7 +89,7 @@ tabelas, por exemplo e em particular, que foram, de fato, um utensílio bastante
 ### Dificuldades
 
 Percebo que o fato da correção das atividades individuais ser binária – ou
-se acerta uma toda, ou erra-se-a toda –, além das suas notas só serem
+se acerta uma toda, ou se erra ela toda –, além das suas notas só serem
 disponibilizadas ao final do semestre – inclusive, muito tempo também depois da
 última entrega delas ser concluída –, prejudica muito o meu desempenho ao longo
 delas, pois, além de uma entrega no total mais certa do que errada (poder) ser
