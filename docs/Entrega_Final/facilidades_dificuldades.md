@@ -150,9 +150,24 @@ como aqueles envolvendo tabelas.
 
 ## João Sapiência
 
+
 ### Facilidades
 
+Durante o desenvolvimento do projeto, a adaptação à sintaxe do Markdown e ao formato de documentação foi facilitada pelo uso de ferramentas como o Visual Studio Code, que permitiram uma edição mais prática e visual dos arquivos.
+
+A comunicação eficiente entre os membros do grupo também contribuiu para a divisão equilibrada das tarefas e para a resolução de dúvidas ao longo das etapas.
+
+O acesso a repositórios de trabalhos anteriores e às bibliografias recomendadas pelo professor serviu como referência importante, auxiliando na elaboração dos artefatos e na compreensão dos conteúdos mais complexos.
+
+Além disso, a disponibilidade do professor para tirar dúvidas e orientar o grupo foi fundamental para o bom andamento do projeto.
+
 ### Dificuldades
+
+Entre as principais dificuldades enfrentadas, destaca-se a necessidade de realizar as etapas de elicitação e validação de forma presencial, o que tornou a logística do grupo mais complexa devido à conciliação de horários entre os integrantes e participantes externos.
+
+Também houve desafios para equilibrar as demandas do projeto com outras disciplinas e compromissos pessoais, especialmente em um semestre com carga elevada de atividades.
+
+Por fim, a falta de clareza sobre alguns artefatos exigidos em determinadas entregas gerou dúvidas e exigiu maior esforço do grupo para garantir que todos os requisitos fossem atendidos corretamente.
 
 ## Tiago Lemes
 
