@@ -87,7 +87,7 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 
 ## Vídeo da Inspeção
 
-- [Link do video no youtube]()
+- [Link do video no youtube](https://youtu.be/1GgLRzruzPc)
 
 ## Histórico de Versões
 
