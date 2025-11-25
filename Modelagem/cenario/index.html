@@ -1,0 +1,5859 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/cenario/">
+      
+      
+        <link rel="prev" href="../casos_de_uso/">
+      
+      
+        <link rel="next" href="../especificacao_suplementar/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Cenário - Grupo 03 - Requisitos de Software (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cenario" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-header__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo 03 - Requisitos de Software (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cenário
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Atas/ata09-09-2025_1/" class="md-tabs__link">
+          
+  
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-tabs__link">
+          
+  
+  
+  Apresentação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Rich-picture/richpicture/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Rich Picture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Verificacao/verificacao/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../casos_de_uso/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Pos-modelagem/matriz_de_rastreabilidade/" class="md-tabs__link">
+          
+  
+  
+  Pós Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeção
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Validacao/prototipos/" class="md-tabs__link">
+          
+  
+  
+  Validação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-tabs__link">
+          
+  
+  
+  Entrega Final
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-nav__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Grupo 03 - Requisitos de Software (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata10-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 10/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata18-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 18/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/entrega_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HeatMap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_planejado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma planejado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma executado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/Aplicativos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativos avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Rich-picture/richpicture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rich Picture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming_perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos Elicitados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/analise_de_documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Elicitação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Priorização
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Priorização
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First Thing First
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Three Level Scale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/100_dolares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    $100
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MoSCoW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Tradicionais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Tradicionais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de Uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-01-exibicao-do-progresso-geral-na-disciplina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 01: Exibição do Progresso Geral na Disciplina
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-02-exibicao-da-porcentagem-de-acertos-por-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 02: Exibição da Porcentagem de Acertos por Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-03-exibicao-da-porcentagem-de-erros-por-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 03: Exibição da Porcentagem de Erros por Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-04-lembretes-de-revisao-de-conteudos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 04: Lembretes de Revisão de Conteúdos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-05-configuracao-da-forma-de-notificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 05: Configuração da Forma de Notificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-06-notificacao-de-prazo-de-entrega" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 06: Notificação de Prazo de Entrega
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-07-analise-cognitiva-e-apoio-a-aprendizagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 07: Análise Cognitiva e Apoio à Aprendizagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-08-identificacao-de-conhecimento-sobre-o-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 08: Identificação de Conhecimento sobre o Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-09-avaliacao-de-comportamento-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 09: Avaliação de Comportamento Escolar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10-visualizacao-da-media-geral-da-turma-por-atividade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 10: Visualização da Média Geral da Turma por Atividade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11-personalizacao-da-frequencia-de-alertas-de-atividades-atrasadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 11: Personalização da Frequência de Alertas de Atividades Atrasadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12-priorizacao-de-conteudo-por-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 12: Priorização de Conteúdo por Dificuldade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13-personalizacao-de-lembretes-de-atividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 13: Personalização de Lembretes de Atividades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14-calculo-do-desempenho-do-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 14: Cálculo do Desempenho do Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15-selecao-de-disciplinas-de-maior-facilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 15: Seleção de Disciplinas de Maior Facilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16-notificacao-de-conteudos-mais-dificeis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 16: Notificação de Conteúdos Mais Difíceis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-17-organizacao-de-materiais-por-topicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 17: Organização de Materiais por Tópicos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-18-integracao-com-outros-softwares-educacionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 18: Integração com Outros Softwares Educacionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-19-customizacao-do-assistente-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 19: Customização do Assistente Virtual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-20-importacao-de-questoes-externas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 20: Importação de Questões Externas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gravacao-da-validacao-do-documento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação da validação do documento
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gravação da validação do documento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usuario-entrevistado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuário entrevistado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Especificação Suplementar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Léxico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Ágeis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Ágeis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histórias de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog_do_produto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog do Produto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfr_framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NFR Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pós Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pós Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/matriz_de_rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matriz de Rastreabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/backward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/forward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inspeção
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1_5" id="__nav_10_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo +1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo +1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2_5" id="__nav_10_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa1_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa2_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa3_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa4_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa6_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Validação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prototipação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/contato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comprovação Informal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega Final
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo Escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/artefatos_criados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatos Criados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/cronograma_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/execucao_projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/facilidades_dificuldades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facilidades e Dificuldades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/resultados_alcan%C3%A7ados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados Alcançados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/tecnicas_utilizadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas Utilizadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/validacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenários
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-01-exibicao-do-progresso-geral-na-disciplina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 01: Exibição do Progresso Geral na Disciplina
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-02-exibicao-da-porcentagem-de-acertos-por-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 02: Exibição da Porcentagem de Acertos por Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-03-exibicao-da-porcentagem-de-erros-por-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 03: Exibição da Porcentagem de Erros por Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-04-lembretes-de-revisao-de-conteudos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 04: Lembretes de Revisão de Conteúdos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-05-configuracao-da-forma-de-notificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 05: Configuração da Forma de Notificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-06-notificacao-de-prazo-de-entrega" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 06: Notificação de Prazo de Entrega
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-07-analise-cognitiva-e-apoio-a-aprendizagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 07: Análise Cognitiva e Apoio à Aprendizagem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-08-identificacao-de-conhecimento-sobre-o-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 08: Identificação de Conhecimento sobre o Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-09-avaliacao-de-comportamento-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 09: Avaliação de Comportamento Escolar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10-visualizacao-da-media-geral-da-turma-por-atividade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 10: Visualização da Média Geral da Turma por Atividade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11-personalizacao-da-frequencia-de-alertas-de-atividades-atrasadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 11: Personalização da Frequência de Alertas de Atividades Atrasadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12-priorizacao-de-conteudo-por-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 12: Priorização de Conteúdo por Dificuldade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13-personalizacao-de-lembretes-de-atividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 13: Personalização de Lembretes de Atividades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14-calculo-do-desempenho-do-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 14: Cálculo do Desempenho do Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15-selecao-de-disciplinas-de-maior-facilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 15: Seleção de Disciplinas de Maior Facilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16-notificacao-de-conteudos-mais-dificeis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 16: Notificação de Conteúdos Mais Difíceis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-17-organizacao-de-materiais-por-topicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 17: Organização de Materiais por Tópicos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-18-integracao-com-outros-softwares-educacionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 18: Integração com Outros Softwares Educacionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-19-customizacao-do-assistente-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 19: Customização do Assistente Virtual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-20-importacao-de-questoes-externas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cenário 20: Importação de Questões Externas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gravacao-da-validacao-do-documento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação da validação do documento
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gravação da validação do documento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usuario-entrevistado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usuário entrevistado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="cenario">Cenário</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento apresenta os cenários de uso do sistema, ou seja, situações práticas que ilustram como os indivíduos interagem com o <strong>SAE (Sistema de Apoio Educacional)</strong> em seu uso cotidiano.</p>
+<p>Cada cenário descreve uma sequência de ações e reações entre o sistema e o participante, demonstrando o funcionamento esperado das funcionalidades ainda não implementadas.</p>
+<p>O objetivo é facilitar a compreensão dos requisitos funcionais pendentes, mostrando de forma contextual como eles contribuirão para a experiência e as operações dentro do sistema.</p>
+<h2 id="integrantes-do-grupo">Integrantes do Grupo</h2>
+<p>A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção dos Cenários, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.</p>
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Quais etapas participou</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td>Criou os cenários <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/cenario/#cenario-07-analise-cognitiva-e-apoio-a-aprendizagem">07 - Análise Cognitiva e Apoio à Aprendizagem</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/cenario/#cenario-08-identificacao-de-conhecimento-sobre-o-conteudo">08 - Identificação de Conhecimento sobre o Conteúdo</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/cenario/#cenario-09-avaliacao-de-comportamento-escolar">09 - Avaliação de Comportamento Escola</a>, referente aos requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF49</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF50</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF51</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td>Criação dos cenários 12 e 13, referentes, respectivamente aos requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF16</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF21</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF30</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td>Criou os cenários 01, 02 e 03, referente aos requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF08</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF09</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF10</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td>Criou os cenários 14, 15 e 16, referente aos requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF24</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF14</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF42</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td>Criou os cenários 17, 18 e 19, referente aos requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF32</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF34</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF40</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td>Criação do documento de Cenário e dos cenários <a href="#cenario-04-lembretes-de-revisao-de-conteudos">04 - Lembretes de Revisão de Conteúdos</a>, <a href="#cenario-05-configuracao-da-forma-de-notificacao">05 - Configuração da Forma de Notificação</a> e <a href="#cenario-06-notificacao-de-prazo-de-entrega">06 - Notificação de Prazo de Entrega</a>, que são referentes, respectivamente, aos requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF15</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF18</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF19</a>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td>Criação dos cenários <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/cenario/#cenario-10-visualizacao-da-media-geral-da-turma-por-atividade">10 - Visualização da Média Geral da Turma por Atividade</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/cenario/#cenario-11-personalizacao-da-frequencia-de-alertas-de-atividades-atrasadas">11 - Personalização da Frequência de Alertas de Atividades Atrasadas</a>, referentes, respectivamente aos requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF11</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF13</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h2 id="metodologia">Metodologia</h2>
+<p>A metodologia usada nesta documentação segue os conceitos e a estrutura mostrados nos slides da aula “Requisitos – Aula 10”, de Milene Serrano e Maurício Serrano, disponíveis <a href="../../arquivos/Cenarios_Aula10.pdf">clicando aqui</a>.<br />
+Cada cenário foi criado com base na identificação dos <strong>requisitos funcionais que ainda não foram implementados</strong> no sistema.<br />
+Foram aplicadas abstrações para tornar a documentação clara, organizada e de fácil compreensão, conforme o modelo apresentado no material de apoio, ilustrado na Figura 1.</p>
+<div align="center"><strong>Figura1: Abstrações </strong></div>
+
+<p><img alt="Figura 1: Abstração Cenários" src="../../imagens/AbstracaoCenarios.png" /></p>
+<p>A estrutura adotada para cada cenário seguiu uma <strong>padronização em formato de tabela</strong>, baseando-se nos seguintes elementos:</p>
+<ul>
+<li><strong>ID:</strong> Identificador único do cenário, usado para facilitar seu rastreamento e manutenção. Segue o padrão “CE”, referente ao cenário, junto ao número do cenário.      <em>Exemplo:</em> <code>CE07</code>.</li>
+<li><strong>Título:</strong> Nome do cenário, geralmente relacionado ao objetivo principal ou ao requisito funcional ainda não implementado.</li>
+<li><strong>Metas/Objetivos:</strong> Explica o propósito do cenário e o que se espera alcançar com a futura implementação da funcionalidade.</li>
+<li><strong>Contexto:</strong> Define a situação e o ambiente em que o cenário ocorre, estabelecendo as pré-condições para o fluxo de eventos.</li>
+<li><strong>Ator(es):</strong> Indica as pessoas, sistemas ou entidades que interagem diretamente com a funcionalidade descrita.</li>
+<li><strong>Recursos:</strong> Lista as ferramentas ou componentes do sistema necessários para executar o cenário.</li>
+<li><strong>Exceções:</strong> Aponta situações inesperadas ou problemas que podem interromper o fluxo normal do cenário.</li>
+<li><strong>Restrições:</strong> Mostra as limitações, regras de negócio ou condições que devem ser respeitadas durante a execução.</li>
+<li><strong>Episódios:</strong> Descreve, passo a passo, o fluxo principal de ações e decisões realizadas pelos atores no cenário.</li>
+</ul>
+<hr />
+<p>A <strong>padronização da tabela</strong> se baseou nesses elementos apresentados acima e pode ser observada na <strong>Tabela 2</strong>.</p>
+<div align="center"><strong>Tabela 2: Padronização dos Cenários</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>CEN°</td>
+</tr>
+<tr>
+<td>Título</td>
+<td>Nome do cenário, geralmente relacionado ao objetivo principal ou ao requisito funcional ainda não implementado.</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Explica o propósito do cenário e o que se espera alcançar com a futura implementação da funcionalidade.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Define a situação e o ambiente em que o cenário ocorre, estabelecendo as pré-condições para o fluxo de eventos.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>Indica as pessoas, sistemas ou entidades que interagem diretamente com a funcionalidade descrita.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>Lista as ferramentas ou componentes do sistema necessários para executar o cenário.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>Aponta situações inesperadas ou problemas que podem interromper o fluxo normal do cenário.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Mostra as limitações, regras de negócio ou condições que devem ser respeitadas durante a execução.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>Descreve, passo a passo, o fluxo principal de ações e decisões realizadas pelos atores no cenário.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h2 id="cenarios">Cenários</h2>
+<h3 id="cenario-01-exibicao-do-progresso-geral-na-disciplina">Cenário 01: Exibição do Progresso Geral na Disciplina</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF08</a> - A interface deve exibir um progresso em porcentagem do andamento da disciplina.</p>
+<div align="center"><strong>Tabela 3: Cenário 01</strong></div>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elemento</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE01</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Progresso Geral da Disciplina</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o aluno visualize o quanto já avançou na disciplina, incentivando o acompanhamento contínuo e a conclusão dos conteúdos.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno acessa a plataforma e deseja entender seu progresso global dentro de uma disciplina específica.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Sistema de controle de progresso</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de atividades concluídas e pendentes<br>- Módulo de cálculo de progresso<br>- Interface de exibição gráfica (ex: barra de progresso ou percentual numérico)</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Falha na atualização automática do progresso após novas atividades concluídas.<br>- Dados inconsistentes no banco de atividades.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- O progresso deve ser atualizado em tempo real após cada conclusão de atividade.<br>- A interface deve ser clara e acessível em todos os dispositivos.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno acessa a página da disciplina.<br>2. O sistema consulta os dados de atividades concluídas e pendentes.<br>3. Calcula o percentual de progresso.<br>4. Exibe o progresso em formato visual (porcentagem e/ou barra).</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<h3 id="cenario-02-exibicao-da-porcentagem-de-acertos-por-conteudo">Cenário 02: Exibição da Porcentagem de Acertos por Conteúdo</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF09</a> - A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo.</p>
+<div align="center"><strong>Tabela 4: Cenário 02</strong></div>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elemento</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE02</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Desempenho de Acertos por Conteúdo</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Fornecer ao aluno uma visão detalhada de seu desempenho em cada conteúdo, destacando pontos fortes e incentivando o aprimoramento.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno deseja acompanhar sua taxa de acertos em cada conteúdo para entender onde está indo bem e onde precisa melhorar.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Sistema de monitoramento de desempenho</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de resultados das atividades<br>- Módulo de cálculo de desempenho<br>- Interface de exibição de desempenho (gráficos ou indicadores numéricos)</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Dados incompletos de atividades podem afetar o cálculo da porcentagem.<br>- Atividades ainda não corrigidas não entram no cálculo.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- A porcentagem deve ser atualizada automaticamente após a correção de cada atividade.<br>- Deve ser exibida de forma compreensível e visualmente intuitiva.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno acessa o banco de questões.<br>2. O sistema calcula o percentual de acertos em cada conteúdo.<br>3. Exibe a porcentagem de forma gráfica ou numérica.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<h3 id="cenario-03-exibicao-da-porcentagem-de-erros-por-conteudo">Cenário 03: Exibição da Porcentagem de Erros por Conteúdo</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF10</a> - A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo.</p>
+<div align="center"><strong>Tabela 5: Cenário 03</strong></div>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elemento</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE03</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Desempenho de Erros por Conteúdo</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o aluno identifique conteúdos com maiores índices de erro, auxiliando no direcionamento dos estudos e revisões.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno quer verificar em quais conteúdos tem mais dificuldades, observando a taxa de erros.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Sistema de monitoramento de desempenho</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de atividades e resultados<br>- Módulo de cálculo de desempenho<br>- Interface de exibição de desempenho (gráficos ou indicadores numéricos)</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Falha no registro correto dos resultados das atividades.<br>- Atividades ainda não finalizadas não devem ser contabilizadas.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- O cálculo deve considerar apenas atividades concluídas.<br>- A exibição deve ser clara e comparável entre diferentes conteúdos.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno acessa o banco de questões.<br>2. O sistema identifica a quantidade de erros em cada atividade.<br>3. Calcula a porcentagem de erros por conteúdo.<br>4. Exibe a porcentagem de forma gráfica ou numérica.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<h3 id="cenario-04-lembretes-de-revisao-de-conteudos">Cenário 04: Lembretes de Revisão de Conteúdos</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF15</a> - O sistema deve enviar notificações para lembrar o aluno de revisar conteúdos passados.</p>
+<div align="center"><strong>Tabela 6: Cenário 04</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE04</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Notificações de Revisão de Conteúdos</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Garantir que o aluno seja lembrado de revisar conteúdos estudados anteriormente, promovendo aprendizado contínuo.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno acessa a plataforma periodicamente e deseja receber lembretes automáticos sobre conteúdos já concluídos.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Sistema de notificações da plataforma</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de conteúdos concluídos<br>- Mecanismo de envio de notificações ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo )</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Falha no envio da notificação.<br>- Conteúdo revisado recentemente não gera novo lembrete.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- As notificações devem respeitar as preferências de comunicação do aluno.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O sistema identifica conteúdos já estudados.<br>2. Envia lembrete ao aluno para revisar o conteúdo.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<hr />
+<h3 id="cenario-05-configuracao-da-forma-de-notificacao">Cenário 05: Configuração da Forma de Notificação</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF18</a> - O sistema deve pedir ao indivíduo a melhor forma de caminho de notificação.</p>
+<div align="center"><strong>Tabela 7: Cenário 05</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE05</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Escolha da Forma de Notificação</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o indivíduo defina sua preferência de comunicação para receber notificações ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo ).</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O participante acessa a plataforma e quer receber alertas e lembretes da forma que considera mais conveniente.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br> - Docente<br> - Monitor<br> - Coordenador<br> - Administrador<br> - Sistema de configuração de notificações</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Painel de preferências do pessoais<br>- Mecanismo de envio de notificações configurável</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Nenhuma forma de notificação é escolhida, mantendo-se a opção padrão.<br>- Opção selecionada não está disponível no momento do envio.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- Sistema deve garantir que as notificações sejam enviadas conforme a escolha do aluno.<br>- Preferência deve ser atualizável a qualquer momento.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O participante acessa a seção “Preferências de Notificação”.<br>2. Escolhe o canal preferido ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo ).<br>3. Sistema salva a configuração e envia notificações conforme a escolha.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<hr />
+<h3 id="cenario-06-notificacao-de-prazo-de-entrega">Cenário 06: Notificação de Prazo de Entrega</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF19</a> - O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.</p>
+<div align="center"><strong>Tabela 8: Cenário 06</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE06</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Alertas de Prazos de Entrega</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Informar o aluno sobre atividades com prazo próximo, evitando atrasos na entrega.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Um aluno possui atividades agendadas na plataforma e deseja receber alertas próximos ao prazo final.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Sistema de notificações da plataforma</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de atividades e prazos<br>- Sistema de envio de notificações ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo )</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Falha no envio do alerta.<br>- Prazo da atividade é alterado após envio da notificação.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- Notificações devem ser enviadas com antecedência suficiente para ação do aluno.<br>- Devem respeitar as preferências de comunicação do aluno.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O sistema verifica atividades próximas do prazo.<br>2. Gera alerta de prazo para cada atividade.<br>3. Envia notificação ao aluno.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<hr />
+<h3 id="cenario-07-analise-cognitiva-e-apoio-a-aprendizagem">Cenário 07: Análise Cognitiva e Apoio à Aprendizagem</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF49</a> - O sistema deve analisar documentos escolares(atividades e provas) para identificar dificuldades cognitivas e sugerir estratégias de reforço ao aluno.</p>
+<div align="center"><strong> Tabela 9 - Cenário 07 </strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE07</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Análise Cognitiva e Apoio à Aprendizagem</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Avaliar a situação cognitiva de cada aluno e oferecer suporte personalizado para melhorar o processo de aprendizagem.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O sistema educacional utiliza algoritmos de inferência cognitiva para analisar documentos escolares (provas e atividades) e identificar dificuldades específicas de cada aluno. Com base nessa análise, o assistente virtual sugere estratégias de reforço ao aluno.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Professor<br>- Assistente Virtual</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Módulo de análise documental<br>- Algoritmos de inferência cognitiva<br>- Banco de dados de desempenho escolar</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Documentos insuficientes para análise<br>- Dados inconsistentes ou corrompidos</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>A análise deve respeitar a privacidade dos dados dos alunos e seguir diretrizes pedagógicas.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O sistema acessa os documentos escolares do aluno.<br>2. Identifica padrões de dificuldade.<br>3. Sugere conteúdo adaptados para suas dificuldades.<br>4. Monitora a evolução do aluno ao longo do tempo.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<hr />
+<h3 id="cenario-08-identificacao-de-conhecimento-sobre-o-conteudo">Cenário 08: Identificação de Conhecimento sobre o Conteúdo</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF50</a> - O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo, com base em provas e atividades.</p>
+<div align="center"><strong> Tabela 10 - Cenário 08 </strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE08</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Identificação de Conhecimento sobre o Conteúdo</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir ao professor visualizar o nível de domínio de conteúdo de cada aluno com base em provas e questões, utilizando Lógica Fuzzy para gerar uma análise graduada e confiável.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Após a realização de atividades avaliativas, o sistema processa os resultados e apresenta ao professor uma visão detalhada do desempenho dos alunos por conteúdo. A análise é feita por meio de Lógica Fuzzy, permitindo identificar quais alunos dominam ou têm dificuldades em cada tema.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Professor<br>- Sistema de Avaliação Inteligente</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de questões por conteúdo<br>- Sistema de correção automática<br>- Módulo de inferência com Lógica Fuzzy<br>- Painel de desempenho por aluno</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Provas não corrigidas ou com erros<br>- Dados insuficientes para inferência confiável</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>A visualização deve ser clara, pedagógica e respeitar a privacidade dos alunos.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. Os alunos realizam provas e atividades.<br>2. O sistema aplica Lógica Fuzzy para avaliar o domínio por conteúdo.<br>3. O professor acessa o painel de desempenho dos alunos.<br>4. O sistema apresenta níveis de conhecimento e destaca alunos com dificuldades.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<hr />
+<h3 id="cenario-09-avaliacao-de-comportamento-escolar">Cenário 09: Avaliação de Comportamento Escolar</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF51</a> - O sistema deve informar ao professor quais alunos mantêm comportamento adequado segundo critérios pedagógicos.</p>
+<div align="center"><strong> Tabela 11 - Cenário 09 </strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE09</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Avaliação de Comportamento Escolar</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Apresentar ao professor quais alunos mantêm comportamento adequado com base em critérios como presença nas aulas, participação em monitorias, realização de atividades e estudo dos conteúdos sugeridos.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O sistema educacional monitora continuamente o comportamento dos alunos por meio de registros de presença, entregas de atividades, participação em monitorias e acesso aos conteúdos recomendados. O assistente virtual analisa esses dados e gera relatórios que ajudam o professor a identificar alunos engajados e aqueles que precisam de acompanhamento.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Professor<br>- Assistente Virtual</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Registro de frequência<br>- Plataforma de entrega de atividades<br>- Sistema de monitoria<br>- Módulo de rastreamento de estudo de conteúdos sugeridos</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Dados incompletos ou não sincronizados<br>- Aluno ausente em todas as atividades avaliadas</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>O sistema deve garantir a integridade e atualização dos dados, respeitando normas de privacidade e acessibilidade.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O sistema registra a presença do aluno nas aulas.<br>2. Monitora a participação em sessões de monitoria.<br>3. Verifica a entrega de atividades e prazos.<br>4. Acompanha o acesso e estudo dos conteúdos sugeridos.<br>5. O assistente virtual analisa os dados e gera um relatório de comportamento.<br>6. O professor acessa o relatório e identifica os alunos com comportamento adequado.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<hr />
+<h3 id="cenario-10-visualizacao-da-media-geral-da-turma-por-atividade">Cenário 10: Visualização da Média Geral da Turma por Atividade</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF11</a> - A interface deve exibir a média geral da turma em cada atividade</p>
+<div align="center"><strong>Tabela 12: Cenário 10</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE10</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Visualização da Média Geral da Turma por Atividade</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>- <strong>Para o professor:</strong> Analisar o desempenho agregado da turma em cada avaliação, facilitando a identificação de dificuldades de aprendizagem<br> - <strong>Para o aluno:</strong> Permitir que compare seu próprio desempenho com a média geral da turma, servindo como um parâmetro para seus estudos.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Um participante (professor ou aluno) está autenticado no sistema de gestão de aprendizagem e acessou a área de atividades de uma disciplina. Ele escolhe uma das atividades e verifica se as notas já foram lançadas e a média calculada.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Professor<br>- Aluno</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de atividades<br> - Bance de dados de resultados de atividades</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Cálculo Indisponível: A média não pode ser exibida se nenhuma nota foi lançada para a atividade.<br> - Erro de Carregamento: A página de notas falha ao carregar devido a um problema de conexão ou erro no servidor.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- A média deve ser calculada considerando apenas os alunos que receberam uma nota.<br> - Os alunos podem ver a média geral, mas não têm acesso às notas individuais de seus colegas.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O participante (professor ou aluno) acessa a plataforma e navega até a disciplina desejada. <br> 2. Sseleciona a opção "Atividades" no menu da disciplina.<br> 3. O sistema exibe uma lista com todas as atividades avaliativas.<br> 4. Para cada atividade, o sistema exibe a nota individual do aluno (se for o aluno logado) e, em uma coluna separada, a "Média da Turma".<br> 5. O participante utiliza essa informação para fins de análise de desempenho (seja da turma ou pessoal).</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<hr />
+<h3 id="cenario-11-personalizacao-da-frequencia-de-alertas-de-atividades-atrasadas">Cenário 11: Personalização da Frequência de Alertas de Atividades Atrasadas</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF13</a> - O aluno deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas</p>
+<div align="center"><strong>Tabela 13: Cenário 11</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE11</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Personalização da Frequência de Alertas de Atividades Atrasadas</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Oferecer ao aluno a flexibilidade de configurar com que antecedência deseja ser notificado sobre atividades pendentes, a fim de melhorar sua gestão de tempo e reduzir o número de entregas em atraso.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno está logado em seu perfil no sistema e acessa a área de configurações de sua conta para ajustar suas preferências de notificação.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Aluno</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de atividades e prazos<br>- Sistema de envio de notificações ( notificações push, mensagens pelo WhatsApp, e-mails e alertas na interface do sistema ou no aplicativo )</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>Falha ao Salvar: O sistema apresenta um erro e não consegue salvar as novas preferências de notificação devido a uma instabilidade na rede</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- O aluno deve ter um meio de contato válido cadastrado (e-mail ou permissão para notificação push) para receber os alertas.<br> - As opções de tempo para os alertas são predefinidas pelo sistema (ex: "1 dia antes", "2 dias antes", "No dia do vencimento").<br> - A configuração é aplicada individualmente e não afeta as preferências de outros alunos.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno acessa sua conta no sistema.<br> 2. Ele seleciona a opção "Configurações".<br> 3. Na página de configurações, ele navega até a seção "Notificações".<br> 4. O sistema exibe uma lista de tipos de alerta que podem ser configurados. O aluno localiza a opção "Alertas sobre atividades atrasadas".<br> 5. Ao lado desta opção, há um menu suspenso (dropdown) com os intervalos de tempo disponíveis.<br> 6. O aluno clica no menu e seleciona a opção desejada (por exemplo, "1 dia após o vencimento").<br> 7. Após a seleção, o aluno clica no botão "Salvar" ou "Atualizar Preferências".<br> 8. O sistema exibe uma mensagem de confirmação, como "Suas preferências de notificação foram salvas com sucesso".</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<h3 id="cenario-12-priorizacao-de-conteudo-por-dificuldade">Cenário 12: Priorização de Conteúdo por Dificuldade</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF16</a>  - O sistema deve ter um índice de conteúdos ordenado pela porcentagem de erros em cada conteúdo</p>
+<div align="center"><strong>Tabela 14: Cenário 12</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE12</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Priorização de Conteúdo por Dificuldade da Turma</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>- <strong>Para o aluno:</strong> Ajudar a identificar e focar nos conteúdos onde a turma apresenta a maior porcentagem de erros, otimizando a preparação para avaliações.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Um aluno está se preparando para uma prova e quer revisar os tópicos de forma mais eficiente. Ele decide acessar o índice de conteúdos para ver quais assuntos a turma, em geral, mais errou e que, portanto, merecem mais atenção.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados com resultados de atividades<br>- Módulo de tagueamento de questões por conteúdo<br>- Módulo de cálculo de percentuais de erro</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Dados Insuficientes: O índice não pode ser gerado se poucas atividades foram respondidas pela turma.<br>- Erro de Cálculo: O sistema falha ao processar as porcentagens de erro.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- O índice deve ser baseado em dados anonimizados da turma, sem expor o desempenho individual de outros alunos.<br>- A lista deve ser atualizada periodicamente para refletir os dados mais recentes.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno acessa a plataforma e navega até a disciplina desejada.<br>2. O aluno seleciona a opção "Guia de Estudos" ou "Conteúdos".<br>3. O sistema calcula a porcentagem de erros da turma para cada tópico com base nas atividades já realizadas.<br>4. O sistema exibe uma lista com todos os conteúdos, ordenada do tópico com maior percentual de erro para o menor.<br>5. O aluno utiliza essa informação para priorizar seus estudos.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<h3 id="cenario-13-personalizacao-de-lembretes-de-atividades">Cenário 13: Personalização de Lembretes de Atividades</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF21</a>  - O aluno escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade</p>
+<div align="center"><strong>Tabela 15: Cenário 13</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE13</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Personalização de Lembretes de Atividades</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>- <strong>Para o aluno:</strong> Dar controle sobre como e quando ele é notificado sobre os prazos, permitindo que o sistema se adapte ao seu método pessoal de organização.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Um aluno prefere receber um único lembrete 3 dias antes do prazo final de uma atividade, em vez do padrão de 24 horas. Ele acessa as configurações do seu perfil para ajustar essa preferência de notificação.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Painel de configurações do aluno<br>- Banco de dados para armazenar preferências de notificação<br>- Serviço agendador de notificações</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Erro ao Salvar: O sistema não consegue salvar a preferência por uma falha no banco de dados.<br>- Serviço Indisponível: O serviço de notificações está temporariamente fora do ar e não envia o lembrete agendado.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- A configuração de notificação é individual e não deve afetar outros alunos.<br>- As opções de tempo para o lembrete devem ser claras e pré-definidas (ex: 1 dia antes, 3 dias antes, etc.).</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno acessa a área de "Configurações" ou "Preferências" do seu perfil.<br>2. Ele navega até a seção "Notificações".<br>3. Na opção "Lembrete de entrega de atividade", ele altera a seleção padrão para a desejada (ex: "3 dias antes").<br>4. O sistema confirma que a alteração foi salva com sucesso.<br>5. O serviço de notificação passa a utilizar essa nova configuração para os futuros lembretes deste aluno.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="cenario-14-calculo-do-desempenho-do-aluno">Cenário 14: Cálculo do Desempenho do Aluno</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF24</a> - Deve mostrar como o desempenho está sendo calculado.</p>
+<div align="center"><strong>Tabela 16: Cenário 14</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE14</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Cálculo do Desempenho do Aluno</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o indivíduo visualize não apenas o nível de desempenho alcançado em determinada disciplina, mas também o modo como esse valor foi obtido. Essa transparência facilita a compreensão sobre os pontos fortes e fracos específicos, evidenciando quais fatores têm maior influência no desempenho geral.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O indivíduo (aluno ou professor) acessa a plataforma, vê as estatísticas de desempenho – acadêmico – de aluno e deseja entender por quê em particular elas apresentam os valores que ele acaba de encontrar.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Professor<br>- Sistema de controle de desempenho do aluno<br>- Módulo de configurações pessoais<br>- Sistema de notificações</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Envio de notificações selecionáveis/configuráveis sobre atualizações significantes sobre métricas de computação de desempenho particulares que o indivíduo for desejar;<br>- Interação com os sistemas de análise/inferência cognitiva e de cálculo de desempenho, além da descrição dos métodos que chegam a seus resultados;<br>- Interface(s) de exibição gráfica, com descrições textuais adicionadas onde vier a ser necessário;<br>- Painel de preferências;<br>- Acesso aos bancos de dados de atividades, resultados e desempenho acadêmico das disciplinas;<br>- Comparar o/um desempenho atual com desempenhos anteriores (histórico);<br>- Descrição de inferências com lógica <em>fuzzy</em>;<br>- Painéis de desempenho por aluno e por turma.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Dados insuficientes (incompletos), inconsistentes e/ou inconclusivos para análise(s);<br>- Dados não sincronizados;<br>- Falha na atualização automática de informações;<br>- Resultados de atividade(s) não registrados ou com erro(s);<br>- Falha no envio de notificação;<br>- Ausência de configuração de notificações;<br>- Cálculo indisponível ou falho (exceção genérica);<br>- Erro de carregamento, conexão ou disponibilidade.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- As métricas de computação devem ser atualizadas em tempo real automaticamente após cada conclusão ou correção de atividade, entrega, avaliação, questionário etc.;<br>- As eventuais interfaces exibidas devem ser claras, acessíveis, concisas e intuitivas em todos os dispositivos (plataformas);<br>- A exibição deve ser clara e comparável entre diferentes conteúdos;<br>- O processamento e a exibição de dados devem respeitar a privacidade, garantir integridade e segurança das informações e seguir critérios pedagógicos adequados;<br>- Os alunos podem ver as métricas gerais para as suas turmas e as suas próprias métricas individuais, mas não as de outros alunos;<br>- Os professores podem ver tanto as métricas gerais para as turmas quanto todas as métricas individuais dos seus (próprios) alunos matriculados;<br>- As configurações que forem se aplicar pelos indivíduos devem ser aplicadas individualmente para cada um destes;<br>- Atividades só podem ser consideradas nos cálculos se e quando corrigidas.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O indivíduo faz <em>login</em> na plataforma se necessário.<br>2. Acessa a página principal ou o painel da plataforma.<br>3. O aluno seleciona uma turma (registrada na plataforma, é claro) na qual ele está matriculado, ou o professor, uma que ele leciona.<br>4. Localiza a seção de informações de desempenho da turma.<br> 5. O sistema de controle de desempenho analisa as métricas de derivação de desempenho tanto individuais como gerais coletivas, calcula essas informações de desempenho – por exemplo, valores numéricos, informações em texto, relatórios, resumos… –.<br>6. O sistema exibe os resultados obtidos, juntamente com as fórmulas e métodos utilizados no cálculo, na página da turma ou em uma subpágina específica.<br>7. Adicionalmente, se for configurado para tal pelo aluno, o sistema também envia as notificações necessárias, seja em <em>push</em> como também na própria interface na <em>web</em> e/ou no aplicativo, relevantes às atualizações de métricas de derivação de desempenho desejadas.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+<hr />
+<h3 id="cenario-15-selecao-de-disciplinas-de-maior-facilidade">Cenário 15: Seleção de Disciplinas de Maior Facilidade</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF14</a> – O aluno pode marcar os tópicos da disciplina nos quais sente mais facilidade.</p>
+<div align="center"><strong>Tabela 17: Cenário 15</strong></div>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elemento</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE15</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Seleção de Disciplinas de Maior Facilidade</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o aluno identifique e marque as disciplinas ou tópicos em que sente maior facilidade, ajudando o sistema a personalizar o acompanhamento e o feedback.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno acessa a plataforma e seleciona, em seu painel pessoal, as disciplinas ou tópicos nos quais tem maior domínio. O sistema pode usar essa informação para ajustar sugestões e análises de desempenho.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Sistema de controle de desempenho do aluno<br>- Módulo de configurações pessoais<br> - Sistema de notificações</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Painel de preferências e seleção de tópicos;<br>- Histórico e desempenho acadêmico do aluno;<br>- Sistema de análise cognitiva e inferência de desempenho;<br>- Interface gráfica de seleção com descrições explicativas;<br>- Banco de dados de configuração individual.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Dados não sincronizados;<br>- Falha ao salvar preferências;<br>- Erro de carregamento ou conexão;<br>- Falha no envio de notificações;<br>- Erro de carregamento, conexão ou disponibilidade.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- As seleções feitas pelo aluno devem ser armazenadas individualmente e de forma segura;<br>- O sistema deve respeitar a privacidade das informações do aluno;<br>- A interface de seleção deve ser clara, acessível e responsiva.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno faz <em>login</em> e acessa o painel de preferências.<br>2. Seleciona as disciplinas ou tópicos em que sente maior facilidade.<br>3. O sistema salva essas preferências.<br>4. O sistema utiliza as informações para ajustar relatórios, notificações e recomendações futuras.<br>5. O aluno pode revisar ou alterar suas seleções a qualquer momento.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+<hr />
+<h3 id="cenario-16-notificacao-de-conteudos-mais-dificeis">Cenário 16: Notificação de Conteúdos Mais Difíceis</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF42</a> – O assistente virtual deve notificar qual conteúdo o aluno está tendo mais dificuldade.</p>
+<div align="center"><strong>Tabela 18: Cenário 16</strong></div>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elemento</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE16</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Notificação de Conteúdos Mais Difíceis</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o aluno saiba em que conteúdo ele anda tendo mais dificuldade de assimilamento e desempenho. Pode ajudá-lo a focar melhor seus esforços de melhoria de avaliação e desempenho acadêmico-cognitivo e requisições de ajuda para tal onde for mais necessário num dado momento.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno recebe notificações da plataforma, seja em <em>push</em> como também na própria interface na <em>web</em> e/ou no aplicativo, o avisando sobre os conteúdos acadêmicos entre suas disciplinas correntes em que ele está tendo mais dificuldade e, portanto, deveria se esforçar mais e/ou pedir ajuda nesses próprios conteúdos.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>- Aluno<br>- Sistema de controle de desempenho<br>- Sistema de notificações</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Notificações ao aluno com base no seu próprio desempenho acadêmico;<br>- Acompanhamento das turmas e matérias do aluno no geral;<br>- Interação e integração com os sistemas de análise/inferência cognitiva e de cálculo de desempenho.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Dados insuficientes (incompletos), inconsistentes e/ou inconclusivos para análise(s);<br>- Dados não sincronizados;<br> - Falha na atualização automática de informações;<br>- Resultados de atividade(s) não registrados ou com erro(s);<br>- Falha no envio de notificação;<br>- aluno não escolhe forma de notificação;<br>- Análise de desempenho indisponível ou falha (exceção genérica);<br>- Erro de carregamento, conexão ou disponibilidade.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- As notificações devem ser enviadas somente com base em dados atualizados e validados pelo sistema de desempenho;<br>- O envio das notificações deve ocorrer em intervalos regulares configuráveis, evitando sobrecarga de alertas;<br>- O sistema deve respeitar as preferências de privacidade e de frequência de notificações definidas pelo aluno;<br>- Os conteúdos indicados como “mais difíceis” devem ser identificados com base em métricas objetivas de desempenho, como médias de acertos, tempo de resposta ou participação.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O sistema analisa periodicamente as métricas de desempenho do aluno em todas as disciplinas;<br>2. Identifica-se os conteúdos em que há desempenho significativamente abaixo da média pessoal;<br>3. O sistema de controle de desempenho envia esses resultados ao assistente virtual;<br>4. O assistente virtual gera uma mensagem de notificação explicando quais conteúdos requerem mais atenção;<br>5. O aluno é notificado por <em>push</em>, <em>web</em> e/ou aplicativo, conforme (a) sua configuração;<br>6. O aluno pode acessar a área de detalhes para visualizar estatísticas e recomendações de estudo relacionadas;<br>7. Caso o aluno deseje, ele pode ajustar as preferências de frequência e/ou tipo de notificação.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+<hr />
+<h3 id="cenario-17-organizacao-de-materiais-por-topicos">Cenário 17: Organização de Materiais por Tópicos</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF32</a> - Os materiais devem estar postados em tópicos de conteúdos separados na disciplina.</p>
+<div align="center"><strong>Tabela 19: Cenário 17</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE17</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Materiais Organizacionais por Tópicos</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Garantir que os materiais de estudo sejam organizados e acessíveis por tópicos, facilitando a navegação e aprendizagem.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O participante acessa uma disciplina e deseja consultar materiais agrupados por tópicos específicos.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Professor</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de dados de materiais<br>- Interface de exibição por tópicos</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Falha na categorização dos materiais.<br>- Material inexistente ou corrompido.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- Cada material deve estar vinculado a apenas um tópico.<br>- Exibição deve ser clara e intuitiva.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O sistema organiza materiais por tópicos.<br>2. O aluno acessa a disciplina.<br>3. Navega pelos tópicos.<br>4. Visualiza materiais correspondentes.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+<hr />
+<h3 id="cenario-18-integracao-com-outros-softwares-educacionais">Cenário 18: Integração com Outros Softwares Educacionais</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF34</a> - O sistema deve integrar outros softwares educacionais (como AVAs).</p>
+<div align="center"><strong>Tabela 20: Cenário 18</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE18</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Integração com Softwares Educacionais Externos</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que conteúdos e atividades de outros softwares sejam acessíveis dentro da plataforma, centralizando o aprendizado.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno ou professor deseja acessar recursos de AVAs e outras plataformas educacionais diretamente pelo sistema.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno<br>- Professor<br>- Sistema</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- APIs de integração com softwares externos<br>- Banco de dados do sistema</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Falha na comunicação com softwares externos.<br>- Dados inconsistentes importados.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- Apenas plataformas autorizadas devem ser integradas.<br>- Integração segura e em tempo real.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O sistema conecta com o software externo.<br>2. Importa materiais e atividades.<br>3. O conteúdo integrado é exibido de forma organizada dentro do ambiente principal.<br>4. O aluno ou professor interage com materiais normalmente.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+<hr />
+<h3 id="cenario-19-customizacao-do-assistente-virtual">Cenário 19: Customização do Assistente Virtual</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF40</a> - O assistente virtual deve ser customizável pelo aluno.</p>
+<div align="center"><strong>Tabela 21: Cenário 19</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE19</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Customização do Assistente Virtual</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o aluno personalize a aparência, comportamento e notificações do assistente virtual, aumentando engajamento e satisfação.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O aluno deseja ajustar o assistente virtual de acordo com suas preferências.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Aluno</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Interface de configuração do assistente<br>- Banco de dados de preferências do aluno</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- Falha ao salvar configurações.<br>- Alterações não aplicadas corretamente.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- Configurações aplicam-se apenas ao respectibo aluno.<br>- Devem respeitar limites técnicos da plataforma.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O aluno acessa a seção de customização.<br>2. Ajusta aparência, comportamento e notificações.<br>3. Salva preferências.<br>4. Assistente virtual se adapta às configurações.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+<hr />
+<h3 id="cenario-20-importacao-de-questoes-externas"><strong>Cenário 20: Importação de Questões Externas</strong></h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#funcionais">RF30</a> – O banco de questões do sistema deve conter questões de outras origens.</p>
+<div align="center"><strong>Tabela 22: Cenário 20</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ID</strong></td>
+<td>CE20</td>
+</tr>
+<tr>
+<td><strong>Título</strong></td>
+<td>Importação de Questões Externas</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que professores e administradores ampliem o banco de questões importando perguntas de outras origens (arquivos, bancos de dados ou plataformas externas).</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O professor deseja enriquecer o banco de questões do sistema com conteúdos adicionais, obtidos de fontes externas ou arquivos previamente preparados.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>- Professor<br>- Administrador do sistema</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>- Banco de questões interno do sistema<br>- Arquivos externos (CSV, JSON, XML, etc.)<br>- APIs ou integrações com outras plataformas educacionais</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>- O arquivo enviado está em formato inválido.<br>- Falha de conexão com a origem externa.<br>- Questões duplicadas detectadas durante a importação.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>- Somente indivíduos com permissão de edição (professores e administradores) podem importar.<br>- Questões importadas devem seguir o formato padrão do sistema (enunciado, alternativas, gabarito).</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O indivíduo acessa o módulo <strong>Banco de Questões</strong>.<br>2. Seleciona a opção <strong>Importar Questões</strong>.<br>3. Escolhe a origem externa (arquivo ou integração).<br>4. O sistema valida o formato e os campos obrigatórios.<br>5. As questões são adicionadas ao banco, com metadados sobre sua origem.<br>6. O sistema exibe uma mensagem confirmando o sucesso da importação.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h2 id="gravacao-da-validacao-do-documento">Gravação da validação do documento</h2>
+<h3 id="usuario-entrevistado">Usuário entrevistado</h3>
+<p>Vale ressaltar que o usuário entrevistado se enquadra no nosso perfil de usuário</p>
+<div align="center"><strong>Tabela 6: Usuário Real e Informações da Gravação</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Data</th>
+<th>Hora</th>
+<th>Local</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>João Igor</td>
+<td>09/10/2025</td>
+<td>13:30</td>
+<td>Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<p>Além disso, a gravação da validação pode ser visualizada em: <a href="https://youtu.be/WbPsxPIdTtg">https://youtu.be/WbPsxPIdTtg</a></p>
+<h2 id="agradecimentos">Agradecimentos</h2>
+<p>O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — <strong>ChatGPT, Google Gemini e DeepSeek</strong> — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.</p>
+<h2 id="referencias">Referências</h2>
+<p>SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: <a href="../../arquivos/Cenarios_Aula10.pdf">Requisitos_Aula 10</a>. Acesso em: 10 outubro 2025.</p>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>05/10/2025</td>
+<td>Criação do documento de cenários</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>07/10/2025</td>
+<td>Criação dos cenários CE01, CE02 e CE03</td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>08/10/2025</td>
+<td>Atualização de informações no documento</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>08/10/2025</td>
+<td>Criação dos cenários CE07, CE08 e CE09</td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>08/10/2025</td>
+<td>Criação dos cenários CE10 e CE11</td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></td>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>09/10/2025</td>
+<td>Criação dos cenários CE12, CE13 e CE20</td>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></td>
+</tr>
+<tr>
+<td>1.6</td>
+<td>09/10/2025</td>
+<td>Criação dos cenários CE17, CE18 e CE19</td>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.7</td>
+<td>12/10/2025</td>
+<td>Criação dos cenários CE14, CE15 e CE16</td>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../casos_de_uso/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Casos de Uso">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Casos de Uso
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../especificacao_suplementar/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Especificação Suplementar">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Especificação Suplementar
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

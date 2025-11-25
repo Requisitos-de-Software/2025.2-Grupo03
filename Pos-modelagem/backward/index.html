@@ -1,0 +1,5290 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.2-Grupo03/Pos-modelagem/backward/">
+      
+      
+        <link rel="prev" href="../matriz_de_rastreabilidade/">
+      
+      
+        <link rel="next" href="../forward/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Backward From - Grupo 03 - Requisitos de Software (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#backward-from" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-header__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo 03 - Requisitos de Software (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Backward From
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Atas/ata09-09-2025_1/" class="md-tabs__link">
+          
+  
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-tabs__link">
+          
+  
+  
+  Apresentação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Rich-picture/richpicture/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Rich Picture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Verificacao/verificacao/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Modelagem/casos_de_uso/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../matriz_de_rastreabilidade/" class="md-tabs__link">
+          
+  
+  
+  Pós Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeção
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Validacao/prototipos/" class="md-tabs__link">
+          
+  
+  
+  Validação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-tabs__link">
+          
+  
+  
+  Entrega Final
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-nav__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Grupo 03 - Requisitos de Software (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata10-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 10/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata18-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 18/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/entrega_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HeatMap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_planejado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma planejado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma executado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/Aplicativos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativos avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Rich-picture/richpicture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rich Picture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming_perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos Elicitados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/analise_de_documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Elicitação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Priorização
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Priorização
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First Thing First
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Three Level Scale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/100_dolares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    $100
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MoSCoW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Tradicionais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Tradicionais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/casos_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de Uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/cenario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Especificação Suplementar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/lexico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Léxico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Ágeis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Ágeis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/historias_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histórias de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/backlog_do_produto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog do Produto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/nfr_framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NFR Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pós Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pós Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matriz_de_rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matriz de Rastreabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backward From
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#niveis-de-informacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Níveis de Informação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elos-de-rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elos de Rastreabilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legenda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backward-from_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backward-From
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Backward-From">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requisitos Funcionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requisitos Não-Funcionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elos-de-rastreabilidade-backward-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elos de Rastreabilidade (Backward-From)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historicos-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Históricos de versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inspeção
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1_5" id="__nav_10_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo +1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo +1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2_5" id="__nav_10_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa1_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa2_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa3_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa4_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa6_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Validação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prototipação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/contato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comprovação Informal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega Final
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo Escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/artefatos_criados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatos Criados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/cronograma_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/execucao_projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/facilidades_dificuldades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facilidades e Dificuldades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/resultados_alcan%C3%A7ados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados Alcançados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/tecnicas_utilizadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas Utilizadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/validacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#niveis-de-informacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Níveis de Informação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elos-de-rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elos de Rastreabilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legenda
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backward-from_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backward-From
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Backward-From">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requisitos Funcionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requisitos Não-Funcionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elos-de-rastreabilidade-backward-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Elos de Rastreabilidade (Backward-From)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historicos-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Históricos de versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="backward-from">Backward-From</h1>
+<h2 id="introducao">Introdução</h2>
+<p>A rastreabilidade <strong>Backward-From (ou rastreabilidade para trás)</strong> é uma abordagem que permite identificar a origem de cada requisito dentro de um projeto. Ela busca responder à pergunta <strong>“por que este requisito existe?”</strong>, estabelecendo uma ligação entre os requisitos atuais e suas fontes de elicitação, como entrevistas, documentos, ou necessidades dos indivíduos.</p>
+<p>Em outras palavras, ela garante que nenhum requisito seja implementado sem uma justificativa clara, permitindo compreender o contexto e o motivo de sua criação. Essa prática é fundamental para manter a consistência, a transparência e o controle sobre as decisões tomadas durante o desenvolvimento do sistema.</p>
+<h2 id="integrantes-do-grupo">Integrantes do Grupo</h2>
+<p>A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa da Histórias de Usuário, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.</p>
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Quais etapas participou</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td>Adição dos backward-From: <a href="#BF43">BF43</a>, <a href="#BF44">BF44</a>, <a href="#BF45">BF45</a>, <a href="#BF46">BF46</a>, <a href="#BF49">BF49</a>, <a href="#BF50">BF50</a>, <a href="#BF51">BF51</a>, <a href="#BF59">BF59</a> e <a href="#BF64">BF64</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF43">ELOBF43</a>, <a href="#ELOBF44">ELOBF44</a>, <a href="#ELOBF45">ELOBF45</a>, <a href="#ELOBF46">ELOBF46</a>, <a href="#ELOBF49">ELOBF49</a>, <a href="#ELOBF50">ELOBF50</a>, <a href="#ELOBF51">ELOBF51</a>, <a href="#ELOBF59">ELOBF59</a> e <a href="#ELOBF64">ELOBF64</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td>Adição dos backward-From: <a href="#BF03">BF03</a>, <a href="#BF04">BF04</a>, <a href="#BF05">BF05</a>, <a href="#BF16">BF16</a>, <a href="#BF20">BF20</a>, <a href="#BF25">BF25</a>, <a href="#BF26">BF26</a>, <a href="#BF29">BF29</a>, <a href="#BF58">BF58</a> e <a href="#BF63">BF63</a>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td>Adição dos backward-From: <a href="#BF07">BF07</a>, <a href="#BF08">BF08</a>, <a href="#BF09">BF09</a>, <a href="#BF10">BF10</a>, <a href="#BF12">BF12</a>, <a href="#BF17">BF17</a>, <a href="#BF27">BF27</a>, <a href="#BF54">BF54</a> e <a href="#BF62">BF62</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF07">ELOBF07</a>, <a href="#ELOBF08">ELOBF08</a>, <a href="#ELOBF09">ELOBF09</a>, <a href="#ELOBF10">ELOBF10</a>, <a href="#ELOBF12">ELOBF12</a>, <a href="#ELOBF17">ELOBF17</a>, <a href="#ELOBF27">ELOBF27</a>, <a href="#ELOBF54">ELOBF54</a> e <a href="#ELOBF62">ELOBF62</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td>Adição dos <em>backward-from</em> <a href="#BF14">BF14</a>, <a href="#BF23">BF23</a>, <a href="#BF30">BF30</a>, <a href="#BF37">BF37</a>, <a href="#BF41">BF41</a>, <a href="#BF42">BF42</a>, <a href="#BF47">BF47</a>, <a href="#BF53">BF53</a> e <a href="#BF55">BF55</a>, além da criação dos elos do mesmo intervalo <a href="#ELOBF14">ELOBF14</a>, <a href="#ELOBF23">ELOBF23</a>, <a href="#ELOBF30">ELOBF30</a>, <a href="#ELOBF37">ELOBF37</a>, <a href="#ELOBF41">ELOBF41</a>, <a href="#ELOBF42">ELOBF42</a>, <a href="#ELOBF47">ELOBF47</a>, <a href="#ELOBF53">ELOBF53</a> e <a href="#ELOBF55">ELOBF55</a>.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td>Adição dos backward-From: <a href="#BF24">BF24</a>, <a href="#BF31">BF31</a>, <a href="#BF32">BF32</a>, <a href="#BF33">BF33</a>, <a href="#BF36">BF36</a>, <a href="#BF39">BF39</a> e <a href="#BF48">BF48</a>; criação dos elos: <a href="#ELOBF24">ELOBF24</a>, <a href="#ELOBF31">ELOBF31</a>, <a href="#ELOBF32">ELOBF32</a>, <a href="#ELOBF33">ELOBF33</a>, <a href="#ELOBF36">ELOBF36</a>, <a href="#ELOBF39">ELOBF39</a> e <a href="#ELOBF48">ELOBF48</a>. Correção e padronização de links nas Tabelas 2 e 4.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td>Criação do documento de Backward-From e adição dos backward-From: <a href="#BF06">BF06</a>, <a href="#BF15">BF15</a>, <a href="#BF18">BF18</a>, <a href="#BF19">BF19</a>, <a href="#BF21">BF21</a>, <a href="#BF22">BF22</a>, <a href="#BF34">BF34</a>, <a href="#BF35">BF35</a>, <a href="#BF52">BF52</a> e <a href="#BF56">BF56</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF06">ELOBF06</a>, <a href="#ELOBF15">ELOBF15</a>, <a href="#ELOBF18">ELOBF18</a>, <a href="#ELOBF19">ELOBF19</a>, <a href="#ELOBF21">ELOBF21</a>, <a href="#ELOBF22">ELOBF22</a>, <a href="#ELOBF34">ELOBF34</a>, <a href="#ELOBF35">ELOBF35</a>, <a href="#ELOBF52">ELOBF52</a> e <a href="#ELOBF56">ELOBF56</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td>Adição dos backward-From: <a href="#BF01">BF01</a>, <a href="#BF02">BF02</a>, <a href="#BF11">BF11</a>, <a href="#BF13">BF13</a>, <a href="#BF28">BF28</a>, <a href="#BF38">BF38</a>, <a href="#BF40">BF40</a>, <a href="#BF60">BF60</a>, <a href="#BF61">BF61</a>, <a href="#BF65">BF65</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF01">ELOBF01</a>, <a href="#ELOBF02">ELOBF02</a>, <a href="#ELOBF11">ELOBF11</a>, <a href="#ELOBF13">ELOBF13</a>, <a href="#ELOBF28">ELOBF28</a>, <a href="#ELOBF38">ELOBF38</a>, <a href="#ELOBF40">ELOBF40</a>, <a href="#ELOBF60">ELOBF60</a>, <a href="#ELOBF61">ELOBF61</a>, <a href="#ELOBF65">ELOBF65</a>.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+<h2 id="metodologia">Metodologia</h2>
+<p>A metodologia adotada para esta análise baseia-se no <strong>Meta-modelo de Toranzo</strong>, conforme apresentado nos slides da aula <em>“Requisitos – Aula 26”</em>, de Milene Serrano e Maurício Serrano, disponíveis <a href="../../arquivos/Requisitos%20-%20aula26-milene-modelagem.pdf">clicando aqui</a>.  </p>
+<p>Esse modelo organiza as informações rastreáveis em <strong>níveis hierárquicos</strong> e define <strong>elos</strong> que representam as relações entre os artefatos envolvidos no desenvolvimento de sistemas.</p>
+<h3 id="niveis-de-informacao">Níveis de Informação</h3>
+<p>Nesta análise, o foco está no <strong>nível de Desenvolvimento</strong>, um dos quatro níveis principais do modelo, conforme apresentado na Figura 1:  </p>
+<ul>
+<li><strong>Ambiental</strong>  </li>
+<li><strong>Organizacional</strong>  </li>
+<li><strong>Gerencial</strong>  </li>
+<li><strong>Desenvolvimento</strong>  </li>
+</ul>
+<div align="center"><strong>Figura 1: Níveis de Desenvolvimento</strong></div>
+
+<p><img alt="Figura 1: Níveis de Desenvolvimento" src="../../imagens/matriz_rastreabilidade/niveis_rastreabilidade.png" /></p>
+<div align="center"><strong>Fonte: SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26</strong></div>
+
+<p>No contexto da <strong>rastreabilidade Backward-From</strong>, o objetivo é <strong>conectar cada requisito à sua origem</strong>, permitindo rastrear <strong>de onde ele veio e qual necessidade ou decisão o motivou</strong>.<br />
+Essa abordagem ajuda a compreender o <strong>propósito de cada requisito</strong> e a <strong>garantir a consistência entre as fontes de elicitação e os requisitos documentados</strong>.</p>
+<h3 id="elos-de-rastreabilidade">Elos de Rastreabilidade</h3>
+<p>Para modelar as conexões entre os requisitos e suas origens, foram utilizados os <strong>elos de rastreabilidade</strong> definidos no modelo de Toranzo, conforme apresentado na Figura 2:  </p>
+<ul>
+<li><strong>Satisfação:</strong> Conecta um requisito (artefato de origem) a qualquer outro artefato de destino (como outro requisito, história de usuário, componente ou módulo) que seja necessário para cumprir, implementar ou atender a esse requisito. </li>
+<li><strong>Recurso:</strong> Conecta um requisito a um dado, serviço ou funcionalidade da qual ele depende para funcionar corretamente.  </li>
+<li><strong>Responsabilidade:</strong> Conecta um requisito ao ator, componente ou módulo responsável por sua criação ou definição.  </li>
+<li><strong>Representação:</strong> Conecta um requisito à sua origem ou forma de especificação em outro artefato.  </li>
+<li><strong>Alocado:</strong> Conecta um requisito a um artefato de planejamento que indica de onde ele foi derivado ou relacionado.  </li>
+<li><strong>Agregação:</strong> Conecta um requisito a outro do qual ele faz parte ou que o complementa, formando uma funcionalidade mais ampla.</li>
+</ul>
+<div align="center"><strong>Figura 2: Tipos de Elos de Rastreabilidade</strong></div>
+
+<p><img alt="Figura 2: Tipos de Elos de Rastreabilidade" src="../../imagens/matriz_rastreabilidade/tipos_elos_rastreabilidade.png" /></p>
+<div align="center"><strong>Fonte: SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26</strong></div>
+
+<p>Cada elo é aplicado conforme a <strong>natureza da relação</strong> entre os requisitos e os elementos que lhes dão origem.  </p>
+<p>A aplicação prática dessa metodologia é apresentada em uma <strong>tabela de mapeamento</strong>, que relaciona os requisitos às suas respectivas fontes e artefatos de elicitação, indicando o tipo de elo utilizado em cada caso.<br />
+Essa abordagem permite <strong>verificar se todos os requisitos têm origem bem definida</strong>, <strong>mantendo a coerência entre as etapas de elicitação e documentação</strong> e <strong>facilitando o controle da rastreabilidade</strong> ao longo do projeto.</p>
+<h2 id="legenda">Legenda</h2>
+<p>Serão utilizados as seguintes legendas das tabelas:</p>
+<ul>
+<li>RFx: Requisito Funcional número x;</li>
+<li>RNFx: Requisito Não Funcional número x;</li>
+<li>ELOBFx: Elo do Backward-From número x;</li>
+<li>BFx: Backward from número x.</li>
+</ul>
+<h2 id="backward-from_1">Backward-From</h2>
+<h3 id="requisitos-funcionais">Requisitos Funcionais</h3>
+<p>Na tabela 2 encontra-se a rastreabilidade Backward-From dos Requisitos Funcionais.</p>
+<div align="center"><strong>Tabela 2: Requisitos Funcionais</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>ID  </th>
+<th>Requisito</th>
+<th>Descrição</th>
+<th>Rastreabilidade</th>
+<th>Implementado</th>
+<th>Elo Relacionado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="BF01"></a>BF01</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF01">RF01</a></td>
+<td>O sistema deve identificar cada indivíduo (aluno, monitor, professor, coordenador, diretor, administrador).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF01">ELOBF01</a></td>
+</tr>
+<tr>
+<td><a id="BF02"></a>BF02</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF02">RF02</a></td>
+<td>O sistema deve ter perfil individual.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF02">ELOBF02</a></td>
+</tr>
+<tr>
+<td><a id="BF03"></a>BF03</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF03">RF03</a></td>
+<td>Deve mapear conceitos relacionados ao conteúdo, respeitando a hierarquia da Teoria da Aprendizagem Significativa (TAS).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF03">ELOBF03</a></td>
+</tr>
+<tr>
+<td><a id="BF04"></a>BF04</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF04">RF04</a></td>
+<td>O sistema deve agregar o processo formal de avaliação (Plano de Ensino) com o ambiente virtual.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF04">ELOBF04</a></td>
+</tr>
+<tr>
+<td><a id="BF05"></a>BF05</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF05">RF05</a></td>
+<td>Deve integrar a avaliação docente com as inferências do SAE.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF05">ELOBF05</a></td>
+</tr>
+<tr>
+<td><a id="BF06"></a>BF06</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF06">RF06</a></td>
+<td>O assistente virtual deve combinar resultados formais com inferências Fuzzy.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF06">ELOBF06</a></td>
+</tr>
+<tr>
+<td><a id="BF07"></a>BF07</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a></td>
+<td>A interface deve conter o progresso do aluno na disciplina toda</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF07">ELOBF07</a></td>
+</tr>
+<tr>
+<td><a id="BF08"></a>BF08</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a></td>
+<td>A interface deve exibir um progresso em porcentagem do andamento da disciplina</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF08">ELOBF08</a></td>
+</tr>
+<tr>
+<td><a id="BF09"></a>BF09</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a></td>
+<td>A interface deve exibir como está a porcentagem de acertos das atividades de cada conteúdo</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF09">ELOBF09</a></td>
+</tr>
+<tr>
+<td><a id="BF10"></a>BF10</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a></td>
+<td>A interface deve exibir como está a porcentagem de erros das atividades de cada conteúdo</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF10">ELOBF10</a></td>
+</tr>
+<tr>
+<td><a id="BF11"></a>BF11</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a></td>
+<td>A interface deve exibir a média geral da turma em cada atividade.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF11">ELOBF11</a></td>
+</tr>
+<tr>
+<td><a id="BF12"></a>BF12</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a></td>
+<td>A interface deve exibir a média do indivíduo após a atividade</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF12">ELOBF12</a></td>
+</tr>
+<tr>
+<td><a id="BF13"></a>BF13</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF13">RF13</a></td>
+<td>O aluno deve escolher o tempo em que deseja receber alertas sobre atividades atrasadas.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF13">ELOBF13</a></td>
+</tr>
+<tr>
+<td><a id="BF14"></a>BF14</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF14">RF14</a></td>
+<td>O aluno pode marcar os tópicos da disciplina no qual ele sente mais facilidade</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF14">ELOBF14</a></td>
+</tr>
+<tr>
+<td><a id="BF15"></a>BF15</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15">RF15</a></td>
+<td>O sistema deve enviar notificações para lembrar o aluno de revisar conteúdos passados.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF15">ELOBF15</a></td>
+</tr>
+<tr>
+<td><a id="BF16"></a>BF16</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF16">RF16</a></td>
+<td>O sistema deve ter um índice de conteúdos ordenado pela porcentagem de erros em cada conteúdo.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF16">ELOBF16</a></td>
+</tr>
+<tr>
+<td><a id="BF17"></a>BF17</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF17">RF17</a></td>
+<td>O sistema deve possuir vídeo aula</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF17">ELOBF17</a></td>
+</tr>
+<tr>
+<td><a id="BF18"></a>BF18</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18">RF18</a></td>
+<td>O sistema deve pedir ao indivíduo a melhor forma de caminho de notificação.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF18">ELOBF18</a></td>
+</tr>
+<tr>
+<td><a id="BF19"></a>BF19</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19">RF19</a></td>
+<td>O sistema deve enviar uma notificação quando está chegando perto da data de entrega de uma atividade.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF19">ELOBF19</a></td>
+</tr>
+<tr>
+<td><a id="BF20"></a>BF20</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF20">RF20</a></td>
+<td>O aluno escolhe quando ele recebe a notificação de proximidade da data de entrega de atividade.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF20">ELOBF20</a></td>
+</tr>
+<tr>
+<td><a id="BF21"></a>BF21</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a></td>
+<td>O sistema deve fornecer dados e informações analíticas em diferentes níveis (individual, turma, entre turmas).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF21">ELOBF21</a></td>
+</tr>
+<tr>
+<td><a id="BF22"></a>BF22</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a></td>
+<td>As análises devem ser em tempo real e apresentadas em gráficos (barra, coluna, linha, pizza).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF22">ELOBF22</a></td>
+</tr>
+<tr>
+<td><a id="BF23"></a>BF23</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a></td>
+<td>Deve mostrar como o desempenho está sendo calculado.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Não</td>
+<td><a href="#ELOBF23">ELOBF23</a></td>
+</tr>
+<tr>
+<td><a id="BF24"></a>BF24</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF24">RF24</a></td>
+<td>O sistema deve permitir a criação e organização de questões interativas para apoiar o ensino-aprendizagem.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF24">ELOBF24</a></td>
+</tr>
+<tr>
+<td><a id="BF25"></a>BF25</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF25">RF25</a></td>
+<td>Deve promover a interação dos alunos com as questões, avaliando seu conhecimento informativo e formativo.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF25">ELOBF25</a></td>
+</tr>
+<tr>
+<td><a id="BF26"></a>BF26</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF26">RF26</a></td>
+<td>O SAE deve fornecer assistência para professores neste módulo.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF26">ELOBF26</a></td>
+</tr>
+<tr>
+<td><a id="BF27"></a>BF27</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF27">RF27</a></td>
+<td>O SAE deve fornecer assistência para alunos neste módulo.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF27">ELOBF27</a></td>
+</tr>
+<tr>
+<td><a id="BF28"></a>BF28</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF28">RF28</a></td>
+<td>O sistema deve conter um banco de questões geradas pelo professor.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF28">ELOBF28</a></td>
+</tr>
+<tr>
+<td><a id="BF29"></a>BF29</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF29">RF29</a></td>
+<td>O banco de questões do sistema deve conter questões de outras origens.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF29">ELOBF29</a></td>
+</tr>
+<tr>
+<td><a id="BF30"></a>BF30</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF30">RF30</a></td>
+<td>O sistema deve direcionar cada aluno a materiais adequados à sua situação cognitiva e preferências.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF30">ELOBF30</a></td>
+</tr>
+<tr>
+<td><a id="BF31"></a>BF31</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF31">RF31</a></td>
+<td>Os materiais devem estar postados em tópicos de conteúdos separados na disciplina.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Não</td>
+<td><a href="#ELOBF31">ELOBF31</a></td>
+</tr>
+<tr>
+<td><a id="BF32"></a>BF32</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF32">RF32</a></td>
+<td>O banco de questões deve estar separado por conteúdo.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF32">ELOBF32</a></td>
+</tr>
+<tr>
+<td><a id="BF33"></a>BF33</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF33">RF33</a></td>
+<td>O sistema deve integrar outros softwares educacionais (como AVAs).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Não</td>
+<td><a href="#ELOBF33">ELOBF33</a></td>
+</tr>
+<tr>
+<td><a id="BF34"></a>BF34</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF34">RF34</a></td>
+<td>A integração deve reduzir o esforço de professores e monitores, centralizando informações sobre atividades e desempenho.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF34">ELOBF34</a></td>
+</tr>
+<tr>
+<td><a id="BF35"></a>BF35</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF35">RF35</a></td>
+<td>O sistema deve criar um personagem antropomórfico para interação direta com o estudante.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF35">ELOBF35</a></td>
+</tr>
+<tr>
+<td><a id="BF36"></a>BF36</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF36">RF36</a></td>
+<td>A interação deve visar a compreensão da situação de aprendizagem.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Não</td>
+<td><a href="#ELOBF36">ELOBF36</a></td>
+</tr>
+<tr>
+<td><a id="BF37"></a>BF37</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF37">RF37</a></td>
+<td>A inferência deve envolver Lógica Fuzzy, permitindo avaliações graduais (ex.: "bom", "razoável", "fraco").</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF37">ELOBF37</a></td>
+</tr>
+<tr>
+<td><a id="BF38"></a>BF38</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF38">RF38</a></td>
+<td>O assistente virtual deve ser visível na interface.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF38">ELOBF38</a></td>
+</tr>
+<tr>
+<td><a id="BF39"></a>BF39</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF39">RF39</a></td>
+<td>O assistente virtual deve ser customizável pelo aluno.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF39">ELOBF39</a></td>
+</tr>
+<tr>
+<td><a id="BF40"></a>BF40</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF40">RF40</a></td>
+<td>O assistente virtual deve sugerir questões com o conteúdo da vídeo aula.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF40">ELOBF40</a></td>
+</tr>
+<tr>
+<td><a id="BF41"></a>BF41</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF41">RF41</a></td>
+<td>O assistente virtual deve notificar qual conteúdo o aluno está tendo mais dificuldade</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Não</td>
+<td><a href="#ELOBF41">ELOBF41</a></td>
+</tr>
+<tr>
+<td><a id="BF42"></a>BF42</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF42">RF42</a></td>
+<td>O assistente virtual deve notificar o professor da disciplina com que parte do conteúdo os alunos estão tendo mais dificuldade</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF42">ELOBF42</a></td>
+</tr>
+<tr>
+<td><a id="BF43"></a>BF43</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF43">RF43</a></td>
+<td>O sistema deve facilitar a interação entre monitores, professores e alunos.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF43">ELOBF43</a></td>
+</tr>
+<tr>
+<td><a id="BF44"></a>BF44</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF44">RF44</a></td>
+<td>Deve fornecer chat síncrono para interação a distância.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF44">ELOBF44</a></td>
+</tr>
+<tr>
+<td><a id="BF45"></a>BF45</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF45">RF45</a></td>
+<td>O assistente virtual deve acompanhar interações</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF45">ELOBF45</a></td>
+</tr>
+<tr>
+<td><a id="BF46"></a>BF46</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a></td>
+<td>O assistente virtual deve fornecer dados relevantes ao indivíduo (progresso do aluno)</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF46">ELOBF46</a></td>
+</tr>
+<tr>
+<td><a id="BF47"></a>BF47</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF47">RF47</a></td>
+<td>Deve disponibilizar informações sobre horários e locais de monitoria.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF47">ELOBF47</a></td>
+</tr>
+<tr>
+<td><a id="BF48"></a>BF48</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF48">RF48</a></td>
+<td>O assistente virtual deve fornecer orientação pedagógica individualizada, baseada na TAS e no desejo didático dos docentes.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Não</td>
+<td><a href="#ELOBF48">ELOBF48</a></td>
+</tr>
+<tr>
+<td><a id="BF49"></a>BF49</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49">RF49</a></td>
+<td>O assistente virtual deve analisar a situação cognitiva de cada aluno e atuar como agente colaborativo na aprendizagem.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a></td>
+<td>Não</td>
+<td><a href="#ELOBF49">ELOBF49</a></td>
+</tr>
+<tr>
+<td><a id="BF50"></a>BF50</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50">RF50</a></td>
+<td>O sistema deve apresentar ao professor qual aluno sabe sobre o conteúdo</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF50">ELOBF50</a></td>
+</tr>
+<tr>
+<td><a id="BF51"></a>BF51</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51">RF51</a></td>
+<td>O sistema deve apresentar ao professor qual aluno possui um comportamento adequado (entrega de atividades, presença na aula)</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF51">ELOBF51</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="requisitos-nao-funcionais">Requisitos Não-Funcionais</h3>
+<p>Na tabela 3 encontra-se a rastreabilidade Backward-From dos Requisitos Não-Funcionais.</p>
+<div align="center"><strong>Tabela 3: Requisitos Não-Funcionais</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>ID  </th>
+<th>Requisito</th>
+<th>Descrição</th>
+<th>Rastreabilidade</th>
+<th>Implementado</th>
+<th>Elo Relacionado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="BF52"></a>BF52</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF01">RNF01</a></td>
+<td>A interface deve se adaptar automaticamente ao perfil de cada indivíduo (aluno, monitor, professor, etc.).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF52">ELOBF52</a></td>
+</tr>
+<tr>
+<td><a id="BF53"></a>BF53</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF02">RNF02</a></td>
+<td>O sistema deve ser acessível pela internet, presencial ou a distância.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF53">ELOBF53</a></td>
+</tr>
+<tr>
+<td><a id="BF54"></a>BF54</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF03">RNF03</a></td>
+<td>O ambiente deve ter tempo de resposta de até 1 segundo para todos os perfis de indivíduos.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF54">ELOBF54</a></td>
+</tr>
+<tr>
+<td><a id="BF55"></a>BF55</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF04">RNF04</a></td>
+<td>Deve se basear na extensão de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF55">ELOBF55</a></td>
+</tr>
+<tr>
+<td><a id="BF56"></a>BF56</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF05">RNF05</a></td>
+<td>Deve empregar recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF56">ELOBF56</a></td>
+</tr>
+<tr>
+<td><a id="BF57"></a>BF57</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF06">RNF06</a></td>
+<td>Projeto multidisciplinar envolvendo Educação, Psicologia e Informática.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF57">ELOBF57</a></td>
+</tr>
+<tr>
+<td><a id="BF58"></a>BF58</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF07">RNF07</a></td>
+<td>As análises do módulo MAD devem ser realizadas em tempo real.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF58">ELOBF58</a></td>
+</tr>
+<tr>
+<td><a id="BF59"></a>BF59</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF08">RNF08</a></td>
+<td>O sistema deve garantir que os dados dos estudantes sejam armazenados de forma segura e criptografada.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF59">ELOBF59</a></td>
+</tr>
+<tr>
+<td><a id="BF60"></a>BF60</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF09">RNF09</a></td>
+<td>O sistema deve estar disponível 24 horas por dia, 7 dias por semana, com tempo de indisponibilidade máximo de 1% ao mês.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF60">ELOBF60</a></td>
+</tr>
+<tr>
+<td><a id="BF61"></a>BF61</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF10">RNF10</a></td>
+<td>O tempo de resposta para carregamento de dashboards e gráficos deve ser inferior a 3 segundos.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF61">ELOBF61</a></td>
+</tr>
+<tr>
+<td><a id="BF62"></a>BF62</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF11">RNF11</a></td>
+<td>O sistema deve ser compatível com dispositivos móveis (responsividade).</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF62">ELOBF62</a></td>
+</tr>
+<tr>
+<td><a id="BF63"></a>BF63</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF13">RNF13</a></td>
+<td>O sistema deve possibilitar integração com outros AVAs e sistemas educacionais externos.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF63">ELOBF63</a></td>
+</tr>
+<tr>
+<td><a id="BF64"></a>BF64</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF14">RNF14</a></td>
+<td>O sistema deve permitir escalabilidade para atender um número crescente de alunos e módulos sem perda de desempenho.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF64">ELOBF64</a></td>
+</tr>
+<tr>
+<td><a id="BF65"></a>BF65</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF15">RNF15</a></td>
+<td>O sistema deve garantir a privacidade dos dados dos estudantes em conformidade com a LGPD.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Sim</td>
+<td><a href="#ELOBF65">ELOBF65</a></td>
+</tr>
+<tr>
+<td><a id="BF66"></a>BF66</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF12">RNF12</a></td>
+<td>O sistema deve seguir padrões de acessibilidade para garantir usabilidade a todos os indivíduos.</td>
+<td><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a></td>
+<td>Não</td>
+<td><a href="#ELOBF66">ELOBF66</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="elos-de-rastreabilidade-backward-from">Elos de Rastreabilidade (Backward-From)</h3>
+<p>A tabela 4 apresenta os <strong>elos de rastreabilidade Backward-From</strong> para os requisitos selecionados.<br />
+Cada elo descreve como o requisito é <strong>rastreado para trás</strong>, conectando-o à sua <strong>origem na elicitação</strong> — como entrevistas, documentos ou necessidades dos utilizadores — e demonstrando o <strong>motivo de sua existência</strong> no sistema.</p>
+<div align="center"><strong>Tabela 4: Elos de Rastreabilidade Backward-From</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>ID - Elo  </th>
+<th>ID - Backward-From</th>
+<th>Tipo de Vínculo</th>
+<th>Descrição do Elo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="ELOBF01"></a>ELOBF01</td>
+<td><a href="#BF01">BF01</a></td>
+<td><strong>Responsabilidade</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF01">RF01</a> foi derivado da necessidade de distinguir papéis institucionais (aluno, professor, monitor, etc.), sendo responsabilidade da camada de autenticação e controle de acesso.</td>
+</tr>
+<tr>
+<td><a id="ELOBF02"></a>ELOBF02</td>
+<td><a href="#BF02">BF02</a></td>
+<td><strong>Agregação</strong></td>
+<td>Este elo define que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF02">RF02</a> agrega as funcionalidades de personalização de perfil, refletindo a diferenciação de papéis identificada em <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF01">RF01</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF06"></a>ELOBF06</td>
+<td><a href="#BF06">BF06</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF06">RF06</a>, que define a combinação de resultados formais com inferências Fuzzy, é representado pela funcionalidade de análise inteligente de dados educacionais.</td>
+</tr>
+<tr>
+<td><a id="ELOBF07"></a>ELOBF07</td>
+<td><a href="#BF07">BF07</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a> foi derivado da necessidade de visualização do progresso do aluno, identificada durante a sessão de <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a>, satisfazendo a demanda por acompanhamento contínuo.</td>
+</tr>
+<tr>
+<td><a id="ELOBF08"></a>ELOBF08</td>
+<td><a href="#BF08">BF08</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a> surgiu da necessidade de quantificar o progresso, identificada na sessão de <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a>, satisfazendo a demanda por uma métrica clara de avanço.</td>
+</tr>
+<tr>
+<td><a id="ELOBF09"></a>ELOBF09</td>
+<td><a href="#BF09">BF09</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a> originou-se da necessidade de detalhar o desempenho por conteúdo, identificada na sessão de <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a>, satisfazendo a demanda por feedback específico sobre acertos.</td>
+</tr>
+<tr>
+<td><a id="ELOBF10"></a>ELOBF10</td>
+<td><a href="#BF10">BF10</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a> originou-se da necessidade de identificar dificuldades específicas por conteúdo, identificada na sessão de <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a>, satisfazendo a demanda por feedback sobre erros.</td>
+</tr>
+<tr>
+<td><a id="ELOBF11"></a>ELOBF11</td>
+<td><a href="#BF11">BF11</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a> é satisfeito pela necessidades de professores, alunos e monitores no acompanhamento coletivo do desempenho, garantindo transparência nas métricas da turma.</td>
+</tr>
+<tr>
+<td><a id="ELOBF12"></a>ELOBF12</td>
+<td><a href="#BF12">BF12</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a> foi derivado da necessidade de feedback imediato após a conclusão de atividades, identificada na sessão de <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a>, satisfazendo a demanda do aluno por resultados rápidos.</td>
+</tr>
+<tr>
+<td><a id="ELOBF13"></a>ELOBF13</td>
+<td><a href="#BF13">BF13</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo estabelece que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF13">RF13</a> depende do módulo de notificações configuráveis, compartilhado com <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18">RF18</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19">RF19</a>, permitindo personalização dos alertas.</td>
+</tr>
+<tr>
+<td><a id="ELOBF14"></a>ELOBF14</td>
+<td><a href="#BF14">BF14</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF14">RF14</a>, responsável pelo aluno poder indicar que disciplinas percebe como mais fáceis, representa uma forma de captura e modelagem das percepções subjetivas dele sobre seu próprio desempenho, materializando a necessidade de (se) entender o perfil cognitivo-acadêmico do aluno.</td>
+</tr>
+<tr>
+<td><a id="ELOBF15"></a>ELOBF15</td>
+<td><a href="#BF15">BF15</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo estabelece que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15">RF15</a>, responsável pelo envio de notificações de revisão de conteúdos, depende do recurso de notificação compartilhado com os requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18">RF18</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19">RF19</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF17"></a>ELOBF17</td>
+<td><a href="#BF17">BF17</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF17">RF17</a> surgiu da sugestão de incluir recursos multimídia, identificada na sessão de <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/brainstorming/#requisitos-elicitados">Brainstorming</a>, satisfazendo a demanda por diferentes formatos de aprendizado.</td>
+</tr>
+<tr>
+<td><a id="ELOBF18"></a>ELOBF18</td>
+<td><a href="#BF18">BF18</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo define que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18">RF18</a>, que solicita a escolha do caminho de notificação preferido pelo beneficiário, depende do módulo de configuração de notificações, recurso essencial ao funcionamento de <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15">RF15</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF19"></a>ELOBF19</td>
+<td><a href="#BF19">BF19</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo estabelece que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19">RF19</a>, que envia notificações sobre prazos de entrega de atividades, utiliza o mesmo recurso de notificação definido por <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15">RF15</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF21"></a>ELOBF21</td>
+<td><a href="#BF21">BF21</a></td>
+<td><strong>Agregação</strong></td>
+<td>Este elo define que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, responsável pela disponibilização de dados analíticos em diferentes níveis, agrega as funcionalidades de análise e visualização definidas em <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF22"></a>ELOBF22</td>
+<td><a href="#BF22">BF22</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo representa o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, que detalha a forma de exibição dos dados analíticos em gráficos, como uma manifestação visual da análise descrita em <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF23"></a>ELOBF23</td>
+<td><a href="#BF23">BF23</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza a representação do requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>, que determina que o sistema deve detalhar para o aluno os (seus) cálculos de desempenho acadêmico, como representação visual e explicativa dos dados analíticos já capturados.</td>
+</tr>
+<tr>
+<td><a id="ELOBF27"></a>ELOBF27</td>
+<td><a href="#BF27">BF27</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF27">RF27</a> foi derivado da necessidade de suporte específico aos alunos, identificada na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-funcionais">Análise de Documento</a>, satisfazendo a demanda por assistência direcionada.</td>
+</tr>
+<tr>
+<td><a id="ELOBF28"></a>ELOBF28</td>
+<td><a href="#BF28">BF28</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo define que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF28">RF28</a> representa a materialização do recurso “banco de questões” proposto nos brainstormings, para apoiar professores na criação e gestão de avaliações.</td>
+</tr>
+<tr>
+<td><a id="ELOBF30"></a>ELOBF30</td>
+<td><a href="#BF30">BF30</a></td>
+<td><strong>Agregação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF30">RF30</a>, que determina o direcionamento sob medida de materiais aos alunos conforme a sua situação cognitivo-acadêmica e (as) suas preferências, agrega as seguintes funcionalidades: análise de <strong>desempenho</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>), <strong>preferências</strong> do indivíduo (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF14">RF14</a>), e gestão de <strong>atividades</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF24">RF24</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF25">RF25</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF26">RF26</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF27">RF27</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF28">RF28</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF29">RF29</a>).</td>
+</tr>
+<tr>
+<td><a id="ELOBF34"></a>ELOBF34</td>
+<td><a href="#BF34">BF34</a></td>
+<td><strong>Agregação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF34">RF34</a>, que visa reduzir o esforço de professores e monitores por meio da centralização de informações, agrega funcionalidades relacionadas ao <strong>desempenho</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50">RF50</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51">RF51</a>) e às <strong>atividades</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF04">RF04</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF24">RF24</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF25">RF25</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF26">RF26</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF27">RF27</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF28">RF28</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF29">RF29</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF30">RF30</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF32">RF32</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF43">RF43</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF44">RF44</a>).</td>
+</tr>
+<tr>
+<td><a id="ELOBF35"></a>ELOBF35</td>
+<td><a href="#BF35">BF35</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo representa que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF35">RF35</a>, que define a criação de um personagem antropomórfico, é a materialização visual e interativa do assistente virtual, agregando valor à interface e à experiência do aluno.</td>
+</tr>
+<tr>
+<td><a id="ELOBF37"></a>ELOBF37</td>
+<td><a href="#BF37">BF37</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF37">RF37</a>, determinando o uso da lógica <em>fuzzy</em> nas inferências pelo sistema, é um recurso técnico fundamental que sustenta (é uma dependência tecnológica de) outros requisitos relacionados à análise inteligente de dados, como <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF06">RF06</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49">RF49</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50">RF50</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF38"></a>ELOBF38</td>
+<td><a href="#BF38">BF38</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF38">RF38</a> expressa a necessidade de visibilidade do assistente virtual na interface, representando sua presença constante no ambiente de aprendizagem.</td>
+</tr>
+<tr>
+<td><a id="ELOBF40"></a>ELOBF40</td>
+<td><a href="#BF40">BF40</a></td>
+<td><strong>Agregação</strong></td>
+<td>Este elo define que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF40">RF40</a> agrega a funcionalidade de sugestão de questões vinculadas às vídeo aulas, ampliando o comportamento do assistente virtual definido em <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF38">RF38</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF41"></a>ELOBF41</td>
+<td><a href="#BF41">BF41</a></td>
+<td><strong>Recurso</strong> / <strong>Agregação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF41">RF41</a>, que demanda a notificação ao aluno dos conteúdos em que se determina que ele tem mais dificuldade(s), depende do recurso de notificações já utilizado em <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15">RF15</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18">RF18</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19">RF19</a>, além de agregar-se ao <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF42">RF42</a> para formar um sistema bidirecional de comunicação sobre dificuldades de aprendizagem, onde tanto aluno quanto professor são notificados, viabilizando ação pedagógica coordenada.</td>
+</tr>
+<tr>
+<td><a id="ELOBF42"></a>ELOBF42</td>
+<td><a href="#BF42">BF42</a></td>
+<td><strong>Recurso</strong> / <strong>Agregação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF42">RF42</a>, que demanda a notificação ao professor dos conteúdos em que se determina que os seus alunos têm mais dificuldade(s), depende do recurso de notificações já utilizado em <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF15">RF15</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF18">RF18</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF19">RF19</a>, além de agregar-se ao <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF41">RF41</a> para completar o sistema bidirecional de comunicação sobre dificuldades, garantindo que ambas as partes recebam alertas sobre a mesma situação acadêmica para intervenção conjunta.</td>
+</tr>
+<tr>
+<td><a id="ELOBF43"></a>ELOBF43</td>
+<td><a href="#BF43">BF43</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF43">RF43</a>, que visa facilitar a interação entre monitores, professores e alunos, agrega funcionalidades relacionadas às <strong>atividades</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF04">RF04</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF24">RF24</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF25">RF25</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF26">RF26</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF27">RF27</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF28">RF28</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF29">RF29</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF30">RF30</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF32">RF32</a>) e ao <strong>desempenho</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50">RF50</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51">RF51</a>).</td>
+</tr>
+<tr>
+<td><a id="ELOBF44"></a>ELOBF44</td>
+<td><a href="#BF44">BF44</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF44">RF44</a>, que exige chat síncrono para interação a distância, agrega funcionalidades relacionadas às <strong>atividades</strong> e ao <strong>desempenho</strong>, conforme os requisitos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF04">RF04</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF24">RF24</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF25">RF25</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF26">RF26</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF27">RF27</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF28">RF28</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF29">RF29</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF30">RF30</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF32">RF32</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50">RF50</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51">RF51</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF45"></a>ELOBF45</td>
+<td><a href="#BF45">BF45</a></td>
+<td><strong>Responsabilidade</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF45">RF45</a>, que define o acompanhamento de interações, é responsabilidade do assistente virtual, que atua como agente colaborativo na aprendizagem.</td>
+</tr>
+<tr>
+<td><a id="ELOBF46"></a>ELOBF46</td>
+<td><a href="#BF46">BF46</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a>, que trata da apresentação de dados relevantes a alunos, professores e monitores, depende de recursos analíticos relacionados ao <strong>desempenho</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>).</td>
+</tr>
+<tr>
+<td><a id="ELOBF47"></a>ELOBF47</td>
+<td><a href="#BF47">BF47</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF47">RF47</a>, que demanda/determina a disponibilização das informações sobre horários e locais de monitoria aos alunos, representa a materialização de dados operacionais do sistema para eles, oferecendo, de forma mais específica, uma apresentação de informação contextual.</td>
+</tr>
+<tr>
+<td><a id="ELOBF49"></a>ELOBF49</td>
+<td><a href="#BF49">BF49</a></td>
+<td><strong>Agregação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49">RF49</a>, que trata da atuação do assistente virtual como agente colaborativo na aprendizagem, agrega funcionalidades relacionadas às <strong>atividades</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF04">RF04</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF24">RF24</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF25">RF25</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF26">RF26</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF27">RF27</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF30">RF30</a>) e ao <strong>desempenho</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a>).</td>
+</tr>
+<tr>
+<td><a id="ELOBF50"></a>ELOBF50</td>
+<td><a href="#BF50">BF50</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF50">RF50</a>, que apresenta ao professor qual aluno sabe sobre o conteúdo, agrega funcionalidades relacionadas ao <strong>desempenho</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a>).</td>
+</tr>
+<tr>
+<td><a id="ELOBF51"></a>ELOBF51</td>
+<td><a href="#BF51">BF51</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF51">RF51</a>, que apresenta ao professor qual aluno possui comportamento adequado, agrega funcionalidades relacionadas ao <strong>desempenho</strong> (<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF07">RF07</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF08">RF08</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF09">RF09</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF10">RF10</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF11">RF11</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF12">RF12</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF21">RF21</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF22">RF22</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF23">RF23</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a>).</td>
+</tr>
+<tr>
+<td><a id="ELOBF52"></a>ELOBF52</td>
+<td><a href="#BF52">BF52</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF01">RNF01</a>, que determina a adaptação automática da interface ao perfil do usuário (aluno, monitor, professor, etc.), é representado pela funcionalidade de personalização dinâmica da interface do sistema.</td>
+</tr>
+<tr>
+<td><a id="ELOBF53"></a>ELOBF53</td>
+<td><a href="#BF53">BF53</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF02">RNF02</a>, sobre a acessibilidade e disponibilidade do sistema educacional pela <em>internet</em>, presencialmente ou à distância, satisfaz necessidades não-funcionais de disponibilidade e mobilidade dos utilizadores.</td>
+</tr>
+<tr>
+<td><a id="ELOBF54"></a>ELOBF54</td>
+<td><a href="#BF54">BF54</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF03">RNF03</a> representa uma restrição de desempenho identificada na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a>, garantindo a usabilidade e agilidade do sistema para todos os perfis.</td>
+</tr>
+<tr>
+<td><a id="ELOBF55"></a>ELOBF55</td>
+<td><a href="#BF55">BF55</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF04">RNF04</a>, determinando a extensão da base de um Sistema Tutor Inteligente (STI) para um Assistente Virtual de Ensino Inteligente (ITA), representa um recurso arquitetural/tecnológico que sustenta múltiplas funcionalidades do sistema, viabilizando requisitos como <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF35">RF35</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF45">RF45</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF46">RF46</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RF49">RF49</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF56"></a>ELOBF56</td>
+<td><a href="#BF56">BF56</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo estabelece que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF05">RNF05</a>, que exige o uso de recursos tecnológicos alinhados à Teoria da Aprendizagem Significativa (TAS), está vinculado ao recurso de integração pedagógica e metodológica do sistema, assegurando a coerência com os princípios da TAS.</td>
+</tr>
+<tr>
+<td><a id="ELOBF57"></a>ELOBF57</td>
+<td><a href="#BF57">BF57</a></td>
+<td><strong>Responsabilidade</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF06">RNF06</a> origina-se da <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/analise_de_documentos/#requisitos-nao-funcionais">Análise de Documento</a>, alocando a responsabilidade da validação pedagógica e psicológica aos especialistas das respectivas áreas.</td>
+</tr>
+<tr>
+<td><a id="ELOBF58"></a>ELOBF58</td>
+<td><a href="#BF58">BF58</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF07">RNF07</a> foi derivado da necessidade de feedback imediato, identificada na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a>, satisfazendo a demanda dos docentes por análises em tempo real.</td>
+</tr>
+<tr>
+<td><a id="ELOBF59"></a>ELOBF59</td>
+<td><a href="#BF59">BF59</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF08">RNF08</a>, que exige o armazenamento seguro e criptografado dos dados dos estudantes, é satisfeito por funcionalidades que garantem a <strong>segurança da informação</strong> e a <strong>privacidade dos indivíduos</strong>, assegurando conformidade com boas práticas de proteção de dados.</td>
+</tr>
+<tr>
+<td><a id="ELOBF60"></a>ELOBF60</td>
+<td><a href="#BF60">BF60</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF09">RNF09</a> é satisfeito pela infraestrutura de hospedagem e disponibilidade contínua, assegurando confiabilidade do sistema.</td>
+</tr>
+<tr>
+<td><a id="ELOBF61"></a>ELOBF61</td>
+<td><a href="#BF61">BF61</a></td>
+<td><strong>Recurso</strong></td>
+<td>Este elo define que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF10">RNF10</a> depende de otimização de consultas e uso de cache para garantir tempos de resposta inferiores a 3 segundos.</td>
+</tr>
+<tr>
+<td><a id="ELOBF62"></a>ELOBF62</td>
+<td><a href="#BF62">BF62</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF11">RNF11</a> foi derivado da necessidade de acesso móvel expressa durante a <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a>, satisfazendo a demanda por flexibilidade e conveniência no uso do sistema em diferentes dispositivos.</td>
+</tr>
+<tr>
+<td><a id="ELOBF63"></a>ELOBF63</td>
+<td><a href="#BF63">BF63</a></td>
+<td><strong>Representação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF13">RNF13</a> representa a necessidade de interoperabilidade do SAE com outros sistemas (AVAs), identificada na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a>.</td>
+</tr>
+<tr>
+<td><a id="ELOBF64"></a>ELOBF64</td>
+<td><a href="#BF64">BF64</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF14">RNF14</a>, que trata da escalabilidade do sistema, é satisfeito por funcionalidades que asseguram <strong>desempenho contínuo</strong> e <strong>expansão eficiente</strong>, mesmo com o aumento do número de beneficiários e módulos.</td>
+</tr>
+<tr>
+<td><a id="ELOBF65"></a>ELOBF65</td>
+<td><a href="#BF65">BF65</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF15">RNF15</a> é satisfeito por políticas de segurança e anonimização de dados, garantindo conformidade com a LGPD.</td>
+</tr>
+<tr>
+<td><a id="ELOBF66"></a>ELOBF66</td>
+<td><a href="#BF66">BF66</a></td>
+<td><strong>Satisfação</strong></td>
+<td>Este elo formaliza que o requisito <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/requisitos_elicitados/#RNF12">RNF12</a> foi derivado da necessidade de inclusão, identificada na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Elicitacao/entrevista/">Entrevista</a>, satisfazendo a demanda para que todos os participantes possam utilizar o sistema.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong> Autoria de <a href="https://github.com/ArthurGuilher62"> Arthur Guilherme</a>, <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a>, <a href="https://github.com/JoaoSapiencia">João Sapiência</a>, <a href="https://github.com/MrBolt2005">João Felipe</a>, <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a>, <a href="https://github.com/felipegf1">Felipe Guimaraes</a>, <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h2 id="agradecimentos">Agradecimentos</h2>
+<p>O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — <strong>ChatGPT, GitHub Copilot, Google Gemini e DeepSeek</strong> — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.</p>
+<h2 id="referencias">Referências</h2>
+<p>SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 26. Disponível em: <a href="../../arquivos/Requisitos%20-%20aula26-milene-modelagem.pdf">Requisitos_Aula 26</a>. Acesso em: 24 outubro 2025.</p>
+<h2 id="historicos-de-versao">Históricos de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>23/10/2025</td>
+<td>Criação do documento de Backward-From</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>25/10/2025</td>
+<td>Adição dos Backward-From: <a href="#BF06">BF06</a>, <a href="#BF15">BF15</a>, <a href="#BF18">BF18</a>, <a href="#BF19">BF19</a>, <a href="#BF21">BF21</a>, <a href="#BF22">BF22</a>, <a href="#BF34">BF34</a>, <a href="#BF35">BF35</a>, <a href="#BF52">BF52</a> e <a href="#BF56">BF56</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF06">ELOBF06</a>, <a href="#ELOBF15">ELOBF15</a>, <a href="#ELOBF18">ELOBF18</a>, <a href="#ELOBF19">ELOBF19</a>, <a href="#ELOBF21">ELOBF21</a>, <a href="#ELOBF22">ELOBF22</a>, <a href="#ELOBF34">ELOBF34</a>, <a href="#ELOBF35">ELOBF35</a>, <a href="#ELOBF52">ELOBF52</a> e <a href="#ELOBF56">ELOBF56</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>26/10/2025</td>
+<td>Adição dos Backward-From: <a href="#BF43">BF43</a>, <a href="#BF44">BF44</a>, <a href="#BF45">BF45</a>, <a href="#BF46">BF46</a>, <a href="#BF49">BF49</a>, <a href="#BF50">BF50</a>, <a href="#BF51">BF51</a>, <a href="#BF59">BF59</a> e <a href="#BF64">BF64</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF43">ELOBF43</a>, <a href="#ELOBF44">ELOBF44</a>, <a href="#ELOBF45">ELOBF45</a>, <a href="#ELOBF46">ELOBF46</a>, <a href="#ELOBF49">ELOBF49</a>, <a href="#ELOBF50">ELOBF50</a>, <a href="#ELOBF51">ELOBF51</a>, <a href="#ELOBF59">ELOBF59</a> e <a href="#ELOBF64">ELOBF64</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>27/10/2025</td>
+<td>Adição dos <em>backward-from</em> <a href="#BF14">BF14</a>, <a href="#BF23">BF23</a>, <a href="#BF30">BF30</a>, <a href="#BF37">BF37</a>, <a href="#BF41">BF41</a>, <a href="#BF42">BF42</a>, <a href="#BF47">BF47</a>, <a href="#BF53">BF53</a> e <a href="#BF55">BF55</a>, além da criação dos elos do mesmo intervalo <a href="#ELOBF14">ELOBF14</a>, <a href="#ELOBF23">ELOBF23</a>, <a href="#ELOBF30">ELOBF30</a>, <a href="#ELOBF37">ELOBF37</a>, <a href="#ELOBF41">ELOBF41</a>, <a href="#ELOBF42">ELOBF42</a>, <a href="#ELOBF47">ELOBF47</a>, <a href="#ELOBF53">ELOBF53</a> e <a href="#ELOBF55">ELOBF55</a>.</td>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a> <br> <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> <br> <a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>27/10/2025</td>
+<td>Adição dos backward-From: <a href="#BF01">BF01</a>, <a href="#BF02">BF02</a>, <a href="#BF11">BF11</a>, <a href="#BF13">BF13</a>, <a href="#BF28">BF28</a>, <a href="#BF38">BF38</a>, <a href="#BF40">BF40</a>, <a href="#BF60">BF60</a>, <a href="#BF61">BF61</a>, <a href="#BF65">BF65</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF01">ELOBF01</a>, <a href="#ELOBF02">ELOBF02</a>, <a href="#ELOBF11">ELOBF11</a>, <a href="#ELOBF13">ELOBF13</a>, <a href="#ELOBF28">ELOBF28</a>, <a href="#ELOBF38">ELOBF38</a>, <a href="#ELOBF40">ELOBF40</a>, <a href="#ELOBF60">ELOBF60</a>, <a href="#ELOBF61">ELOBF61</a>, <a href="#ELOBF65">ELOBF65</a>.</td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>28/10/2025</td>
+<td>Adição dos backward-From: <a href="#BF07">BF07</a>, <a href="#BF08">BF08</a>, <a href="#BF09">BF09</a>, <a href="#BF10">BF10</a>, <a href="#BF12">BF12</a>, <a href="#BF17">BF17</a>, <a href="#BF27">BF27</a>, <a href="#BF54">BF54</a> e <a href="#BF62">BF62</a>. Além da criação dos elos do mesmo intervalo <a href="#ELOBF07">ELOBF07</a>, <a href="#ELOBF08">ELOBF08</a>, <a href="#ELOBF09">ELOBF09</a>, <a href="#ELOBF10">ELOBF10</a>, <a href="#ELOBF12">ELOBF12</a>, <a href="#ELOBF17">ELOBF17</a>, <a href="#ELOBF27">ELOBF27</a>, <a href="#ELOBF54">ELOBF54</a> e <a href="#ELOBF62">ELOBF62</a>.</td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.6</td>
+<td>28/10/2025</td>
+<td>Adição dos backward-From: <a href="#BF03">BF03</a>, <a href="#BF04">BF04</a>, <a href="#BF05">BF05</a>, <a href="#BF16">BF16</a>, <a href="#BF20">BF20</a>, <a href="#BF25">BF25</a>, <a href="#BF26">BF26</a>, <a href="#BF29">BF29</a>, <a href="#BF58">BF58</a> e <a href="#BF63">BF63</a>.</td>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.7</td>
+<td>28/10/2025</td>
+<td>Adição dos backward-From: <a href="#BF24">BF24</a>, <a href="#BF31">BF31</a>, <a href="#BF32">BF32</a>, <a href="#BF33">BF33</a>, <a href="#BF36">BF36</a>, <a href="#BF39">BF39</a> e <a href="#BF48">BF48</a>; criação dos elos: <a href="#ELOBF24">ELOBF24</a>, <a href="#ELOBF31">ELOBF31</a>, <a href="#ELOBF32">ELOBF32</a>, <a href="#ELOBF33">ELOBF33</a>, <a href="#ELOBF36">ELOBF36</a>, <a href="#ELOBF39">ELOBF39</a> e <a href="#ELOBF48">ELOBF48</a>; correções de links nas Tabelas 2 e 4.</td>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../matriz_de_rastreabilidade/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Matriz de Rastreabilidade">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Matriz de Rastreabilidade
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../forward/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Forward From">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Forward From
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

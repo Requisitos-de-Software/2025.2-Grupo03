@@ -1,0 +1,6112 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/">
+      
+      
+        <link rel="prev" href="../historias_de_usuario/">
+      
+      
+        <link rel="next" href="../nfr_framework/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Backlog do Produto - Grupo 03 - Requisitos de Software (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-header__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo 03 - Requisitos de Software (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Backlog do Produto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Atas/ata09-09-2025_1/" class="md-tabs__link">
+          
+  
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-tabs__link">
+          
+  
+  
+  Apresentação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Rich-picture/richpicture/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Rich Picture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Verificacao/verificacao/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../casos_de_uso/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Pos-modelagem/matriz_de_rastreabilidade/" class="md-tabs__link">
+          
+  
+  
+  Pós Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeção
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Validacao/prototipos/" class="md-tabs__link">
+          
+  
+  
+  Validação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-tabs__link">
+          
+  
+  
+  Entrega Final
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-nav__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Grupo 03 - Requisitos de Software (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata10-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 10/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata18-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 18/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/entrega_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HeatMap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_planejado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma planejado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma executado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/Aplicativos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativos avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Rich-picture/richpicture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rich Picture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming_perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos Elicitados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/analise_de_documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Elicitação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Priorização
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Priorização
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First Thing First
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Three Level Scale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/100_dolares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    $100
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MoSCoW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Tradicionais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Tradicionais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de Uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Especificação Suplementar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Léxico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Ágeis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Ágeis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histórias de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog do Produto
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog do Produto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estrutura-hierarquica-e-fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estrutura Hierárquica e Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorizacao-do-sprint-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Priorização do Sprint Backlog
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backlog
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Temas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tm01-identificacao-e-perfis-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM01. Identificação e Perfis de Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm02-conteudo-e-aprendizagem-significativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM02. Conteúdo e Aprendizagem Significativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm03-avaliacao-e-planejamento-educacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM03. Avaliação e Planejamento Educacional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm04-assistente-virtual-inteligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM04. Assistente Virtual Inteligente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm05-analise-e-visualizacao-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM05. Análise e Visualização de Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm06-progresso-e-engajamento-do-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM06. Progresso e Engajamento do Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm07-alertas-e-notificacoes-inteligentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM07. Alertas e Notificações Inteligentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm08-recursos-multimidia-e-materiais-didaticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM08. Recursos Multimídia e Materiais Didáticos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm09-banco-de-questoes-e-atividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM09. Banco de Questões e Atividades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm10-integracao-e-centralizacao-de-sistemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM10. Integração e Centralização de Sistemas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm11-comunicacao-e-colaboracao-academica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM11. Comunicação e Colaboração Acadêmica
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épicos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épicos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep01-gerenciar-perfis-de-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP01 – Gerenciar Perfis de Usuários
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep02-mapear-e-estruturar-conteudos-segundo-a-tas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP02 – Mapear e Estruturar Conteúdos segundo a TAS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP03 – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP06 – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP07 – Exibir Cálculos de Desempenho com Base em Dados e Inferências
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP08 – Oferecer Assistência Personalizada a Alunos e Professores
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep09-criar-personagem-interativo-customizavel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP09 – Criar Personagem Interativo Customizável
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep11-acompanhar-interacoes-e-progresso-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP11 – Acompanhar Interações e Progresso do Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP12 – Promover Compreensão da Aprendizagem por Interação Inteligente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP13 – Gerar Análises em Tempo Real com Gráficos e Indicadores
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP14 – Exibir Médias e Porcentagens por Conteúdo e Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep15-identificar-conteudos-com-maior-indice-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP15 – Identificar Conteúdos com Maior Índice de Erro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep16-exibir-progresso-completo-e-percentual-do-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP16 – Exibir Progresso Completo e Percentual do Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep17-permitir-marcacao-de-topicos-de-facilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP17 – Permitir Marcação de Tópicos de Facilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP18 – Configurar Preferências de Tempo e Forma de Notificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP19 – Enviar Alertas sobre Prazos e Revisões de Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep20-disponibilizar-video-aulas-como-recurso-complementar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP20 – Disponibilizar Vídeo Aulas como Recurso Complementar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep21-gerar-questoes-baseadas-em-video-aulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP21 – Gerar Questões Baseadas em Vídeo Aulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep22-criar-e-organizar-questoes-interativas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP22 – Criar e Organizar Questões Interativas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP23 – Gerenciar Banco de Questões de Professores e Outras Fontes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep24-integrar-com-outros-sistemas-educacionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP24 – Integrar com Outros Sistemas Educacionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep25-centralizar-informacoes-educacionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP25 – Centralizar Informações Educacionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep26-facilitar-comunicacao-via-chat-e-monitoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP26 – Facilitar Comunicação via Chat e Monitoria
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gravacoes-da-validacao-e-priorizacao-do-documento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravações da Validação e Priorização do Documento
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gravações da Validação e Priorização do Documento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gravacao-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gravacao-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gravacao-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historicos-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Históricos de versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfr_framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NFR Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pós Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pós Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/matriz_de_rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matriz de Rastreabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/backward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/forward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inspeção
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1_5" id="__nav_10_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo +1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo +1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2_5" id="__nav_10_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa1_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa2_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa3_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa4_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa6_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Validação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prototipação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/contato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comprovação Informal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega Final
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo Escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/artefatos_criados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatos Criados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/cronograma_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/execucao_projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/facilidades_dificuldades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facilidades e Dificuldades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/resultados_alcan%C3%A7ados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados Alcançados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/tecnicas_utilizadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas Utilizadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/validacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estrutura-hierarquica-e-fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estrutura Hierárquica e Fluxo de Trabalho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorizacao-do-sprint-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Priorização do Sprint Backlog
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backlog
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Temas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tm01-identificacao-e-perfis-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM01. Identificação e Perfis de Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm02-conteudo-e-aprendizagem-significativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM02. Conteúdo e Aprendizagem Significativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm03-avaliacao-e-planejamento-educacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM03. Avaliação e Planejamento Educacional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm04-assistente-virtual-inteligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM04. Assistente Virtual Inteligente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm05-analise-e-visualizacao-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM05. Análise e Visualização de Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm06-progresso-e-engajamento-do-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM06. Progresso e Engajamento do Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm07-alertas-e-notificacoes-inteligentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM07. Alertas e Notificações Inteligentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm08-recursos-multimidia-e-materiais-didaticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM08. Recursos Multimídia e Materiais Didáticos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm09-banco-de-questoes-e-atividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM09. Banco de Questões e Atividades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm10-integracao-e-centralizacao-de-sistemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM10. Integração e Centralização de Sistemas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tm11-comunicacao-e-colaboracao-academica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TM11. Comunicação e Colaboração Acadêmica
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Épicos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Épicos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep01-gerenciar-perfis-de-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP01 – Gerenciar Perfis de Usuários
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep02-mapear-e-estruturar-conteudos-segundo-a-tas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP02 – Mapear e Estruturar Conteúdos segundo a TAS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP03 – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP06 – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP07 – Exibir Cálculos de Desempenho com Base em Dados e Inferências
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP08 – Oferecer Assistência Personalizada a Alunos e Professores
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep09-criar-personagem-interativo-customizavel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP09 – Criar Personagem Interativo Customizável
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep11-acompanhar-interacoes-e-progresso-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP11 – Acompanhar Interações e Progresso do Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP12 – Promover Compreensão da Aprendizagem por Interação Inteligente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP13 – Gerar Análises em Tempo Real com Gráficos e Indicadores
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP14 – Exibir Médias e Porcentagens por Conteúdo e Usuário
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep15-identificar-conteudos-com-maior-indice-de-erro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP15 – Identificar Conteúdos com Maior Índice de Erro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep16-exibir-progresso-completo-e-percentual-do-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP16 – Exibir Progresso Completo e Percentual do Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep17-permitir-marcacao-de-topicos-de-facilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP17 – Permitir Marcação de Tópicos de Facilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP18 – Configurar Preferências de Tempo e Forma de Notificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP19 – Enviar Alertas sobre Prazos e Revisões de Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep20-disponibilizar-video-aulas-como-recurso-complementar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP20 – Disponibilizar Vídeo Aulas como Recurso Complementar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep21-gerar-questoes-baseadas-em-video-aulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP21 – Gerar Questões Baseadas em Vídeo Aulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep22-criar-e-organizar-questoes-interativas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP22 – Criar e Organizar Questões Interativas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP23 – Gerenciar Banco de Questões de Professores e Outras Fontes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep24-integrar-com-outros-sistemas-educacionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP24 – Integrar com Outros Sistemas Educacionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep25-centralizar-informacoes-educacionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP25 – Centralizar Informações Educacionais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep26-facilitar-comunicacao-via-chat-e-monitoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP26 – Facilitar Comunicação via Chat e Monitoria
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gravacoes-da-validacao-e-priorizacao-do-documento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravações da Validação e Priorização do Documento
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gravações da Validação e Priorização do Documento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gravacao-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação 1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gravacao-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gravacao-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravação 3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historicos-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Históricos de versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Backlog do Produto</h1>
+
+<h2 id="introducao">Introdução</h2>
+<p>O backlog (ou registro pendente de trabalhos) é uma <strong>lista priorizada</strong> de requisitos e funcionalidades que agregam valor ao cliente e orientam o desenvolvimento do projeto.  O backlog é dividido em dois níveis: o <strong>Product Backlog</strong>, que contém todas as funcionalidades planejadas para o sistema, e o <strong>Sprint Backlog</strong>, que reúne as tarefas selecionadas para o ciclo de desenvolvimento em andamento.</p>
+<p>Este trabalho adotou uma abordagem colaborativa para a priorização do Sprint Backlog e a validação do Product Backlog, levando em conta a restrição decorrente da <strong>ausência de um Product Owner (PO) formal</strong>. A metodologia utilizada seguiu o princípio de que a priorização estratégica deve envolver stakeholders relevantes.</p>
+<h2 id="integrantes-do-grupo">Integrantes do Grupo</h2>
+<p>A Tabela 1 apresenta todos os integrantes da equipe que participaram da etapa de Backlog do Produto, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.</p>
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Quais etapas participou</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td>Criação do documento de Backlog e Criação dos epicos Criação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos">EP10 - Analisar Dificuldades Cognitivas e Sugerir Conteúdos</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario">EP11 - Acompanhar Interações e Progresso do Usuário</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria">EP26 - Facilitar Comunicação via Chat e Monitoria</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento">EP27 - Fornecer Dados ao Professor sobre Domínio e Comportamento</a>. Além da participação na validação na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-1">Gravação 1</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td>Participação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas">EP02 – Mapear e Estruturar Conteúdos segundo a TAS</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual">EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional">EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores">EP08 – Oferecer Assistência Personalizada a Alunos e Professores</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-identificar-conteudos-com-maior-indice-de-erro">EP15 – Identificar Conteúdos com Maior Índice de Erro</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar">EP20 – Disponibilizar Vídeo Aulas como Recurso Complementar</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas">EP22 – Criar e Organizar Questões Interativas</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes">EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes</a>. Além da participação na validação na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-2">Gravação 2</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td>Criação dos epicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario">EP14 - Exibir media e porcentagens por conteudo e usuário</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno">EP16 - Exibir progresso completo e percentual do aluno</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar">EP20 - Disponibilizar videoaulas como recurso complementar</a>. Além da participação na validação na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-2">Gravação 2</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td>Correção dos <em>hiperlinks</em> das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos. Além da participação na validação na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-3">Gravação 3</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td>Auxílio na criação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos">EP03</a> ,<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel">EP09 - Criar Personagem Interativo Customizável</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente">EP12 – Promover Compreensão da Aprendizagem por Interação Inteligente</a>,<a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas">EP22 – Criar e Organizar Questões Interativas</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes">EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep24-integrar-com-outros-sistemas-educacionais">EP24</a>. Além da participação na validação na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-2">Gravação 2</a> e na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-3">Gravação 3</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td>Criação do documento de Backlog e participação da criação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas">EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel">EP09 - Criar Personagem Interativo Customizável</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores">EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao">EP18 - Configurar Preferências de Tempo e Forma de Notificação</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo">EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep25-centralizar-informacoes-educacionais">EP25 – Centralizar Informações Educacionais</a>. Além da participação na validação na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-1">Gravação 1</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td>Participação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios">EP01 - Gerenciar Perfis de Usuários</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel">EP09 - Criar Personagem Interativo Customizável</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores">EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao">EP18 - Configurar Preferências de Tempo e Forma de Notificação</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes">EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes</a>. Além da participação na validação na <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#gravacao-1">Gravação 1</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h2 id="metodologia">Metodologia</h2>
+<h3 id="estrutura-hierarquica-e-fluxo-de-trabalho">Estrutura Hierárquica e Fluxo de Trabalho</h3>
+<p>Cada aluno ficou responsável pela redação das especificações (histórias de usuário, épicos e temas) referentes aos requisitos previamente escolhidos, além de conduzir uma entrevista com o usuário, com o objetivo de validar os itens do backlog.</p>
+<p>A modelagem seguiu a ordem <strong>Histórias de Usuário → Épicos → Temas</strong>, de forma a manter uma sequência concisa e refletir um nível crescente de abstração, conforme a apresentado na Figura 1 e conforme apresentado nos slides da aula Requisitos – Aula 15, de Milene Serrano e Maurício Serrano.</p>
+<ul>
+<li><strong>Histórias de Usuário:</strong> São pequenas descrições do que o usuário precisa que o sistema faça, sempre escritas de forma simples e direta. Elas focam no “o que” deve ser feito, e não no “como”. Cada história representa uma funcionalidade que gera valor para o usuário.</li>
+<li><strong>Épicos:</strong> São grupos maiores de histórias de usuário que tratam de um mesmo tema ou objetivo mais amplo. Cada épico representa uma parte importante do produto, que pode ser dividida em várias histórias menores.</li>
+<li><strong>Temas:</strong> São categorias gerais que reúnem vários épicos com objetivos parecidos, ajudando a organizar o produto em áreas de foco.</li>
+</ul>
+<div align="center"><strong>Figura 1: Ordem da Modelagem</strong></div>
+
+<p><img alt="Figura 1: Ordem da Modelagem" src="../../imagens/ordem_modelagem.jpeg" /></p>
+<div align="center"><strong>Fonte: Requisitos – Aula 15, de Milene Serrano e Maurício Serrano</strong></div>
+
+<h3 id="priorizacao-do-sprint-backlog">Priorização do Sprint Backlog</h3>
+<p>Nesta etapa, também foi realizada uma entrevista com um usuário para classificar cada História de Usuário e, consequentemente, o Épico a ela relacionado, de acordo com três níveis de prioridade:</p>
+<ul>
+<li><strong>Alta prioridade:</strong> Funcionalidades essenciais, usadas com frequência ou diretamente ligadas à proposta de valor principal do sistema;</li>
+<li><strong>Média prioridade:</strong> Funcionalidades importantes, mas que podem ser entregues em sprints futuros sem comprometer o produto;</li>
+<li><strong>Baixa prioridade:</strong> Funcionalidades complementares ou de menor impacto imediato para o usuário.</li>
+</ul>
+<h2 id="backlog">Backlog</h2>
+<p>A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos relacionados e priorização, representando a <strong>Tabela do Product Backlog</strong> do projeto.</p>
+<div align="center"><strong>Tabela 2: Product Backlog (Atualizada)</strong></div>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tema</th>
+<th style="text-align: left;">Épico</th>
+<th style="text-align: left;">História de Usuário</th>
+<th style="text-align: left;">Requisitos</th>
+<th style="text-align: left;">Priorização</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm01-identificacao-e-perfis-de-usuario">TM01</a>. Identificação e Perfis de Usuário</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios">EP01</a> – Gerenciar Perfis de Usuários</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us01-identificacao-e-autenticacao-de-usuarios">US01 - Identificação e Autenticação de Usuários</a></td>
+<td style="text-align: left;">RF01</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us02-visualizar-e-gerenciar-perfil-individual">US02 - Visualizar e Gerenciar Perfil Individual</a></td>
+<td style="text-align: left;">RF02</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm02-conteudo-e-aprendizagem-significativa">TM02</a>. Conteúdo e Aprendizagem Significativa</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas">EP02</a> – Mapear e Estruturar Conteúdos segundo a TAS</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us03-mapeamento-de-conceitos-segundo-a-teoria-da-aprendizagem-significativa-tas">US03 - Mapeamento de Conceitos segundo a Teoria da Aprendizagem Significativa (TAS)</a></td>
+<td style="text-align: left;">RF03</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos">EP03</a> – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us53-organizacao-de-materiais-por-topicos-de-conteudo">US31 – Organização de Materiais por Tópicos de Conteúdo</a></td>
+<td style="text-align: left;">RF31</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm03-avaliacao-e-planejamento-educacional">TM03</a>. Avaliação e Planejamento Educacional</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual">EP04</a> – Integrar o Processo de Avaliação ao Ambiente Virtual</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava">US04 - Alinhamento do Plano de Ensino ao AVA</a></td>
+<td style="text-align: left;">RF04</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional">EP05</a> – Relacionar Avaliação Docente com Inferências do Assistente Educacional</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us05-integracao-de-avaliacoes-ao-ava">US05 - Integração de Avaliações ao AVA</a></td>
+<td style="text-align: left;">RF05</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias">EP07</a> – Exibir Cálculos de Desempenho com Base em Dados e Inferências</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us23-calculo-do-desempenho-do-aluno">US23 – Cálculo do Desempenho do Aluno</a></td>
+<td style="text-align: left;">RF23</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm04-assistente-virtual-inteligente">TM04</a>. Assistente Virtual Inteligente</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas">EP06</a> – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy">US06 – Combinar Resultados Formais com Inferências Fuzzy</a></td>
+<td style="text-align: left;">RF06</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy">US37 – Inferências com Lógica Fuzzy</a></td>
+<td style="text-align: left;">RF37</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel">EP09</a> – Criar Personagem Interativo Customizável</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us35-criar-personagem-antropomorfico-para-interacao-direta">US35 - Criar Personagem Antropomórfico para Interação Direta</a></td>
+<td style="text-align: left;">RF35</td>
+<td style="text-align: left;">Baixa</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual">US38 - Visualizar Personagem do Assistente Virtual</a></td>
+<td style="text-align: left;">RF38</td>
+<td style="text-align: left;">Baixa</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us39-customizar-o-assistente-virtual">US39 – Customizar o Assistente Virtual</a></td>
+<td style="text-align: left;">RF39</td>
+<td style="text-align: left;">Baixa</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos">EP10</a> – Analisar Dificuldades Cognitivas e Sugerir Conteúdos</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem">US49 – Análise Cognitiva e Apoio à Aprendizagem</a></td>
+<td style="text-align: left;">RF49</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario">EP11</a> – Acompanhar Interações e Progresso do Usuário</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno">US46 – Exibir Progresso do Aluno</a></td>
+<td style="text-align: left;">RF46</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente">EP12</a> – Promover Compreensão da Aprendizagem por Interação Inteligente</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us36-analisar-situacao-de-aprendizagem-na-interacao">US36 – Analisar Situação de Aprendizagem na Interação</a></td>
+<td style="text-align: left;">RF36</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm05-analise-e-visualizacao-de-desempenho">TM05</a>. Análise e Visualização de Desempenho</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores">EP13</a> – Gerar Análises em Tempo Real com Gráficos e Indicadores</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us11-exibir-media-geral-da-turma">US11 - Exibir Média Geral da Turma</a></td>
+<td style="text-align: left;">RF11</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas">US21 – Exibir Dados e Informações Analíticas</a></td>
+<td style="text-align: left;">RF21</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos">US22 – Gerar Análises em Tempo Real com Gráficos</a></td>
+<td style="text-align: left;">RF22</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario">EP14</a> – Exibir Médias e Porcentagens por Conteúdo e Usuário</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo">US09 – Visualizar Porcentagem de Acertos por Conteúdo</a></td>
+<td style="text-align: left;">RF09</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo">US10 – Visualizar Porcentagem de Erros por Conteúdo</a></td>
+<td style="text-align: left;">RF10</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade">US12 – Exibir Média do Usuário Após Atividade</a></td>
+<td style="text-align: left;">RF12</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-identificar-conteudos-com-maior-indice-de-erro">EP15</a> – Identificar Conteúdos com Maior Índice de Erro</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us16-indice-de-conteudos-ordenado-por-porcentagem-de-erros">US16 - Índice de Conteúdos Ordenado por Porcentagem de Erros</a></td>
+<td style="text-align: left;">RF16</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm06-progresso-e-engajamento-do-aluno">TM06</a>. Progresso e Engajamento do Aluno</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno">EP16</a> – Exibir Progresso Completo e Percentual do Aluno</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina">US07 – Visualizar Progresso do Aluno na Disciplina</a></td>
+<td style="text-align: left;">RF07</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem">US08 – Exibir Progresso da Disciplina em Porcentagem</a></td>
+<td style="text-align: left;">RF08</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep17-permitir-marcacao-de-topicos-de-facilidade">EP17</a> – Permitir Marcação de Tópicos de Facilidade</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us14-selecao-de-disciplinas-mais-faceis">US14 – Seleção de Disciplinas Mais Fáceis</a></td>
+<td style="text-align: left;">RF14</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm07-alertas-e-notificacoes-inteligentes">TM07</a>. Alertas e Notificações Inteligentes</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao">EP18</a> – Configurar Preferências de Tempo e Forma de Notificação</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us13-configurar-alertas-de-atividades-atrasadas">US13 - Configurar Alertas de Atividades Atrasadas</a></td>
+<td style="text-align: left;">RF13</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao">US18 – Definir Forma Preferida de Notificação</a></td>
+<td style="text-align: left;">RF18</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo">EP19</a> – Enviar Alertas sobre Prazos e Revisões de Conteúdo</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos">US15 – Enviar Notificações para Revisão de Conteúdos</a></td>
+<td style="text-align: left;">RF15</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade">US19 – Enviar Notificação sobre Prazo de Entrega de Atividade</a></td>
+<td style="text-align: left;">RF19</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm08-recursos-multimidia-e-materiais-didaticos">TM08</a>. Recursos Multimídia e Materiais Didáticos</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar">EP20</a> – Disponibilizar Vídeo Aulas como Recurso Complementar</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us20-configuracao-de-notificacao-de-prazos-pelo-usuario">US20 - Configuração de Notificação de Prazos pelo Usuário</a></td>
+<td style="text-align: left;">RF20</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo">US17 – Assistir a uma Videoaula do Conteúdo</a></td>
+<td style="text-align: left;">RF17</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep21-gerar-questoes-baseadas-em-video-aulas">EP21</a> – Gerar Questões Baseadas em Vídeo Aulas</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos">US30 – Direcionamento Sob Medida de Materiais aos Alunos</a></td>
+<td style="text-align: left;">RF30</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm09-banco-de-questoes-e-atividades">TM09</a>. Banco de Questões e Atividades</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas">EP22</a> – Criar e Organizar Questões Interativas</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us25-interacao-com-questoes-avaliacao-informativa-e-formativa">US25 - Interação com Questões (Avaliação Informativa e Formativa)</a></td>
+<td style="text-align: left;">RF25</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-criar-e-organizar-questoes-interativas">US24 – Criar e Organizar Questões Interativas</a></td>
+<td style="text-align: left;">RF24</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes">EP23</a> – Gerenciar Banco de Questões de Professores e Outras Fontes</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor">US28 - Gerenciar Banco de Questões do Professor</a></td>
+<td style="text-align: left;">RF28</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us32-filtrar-banco-de-questoes-por-conteudo">US32 – Filtrar Banco de Questões por Conteúdo</a></td>
+<td style="text-align: left;">RF32</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm10-integracao-e-centralizacao-de-sistemas">TM10</a>. Integração e Centralização de Sistemas</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep24-integrar-com-outros-sistemas-educacionais">EP24</a> – Integrar com Outros Sistemas Educacionais</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us33-integracao-com-softwares-educacionais-externos">US33 – Integração com Softwares Educacionais Externos</a></td>
+<td style="text-align: left;">RF33</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep25-centralizar-informacoes-educacionais">EP25</a> – Centralizar Informações Educacionais</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us34-centralizar-informacoes-de-atividades-e-desempenho">US34 - Centralizar Informações de Atividades e Desempenho</a></td>
+<td style="text-align: left;">RF34</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm11-comunicacao-e-colaboracao-academica">TM11</a>. Comunicação e Colaboração Acadêmica</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria">EP26</a> – Facilitar Comunicação via Chat e Monitoria</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos">US43 – Facilitar Interação entre Monitores, Professores e Alunos</a></td>
+<td style="text-align: left;">RF43</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia">US44 – Chat Síncrono para Interação a Distância</a></td>
+<td style="text-align: left;">RF44</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria">US47 – Informações sobre Horários e Locais de Monitoria</a></td>
+<td style="text-align: left;">RF47</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento">EP27</a> – Fornecer Dados ao Professor sobre Domínio e Comportamento</td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us41-notificacao-de-conteudos-mais-dificeis-ao-aluno">US41 – Notificação de Conteúdos Mais Difíceis ao Aluno</a></td>
+<td style="text-align: left;">RF41</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno">US50 – Identificar Conhecimento do Aluno</a></td>
+<td style="text-align: left;">RF50</td>
+<td style="text-align: left;">Média</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno">US51 – Identificar Comportamento Adequado do Aluno</a></td>
+<td style="text-align: left;">RF51</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h2 id="temas">Temas</h2>
+<h3 id="tm01-identificacao-e-perfis-de-usuario"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm01-identificacao-e-perfis-de-usuario">TM01</a>. Identificação e Perfis de Usuário</h3>
+<p>Funcionalidades relacionadas ao <strong>cadastro, autenticação e gerenciamento de perfis</strong> de alunos, professores, monitores, coordenadores e administradores. Permite personalizar a experiência do usuário e controlar o acesso às funcionalidades conforme o papel.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep01-gerenciar-perfis-de-usuarios">EP01 – Gerenciar Perfis de Usuários</a></li>
+</ul>
+<h3 id="tm02-conteudo-e-aprendizagem-significativa"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm02-conteudo-e-aprendizagem-significativa">TM02</a>. Conteúdo e Aprendizagem Significativa</h3>
+<p>Funcionalidades voltadas à <strong>organização, mapeamento e estruturação de conteúdos</strong> seguindo a Teoria da Aprendizagem Significativa (TAS).</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep02-mapear-e-estruturar-conteudos-segundo-a-tas">EP02 – Mapear e Estruturar Conteúdos segundo a TAS</a></li>
+<li><a href="#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos">EP03 – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos</a></li>
+</ul>
+<h3 id="tm03-avaliacao-e-planejamento-educacional"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm03-avaliacao-e-planejamento-educacional">TM03</a>. Avaliação e Planejamento Educacional</h3>
+<p>Funcionalidades que permitem <strong>planejar, aplicar e acompanhar avaliações</strong>, integrando resultados formais com feedbacks para melhorar o desempenho pedagógico.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual">EP04 – Integrar o Processo de Avaliação ao Ambiente Virtual</a></li>
+<li><a href="#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional">EP05 – Relacionar Avaliação Docente com Inferências do Assistente Educacional</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias">EP07 – Exibir Cálculos de Desempenho com Base em Dados e Inferências</a></li>
+</ul>
+<h3 id="tm04-assistente-virtual-inteligente"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm04-assistente-virtual-inteligente">TM04</a>. Assistente Virtual Inteligente</h3>
+<p>Funcionalidades que permitem <strong>interação personalizada com o assistente virtual</strong>, fornecendo recomendações, inferências e suporte adaptativo aos usuários, incluindo uso de lógica Fuzzy para decisões pedagógicas graduais.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="[#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas)">EP06 – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel">EP09 - Criar Personagem Interativo Customizável</a></li>
+<li><a href="#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos">EP10 – Analisar Dificuldades Cognitivas e Sugerir Conteúdos</a></li>
+<li><a href="#ep11-acompanhar-interacoes-e-progresso-do-usuario">EP11 – Acompanhar Interações e Progresso do Usuário</a></li>
+</ul>
+<h3 id="tm05-analise-e-visualizacao-de-desempenho"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm05-analise-e-visualizacao-de-desempenho">TM05</a>. Análise e Visualização de Desempenho</h3>
+<p>Funcionalidades que geram <strong>gráficos, indicadores e relatórios em tempo real</strong>, permitindo professores e gestores acompanhar o desempenho dos alunos e tomar decisões pedagógicas fundamentadas.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores">EP13 – Gerar Análises em Tempo Real com Gráficos e Indicadores</a></li>
+<li><a href="#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario">EP14 – Exibir Médias e Porcentagens por Conteúdo e Usuário</a></li>
+<li><a href="#ep15-identificar-conteudos-com-maior-indice-de-erro">EP15 – Identificar Conteúdos com Maior Índice de Erro</a></li>
+</ul>
+<h3 id="tm06-progresso-e-engajamento-do-aluno"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm06-progresso-e-engajamento-do-aluno">TM06</a>. Progresso e Engajamento do Aluno</h3>
+<p>Funcionalidades para monitorar <strong>interações e progresso dos alunos</strong>, identificando tópicos dominados, dificuldades e lacunas de aprendizagem, promovendo acompanhamento contínuo e personalizado.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep16-exibir-progresso-completo-e-percentual-do-aluno">EP16 – Exibir Progresso Completo e Percentual do Aluno</a></li>
+<li><a href="#ep17-permitir-marcacao-de-topicos-de-facilidade">EP17 – Permitir Marcação de Tópicos de Facilidade</a></li>
+</ul>
+<h3 id="tm07-alertas-e-notificacoes-inteligentes"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm07-alertas-e-notificacoes-inteligentes">TM07</a>. Alertas e Notificações Inteligentes</h3>
+<p>Funcionalidades que enviam <strong>alertas automáticos e notificações personalizadas</strong>, lembrando sobre prazos, revisões e eventos relevantes.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="[#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao)">EP18 – Configurar Preferências de Tempo e Forma de Notificação</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo">EP19 – Enviar Alertas sobre Prazos e Revisões de Conteúdo</a></li>
+</ul>
+<h3 id="tm08-recursos-multimidia-e-materiais-didaticos"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm08-recursos-multimidia-e-materiais-didaticos">TM08</a>. Recursos Multimídia e Materiais Didáticos</h3>
+<p>Funcionalidades que disponibilizam <strong>materiais educacionais multimídia</strong>, como textos, vídeos, imagens e exercícios interativos, favorecendo diferentes estilos de aprendizagem.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep20-disponibilizar-video-aulas-como-recurso-complementar">EP20 – Disponibilizar Vídeo Aulas como Recurso Complementar</a></li>
+<li><a href="#ep21-gerar-questoes-baseadas-em-video-aulas">EP21 – Gerar Questões Baseadas em Vídeo Aulas</a></li>
+</ul>
+<h3 id="tm09-banco-de-questoes-e-atividades"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm09-banco-de-questoes-e-atividades">TM09</a>. Banco de Questões e Atividades</h3>
+<p>Funcionalidades para <strong>criar, organizar e gerenciar questões e atividades</strong>, permitindo reutilização, avaliação formativa e feedback automático.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep22-criar-e-organizar-questoes-interativas">EP22 – Criar e Organizar Questões Interativas</a></li>
+<li><a href="#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes">EP23 – Gerenciar Banco de Questões de Professores e Outras Fontes</a></li>
+</ul>
+<h3 id="tm10-integracao-e-centralizacao-de-sistemas"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm10-integracao-e-centralizacao-de-sistemas">TM10</a>. Integração e Centralização de Sistemas</h3>
+<p>Funcionalidades que permitem <strong>integrar o sistema com outros softwares educacionais e AVAs</strong>, centralizando informações acadêmicas e facilitando a interoperabilidade.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep24-integrar-com-outros-sistemas-educacionais">EP24 – Integrar com Outros Sistemas Educacionais</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep25-centralizar-informacoes-educacionais">EP25 – Centralizar Informações Educacionais</a></li>
+</ul>
+<h3 id="tm11-comunicacao-e-colaboracao-academica"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#tm11-comunicacao-e-colaboracao-academica">TM11</a>. Comunicação e Colaboração Acadêmica</h3>
+<p>Funcionalidades para <strong>interação e colaboração entre alunos, professores e monitores</strong>, via chat, fórum e monitoria, promovendo engajamento e troca de conhecimento.</p>
+<p><strong>Épicos relacionados:</strong></p>
+<ul>
+<li><a href="#ep26-facilitar-comunicacao-via-chat-e-monitoria">EP26 – Facilitar Comunicação via Chat e Monitoria</a></li>
+<li><a href="#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento">EP27 – Fornecer Dados ao Professor sobre Domínio e Comportamento</a></li>
+</ul>
+<hr />
+<h2 id="epicos">Épicos</h2>
+<p>Para deixar os temas mais claros e menos abstratos, foram criados os épicos, que ajudam a 
+<strong>organizar e detalhar melhor as funcionalidades do sistema</strong>. 
+Cada épico representa um objetivo principal do projeto, que pode ser dividido em partes 
+menores, chamadas de <strong>histórias de usuário</strong>, facilitando o entendimento do sistema. </p>
+<hr />
+<h3 id="ep01-gerenciar-perfis-de-usuarios"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios">EP01</a> – Gerenciar Perfis de Usuários</h3>
+<p><strong>Descrição:</strong> Permitir o gerenciamento de perfis de usuários conforme seus papéis educacionais, como aluno, professor, monitor e gestor.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us01-identificacao-e-autenticacao-de-usuarios">US01 -  Identificação e Autenticação de Usuários</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us02-visualizar-e-gerenciar-perfil-individual">US02 - Visualizar e Gerenciar Perfil Individual</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<hr />
+<h3 id="ep02-mapear-e-estruturar-conteudos-segundo-a-tas"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas">EP02</a> – Mapear e Estruturar Conteúdos segundo a TAS</h3>
+<p><strong>Descrição:</strong> Mapear e estruturar conteúdos de acordo com a Teoria da Aprendizagem Significativa (TAS), facilitando a organização pedagógica do material.  </p>
+<p><strong>Histórias relacionadas:</strong>  </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us03-mapeamento-de-conceitos-segundo-a-teoria-da-aprendizagem-significativa-tas">US03 - Mapeamento de Conceitos segundo a Teoria da Aprendizagem Significativa (TAS)</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+<hr />
+<h3 id="ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep03-organizar-e-publicar-materiais-por-topicos-e-niveis-cognitivos">EP03</a> – Organizar e Publicar Materiais por Tópicos e Níveis Cognitivos</h3>
+<p><strong>Descrição:</strong> Organizar e publicar materiais educacionais considerando tópicos, níveis cognitivos e relações entre conteúdos.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us53-organizacao-de-materiais-por-topicos-de-conteudo">US31 – Organização de Materiais por Tópicos de Conteúdo</a></li>
+</ul>
+<hr />
+<h3 id="ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual">EP04</a> – Integrar o Processo de Avaliação ao Ambiente Virtual</h3>
+<p><strong>Descrição:</strong> Integrar o processo formal de avaliação ao ambiente virtual de aprendizagem, permitindo o acompanhamento contínuo do desempenho.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us04-alinhamento-do-plano-de-ensino-ao-ava">US04 - Alinhamento do Plano de Ensino ao AVA</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional">EP05</a> – Relacionar Avaliação Docente com Inferências do Assistente Educacional</h3>
+<p><strong>Descrição:</strong> Associar resultados de avaliações docentes às inferências geradas pelo assistente educacional, promovendo feedbacks mais precisos.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us05-integracao-de-avaliacoes-ao-ava">US05 - Integração de Avaliações ao AVA</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas">EP06</a> – Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas</h3>
+<p><strong>Descrição:</strong> Empregar lógica Fuzzy para apoiar decisões pedagógicas, considerando incertezas e avaliações graduais.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us06-combinar-resultados-formais-com-inferencias-fuzzy">US06 – Combinar Resultados Formais com Inferências Fuzzy</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us37-inferencias-com-logica-fuzzy">US37 – Inferências com Lógica Fuzzy</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<hr />
+<h3 id="ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep07-exibir-calculos-de-desempenho-com-base-em-dados-e-inferencias">EP07</a> – Exibir Cálculos de Desempenho com Base em Dados e Inferências</h3>
+<p><strong>Descrição:</strong> Exibir cálculos de desempenho que combinem dados objetivos e inferências do sistema, favorecendo a análise pedagógica.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us23-calculo-do-desempenho-do-aluno">US23 – Cálculo do Desempenho do Aluno</a></li>
+</ul>
+<hr />
+<h3 id="ep08-oferecer-assistencia-personalizada-a-alunos-e-professores"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores">EP08</a> – Oferecer Assistência Personalizada a Alunos e Professores</h3>
+<p><strong>Descrição:</strong> Fornecer assistência personalizada por meio do assistente virtual, adaptando respostas e recomendações ao perfil do usuário.  </p>
+<p><strong>Histórias relacionadas:</strong> - <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us26-assistencia-ao-professor-no-modulo-de-interacao">US26 - Assistência ao Professor no Módulo de Interação</a></p>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="ep09-criar-personagem-interativo-customizavel"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel">EP09</a> – Criar Personagem Interativo Customizável</h3>
+<p><strong>Descrição:</strong> Desenvolver um personagem interativo com interface visual e opções de personalização para melhorar a experiência do usuário.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us35-criar-personagem-antropomorfico-para-interacao-direta">US35 - Criar Personagem Antropomórfico para Interação Direta</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us38-visualizar-personagem-do-assistente-virtual">US38 - Visualizar Personagem do Assistente Virtual</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us39-customizar-o-assistente-virtual">US39 – Customizar o Assistente Virtual</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<hr />
+<h3 id="ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep10-analisar-dificuldades-cognitivas-e-sugerir-conteudos">EP10</a> – Analisar Dificuldades Cognitivas e Sugerir Conteúdos</h3>
+<p><strong>Descrição:</strong> Analisar o desempenho cognitivo dos alunos e sugerir conteúdos adequados para superar lacunas de aprendizagem.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us49-analise-cognitiva-e-apoio-a-aprendizagem">US49 – Análise Cognitiva e Apoio à Aprendizagem</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<hr />
+<h3 id="ep11-acompanhar-interacoes-e-progresso-do-usuario"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep11-acompanhar-interacoes-e-progresso-do-usuario">EP11</a> – Acompanhar Interações e Progresso do Usuário</h3>
+<p><strong>Descrição:</strong> Monitorar as interações do usuário com o sistema e acompanhar seu progresso de forma contínua.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us46-exibir-progresso-do-aluno">US46 – Exibir Progresso do Aluno</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us45-acompanhar-interacoes-do-usuario-com-o-assistente-virtual">US45 – Acompanhar Interações do Usuário com o Assistente Virtual</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<hr />
+<h3 id="ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep12-promover-compreensao-da-aprendizagem-por-interacao-inteligente">EP12</a> – Promover Compreensão da Aprendizagem por Interação Inteligente</h3>
+<p><strong>Descrição:</strong> Favorecer a compreensão do aprendizado por meio de interações inteligentes e adaptativas com o assistente virtual.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us36-analisar-situacao-de-aprendizagem-na-interacao">US36 – Analisar Situação de Aprendizagem na Interação</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+<hr />
+<h3 id="ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores">EP13</a> – Gerar Análises em Tempo Real com Gráficos e Indicadores</h3>
+<p><strong>Descrição:</strong> Produzir análises e gráficos de desempenho em tempo real, permitindo o acompanhamento dinâmico dos resultados. </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us11-exibir-media-geral-da-turma">US11 - Exibir Média Geral da Turma</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us21-exibir-dados-e-informacoes-analiticas">US21 – Exibir Dados e Informações Analíticas</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us22-gerar-analises-em-tempo-real-com-graficos">US22 – Gerar Análises em Tempo Real com Gráficos</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href ="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<hr />
+<h3 id="ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep14-exibir-medias-e-porcentagens-por-conteudo-e-usuario">EP14</a> – Exibir Médias e Porcentagens por Conteúdo e Usuário</h3>
+<p><strong>Descrição:</strong> Exibir médias e porcentagens de desempenho organizadas por conteúdo, turma e usuário.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us09-visualizar-porcentagem-de-acertos-por-conteudo">US09 – Visualizar Porcentagem de Acertos por Conteúdo</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us10-visualizar-porcentagem-de-erros-por-conteudo">US10 – Visualizar Porcentagem de Erros por Conteúdo</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us12-exibir-media-do-usuario-apos-atividade">US12 – Exibir Média do Usuário Após Atividade</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<hr />
+<h3 id="ep15-identificar-conteudos-com-maior-indice-de-erro"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-identificar-conteudos-com-maior-indice-de-erro">EP15</a> – Identificar Conteúdos com Maior Índice de Erro</h3>
+<p><strong>Descrição:</strong> Detectar conteúdos que apresentem altos índices de erro, fornecendo subsídios para a intervenção pedagógica.  </p>
+<p><strong>Histórias relacionadas:</strong> -  <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us16-indice-de-conteudos-ordenado-por-porcentagem-de-erros">US16 - Índice de Conteúdos Ordenado por Porcentagem de Erros</a></p>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="ep16-exibir-progresso-completo-e-percentual-do-aluno"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep16-exibir-progresso-completo-e-percentual-do-aluno">EP16</a> – Exibir Progresso Completo e Percentual do Aluno</h3>
+<p><strong>Descrição:</strong> Mostrar o progresso total e percentual do aluno em cada disciplina, auxiliando no acompanhamento de seu desenvolvimento.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us07-visualizar-progresso-do-aluno-na-disciplina">US07 – Visualizar Progresso do Aluno na Disciplina</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us08-exibir-progresso-da-disciplina-em-porcentagem">US08 – Exibir Progresso da Disciplina em Porcentagem</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<hr />
+<h3 id="ep17-permitir-marcacao-de-topicos-de-facilidade"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep17-permitir-marcacao-de-topicos-de-facilidade">EP17</a> – Permitir Marcação de Tópicos de Facilidade</h3>
+<p><strong>Descrição:</strong> Permitir que o aluno marque tópicos que considera fáceis ou dominados, para personalizar seu plano de estudo.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us14-selecao-de-disciplinas-mais-faceis">US14 – Seleção de Disciplinas Mais Fáceis</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+<hr />
+<h3 id="ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao">EP18</a> – Configurar Preferências de Tempo e Forma de Notificação</h3>
+<p><strong>Descrição:</strong> Permitir que o usuário defina o modo e o tempo em que deseja receber notificações do sistema.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us13-configurar-alertas-de-atividades-atrasadas">US13 - Configurar Alertas de Atividades Atrasadas</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us18-definir-forma-preferida-de-notificacao">US18 – Definir Forma Preferida de Notificação</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> e <a href ="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<hr />
+<h3 id="ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo">EP19</a> – Enviar Alertas sobre Prazos e Revisões de Conteúdo</h3>
+<p><strong>Descrição:</strong> Enviar notificações automáticas lembrando o usuário sobre prazos, revisões e atividades pendentes.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us15-enviar-notificacoes-para-revisao-de-conteudos">US15 – Enviar Notificações para Revisão de Conteúdos</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us19-enviar-notificacao-sobre-prazo-de-entrega-de-atividade">US19 – Enviar Notificação sobre Prazo de Entrega de Atividade</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<hr />
+<h3 id="ep20-disponibilizar-video-aulas-como-recurso-complementar"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar">EP20</a> – Disponibilizar Vídeo Aulas como Recurso Complementar</h3>
+<p><strong>Descrição:</strong> Oferecer vídeo aulas como recurso complementar aos materiais escritos e atividades práticas.  </p>
+<p><strong>Histórias relacionadas:</strong> - <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us20-configuracao-de-notificacao-de-prazos-pelo-usuario">US20 - Configuração de Notificação de Prazos pelo Usuário</a></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us17-assistir-a-uma-videoaula-do-conteudo">US17 – Assistir a uma Videoaula do Conteúdo</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a> e <a href ="https://github.com/arthurhvieira1">Arthur Henrique </a></strong></div>
+
+<hr />
+<h3 id="ep21-gerar-questoes-baseadas-em-video-aulas"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep21-gerar-questoes-baseadas-em-video-aulas">EP21</a> – Gerar Questões Baseadas em Vídeo Aulas</h3>
+<p><strong>Descrição:</strong> Criar automaticamente questões de reforço cognitivo com base no conteúdo de vídeo aulas.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us30-direcionamento-sob-medida-de-materiais-aos-alunos">US30 – Direcionamento Sob Medida de Materiais aos Alunos</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us40-sugerir-questoes-pos-videoaula">US40 – Sugerir Questões Pós-Videoaula</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a> e <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a></strong></div>
+
+<hr />
+<h3 id="ep22-criar-e-organizar-questoes-interativas"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas">EP22</a> – Criar e Organizar Questões Interativas</h3>
+<p><strong>Descrição:</strong> Criar e organizar questões interativas voltadas à avaliação formativa e autoavaliação do aluno.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us25-interacao-com-questoes-avaliacao-informativa-e-formativa">US25 - Interação com Questões (Avaliação Informativa e Formativa)</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us24-criar-e-organizar-questoes-interativas">US24 – Criar e Organizar Questões Interativas</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a> e <a href="https://github.com/arthurhvieira1">Arthur Henrique</a> </strong></div>
+
+<hr />
+<h3 id="ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes">EP23</a> – Gerenciar Banco de Questões de Professores e Outras Fontes</h3>
+<p><strong>Descrição:</strong> Gerenciar um banco de questões provenientes de diferentes origens, permitindo filtragem e reutilização.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us28-gerenciar-banco-de-questoes-do-professor">US28 - Gerenciar Banco de Questões do Professor</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us29-banco-de-questoes-com-fontes-externas">US29 - Banco de Questões com Fontes Externas</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us32-filtrar-banco-de-questoes-por-conteudo">US32 – Filtrar Banco de Questões por Conteúdo</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar Fagundes</a> e e <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<hr />
+<h3 id="ep24-integrar-com-outros-sistemas-educacionais"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep24-integrar-com-outros-sistemas-educacionais">EP24</a> – Integrar com Outros Sistemas Educacionais</h3>
+<p><strong>Descrição:</strong> Integrar o sistema a outros softwares educacionais e ambientes virtuais de aprendizagem (AVAs).  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li>[US33 – Integração com Softwares Educacionais Externos](https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us33-integracao-com-softwares-educacionais-externos</li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+<hr />
+<h3 id="ep25-centralizar-informacoes-educacionais"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep25-centralizar-informacoes-educacionais">EP25</a> – Centralizar Informações Educacionais</h3>
+<p><strong>Descrição:</strong> Centralizar informações acadêmicas em um único ambiente, reduzindo o esforço docente e evitando duplicidade de dados.  </p>
+<p><strong>Histórias relacionadas:</strong> </p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us34-centralizar-informacoes-de-atividades-e-desempenho">US34 - Centralizar Informações de Atividades e Desempenho</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<hr />
+<h3 id="ep26-facilitar-comunicacao-via-chat-e-monitoria"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep26-facilitar-comunicacao-via-chat-e-monitoria">EP26</a> – Facilitar Comunicação via Chat e Monitoria</h3>
+<p><strong>Descrição:</strong> Disponibilizar canais de comunicação síncronos e assíncronos (chat, fórum, monitoria) entre alunos e professores.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us43-facilitar-interacao-entre-monitores-professores-e-alunos">US43 – Facilitar Interação entre Monitores, Professores e Alunos</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us44-chat-sincrono-para-interacao-a-distancia">US44 – Chat Síncrono para Interação a Distância</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us47-informacoes-sobre-horarios-e-locais-de-monitoria">US47 – Informações sobre Horários e Locais de Monitoria</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a> e <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+<hr />
+<h3 id="ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento"><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento">EP27</a> – Fornecer Dados ao Professor sobre Domínio e Comportamento</h3>
+<p><strong>Descrição:</strong> Fornecer ao professor dados sobre o domínio de conteúdo e o comportamento de aprendizagem dos alunos, auxiliando na personalização do ensino.  </p>
+<p><strong>Histórias relacionadas:</strong></p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us41-notificacao-de-conteudos-mais-dificeis-ao-aluno">US41 – Notificação de Conteúdos Mais Difíceis ao Aluno</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis-ao-professor">US42 - Notificação de Conteúdos Mais Difíceis ao Professor</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us50-identificar-conhecimento-do-aluno">US50 – Identificar Conhecimento do Aluno</a></li>
+<li><a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us51-identificar-comportamento-adequado-do-aluno">US51 – Identificar Comportamento Adequado do Aluno</a></li>
+</ul>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a> e <a href="https://github.com/MrBolt2005">João Felipe</a></strong></div>
+
+<hr />
+<h2 id="gravacoes-da-validacao-e-priorizacao-do-documento">Gravações da Validação e Priorização do Documento</h2>
+<h3 id="gravacao-1">Gravação 1</h3>
+<p>A Tabela 3 mostra os participantes do grupo envolvidos na validação e priorização.</p>
+<div align="center"><strong>Tabela 3: Participantes envolvidos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<p>A Tabela 4 apresenta as informações do usuário que participou da etapa de validação e priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.</p>
+<div align="center"><strong>Tabela 4: Usuário Real e Informações da Gravação</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Data</th>
+<th>Hora</th>
+<th>Local</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yzabella Miranda</td>
+<td>21/10/2025</td>
+<td>11:00</td>
+<td>Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<p>Além disso, a gravação da validação e priorização pode ser conferida em: <a href="https://youtu.be/uWmAvddPt_U?si=g668_QBPEmEtwYml">https://youtu.be/uWmAvddPt_U?si=g668_QBPEmEtwYml</a>.</p>
+<hr />
+<h3 id="gravacao-2">Gravação 2</h3>
+<p>A Tabela 5 mostra os participantes do grupo envolvidos na validação e priorização.</p>
+<div align="center"><strong>Tabela 5: Participantes envolvidos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<p>A Tabela 6 apresenta as informações do usuário que participou da etapa de validação e priorização, incluindo seu nome e dados sobre a gravação, como data, hora e local.</p>
+<div align="center"><strong>Tabela 6: Usuário Real e Informações da Gravação</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Data</th>
+<th>Hora</th>
+<th>Local</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>João Igor</td>
+<td>21/10/2025</td>
+<td>11:00</td>
+<td>Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<p>Além disso, a gravação da validação e priorização pode ser conferida em: <a href="https://youtu.be/Pk-XdjY2Lp8?si=w3noZZpPthwviasu">https://youtu.be/Pk-XdjY2Lp8?si=w3noZZpPthwviasu</a>.</p>
+<hr />
+<h3 id="gravacao-3">Gravação 3</h3>
+<p>A Tabela 58 mostra os participantes do grupo envolvidos na validação.</p>
+<div align="center"><strong>Tabela 58: Participantes envolvidos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<p>A Tabela 59 apresenta as informações do usuário que participou da etapa de validação, incluindo seu nome e dados sobre a gravação, como data, hora e local.</p>
+<div align="center"><strong>Tabela 59: Usuário Real e Informações da Gravação</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Data</th>
+<th>Hora</th>
+<th>Local</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cibelly Lourenço</td>
+<td>21/10/2025</td>
+<td>17:00</td>
+<td>Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<p>Além disso, a gravação da validação conferida em: <a href="https://youtu.be/LPax-bLDhYw?si=uShTjdpKJhNuvm45">https://youtu.be/LPax-bLDhYw?si=uShTjdpKJhNuvm45</a>. Sendo que do minuto 9:42 até o minuto 20:51 corresponde à validação e priorização do Backlog.</p>
+<h2 id="agradecimentos">Agradecimentos</h2>
+<p>O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — <strong>ChatGPT, GitHub Copilot, Google Gemini e DeepSeek</strong> — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.</p>
+<h2 id="referencias">Referências</h2>
+<p>SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 15. Disponível em: <a href="../../arquivos/backlog_aula.pdf">Requisitos_Aula 15</a>. Acesso em: 21 outubro 2025.</p>
+<h2 id="historicos-de-versao">Históricos de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>16/10/2025</td>
+<td>Criação do documento de Backlog do Produto</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>17/10/2025</td>
+<td>Participação da criação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep06-utilizar-logica-fuzzy-para-apoiar-decisoes-pedagogicas">EP06 - Utilizar Lógica Fuzzy para Apoiar Decisões Pedagógicas</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores">EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao">EP18 - Configurar Preferências de Tempo e Forma de Notificação</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep19-enviar-alertas-sobre-prazos-e-revisoes-de-conteudo">EP19 - Enviar Alertas sobre Prazos e Revisões de Conteúdo</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>17/10/2025</td>
+<td>Participação da criação dos épicos EP14, EP16 e EP20</td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>18/10/2025</td>
+<td>Participação da criação dos épicos EP14, EP16 e EP20</td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>19/10/2025</td>
+<td>Correção dos hiperlinks das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões</td>
+<td><a href="https://github.com/joaovpires">João Victor Pires</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>19/10/2025</td>
+<td>Correção dos <em>hiperlinks</em> das histórias de usuário, inclusão das etapas de participação e atualização do histórico de versões e dos agradecimentos</td>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> <rb> <a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>20/10/2025</td>
+<td>Participação da criação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep01-gerenciar-perfis-de-usuarios">EP01 - Gerenciar Perfis de Usuários</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep09-criar-personagem-interativo-customizavel">EP09 - Criar Personagem Interativo Customizável</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep13-gerar-analises-em-tempo-real-com-graficos-e-indicadores">EP13 - Gerar Análises em Tempo Real com Gráficos e Indicadores</a>, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep18-configurar-preferencias-de-tempo-e-forma-de-notificacao">EP18 - Configurar Preferências de Tempo e Forma de Notificação</a> e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep23-gerenciar-banco-de-questoes-de-professores-e-outras-fontes">EP23 - Gerenciar Banco de Questões de Professores e Outras Fontes</a></td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+</tr>
+<tr>
+<td>1.6</td>
+<td>21/10/2025</td>
+<td>Participação dos épicos <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep02-mapear-e-estruturar-conteudos-segundo-a-tas">EP02</a> – Mapear e Estruturar Conteúdos segundo a TAS, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep04-integrar-o-processo-de-avaliacao-ao-ambiente-virtual">EP04</a> – Integrar o Processo de Avaliação ao Ambiente Virtual, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep05-relacionar-avaliacao-docente-com-inferencias-do-assistente-educacional">EP05</a> – Relacionar Avaliação Docente com Inferências do Assistente Educacional, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep15-identificar-conteudos-com-maior-indice-de-erro">EP15</a> – Identificar Conteúdos com Maior Índice de Erro, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep20-disponibilizar-video-aulas-como-recurso-complementar">EP20</a> – Disponibilizar Vídeo Aulas como Recurso Complementar, <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep22-criar-e-organizar-questoes-interativas">EP22</a> – Criar e Organizar Questões Interativas e <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep08-oferecer-assistencia-personalizada-a-alunos-e-professores">EP08</a> – Oferecer Assistência Personalizada a Alunos e Professores</td>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+</tr>
+<tr>
+<td>1.7</td>
+<td>21/10/2025</td>
+<td>Adição da Gravação 1 de validação e priorização</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+</tr>
+<tr>
+<td>1.8</td>
+<td>21/10/2025</td>
+<td>Adição da Gravação 2 de validação e priorização</td>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.9</td>
+<td>21/10/2025</td>
+<td>Adição da Gravação 3 de validação e priorização</td>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.10</td>
+<td>22/10/2025</td>
+<td>Adição da <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/historias_de_usuario/#us42-notificacao-de-conteudos-mais-dificeis-ao-professor">US42 - Notificação de Conteúdos Mais Difíceis ao Professor</a> ao Épico <a href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/backlog_do_produto/#ep27-fornecer-dados-ao-professor-sobre-dominio-e-comportamento">EP27 - Fornecer Dados ao Professor sobre Domínio e Comportamento</a></td>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a> <br> <a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../historias_de_usuario/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Histórias de Usuário">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Histórias de Usuário
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../nfr_framework/" class="md-footer__link md-footer__link--next" aria-label="Próximo: NFR Framework">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                NFR Framework
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

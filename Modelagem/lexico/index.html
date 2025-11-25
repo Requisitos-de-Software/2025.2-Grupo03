@@ -1,0 +1,5653 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2025.2-Grupo03/Modelagem/lexico/">
+      
+      
+        <link rel="prev" href="../especificacao_suplementar/">
+      
+      
+        <link rel="next" href="../historias_de_usuario/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Léxico - Grupo 03 - Requisitos de Software (2025.2)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lexico" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-header__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo 03 - Requisitos de Software (2025.2)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Léxico
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Atas/ata09-09-2025_1/" class="md-tabs__link">
+          
+  
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-tabs__link">
+          
+  
+  
+  Apresentação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Rich-picture/richpicture/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Rich Picture
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Verificacao/verificacao/" class="md-tabs__link">
+          
+  
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Elicitacao/perfil_usuario/" class="md-tabs__link">
+          
+  
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../casos_de_uso/" class="md-tabs__link">
+          
+  
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Pos-modelagem/matriz_de_rastreabilidade/" class="md-tabs__link">
+          
+  
+  
+  Pós Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-tabs__link">
+          
+  
+  
+  Inspeção
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Validacao/prototipos/" class="md-tabs__link">
+          
+  
+  
+  Validação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-tabs__link">
+          
+  
+  
+  Entrega Final
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo 03 - Requisitos de Software (2025.2)" class="md-nav__button md-logo" aria-label="Grupo 03 - Requisitos de Software (2025.2)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Grupo 03 - Requisitos de Software (2025.2)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2025.2-Grupo03" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025.2-Grupo03
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata09-09-2025_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 09/09/2025 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata10-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 10/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Atas/ata18-09-2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata 18/09/2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apresentação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresenta%C3%A7%C3%A3o/entrega_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HeatMap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_planejado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma planejado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma_executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma executado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/Aplicativos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativos avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Rich-picture/richpicture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rich Picture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verificacao/verificacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/perfil_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming_perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Perfil de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/requisitos_elicitados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requisitos Elicitados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Elicitação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Elicitação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/analise_de_documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevista
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/brainstorming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming - Elicitação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas de Priorização
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Técnicas de Priorização
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First Thing First
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/three_level_scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Three Level Scale
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/100_dolares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    $100
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicitacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MoSCoW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Tradicionais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Tradicionais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de Uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao_suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Especificação Suplementar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Léxico
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Léxico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxicos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Léxicos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lexico-1-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 1: Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-2-professor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 2: Professor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-3-monitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 3: Monitor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-4-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 4: Coordenador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-5-administrador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 5: Administrador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-6-avas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 6: AVAs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-7-mina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 7: MinA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-8-receber-notificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 8: Receber Notificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-9-consultar-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 9: Consultar Histórico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-10-consultar-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 10: Consultar Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-11-realizar-atividade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 11: Realizar Atividade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-12-consultar-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 12: Consultar Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-13-fornecer-estatisticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 13: Fornecer Estatísticas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-14-atividade-concluida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 14: Atividade Concluída
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-15-atividade-pendente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 15: Atividade Pendente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-16-atividade-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 16: Atividade em Andamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-17-atividade-atrasada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 17: Atividade Atrasada
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-18-conteudo-dominado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 18: Conteúdo Dominado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-19-conteudo-em-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 19: Conteúdo em Dificuldade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-20-banco-de-questooes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 20: Banco de questoões
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-21-separar-por-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 21: Separar por conteudo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-22-aluno-com-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 22: Aluno com Dificuldade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-23-perfil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 23: Perfil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-24-analisar-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 24: Analisar Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-25-aluno-inativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 25: Aluno Inativo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-26-estatisticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 26: Estatísticas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-27-assistente-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 27: Assistente Virtual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-28-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 28: Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-29-configurar-aviso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 29: Configurar Aviso
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologias Ágeis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metodologias Ágeis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias_de_usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Histórias de Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog_do_produto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog do Produto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfr_framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NFR Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pós Modelagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pós Modelagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/matriz_de_rastreabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Matriz de Rastreabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/backward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pos-modelagem/forward/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forward From
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeção
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inspeção
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1_5" id="__nav_10_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o5_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grupo +1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grupo +1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2_5" id="__nav_10_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega 5
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa1_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa2_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa3_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa4_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_Etapa6_grupo_%2B1_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inspe%C3%A7%C3%A3o/inspe%C3%A7%C3%A3o_grupo_%2B1_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Validação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prototipação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Validacao/contato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comprovação Informal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entrega Final
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/aplicativo_escolhido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicativo Escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/artefatos_criados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artefatos Criados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/cronograma_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/execucao_projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execução do Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/facilidades_dificuldades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facilidades e Dificuldades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/resultados_alcan%C3%A7ados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados Alcançados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/tecnicas_utilizadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Técnicas Utilizadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/validacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entrega_Final/verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrantes do Grupo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metodologia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxicos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Léxicos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lexico-1-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 1: Aluno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-2-professor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 2: Professor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-3-monitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 3: Monitor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-4-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 4: Coordenador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-5-administrador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 5: Administrador
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-6-avas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 6: AVAs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-7-mina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 7: MinA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-8-receber-notificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 8: Receber Notificação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-9-consultar-historico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 9: Consultar Histórico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-10-consultar-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 10: Consultar Conteúdo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-11-realizar-atividade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 11: Realizar Atividade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-12-consultar-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 12: Consultar Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-13-fornecer-estatisticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 13: Fornecer Estatísticas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-14-atividade-concluida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 14: Atividade Concluída
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-15-atividade-pendente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 15: Atividade Pendente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-16-atividade-em-andamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 16: Atividade em Andamento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-17-atividade-atrasada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 17: Atividade Atrasada
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-18-conteudo-dominado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 18: Conteúdo Dominado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-19-conteudo-em-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 19: Conteúdo em Dificuldade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-20-banco-de-questooes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 20: Banco de questoões
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-21-separar-por-conteudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 21: Separar por conteudo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-22-aluno-com-dificuldade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 22: Aluno com Dificuldade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-23-perfil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 23: Perfil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-24-analisar-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 24: Analisar Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-25-aluno-inativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 25: Aluno Inativo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-26-estatisticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 26: Estatísticas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-27-assistente-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 27: Assistente Virtual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-28-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 28: Desempenho
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexico-29-configurar-aviso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Léxico 29: Configurar Aviso
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="lexico">Léxico</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Léxicos referem-se aos termos, vocabulário e símbolos específicos usados para descrever e documentar os requisitos de um sistema, com o objetivo de garantir que todos, desde clientes até desenvolvedores, utilizem e compreendam os mesmos conceitos de forma consistente e sem ambiguidades.</p>
+<p>Este documento apresenta os principais léxicos identificados no projeto <strong>SAE (Sistema de Apoio Educacional)</strong>, considerando seus possíveis sinônimos, tipo, definição dentro do contexto do sistema e sua importância tanto para o funcionamento do sistema quanto para a experiência do indivíduo.</p>
+<h2 id="integrantes-do-grupo">Integrantes do Grupo</h2>
+<p>A Tabela 1 apresenta todos os integrantes da equipe que participaram da construção dos Léxicos, juntamente com a descrição das atividades que cada um desenvolveu durante o projeto.</p>
+<div align="center"><strong>Tabela 1: Integrantes do Grupo Envolvidos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Quais etapas participou</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td>Elaboração dos léxicos <a href="#lexico-3-monitor">3 - Monitor</a>, <a href="#lexico-4-coordenador">4 - Coordenador</a>, <a href="#lexico-10-consultar-conteudo">10 - Consultar Conteúdo</a>, <a href="#lexico-11-realizar-atividade">11 - Realizar Atividade</a>, <a href="#lexico-16-atividade-em-andamento">16 - Atividade em Andamento</a>, <a href="#lexico-17-atividade-atrasada">17 - Atividade Atrasada</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td>Elaboração dos léxicos <a href="#lexico-23-perfil">23 - Perfil</a>, <a href="#lexico-24-analisar-desempenho">24 - Analisar Desempenho</a>, <a href="#lexico-25-aluno-inativo">25 - Aluno Inativo</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td>Elaboração dos léxicos <a href="#lexico-20-banco-de-questoes">20 - Banco de Questões</a>, <a href="#lexico-21-separar-por-conteudo">21 - Separar por Conteúdo</a>, <a href="#lexico-22-aluno-com-dificuldade">22 - Aluno com Dificuldade</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/MrBolt2005">João Felipe</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td>Elaboração dos léxicos <a href="#lexico-27-assistente-virtual">27 - Assistente Virtual</a>, <a href="#lexico-28-desempenho">28 - Desempenho</a>, <a href="#lexico-29-configurar-aviso">29 - Configurar Aviso</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td>Criação do documento e elaboração dos léxicos <a href="#lexico-5-administrador">5 - Administrador</a>, <a href="#lexico-6-avas">6 - AVAs</a>, <a href="#lexico-7-mina">7 - MinA</a>, <a href="#lexico-12-consultar-desempenho">12 - Consultar Desempenho</a>, <a href="#lexico-13-fornecer-estatisticas">13 - Fornecer Estatísticas</a>, <a href="#lexico-18-conteudo-dominado">18 - Conteúdo Dominado</a>, <a href="#lexico-19-conteudo-em-dificuldade">19 - Conteúdo em Dificuldade</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td>Elaboração dos léxicos <a href="#lexico-1-aluno">1 - Aluno</a>, <a href="#lexico-2-professor">2 - Professor</a>, <a href="#lexico-8-receber-notificacao">8 - Receber Notificação</a>, <a href="#lexico-9-consultar-historico">9 - Consultar Histórico</a>, <a href="#lexico-14-atividade-concluida">14 - Atividade Concluída</a>, <a href="#lexico-15-atividade-pendente">15 - Atividade Pendente</a></td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h2 id="metodologia">Metodologia</h2>
+<p>A elaboração dos léxicos foi conduzida com base na técnica de modelagem de linguagem conhecida como <strong>Léxico Ampliado da Linguagem (LAL)</strong>, uma abordagem amplamente utilizada na Engenharia de Requisitos para descrever os termos relevantes do domínio de forma clara, consistente e contextualizada.</p>
+<p>Cada léxico foi construído a partir da análise individual de um requisito funcional ou não funcional, com o objetivo de identificar os principais termos operacionais, objetos e atributos envolvidos no sistema. A técnica adotada segue a estrutura apresentada nos slides <a href="../../arquivos/Cenarios_Aula10.pdf">Requisitos — Aula 10</a>, de Milene Serrano e Maurício Serrano, composta pelos seguintes elementos:</p>
+<ul>
+<li><strong>Termo:</strong> Nome do conceito identificado.</li>
+<li>
+<p><strong>Tipo:</strong> Classificação do termo como <strong>verbo</strong>, <strong>objeto</strong> ou <strong>estado</strong>.  </p>
+<ul>
+<li>
+<p><strong>Verbo:</strong> Representa <strong>ações</strong> realizadas no sistema. Descreve quem executa, quando ocorre e quais procedimentos estão envolvidos, além dos efeitos e novos estados resultantes dessas ações.  </p>
+</li>
+<li>
+<p><strong>Objeto:</strong> Representa <strong>entidades</strong> ou <strong>elementos manipulados</strong> no sistema. Define o que é o objeto, com quais outros ele se relaciona e quais ações podem ser aplicadas a ele.  </p>
+</li>
+<li>
+<p><strong>Estado:</strong> Representa <strong>situações</strong> ou <strong>condições</strong> do sistema. Indica o que o estado significa, como foi alcançado e quais outros estados podem surgir a partir dele.  </p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Sinônimos:</strong> Outras palavras ou expressões que possuem o mesmo ou semelhante significado dentro do contexto do sistema.</p>
+</li>
+<li><strong>Noção:</strong> Definição do termo dentro do contexto do sistema, explicando seu significado e uso.</li>
+<li><strong>Impacto:</strong> Importância do termo para o funcionamento do sistema e para o beneficiário.</li>
+</ul>
+<hr />
+<p>A <strong>padronização da tabela</strong> se baseou nesses elementos apresentados acima e pode ser observada na <strong>Tabela 2</strong>.</p>
+<div align="center"><strong>Tabela 2: Padronização dos Léxicos</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome do conceito identificado.</td>
+<td>Classificação do termo como <strong>verbo</strong>, <strong>objeto</strong> ou <strong>estado</strong>.</td>
+<td>Outras palavras ou expressões que possuem o mesmo ou semelhante significado dentro do contexto do sistema.</td>
+<td>Definição do termo dentro do contexto do sistema, explicando seu significado e uso.</td>
+<td>Importância do termo para o funcionamento do sistema e para o beneficiário.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h2 id="lexicos">Léxicos</h2>
+<h3 id="lexico-1-aluno">Léxico 1: Aluno</h3>
+<p>O termo "Aluno" define o ator principal e central do sistema. É a pessoa cuja experiência de aprendizado, desempenho e progresso são o foco de todas as funcionalidades de análise e interação do sistema.</p>
+<div align="center"><strong>Tabela 3: Léxico – Aluno</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluno</td>
+<td>Objeto</td>
+<td>- Discente<br> - Estudante</td>
+<td>Pessoa que utiliza o sistema para acompanhar atividades, desempenho e aprendizado.</td>
+<td>- Recebe notificações.<br>- Visualiza progresso e resultados.<br>- Interage com assistente virtual.<br> - Interage com materiais de estudo.<br> - Interage com atividades e questões.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
+
+<h3 id="lexico-2-professor">Léxico 2: Professor</h3>
+<p>O termo "Professor" define o ator supervisor e facilitador do processo de ensino. É o responsável por ministrar o conteúdo, acompanhar o desempenho coletivo e individual dos estudantes e utilizar os dados analíticos do sistema para tomar decisões pedagógicas.</p>
+<div align="center"><strong>Tabela 4: Léxico – Professor</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Professor</td>
+<td>Objeto</td>
+<td>Docente</td>
+<td>Pessoa responsável por ministrar conteúdo e supervisionar atividades.</td>
+<td>- Acompanha desempenho dos alunos.<br>- Recebe dados analíticos.<br>- Interage com assistente virtual.<br>- Fornece materiais e questões</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
+
+<h3 id="lexico-3-monitor">Léxico 3: Monitor</h3>
+<p>O termo "Monitor" representa o ator auxiliar no processo educacional. É responsável por apoiar os estudantes na realização das atividades, esclarecer dúvidas e facilitar a comunicação entre os envolvidos no ambiente de aprendizagem.</p>
+<div align="center"><strong>Tabela 5: Léxico – Monitor</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monitor</td>
+<td>Objeto</td>
+<td>Tutor</td>
+<td>Pessoa que auxilia alunos no acompanhamento das atividades.</td>
+<td>- Auxilia alunos e professores.<br>- Acompanha desempenho.<br>- Facilita interações.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<h3 id="lexico-4-coordenador">Léxico 4: Coordenador</h3>
+<p>O termo "Coordenador" define o ator responsável pela supervisão pedagógica do sistema. É a pessoa que organiza processos, acompanha o desempenho dos envolvidos e garante o alinhamento entre os objetivos educacionais e as ações dos professores e monitores.</p>
+<div align="center"><strong>Tabela 6: Léxico – Coordenador</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coordenador</td>
+<td>Objeto</td>
+<td>Supervisor Acadêmico</td>
+<td>Responsável por supervisionar cursos ou disciplinas, organizando processos e atividades.</td>
+<td>- Monitora desempenho e progresso de alunos e professores.<br>- Coordena informações de atividades e módulos.<br>- Garante o alinhamento pedagógico entre professores e monitores.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<h3 id="lexico-5-administrador">Léxico 5: Administrador</h3>
+<p>O termo <strong>Administrador</strong> define o ator responsável pela gestão técnica e operacional do sistema. Ele gerencia perfis, permissões, configurações e assegura a integridade, segurança e disponibilidade dos dados, garantindo o funcionamento adequado da plataforma e o acesso controlado dos diferentes perfis de usuários.</p>
+<div align="center"><strong>Tabela 7: Léxico – Administrador</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Administrador</td>
+<td>Objeto</td>
+<td>Gestor do Sistema</td>
+<td>Responsável pela gestão do sistema, perfis e configurações gerais.</td>
+<td>- Mantém os diferentes perfis de acesso.<br>- Gerencia permissões e dados do sistema.<br>- Garante segurança, backup e disponibilidade do sistema.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h3 id="lexico-6-avas">Léxico 6: AVAs</h3>
+<p>O termo <strong>AVAs</strong> (Ambientes Virtuais de Aprendizagem) representa as plataformas digitais externas que podem ser integradas ao sistema principal. Elas concentram atividades, materiais e informações de desempenho dos estudantes.</p>
+<div align="center"><strong>Tabela 8: Léxico – AVAs</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AVAs</td>
+<td>Objeto</td>
+<td>Ambientes Virtuais de Aprendizagem</td>
+<td>Plataformas digitais externas integráveis ao sistema.</td>
+<td>- Integração com outros sistemas educacionais.<br>- Centraliza informações sobre desempenho e atividades.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h3 id="lexico-7-mina">Léxico 7: MinA</h3>
+<p>O termo <strong>MinA</strong> representa a personagem antropomórfica do Sistema Tutor Inteligente, projetada para interagir diretamente com o estudante de forma amigável e intuitiva. Seu papel é facilitar o engajamento, personalizar a comunicação e melhorar a experiência de aprendizado por meio de interações humanizadas e acessíveis.</p>
+<div align="center"><strong>Tabela 9: Léxico – MinA</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personagem</td>
+<td>Objeto</td>
+<td>- Personagem antropomórfico</td>
+<td>Representação antropomórfica do Sistema Tutor Inteligente para interação direta com o estudante.</td>
+<td>- Facilita engajamento.<br>- Permite interação intuitiva.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h3 id="lexico-8-receber-notificacao">Léxico 8: Receber Notificação</h3>
+<p>O termo "Receber Notificação" é um verbo de ação do sistema que garante a comunicação proativa com os participantes da plataforma. Refere-se ao ato de o ator ser alertado sobre eventos importantes, como prazos, atividades pendentes ou sugestões de conteúdo para revisão.</p>
+<div align="center"><strong>Tabela 10: Léxico – Receber Notificação</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Receber Notificação</td>
+<td>Verbo</td>
+<td>Alertar-se</td>
+<td>Ator recebe alertas sobre atividades, prazos ou conteúdo.</td>
+<td>- Mantém os participantes informados.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
+
+<h3 id="lexico-9-consultar-historico">Léxico 9: Consultar Histórico</h3>
+<p>O termo "Consultar Histórico" é um verbo essencial para a função analítica do sistema. Permite que o ator visualize e recupere registros de suas atividades passadas, desempenho e o fluxo de notificações, sendo crucial para a autoavaliação do progresso e para o acompanhamento docente.</p>
+<div align="center"><strong>Tabela 11: Léxico – Consultar Histórico</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consultar Histórico</td>
+<td>Verbo</td>
+<td>Visualizar Histórico</td>
+<td>Ator verifica registros de atividades, desempenho e notificações.</td>
+<td>- Permite análise do próprio progresso.<br>- Facilita acompanhamento docente.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
+
+<h3 id="lexico-10-consultar-conteudo">Léxico 10: Consultar Conteúdo</h3>
+<p>O termo "Consultar Conteúdo" é um verbo que representa a ação de acessar materiais didáticos. Permite ao ator visualizar tópicos da disciplina, servindo como base para o estudo.</p>
+<div align="center"><strong>Tabela 12: Léxico – Consultar Conteúdo</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consultar Conteúdo</td>
+<td>Verbo</td>
+<td>Visualizar Conteúdo</td>
+<td>Ator acessa material didático ou tópicos da disciplina.</td>
+<td>- Base para realização de atividades.<br>- Orienta estudo individual.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<h3 id="lexico-11-realizar-atividade">Léxico 11: Realizar Atividade</h3>
+<p>O termo "Realizar Atividade" é um verbo que expressa a execução de tarefas propostas pelo sistema. Refere-se ao momento em que o aluno interage com exercícios, avaliações ou atividades, gerando dados de desempenho.</p>
+<div align="center"><strong>Tabela 13: Léxico – Realizar Atividade</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Realizar Atividade</td>
+<td>Verbo</td>
+<td>Executar Tarefa</td>
+<td>Aluno completa exercício, avaliação ou tarefa.</td>
+<td>- Gera registros de desempenho.<br>- Contribui para histórico e progresso.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<h3 id="lexico-12-consultar-desempenho">Léxico 12: Consultar Desempenho</h3>
+<p>O termo <strong>Consultar Desempenho</strong> é um verbo que representa a ação de verificar resultados e métricas de aprendizado. Essa funcionalidade permite ao aluno acompanhar seus acertos, erros, médias e progresso ao longo da disciplina, servindo como base para autoavaliação e revisão de conteúdos.</p>
+<div align="center"><strong>Tabela 14: Léxico – Consultar Desempenho</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consultar Desempenho</td>
+<td>Verbo</td>
+<td>Ver Resultados</td>
+<td>Aluno verifica acertos, erros, médias e progresso.</td>
+<td>- Permite acompanhamento do aprendizado.<br>- Auxilia na tomada de decisão sobre revisão de conteúdo.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h3 id="lexico-13-fornecer-estatisticas">Léxico 13: Fornecer Estatísticas</h3>
+<p>O termo <strong>Fornecer Estatísticas</strong> é um verbo que descreve a ação do sistema ao disponibilizar dados analíticos sobre o desempenho dos estudantes e o andamento das atividades. Essa função é essencial para suporte à gestão pedagógica, monitoramento de turmas e avaliação de resultados por parte de professores e coordenadores.</p>
+<div align="center"><strong>Tabela 15: Léxico – Fornecer Estatísticas</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fornecer Estatísticas</td>
+<td>Verbo</td>
+<td>Exibir Estatísticas</td>
+<td>Sistema disponibiliza informações analíticas sobre desempenho e progresso.</td>
+<td>- Suporte a decisões pedagógicas.<br>- Auxilia monitoramento de turmas e indivíduos.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h3 id="lexico-14-atividade-concluida">Léxico 14: Atividade Concluída</h3>
+<p>O termo “Atividade Concluída” refere-se ao estado em que o aluno finalizou uma atividade, tornando seus resultados disponíveis para análise e cálculo de desempenho.</p>
+<div align="center"><strong>Tabela 16: Léxico – Atividade Concluída</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atividade Concluída</td>
+<td>Estado</td>
+<td>Finalizada, Encerrada</td>
+<td>Condição em que a atividade foi totalmente realizada pelo aluno.</td>
+<td>- Permite o registro de notas e estatísticas.<br>- Atualiza o progresso geral da disciplina.<br>- Gera feedback automático ao aluno.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
+
+<h3 id="lexico-15-atividade-pendente">Léxico 15: Atividade Pendente</h3>
+<p>O termo “Atividade Pendente” refere-se à condição em que uma atividade ainda não foi concluída e permanece aguardando ação do aluno.</p>
+<div align="center"><strong>Tabela 17: Léxico – Atividade Pendente</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atividade Pendente</td>
+<td>Estado</td>
+<td>Não Realizada, Incompleta</td>
+<td>Condição em que o aluno ainda não enviou ou concluiu uma atividade.</td>
+<td>- Permite emissão de notificações automáticas.<br>- Ajuda no controle de prazos e alertas de atraso.<br>- Indica tarefas ainda em aberto no sistema.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/VilmarFagundes">Vilmar José</a></strong></div>
+
+<h3 id="lexico-16-atividade-em-andamento">Léxico 16: Atividade em Andamento</h3>
+<p>O termo “Atividade em Andamento” refere-se ao estado em que o aluno iniciou uma atividade, mas ainda não a concluiu completamente.</p>
+<div align="center"><strong>Tabela 18: Léxico – Atividade em Andamento</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atividade em Andamento</td>
+<td>Estado</td>
+<td>Em Execução, Em Progresso</td>
+<td>Condição em que o aluno está realizando uma atividade, mas o envio ainda não foi concluído.</td>
+<td>- Permite acompanhamento em tempo real.<br>- Atualiza parcialmente o progresso.<br>- Garante continuidade entre sessões de uso.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<h3 id="lexico-17-atividade-atrasada">Léxico 17: Atividade Atrasada</h3>
+<p>O termo “Atividade Atrasada” refere-se à condição em que o prazo de entrega da atividade foi ultrapassado sem a sua conclusão.</p>
+<div align="center"><strong>Tabela 19: Léxico – Atividade Atrasada</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atividade Atrasada</td>
+<td>Estado</td>
+<td>Vencida, Fora do Prazo</td>
+<td>Condição em que o prazo da atividade expirou antes da entrega.</td>
+<td>- Gera notificações automáticas ao aluno e ao professor.<br>- Afeta o cálculo de desempenho e pontuação.<br>- Pode influenciar alertas do assistente virtual.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></strong></div>
+
+<h3 id="lexico-18-conteudo-dominado">Léxico 18: Conteúdo Dominado</h3>
+<p>O termo “Conteúdo Dominado” refere-se ao estado em que o aluno demonstrou domínio sobre determinado tema ou módulo, atingindo o nível de acertos esperado.</p>
+<div align="center"><strong>Tabela 20: Léxico – Conteúdo Dominado</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conteúdo Dominado</td>
+<td>Estado</td>
+<td>Aprovado, Domínio Alcançado</td>
+<td>Indica que o aluno atingiu o desempenho mínimo esperado em um conteúdo.</td>
+<td>- Atualiza o progresso de aprendizagem.<br>- Reduz a priorização de revisões.<br>- Fornece base para recomendações personalizadas.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h3 id="lexico-19-conteudo-em-dificuldade">Léxico 19: Conteúdo em Dificuldade</h3>
+<p>O termo “Conteúdo em Dificuldade” refere-se ao estado em que o sistema identifica baixo desempenho ou alto índice de erro em determinado tema.</p>
+<div align="center"><strong>Tabela 21: Léxico – Conteúdo em Dificuldade</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conteúdo em Dificuldade</td>
+<td>Estado</td>
+<td>Fraco, Necessidade de revisão</td>
+<td>Indica que o aluno apresenta baixo desempenho em um determinado conteúdo.</td>
+<td>- Gera alertas ao assistente virtual.<br>- Direciona materiais de reforço.<br>- Auxilia professores na identificação de dificuldades coletivas.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
+
+<h3 id="lexico-20-banco-de-questooes">Léxico 20: Banco de questoões</h3>
+<p>O termo “Banco de Questões” refere-se ao repositório central do sistema onde são armazenadas, organizadas e gerenciadas todas as questões utilizadas nas atividades e avaliações.</p>
+<div align="center"><strong>Tabela 22: Léxico – Banco de Questões</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Banco de Questões</td>
+<td>Objeto</td>
+<td>Repositório de Questões, Base de Questões</td>
+<td>Conjunto estruturado de questões criadas ou importadas pelos professores, classificadas por conteúdo, nível de dificuldade e tipo.</td>
+<td>- Facilita a criação e reaproveitamento de avaliações.<br>- Permite organização eficiente por temas e disciplinas.<br>- Garante consistência e padronização das questões no sistema.<br>- Contribui para a geração automática de provas e exercícios.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<h3 id="lexico-21-separar-por-conteudo">Léxico 21: Separar por conteudo</h3>
+<p>O termo “Separar por Conteúdo” refere-se à ação de organizar as questões do banco de acordo com os conteúdos temáticos definidos pelo professor.</p>
+<div align="center"><strong>Tabela 23: Léxico – Separar por Conteúdo</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Separar por Conteúdo</td>
+<td>Verbo</td>
+<td>Classificar por Tópico, Organizar por Assunto</td>
+<td>Ação de agrupar ou associar cada questão a um conteúdo específico, garantindo a estruturação do banco de questões.</td>
+<td>- Melhora a navegação e busca no banco.<br>- Permite geração de provas temáticas e filtragens personalizadas.<br>- Garante coerência entre questões e o plano de ensino.<br>- Pode ser realizada automaticamente ou manualmente pelo professor.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<h3 id="lexico-22-aluno-com-dificuldade">Léxico 22: Aluno com Dificuldade</h3>
+<p>O termo “Aluno com Dificuldade” refere-se ao estado em que o desempenho do aluno apresenta indícios de baixo aproveitamento em uma ou mais disciplinas, conteúdos ou atividades avaliativas.</p>
+<div align="center"><strong>Tabela 24: Léxico – Aluno com Dificuldade</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluno com Dificuldade</td>
+<td>Estado</td>
+<td>Desempenho Baixo, Aluno em Risco</td>
+<td>Condição em que o aluno apresenta resultados abaixo do esperado, seja por notas, frequência, ou tempo de conclusão das atividades.</td>
+<td>- Permite geração de alertas automáticos ao professor.<br>- Pode acionar recomendações de estudo personalizadas.<br>- Contribui para relatórios de desempenho e acompanhamento pedagógico.<br>- Ajuda na tomada de decisão sobre intervenções e reforços.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/felipegf1">Felipe Guimaraes</a></strong></div>
+
+<h3 id="lexico-23-perfil"><strong>Léxico 23: Perfil</strong></h3>
+<p>O termo "Perfil" representa o conjunto de informações que definem o tipo de participante no sistema, suas permissões, funções e nível de acesso.</p>
+<div align="center"><strong>Tabela 25: Léxico – Perfil</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Perfil</td>
+<td>Objeto</td>
+<td>- Conta<br>- Identidade<br>- Nível de Acesso</td>
+<td>Estrutura que armazena as informações e definições de acesso de cada indivíduo (aluno, professor, coordenador, etc.) dentro da plataforma.</td>
+<td>- Determina o que cada perfil pode visualizar e realizar.<br>- Define o comportamento da interface de acordo com o tipo de perfil.<br>- É essencial para personalização de notificações, relatórios e assistente virtual.<br>- Baseia o controle de permissões no sistema.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<h3 id="lexico-24-analisar-desempenho"><strong>Léxico 24: Analisar Desempenho</strong></h3>
+<p>O termo "Analisar Desempenho" define a ação executada pelo sistema e pelos professores para interpretar dados, identificar padrões e gerar informações úteis sobre o desempenho e o aprendizado.</p>
+<div align="center"><strong>Tabela 26: Léxico – Analisar Desempenho</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Analisar Desempenho</td>
+<td>Verbo</td>
+<td>- Avaliar resultados<br>- Examinar resultados<br>- Interpretar dados</td>
+<td>Ação de examinar as informações de desempenho do aluno, como médias, porcentagens de acertos e evolução, com o objetivo de compreender o nível de aprendizado e identificar dificuldades</td>
+<td>- Gera relatórios individuais e coletivos de desempenho.<br>- Permite comparações entre alunos e turmas.<br>- Alimenta o assistente virtual para recomendações de estudo.<br>- Suporta decisões pedagógicas e personalização de ensino.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<h3 id="lexico-25-aluno-inativo"><strong>Léxico 25: Aluno Inativo</strong></h3>
+<p>O termo "Aluno Inativo" representa o estado em que o aluno deixa de interagir com o sistema por um determinado período, não realizando atividades, acessos ou revisões de conteúdo.</p>
+<div align="center"><strong>Tabela 27: Léxico – Aluno Inativo</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aluno Inativo</td>
+<td>Estado</td>
+<td>- Aluno aesconectado<br>-  Aluno ausente<br>- Aluno offline</td>
+<td>Condição atribuída a um aluno que apresenta ausência de acessos, interações e entregas de atividades por um tempo configurado no sistema.</td>
+<td>- Gera alertas automáticos ao assistente virtual.<br>- Pode acionar notificações de reengajamento.<br>- Afeta os indicadores de desempenho e participação da turma.<br>- Serve de base para relatórios de engajamento e acompanhamento do docente.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<h3 id="lexico-26-estatisticas"><strong>Léxico 26: Estatísticas</strong></h3>
+<p>O termo "Estatísticas" define o conjunto de dados analíticos e métricas apresentadas pelo sistema, que representam o desempenho do aluno, da turma e de comparativos entre disciplinas.</p>
+<div align="center"><strong>Tabela 28: Léxico – Estatísticas</strong></div>
+
+<table>
+<thead>
+<tr>
+<th>Termo</th>
+<th>Tipo</th>
+<th>Sinônimos</th>
+<th>Noção</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Estatísticas</td>
+<td>Objeto</td>
+<td>- Análise de Dados<br>- Relatório de Desempenho<br>- Indicador</td>
+<td>Representação numérica e gráfica dos resultados obtidos por alunos, turmas e disciplinas, geralmente exibida em formato de gráfico ou relatório.</td>
+<td>- Facilita a análise de desempenho por parte dos docentes.<br>- Fornece feedback visual ao aluno.<br>- Alimenta o painel de controle do sistema.<br>- Suporta a tomada de decisão pedagógica.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/arthurhvieira1">Arthur Henrique</a></strong></div>
+
+<h3 id="lexico-27-assistente-virtual">Léxico 27: Assistente Virtual</h3>
+<p>Esta tabela descreve o termo "Assistente Virtual" no contexto do SAE, apresentando seu tipo, sinônimos, noção e o impacto esperado para o sistema e para os participantes da plataforma.</p>
+<div align="center"><strong>Tabela 29: Léxico – Assistente Virtual</strong></div>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Termo</th>
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Sinônimos</th>
+<th style="text-align: left;">Noção</th>
+<th style="text-align: left;">Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Assistente Virtual</strong></td>
+<td style="text-align: left;">Objeto</td>
+<td style="text-align: left;">ITA, Tutor Inteligente, Chatbot de Apoio, Guia Virtual.</td>
+<td style="text-align: left;">Componente de software inteligente do SAE, personificado como "ITA", que interage com os participantes. Sua função é analisar dados de desempenho e comportamento do aluno para oferecer orientação, sugestões de atividades e suporte pedagógico de forma personalizada e proativa.</td>
+<td style="text-align: left;"><strong>Para o sistema:</strong> É o principal motor da personalização da aprendizagem, conectando diferentes módulos (como o Banco de Questões) para entregar uma experiência adaptativa.<br><br><strong>Para os participantes:</strong> Oferece suporte imediato e focado nas suas necessidades individuais, ajudando a reforçar o conteúdo estudado e a superar dificuldades de aprendizagem, tornando o estudo mais eficiente e engajador.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+<h3 id="lexico-28-desempenho">Léxico 28: Desempenho</h3>
+<p>O termo "Desempenho" refere-se às medidas quantitativas e qualitativas que indicam o rendimento do aluno em atividades, avaliações e ao longo da disciplina.</p>
+<div align="center"><strong>Tabela 30: Léxico – Desempenho</strong></div>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Termo</th>
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Sinônimos</th>
+<th style="text-align: left;">Noção</th>
+<th style="text-align: left;">Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Desempenho</strong></td>
+<td style="text-align: left;">Estado</td>
+<td style="text-align: left;">Progresso, Rendimento, Nível de Conhecimento, Resultados.</td>
+<td style="text-align: left;">Conjunto de métricas que representam o progresso e o nível de proficiência de um aluno. É calculado com base em dados como percentual de acertos em atividades, conclusão de conteúdos e notas, servindo como base para as análises do sistema.</td>
+<td style="text-align: left;"><strong>Para o sistema:</strong> É a principal fonte de dados para a inteligência do SAE, alimentando o assistente virtual e os mecanismos de personalização para sugerir conteúdos e atividades.<br><br><strong>Para os participantes:</strong> Permite que alunos, professores e monitores visualizem de forma clara o avanço no aprendizado, identificando pontos fortes e dificuldades para direcionar os estudos e as intervenções pedagógicas.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+<h3 id="lexico-29-configurar-aviso">Léxico 29: Configurar Aviso</h3>
+<p>O termo "Configurar Aviso" refere-se à ação do participante de definir preferências de notificações do sistema, incluindo tipos de aviso, canais e momentos de recebimento.</p>
+<div align="center"><strong>Tabela 31: Léxico – Configurar Aviso</strong></div>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Termo</th>
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Sinônimos</th>
+<th style="text-align: left;">Noção</th>
+<th style="text-align: left;">Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Configurar Aviso</strong></td>
+<td style="text-align: left;">Verbo</td>
+<td style="text-align: left;">Personalizar Notificação, Ajustar Alerta, Definir Preferências de Notificação, Gerenciar Lembretes.</td>
+<td style="text-align: left;">Ação realizada pelo participante para personalizar as notificações do sistema. Isso inclui a escolha do canal de comunicação (ex: e-mail, push) e a definição da frequência ou do tempo para receber alertas sobre eventos, como prazos de atividades ou lembretes de revisão.</td>
+<td style="text-align: left;"><strong>Para o sistema:</strong> Permite que o sistema se adapte às preferências do indivíduo, aumentando a eficácia da comunicação e a probabilidade de o participante interagir com os alertas.<br><br><strong>Para os participantes:</strong> Concede controle total sobre como e quando é contatado pelo sistema, melhorando a experiência de uso, evitando notificações indesejadas e garantindo que os avisos importantes sejam recebidos da maneira mais conveniente.</td>
+</tr>
+</tbody>
+</table>
+<div align="center"><strong>Autoria de <a href="https://github.com/JoaoSapiencia">João Sapiência</a></strong></div>
+
+<h2 id="agradecimentos">Agradecimentos</h2>
+<p>O Grupo 03 agradece o apoio das ferramentas de Inteligência Artificial Generativa — <strong>ChatGPT, Google Gemini e DeepSeek</strong> — na revisão gramatical e de estilo deste artigo. As tecnologias foram utilizadas para tornar o texto mais claro, objetivo e fácil de ler. Todo o conteúdo, assim como a precisão técnica e as ideias apresentadas, permanecem de responsabilidade dos autores.</p>
+<h2 id="referencias">Referências</h2>
+<p>SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. Disponível em: <a href="../../arquivos/Cenarios_Aula10.pdf">Requisitos_Aula 10</a>. Acesso em: 10 outubro 2025.</p>
+<h2 id="historico-de-versao">Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>05/10/2025</td>
+<td>Criação do documento dos Léxicos</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>09/10/2025</td>
+<td>Elaboração dos Léxicos 1, 2, 8, 9, 14, 15</td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>09/10/2025</td>
+<td>Elaboração dos léxicos 3, 4, 10, 11, 16, 17</td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>10/10/2025</td>
+<td>Elaboração dos léxicos 5, 6, 7, 12, 13, 18, 19</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>12/10/2025</td>
+<td>Atualização do documento de Léxico</td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+<td><a href="https://github.com/ArthurGuilher62">Arthur Guilherme</a></td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>12/10/2025</td>
+<td>Atualização do documento de Léxico</td>
+<td><a href="https://github.com/arthurhvieira1">Arthur Henrique</a></td>
+<td><a href="https://github.com/VilmarFagundes">Vilmar José</a></td>
+</tr>
+<tr>
+<td>1.6</td>
+<td>12/10/2025</td>
+<td>Elaboração dos léxicos 20, 21 e 22</td>
+<td><a href="https://github.com/felipegf1">Felipe Guimaraes</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+<tr>
+<td>1.7</td>
+<td>12/10/2025</td>
+<td>Elaboração dos léxicos 27, 28 e 29</td>
+<td><a href="https://github.com/JoaoSapiencia">João Sapiência</a></td>
+<td><a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../especificacao_suplementar/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Especificação Suplementar">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Especificação Suplementar
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../historias_de_usuario/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Histórias de Usuário">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Histórias de Usuário
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
