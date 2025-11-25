@@ -20,11 +20,11 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 | 8  | **Os atores são colocados fora dos limites do sistema (retângulo)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 9  | **Os atores são descritos em termos de classe/categoria (ex: "Cliente", "Banco")?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 10 | **Os atores não são descritos em nomes específicos (ex: "João", “Banco do Brasil")?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
-| 11 | **Os atores primários (que iniciam a interação) estão posicionados à esquerda do sistema?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Incompleto |
+| 11 | **Os atores primários (que iniciam a interação) estão posicionados à esquerda do sistema?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 12 | **Os atores secundários (que reagem à interação) estão posicionados à direita do sistema?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 13 | **Os casos de uso são representados por elipses (ovais)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 14 | **Os casos de uso (elipses) estão posicionados dentro do limite do sistema (retângulo)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
-| 15 | **O nome de cada caso de uso começa com um verbo no infinitivo (para indicar uma ação)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Incompleto |
+| 15 | **O nome de cada caso de uso começa com um verbo no infinitivo (para indicar uma ação)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 16 | **O caso de uso é suficientemente descritivo?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 17 | **Os casos de uso estão organizados em uma ordem lógica (se possível)?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
 | 18 | **O relacionamento de Associação (entre Ator e Caso de Uso) é desenhado com uma linha sólida?** | [Tiago Lemes](https://github.com/TiagoTeixeira-2005) | Conforme |
@@ -64,8 +64,8 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 | 15 | **O cenário descreve os detalhes da situação que motivam ou explicam as reações dos atores?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
 | 16 | **O cenário possui um título que descreve brevemente a situação?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
 | 17 | **O cenário possui uma breve descrição da situação inicial em que os atores se encontram?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
-| 18 | **O cenário possui subobjetivos?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
-| 19 | **O cenário possui referências a outros cenários?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Não se aplica |
+| 18 | **O cenário possui subobjetivos?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Não conforme |
+| 19 | **O cenário possui referências a outros cenários?** | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Não conforme |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -82,21 +82,21 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 | 2  | A especificação suplementar possui um sumário? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
 | 3  | A especificação suplementar possui um tópico de introdução? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
 | 4  | A introdução possui finalidade projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
-| 5  | A introdução possui escopo do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
+| 5  | A introdução possui escopo do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
 | 6  | A introdução possui as definições do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
-| 7  | A introdução possui os acrônimos do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
-| 8  | A introdução possui as abreviações? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não conforme |
-| 9  | A introdução possui as referências? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
-| 10 | A introdução possui a visão geral da especificação suplementar? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não conforme |
+| 7  | A introdução possui os acrônimos do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
+| 8  | A introdução possui as abreviações? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
+| 9  | A introdução possui as referências? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não Conforme |
+| 10 | A introdução possui a visão geral da especificação suplementar? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | conforme |
 | 11 | A especificação suplementar possui um tópico de identificação do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 12 | A identificação do projeto possui a sigla do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 13 | A identificação do projeto possui o nome do projeto? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 14 | A identificação do projeto possui o nome do requisitante? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 15 | A identificação do projeto possui o nome do gerente de projetos? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 16 | A especificação suplementar possui um tópico de funcionalidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
-| 17 | A funcionalidade descreve os requisitos funcionais do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
-| 18 | Os requisitos escritos na funcionalidade são expressos no estilo de linguagem natural? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
-| 19 | Cada requisito enunciado na funcionalidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
+| 17 | A funcionalidade descreve os requisitos funcionais do sistema? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
+| 18 | Os requisitos escritos na funcionalidade são expressos no estilo de linguagem natural? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
+| 19 | Cada requisito enunciado na funcionalidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 20 | A especificação suplementar possui um tópico de usabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
 | 21 | A seção possui todos os requisitos que afetam a usabilidade? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
 | 22 | Cada requisito enunciado na usabilidade possui uma descrição? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
@@ -131,9 +131,9 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 | 51 | A seção de requisitos de licenciamento define todos os requisitos de imposição de licenciamento? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 52 | A seção de requisitos de licenciamento define todos os requisitos de restrição de utilização que serão exibidos pelo software? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 53 | A especificação suplementar possui um tópico de Anexos? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não conforme |
-| 54 | No tópico de anexos, foram adicionados documentos que fazem parte do presente artefato (atas de reunião, cronograma, etc)? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não conforme |
+| 54 | No tópico de anexos, foram adicionados documentos que fazem parte do presente artefato (atas de reunião, cronograma, etc)? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
 | 55 | A especificação suplementar possui um tópico de referências? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Conforme |
-| 56 | A especificação suplementar possui um tópico de Aprovações? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não se aplica |
+| 56 | A especificação suplementar possui um tópico de Aprovações? | [Vilmar Fagundes](https://github.com/VilmarFagundes) | Não conforme |
 
 <div align="center"><strong>Autoria de <a href="https://github.com/TiagoTeixeira-2005">Tiago Lemes</a></strong></div>
 
@@ -150,7 +150,7 @@ Documento baseado na lista de verificação feita pelo nosso grupo, podendo ser 
 | 3  | Cada símbolo descrito está associado a ao menos um impacto? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
 | 4  | O impacto do símbolo descreve o efeito/uso/ocorrência do símbolo na aplicação? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
 | 5  | Cada símbolo pertence a somente um tipo (VERBO, OBJETO, ESTADO)? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
-| 6  | A noção dos símbolos do tipo verbo é sobre quem realiza, quando acontece e procedimentos? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Incompleto |
+| 6  | A noção dos símbolos do tipo verbo é sobre quem realiza, quando acontece e procedimentos? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
 | 7  | A noção dos símbolos do tipo estado é sobre o que significa e quais ações levaram a esse estado? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
 | 8  | O impacto dos símbolos do tipo objeto é sobre as ações que podem ser aplicadas ao objeto? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
 | 9  | O impacto dos símbolos do tipo estado é sobre identificar outros estados e ações que podem ocorrer a partir do estado que se descreve? | [Arthur Guilherme](https://github.com/ArthurGuilher62) | Conforme |
