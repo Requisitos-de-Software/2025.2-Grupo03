@@ -12,7 +12,7 @@ Seu objetivo é:
 
 ## Vídeo da apresentação
 
-- [Link do video no youtube]()  
+- [Link do video no youtube](https://youtu.be/P_X9zb720_I?si=qdGhgsiPRLjtttTC)  
 
 ## Histórico de versões
 
