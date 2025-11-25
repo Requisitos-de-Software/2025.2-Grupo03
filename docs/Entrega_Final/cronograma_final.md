@@ -185,7 +185,7 @@ A tabela 9 contém as datas planejadas para a entrega 4 e a tabela 10 as datas e
 | Modelagem de requisitos - Ágil: NFR Framework | Arthur Henrique, João Felipe, João Sapiencia | Felipe Guimarães | 18/10 | 20/10 | 20/10 - 21/10 |
 | Gravação da Apresentação | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Vilmar José | 21/10 | 21/10 | 21/10 | 
 | Gravação da inspeção do nosso grupo | Arthur Guilherme, Arthur Henrique, Felipe Guimarães, João Felipe, João Sapiencia, Tiago Lemes, Vilmar José | Arthur Guilherme | 21/10 | 21/10 | 21/10 | 
-| Gravação da inspeção do grupo +1 | João Felipe, João Sapiencia, Vilmar | | 22/10 | 22/10 | 22/10 | 
+| Gravação da inspeção do grupo +1 | João Felipe, João Sapiencia, Vilmar José | Tiago Lemes | 22/10 | 22/10 | 22/10 | 
 | Envio da entrega | Vilmar José | João Sapiencia | 21/10 | 21/10 | 21/10 | 
 | Check List de entrega | João Sapiencia | Vilmar José | 21/10 | 21/10 | 21/10 |
 
